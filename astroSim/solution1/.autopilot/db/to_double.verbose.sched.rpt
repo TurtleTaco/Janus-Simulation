@@ -3,7 +3,7 @@
 ================================================================
 == Vivado HLS Report for 'to_double'
 ================================================================
-* Date:           Tue Nov  7 11:50:14 2017
+* Date:           Tue Nov  7 14:02:08 2017
 
 * Version:        2017.1 (Build 1846317 on Fri Apr 14 19:19:38 MDT 2017)
 * Project:        astroSim
@@ -2058,7 +2058,8 @@ The critical path consists of the following:
  <State 9>: 8.73ns
 The critical path consists of the following:
 	'dmul' operation ('p_x1', astro.c:26) [407]  (8.66 ns)
-	'select' operation ('p_x52_1', astro.c:23) [413]  (0.071 ns)
+	'select' operation ('tmp_41', astro.c:26) [414]  (0 ns)
+	'select' operation ('p_x55_1', astro.c:23) [415]  (0.071 ns)
 
  <State 10>: 0.071ns
 The critical path consists of the following:
@@ -2070,47 +2071,6 @@ The critical path consists of the following:
 	'insertvalue' operation ('mrv_4', astro.c:33) [601]  (0 ns)
 	'insertvalue' operation ('mrv_5', astro.c:33) [602]  (0 ns)
 	'insertvalue' operation ('mrv_6', astro.c:33) [603]  (0 ns)
-	'insertvalue' operation ('mrv_7', astro.c:33) [604]  (0 ns)
-	'insertvalue' operation ('mrv_8', astro.c:33) [605]  (0 ns)
-	'insertvalue' operation ('mrv_9', astro.c:33) [606]  (0 ns)
-	'insertvalue' operation ('mrv_10', astro.c:33) [607]  (0 ns)
-	'insertvalue' operation ('mrv_11', astro.c:33) [608]  (0 ns)
-	'insertvalue' operation ('mrv_12', astro.c:33) [609]  (0 ns)
-	'insertvalue' operation ('mrv_13', astro.c:33) [610]  (0 ns)
-	'insertvalue' operation ('mrv_14', astro.c:33) [611]  (0 ns)
-	'insertvalue' operation ('mrv_15', astro.c:33) [612]  (0 ns)
-	'insertvalue' operation ('mrv_16', astro.c:33) [613]  (0 ns)
-	'insertvalue' operation ('mrv_17', astro.c:33) [614]  (0 ns)
-	'insertvalue' operation ('mrv_18', astro.c:33) [615]  (0 ns)
-	'insertvalue' operation ('mrv_19', astro.c:33) [616]  (0 ns)
-	'insertvalue' operation ('mrv_20', astro.c:33) [617]  (0 ns)
-	'insertvalue' operation ('mrv_21', astro.c:33) [618]  (0 ns)
-	'insertvalue' operation ('mrv_22', astro.c:33) [619]  (0 ns)
-	'insertvalue' operation ('mrv_23', astro.c:33) [620]  (0 ns)
-	'insertvalue' operation ('mrv_24', astro.c:33) [621]  (0 ns)
-	'insertvalue' operation ('mrv_25', astro.c:33) [622]  (0 ns)
-	'insertvalue' operation ('mrv_26', astro.c:33) [623]  (0 ns)
-	'insertvalue' operation ('mrv_27', astro.c:33) [624]  (0 ns)
-	'insertvalue' operation ('mrv_28', astro.c:33) [625]  (0 ns)
-	'insertvalue' operation ('mrv_29', astro.c:33) [626]  (0 ns)
-	'insertvalue' operation ('mrv_30', astro.c:33) [627]  (0 ns)
-	'insertvalue' operation ('mrv_31', astro.c:33) [628]  (0 ns)
-	'insertvalue' operation ('mrv_32', astro.c:33) [629]  (0 ns)
-	'insertvalue' operation ('mrv_33', astro.c:33) [630]  (0 ns)
-	'insertvalue' operation ('mrv_34', astro.c:33) [631]  (0 ns)
-	'insertvalue' operation ('mrv_35', astro.c:33) [632]  (0 ns)
-	'insertvalue' operation ('mrv_36', astro.c:33) [633]  (0 ns)
-	'insertvalue' operation ('mrv_37', astro.c:33) [634]  (0 ns)
-	'insertvalue' operation ('mrv_38', astro.c:33) [635]  (0 ns)
-	'insertvalue' operation ('mrv_39', astro.c:33) [636]  (0 ns)
-	'insertvalue' operation ('mrv_40', astro.c:33) [637]  (0 ns)
-	'insertvalue' operation ('mrv_41', astro.c:33) [638]  (0 ns)
-	'insertvalue' operation ('mrv_42', astro.c:33) [639]  (0 ns)
-	'insertvalue' operation ('mrv_43', astro.c:33) [640]  (0 ns)
-	'insertvalue' operation ('mrv_44', astro.c:33) [641]  (0 ns)
-	'insertvalue' operation ('mrv_45', astro.c:33) [642]  (0 ns)
-	'insertvalue' operation ('mrv_46', astro.c:33) [643]  (0 ns)
-	'insertvalue' operation ('mrv_47', astro.c:33) [644]  (0 ns)
 
 
 ============================================================

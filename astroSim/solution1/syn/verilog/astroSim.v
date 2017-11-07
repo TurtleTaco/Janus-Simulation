@@ -7,7 +7,7 @@
 
 `timescale 1 ns / 1 ps 
 
-(* CORE_GENERATION_INFO="astroSim,hls_ip_2017_1,{HLS_INPUT_TYPE=c,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xczu19eg-ffve1924-3-e-es2,HLS_INPUT_CLOCK=10.000000,HLS_INPUT_ARCH=others,HLS_SYN_CLOCK=9.186660,HLS_SYN_LAT=992941,HLS_SYN_TPT=none,HLS_SYN_MEM=40,HLS_SYN_DSP=657,HLS_SYN_FF=270992,HLS_SYN_LUT=265042}" *)
+(* CORE_GENERATION_INFO="astroSim,hls_ip_2017_1,{HLS_INPUT_TYPE=c,HLS_INPUT_FLOAT=0,HLS_INPUT_FIXED=0,HLS_INPUT_PART=xczu19eg-ffve1924-3-e-es2,HLS_INPUT_CLOCK=10.000000,HLS_INPUT_ARCH=others,HLS_SYN_CLOCK=9.488000,HLS_SYN_LAT=1363461,HLS_SYN_TPT=none,HLS_SYN_MEM=40,HLS_SYN_DSP=1050,HLS_SYN_FF=348302,HLS_SYN_LUT=365344}" *)
 
 module astroSim (
         ap_clk,
@@ -1944,43 +1944,43 @@ wire   [63:0] sel_tmp5_fu_3198_p3;
 wire   [0:0] sel_tmp8_fu_3220_p2;
 wire   [63:0] sel_tmp7_fu_3212_p3;
 wire   [63:0] tmp_s_fu_3234_p3;
-wire   [63:0] tmp_80_fu_3242_p3;
-wire   [63:0] tmp_81_fu_3250_p3;
-wire   [63:0] tmp_82_fu_3258_p3;
-wire   [63:0] tmp_83_fu_3274_p3;
-wire   [63:0] tmp_84_fu_3282_p3;
-wire   [63:0] tmp_85_fu_3290_p3;
-wire   [63:0] tmp_86_fu_3298_p3;
-wire   [63:0] tmp_87_fu_3314_p3;
-wire   [63:0] tmp_88_fu_3322_p3;
-wire   [63:0] tmp_89_fu_3330_p3;
-wire   [63:0] tmp_90_fu_3338_p3;
-wire   [63:0] tmp_91_fu_3354_p3;
-wire   [63:0] tmp_92_fu_3362_p3;
-wire   [63:0] tmp_93_fu_3370_p3;
-wire   [63:0] tmp_94_fu_3378_p3;
-wire   [63:0] tmp_95_fu_3394_p3;
-wire   [63:0] tmp_96_fu_3402_p3;
-wire   [63:0] tmp_97_fu_3410_p3;
-wire   [63:0] tmp_98_fu_3418_p3;
-wire   [63:0] tmp_99_fu_3434_p3;
-wire   [63:0] tmp_100_fu_3440_p3;
-wire   [63:0] tmp_101_fu_3447_p3;
-wire   [63:0] tmp_102_fu_3454_p3;
-wire   [63:0] tmp_103_fu_3468_p3;
-wire   [63:0] tmp_104_fu_3474_p3;
-wire   [63:0] tmp_105_fu_3481_p3;
-wire   [63:0] tmp_106_fu_3488_p3;
-wire   [63:0] tmp_107_fu_3502_p3;
-wire   [63:0] tmp_108_fu_3508_p3;
-wire   [63:0] tmp_109_fu_3515_p3;
-wire   [63:0] tmp_110_fu_3522_p3;
+wire   [63:0] tmp_91_fu_3242_p3;
+wire   [63:0] tmp_92_fu_3250_p3;
+wire   [63:0] tmp_93_fu_3258_p3;
+wire   [63:0] tmp_94_fu_3274_p3;
+wire   [63:0] tmp_95_fu_3282_p3;
+wire   [63:0] tmp_96_fu_3290_p3;
+wire   [63:0] tmp_97_fu_3298_p3;
+wire   [63:0] tmp_98_fu_3314_p3;
+wire   [63:0] tmp_99_fu_3322_p3;
+wire   [63:0] tmp_100_fu_3330_p3;
+wire   [63:0] tmp_101_fu_3338_p3;
+wire   [63:0] tmp_102_fu_3354_p3;
+wire   [63:0] tmp_103_fu_3362_p3;
+wire   [63:0] tmp_104_fu_3370_p3;
+wire   [63:0] tmp_105_fu_3378_p3;
+wire   [63:0] tmp_106_fu_3394_p3;
+wire   [63:0] tmp_107_fu_3402_p3;
+wire   [63:0] tmp_108_fu_3410_p3;
+wire   [63:0] tmp_109_fu_3418_p3;
+wire   [63:0] tmp_110_fu_3434_p3;
+wire   [63:0] tmp_111_fu_3440_p3;
+wire   [63:0] tmp_112_fu_3447_p3;
+wire   [63:0] tmp_113_fu_3454_p3;
+wire   [63:0] tmp_114_fu_3468_p3;
+wire   [63:0] tmp_115_fu_3474_p3;
+wire   [63:0] tmp_116_fu_3481_p3;
+wire   [63:0] tmp_117_fu_3488_p3;
+wire   [63:0] tmp_118_fu_3502_p3;
+wire   [63:0] tmp_119_fu_3508_p3;
+wire   [63:0] tmp_120_fu_3515_p3;
+wire   [63:0] tmp_121_fu_3522_p3;
 wire   [0:0] tmp_29_fu_3552_p2;
-wire   [63:0] tmp_112_fu_3544_p3;
-wire   [63:0] tmp_111_fu_3536_p3;
+wire   [63:0] tmp_123_fu_3544_p3;
+wire   [63:0] tmp_122_fu_3536_p3;
 wire   [0:0] tmp_30_fu_3574_p2;
-wire   [63:0] tmp_114_fu_3566_p3;
-wire   [63:0] tmp_113_fu_3558_p3;
+wire   [63:0] tmp_125_fu_3566_p3;
+wire   [63:0] tmp_124_fu_3558_p3;
 reg   [18:0] ap_NS_fsm;
 reg    ap_idle_pp0;
 wire    ap_enable_pp0;
@@ -6859,25 +6859,25 @@ assign grp_to_int_fu_1768_ap_start = ap_reg_grp_to_int_fu_1768_ap_start;
 
 assign indvar_next_fu_3158_p2 = (indvar_reg_1537 + 3'd1);
 
-assign p_ax_gep21_phi_fu_3461_p3 = ((sel_tmp6_fu_3206_p2[0:0] === 1'b1) ? p_4_ax_reg_3878 : tmp_102_fu_3454_p3);
+assign p_ax_gep21_phi_fu_3461_p3 = ((sel_tmp6_fu_3206_p2[0:0] === 1'b1) ? p_4_ax_reg_3878 : tmp_113_fu_3454_p3);
 
-assign p_ay_gep24_phi_fu_3495_p3 = ((sel_tmp6_fu_3206_p2[0:0] === 1'b1) ? p_4_ay_reg_3908 : tmp_106_fu_3488_p3);
+assign p_ay_gep24_phi_fu_3495_p3 = ((sel_tmp6_fu_3206_p2[0:0] === 1'b1) ? p_4_ay_reg_3908 : tmp_117_fu_3488_p3);
 
-assign p_az_gep27_phi_fu_3529_p3 = ((sel_tmp6_fu_3206_p2[0:0] === 1'b1) ? p_4_az_reg_3938 : tmp_110_fu_3522_p3);
+assign p_az_gep27_phi_fu_3529_p3 = ((sel_tmp6_fu_3206_p2[0:0] === 1'b1) ? p_4_az_reg_3938 : tmp_121_fu_3522_p3);
 
-assign p_m_gep30_phi_fu_3580_p3 = ((tmp_30_fu_3574_p2[0:0] === 1'b1) ? tmp_114_fu_3566_p3 : tmp_113_fu_3558_p3);
+assign p_m_gep30_phi_fu_3580_p3 = ((tmp_30_fu_3574_p2[0:0] === 1'b1) ? tmp_125_fu_3566_p3 : tmp_124_fu_3558_p3);
 
-assign p_vx_gep12_phi_fu_3346_p3 = ((sel_tmp6_fu_3206_p2[0:0] === 1'b1) ? reg_2737 : tmp_90_fu_3338_p3);
+assign p_vx_gep12_phi_fu_3346_p3 = ((sel_tmp6_fu_3206_p2[0:0] === 1'b1) ? reg_2737 : tmp_101_fu_3338_p3);
 
-assign p_vy_gep15_phi_fu_3386_p3 = ((sel_tmp6_fu_3206_p2[0:0] === 1'b1) ? reg_2782 : tmp_94_fu_3378_p3);
+assign p_vy_gep15_phi_fu_3386_p3 = ((sel_tmp6_fu_3206_p2[0:0] === 1'b1) ? reg_2782 : tmp_105_fu_3378_p3);
 
-assign p_vz_gep18_phi_fu_3426_p3 = ((sel_tmp6_fu_3206_p2[0:0] === 1'b1) ? reg_2827 : tmp_98_fu_3418_p3);
+assign p_vz_gep18_phi_fu_3426_p3 = ((sel_tmp6_fu_3206_p2[0:0] === 1'b1) ? reg_2827 : tmp_109_fu_3418_p3);
 
 assign p_x_gep3_phi_fu_3226_p3 = ((sel_tmp8_fu_3220_p2[0:0] === 1'b1) ? reg_2582 : sel_tmp7_fu_3212_p3);
 
-assign p_y_gep6_phi_fu_3266_p3 = ((sel_tmp6_fu_3206_p2[0:0] === 1'b1) ? reg_2647 : tmp_82_fu_3258_p3);
+assign p_y_gep6_phi_fu_3266_p3 = ((sel_tmp6_fu_3206_p2[0:0] === 1'b1) ? reg_2647 : tmp_93_fu_3258_p3);
 
-assign p_z_gep9_phi_fu_3306_p3 = ((sel_tmp6_fu_3206_p2[0:0] === 1'b1) ? reg_2692 : tmp_86_fu_3298_p3);
+assign p_z_gep9_phi_fu_3306_p3 = ((sel_tmp6_fu_3206_p2[0:0] === 1'b1) ? reg_2692 : tmp_97_fu_3298_p3);
 
 assign sel_tmp1_fu_3170_p3 = ((sel_tmp_fu_3164_p2[0:0] === 1'b1) ? reg_2587 : reg_2607);
 
@@ -6899,79 +6899,79 @@ assign sel_tmp_fu_3164_p2 = ((indvar_reg_1537 == 3'd1) ? 1'b1 : 1'b0);
 
 assign t_1_9_fu_3146_p2 = (t_reg_1526 + 13'd10);
 
-assign tmp_100_fu_3440_p3 = ((sel_tmp_fu_3164_p2[0:0] === 1'b1) ? p_1_ax_reg_3863 : tmp_99_fu_3434_p3);
+assign tmp_100_fu_3330_p3 = ((sel_tmp2_fu_3178_p2[0:0] === 1'b1) ? reg_2727 : tmp_99_fu_3322_p3);
 
-assign tmp_101_fu_3447_p3 = ((sel_tmp2_fu_3178_p2[0:0] === 1'b1) ? p_2_ax_reg_3868 : tmp_100_fu_3440_p3);
+assign tmp_101_fu_3338_p3 = ((sel_tmp4_fu_3192_p2[0:0] === 1'b1) ? reg_2732 : tmp_100_fu_3330_p3);
 
-assign tmp_102_fu_3454_p3 = ((sel_tmp4_fu_3192_p2[0:0] === 1'b1) ? p_3_ax_reg_3873 : tmp_101_fu_3447_p3);
+assign tmp_102_fu_3354_p3 = ((sel_tmp8_fu_3220_p2[0:0] === 1'b1) ? reg_2762 : reg_2787);
 
-assign tmp_103_fu_3468_p3 = ((sel_tmp8_fu_3220_p2[0:0] === 1'b1) ? p_0_ay_reg_3888 : p_5_ay_reg_3913);
+assign tmp_103_fu_3362_p3 = ((sel_tmp_fu_3164_p2[0:0] === 1'b1) ? reg_2767 : tmp_102_fu_3354_p3);
 
-assign tmp_104_fu_3474_p3 = ((sel_tmp_fu_3164_p2[0:0] === 1'b1) ? p_1_ay_reg_3893 : tmp_103_fu_3468_p3);
+assign tmp_104_fu_3370_p3 = ((sel_tmp2_fu_3178_p2[0:0] === 1'b1) ? reg_2772 : tmp_103_fu_3362_p3);
 
-assign tmp_105_fu_3481_p3 = ((sel_tmp2_fu_3178_p2[0:0] === 1'b1) ? p_2_ay_reg_3898 : tmp_104_fu_3474_p3);
+assign tmp_105_fu_3378_p3 = ((sel_tmp4_fu_3192_p2[0:0] === 1'b1) ? reg_2777 : tmp_104_fu_3370_p3);
 
-assign tmp_106_fu_3488_p3 = ((sel_tmp4_fu_3192_p2[0:0] === 1'b1) ? p_3_ay_reg_3903 : tmp_105_fu_3481_p3);
+assign tmp_106_fu_3394_p3 = ((sel_tmp8_fu_3220_p2[0:0] === 1'b1) ? reg_2807 : reg_2832);
 
-assign tmp_107_fu_3502_p3 = ((sel_tmp8_fu_3220_p2[0:0] === 1'b1) ? p_0_az_reg_3918 : p_5_az_reg_3943);
+assign tmp_107_fu_3402_p3 = ((sel_tmp_fu_3164_p2[0:0] === 1'b1) ? reg_2812 : tmp_106_fu_3394_p3);
 
-assign tmp_108_fu_3508_p3 = ((sel_tmp_fu_3164_p2[0:0] === 1'b1) ? p_1_az_reg_3923 : tmp_107_fu_3502_p3);
+assign tmp_108_fu_3410_p3 = ((sel_tmp2_fu_3178_p2[0:0] === 1'b1) ? reg_2817 : tmp_107_fu_3402_p3);
 
-assign tmp_109_fu_3515_p3 = ((sel_tmp2_fu_3178_p2[0:0] === 1'b1) ? p_2_az_reg_3928 : tmp_108_fu_3508_p3);
+assign tmp_109_fu_3418_p3 = ((sel_tmp4_fu_3192_p2[0:0] === 1'b1) ? reg_2822 : tmp_108_fu_3410_p3);
 
-assign tmp_110_fu_3522_p3 = ((sel_tmp4_fu_3192_p2[0:0] === 1'b1) ? p_3_az_reg_3933 : tmp_109_fu_3515_p3);
+assign tmp_110_fu_3434_p3 = ((sel_tmp8_fu_3220_p2[0:0] === 1'b1) ? p_0_ax_reg_3858 : p_5_ax_reg_3883);
 
-assign tmp_111_fu_3536_p3 = ((sel_tmp8_fu_3220_p2[0:0] === 1'b1) ? 64'd4607182418800017408 : 64'd4561945624323345454);
+assign tmp_111_fu_3440_p3 = ((sel_tmp_fu_3164_p2[0:0] === 1'b1) ? p_1_ax_reg_3863 : tmp_110_fu_3434_p3);
 
-assign tmp_112_fu_3544_p3 = ((sel_tmp2_fu_3178_p2[0:0] === 1'b1) ? 64'd4522890220995503358 : 64'd4505367761690217288);
+assign tmp_112_fu_3447_p3 = ((sel_tmp2_fu_3178_p2[0:0] === 1'b1) ? p_2_ax_reg_3868 : tmp_111_fu_3440_p3);
 
-assign tmp_113_fu_3558_p3 = ((tmp_29_fu_3552_p2[0:0] === 1'b1) ? tmp_112_fu_3544_p3 : tmp_111_fu_3536_p3);
+assign tmp_113_fu_3454_p3 = ((sel_tmp4_fu_3192_p2[0:0] === 1'b1) ? p_3_ax_reg_3873 : tmp_112_fu_3447_p3);
 
-assign tmp_114_fu_3566_p3 = ((sel_tmp6_fu_3206_p2[0:0] === 1'b1) ? 64'd4509695552774032640 : 64'd4524289444867776389);
+assign tmp_114_fu_3468_p3 = ((sel_tmp8_fu_3220_p2[0:0] === 1'b1) ? p_0_ay_reg_3888 : p_5_ay_reg_3913);
+
+assign tmp_115_fu_3474_p3 = ((sel_tmp_fu_3164_p2[0:0] === 1'b1) ? p_1_ay_reg_3893 : tmp_114_fu_3468_p3);
+
+assign tmp_116_fu_3481_p3 = ((sel_tmp2_fu_3178_p2[0:0] === 1'b1) ? p_2_ay_reg_3898 : tmp_115_fu_3474_p3);
+
+assign tmp_117_fu_3488_p3 = ((sel_tmp4_fu_3192_p2[0:0] === 1'b1) ? p_3_ay_reg_3903 : tmp_116_fu_3481_p3);
+
+assign tmp_118_fu_3502_p3 = ((sel_tmp8_fu_3220_p2[0:0] === 1'b1) ? p_0_az_reg_3918 : p_5_az_reg_3943);
+
+assign tmp_119_fu_3508_p3 = ((sel_tmp_fu_3164_p2[0:0] === 1'b1) ? p_1_az_reg_3923 : tmp_118_fu_3502_p3);
+
+assign tmp_120_fu_3515_p3 = ((sel_tmp2_fu_3178_p2[0:0] === 1'b1) ? p_2_az_reg_3928 : tmp_119_fu_3508_p3);
+
+assign tmp_121_fu_3522_p3 = ((sel_tmp4_fu_3192_p2[0:0] === 1'b1) ? p_3_az_reg_3933 : tmp_120_fu_3515_p3);
+
+assign tmp_122_fu_3536_p3 = ((sel_tmp8_fu_3220_p2[0:0] === 1'b1) ? 64'd4607182418800017408 : 64'd4561945624323345454);
+
+assign tmp_123_fu_3544_p3 = ((sel_tmp2_fu_3178_p2[0:0] === 1'b1) ? 64'd4522890220995503358 : 64'd4505367761690217288);
+
+assign tmp_124_fu_3558_p3 = ((tmp_29_fu_3552_p2[0:0] === 1'b1) ? tmp_123_fu_3544_p3 : tmp_122_fu_3536_p3);
+
+assign tmp_125_fu_3566_p3 = ((sel_tmp6_fu_3206_p2[0:0] === 1'b1) ? 64'd4509695552774032640 : 64'd4524289444867776389);
 
 assign tmp_29_fu_3552_p2 = (sel_tmp2_fu_3178_p2 | sel_tmp_fu_3164_p2);
 
 assign tmp_30_fu_3574_p2 = (sel_tmp6_fu_3206_p2 | sel_tmp4_fu_3192_p2);
 
-assign tmp_80_fu_3242_p3 = ((sel_tmp_fu_3164_p2[0:0] === 1'b1) ? reg_2632 : tmp_s_fu_3234_p3);
+assign tmp_91_fu_3242_p3 = ((sel_tmp_fu_3164_p2[0:0] === 1'b1) ? reg_2632 : tmp_s_fu_3234_p3);
 
-assign tmp_81_fu_3250_p3 = ((sel_tmp2_fu_3178_p2[0:0] === 1'b1) ? reg_2637 : tmp_80_fu_3242_p3);
+assign tmp_92_fu_3250_p3 = ((sel_tmp2_fu_3178_p2[0:0] === 1'b1) ? reg_2637 : tmp_91_fu_3242_p3);
 
-assign tmp_82_fu_3258_p3 = ((sel_tmp4_fu_3192_p2[0:0] === 1'b1) ? reg_2642 : tmp_81_fu_3250_p3);
+assign tmp_93_fu_3258_p3 = ((sel_tmp4_fu_3192_p2[0:0] === 1'b1) ? reg_2642 : tmp_92_fu_3250_p3);
 
-assign tmp_83_fu_3274_p3 = ((sel_tmp8_fu_3220_p2[0:0] === 1'b1) ? reg_2672 : reg_2697);
+assign tmp_94_fu_3274_p3 = ((sel_tmp8_fu_3220_p2[0:0] === 1'b1) ? reg_2672 : reg_2697);
 
-assign tmp_84_fu_3282_p3 = ((sel_tmp_fu_3164_p2[0:0] === 1'b1) ? reg_2677 : tmp_83_fu_3274_p3);
+assign tmp_95_fu_3282_p3 = ((sel_tmp_fu_3164_p2[0:0] === 1'b1) ? reg_2677 : tmp_94_fu_3274_p3);
 
-assign tmp_85_fu_3290_p3 = ((sel_tmp2_fu_3178_p2[0:0] === 1'b1) ? reg_2682 : tmp_84_fu_3282_p3);
+assign tmp_96_fu_3290_p3 = ((sel_tmp2_fu_3178_p2[0:0] === 1'b1) ? reg_2682 : tmp_95_fu_3282_p3);
 
-assign tmp_86_fu_3298_p3 = ((sel_tmp4_fu_3192_p2[0:0] === 1'b1) ? reg_2687 : tmp_85_fu_3290_p3);
+assign tmp_97_fu_3298_p3 = ((sel_tmp4_fu_3192_p2[0:0] === 1'b1) ? reg_2687 : tmp_96_fu_3290_p3);
 
-assign tmp_87_fu_3314_p3 = ((sel_tmp8_fu_3220_p2[0:0] === 1'b1) ? reg_2717 : reg_2742);
+assign tmp_98_fu_3314_p3 = ((sel_tmp8_fu_3220_p2[0:0] === 1'b1) ? reg_2717 : reg_2742);
 
-assign tmp_88_fu_3322_p3 = ((sel_tmp_fu_3164_p2[0:0] === 1'b1) ? reg_2722 : tmp_87_fu_3314_p3);
-
-assign tmp_89_fu_3330_p3 = ((sel_tmp2_fu_3178_p2[0:0] === 1'b1) ? reg_2727 : tmp_88_fu_3322_p3);
-
-assign tmp_90_fu_3338_p3 = ((sel_tmp4_fu_3192_p2[0:0] === 1'b1) ? reg_2732 : tmp_89_fu_3330_p3);
-
-assign tmp_91_fu_3354_p3 = ((sel_tmp8_fu_3220_p2[0:0] === 1'b1) ? reg_2762 : reg_2787);
-
-assign tmp_92_fu_3362_p3 = ((sel_tmp_fu_3164_p2[0:0] === 1'b1) ? reg_2767 : tmp_91_fu_3354_p3);
-
-assign tmp_93_fu_3370_p3 = ((sel_tmp2_fu_3178_p2[0:0] === 1'b1) ? reg_2772 : tmp_92_fu_3362_p3);
-
-assign tmp_94_fu_3378_p3 = ((sel_tmp4_fu_3192_p2[0:0] === 1'b1) ? reg_2777 : tmp_93_fu_3370_p3);
-
-assign tmp_95_fu_3394_p3 = ((sel_tmp8_fu_3220_p2[0:0] === 1'b1) ? reg_2807 : reg_2832);
-
-assign tmp_96_fu_3402_p3 = ((sel_tmp_fu_3164_p2[0:0] === 1'b1) ? reg_2812 : tmp_95_fu_3394_p3);
-
-assign tmp_97_fu_3410_p3 = ((sel_tmp2_fu_3178_p2[0:0] === 1'b1) ? reg_2817 : tmp_96_fu_3402_p3);
-
-assign tmp_98_fu_3418_p3 = ((sel_tmp4_fu_3192_p2[0:0] === 1'b1) ? reg_2822 : tmp_97_fu_3410_p3);
-
-assign tmp_99_fu_3434_p3 = ((sel_tmp8_fu_3220_p2[0:0] === 1'b1) ? p_0_ax_reg_3858 : p_5_ax_reg_3883);
+assign tmp_99_fu_3322_p3 = ((sel_tmp_fu_3164_p2[0:0] === 1'b1) ? reg_2722 : tmp_98_fu_3314_p3);
 
 assign tmp_s_fu_3234_p3 = ((sel_tmp8_fu_3220_p2[0:0] === 1'b1) ? reg_2627 : reg_2652);
 

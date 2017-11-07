@@ -14,6 +14,7 @@ astroSim_mux_164_fYi
 astroSim_dadddsubg8j
 astroSim_dsub_64nhbi
 astroSim_dadd_64nibs
+astroSim_dsqrt_64jbC
 astroSim_AXILiteS_s_axi
 astroSim_result_x_m_axi
 astroSim_result_y_m_axi

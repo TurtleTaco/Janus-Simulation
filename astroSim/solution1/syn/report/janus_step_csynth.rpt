@@ -3,7 +3,7 @@
 ================================================================
 == Vivado HLS Report for 'janus_step'
 ================================================================
-* Date:           Tue Nov  7 11:50:39 2017
+* Date:           Tue Nov  7 14:02:44 2017
 
 * Version:        2017.1 (Build 1846317 on Fri Apr 14 19:19:38 MDT 2017)
 * Project:        astroSim
@@ -20,7 +20,7 @@
     +--------+-------+----------+------------+
     |  Clock | Target| Estimated| Uncertainty|
     +--------+-------+----------+------------+
-    |ap_clk  |  10.00|      9.19|        1.25|
+    |ap_clk  |  10.00|      9.49|        1.25|
     +--------+-------+----------+------------+
 
 + Latency (clock cycles): 
@@ -29,7 +29,7 @@
     |  Latency  |  Interval | Pipeline|
     | min | max | min | max |   Type  |
     +-----+-----+-----+-----+---------+
-    |  157|  157|  157|  157|   none  |
+    |  216|  216|  216|  216|   none  |
     +-----+-----+-----+-----+---------+
 
     + Detail: 
@@ -38,9 +38,9 @@
         |                       |           |  Latency  |  Interval | Pipeline|
         |        Instance       |   Module  | min | max | min | max |   Type  |
         +-----------------------+-----------+-----+-----+-----+-----+---------+
-        |grp_drift_fu_878       |drift      |   33|   33|   33|   33|   none  |
-        |grp_kick_fu_990        |kick       |   26|   26|   26|   26|   none  |
-        |grp_gravity_fu_1048    |gravity    |   35|   35|   35|   35|   none  |
+        |grp_gravity_fu_878     |gravity    |   94|   94|   94|   94|   none  |
+        |grp_drift_fu_909       |drift      |   33|   33|   33|   33|   none  |
+        |grp_kick_fu_1021       |kick       |   26|   26|   26|   26|   none  |
         |grp_to_double_fu_1079  |to_double  |   11|   11|   11|   11|   none  |
         +-----------------------+-----------+-----+-----+-----+-----+---------+
 
@@ -59,30 +59,30 @@
 |DSP              |        -|      -|        -|       -|    -|
 |Expression       |        -|      -|        -|       -|    -|
 |FIFO             |        -|      -|        -|       -|    -|
-|Instance         |        -|    657|   154535|  164545|    -|
+|Instance         |        -|   1050|   231845|  264847|    -|
 |Memory           |        -|      -|        -|       -|    -|
 |Multiplexer      |        -|      -|        -|    3203|    -|
 |Register         |        -|      -|    31692|       -|    -|
 +-----------------+---------+-------+---------+--------+-----+
-|Total            |        0|    657|   186227|  167748|    0|
+|Total            |        0|   1050|   263537|  268050|    0|
 +-----------------+---------+-------+---------+--------+-----+
 |Available        |     1968|   1968|  1045440|  522720|  128|
 +-----------------+---------+-------+---------+--------+-----+
-|Utilization (%)  |        0|     33|       17|      32|    0|
+|Utilization (%)  |        0|     53|       25|      51|    0|
 +-----------------+---------+-------+---------+--------+-----+
 
 + Detail: 
     * Instance: 
-    +-----------------------+-----------+---------+-------+-------+-------+
-    |        Instance       |   Module  | BRAM_18K| DSP48E|   FF  |  LUT  |
-    +-----------------------+-----------+---------+-------+-------+-------+
-    |grp_drift_fu_878       |drift      |        0|    198|  45667|  49524|
-    |grp_gravity_fu_1048    |gravity    |        0|    162|  30114|  44400|
-    |grp_kick_fu_990        |kick       |        0|     99|  37536|  44632|
-    |grp_to_double_fu_1079  |to_double  |        0|    198|  41218|  25989|
-    +-----------------------+-----------+---------+-------+-------+-------+
-    |Total                  |           |        0|    657| 154535| 164545|
-    +-----------------------+-----------+---------+-------+-------+-------+
+    +-----------------------+-----------+---------+-------+--------+--------+
+    |        Instance       |   Module  | BRAM_18K| DSP48E|   FF   |   LUT  |
+    +-----------------------+-----------+---------+-------+--------+--------+
+    |grp_drift_fu_909       |drift      |        0|    198|   45667|   49524|
+    |grp_gravity_fu_878     |gravity    |        0|    555|  107424|  144702|
+    |grp_kick_fu_1021       |kick       |        0|     99|   37536|   44632|
+    |grp_to_double_fu_1079  |to_double  |        0|    198|   41218|   25989|
+    +-----------------------+-----------+---------+-------+--------+--------+
+    |Total                  |           |        0|   1050|  231845|  264847|
+    +-----------------------+-----------+---------+-------+--------+--------+
 
     * DSP48: 
     N/A
@@ -227,60 +227,60 @@
     |ap_return_97                           |   9|          2|   64|        128|
     |ap_return_98                           |   9|          2|   64|        128|
     |ap_return_99                           |   9|          2|   64|        128|
-    |grp_drift_fu_878_p_int_0_vx_read       |  15|          3|   64|        192|
-    |grp_drift_fu_878_p_int_0_vy_read       |  15|          3|   64|        192|
-    |grp_drift_fu_878_p_int_0_vz_read       |  15|          3|   64|        192|
-    |grp_drift_fu_878_p_int_0_x_read        |  15|          3|   64|        192|
-    |grp_drift_fu_878_p_int_0_y_read        |  15|          3|   64|        192|
-    |grp_drift_fu_878_p_int_0_z_read        |  15|          3|   64|        192|
-    |grp_drift_fu_878_p_int_1_vx_read       |  15|          3|   64|        192|
-    |grp_drift_fu_878_p_int_1_vy_read       |  15|          3|   64|        192|
-    |grp_drift_fu_878_p_int_1_vz_read       |  15|          3|   64|        192|
-    |grp_drift_fu_878_p_int_1_x_read        |  15|          3|   64|        192|
-    |grp_drift_fu_878_p_int_1_y_read        |  15|          3|   64|        192|
-    |grp_drift_fu_878_p_int_1_z_read        |  15|          3|   64|        192|
-    |grp_drift_fu_878_p_int_2_vx_read       |  15|          3|   64|        192|
-    |grp_drift_fu_878_p_int_2_vy_read       |  15|          3|   64|        192|
-    |grp_drift_fu_878_p_int_2_vz_read       |  15|          3|   64|        192|
-    |grp_drift_fu_878_p_int_2_x_read        |  15|          3|   64|        192|
-    |grp_drift_fu_878_p_int_2_y_read        |  15|          3|   64|        192|
-    |grp_drift_fu_878_p_int_2_z_read        |  15|          3|   64|        192|
-    |grp_drift_fu_878_p_int_3_vx_read       |  15|          3|   64|        192|
-    |grp_drift_fu_878_p_int_3_vy_read       |  15|          3|   64|        192|
-    |grp_drift_fu_878_p_int_3_vz_read       |  15|          3|   64|        192|
-    |grp_drift_fu_878_p_int_3_x_read        |  15|          3|   64|        192|
-    |grp_drift_fu_878_p_int_3_y_read        |  15|          3|   64|        192|
-    |grp_drift_fu_878_p_int_3_z_read        |  15|          3|   64|        192|
-    |grp_drift_fu_878_p_int_4_vx_read       |  15|          3|   64|        192|
-    |grp_drift_fu_878_p_int_4_vy_read       |  15|          3|   64|        192|
-    |grp_drift_fu_878_p_int_4_vz_read       |  15|          3|   64|        192|
-    |grp_drift_fu_878_p_int_4_x_read        |  15|          3|   64|        192|
-    |grp_drift_fu_878_p_int_4_y_read        |  15|          3|   64|        192|
-    |grp_drift_fu_878_p_int_4_z_read        |  15|          3|   64|        192|
-    |grp_drift_fu_878_p_int_5_vx_read       |  15|          3|   64|        192|
-    |grp_drift_fu_878_p_int_5_vy_read       |  15|          3|   64|        192|
-    |grp_drift_fu_878_p_int_5_vz_read       |  15|          3|   64|        192|
-    |grp_drift_fu_878_p_int_5_x_read        |  15|          3|   64|        192|
-    |grp_drift_fu_878_p_int_5_y_read        |  15|          3|   64|        192|
-    |grp_drift_fu_878_p_int_5_z_read        |  15|          3|   64|        192|
-    |grp_drift_fu_878_p_int_6_vx_read       |  15|          3|   64|        192|
-    |grp_drift_fu_878_p_int_6_vy_read       |  15|          3|   64|        192|
-    |grp_drift_fu_878_p_int_6_vz_read       |  15|          3|   64|        192|
-    |grp_drift_fu_878_p_int_6_x_read        |  15|          3|   64|        192|
-    |grp_drift_fu_878_p_int_6_y_read        |  15|          3|   64|        192|
-    |grp_drift_fu_878_p_int_6_z_read        |  15|          3|   64|        192|
-    |grp_drift_fu_878_p_int_7_vx_read       |  15|          3|   64|        192|
-    |grp_drift_fu_878_p_int_7_vy_read       |  15|          3|   64|        192|
-    |grp_drift_fu_878_p_int_7_vz_read       |  15|          3|   64|        192|
-    |grp_drift_fu_878_p_int_7_x_read        |  15|          3|   64|        192|
-    |grp_drift_fu_878_p_int_7_y_read        |  15|          3|   64|        192|
-    |grp_drift_fu_878_p_int_7_z_read        |  15|          3|   64|        192|
-    |grp_drift_fu_878_p_int_8_vx_read       |  15|          3|   64|        192|
-    |grp_drift_fu_878_p_int_8_vy_read       |  15|          3|   64|        192|
-    |grp_drift_fu_878_p_int_8_vz_read       |  15|          3|   64|        192|
-    |grp_drift_fu_878_p_int_8_x_read        |  15|          3|   64|        192|
-    |grp_drift_fu_878_p_int_8_y_read        |  15|          3|   64|        192|
-    |grp_drift_fu_878_p_int_8_z_read        |  15|          3|   64|        192|
+    |grp_drift_fu_909_p_int_0_vx_read       |  15|          3|   64|        192|
+    |grp_drift_fu_909_p_int_0_vy_read       |  15|          3|   64|        192|
+    |grp_drift_fu_909_p_int_0_vz_read       |  15|          3|   64|        192|
+    |grp_drift_fu_909_p_int_0_x_read        |  15|          3|   64|        192|
+    |grp_drift_fu_909_p_int_0_y_read        |  15|          3|   64|        192|
+    |grp_drift_fu_909_p_int_0_z_read        |  15|          3|   64|        192|
+    |grp_drift_fu_909_p_int_1_vx_read       |  15|          3|   64|        192|
+    |grp_drift_fu_909_p_int_1_vy_read       |  15|          3|   64|        192|
+    |grp_drift_fu_909_p_int_1_vz_read       |  15|          3|   64|        192|
+    |grp_drift_fu_909_p_int_1_x_read        |  15|          3|   64|        192|
+    |grp_drift_fu_909_p_int_1_y_read        |  15|          3|   64|        192|
+    |grp_drift_fu_909_p_int_1_z_read        |  15|          3|   64|        192|
+    |grp_drift_fu_909_p_int_2_vx_read       |  15|          3|   64|        192|
+    |grp_drift_fu_909_p_int_2_vy_read       |  15|          3|   64|        192|
+    |grp_drift_fu_909_p_int_2_vz_read       |  15|          3|   64|        192|
+    |grp_drift_fu_909_p_int_2_x_read        |  15|          3|   64|        192|
+    |grp_drift_fu_909_p_int_2_y_read        |  15|          3|   64|        192|
+    |grp_drift_fu_909_p_int_2_z_read        |  15|          3|   64|        192|
+    |grp_drift_fu_909_p_int_3_vx_read       |  15|          3|   64|        192|
+    |grp_drift_fu_909_p_int_3_vy_read       |  15|          3|   64|        192|
+    |grp_drift_fu_909_p_int_3_vz_read       |  15|          3|   64|        192|
+    |grp_drift_fu_909_p_int_3_x_read        |  15|          3|   64|        192|
+    |grp_drift_fu_909_p_int_3_y_read        |  15|          3|   64|        192|
+    |grp_drift_fu_909_p_int_3_z_read        |  15|          3|   64|        192|
+    |grp_drift_fu_909_p_int_4_vx_read       |  15|          3|   64|        192|
+    |grp_drift_fu_909_p_int_4_vy_read       |  15|          3|   64|        192|
+    |grp_drift_fu_909_p_int_4_vz_read       |  15|          3|   64|        192|
+    |grp_drift_fu_909_p_int_4_x_read        |  15|          3|   64|        192|
+    |grp_drift_fu_909_p_int_4_y_read        |  15|          3|   64|        192|
+    |grp_drift_fu_909_p_int_4_z_read        |  15|          3|   64|        192|
+    |grp_drift_fu_909_p_int_5_vx_read       |  15|          3|   64|        192|
+    |grp_drift_fu_909_p_int_5_vy_read       |  15|          3|   64|        192|
+    |grp_drift_fu_909_p_int_5_vz_read       |  15|          3|   64|        192|
+    |grp_drift_fu_909_p_int_5_x_read        |  15|          3|   64|        192|
+    |grp_drift_fu_909_p_int_5_y_read        |  15|          3|   64|        192|
+    |grp_drift_fu_909_p_int_5_z_read        |  15|          3|   64|        192|
+    |grp_drift_fu_909_p_int_6_vx_read       |  15|          3|   64|        192|
+    |grp_drift_fu_909_p_int_6_vy_read       |  15|          3|   64|        192|
+    |grp_drift_fu_909_p_int_6_vz_read       |  15|          3|   64|        192|
+    |grp_drift_fu_909_p_int_6_x_read        |  15|          3|   64|        192|
+    |grp_drift_fu_909_p_int_6_y_read        |  15|          3|   64|        192|
+    |grp_drift_fu_909_p_int_6_z_read        |  15|          3|   64|        192|
+    |grp_drift_fu_909_p_int_7_vx_read       |  15|          3|   64|        192|
+    |grp_drift_fu_909_p_int_7_vy_read       |  15|          3|   64|        192|
+    |grp_drift_fu_909_p_int_7_vz_read       |  15|          3|   64|        192|
+    |grp_drift_fu_909_p_int_7_x_read        |  15|          3|   64|        192|
+    |grp_drift_fu_909_p_int_7_y_read        |  15|          3|   64|        192|
+    |grp_drift_fu_909_p_int_7_z_read        |  15|          3|   64|        192|
+    |grp_drift_fu_909_p_int_8_vx_read       |  15|          3|   64|        192|
+    |grp_drift_fu_909_p_int_8_vy_read       |  15|          3|   64|        192|
+    |grp_drift_fu_909_p_int_8_vz_read       |  15|          3|   64|        192|
+    |grp_drift_fu_909_p_int_8_x_read        |  15|          3|   64|        192|
+    |grp_drift_fu_909_p_int_8_y_read        |  15|          3|   64|        192|
+    |grp_drift_fu_909_p_int_8_z_read        |  15|          3|   64|        192|
     |grp_to_double_fu_1079_p_0_vx_read      |  15|          3|   64|        192|
     |grp_to_double_fu_1079_p_0_vy_read      |  15|          3|   64|        192|
     |grp_to_double_fu_1079_p_0_vz_read      |  15|          3|   64|        192|
@@ -371,9 +371,9 @@
     |                  Name                 |  FF | LUT| Bits| Const Bits|
     +---------------------------------------+-----+----+-----+-----------+
     |ap_CS_fsm                              |    8|   0|    8|          0|
-    |ap_reg_grp_drift_fu_878_ap_start       |    1|   0|    1|          0|
-    |ap_reg_grp_gravity_fu_1048_ap_start    |    1|   0|    1|          0|
-    |ap_reg_grp_kick_fu_990_ap_start        |    1|   0|    1|          0|
+    |ap_reg_grp_drift_fu_909_ap_start       |    1|   0|    1|          0|
+    |ap_reg_grp_gravity_fu_878_ap_start     |    1|   0|    1|          0|
+    |ap_reg_grp_kick_fu_1021_ap_start       |    1|   0|    1|          0|
     |ap_reg_grp_to_double_fu_1079_ap_start  |    1|   0|    1|          0|
     |ap_return_0                            |   64|   0|   64|          0|
     |ap_return_0_preg                       |   64|   0|   64|          0|
@@ -762,33 +762,33 @@
     |p_int_8_x_read_2_reg_3018              |   64|   0|   64|          0|
     |p_int_8_y_read_2_reg_2973              |   64|   0|   64|          0|
     |p_int_8_z_read_2_reg_2928              |   64|   0|   64|          0|
-    |p_int_vx25_assign_4_reg_3790           |   64|   0|   64|          0|
-    |p_int_vx26_assign_4_reg_3797           |   64|   0|   64|          0|
-    |p_int_vx27_assign_4_reg_3804           |   64|   0|   64|          0|
-    |p_int_vx28_assign_4_reg_3811           |   64|   0|   64|          0|
-    |p_int_vx29_assign_4_reg_3818           |   64|   0|   64|          0|
-    |p_int_vx30_assign_4_reg_3825           |   64|   0|   64|          0|
-    |p_int_vx3138_assign_4_reg_3832         |   64|   0|   64|          0|
-    |p_int_vx32_assign_4_reg_3839           |   64|   0|   64|          0|
-    |p_int_vx_assign_4_reg_3783             |   64|   0|   64|          0|
-    |p_int_vy33_assign_4_reg_3853           |   64|   0|   64|          0|
-    |p_int_vy34_assign_4_reg_3860           |   64|   0|   64|          0|
-    |p_int_vy35_assign_4_reg_3867           |   64|   0|   64|          0|
-    |p_int_vy36_assign_4_reg_3874           |   64|   0|   64|          0|
-    |p_int_vy37_assign_4_reg_3881           |   64|   0|   64|          0|
-    |p_int_vy38_assign_4_reg_3888           |   64|   0|   64|          0|
-    |p_int_vy39_assign_4_reg_3895           |   64|   0|   64|          0|
-    |p_int_vy40_assign_4_reg_3902           |   64|   0|   64|          0|
-    |p_int_vy_assign_4_reg_3846             |   64|   0|   64|          0|
-    |p_int_vz41_assign_4_reg_3916           |   64|   0|   64|          0|
-    |p_int_vz42_assign_4_reg_3923           |   64|   0|   64|          0|
-    |p_int_vz43_assign_4_reg_3930           |   64|   0|   64|          0|
-    |p_int_vz44_assign_4_reg_3937           |   64|   0|   64|          0|
-    |p_int_vz45_assign_4_reg_3944           |   64|   0|   64|          0|
-    |p_int_vz46_assign_4_reg_3951           |   64|   0|   64|          0|
-    |p_int_vz47_assign_4_reg_3958           |   64|   0|   64|          0|
-    |p_int_vz48_assign_4_reg_3965           |   64|   0|   64|          0|
-    |p_int_vz_assign_4_reg_3909             |   64|   0|   64|          0|
+    |p_int_vx25_assign_3_reg_3790           |   64|   0|   64|          0|
+    |p_int_vx26_assign_3_reg_3797           |   64|   0|   64|          0|
+    |p_int_vx27_assign_3_reg_3804           |   64|   0|   64|          0|
+    |p_int_vx28_assign_3_reg_3811           |   64|   0|   64|          0|
+    |p_int_vx29_assign_3_reg_3818           |   64|   0|   64|          0|
+    |p_int_vx30_assign_3_reg_3825           |   64|   0|   64|          0|
+    |p_int_vx3138_assign_3_reg_3832         |   64|   0|   64|          0|
+    |p_int_vx32_assign_3_reg_3839           |   64|   0|   64|          0|
+    |p_int_vx_assign_3_reg_3783             |   64|   0|   64|          0|
+    |p_int_vy33_assign_3_reg_3853           |   64|   0|   64|          0|
+    |p_int_vy34_assign_3_reg_3860           |   64|   0|   64|          0|
+    |p_int_vy35_assign_3_reg_3867           |   64|   0|   64|          0|
+    |p_int_vy36_assign_3_reg_3874           |   64|   0|   64|          0|
+    |p_int_vy37_assign_3_reg_3881           |   64|   0|   64|          0|
+    |p_int_vy38_assign_3_reg_3888           |   64|   0|   64|          0|
+    |p_int_vy39_assign_3_reg_3895           |   64|   0|   64|          0|
+    |p_int_vy40_assign_3_reg_3902           |   64|   0|   64|          0|
+    |p_int_vy_assign_3_reg_3846             |   64|   0|   64|          0|
+    |p_int_vz41_assign_3_reg_3916           |   64|   0|   64|          0|
+    |p_int_vz42_assign_3_reg_3923           |   64|   0|   64|          0|
+    |p_int_vz43_assign_3_reg_3930           |   64|   0|   64|          0|
+    |p_int_vz44_assign_3_reg_3937           |   64|   0|   64|          0|
+    |p_int_vz45_assign_3_reg_3944           |   64|   0|   64|          0|
+    |p_int_vz46_assign_3_reg_3951           |   64|   0|   64|          0|
+    |p_int_vz47_assign_3_reg_3958           |   64|   0|   64|          0|
+    |p_int_vz48_assign_3_reg_3965           |   64|   0|   64|          0|
+    |p_int_vz_assign_3_reg_3909             |   64|   0|   64|          0|
     |p_vx73_assign_1_reg_3500               |   64|   0|   64|          0|
     |p_vx74_assign_1_reg_3505               |   64|   0|   64|          0|
     |p_vx75_assign_1_reg_3510               |   64|   0|   64|          0|

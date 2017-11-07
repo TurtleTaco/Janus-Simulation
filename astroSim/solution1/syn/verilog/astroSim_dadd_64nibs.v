@@ -10,7 +10,7 @@
 
 module astroSim_dadd_64nibs
 #(parameter
-    ID         = 453,
+    ID         = 459,
     NUM_STAGE  = 4,
     din0_WIDTH = 64,
     din1_WIDTH = 64,

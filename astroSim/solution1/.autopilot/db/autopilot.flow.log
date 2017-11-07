@@ -1,4 +1,4 @@
-INFO: [HLS 200-0] Workspace /home/linsun/XilinxLab/astro/astroSim/solution1 opened at Tue Nov 07 11:49:50 EST 2017
+INFO: [HLS 200-0] Workspace /home/linsun/XilinxLab/astro/astroSim/solution1 opened at Tue Nov 07 14:01:43 EST 2017
 INFO: [HLS 200-100] Execute     config_clock -quiet -name default -period 10 -default=false 
 INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
 INFO: [HLS 200-100] Command     config_clock returned 0; 0 sec.
@@ -28,7 +28,7 @@ INFO: [HLS 200-100] Execute         source /home/linsun/Xilinx/Vivado_HLS/2017.1
 INFO: [HLS 200-100] Command         ap_source returned 0; 0 sec.
 INFO: [HLS 200-100] Command       ap_source returned 0; 0 sec.
 INFO: [HLS 200-100] Execute       source /home/linsun/Xilinx/Vivado_HLS/2017.1/common/technology/xilinx/common/xilinx_old.lib 
-INFO: [HLS 200-100] Command       ap_source returned 0; 0.01 sec.
+INFO: [HLS 200-100] Command       ap_source returned 0; 0 sec.
 INFO: [HLS 200-100] Execute       source /home/linsun/Xilinx/Vivado_HLS/2017.1/common/technology/xilinx/common/xilinx_vivado.lib 
 INFO: [HLS 200-100] Command       ap_source returned 0; 0 sec.
 INFO: [HLS 200-100] Execute       source /home/linsun/Xilinx/Vivado_HLS/2017.1/common/technology/xilinx/common/xilinx.hlp 
@@ -36,13 +36,13 @@ INFO: [HLS 200-100] Execute         source /home/linsun/Xilinx/Vivado_HLS/2017.1
 INFO: [HLS 200-100] Command         ap_source returned 0; 0 sec.
 INFO: [HLS 200-100] Execute         source /home/linsun/Xilinx/Vivado_HLS/2017.1/common/technology/xilinx/interface/xilinx_interface.hlp 
 INFO: [HLS 200-100] Execute           source /home/linsun/Xilinx/Vivado_HLS/2017.1/common/technology/xilinx/interface/maxi.hlp 
-INFO: [HLS 200-100] Command           ap_source returned 0; 0 sec.
+INFO: [HLS 200-100] Command           ap_source returned 0; 0.01 sec.
 INFO: [HLS 200-100] Execute           source /home/linsun/Xilinx/Vivado_HLS/2017.1/common/technology/xilinx/interface/saxilite.hlp 
 INFO: [HLS 200-100] Command           ap_source returned 0; 0 sec.
-INFO: [HLS 200-100] Command         ap_source returned 0; 0 sec.
+INFO: [HLS 200-100] Command         ap_source returned 0; 0.01 sec.
 INFO: [HLS 200-100] Execute         source /home/linsun/Xilinx/Vivado_HLS/2017.1/common/technology/xilinx/common/dsp48.hlp 
 INFO: [HLS 200-100] Command         ap_source returned 0; 0 sec.
-INFO: [HLS 200-100] Command       ap_source returned 0; 0 sec.
+INFO: [HLS 200-100] Command       ap_source returned 0; 0.01 sec.
 INFO: [HLS 200-100] Execute       source /home/linsun/Xilinx/Vivado_HLS/2017.1/common/technology/xilinx/zynquplus/dsp48e2.hlp 
 INFO: [HLS 200-100] Command       ap_source returned 0; 0 sec.
 INFO: [HLS 200-100] Execute       get_default_platform 
@@ -72,7 +72,7 @@ INFO: [HLS 200-100] Command           ap_source returned 0; 0 sec.
 INFO: [HLS 200-100] Execute           source /home/linsun/Xilinx/Vivado_HLS/2017.1/common/technology/xilinx/interface/fsl.gen 
 INFO: [HLS 200-100] Command           ap_source returned 0; 0 sec.
 INFO: [HLS 200-100] Execute           source /home/linsun/Xilinx/Vivado_HLS/2017.1/common/technology/xilinx/interface/axi4.gen 
-INFO: [HLS 200-100] Command           ap_source returned 0; 0 sec.
+INFO: [HLS 200-100] Command           ap_source returned 0; 0.01 sec.
 INFO: [HLS 200-100] Execute           source /home/linsun/Xilinx/Vivado_HLS/2017.1/common/technology/xilinx/interface/nativeAXI4.gen 
 INFO: [HLS 200-100] Execute             source /home/linsun/Xilinx/Vivado_HLS/2017.1/common/technology/xilinx/interface/saxilite.gen 
 INFO: [HLS 200-100] Command             ap_source returned 0; 0 sec.
@@ -90,11 +90,11 @@ INFO: [HLS 200-100] Command           ap_source returned 0; 0 sec.
 INFO: [HLS 200-100] Execute           source /home/linsun/Xilinx/Vivado_HLS/2017.1/common/technology/xilinx/ip/util.gen 
 INFO: [HLS 200-100] Command           ap_source returned 0; 0 sec.
 INFO: [HLS 200-100] Execute           source /home/linsun/Xilinx/Vivado_HLS/2017.1/common/technology/xilinx/ip/xfft.gen 
-INFO: [HLS 200-100] Command           ap_source returned 0; 0.06 sec.
-INFO: [HLS 200-100] Command         ap_source returned 0; 0.08 sec.
+INFO: [HLS 200-100] Command           ap_source returned 0; 0.07 sec.
+INFO: [HLS 200-100] Command         ap_source returned 0; 0.1 sec.
 INFO: [HLS 200-100] Execute         source /home/linsun/Xilinx/Vivado_HLS/2017.1/common/technology/xilinx/common/dsp48.gen 
 INFO: [HLS 200-100] Command         ap_source returned 0; 0 sec.
-INFO: [HLS 200-100] Command       ap_source returned 0; 0.08 sec.
+INFO: [HLS 200-100] Command       ap_source returned 0; 0.1 sec.
 INFO: [HLS 200-100] Command     ap_source returned 0; 0.1 sec.
 INFO: [HLS 200-100] Execute     open_platform DefaultPlatform 
 INFO: [HLS 200-100] Command     open_platform returned 0; 0 sec.
@@ -102,7 +102,7 @@ INFO: [HLS 200-100] Execute     import_lib /home/linsun/Xilinx/Vivado_HLS/2017.1
 INFO: [HLS 200-100] Execute       source /home/linsun/Xilinx/Vivado_HLS/2017.1/common/technology/xilinx/common/xilinx_fpv7.lib 
 INFO: [HLS 200-100] Execute         source /home/linsun/Xilinx/Vivado_HLS/2017.1/common/technology/xilinx/common/xilinx_hp.lib 
 INFO: [HLS 200-100] Command         ap_source returned 0; 0 sec.
-INFO: [HLS 200-100] Command       ap_source returned 0; 0 sec.
+INFO: [HLS 200-100] Command       ap_source returned 0; 0.01 sec.
 INFO: [HLS 200-100] Execute       source /home/linsun/Xilinx/Vivado_HLS/2017.1/common/technology/xilinx/common/xilinx_fpv.hlp 
 INFO: [HLS 200-100] Execute         source /home/linsun/Xilinx/Vivado_HLS/2017.1/common/technology/xilinx/common/xilinx.hlp 
 INFO: [HLS 200-100] Execute           source /home/linsun/Xilinx/Vivado_HLS/2017.1/common/technology/xilinx/common/target_info.tcl 
@@ -119,7 +119,7 @@ INFO: [HLS 200-100] Command         ap_source returned 0; 0 sec.
 INFO: [HLS 200-100] Command       ap_source returned 0; 0 sec.
 INFO: [HLS 200-100] Execute       source /home/linsun/Xilinx/Vivado_HLS/2017.1/common/technology/xilinx/zynquplus/zynquplus_hp.hlp 
 INFO: [HLS 200-100] Command       ap_source returned 0; 0 sec.
-INFO: [HLS 200-100] Command     import_lib returned 0; 0.01 sec.
+INFO: [HLS 200-100] Command     import_lib returned 0; 0.02 sec.
 INFO: [HLS 200-100] Execute     source /home/linsun/Xilinx/Vivado_HLS/2017.1/common/technology/xilinx/zynquplus/zynquplus_fpv7.gen 
 INFO: [HLS 200-100] Execute       source /home/linsun/Xilinx/Vivado_HLS/2017.1/common/technology/xilinx/common/xilinx_fpv6.gen 
 INFO: [HLS 200-100] Command       ap_source returned 0; 0 sec.
@@ -129,7 +129,7 @@ INFO: [HLS 200-100] Execute       add_library xilinx/zynquplus/zynquplus:xczu19e
 INFO: [HLS 200-100] Execute         get_default_platform 
 INFO: [HLS 200-100] Command         get_default_platform returned 0; 0 sec.
 INFO: [HLS 200-100] Execute         license_isbetapart xczu19eg-es2 
-INFO: [HLS 200-100] Command         license_isbetapart returned 1; 0.01 sec.
+INFO: [HLS 200-100] Command         license_isbetapart returned 1; 0 sec.
 INFO: [HLS 200-100] Execute         get_default_platform 
 INFO: [HLS 200-100] Command         get_default_platform returned 0; 0 sec.
 INFO: [HLS 200-100] Execute         config_chip_info -quiet -resource  {SLICE 65340} {LUT 522720}   {FF 1045440} {DSP48E 1968}  {BRAM 1968} {URAM 128}  
@@ -151,7 +151,7 @@ INFO: [HLS 200-100] Execute     config_chip_info -quiet -resource  {SLICE 65340}
 INFO: [HLS 200-100] Command     config_chip_info returned 0; 0 sec.
 INFO: [HLS 200-100] Execute     config_chip_info -quiet -speed fast 
 INFO: [HLS 200-100] Command     config_chip_info returned 0; 0 sec.
-INFO: [HLS 200-100] Command   open_solution returned 0; 0.16 sec.
+INFO: [HLS 200-100] Command   open_solution returned 0; 0.18 sec.
 INFO: [HLS 200-100] Execute   set_part xczu19eg-ffve1924-3-e-es2 -tool vivado 
 INFO: [HLS 200-100] Execute     add_library xilinx/zynquplus/zynquplus:xczu19eg:-ffve1924:-3-e-es2 
 INFO: [HLS 200-100] Execute       get_default_platform 
@@ -173,9 +173,6 @@ INFO: [HLS 200-100] Execute     get_default_platform
 INFO: [HLS 200-100] Command     get_default_platform returned 0; 0 sec.
 INFO: [HLS 200-100] Command   set_part returned 0; 0.03 sec.
 INFO: [HLS 200-100] Execute   create_clock -period 10 -name default 
-INFO: [HLS 200-100] Execute     config_clock -quiet -name default -period 10 -default=false 
-INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
-INFO: [HLS 200-100] Command     config_clock returned 0; 0 sec.
 INFO: [HLS 200-100] Command   create_clock returned 0; 0 sec.
 INFO: [HLS 200-100] Execute   csynth_design 
 INFO: [HLS 200-100] Execute     elaborate -effort=medium -skip_syncheck=0 -keep_printf=0 -lm=0 -skip_cdt=0 -skip_transform=0 -ng=0 -g=0 -opt_fp=0 
@@ -187,7 +184,7 @@ INFO: [HLS 200-0] Handling astro.c as C
 INFO: [HLS 200-0] Syntax Checking before pre-processing...
 INFO: [HLS 200-100] Execute       clang  -fno-limit-debug-info -gcc-toolchain "/home/linsun/Xilinx/Vivado_HLS/2017.1/lnx64/tools/gcc" -hls    -fno-math-errno -c -emit-llvm -O0  -mllvm -disable-llvm-optzns -std=gnu89   -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I "/home/linsun/Xilinx/Vivado_HLS/2017.1/common/technology/autopilot" -I "/home/linsun/Xilinx/Vivado_HLS/2017.1/common/technology/autopilot/ap_sysc" -include etc/autopilot_ssdm_op.h  "astro.c"  -o "/home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/astro.pp.00.o" 
 INFO: [HLS 200-0] exec clang -fno-limit-debug-info -gcc-toolchain /home/linsun/Xilinx/Vivado_HLS/2017.1/lnx64/tools/gcc -hls -fno-math-errno -c -emit-llvm -O0 -mllvm -disable-llvm-optzns -std=gnu89 -DAESL_SYN -D__SYNTHESIS__ -D__HLS_SYN__ -I /home/linsun/Xilinx/Vivado_HLS/2017.1/common/technology/autopilot -I /home/linsun/Xilinx/Vivado_HLS/2017.1/common/technology/autopilot/ap_sysc -include etc/autopilot_ssdm_op.h astro.c -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/astro.pp.00.o
-INFO: [HLS 200-100] Command       clang returned 0; 0.05 sec.
+INFO: [HLS 200-100] Command       clang returned 0; 0.06 sec.
 INFO: [HLS 200-100] Execute       is_encrypted /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/astro.pp.00.o 
 INFO: [HLS 200-100] Command       is_encrypted returned 0; 0 sec.
 INFO: [HLS 200-0] Source preprocessing
@@ -201,7 +198,7 @@ INFO: [HLS 200-0] CDT Preprocessing...
 INFO: [HLS 200-0] Marker-Pragma convertor: /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/astro.pp.0.c /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/astro.pp.0.c.ap-line.c /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/astro.pp.0.c.ap-line.c.CXX 1
 INFO: [HLS 200-0] Converting Markers to Pragmas...
 INFO: [HLS 200-100] Execute       cdt  "/home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/astro.pp.0.c.ap-line.c"  -m "astroSim" -o "/home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/astro.pp.0.c.ap-cdt.c" -c --pp --directive /home/linsun/XilinxLab/astro/astroSim/solution1/solution1.directive --source /home/linsun/XilinxLab/astro/astro.c --error /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db --funcunit "AddSub AddSub_DSP AddSubnS DAddSub_fulldsp DAddSub_nodsp DDiv DExp_fulldsp DExp_meddsp DExp_nodsp DLog_fulldsp DLog_meddsp DLog_nodsp DMul_fulldsp DMul_maxdsp DMul_meddsp DMul_nodsp DRSqrt DRecip DSqrt DivnS FAddSub_fulldsp FAddSub_nodsp FDiv FExp_fulldsp FExp_meddsp FExp_nodsp FLog_fulldsp FLog_meddsp FLog_nodsp FMul_fulldsp FMul_maxdsp FMul_meddsp FMul_nodsp FRSqrt_fulldsp FRSqrt_nodsp FRecip_fulldsp FRecip_nodsp FSqrt HAddSub_fulldsp HAddSub_meddsp HAddSub_nodsp HDiv HMul_fulldsp HMul_maxdsp HMul_nodsp HSqrt Mul Mul2S Mul3S Mul4S Mul5S Mul6S Mul_LUT MulnS MuxnS" --ca --gf --pd --p2d /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db --sd --scff /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/.systemc_flag --ad 
-INFO: [HLS 200-100] Command       cdt returned 0; 1.28 sec.
+INFO: [HLS 200-100] Command       cdt returned 0; 0.76 sec.
 INFO: [HLS 200-0] Marker-Pragma convertor: /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/astro.pp.0.c.ap-cdt.c /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/astro.pragma.0.c /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/astro.pragma.0.c.ap-line.CXX 0
 INFO: [HLS 200-0] Converting Pragmas to Markers...
 INFO: [HLS 200-100] Execute       source /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/pragma.status.tcl 
@@ -218,10 +215,10 @@ INFO: [HLS 200-100] Command       clang returned 0; 0.04 sec.
 INFO: [HLS 200-10] Validating synthesis directives ...
 INFO: [HLS 200-100] Execute       source /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/pragma.status.tcl 
 INFO: [HLS 200-100] Command       ap_source returned 0; 0 sec.
-INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 348.113 ; gain = 12.586 ; free physical = 3353 ; free virtual = 11183
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 348.109 ; gain = 12.586 ; free physical = 2786 ; free virtual = 11172
 INFO: [HLS 200-0] Linking Release ...
 INFO: [HLS 200-100] Execute       llvm-ld /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/astro.bc -disable-opt -L/home/linsun/Xilinx/Vivado_HLS/2017.1/lnx64/lib -lm_basic -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/a.o 
-INFO: [HLS 200-100] Command       llvm-ld returned 0; 0.02 sec.
+INFO: [HLS 200-100] Command       llvm-ld returned 0; 0.03 sec.
 INFO: [HLS 200-100] Execute       disassemble /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/a.o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/a.o 
 INFO: [HLS 200-100] Execute         is_encrypted /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/a.o.bc 
 INFO: [HLS 200-100] Command         is_encrypted returned 0; 0 sec.
@@ -229,13 +226,13 @@ INFO: [HLS 200-100] Command       disassemble returned 0; 0.02 sec.
 INFO: [HLS 200-0] Disassemble time: 0 seconds per iteration
 INFO: [HLS 200-0] Linking Debug ...
 INFO: [HLS 200-100] Execute       llvm-ld /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/astro.g.bc -disable-opt -L/home/linsun/Xilinx/Vivado_HLS/2017.1/lnx64/lib -lm_basic -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/a.g 
-INFO: [HLS 200-100] Command       llvm-ld returned 0; 0.03 sec.
+INFO: [HLS 200-100] Command       llvm-ld returned 0; 0.02 sec.
 INFO: [HLS 200-100] Execute       disassemble /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/a.g /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/a.g 
 INFO: [HLS 200-100] Execute         is_encrypted /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/a.g.bc 
 INFO: [HLS 200-100] Command         is_encrypted returned 0; 0 sec.
 INFO: [HLS 200-100] Command       disassemble returned 0; 0.02 sec.
 INFO: [HLS 200-0] Disassemble time: 0 seconds per iteration
-INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 348.113 ; gain = 12.586 ; free physical = 3351 ; free virtual = 11183
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 348.109 ; gain = 12.586 ; free physical = 2785 ; free virtual = 11170
 INFO: [HLS 200-100] Execute       opt_and_import_c a -opt_level=2 -skip_syncheck=0 -ng=0 -keep_printf=0 
 INFO: [HLS 200-100] Execute         cleanup_all_models 
 INFO: [HLS 200-100] Command         cleanup_all_models returned 0; 0 sec.
@@ -243,19 +240,19 @@ INFO: [HLS 200-10] Starting code transformations ...
 INFO: [HLS 200-100] Execute         transform -promote-dbg-pointer /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/a.pp.bc -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/a.pp.0.bc -f 
 INFO: [HLS 200-100] Command         transform returned 0; 0.01 sec.
 INFO: [HLS 200-100] Execute         llvm-ld /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/a.pp.0.bc -disable-opt -L/home/linsun/Xilinx/Vivado_HLS/2017.1/lnx64/lib -lfloatconversion -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/a.g.0 
-INFO: [HLS 200-100] Command         llvm-ld returned 0; 4.53 sec.
+INFO: [HLS 200-100] Command         llvm-ld returned 0; 4.23 sec.
 INFO: [HLS 200-0] Running Standard Transforms...
 INFO: [HLS 200-100] Execute         transform -hls -share-std-xform -demangle-name -inline-byval-memcpy -always-inline -promote-dbg-pointer -interface-preproc -scalarrepl -mem2reg -keep-read-access -instcombine -dce -promote-dbg-pointer -bitop-raise -loop-simplify -indvarspre -indvars -loop-simplify -xunroll -constprop -instcombine -simplifycfg -indvars -simplifycfg -dce -globaldce -basicaa -simplifycfg -mem2reg -globalopt -global-constprop -deadargelim -instcombine -simplifycfg -prune-eh -simplifycfg -scalarrepl -instcombine -reassociate -licm -simplifycfg -loop-simplify -indvars -instcombine -simplifycfg -mem2reg -loop-simplify -indvars -instcombine -gvn -gvn -instcombine -adce -break-crit-edges -simplifycfg -loop-delete -global-array-opt -dce -dse -adce -find-syn-modules -top astroSim -deadargelim -mem2reg -instcombine -dce -presyn-prepare -auto-rom-infer -interface-preproc -syn-check -check-rec-only -find-region -simplifycfg -func-extr -function-inline -globaldce -mem2reg -instcombine -dce -gvn -globaldce -adce -adse -constprop -instcombine -bit-constprop -instcombine -dce -simplifycfg -bitop-raise -simplifycfg -dce -loop-delete -reassociate -globalopt -global-privatize -mem2reg -dce -global-constprop -pointer-simplify -constprop -dce -func-inst -deadargelim -auto-shift-reg-idiom -promote-dbg-pointer -norm-name /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/a.g.0.bc -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/a.g.1.bc -f -phase std-opt 
 INFO: [XFORM 203-501] Unrolling loop 'Loop-1' (astro.c:56) in function 'gravity': changing partial unrolling into complete unrolling since the unrolling factor (=9) is no less than the loop trip count (=9).
 INFO: [XFORM 203-501] Unrolling loop 'Loop-1.1' (astro.c:58) in function 'gravity': changing partial unrolling into complete unrolling since the unrolling factor (=9) is no less than the loop trip count (=9).
 INFO: [XFORM 203-603] Inlining function 'ap_fixed_base<169, 116, false, (ap_q_mode)5, (ap_o_mode)3, 0>::operator<<' into 'hls::cast_IEEE754<long, (ap_q_mode)6, double>' (/wrk/2017.1/nightly/2017_04_14_1846317/src/products/hls/hls_lib/src/hls/hls_round.h:441).
 INFO: [XFORM 203-603] Inlining function 'ap_fixed_base<1, 64, false, (ap_q_mode)5, (ap_o_mode)0, 0>::overflow_adjust' into 'ap_fixed_base<1, 64, false, (ap_q_mode)5, (ap_o_mode)0, 0>::ap_fixed_base<169, 116, false, (ap_q_mode)5, (ap_o_mode)3, 0>' ().
-INFO: [HLS 200-100] Command         transform returned 0; 3.82 sec.
+INFO: [HLS 200-100] Command         transform returned 0; 3.73 sec.
 INFO: [HLS 200-100] Execute         disassemble /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/a.g.1 /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/a.g.1 
 INFO: [HLS 200-100] Execute           is_encrypted /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/a.g.1.bc 
 INFO: [HLS 200-100] Command           is_encrypted returned 0; 0 sec.
-INFO: [HLS 200-100] Command         disassemble returned 0; 1.33 sec.
-INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 710.301 ; gain = 374.773 ; free physical = 2952 ; free virtual = 10899
+INFO: [HLS 200-100] Command         disassemble returned 0; 1.35 sec.
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:12 ; elapsed = 00:00:11 . Memory (MB): peak = 710.297 ; gain = 374.773 ; free physical = 2419 ; free virtual = 10891
 INFO: [HLS 200-10] Checking synthesizability ...
 INFO: [HLS 200-0] Checking Synthesizability 1/2..
 INFO: [HLS 200-100] Execute         transform -hls -syn-check -check-rec-only -disaggr -scalarrepl -norm-name -dce -mem2reg -instcombine -function-uniquify -directive-preproc -mem2reg -dse -dce -auto-rom-infer -dce -array-normalize -instcombine -dce -warn-fifo-pointer -array-seg-normalize -instcombine -dce -array-flatten -instcombine -dce -array-burst -dce -deadargelim -promote-global-argument -simplifycfg -mem2reg -globaldce -resolve-double-ptr -dce -deadargelim -dce -instcombine -function-inline -globaldce -dce -doublePtrSimplify -doublePtrElim -dce -doublePtrSimplify -promote-dbg-pointer -dce -scalarrepl -dse -adse -instcombine -ptrLegalization -simplifycfg -dce -instcombine -pointer-simplify -ptrArgReplace -dce -instcombine -disaggr -scalarrepl -norm-name -dce -mem2reg -instcombine -ptrLegalization -simplifycfg -deadargelim -instcombine -dce -inst-simplify -function-uniquify -directive-preproc -mem2reg -dse -dce -globaldce /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/a.g.1.bc -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/a.g.2.prechk.bc -f 
@@ -267,11 +264,11 @@ INFO: [XFORM 203-602] Inlining function 'hls::cast_IEEE754<long, double>' into '
 INFO: [XFORM 203-602] Inlining function 'kick' into 'janus_step' (astro.c:86) automatically.
 INFO: [XFORM 203-602] Inlining function 'to_int' into 'astroSim' (astro.c:153) automatically.
 INFO: [XFORM 203-602] Inlining function 'janus_step' into 'astroSim' (astro.c:158) automatically.
-INFO: [HLS 200-100] Command         transform returned 0; 1.12 sec.
+INFO: [HLS 200-100] Command         transform returned 0; 1.08 sec.
 INFO: [HLS 200-0] Checking Synthesizability 2/2..
 INFO: [HLS 200-100] Execute         transform -syn-check /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/a.g.2.prechk.bc -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/a.g.2.bc -f -phase syn-check 
-INFO: [HLS 200-100] Command         transform returned 0; 0.85 sec.
-INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 891.488 ; gain = 555.961 ; free physical = 2798 ; free virtual = 10769
+INFO: [HLS 200-100] Command         transform returned 0; 0.83 sec.
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:14 ; elapsed = 00:00:13 . Memory (MB): peak = 891.484 ; gain = 555.961 ; free physical = 2266 ; free virtual = 10762
 INFO: [HLS 200-0] Compiler optimizing ...
 INFO: [HLS 200-0] Share syncheck's 1.bc for syn flow: copy /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/a.g.1.bc to /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/a.o.1.bc
 INFO: [HLS 200-0] Presyn 1...
@@ -308,7 +305,7 @@ INFO: [XFORM 203-602] Inlining function 'fp_struct<double>::expv' into 'hls::cas
 INFO: [XFORM 203-602] Inlining function 'fp_struct<double>::__signbit' into 'hls::cast_IEEE754<long, (ap_q_mode)6, double>' (/wrk/2017.1/nightly/2017_04_14_1846317/src/products/hls/hls_lib/src/hls/hls_round.h:473) automatically.
 INFO: [XFORM 203-602] Inlining function 'hls::cast_IEEE754<long, (ap_q_mode)6, double>' into 'hls::cast_IEEE754<long, double>' (/wrk/2017.1/nightly/2017_04_14_1846317/src/products/hls/hls_lib/src/hls/hls_round.h:523) automatically.
 INFO: [XFORM 203-602] Inlining function 'hls::cast_IEEE754<long, double>' into '__hls_fptosi_double_i64' (/wrk/2017.1/nightly/2017_04_14_1846317/src/products/hls/hls_lib/src/lib_floatconversion.cpp:48) automatically.
-INFO: [HLS 200-100] Command         transform returned 0; 1.77 sec.
+INFO: [HLS 200-100] Command         transform returned 0; 1.84 sec.
 INFO: [HLS 200-0] Presyn 2...
 INFO: [HLS 200-100] Execute         transform -hls -keep-callgraph -scalarrepl -mem2reg -port-alignment -attach-range -dce -pipe-mux-gen -indvars -loop-bound -inst-simplify -instcombine -dce -merge-array-access -mem2reg -dce -clean-region -mergereturn -if-conv -instcombine -dce -constprop -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -gvn -gvn -basicaa -aggr-aa -aggrmodref-aa -aggr-aa -dse -adse -adce -scalarrepl -mem2reg -global-constprop -deadargelim -deadargelim -instcombine -dce -simplifycfg -ptrArgReplace -mem2reg -function-inline -globaldce -mem2reg -instcombine -dce -expr-balance -instcombine -dce -bitwidthmin -interface-preproc -directive-preproc -inst-rectify -instcombine -dce -functionattrs -constprop -instcombine -bit-constprop -simplify-global-access -globalopt -globaldce -inst-simplify -instcombine -elimdeaddata -dce -loop-delete -simplifycfg -loop-simplify -auto-burst -norm-name /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/a.o.1.tmp.bc -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/a.o.2.bc -f -phase presyn 
 INFO: [XFORM 203-401] Performing if-conversion on hyperblock to (astro.c:12:32) in function 'to_int'... converting 4 basic blocks.
@@ -316,12 +313,12 @@ INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (astro.c:23:37
 INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (astro.c:46:37) to (astro.c:46:32) in function 'kick'... converting 4 basic blocks.
 INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (astro.c:36:37) to (astro.c:36:32) in function 'drift'... converting 4 basic blocks.
 INFO: [XFORM 203-401] Performing if-conversion on hyperblock in function 'astroSim'... converting 7 basic blocks.
-INFO: [HLS 200-100] Command         transform returned 0; 1.45 sec.
+INFO: [HLS 200-100] Command         transform returned 0; 1.47 sec.
 INFO: [HLS 200-100] Execute         disassemble /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/a.o.2 /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/a.o.2 
 INFO: [HLS 200-100] Execute           is_encrypted /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/a.o.2.bc 
 INFO: [HLS 200-100] Command           is_encrypted returned 0; 0 sec.
-INFO: [HLS 200-100] Command         disassemble returned 0; 1.12 sec.
-INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1099.488 ; gain = 763.961 ; free physical = 2438 ; free virtual = 10537
+INFO: [HLS 200-100] Command         disassemble returned 0; 1.11 sec.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:18 ; elapsed = 00:00:17 . Memory (MB): peak = 1099.484 ; gain = 763.961 ; free physical = 1909 ; free virtual = 10531
 INFO: [HLS 200-0] Building ssdm...
 INFO: [HLS 200-100] Execute         transform -hls -function-uniquify -auto-function-inline -globaldce -ptrArgReplace -mem2reg -instcombine -dce -reset-lda -loop-simplify -indvars -licm -loop-dep -loop-bound -licm -loop-simplify -flattenloopnest -array-flatten -gvn -instcombine -dce -array-map -dce -func-legal -gvn -adce -instcombine -cfgopt -simplifycfg -loop-simplify -array-burst -promote-global-argument -dce -axi4-lower -array-seg-normalize -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -gvn -gvn -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -dse -adse -adce -licm -inst-simplify -dce -globaldce -instcombine -array-stream -eliminate-keepreads -instcombine -dce -deadargelim -doublePtrSimplify -doublePtrElim -dce -doublePtrSimplify -promote-dbg-pointer -dce -scalarrepl -mem2reg -disaggr -norm-name -mem2reg -instcombine -dse -adse -adce -ptrLegalization -dce -auto-rom-infer -array-flatten -dce -instcombine -loop-rot -constprop -cfgopt -simplifycfg -loop-simplify -indvars -pointer-simplify -dce -loop-bound -loop-simplify -loop-preproc -constprop -global-constprop -gvn -mem2reg -instcombine -dce -loop-bound -loop-merge -dce -bitwidthmin -deadargelim -dce -canonicalize-dataflow -dce -scalar-propagation -deadargelim -globaldce -mem2reg -interface-preproc -interface-gen -deadargelim -directive-preproc -inst-simplify -dce -gvn -mem2reg -instcombine -dce -adse -loop-bound -instcombine -cfgopt -simplifycfg -loop-simplify -clean-region -io-protocol -find-region -mem2reg -bitop-raise -inst-simplify -inst-rectify -instcombine -adce -deadargelim -loop-simplify -phi-opt -bitop-raise -cfgopt -simplifycfg -strip-dead-prototypes -interface-lower -bitop-lower -intrinsic-lower -auto-function-inline -basicaa -aggrmodref-aa -globalsmodref-aa -aggr-aa -inst-simplify -simplifycfg -loop-simplify -mergereturn -inst-simplify -inst-rectify -dce -bitop-lower -loop-rewind -pointer-simplify -dce -cfgopt -read-loop-dep -dce -bitwidth -loop-dep -norm-name -legalize -validate-dataflow -cdfg-build /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/a.o.2.bc -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/a.o.3.bc -f -phase build-ssdm 
 WARNING: [XFORM 203-631] Renaming function '__hls_fptosi_double_i64' (/wrk/2017.1/nightly/2017_04_14_1846317/src/products/hls/hls_lib/src/lib_floatconversion.cpp:48:56) into __hls_fptosi_double_.
@@ -335,15 +332,15 @@ INFO: [XFORM 203-811] Inferring bus burst write of length 6 on port 'result.ax' 
 INFO: [XFORM 203-811] Inferring bus burst write of length 6 on port 'result.ay' (astro.c:160:5).
 INFO: [XFORM 203-811] Inferring bus burst write of length 6 on port 'result.az' (astro.c:160:5).
 INFO: [XFORM 203-811] Inferring bus burst write of length 6 on port 'result.m' (astro.c:160:5).
-INFO: [HLS 200-100] Command         transform returned 0; 1.93 sec.
+INFO: [HLS 200-100] Command         transform returned 0; 2.01 sec.
 INFO: [HLS 200-100] Execute         disassemble /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/a.o.3 /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/a.o.3 
 INFO: [HLS 200-100] Execute           is_encrypted /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/a.o.3.bc 
 INFO: [HLS 200-100] Command           is_encrypted returned 0; 0 sec.
-INFO: [HLS 200-100] Command         disassemble returned 0; 1.1 sec.
-INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 1227.488 ; gain = 891.961 ; free physical = 2217 ; free virtual = 10368
+INFO: [HLS 200-100] Command         disassemble returned 0; 1.12 sec.
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:21 ; elapsed = 00:00:20 . Memory (MB): peak = 1227.484 ; gain = 891.961 ; free physical = 1678 ; free virtual = 10352
 INFO: [HLS 200-0] Finish building internal data model.
-INFO: [HLS 200-100] Command       opt_and_import_c returned 0; 19.07 sec.
-INFO: [HLS 200-100] Command     elaborate returned 0; 20.81 sec.
+INFO: [HLS 200-100] Command       opt_and_import_c returned 0; 18.82 sec.
+INFO: [HLS 200-100] Command     elaborate returned 0; 20 sec.
 INFO: [HLS 200-100] Execute     autosyn 
 INFO: [HLS 200-10] Starting hardware synthesis ...
 INFO: [HLS 200-0] Synthesizing C/C++ design ...
@@ -424,7 +421,7 @@ INFO: [HLS 200-0] Preprocessing Module: to_int ...
 INFO: [HLS 200-100] Execute       set_default_model to_int 
 INFO: [HLS 200-100] Command       set_default_model returned 0; 0 sec.
 INFO: [HLS 200-100] Execute       cdfg_preprocess -model to_int 
-INFO: [HLS 200-100] Command       cdfg_preprocess returned 0; 0.01 sec.
+INFO: [HLS 200-100] Command       cdfg_preprocess returned 0; 0 sec.
 INFO: [HLS 200-100] Execute       rtl_gen_preprocess to_int 
 INFO: [HLS 200-100] Command       rtl_gen_preprocess returned 0; 0 sec.
 INFO: [HLS 200-0] Preprocessing Module: drift ...
@@ -438,7 +435,7 @@ INFO: [HLS 200-0] Preprocessing Module: to_double ...
 INFO: [HLS 200-100] Execute       set_default_model to_double 
 INFO: [HLS 200-100] Command       set_default_model returned 0; 0 sec.
 INFO: [HLS 200-100] Execute       cdfg_preprocess -model to_double 
-INFO: [HLS 200-100] Command       cdfg_preprocess returned 0; 0 sec.
+INFO: [HLS 200-100] Command       cdfg_preprocess returned 0; 0.01 sec.
 INFO: [HLS 200-100] Execute       rtl_gen_preprocess to_double 
 INFO: [HLS 200-100] Command       rtl_gen_preprocess returned 0; 0 sec.
 INFO: [HLS 200-0] Preprocessing Module: gravity ...
@@ -452,7 +449,7 @@ INFO: [HLS 200-0] Preprocessing Module: kick ...
 INFO: [HLS 200-100] Execute       set_default_model kick 
 INFO: [HLS 200-100] Command       set_default_model returned 0; 0 sec.
 INFO: [HLS 200-100] Execute       cdfg_preprocess -model kick 
-INFO: [HLS 200-100] Command       cdfg_preprocess returned 0; 0.01 sec.
+INFO: [HLS 200-100] Command       cdfg_preprocess returned 0; 0 sec.
 INFO: [HLS 200-100] Execute       rtl_gen_preprocess kick 
 INFO: [HLS 200-100] Command       rtl_gen_preprocess returned 0; 0 sec.
 INFO: [HLS 200-0] Preprocessing Module: janus_step ...
@@ -466,9 +463,9 @@ INFO: [HLS 200-0] Preprocessing Module: astroSim ...
 INFO: [HLS 200-100] Execute       set_default_model astroSim 
 INFO: [HLS 200-100] Command       set_default_model returned 0; 0 sec.
 INFO: [HLS 200-100] Execute       cdfg_preprocess -model astroSim 
-INFO: [HLS 200-100] Command       cdfg_preprocess returned 0; 0 sec.
+INFO: [HLS 200-100] Command       cdfg_preprocess returned 0; 0.02 sec.
 INFO: [HLS 200-100] Execute       rtl_gen_preprocess astroSim 
-INFO: [HLS 200-100] Command       rtl_gen_preprocess returned 0; 0.01 sec.
+INFO: [HLS 200-100] Command       rtl_gen_preprocess returned 0; 0 sec.
 INFO: [HLS 200-0] Model list for synthesis: __hls_fptosi_double_ to_int drift to_double gravity kick janus_step astroSim
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Implementing module 'p_hls_fptosi_double_s' 
@@ -480,12 +477,12 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining function '__hls_fptosi_double_'.
 INFO: [SCHED 204-61] Pipelining result: Target II: 1, Final II: 1, Depth: 1.
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-100] Command       schedule returned 0; 0.04 sec.
-INFO: [HLS 200-111]  Elapsed time: 21.28 seconds; current allocated memory: 810.812 MB.
+INFO: [HLS 200-100] Command       schedule returned 0; 0.34 sec.
+INFO: [HLS 200-111]  Elapsed time: 20.8 seconds; current allocated memory: 815.067 MB.
 INFO: [HLS 200-100] Execute       report -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/p_hls_fptosi_double_s.verbose.sched.rpt -verbose -f 
-INFO: [HLS 200-100] Command       report returned 0; 0.01 sec.
+INFO: [HLS 200-100] Command       report returned 0; 0 sec.
 INFO: [HLS 200-100] Execute       db_write -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/p_hls_fptosi_double_s.sched.adb -f 
-INFO: [HLS 200-100] Command       db_write returned 0; 0 sec.
+INFO: [HLS 200-100] Command       db_write returned 0; 0.01 sec.
 INFO: [HLS 200-0] Finish scheduling __hls_fptosi_double_.
 INFO: [HLS 200-100] Execute       set_default_model __hls_fptosi_double_ 
 INFO: [HLS 200-100] Command       set_default_model returned 0; 0 sec.
@@ -524,7 +521,7 @@ INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
 INFO: [HLS 200-100] Command       bind returned 0; 0.01 sec.
-INFO: [HLS 200-111]  Elapsed time: 0.02 seconds; current allocated memory: 810.970 MB.
+INFO: [HLS 200-111]  Elapsed time: 0.02 seconds; current allocated memory: 815.225 MB.
 INFO: [HLS 200-100] Execute       report -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/p_hls_fptosi_double_s.verbose.bind.rpt -verbose -f 
 INFO: [HLS 200-100] Command       report returned 0; 0.01 sec.
 INFO: [HLS 200-100] Execute       db_write -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/p_hls_fptosi_double_s.bind.adb -f 
@@ -538,10 +535,10 @@ INFO: [HLS 200-100] Command       set_default_model returned 0; 0 sec.
 INFO: [HLS 200-100] Execute       schedule -model to_int 
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-100] Command       schedule returned 0; 0.13 sec.
-INFO: [HLS 200-111]  Elapsed time: 0.16 seconds; current allocated memory: 811.989 MB.
+INFO: [HLS 200-100] Command       schedule returned 0; 0.95 sec.
+INFO: [HLS 200-111]  Elapsed time: 0.97 seconds; current allocated memory: 816.228 MB.
 INFO: [HLS 200-100] Execute       report -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/to_int.verbose.sched.rpt -verbose -f 
-INFO: [HLS 200-100] Command       report returned 0; 0.07 sec.
+INFO: [HLS 200-100] Command       report returned 0; 0.08 sec.
 INFO: [HLS 200-100] Execute       db_write -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/to_int.sched.adb -f 
 INFO: [HLS 200-100] Command       db_write returned 0; 0.08 sec.
 INFO: [HLS 200-0] Finish scheduling to_int.
@@ -581,10 +578,10 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-100] Command       bind returned 0; 0.14 sec.
-INFO: [HLS 200-111]  Elapsed time: 0.29 seconds; current allocated memory: 814.503 MB.
+INFO: [HLS 200-100] Command       bind returned 0; 0.15 sec.
+INFO: [HLS 200-111]  Elapsed time: 0.31 seconds; current allocated memory: 818.726 MB.
 INFO: [HLS 200-100] Execute       report -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/to_int.verbose.bind.rpt -verbose -f 
-INFO: [HLS 200-100] Command       report returned 0; 0.47 sec.
+INFO: [HLS 200-100] Command       report returned 0; 0.46 sec.
 INFO: [HLS 200-100] Execute       db_write -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/to_int.bind.adb -f 
 INFO: [HLS 200-100] Command       db_write returned 0; 0.08 sec.
 INFO: [HLS 200-0] Finish binding to_int.
@@ -598,8 +595,8 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining loop 'Loop 1'.
 INFO: [SCHED 204-61] Pipelining result: Target II: 1, Final II: 1, Depth: 30.
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-100] Command       schedule returned 0; 0.35 sec.
-INFO: [HLS 200-111]  Elapsed time: 0.9 seconds; current allocated memory: 815.794 MB.
+INFO: [HLS 200-100] Command       schedule returned 0; 0.92 sec.
+INFO: [HLS 200-111]  Elapsed time: 1.46 seconds; current allocated memory: 820.066 MB.
 INFO: [HLS 200-100] Execute       report -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/drift.verbose.sched.rpt -verbose -f 
 INFO: [HLS 200-100] Command       report returned 0; 0.08 sec.
 INFO: [HLS 200-100] Execute       db_write -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/drift.sched.adb -f 
@@ -642,9 +639,9 @@ INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
 INFO: [HLS 200-100] Command       bind returned 0; 0.12 sec.
-INFO: [HLS 200-111]  Elapsed time: 0.27 seconds; current allocated memory: 817.844 MB.
+INFO: [HLS 200-111]  Elapsed time: 0.27 seconds; current allocated memory: 822.100 MB.
 INFO: [HLS 200-100] Execute       report -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/drift.verbose.bind.rpt -verbose -f 
-INFO: [HLS 200-100] Command       report returned 0; 0.35 sec.
+INFO: [HLS 200-100] Command       report returned 0; 0.34 sec.
 INFO: [HLS 200-100] Execute       db_write -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/drift.bind.adb -f 
 INFO: [HLS 200-100] Command       db_write returned 0; 0.07 sec.
 INFO: [HLS 200-0] Finish binding drift.
@@ -658,8 +655,8 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining loop 'Loop 1'.
 INFO: [SCHED 204-61] Pipelining result: Target II: 1, Final II: 1, Depth: 8.
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-100] Command       schedule returned 0; 0.45 sec.
-INFO: [HLS 200-111]  Elapsed time: 0.87 seconds; current allocated memory: 819.894 MB.
+INFO: [HLS 200-100] Command       schedule returned 0; 0.44 sec.
+INFO: [HLS 200-111]  Elapsed time: 0.85 seconds; current allocated memory: 824.150 MB.
 INFO: [HLS 200-100] Execute       report -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/to_double.verbose.sched.rpt -verbose -f 
 INFO: [HLS 200-100] Command       report returned 0; 0.11 sec.
 INFO: [HLS 200-100] Execute       db_write -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/to_double.sched.adb -f 
@@ -701,10 +698,10 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-100] Command       bind returned 0; 0.15 sec.
-INFO: [HLS 200-111]  Elapsed time: 0.37 seconds; current allocated memory: 823.844 MB.
+INFO: [HLS 200-100] Command       bind returned 0; 0.16 sec.
+INFO: [HLS 200-111]  Elapsed time: 0.37 seconds; current allocated memory: 828.084 MB.
 INFO: [HLS 200-100] Execute       report -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/to_double.verbose.bind.rpt -verbose -f 
-INFO: [HLS 200-100] Command       report returned 0; 0.5 sec.
+INFO: [HLS 200-100] Command       report returned 0; 0.44 sec.
 INFO: [HLS 200-100] Execute       db_write -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/to_double.bind.adb -f 
 INFO: [HLS 200-100] Command       db_write returned 0; 0.11 sec.
 INFO: [HLS 200-0] Finish binding to_double.
@@ -716,12 +713,12 @@ INFO: [HLS 200-100] Command       set_default_model returned 0; 0 sec.
 INFO: [HLS 200-100] Execute       schedule -model gravity 
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-100] Command       schedule returned 0; 1.02 sec.
-INFO: [HLS 200-111]  Elapsed time: 1.63 seconds; current allocated memory: 826.261 MB.
+INFO: [HLS 200-100] Command       schedule returned 0; 8.97 sec.
+INFO: [HLS 200-111]  Elapsed time: 9.52 seconds; current allocated memory: 836.317 MB.
 INFO: [HLS 200-100] Execute       report -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/gravity.verbose.sched.rpt -verbose -f 
-INFO: [HLS 200-100] Command       report returned 0; 0.26 sec.
+INFO: [HLS 200-100] Command       report returned 0; 0.92 sec.
 INFO: [HLS 200-100] Execute       db_write -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/gravity.sched.adb -f 
-INFO: [HLS 200-100] Command       db_write returned 0; 0.25 sec.
+INFO: [HLS 200-100] Command       db_write returned 0; 0.87 sec.
 INFO: [HLS 200-0] Finish scheduling gravity.
 INFO: [HLS 200-100] Execute       set_default_model gravity 
 INFO: [HLS 200-100] Command       set_default_model returned 0; 0 sec.
@@ -759,12 +756,12 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-100] Command       bind returned 0; 0.18 sec.
-INFO: [HLS 200-111]  Elapsed time: 0.69 seconds; current allocated memory: 829.385 MB.
+INFO: [HLS 200-100] Command       bind returned 0; 0.5 sec.
+INFO: [HLS 200-111]  Elapsed time: 2.29 seconds; current allocated memory: 848.832 MB.
 INFO: [HLS 200-100] Execute       report -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/gravity.verbose.bind.rpt -verbose -f 
-INFO: [HLS 200-100] Command       report returned 0; 0.49 sec.
+INFO: [HLS 200-100] Command       report returned 0; 1.45 sec.
 INFO: [HLS 200-100] Execute       db_write -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/gravity.bind.adb -f 
-INFO: [HLS 200-100] Command       db_write returned 0; 0.22 sec.
+INFO: [HLS 200-100] Command       db_write returned 0; 0.9 sec.
 INFO: [HLS 200-0] Finish binding gravity.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Implementing module 'kick' 
@@ -776,12 +773,12 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining loop 'Loop 1'.
 INFO: [SCHED 204-61] Pipelining result: Target II: 1, Final II: 1, Depth: 23.
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-100] Command       schedule returned 0; 1.15 sec.
-INFO: [HLS 200-111]  Elapsed time: 1.86 seconds; current allocated memory: 830.325 MB.
+INFO: [HLS 200-100] Command       schedule returned 0; 0.22 sec.
+INFO: [HLS 200-111]  Elapsed time: 2.58 seconds; current allocated memory: 849.757 MB.
 INFO: [HLS 200-100] Execute       report -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/kick.verbose.sched.rpt -verbose -f 
 INFO: [HLS 200-100] Command       report returned 0; 0.08 sec.
 INFO: [HLS 200-100] Execute       db_write -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/kick.sched.adb -f 
-INFO: [HLS 200-100] Command       db_write returned 0; 0.06 sec.
+INFO: [HLS 200-100] Command       db_write returned 0; 0.05 sec.
 INFO: [HLS 200-0] Finish scheduling kick.
 INFO: [HLS 200-100] Execute       set_default_model kick 
 INFO: [HLS 200-100] Command       set_default_model returned 0; 0 sec.
@@ -819,12 +816,12 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-100] Command       bind returned 0; 0.11 sec.
-INFO: [HLS 200-111]  Elapsed time: 0.26 seconds; current allocated memory: 832.126 MB.
+INFO: [HLS 200-100] Command       bind returned 0; 0.1 sec.
+INFO: [HLS 200-111]  Elapsed time: 0.23 seconds; current allocated memory: 851.542 MB.
 INFO: [HLS 200-100] Execute       report -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/kick.verbose.bind.rpt -verbose -f 
-INFO: [HLS 200-100] Command       report returned 0; 0.32 sec.
+INFO: [HLS 200-100] Command       report returned 0; 0.29 sec.
 INFO: [HLS 200-100] Execute       db_write -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/kick.bind.adb -f 
-INFO: [HLS 200-100] Command       db_write returned 0; 0.07 sec.
+INFO: [HLS 200-100] Command       db_write returned 0; 0.06 sec.
 INFO: [HLS 200-0] Finish binding kick.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Implementing module 'janus_step' 
@@ -834,12 +831,12 @@ INFO: [HLS 200-100] Command       set_default_model returned 0; 0 sec.
 INFO: [HLS 200-100] Execute       schedule -model janus_step 
 INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-100] Command       schedule returned 0; 1.6 sec.
-INFO: [HLS 200-111]  Elapsed time: 1.99 seconds; current allocated memory: 833.225 MB.
+INFO: [HLS 200-100] Command       schedule returned 0; 0.14 sec.
+INFO: [HLS 200-111]  Elapsed time: 0.49 seconds; current allocated memory: 852.642 MB.
 INFO: [HLS 200-100] Execute       report -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/janus_step.verbose.sched.rpt -verbose -f 
-INFO: [HLS 200-100] Command       report returned 0; 0.08 sec.
+INFO: [HLS 200-100] Command       report returned 0; 0.06 sec.
 INFO: [HLS 200-100] Execute       db_write -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/janus_step.sched.adb -f 
-INFO: [HLS 200-100] Command       db_write returned 0; 0.08 sec.
+INFO: [HLS 200-100] Command       db_write returned 0; 0.07 sec.
 INFO: [HLS 200-0] Finish scheduling janus_step.
 INFO: [HLS 200-100] Execute       set_default_model janus_step 
 INFO: [HLS 200-100] Command       set_default_model returned 0; 0 sec.
@@ -877,10 +874,10 @@ INFO: [BIND 205-101] Performing variable lifetime analysis.
 INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-100] Command       bind returned 0; 1.8 sec.
-INFO: [HLS 200-111]  Elapsed time: 1.96 seconds; current allocated memory: 835.976 MB.
+INFO: [HLS 200-100] Command       bind returned 0; 2.17 sec.
+INFO: [HLS 200-111]  Elapsed time: 2.3 seconds; current allocated memory: 855.393 MB.
 INFO: [HLS 200-100] Execute       report -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/janus_step.verbose.bind.rpt -verbose -f 
-INFO: [HLS 200-100] Command       report returned 0; 1.42 sec.
+INFO: [HLS 200-100] Command       report returned 0; 1.62 sec.
 INFO: [HLS 200-100] Execute       db_write -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/janus_step.bind.adb -f 
 INFO: [HLS 200-100] Command       db_write returned 0; 0.08 sec.
 INFO: [HLS 200-0] Finish binding janus_step.
@@ -894,12 +891,12 @@ INFO: [SCHED 204-11] Starting scheduling ...
 INFO: [SCHED 204-61] Pipelining loop 'memcpy.result.m.p.x.addr'.
 INFO: [SCHED 204-61] Pipelining result: Target II: 1, Final II: 1, Depth: 2.
 INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-100] Command       schedule returned 0; 0.74 sec.
-INFO: [HLS 200-111]  Elapsed time: 2.25 seconds; current allocated memory: 839.331 MB.
+INFO: [HLS 200-100] Command       schedule returned 0; 0.6 sec.
+INFO: [HLS 200-111]  Elapsed time: 2.3 seconds; current allocated memory: 858.745 MB.
 INFO: [HLS 200-100] Execute       report -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/astroSim.verbose.sched.rpt -verbose -f 
-INFO: [HLS 200-100] Command       report returned 0; 0.32 sec.
+INFO: [HLS 200-100] Command       report returned 0; 0.26 sec.
 INFO: [HLS 200-100] Execute       db_write -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/astroSim.sched.adb -f 
-INFO: [HLS 200-100] Command       db_write returned 0; 0.26 sec.
+INFO: [HLS 200-100] Command       db_write returned 0; 0.21 sec.
 INFO: [HLS 200-0] Finish scheduling astroSim.
 INFO: [HLS 200-100] Execute       set_default_model astroSim 
 INFO: [HLS 200-100] Command       set_default_model returned 0; 0 sec.
@@ -938,11 +935,11 @@ INFO: [BIND 205-101] Exploring resource sharing.
 INFO: [BIND 205-101] Binding ...
 INFO: [BIND 205-100] Finished micro-architecture generation.
 INFO: [HLS 200-100] Command       bind returned 0; 1.48 sec.
-INFO: [HLS 200-111]  Elapsed time: 2.06 seconds; current allocated memory: 844.204 MB.
+INFO: [HLS 200-111]  Elapsed time: 1.96 seconds; current allocated memory: 863.634 MB.
 INFO: [HLS 200-100] Execute       report -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/astroSim.verbose.bind.rpt -verbose -f 
-INFO: [HLS 200-100] Command       report returned 0; 2.19 sec.
+INFO: [HLS 200-100] Command       report returned 0; 2.31 sec.
 INFO: [HLS 200-100] Execute       db_write -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/astroSim.bind.adb -f 
-INFO: [HLS 200-100] Command       db_write returned 0; 0.26 sec.
+INFO: [HLS 200-100] Command       db_write returned 0; 0.23 sec.
 INFO: [HLS 200-0] Finish binding astroSim.
 INFO: [HLS 200-100] Execute       get_model_list astroSim -filter all-wo-channel 
 INFO: [HLS 200-100] Command       get_model_list returned 0; 0 sec.
@@ -960,7 +957,7 @@ INFO: [HLS 200-100] Command       rtl_gen_preprocess returned 0; 0 sec.
 INFO: [HLS 200-100] Execute       rtl_gen_preprocess kick 
 INFO: [HLS 200-100] Command       rtl_gen_preprocess returned 0; 0 sec.
 INFO: [HLS 200-100] Execute       rtl_gen_preprocess janus_step 
-INFO: [HLS 200-100] Command       rtl_gen_preprocess returned 0; 0.01 sec.
+INFO: [HLS 200-100] Command       rtl_gen_preprocess returned 0; 0 sec.
 INFO: [HLS 200-100] Execute       rtl_gen_preprocess astroSim 
 INFO: [HLS 200-100] Command       rtl_gen_preprocess returned 0; 0 sec.
 INFO: [HLS 200-0] Model list for RTL generation: __hls_fptosi_double_ to_int drift to_double gravity kick janus_step astroSim
@@ -970,7 +967,7 @@ INFO: [HLS 200-10] -------------------------------------------------------------
 INFO: [HLS 200-100] Execute       create_rtl_model __hls_fptosi_double_ -vendor xilinx -mg_file /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/p_hls_fptosi_double_s.compgen.tcl 
 INFO: [RTGEN 206-100] Finished creating RTL model for 'p_hls_fptosi_double_s'.
 INFO: [HLS 200-100] Command       create_rtl_model returned 0; 0.01 sec.
-INFO: [HLS 200-111]  Elapsed time: 2.47 seconds; current allocated memory: 845.178 MB.
+INFO: [HLS 200-111]  Elapsed time: 2.55 seconds; current allocated memory: 864.593 MB.
 INFO: [HLS 200-100] Execute       source /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/astroSim.rtl_wrap.cfg.tcl 
 INFO: [HLS 200-100] Command       ap_source returned 0; 0 sec.
 INFO: [HLS 200-100] Execute       gen_rtl __hls_fptosi_double_ -style xilinx -tracefl mytrace -tracefmt vcd -traceopt all -f -lang sc -o /home/linsun/XilinxLab/astro/astroSim/solution1/syn/systemc/p_hls_fptosi_double_s -synmodules __hls_fptosi_double_ to_int drift to_double gravity kick janus_step astroSim 
@@ -986,7 +983,7 @@ INFO: [HLS 200-100] Command       report returned 0; 0 sec.
 INFO: [HLS 200-100] Execute       report -model __hls_fptosi_double_ -o /home/linsun/XilinxLab/astro/astroSim/solution1/syn/report/p_hls_fptosi_double_s_csynth.xml -f -x 
 INFO: [HLS 200-100] Command       report returned 0; 0 sec.
 INFO: [HLS 200-100] Execute       report -model __hls_fptosi_double_ -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/p_hls_fptosi_double_s.verbose.rpt -verbose -f 
-INFO: [HLS 200-100] Command       report returned 0; 0.03 sec.
+INFO: [HLS 200-100] Command       report returned 0; 0.02 sec.
 INFO: [HLS 200-100] Execute       db_write -model __hls_fptosi_double_ -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/p_hls_fptosi_double_s.adb -f 
 INFO: [HLS 200-100] Command       db_write returned 0; 0.01 sec.
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -999,26 +996,26 @@ INFO: [RTGEN 206-104] Estimated max fanout for 'to_int' is 6913 from HDL express
 INFO: [RTGEN 206-100] Generating core module 'astroSim_ddiv_64nbkb': 18 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'astroSim_mux_164_cud': 54 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'to_int'.
-INFO: [HLS 200-100] Command       create_rtl_model returned 0; 0.42 sec.
-INFO: [HLS 200-111]  Elapsed time: 0.48 seconds; current allocated memory: 857.254 MB.
+INFO: [HLS 200-100] Command       create_rtl_model returned 0; 0.33 sec.
+INFO: [HLS 200-111]  Elapsed time: 0.38 seconds; current allocated memory: 876.700 MB.
 INFO: [HLS 200-100] Execute       source /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/astroSim.rtl_wrap.cfg.tcl 
 INFO: [HLS 200-100] Command       ap_source returned 0; 0 sec.
 INFO: [HLS 200-100] Execute       gen_rtl to_int -style xilinx -tracefl mytrace -tracefmt vcd -traceopt all -f -lang sc -o /home/linsun/XilinxLab/astro/astroSim/solution1/syn/systemc/to_int -synmodules __hls_fptosi_double_ to_int drift to_double gravity kick janus_step astroSim 
-INFO: [HLS 200-100] Command       gen_rtl returned 0; 0.01 sec.
-INFO: [HLS 200-100] Execute       gen_rtl to_int -style xilinx -f -lang vhdl -o /home/linsun/XilinxLab/astro/astroSim/solution1/syn/vhdl/to_int 
 INFO: [HLS 200-100] Command       gen_rtl returned 0; 0 sec.
+INFO: [HLS 200-100] Execute       gen_rtl to_int -style xilinx -f -lang vhdl -o /home/linsun/XilinxLab/astro/astroSim/solution1/syn/vhdl/to_int 
+INFO: [HLS 200-100] Command       gen_rtl returned 0; 0.01 sec.
 INFO: [HLS 200-100] Execute       gen_rtl to_int -style xilinx -f -lang vlog -o /home/linsun/XilinxLab/astro/astroSim/solution1/syn/verilog/to_int 
 INFO: [HLS 200-100] Command       gen_rtl returned 0; 0 sec.
 INFO: [HLS 200-100] Execute       gen_tb_info to_int -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/to_int -p /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db 
-INFO: [HLS 200-100] Command       gen_tb_info returned 0; 0.09 sec.
+INFO: [HLS 200-100] Command       gen_tb_info returned 0; 0.07 sec.
 INFO: [HLS 200-100] Execute       report -model to_int -o /home/linsun/XilinxLab/astro/astroSim/solution1/syn/report/to_int_csynth.rpt -f 
-INFO: [HLS 200-100] Command       report returned 0; 0.09 sec.
-INFO: [HLS 200-100] Execute       report -model to_int -o /home/linsun/XilinxLab/astro/astroSim/solution1/syn/report/to_int_csynth.xml -f -x 
 INFO: [HLS 200-100] Command       report returned 0; 0.08 sec.
+INFO: [HLS 200-100] Execute       report -model to_int -o /home/linsun/XilinxLab/astro/astroSim/solution1/syn/report/to_int_csynth.xml -f -x 
+INFO: [HLS 200-100] Command       report returned 0; 0.07 sec.
 INFO: [HLS 200-100] Execute       report -model to_int -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/to_int.verbose.rpt -verbose -f 
-INFO: [HLS 200-100] Command       report returned 0; 0.6 sec.
+INFO: [HLS 200-100] Command       report returned 0; 0.54 sec.
 INFO: [HLS 200-100] Execute       db_write -model to_int -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/to_int.adb -f 
-INFO: [HLS 200-100] Command       db_write returned 0; 0.18 sec.
+INFO: [HLS 200-100] Command       db_write returned 0; 0.16 sec.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'drift' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -1032,26 +1029,26 @@ INFO: [RTGEN 206-100] Generating core module 'astroSim_dmul_64ndEe': 18 instance
 INFO: [RTGEN 206-100] Generating core module 'astroSim_mux_164_cud': 44 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'astroSim_sitodp_6eOg': 9 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'drift'.
-INFO: [HLS 200-100] Command       create_rtl_model returned 0; 0.22 sec.
-INFO: [HLS 200-111]  Elapsed time: 1.32 seconds; current allocated memory: 869.728 MB.
+INFO: [HLS 200-100] Command       create_rtl_model returned 0; 0.18 sec.
+INFO: [HLS 200-111]  Elapsed time: 1.15 seconds; current allocated memory: 889.218 MB.
 INFO: [HLS 200-100] Execute       source /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/astroSim.rtl_wrap.cfg.tcl 
-INFO: [HLS 200-100] Command       ap_source returned 0; 0.01 sec.
+INFO: [HLS 200-100] Command       ap_source returned 0; 0 sec.
 INFO: [HLS 200-100] Execute       gen_rtl drift -style xilinx -tracefl mytrace -tracefmt vcd -traceopt all -f -lang sc -o /home/linsun/XilinxLab/astro/astroSim/solution1/syn/systemc/drift -synmodules __hls_fptosi_double_ to_int drift to_double gravity kick janus_step astroSim 
 INFO: [HLS 200-100] Command       gen_rtl returned 0; 0 sec.
 INFO: [HLS 200-100] Execute       gen_rtl drift -style xilinx -f -lang vhdl -o /home/linsun/XilinxLab/astro/astroSim/solution1/syn/vhdl/drift 
-INFO: [HLS 200-100] Command       gen_rtl returned 0; 0.01 sec.
-INFO: [HLS 200-100] Execute       gen_rtl drift -style xilinx -f -lang vlog -o /home/linsun/XilinxLab/astro/astroSim/solution1/syn/verilog/drift 
 INFO: [HLS 200-100] Command       gen_rtl returned 0; 0 sec.
+INFO: [HLS 200-100] Execute       gen_rtl drift -style xilinx -f -lang vlog -o /home/linsun/XilinxLab/astro/astroSim/solution1/syn/verilog/drift 
+INFO: [HLS 200-100] Command       gen_rtl returned 0; 0.01 sec.
 INFO: [HLS 200-100] Execute       gen_tb_info drift -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/drift -p /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db 
-INFO: [HLS 200-100] Command       gen_tb_info returned 0; 0.08 sec.
+INFO: [HLS 200-100] Command       gen_tb_info returned 0; 0.07 sec.
 INFO: [HLS 200-100] Execute       report -model drift -o /home/linsun/XilinxLab/astro/astroSim/solution1/syn/report/drift_csynth.rpt -f 
-INFO: [HLS 200-100] Command       report returned 0; 0.09 sec.
+INFO: [HLS 200-100] Command       report returned 0; 0.08 sec.
 INFO: [HLS 200-100] Execute       report -model drift -o /home/linsun/XilinxLab/astro/astroSim/solution1/syn/report/drift_csynth.xml -f -x 
-INFO: [HLS 200-100] Command       report returned 0; 0.09 sec.
+INFO: [HLS 200-100] Command       report returned 0; 0.08 sec.
 INFO: [HLS 200-100] Execute       report -model drift -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/drift.verbose.rpt -verbose -f 
-INFO: [HLS 200-100] Command       report returned 0; 0.48 sec.
+INFO: [HLS 200-100] Command       report returned 0; 0.42 sec.
 INFO: [HLS 200-100] Execute       db_write -model drift -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/drift.adb -f 
-INFO: [HLS 200-100] Command       db_write returned 0; 0.16 sec.
+INFO: [HLS 200-100] Command       db_write returned 0; 0.14 sec.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'to_double' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -1066,26 +1063,26 @@ INFO: [RTGEN 206-100] Generating core module 'astroSim_mux_164_cud': 17 instance
 INFO: [RTGEN 206-100] Generating core module 'astroSim_mux_164_fYi': 54 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'astroSim_sitodp_6eOg': 18 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'to_double'.
-INFO: [HLS 200-100] Command       create_rtl_model returned 0; 0.55 sec.
-INFO: [HLS 200-111]  Elapsed time: 1.53 seconds; current allocated memory: 888.713 MB.
+INFO: [HLS 200-100] Command       create_rtl_model returned 0; 0.41 sec.
+INFO: [HLS 200-111]  Elapsed time: 1.25 seconds; current allocated memory: 908.157 MB.
 INFO: [HLS 200-100] Execute       source /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/astroSim.rtl_wrap.cfg.tcl 
 INFO: [HLS 200-100] Command       ap_source returned 0; 0 sec.
 INFO: [HLS 200-100] Execute       gen_rtl to_double -style xilinx -tracefl mytrace -tracefmt vcd -traceopt all -f -lang sc -o /home/linsun/XilinxLab/astro/astroSim/solution1/syn/systemc/to_double -synmodules __hls_fptosi_double_ to_int drift to_double gravity kick janus_step astroSim 
-INFO: [HLS 200-100] Command       gen_rtl returned 0; 0.01 sec.
-INFO: [HLS 200-100] Execute       gen_rtl to_double -style xilinx -f -lang vhdl -o /home/linsun/XilinxLab/astro/astroSim/solution1/syn/vhdl/to_double 
 INFO: [HLS 200-100] Command       gen_rtl returned 0; 0 sec.
+INFO: [HLS 200-100] Execute       gen_rtl to_double -style xilinx -f -lang vhdl -o /home/linsun/XilinxLab/astro/astroSim/solution1/syn/vhdl/to_double 
+INFO: [HLS 200-100] Command       gen_rtl returned 0; 0.01 sec.
 INFO: [HLS 200-100] Execute       gen_rtl to_double -style xilinx -f -lang vlog -o /home/linsun/XilinxLab/astro/astroSim/solution1/syn/verilog/to_double 
 INFO: [HLS 200-100] Command       gen_rtl returned 0; 0 sec.
 INFO: [HLS 200-100] Execute       gen_tb_info to_double -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/to_double -p /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db 
-INFO: [HLS 200-100] Command       gen_tb_info returned 0; 0.14 sec.
+INFO: [HLS 200-100] Command       gen_tb_info returned 0; 0.13 sec.
 INFO: [HLS 200-100] Execute       report -model to_double -o /home/linsun/XilinxLab/astro/astroSim/solution1/syn/report/to_double_csynth.rpt -f 
-INFO: [HLS 200-100] Command       report returned 0; 0.16 sec.
-INFO: [HLS 200-100] Execute       report -model to_double -o /home/linsun/XilinxLab/astro/astroSim/solution1/syn/report/to_double_csynth.xml -f -x 
 INFO: [HLS 200-100] Command       report returned 0; 0.14 sec.
+INFO: [HLS 200-100] Execute       report -model to_double -o /home/linsun/XilinxLab/astro/astroSim/solution1/syn/report/to_double_csynth.xml -f -x 
+INFO: [HLS 200-100] Command       report returned 0; 0.12 sec.
 INFO: [HLS 200-100] Execute       report -model to_double -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/to_double.verbose.rpt -verbose -f 
-INFO: [HLS 200-100] Command       report returned 0; 0.67 sec.
+INFO: [HLS 200-100] Command       report returned 0; 0.58 sec.
 INFO: [HLS 200-100] Execute       db_write -model to_double -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/to_double.adb -f 
-INFO: [HLS 200-100] Command       db_write returned 0; 0.28 sec.
+INFO: [HLS 200-100] Command       db_write returned 0; 0.24 sec.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'gravity' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -1093,30 +1090,37 @@ INFO: [HLS 200-100] Execute       create_rtl_model gravity -vendor xilinx -mg_fi
 INFO: [SYN 201-210] Renamed object name 'astroSim_dadddsub_64ns_64ns_64_4_full_dsp' to 'astroSim_dadddsubg8j' due to the length limit 20
 INFO: [SYN 201-210] Renamed object name 'astroSim_dsub_64ns_64ns_64_4_full_dsp' to 'astroSim_dsub_64nhbi' due to the length limit 20
 INFO: [SYN 201-210] Renamed object name 'astroSim_dadd_64ns_64ns_64_4_full_dsp' to 'astroSim_dadd_64nibs' due to the length limit 20
-INFO: [RTGEN 206-100] Generating core module 'astroSim_dadd_64nibs': 12 instance(s).
-INFO: [RTGEN 206-100] Generating core module 'astroSim_dadddsubg8j': 27 instance(s).
-INFO: [RTGEN 206-100] Generating core module 'astroSim_dsub_64nhbi': 15 instance(s).
+WARNING: [RTGEN 206-101] RTL name 'astroSim_dmul_64ndEe' is changed to 'astroSim_dmul_64ndEe_x' due to conflict.
+WARNING: [RTGEN 206-101] RTL name 'astroSim_ddiv_64nbkb' is changed to 'astroSim_ddiv_64nbkb_x' due to conflict.
+INFO: [SYN 201-210] Renamed object name 'astroSim_dsqrt_64ns_64ns_64_14' to 'astroSim_dsqrt_64jbC' due to the length limit 20
+INFO: [RTGEN 206-104] Estimated max fanout for 'gravity' is 9410 from HDL expression: (1'b1 == ap_CS_fsm_state9)
+INFO: [RTGEN 206-100] Generating core module 'astroSim_dadd_64nibs': 5 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'astroSim_dadddsubg8j': 35 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'astroSim_ddiv_64nbkb': 17 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'astroSim_dmul_64ndEe': 36 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'astroSim_dsqrt_64jbC': 17 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'astroSim_dsub_64nhbi': 13 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'gravity'.
-INFO: [HLS 200-100] Command       create_rtl_model returned 0; 0.21 sec.
-INFO: [HLS 200-111]  Elapsed time: 1.73 seconds; current allocated memory: 903.497 MB.
+INFO: [HLS 200-100] Command       create_rtl_model returned 0; 0.81 sec.
+INFO: [HLS 200-111]  Elapsed time: 2.12 seconds; current allocated memory: 926.309 MB.
 INFO: [HLS 200-100] Execute       source /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/astroSim.rtl_wrap.cfg.tcl 
 INFO: [HLS 200-100] Command       ap_source returned 0; 0 sec.
 INFO: [HLS 200-100] Execute       gen_rtl gravity -style xilinx -tracefl mytrace -tracefmt vcd -traceopt all -f -lang sc -o /home/linsun/XilinxLab/astro/astroSim/solution1/syn/systemc/gravity -synmodules __hls_fptosi_double_ to_int drift to_double gravity kick janus_step astroSim 
-INFO: [HLS 200-100] Command       gen_rtl returned 0; 0 sec.
+INFO: [HLS 200-100] Command       gen_rtl returned 0; 0.01 sec.
 INFO: [HLS 200-100] Execute       gen_rtl gravity -style xilinx -f -lang vhdl -o /home/linsun/XilinxLab/astro/astroSim/solution1/syn/vhdl/gravity 
 INFO: [HLS 200-100] Command       gen_rtl returned 0; 0.01 sec.
 INFO: [HLS 200-100] Execute       gen_rtl gravity -style xilinx -f -lang vlog -o /home/linsun/XilinxLab/astro/astroSim/solution1/syn/verilog/gravity 
-INFO: [HLS 200-100] Command       gen_rtl returned 0; 0 sec.
+INFO: [HLS 200-100] Command       gen_rtl returned 0; 0.01 sec.
 INFO: [HLS 200-100] Execute       gen_tb_info gravity -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/gravity -p /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db 
-INFO: [HLS 200-100] Command       gen_tb_info returned 0; 0.1 sec.
+INFO: [HLS 200-100] Command       gen_tb_info returned 0; 0.22 sec.
 INFO: [HLS 200-100] Execute       report -model gravity -o /home/linsun/XilinxLab/astro/astroSim/solution1/syn/report/gravity_csynth.rpt -f 
-INFO: [HLS 200-100] Command       report returned 0; 0.1 sec.
+INFO: [HLS 200-100] Command       report returned 0; 0.22 sec.
 INFO: [HLS 200-100] Execute       report -model gravity -o /home/linsun/XilinxLab/astro/astroSim/solution1/syn/report/gravity_csynth.xml -f -x 
-INFO: [HLS 200-100] Command       report returned 0; 0.1 sec.
+INFO: [HLS 200-100] Command       report returned 0; 0.21 sec.
 INFO: [HLS 200-100] Execute       report -model gravity -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/gravity.verbose.rpt -verbose -f 
-INFO: [HLS 200-100] Command       report returned 0; 0.56 sec.
+INFO: [HLS 200-100] Command       report returned 0; 1.68 sec.
 INFO: [HLS 200-100] Execute       db_write -model gravity -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/gravity.adb -f 
-INFO: [HLS 200-100] Command       db_write returned 0; 0.32 sec.
+INFO: [HLS 200-100] Command       db_write returned 0; 1.12 sec.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'kick' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -1128,50 +1132,50 @@ INFO: [RTGEN 206-100] Generating core module 'astroSim_ddiv_64nbkb': 9 instance(
 INFO: [RTGEN 206-100] Generating core module 'astroSim_dmul_64ndEe': 9 instance(s).
 INFO: [RTGEN 206-100] Generating core module 'astroSim_mux_164_cud': 36 instance(s).
 INFO: [RTGEN 206-100] Finished creating RTL model for 'kick'.
-INFO: [HLS 200-100] Command       create_rtl_model returned 0; 0.17 sec.
-INFO: [HLS 200-111]  Elapsed time: 1.43 seconds; current allocated memory: 916.543 MB.
+INFO: [HLS 200-100] Command       create_rtl_model returned 0; 0.15 sec.
+INFO: [HLS 200-111]  Elapsed time: 3.84 seconds; current allocated memory: 954.724 MB.
 INFO: [HLS 200-100] Execute       source /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/astroSim.rtl_wrap.cfg.tcl 
-INFO: [HLS 200-100] Command       ap_source returned 0; 0.01 sec.
+INFO: [HLS 200-100] Command       ap_source returned 0; 0 sec.
 INFO: [HLS 200-100] Execute       gen_rtl kick -style xilinx -tracefl mytrace -tracefmt vcd -traceopt all -f -lang sc -o /home/linsun/XilinxLab/astro/astroSim/solution1/syn/systemc/kick -synmodules __hls_fptosi_double_ to_int drift to_double gravity kick janus_step astroSim 
 INFO: [HLS 200-100] Command       gen_rtl returned 0; 0 sec.
 INFO: [HLS 200-100] Execute       gen_rtl kick -style xilinx -f -lang vhdl -o /home/linsun/XilinxLab/astro/astroSim/solution1/syn/vhdl/kick 
-INFO: [HLS 200-100] Command       gen_rtl returned 0; 0 sec.
-INFO: [HLS 200-100] Execute       gen_rtl kick -style xilinx -f -lang vlog -o /home/linsun/XilinxLab/astro/astroSim/solution1/syn/verilog/kick 
 INFO: [HLS 200-100] Command       gen_rtl returned 0; 0.01 sec.
+INFO: [HLS 200-100] Execute       gen_rtl kick -style xilinx -f -lang vlog -o /home/linsun/XilinxLab/astro/astroSim/solution1/syn/verilog/kick 
+INFO: [HLS 200-100] Command       gen_rtl returned 0; 0 sec.
 INFO: [HLS 200-100] Execute       gen_tb_info kick -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/kick -p /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db 
 INFO: [HLS 200-100] Command       gen_tb_info returned 0; 0.06 sec.
 INFO: [HLS 200-100] Execute       report -model kick -o /home/linsun/XilinxLab/astro/astroSim/solution1/syn/report/kick_csynth.rpt -f 
-INFO: [HLS 200-100] Command       report returned 0; 0.06 sec.
+INFO: [HLS 200-100] Command       report returned 0; 0.05 sec.
 INFO: [HLS 200-100] Execute       report -model kick -o /home/linsun/XilinxLab/astro/astroSim/solution1/syn/report/kick_csynth.xml -f -x 
 INFO: [HLS 200-100] Command       report returned 0; 0.06 sec.
 INFO: [HLS 200-100] Execute       report -model kick -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/kick.verbose.rpt -verbose -f 
-INFO: [HLS 200-100] Command       report returned 0; 0.4 sec.
+INFO: [HLS 200-100] Command       report returned 0; 0.35 sec.
 INFO: [HLS 200-100] Execute       db_write -model kick -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/kick.adb -f 
-INFO: [HLS 200-100] Command       db_write returned 0; 0.12 sec.
+INFO: [HLS 200-100] Command       db_write returned 0; 0.11 sec.
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-10] -- Generating RTL for module 'janus_step' 
 INFO: [HLS 200-10] ----------------------------------------------------------------
 INFO: [HLS 200-100] Execute       create_rtl_model janus_step -vendor xilinx -mg_file /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/janus_step.compgen.tcl 
 INFO: [RTGEN 206-104] Estimated max fanout for 'janus_step' is 16129 from HDL expression: ((grp_to_double_fu_1079_ap_done == 1'b1) & (1'b1 == ap_CS_fsm_state8))
 INFO: [RTGEN 206-100] Finished creating RTL model for 'janus_step'.
-INFO: [HLS 200-100] Command       create_rtl_model returned 0; 2.29 sec.
-INFO: [HLS 200-111]  Elapsed time: 3.07 seconds; current allocated memory: 964.718 MB.
+INFO: [HLS 200-100] Command       create_rtl_model returned 0; 1.99 sec.
+INFO: [HLS 200-111]  Elapsed time: 2.67 seconds; current allocated memory: 1002.901 MB.
 INFO: [HLS 200-100] Execute       source /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/astroSim.rtl_wrap.cfg.tcl 
 INFO: [HLS 200-100] Command       ap_source returned 0; 0 sec.
 INFO: [HLS 200-100] Execute       gen_rtl janus_step -style xilinx -tracefl mytrace -tracefmt vcd -traceopt all -f -lang sc -o /home/linsun/XilinxLab/astro/astroSim/solution1/syn/systemc/janus_step -synmodules __hls_fptosi_double_ to_int drift to_double gravity kick janus_step astroSim 
 INFO: [HLS 200-100] Command       gen_rtl returned 0; 0 sec.
 INFO: [HLS 200-100] Execute       gen_rtl janus_step -style xilinx -f -lang vhdl -o /home/linsun/XilinxLab/astro/astroSim/solution1/syn/vhdl/janus_step 
-INFO: [HLS 200-100] Command       gen_rtl returned 0; 0.01 sec.
+INFO: [HLS 200-100] Command       gen_rtl returned 0; 0 sec.
 INFO: [HLS 200-100] Execute       gen_rtl janus_step -style xilinx -f -lang vlog -o /home/linsun/XilinxLab/astro/astroSim/solution1/syn/verilog/janus_step 
 INFO: [HLS 200-100] Command       gen_rtl returned 0; 0.01 sec.
 INFO: [HLS 200-100] Execute       gen_tb_info janus_step -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/janus_step -p /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db 
-INFO: [HLS 200-100] Command       gen_tb_info returned 0; 0.07 sec.
+INFO: [HLS 200-100] Command       gen_tb_info returned 0; 0.06 sec.
 INFO: [HLS 200-100] Execute       report -model janus_step -o /home/linsun/XilinxLab/astro/astroSim/solution1/syn/report/janus_step_csynth.rpt -f 
 INFO: [HLS 200-100] Command       report returned 0; 0.07 sec.
 INFO: [HLS 200-100] Execute       report -model janus_step -o /home/linsun/XilinxLab/astro/astroSim/solution1/syn/report/janus_step_csynth.xml -f -x 
 INFO: [HLS 200-100] Command       report returned 0; 0.07 sec.
 INFO: [HLS 200-100] Execute       report -model janus_step -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/janus_step.verbose.rpt -verbose -f 
-INFO: [HLS 200-100] Command       report returned 0; 1.39 sec.
+INFO: [HLS 200-100] Command       report returned 0; 1.69 sec.
 INFO: [HLS 200-100] Execute       db_write -model janus_step -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/janus_step.adb -f 
 INFO: [HLS 200-100] Command       db_write returned 0; 0.15 sec.
 INFO: [HLS 200-10] ----------------------------------------------------------------
@@ -1192,32 +1196,32 @@ INFO: [RTGEN 206-500] Setting interface mode on function 'astroSim' to 's_axilit
 INFO: [RTGEN 206-100] Bundling port 'return' to AXI-Lite port AXILiteS.
 INFO: [RTGEN 206-104] Estimated max fanout for 'astroSim' is 6925, found 2 HDL expressions with this fanout: ((grp_janus_step_fu_1548_ap_done == 1'b1) & (1'b1 == ap_CS_fsm_state13)), ((1'b1 == ap_CS_fsm_state2) & (grp_to_int_fu_1768_ap_done == 1'b1))
 INFO: [RTGEN 206-100] Finished creating RTL model for 'astroSim'.
-INFO: [HLS 200-100] Command       create_rtl_model returned 0; 2.05 sec.
-INFO: [HLS 200-111]  Elapsed time: 3.9 seconds; current allocated memory: 1001.595 MB.
+INFO: [HLS 200-100] Command       create_rtl_model returned 0; 1.62 sec.
+INFO: [HLS 200-111]  Elapsed time: 3.74 seconds; current allocated memory: 1.015 GB.
 INFO: [HLS 200-100] Execute       source /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/astroSim.rtl_wrap.cfg.tcl 
 INFO: [HLS 200-100] Command       ap_source returned 0; 0 sec.
 INFO: [HLS 200-100] Execute       gen_rtl astroSim -istop -style xilinx -tracefl mytrace -tracefmt vcd -traceopt all -f -lang sc -o /home/linsun/XilinxLab/astro/astroSim/solution1/syn/systemc/astroSim -synmodules __hls_fptosi_double_ to_int drift to_double gravity kick janus_step astroSim 
 INFO: [HLS 200-100] Command       gen_rtl returned 0; 0.01 sec.
 INFO: [HLS 200-100] Execute       gen_rtl astroSim -istop -style xilinx -f -lang vhdl -o /home/linsun/XilinxLab/astro/astroSim/solution1/syn/vhdl/astroSim 
-INFO: [HLS 200-100] Command       gen_rtl returned 0; 0.18 sec.
+INFO: [HLS 200-100] Command       gen_rtl returned 0; 0.15 sec.
 INFO: [HLS 200-100] Execute       gen_rtl astroSim -istop -style xilinx -f -lang vlog -o /home/linsun/XilinxLab/astro/astroSim/solution1/syn/verilog/astroSim 
 INFO: [HLS 200-100] Command       gen_rtl returned 0; 0.09 sec.
 INFO: [HLS 200-100] Execute       export_constraint_db -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/astroSim.constraint.tcl -f -tool general 
 INFO: [HLS 200-100] Command       export_constraint_db returned 0; 0 sec.
 INFO: [HLS 200-100] Execute       report -model astroSim -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/astroSim.design.xml -verbose -f -dv 
-INFO: [HLS 200-100] Command       report returned 0; 1.32 sec.
+INFO: [HLS 200-100] Command       report returned 0; 1.35 sec.
 INFO: [HLS 200-100] Execute       report -model astroSim -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/astroSim.sdaccel.xml -verbose -f -sdaccel 
-INFO: [HLS 200-100] Command       report returned 0; 0.28 sec.
+INFO: [HLS 200-100] Command       report returned 0; 0.23 sec.
 INFO: [HLS 200-100] Execute       gen_tb_info astroSim -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/astroSim -p /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db 
 INFO: [HLS 200-100] Command       gen_tb_info returned 0; 0 sec.
 INFO: [HLS 200-100] Execute       report -model astroSim -o /home/linsun/XilinxLab/astro/astroSim/solution1/syn/report/astroSim_csynth.rpt -f 
-INFO: [HLS 200-100] Command       report returned 0; 0.1 sec.
-INFO: [HLS 200-100] Execute       report -model astroSim -o /home/linsun/XilinxLab/astro/astroSim/solution1/syn/report/astroSim_csynth.xml -f -x 
 INFO: [HLS 200-100] Command       report returned 0; 0.09 sec.
+INFO: [HLS 200-100] Execute       report -model astroSim -o /home/linsun/XilinxLab/astro/astroSim/solution1/syn/report/astroSim_csynth.xml -f -x 
+INFO: [HLS 200-100] Command       report returned 0; 0.07 sec.
 INFO: [HLS 200-100] Execute       report -model astroSim -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/astroSim.verbose.rpt -verbose -f 
 INFO: [HLS 200-100] Command       report returned 0; 2.41 sec.
 INFO: [HLS 200-100] Execute       db_write -model astroSim -o /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/astroSim.adb -f 
-INFO: [HLS 200-100] Command       db_write returned 0; 0.36 sec.
+INFO: [HLS 200-100] Command       db_write returned 0; 0.31 sec.
 INFO: [HLS 200-100] Execute       sc_get_clocks astroSim 
 INFO: [HLS 200-100] Command       sc_get_clocks returned 0; 0 sec.
 INFO: [HLS 200-100] Execute       sc_get_portdomain astroSim 
@@ -1269,6 +1273,8 @@ INFO: [HLS 200-0] Found component astroSim_dsub_64nhbi.
 INFO: [HLS 200-0] Append model astroSim_dsub_64nhbi
 INFO: [HLS 200-0] Found component astroSim_dadd_64nibs.
 INFO: [HLS 200-0] Append model astroSim_dadd_64nibs
+INFO: [HLS 200-0] Found component astroSim_dsqrt_64jbC.
+INFO: [HLS 200-0] Append model astroSim_dsqrt_64jbC
 INFO: [HLS 200-100] Command       ap_source returned 0; 0 sec.
 INFO: [HLS 200-0] Handling components in module [kick] ... 
 INFO: [HLS 200-100] Execute       source /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/kick.compgen.tcl 
@@ -1310,7 +1316,7 @@ INFO: [HLS 200-0] Append model kick
 INFO: [HLS 200-0] Append model janus_step
 INFO: [HLS 200-0] Append model astroSim
 INFO: [HLS 200-0] Generating RTL model list ...
-INFO: [HLS 200-0] All models in this session: astroSim_ddiv_64nbkb astroSim_mux_164_cud astroSim_dmul_64ndEe astroSim_sitodp_6eOg astroSim_mux_164_fYi astroSim_mux_164_fYi astroSim_mux_164_fYi astroSim_mux_164_fYi astroSim_mux_164_fYi astroSim_mux_164_fYi astroSim_mux_164_fYi astroSim_mux_164_fYi astroSim_mux_164_fYi astroSim_dadddsubg8j astroSim_dsub_64nhbi astroSim_dadd_64nibs astroSim_AXILiteS_s_axi astroSim_result_x_m_axi astroSim_result_y_m_axi astroSim_result_z_m_axi astroSim_result_vx_m_axi astroSim_result_vy_m_axi astroSim_result_vz_m_axi astroSim_result_ax_m_axi astroSim_result_ay_m_axi astroSim_result_az_m_axi astroSim_result_m_m_axi p_hls_fptosi_double_s to_int drift to_double gravity kick janus_step astroSim
+INFO: [HLS 200-0] All models in this session: astroSim_ddiv_64nbkb astroSim_mux_164_cud astroSim_dmul_64ndEe astroSim_sitodp_6eOg astroSim_mux_164_fYi astroSim_mux_164_fYi astroSim_mux_164_fYi astroSim_mux_164_fYi astroSim_mux_164_fYi astroSim_mux_164_fYi astroSim_mux_164_fYi astroSim_mux_164_fYi astroSim_mux_164_fYi astroSim_dadddsubg8j astroSim_dsub_64nhbi astroSim_dadd_64nibs astroSim_dsqrt_64jbC astroSim_AXILiteS_s_axi astroSim_result_x_m_axi astroSim_result_y_m_axi astroSim_result_z_m_axi astroSim_result_vx_m_axi astroSim_result_vy_m_axi astroSim_result_vz_m_axi astroSim_result_ax_m_axi astroSim_result_ay_m_axi astroSim_result_az_m_axi astroSim_result_m_m_axi p_hls_fptosi_double_s to_int drift to_double gravity kick janus_step astroSim
 INFO: [HLS 200-0] To file: write model astroSim_ddiv_64nbkb
 INFO: [HLS 200-0] To file: write model astroSim_mux_164_cud
 INFO: [HLS 200-0] To file: write model astroSim_dmul_64ndEe
@@ -1327,6 +1333,7 @@ INFO: [HLS 200-0] To file: write model astroSim_mux_164_fYi
 INFO: [HLS 200-0] To file: write model astroSim_dadddsubg8j
 INFO: [HLS 200-0] To file: write model astroSim_dsub_64nhbi
 INFO: [HLS 200-0] To file: write model astroSim_dadd_64nibs
+INFO: [HLS 200-0] To file: write model astroSim_dsqrt_64jbC
 INFO: [HLS 200-0] To file: write model astroSim_AXILiteS_s_axi
 INFO: [HLS 200-0] To file: write model astroSim_result_x_m_axi
 INFO: [HLS 200-0] To file: write model astroSim_result_y_m_axi
@@ -1359,7 +1366,7 @@ INFO: [HLS 200-100] Command       ap_source returned 0; 0 sec.
 INFO: [HLS 200-100] Execute       source /home/linsun/Xilinx/Vivado_HLS/2017.1/common/technology/generic/autopilot/common.gen 
 INFO: [HLS 200-100] Execute         source /home/linsun/Xilinx/Vivado_HLS/2017.1/common/technology/generic/autopilot/APCoreGen.gen 
 INFO: [HLS 200-100] Command         ap_source returned 0; 0 sec.
-INFO: [HLS 200-100] Command       ap_source returned 0; 0 sec.
+INFO: [HLS 200-100] Command       ap_source returned 0; 0.01 sec.
 INFO: [HLS 200-100] Execute       source /home/linsun/Xilinx/Vivado_HLS/2017.1/common/technology/generic/autopilot/op.gen 
 INFO: [HLS 200-100] Command       ap_source returned 0; 0 sec.
 INFO: [HLS 200-100] Execute       source /home/linsun/Xilinx/Vivado_HLS/2017.1/common/technology/generic/autopilot/op_simcore.gen 
@@ -1384,22 +1391,22 @@ INFO: [HLS 200-100] Execute               source /home/linsun/Xilinx/Vivado_HLS/
 INFO: [HLS 200-100] Command               ap_source returned 0; 0.01 sec.
 INFO: [HLS 200-100] Command             ap_source returned 0; 0.01 sec.
 INFO: [HLS 200-100] Execute             source /home/linsun/Xilinx/Vivado_HLS/2017.1/common/technology/xilinx/scripts/xilinxcoregen.gen 
-INFO: [HLS 200-100] Command             ap_source returned 0; 0.01 sec.
-INFO: [HLS 200-100] Execute             source /home/linsun/Xilinx/Vivado_HLS/2017.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
 INFO: [HLS 200-100] Command             ap_source returned 0; 0 sec.
+INFO: [HLS 200-100] Execute             source /home/linsun/Xilinx/Vivado_HLS/2017.1/common/technology/xilinx/interface/XilEDKCoreGen.gen 
+INFO: [HLS 200-100] Command             ap_source returned 0; 0.01 sec.
 INFO: [HLS 200-100] Execute             source /home/linsun/Xilinx/Vivado_HLS/2017.1/common/technology/xilinx/ip/xfir.gen 
 INFO: [HLS 200-100] Command             ap_source returned 0; 0 sec.
 INFO: [HLS 200-100] Execute             source /home/linsun/Xilinx/Vivado_HLS/2017.1/common/technology/xilinx/ip/dds_compiler.gen 
-INFO: [HLS 200-100] Command             ap_source returned 0; 0.01 sec.
+INFO: [HLS 200-100] Command             ap_source returned 0; 0 sec.
 INFO: [HLS 200-100] Execute             source /home/linsun/Xilinx/Vivado_HLS/2017.1/common/technology/xilinx/ip/util.gen 
 INFO: [HLS 200-100] Command             ap_source returned 0; 0 sec.
 INFO: [HLS 200-100] Execute             source /home/linsun/Xilinx/Vivado_HLS/2017.1/common/technology/xilinx/ip/xfft.gen 
-INFO: [HLS 200-100] Command             ap_source returned 0; 0.07 sec.
-INFO: [HLS 200-100] Command           ap_source returned 0; 0.1 sec.
+INFO: [HLS 200-100] Command             ap_source returned 0; 0.06 sec.
+INFO: [HLS 200-100] Command           ap_source returned 0; 0.08 sec.
 INFO: [HLS 200-100] Execute           source /home/linsun/Xilinx/Vivado_HLS/2017.1/common/technology/xilinx/common/dsp48.gen 
 INFO: [HLS 200-100] Command           ap_source returned 0; 0 sec.
-INFO: [HLS 200-100] Command         ap_source returned 0; 0.1 sec.
-INFO: [HLS 200-100] Command       ap_source returned 0; 0.1 sec.
+INFO: [HLS 200-100] Command         ap_source returned 0; 0.09 sec.
+INFO: [HLS 200-100] Command       ap_source returned 0; 0.09 sec.
 INFO: [HLS 200-100] Execute       source /home/linsun/Xilinx/Vivado_HLS/2017.1/common/technology/xilinx/zynquplus/zynquplus_fpv7.gen 
 INFO: [HLS 200-100] Execute         source /home/linsun/Xilinx/Vivado_HLS/2017.1/common/technology/xilinx/common/xilinx_fpv6.gen 
 INFO: [HLS 200-100] Command         ap_source returned 0; 0 sec.
@@ -1415,13 +1422,13 @@ INFO: [HLS 200-100] Command       ap_source returned 0; 0 sec.
 INFO: [HLS 200-100] Execute       source /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/p_hls_fptosi_double_s.compgen.tcl 
 INFO: [HLS 200-100] Command       ap_source returned 0; 0 sec.
 INFO: [HLS 200-100] Execute       source /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/to_int.compgen.tcl 
-INFO: [HLS 200-100] Command       ap_source returned 0; 0.02 sec.
+INFO: [HLS 200-100] Command       ap_source returned 0; 0.01 sec.
 INFO: [HLS 200-100] Execute       source /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/drift.compgen.tcl 
 INFO: [HLS 200-100] Command       ap_source returned 0; 0.02 sec.
 INFO: [HLS 200-100] Execute       source /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/to_double.compgen.tcl 
 INFO: [HLS 200-100] Command       ap_source returned 0; 0.02 sec.
 INFO: [HLS 200-100] Execute       source /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/gravity.compgen.tcl 
-INFO: [HLS 200-100] Command       ap_source returned 0; 0.03 sec.
+INFO: [HLS 200-100] Command       ap_source returned 0; 0.06 sec.
 INFO: [HLS 200-100] Execute       source /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/kick.compgen.tcl 
 INFO: [HLS 200-100] Command       ap_source returned 0; 0 sec.
 INFO: [HLS 200-100] Execute       source /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/janus_step.compgen.tcl 
@@ -1429,13 +1436,13 @@ INFO: [HLS 200-100] Command       ap_source returned 0; 0 sec.
 INFO: [HLS 200-100] Execute       source /home/linsun/XilinxLab/astro/astroSim/solution1/.autopilot/db/astroSim.compgen.tcl 
 INFO: [HLS 200-100] Execute         source ./AXILiteS.slave.tcl 
 INFO: [HLS 200-100] Command         ap_source returned 0; 0 sec.
-INFO: [HLS 200-100] Command       ap_source returned 0; 0.28 sec.
-INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:50 ; elapsed = 00:00:58 . Memory (MB): peak = 1483.488 ; gain = 1147.961 ; free physical = 1742 ; free virtual = 10032
+INFO: [HLS 200-100] Command       ap_source returned 0; 0.26 sec.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:01:01 ; elapsed = 00:01:10 . Memory (MB): peak = 1547.484 ; gain = 1211.961 ; free physical = 1360 ; free virtual = 10111
 INFO: [SYSC 207-301] Generating SystemC RTL for astroSim.
 INFO: [VHDL 208-304] Generating VHDL RTL for astroSim.
 INFO: [VLOG 209-307] Generating Verilog RTL for astroSim.
-INFO: [HLS 200-100] Command     autosyn returned 0; 37.14 sec.
-INFO: [HLS 200-100] Command   csynth_design returned 0; 57.95 sec.
-INFO: [HLS 200-100] Command ap_source returned 0; 58.15 sec.
+INFO: [HLS 200-100] Command     autosyn returned 0; 49.39 sec.
+INFO: [HLS 200-100] Command   csynth_design returned 0; 69.39 sec.
+INFO: [HLS 200-100] Command ap_source returned 0; 69.61 sec.
 INFO: [HLS 200-100] Execute cleanup_all 
-INFO: [HLS 200-100] Command cleanup_all returned 0; 0.27 sec.
+INFO: [HLS 200-100] Command cleanup_all returned 0; 0.21 sec.

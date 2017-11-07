@@ -10,7 +10,7 @@ use ieee.std_logic_1164.all;
 
 entity astroSim_dadd_64nibs is
     generic (
-        ID         : integer := 453;
+        ID         : integer := 459;
         NUM_STAGE  : integer := 4;
         din0_WIDTH : integer := 64;
         din1_WIDTH : integer := 64;

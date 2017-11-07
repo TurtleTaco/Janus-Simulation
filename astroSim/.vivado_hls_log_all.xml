@@ -12,18 +12,20 @@
   <warningLogs>
     <logs>
       <synLog>
-        <logs message="WARNING: [RTGEN 206-101] RTL name 'astroSim_mux_164_cud' is changed to 'astroSim_mux_164_cud_x' due to conflict." projectName="astroSim" solutionName="solution1" date="2017-11-07T11:50:36.145-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] RTL name 'astroSim_ddiv_64nbkb' is changed to 'astroSim_ddiv_64nbkb_x' due to conflict." projectName="astroSim" solutionName="solution1" date="2017-11-07T11:50:36.108-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] RTL name 'astroSim_dmul_64ndEe' is changed to 'astroSim_dmul_64ndEe_x' due to conflict." projectName="astroSim" solutionName="solution1" date="2017-11-07T11:50:35.993-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] RTL name 'astroSim_mux_164_cud' is changed to 'astroSim_mux_164_cud_x' due to conflict." projectName="astroSim" solutionName="solution1" date="2017-11-07T11:50:32.893-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] RTL name 'astroSim_sitodp_6eOg' is changed to 'astroSim_sitodp_6eOg_x' due to conflict." projectName="astroSim" solutionName="solution1" date="2017-11-07T11:50:32.510-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] RTL name 'astroSim_dmul_64ndEe' is changed to 'astroSim_dmul_64ndEe_x' due to conflict." projectName="astroSim" solutionName="solution1" date="2017-11-07T11:50:32.452-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] RTL name 'astroSim_mux_164_cud' is changed to 'astroSim_mux_164_cud_x' due to conflict." projectName="astroSim" solutionName="solution1" date="2017-11-07T11:50:31.369-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] RTL name 'astroSim_ddiv_64nbkb' is changed to 'astroSim_ddiv_64nbkb_x' due to conflict." projectName="astroSim" solutionName="solution1" date="2017-11-07T11:50:31.205-0500" type="Warning"/>
-        <logs message="WARNING: [SYN 201-103] Legalizing function name '__hls_fptosi_double_' to 'p_hls_fptosi_double_s'." projectName="astroSim" solutionName="solution1" date="2017-11-07T11:50:11.453-0500" type="Warning"/>
-        <logs message="WARNING: [XFORM 203-631] Renaming function '__hls_fptosi_double_i64' (/wrk/2017.1/nightly/2017_04_14_1846317/src/products/hls/hls_lib/src/lib_floatconversion.cpp:48:56) into __hls_fptosi_double_." projectName="astroSim" solutionName="solution1" date="2017-11-07T11:50:09.336-0500" type="Warning"/>
-        <logs message="WARNING: [XFORM 203-561] Updating loop lower bound from 629 to 628 for loop 'LOOP_X' in function 'astroSim'." projectName="astroSim" solutionName="solution1" date="2017-11-07T11:50:05.068-0500" type="Warning"/>
-        <logs message="WARNING: [XFORM 203-561] Updating loop upper bound from 629 to 628 for loop 'LOOP_X' in function 'astroSim'." projectName="astroSim" solutionName="solution1" date="2017-11-07T11:50:05.045-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] RTL name 'astroSim_mux_164_cud' is changed to 'astroSim_mux_164_cud_x' due to conflict." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:02:41.693-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] RTL name 'astroSim_ddiv_64nbkb' is changed to 'astroSim_ddiv_64nbkb_x' due to conflict." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:02:41.595-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] RTL name 'astroSim_dmul_64ndEe' is changed to 'astroSim_dmul_64ndEe_x' due to conflict." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:02:41.590-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] RTL name 'astroSim_ddiv_64nbkb' is changed to 'astroSim_ddiv_64nbkb_x' due to conflict." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:02:37.464-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] RTL name 'astroSim_dmul_64ndEe' is changed to 'astroSim_dmul_64ndEe_x' due to conflict." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:02:37.458-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] RTL name 'astroSim_mux_164_cud' is changed to 'astroSim_mux_164_cud_x' due to conflict." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:02:35.718-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] RTL name 'astroSim_sitodp_6eOg' is changed to 'astroSim_sitodp_6eOg_x' due to conflict." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:02:35.414-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] RTL name 'astroSim_dmul_64ndEe' is changed to 'astroSim_dmul_64ndEe_x' due to conflict." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:02:35.408-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] RTL name 'astroSim_mux_164_cud' is changed to 'astroSim_mux_164_cud_x' due to conflict." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:02:34.462-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] RTL name 'astroSim_ddiv_64nbkb' is changed to 'astroSim_ddiv_64nbkb_x' due to conflict." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:02:34.343-0500" type="Warning"/>
+        <logs message="WARNING: [SYN 201-103] Legalizing function name '__hls_fptosi_double_' to 'p_hls_fptosi_double_s'." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:02:04.312-0500" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-631] Renaming function '__hls_fptosi_double_i64' (/wrk/2017.1/nightly/2017_04_14_1846317/src/products/hls/hls_lib/src/lib_floatconversion.cpp:48:56) into __hls_fptosi_double_." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:02:01.934-0500" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-561] Updating loop lower bound from 629 to 628 for loop 'LOOP_X' in function 'astroSim'." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:01:57.554-0500" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-561] Updating loop upper bound from 629 to 628 for loop 'LOOP_X' in function 'astroSim'." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:01:57.528-0500" type="Warning"/>
       </synLog>
       <simLog/>
       <mgLog/>

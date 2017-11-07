@@ -11122,7 +11122,7 @@
 					<Obj>
 						<type>0</type>
 						<id>329</id>
-						<name>p_int_vx_assign_4</name>
+						<name>p_int_vx_assign_3</name>
 						<fileName>astro.c</fileName>
 						<fileDirectory>/home/linsun/XilinxLab/astro</fileDirectory>
 						<lineNumber>86</lineNumber>
@@ -11164,7 +11164,7 @@
 					<Obj>
 						<type>0</type>
 						<id>330</id>
-						<name>p_int_vx25_assign_4</name>
+						<name>p_int_vx25_assign_3</name>
 						<fileName>astro.c</fileName>
 						<fileDirectory>/home/linsun/XilinxLab/astro</fileDirectory>
 						<lineNumber>86</lineNumber>
@@ -11206,7 +11206,7 @@
 					<Obj>
 						<type>0</type>
 						<id>331</id>
-						<name>p_int_vx26_assign_4</name>
+						<name>p_int_vx26_assign_3</name>
 						<fileName>astro.c</fileName>
 						<fileDirectory>/home/linsun/XilinxLab/astro</fileDirectory>
 						<lineNumber>86</lineNumber>
@@ -11248,7 +11248,7 @@
 					<Obj>
 						<type>0</type>
 						<id>332</id>
-						<name>p_int_vx27_assign_4</name>
+						<name>p_int_vx27_assign_3</name>
 						<fileName>astro.c</fileName>
 						<fileDirectory>/home/linsun/XilinxLab/astro</fileDirectory>
 						<lineNumber>86</lineNumber>
@@ -11290,7 +11290,7 @@
 					<Obj>
 						<type>0</type>
 						<id>333</id>
-						<name>p_int_vx28_assign_4</name>
+						<name>p_int_vx28_assign_3</name>
 						<fileName>astro.c</fileName>
 						<fileDirectory>/home/linsun/XilinxLab/astro</fileDirectory>
 						<lineNumber>86</lineNumber>
@@ -11332,7 +11332,7 @@
 					<Obj>
 						<type>0</type>
 						<id>334</id>
-						<name>p_int_vx29_assign_4</name>
+						<name>p_int_vx29_assign_3</name>
 						<fileName>astro.c</fileName>
 						<fileDirectory>/home/linsun/XilinxLab/astro</fileDirectory>
 						<lineNumber>86</lineNumber>
@@ -11374,7 +11374,7 @@
 					<Obj>
 						<type>0</type>
 						<id>335</id>
-						<name>p_int_vx30_assign_4</name>
+						<name>p_int_vx30_assign_3</name>
 						<fileName>astro.c</fileName>
 						<fileDirectory>/home/linsun/XilinxLab/astro</fileDirectory>
 						<lineNumber>86</lineNumber>
@@ -11416,7 +11416,7 @@
 					<Obj>
 						<type>0</type>
 						<id>336</id>
-						<name>p_int_vx3138_assign_4</name>
+						<name>p_int_vx3138_assign_3</name>
 						<fileName>astro.c</fileName>
 						<fileDirectory>/home/linsun/XilinxLab/astro</fileDirectory>
 						<lineNumber>86</lineNumber>
@@ -11458,7 +11458,7 @@
 					<Obj>
 						<type>0</type>
 						<id>337</id>
-						<name>p_int_vx32_assign_4</name>
+						<name>p_int_vx32_assign_3</name>
 						<fileName>astro.c</fileName>
 						<fileDirectory>/home/linsun/XilinxLab/astro</fileDirectory>
 						<lineNumber>86</lineNumber>
@@ -11500,7 +11500,7 @@
 					<Obj>
 						<type>0</type>
 						<id>338</id>
-						<name>p_int_vy_assign_4</name>
+						<name>p_int_vy_assign_3</name>
 						<fileName>astro.c</fileName>
 						<fileDirectory>/home/linsun/XilinxLab/astro</fileDirectory>
 						<lineNumber>86</lineNumber>
@@ -11542,7 +11542,7 @@
 					<Obj>
 						<type>0</type>
 						<id>339</id>
-						<name>p_int_vy33_assign_4</name>
+						<name>p_int_vy33_assign_3</name>
 						<fileName>astro.c</fileName>
 						<fileDirectory>/home/linsun/XilinxLab/astro</fileDirectory>
 						<lineNumber>86</lineNumber>
@@ -11584,7 +11584,7 @@
 					<Obj>
 						<type>0</type>
 						<id>340</id>
-						<name>p_int_vy34_assign_4</name>
+						<name>p_int_vy34_assign_3</name>
 						<fileName>astro.c</fileName>
 						<fileDirectory>/home/linsun/XilinxLab/astro</fileDirectory>
 						<lineNumber>86</lineNumber>
@@ -11626,7 +11626,7 @@
 					<Obj>
 						<type>0</type>
 						<id>341</id>
-						<name>p_int_vy35_assign_4</name>
+						<name>p_int_vy35_assign_3</name>
 						<fileName>astro.c</fileName>
 						<fileDirectory>/home/linsun/XilinxLab/astro</fileDirectory>
 						<lineNumber>86</lineNumber>
@@ -11668,7 +11668,7 @@
 					<Obj>
 						<type>0</type>
 						<id>342</id>
-						<name>p_int_vy36_assign_4</name>
+						<name>p_int_vy36_assign_3</name>
 						<fileName>astro.c</fileName>
 						<fileDirectory>/home/linsun/XilinxLab/astro</fileDirectory>
 						<lineNumber>86</lineNumber>
@@ -11710,7 +11710,7 @@
 					<Obj>
 						<type>0</type>
 						<id>343</id>
-						<name>p_int_vy37_assign_4</name>
+						<name>p_int_vy37_assign_3</name>
 						<fileName>astro.c</fileName>
 						<fileDirectory>/home/linsun/XilinxLab/astro</fileDirectory>
 						<lineNumber>86</lineNumber>
@@ -11752,7 +11752,7 @@
 					<Obj>
 						<type>0</type>
 						<id>344</id>
-						<name>p_int_vy38_assign_4</name>
+						<name>p_int_vy38_assign_3</name>
 						<fileName>astro.c</fileName>
 						<fileDirectory>/home/linsun/XilinxLab/astro</fileDirectory>
 						<lineNumber>86</lineNumber>
@@ -11794,7 +11794,7 @@
 					<Obj>
 						<type>0</type>
 						<id>345</id>
-						<name>p_int_vy39_assign_4</name>
+						<name>p_int_vy39_assign_3</name>
 						<fileName>astro.c</fileName>
 						<fileDirectory>/home/linsun/XilinxLab/astro</fileDirectory>
 						<lineNumber>86</lineNumber>
@@ -11836,7 +11836,7 @@
 					<Obj>
 						<type>0</type>
 						<id>346</id>
-						<name>p_int_vy40_assign_4</name>
+						<name>p_int_vy40_assign_3</name>
 						<fileName>astro.c</fileName>
 						<fileDirectory>/home/linsun/XilinxLab/astro</fileDirectory>
 						<lineNumber>86</lineNumber>
@@ -11878,7 +11878,7 @@
 					<Obj>
 						<type>0</type>
 						<id>347</id>
-						<name>p_int_vz_assign_4</name>
+						<name>p_int_vz_assign_3</name>
 						<fileName>astro.c</fileName>
 						<fileDirectory>/home/linsun/XilinxLab/astro</fileDirectory>
 						<lineNumber>86</lineNumber>
@@ -11920,7 +11920,7 @@
 					<Obj>
 						<type>0</type>
 						<id>348</id>
-						<name>p_int_vz41_assign_4</name>
+						<name>p_int_vz41_assign_3</name>
 						<fileName>astro.c</fileName>
 						<fileDirectory>/home/linsun/XilinxLab/astro</fileDirectory>
 						<lineNumber>86</lineNumber>
@@ -11962,7 +11962,7 @@
 					<Obj>
 						<type>0</type>
 						<id>349</id>
-						<name>p_int_vz42_assign_4</name>
+						<name>p_int_vz42_assign_3</name>
 						<fileName>astro.c</fileName>
 						<fileDirectory>/home/linsun/XilinxLab/astro</fileDirectory>
 						<lineNumber>86</lineNumber>
@@ -12004,7 +12004,7 @@
 					<Obj>
 						<type>0</type>
 						<id>350</id>
-						<name>p_int_vz43_assign_4</name>
+						<name>p_int_vz43_assign_3</name>
 						<fileName>astro.c</fileName>
 						<fileDirectory>/home/linsun/XilinxLab/astro</fileDirectory>
 						<lineNumber>86</lineNumber>
@@ -12046,7 +12046,7 @@
 					<Obj>
 						<type>0</type>
 						<id>351</id>
-						<name>p_int_vz44_assign_4</name>
+						<name>p_int_vz44_assign_3</name>
 						<fileName>astro.c</fileName>
 						<fileDirectory>/home/linsun/XilinxLab/astro</fileDirectory>
 						<lineNumber>86</lineNumber>
@@ -12088,7 +12088,7 @@
 					<Obj>
 						<type>0</type>
 						<id>352</id>
-						<name>p_int_vz45_assign_4</name>
+						<name>p_int_vz45_assign_3</name>
 						<fileName>astro.c</fileName>
 						<fileDirectory>/home/linsun/XilinxLab/astro</fileDirectory>
 						<lineNumber>86</lineNumber>
@@ -12130,7 +12130,7 @@
 					<Obj>
 						<type>0</type>
 						<id>353</id>
-						<name>p_int_vz46_assign_4</name>
+						<name>p_int_vz46_assign_3</name>
 						<fileName>astro.c</fileName>
 						<fileDirectory>/home/linsun/XilinxLab/astro</fileDirectory>
 						<lineNumber>86</lineNumber>
@@ -12172,7 +12172,7 @@
 					<Obj>
 						<type>0</type>
 						<id>354</id>
-						<name>p_int_vz47_assign_4</name>
+						<name>p_int_vz47_assign_3</name>
 						<fileName>astro.c</fileName>
 						<fileDirectory>/home/linsun/XilinxLab/astro</fileDirectory>
 						<lineNumber>86</lineNumber>
@@ -12214,7 +12214,7 @@
 					<Obj>
 						<type>0</type>
 						<id>355</id>
-						<name>p_int_vz48_assign_4</name>
+						<name>p_int_vz48_assign_3</name>
 						<fileName>astro.c</fileName>
 						<fileDirectory>/home/linsun/XilinxLab/astro</fileDirectory>
 						<lineNumber>86</lineNumber>
@@ -12352,7 +12352,7 @@
 					<Obj>
 						<type>0</type>
 						<id>357</id>
-						<name>p_int_x_assign_2</name>
+						<name>p_int_x_assign_1</name>
 						<fileName>astro.c</fileName>
 						<fileDirectory>/home/linsun/XilinxLab/astro</fileDirectory>
 						<lineNumber>88</lineNumber>
@@ -12394,7 +12394,7 @@
 					<Obj>
 						<type>0</type>
 						<id>358</id>
-						<name>p_int_x12_assign_2</name>
+						<name>p_int_x12_assign_1</name>
 						<fileName>astro.c</fileName>
 						<fileDirectory>/home/linsun/XilinxLab/astro</fileDirectory>
 						<lineNumber>88</lineNumber>
@@ -12436,7 +12436,7 @@
 					<Obj>
 						<type>0</type>
 						<id>359</id>
-						<name>p_int_x2_assign_2</name>
+						<name>p_int_x2_assign_1</name>
 						<fileName>astro.c</fileName>
 						<fileDirectory>/home/linsun/XilinxLab/astro</fileDirectory>
 						<lineNumber>88</lineNumber>
@@ -12478,7 +12478,7 @@
 					<Obj>
 						<type>0</type>
 						<id>360</id>
-						<name>p_int_x3_assign_2</name>
+						<name>p_int_x3_assign_1</name>
 						<fileName>astro.c</fileName>
 						<fileDirectory>/home/linsun/XilinxLab/astro</fileDirectory>
 						<lineNumber>88</lineNumber>
@@ -12520,7 +12520,7 @@
 					<Obj>
 						<type>0</type>
 						<id>361</id>
-						<name>p_int_x4_assign_2</name>
+						<name>p_int_x4_assign_1</name>
 						<fileName>astro.c</fileName>
 						<fileDirectory>/home/linsun/XilinxLab/astro</fileDirectory>
 						<lineNumber>88</lineNumber>
@@ -12562,7 +12562,7 @@
 					<Obj>
 						<type>0</type>
 						<id>362</id>
-						<name>p_int_x5_assign_2</name>
+						<name>p_int_x5_assign_1</name>
 						<fileName>astro.c</fileName>
 						<fileDirectory>/home/linsun/XilinxLab/astro</fileDirectory>
 						<lineNumber>88</lineNumber>
@@ -12604,7 +12604,7 @@
 					<Obj>
 						<type>0</type>
 						<id>363</id>
-						<name>p_int_x6_assign_2</name>
+						<name>p_int_x6_assign_1</name>
 						<fileName>astro.c</fileName>
 						<fileDirectory>/home/linsun/XilinxLab/astro</fileDirectory>
 						<lineNumber>88</lineNumber>
@@ -12646,7 +12646,7 @@
 					<Obj>
 						<type>0</type>
 						<id>364</id>
-						<name>p_int_x7_assign_2</name>
+						<name>p_int_x7_assign_1</name>
 						<fileName>astro.c</fileName>
 						<fileDirectory>/home/linsun/XilinxLab/astro</fileDirectory>
 						<lineNumber>88</lineNumber>
@@ -12688,7 +12688,7 @@
 					<Obj>
 						<type>0</type>
 						<id>365</id>
-						<name>p_int_x8_assign_2</name>
+						<name>p_int_x8_assign_1</name>
 						<fileName>astro.c</fileName>
 						<fileDirectory>/home/linsun/XilinxLab/astro</fileDirectory>
 						<lineNumber>88</lineNumber>
@@ -12730,7 +12730,7 @@
 					<Obj>
 						<type>0</type>
 						<id>366</id>
-						<name>p_int_y_assign_2</name>
+						<name>p_int_y_assign_1</name>
 						<fileName>astro.c</fileName>
 						<fileDirectory>/home/linsun/XilinxLab/astro</fileDirectory>
 						<lineNumber>88</lineNumber>
@@ -12772,7 +12772,7 @@
 					<Obj>
 						<type>0</type>
 						<id>367</id>
-						<name>p_int_y9_assign_2</name>
+						<name>p_int_y9_assign_1</name>
 						<fileName>astro.c</fileName>
 						<fileDirectory>/home/linsun/XilinxLab/astro</fileDirectory>
 						<lineNumber>88</lineNumber>
@@ -12814,7 +12814,7 @@
 					<Obj>
 						<type>0</type>
 						<id>368</id>
-						<name>p_int_y10_assign_2</name>
+						<name>p_int_y10_assign_1</name>
 						<fileName>astro.c</fileName>
 						<fileDirectory>/home/linsun/XilinxLab/astro</fileDirectory>
 						<lineNumber>88</lineNumber>
@@ -12856,7 +12856,7 @@
 					<Obj>
 						<type>0</type>
 						<id>369</id>
-						<name>p_int_y1114_assign_2</name>
+						<name>p_int_y1114_assign_1</name>
 						<fileName>astro.c</fileName>
 						<fileDirectory>/home/linsun/XilinxLab/astro</fileDirectory>
 						<lineNumber>88</lineNumber>
@@ -12898,7 +12898,7 @@
 					<Obj>
 						<type>0</type>
 						<id>370</id>
-						<name>p_int_y12_assign_2</name>
+						<name>p_int_y12_assign_1</name>
 						<fileName>astro.c</fileName>
 						<fileDirectory>/home/linsun/XilinxLab/astro</fileDirectory>
 						<lineNumber>88</lineNumber>
@@ -12940,7 +12940,7 @@
 					<Obj>
 						<type>0</type>
 						<id>371</id>
-						<name>p_int_y13_assign_2</name>
+						<name>p_int_y13_assign_1</name>
 						<fileName>astro.c</fileName>
 						<fileDirectory>/home/linsun/XilinxLab/astro</fileDirectory>
 						<lineNumber>88</lineNumber>
@@ -12982,7 +12982,7 @@
 					<Obj>
 						<type>0</type>
 						<id>372</id>
-						<name>p_int_y14_assign_2</name>
+						<name>p_int_y14_assign_1</name>
 						<fileName>astro.c</fileName>
 						<fileDirectory>/home/linsun/XilinxLab/astro</fileDirectory>
 						<lineNumber>88</lineNumber>
@@ -13024,7 +13024,7 @@
 					<Obj>
 						<type>0</type>
 						<id>373</id>
-						<name>p_int_y15_assign_2</name>
+						<name>p_int_y15_assign_1</name>
 						<fileName>astro.c</fileName>
 						<fileDirectory>/home/linsun/XilinxLab/astro</fileDirectory>
 						<lineNumber>88</lineNumber>
@@ -13066,7 +13066,7 @@
 					<Obj>
 						<type>0</type>
 						<id>374</id>
-						<name>p_int_y16_assign_2</name>
+						<name>p_int_y16_assign_1</name>
 						<fileName>astro.c</fileName>
 						<fileDirectory>/home/linsun/XilinxLab/astro</fileDirectory>
 						<lineNumber>88</lineNumber>
@@ -13108,7 +13108,7 @@
 					<Obj>
 						<type>0</type>
 						<id>375</id>
-						<name>p_int_z_assign_2</name>
+						<name>p_int_z_assign_1</name>
 						<fileName>astro.c</fileName>
 						<fileDirectory>/home/linsun/XilinxLab/astro</fileDirectory>
 						<lineNumber>88</lineNumber>
@@ -13150,7 +13150,7 @@
 					<Obj>
 						<type>0</type>
 						<id>376</id>
-						<name>p_int_z17_assign_2</name>
+						<name>p_int_z17_assign_1</name>
 						<fileName>astro.c</fileName>
 						<fileDirectory>/home/linsun/XilinxLab/astro</fileDirectory>
 						<lineNumber>88</lineNumber>
@@ -13192,7 +13192,7 @@
 					<Obj>
 						<type>0</type>
 						<id>377</id>
-						<name>p_int_z18_assign_2</name>
+						<name>p_int_z18_assign_1</name>
 						<fileName>astro.c</fileName>
 						<fileDirectory>/home/linsun/XilinxLab/astro</fileDirectory>
 						<lineNumber>88</lineNumber>
@@ -13234,7 +13234,7 @@
 					<Obj>
 						<type>0</type>
 						<id>378</id>
-						<name>p_int_z19_assign_2</name>
+						<name>p_int_z19_assign_1</name>
 						<fileName>astro.c</fileName>
 						<fileDirectory>/home/linsun/XilinxLab/astro</fileDirectory>
 						<lineNumber>88</lineNumber>
@@ -13276,7 +13276,7 @@
 					<Obj>
 						<type>0</type>
 						<id>379</id>
-						<name>p_int_z20_assign_2</name>
+						<name>p_int_z20_assign_1</name>
 						<fileName>astro.c</fileName>
 						<fileDirectory>/home/linsun/XilinxLab/astro</fileDirectory>
 						<lineNumber>88</lineNumber>
@@ -13318,7 +13318,7 @@
 					<Obj>
 						<type>0</type>
 						<id>380</id>
-						<name>p_int_z2126_assign_2</name>
+						<name>p_int_z2126_assign_1</name>
 						<fileName>astro.c</fileName>
 						<fileDirectory>/home/linsun/XilinxLab/astro</fileDirectory>
 						<lineNumber>88</lineNumber>
@@ -13360,7 +13360,7 @@
 					<Obj>
 						<type>0</type>
 						<id>381</id>
-						<name>p_int_z22_assign_2</name>
+						<name>p_int_z22_assign_1</name>
 						<fileName>astro.c</fileName>
 						<fileDirectory>/home/linsun/XilinxLab/astro</fileDirectory>
 						<lineNumber>88</lineNumber>
@@ -13402,7 +13402,7 @@
 					<Obj>
 						<type>0</type>
 						<id>382</id>
-						<name>p_int_z23_assign_2</name>
+						<name>p_int_z23_assign_1</name>
 						<fileName>astro.c</fileName>
 						<fileDirectory>/home/linsun/XilinxLab/astro</fileDirectory>
 						<lineNumber>88</lineNumber>
@@ -13444,7 +13444,7 @@
 					<Obj>
 						<type>0</type>
 						<id>383</id>
-						<name>p_int_z24_assign_2</name>
+						<name>p_int_z24_assign_1</name>
 						<fileName>astro.c</fileName>
 						<fileDirectory>/home/linsun/XilinxLab/astro</fileDirectory>
 						<lineNumber>88</lineNumber>
@@ -27915,7 +27915,7 @@
 			<mDepth>-1</mDepth>
 			<mMinTripCount>-1</mMinTripCount>
 			<mMaxTripCount>-1</mMaxTripCount>
-			<mMinLatency>156</mMinLatency>
+			<mMinLatency>215</mMinLatency>
 			<mMaxLatency>-1</mMaxLatency>
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>

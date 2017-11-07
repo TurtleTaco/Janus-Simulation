@@ -66,9 +66,9 @@ static void gravity(struct reb_particle* p){
                 const double dx = p[i].x - p[j].x;
                 const double dy = p[i].y - p[j].y;
                 const double dz = p[i].z - p[j].z;
-                //const double _r = sqrt(dx*dx + dy*dy + dz*dz);
-                //const double prefact = -1/(_r*_r*_r)*p[j].m;
-                const double prefact = 1;
+                const double _r = sqrt(dx*dx + dy*dy + dz*dz);
+                const double prefact = -1/(_r*_r*_r)*p[j].m;
+
                 p[i].ax += prefact*dx;
                 p[i].ay += prefact*dy;
                 p[i].az += prefact*dz;

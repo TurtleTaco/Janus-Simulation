@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'astroSim'" level="0">
-<item name = "Date">Tue Nov  7 11:50:45 2017
+<item name = "Date">Tue Nov  7 14:02:50 2017
 </item>
 <item name = "Version">2017.1 (Build 1846317 on Fri Apr 14 19:19:38 MDT 2017)</item>
 <item name = "Project">astroSim</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">10.00, 9.19, 1.25</column>
+<column name="ap_clk">10.00, 9.49, 1.25</column>
 </table>
 </item>
 </section>
@@ -24,20 +24,20 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="6">, min, max, min, max, Type</keys>
-<column name="">992941, 992941, 992942, 992942, none</column>
+<column name="">1363461, 1363461, 1363462, 1363462, none</column>
 </table>
 </item>
 <item name = "Detail">
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="7">Instance, Module, min, max, min, max, Type</keys>
-<column name="grp_janus_step_fu_1548">janus_step, 157, 157, 157, 157, none</column>
+<column name="grp_janus_step_fu_1548">janus_step, 216, 216, 216, 216, none</column>
 <column name="grp_to_int_fu_1768">to_int, 55, 55, 55, 55, none</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
-<column name="- LOOP_X">992872, 992872, 1581, -, -, 628, no</column>
+<column name="- LOOP_X">1363392, 1363392, 2171, -, -, 628, no</column>
 <column name="- memcpy.result.m.p.x.addr">6, 6, 2, 1, 1, 6, yes</column>
 </table>
 </item>
@@ -53,12 +53,12 @@
 <column name="DSP">-, -, -, -, -</column>
 <column name="Expression">-, -, 0, 3257, -</column>
 <column name="FIFO">-, -, -, -, -</column>
-<column name="Instance">40, 657, 255314, 258613, -</column>
+<column name="Instance">40, 1050, 332624, 358915, -</column>
 <column name="Memory">-, -, -, -, -</column>
 <column name="Multiplexer">-, -, -, 3172, -</column>
 <column name="Register">-, -, 15678, -, -</column>
 <specialColumn name="Available">1968, 1968, 1045440, 522720, 128</specialColumn>
-<specialColumn name="Utilization (%)">2, 33, 25, 50, 0</specialColumn>
+<specialColumn name="Utilization (%)">2, 53, 33, 69, 0</specialColumn>
 </table>
 </item>
 <item name = "Detail">
@@ -76,7 +76,7 @@
 <column name="astroSim_result_x_m_axi_U">astroSim_result_x_m_axi, 4, 0, 566, 766</column>
 <column name="astroSim_result_y_m_axi_U">astroSim_result_y_m_axi, 4, 0, 566, 766</column>
 <column name="astroSim_result_z_m_axi_U">astroSim_result_z_m_axi, 4, 0, 566, 766</column>
-<column name="grp_janus_step_fu_1548">janus_step, 0, 657, 186227, 167748</column>
+<column name="grp_janus_step_fu_1548">janus_step, 0, 1050, 263537, 268050</column>
 <column name="grp_to_int_fu_1768">to_int, 0, 0, 63391, 83165</column>
 </table>
 </item>
@@ -124,41 +124,41 @@
 <column name="sel_tmp3_fu_3184_p3">select, 0, 0, 64, 1, 64</column>
 <column name="sel_tmp5_fu_3198_p3">select, 0, 0, 64, 1, 64</column>
 <column name="sel_tmp7_fu_3212_p3">select, 0, 0, 64, 1, 64</column>
-<column name="tmp_100_fu_3440_p3">select, 0, 0, 64, 1, 64</column>
-<column name="tmp_101_fu_3447_p3">select, 0, 0, 64, 1, 64</column>
-<column name="tmp_102_fu_3454_p3">select, 0, 0, 64, 1, 64</column>
-<column name="tmp_103_fu_3468_p3">select, 0, 0, 64, 1, 64</column>
-<column name="tmp_104_fu_3474_p3">select, 0, 0, 64, 1, 64</column>
-<column name="tmp_105_fu_3481_p3">select, 0, 0, 64, 1, 64</column>
-<column name="tmp_106_fu_3488_p3">select, 0, 0, 64, 1, 64</column>
-<column name="tmp_107_fu_3502_p3">select, 0, 0, 64, 1, 64</column>
-<column name="tmp_108_fu_3508_p3">select, 0, 0, 64, 1, 64</column>
-<column name="tmp_109_fu_3515_p3">select, 0, 0, 64, 1, 64</column>
-<column name="tmp_110_fu_3522_p3">select, 0, 0, 64, 1, 64</column>
-<column name="tmp_111_fu_3536_p3">select, 0, 0, 62, 1, 62</column>
-<column name="tmp_112_fu_3544_p3">select, 0, 0, 62, 1, 62</column>
-<column name="tmp_113_fu_3558_p3">select, 0, 0, 64, 1, 64</column>
-<column name="tmp_114_fu_3566_p3">select, 0, 0, 62, 1, 62</column>
-<column name="tmp_80_fu_3242_p3">select, 0, 0, 64, 1, 64</column>
-<column name="tmp_81_fu_3250_p3">select, 0, 0, 64, 1, 64</column>
-<column name="tmp_82_fu_3258_p3">select, 0, 0, 64, 1, 64</column>
-<column name="tmp_83_fu_3274_p3">select, 0, 0, 64, 1, 64</column>
-<column name="tmp_84_fu_3282_p3">select, 0, 0, 64, 1, 64</column>
-<column name="tmp_85_fu_3290_p3">select, 0, 0, 64, 1, 64</column>
-<column name="tmp_86_fu_3298_p3">select, 0, 0, 64, 1, 64</column>
-<column name="tmp_87_fu_3314_p3">select, 0, 0, 64, 1, 64</column>
-<column name="tmp_88_fu_3322_p3">select, 0, 0, 64, 1, 64</column>
-<column name="tmp_89_fu_3330_p3">select, 0, 0, 64, 1, 64</column>
-<column name="tmp_90_fu_3338_p3">select, 0, 0, 64, 1, 64</column>
-<column name="tmp_91_fu_3354_p3">select, 0, 0, 64, 1, 64</column>
-<column name="tmp_92_fu_3362_p3">select, 0, 0, 64, 1, 64</column>
-<column name="tmp_93_fu_3370_p3">select, 0, 0, 64, 1, 64</column>
-<column name="tmp_94_fu_3378_p3">select, 0, 0, 64, 1, 64</column>
-<column name="tmp_95_fu_3394_p3">select, 0, 0, 64, 1, 64</column>
-<column name="tmp_96_fu_3402_p3">select, 0, 0, 64, 1, 64</column>
-<column name="tmp_97_fu_3410_p3">select, 0, 0, 64, 1, 64</column>
-<column name="tmp_98_fu_3418_p3">select, 0, 0, 64, 1, 64</column>
-<column name="tmp_99_fu_3434_p3">select, 0, 0, 64, 1, 64</column>
+<column name="tmp_100_fu_3330_p3">select, 0, 0, 64, 1, 64</column>
+<column name="tmp_101_fu_3338_p3">select, 0, 0, 64, 1, 64</column>
+<column name="tmp_102_fu_3354_p3">select, 0, 0, 64, 1, 64</column>
+<column name="tmp_103_fu_3362_p3">select, 0, 0, 64, 1, 64</column>
+<column name="tmp_104_fu_3370_p3">select, 0, 0, 64, 1, 64</column>
+<column name="tmp_105_fu_3378_p3">select, 0, 0, 64, 1, 64</column>
+<column name="tmp_106_fu_3394_p3">select, 0, 0, 64, 1, 64</column>
+<column name="tmp_107_fu_3402_p3">select, 0, 0, 64, 1, 64</column>
+<column name="tmp_108_fu_3410_p3">select, 0, 0, 64, 1, 64</column>
+<column name="tmp_109_fu_3418_p3">select, 0, 0, 64, 1, 64</column>
+<column name="tmp_110_fu_3434_p3">select, 0, 0, 64, 1, 64</column>
+<column name="tmp_111_fu_3440_p3">select, 0, 0, 64, 1, 64</column>
+<column name="tmp_112_fu_3447_p3">select, 0, 0, 64, 1, 64</column>
+<column name="tmp_113_fu_3454_p3">select, 0, 0, 64, 1, 64</column>
+<column name="tmp_114_fu_3468_p3">select, 0, 0, 64, 1, 64</column>
+<column name="tmp_115_fu_3474_p3">select, 0, 0, 64, 1, 64</column>
+<column name="tmp_116_fu_3481_p3">select, 0, 0, 64, 1, 64</column>
+<column name="tmp_117_fu_3488_p3">select, 0, 0, 64, 1, 64</column>
+<column name="tmp_118_fu_3502_p3">select, 0, 0, 64, 1, 64</column>
+<column name="tmp_119_fu_3508_p3">select, 0, 0, 64, 1, 64</column>
+<column name="tmp_120_fu_3515_p3">select, 0, 0, 64, 1, 64</column>
+<column name="tmp_121_fu_3522_p3">select, 0, 0, 64, 1, 64</column>
+<column name="tmp_122_fu_3536_p3">select, 0, 0, 62, 1, 62</column>
+<column name="tmp_123_fu_3544_p3">select, 0, 0, 62, 1, 62</column>
+<column name="tmp_124_fu_3558_p3">select, 0, 0, 64, 1, 64</column>
+<column name="tmp_125_fu_3566_p3">select, 0, 0, 62, 1, 62</column>
+<column name="tmp_91_fu_3242_p3">select, 0, 0, 64, 1, 64</column>
+<column name="tmp_92_fu_3250_p3">select, 0, 0, 64, 1, 64</column>
+<column name="tmp_93_fu_3258_p3">select, 0, 0, 64, 1, 64</column>
+<column name="tmp_94_fu_3274_p3">select, 0, 0, 64, 1, 64</column>
+<column name="tmp_95_fu_3282_p3">select, 0, 0, 64, 1, 64</column>
+<column name="tmp_96_fu_3290_p3">select, 0, 0, 64, 1, 64</column>
+<column name="tmp_97_fu_3298_p3">select, 0, 0, 64, 1, 64</column>
+<column name="tmp_98_fu_3314_p3">select, 0, 0, 64, 1, 64</column>
+<column name="tmp_99_fu_3322_p3">select, 0, 0, 64, 1, 64</column>
 <column name="tmp_s_fu_3234_p3">select, 0, 0, 64, 1, 64</column>
 <column name="ap_enable_pp0">xor, 0, 0, 2, 1, 2</column>
 <column name="ap_enable_reg_pp0_iter1">xor, 0, 0, 2, 1, 2</column>

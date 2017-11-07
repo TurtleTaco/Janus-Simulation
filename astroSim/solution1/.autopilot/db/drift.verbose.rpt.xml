@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'drift'" level="0">
-<item name = "Date">Tue Nov  7 11:50:31 2017
+<item name = "Date">Tue Nov  7 14:02:34 2017
 </item>
 <item name = "Version">2017.1 (Build 1846317 on Fri Apr 14 19:19:38 MDT 2017)</item>
 <item name = "Project">astroSim</item>
@@ -31,15 +31,15 @@
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="7">Instance, Module, min, max, min, max, Type</keys>
-<column name="tmp_66_p_hls_fptosi_double_s_fu_756">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
-<column name="tmp_72_p_hls_fptosi_double_s_fu_761">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
-<column name="tmp_78_p_hls_fptosi_double_s_fu_766">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
-<column name="tmp_66_1_p_hls_fptosi_double_s_fu_771">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
-<column name="tmp_72_1_p_hls_fptosi_double_s_fu_776">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
-<column name="tmp_78_1_p_hls_fptosi_double_s_fu_781">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
-<column name="tmp_66_2_p_hls_fptosi_double_s_fu_786">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
-<column name="tmp_72_2_p_hls_fptosi_double_s_fu_791">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
-<column name="tmp_78_2_p_hls_fptosi_double_s_fu_796">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
+<column name="tmp_77_p_hls_fptosi_double_s_fu_756">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
+<column name="tmp_83_p_hls_fptosi_double_s_fu_761">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
+<column name="tmp_89_p_hls_fptosi_double_s_fu_766">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
+<column name="tmp_77_1_p_hls_fptosi_double_s_fu_771">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
+<column name="tmp_83_1_p_hls_fptosi_double_s_fu_776">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
+<column name="tmp_89_1_p_hls_fptosi_double_s_fu_781">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
+<column name="tmp_77_2_p_hls_fptosi_double_s_fu_786">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
+<column name="tmp_83_2_p_hls_fptosi_double_s_fu_791">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
+<column name="tmp_89_2_p_hls_fptosi_double_s_fu_796">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
@@ -151,15 +151,15 @@
 <column name="astroSim_sitodp_6eOg_U107">astroSim_sitodp_6eOg, 0, 0, 189, 406</column>
 <column name="astroSim_sitodp_6eOg_U108">astroSim_sitodp_6eOg, 0, 0, 189, 406</column>
 <column name="astroSim_sitodp_6eOg_U109">astroSim_sitodp_6eOg, 0, 0, 189, 406</column>
-<column name="tmp_66_p_hls_fptosi_double_s_fu_756">p_hls_fptosi_double_s, 0, 0, 530, 1016</column>
-<column name="tmp_72_p_hls_fptosi_double_s_fu_761">p_hls_fptosi_double_s, 0, 0, 530, 1016</column>
-<column name="tmp_78_p_hls_fptosi_double_s_fu_766">p_hls_fptosi_double_s, 0, 0, 530, 1016</column>
-<column name="tmp_66_1_p_hls_fptosi_double_s_fu_771">p_hls_fptosi_double_s, 0, 0, 530, 1016</column>
-<column name="tmp_72_1_p_hls_fptosi_double_s_fu_776">p_hls_fptosi_double_s, 0, 0, 530, 1016</column>
-<column name="tmp_78_1_p_hls_fptosi_double_s_fu_781">p_hls_fptosi_double_s, 0, 0, 530, 1016</column>
-<column name="tmp_66_2_p_hls_fptosi_double_s_fu_786">p_hls_fptosi_double_s, 0, 0, 530, 1016</column>
-<column name="tmp_72_2_p_hls_fptosi_double_s_fu_791">p_hls_fptosi_double_s, 0, 0, 530, 1016</column>
-<column name="tmp_78_2_p_hls_fptosi_double_s_fu_796">p_hls_fptosi_double_s, 0, 0, 530, 1016</column>
+<column name="tmp_77_p_hls_fptosi_double_s_fu_756">p_hls_fptosi_double_s, 0, 0, 530, 1016</column>
+<column name="tmp_83_p_hls_fptosi_double_s_fu_761">p_hls_fptosi_double_s, 0, 0, 530, 1016</column>
+<column name="tmp_89_p_hls_fptosi_double_s_fu_766">p_hls_fptosi_double_s, 0, 0, 530, 1016</column>
+<column name="tmp_77_1_p_hls_fptosi_double_s_fu_771">p_hls_fptosi_double_s, 0, 0, 530, 1016</column>
+<column name="tmp_83_1_p_hls_fptosi_double_s_fu_776">p_hls_fptosi_double_s, 0, 0, 530, 1016</column>
+<column name="tmp_89_1_p_hls_fptosi_double_s_fu_781">p_hls_fptosi_double_s, 0, 0, 530, 1016</column>
+<column name="tmp_77_2_p_hls_fptosi_double_s_fu_786">p_hls_fptosi_double_s, 0, 0, 530, 1016</column>
+<column name="tmp_83_2_p_hls_fptosi_double_s_fu_791">p_hls_fptosi_double_s, 0, 0, 530, 1016</column>
+<column name="tmp_89_2_p_hls_fptosi_double_s_fu_796">p_hls_fptosi_double_s, 0, 0, 530, 1016</column>
 </table>
 </item>
 <item name = "DSP48"><table name="" hasTotal="0">
@@ -179,15 +179,15 @@
 <column name="i_5_0_t_fu_1041_p2">+, 0, 0, 12, 4, 1</column>
 <column name="i_5_1_t_fu_1047_p2">+, 0, 0, 12, 4, 2</column>
 <column name="i_5_2_fu_1053_p2">+, 0, 0, 12, 4, 2</column>
-<column name="tmp_67_1_fu_1702_p2">+, 0, 0, 71, 64, 64</column>
-<column name="tmp_67_2_fu_2164_p2">+, 0, 0, 71, 64, 64</column>
-<column name="tmp_67_fu_1229_p2">+, 0, 0, 71, 64, 64</column>
-<column name="tmp_73_1_fu_1856_p2">+, 0, 0, 71, 64, 64</column>
-<column name="tmp_73_2_fu_2318_p2">+, 0, 0, 71, 64, 64</column>
-<column name="tmp_73_fu_1387_p2">+, 0, 0, 71, 64, 64</column>
-<column name="tmp_79_1_fu_2010_p2">+, 0, 0, 71, 64, 64</column>
-<column name="tmp_79_2_fu_2472_p2">+, 0, 0, 71, 64, 64</column>
-<column name="tmp_79_fu_1545_p2">+, 0, 0, 71, 64, 64</column>
+<column name="tmp_78_1_fu_1702_p2">+, 0, 0, 71, 64, 64</column>
+<column name="tmp_78_2_fu_2164_p2">+, 0, 0, 71, 64, 64</column>
+<column name="tmp_78_fu_1229_p2">+, 0, 0, 71, 64, 64</column>
+<column name="tmp_84_1_fu_1856_p2">+, 0, 0, 71, 64, 64</column>
+<column name="tmp_84_2_fu_2318_p2">+, 0, 0, 71, 64, 64</column>
+<column name="tmp_84_fu_1387_p2">+, 0, 0, 71, 64, 64</column>
+<column name="tmp_90_1_fu_2010_p2">+, 0, 0, 71, 64, 64</column>
+<column name="tmp_90_2_fu_2472_p2">+, 0, 0, 71, 64, 64</column>
+<column name="tmp_90_fu_1545_p2">+, 0, 0, 71, 64, 64</column>
 <column name="sel_tmp2_fu_981_p2">icmp, 0, 0, 2, 4, 1</column>
 <column name="sel_tmp_fu_969_p2">icmp, 0, 0, 2, 4, 2</column>
 <column name="tmp_fu_963_p2">icmp, 0, 0, 2, 4, 4</column>
@@ -342,42 +342,42 @@
 <column name="p_int_z9_reg_724">64, 0, 64, 0</column>
 <column name="p_int_z_1_reg_3407">64, 0, 64, 0</column>
 <column name="p_int_z_reg_654">64, 0, 64, 0</column>
-<column name="tmp_62_1_reg_3232">64, 0, 64, 0</column>
-<column name="tmp_62_2_reg_3247">64, 0, 64, 0</column>
-<column name="tmp_62_reg_3217">64, 0, 64, 0</column>
-<column name="tmp_63_1_reg_3277">64, 0, 64, 0</column>
-<column name="tmp_63_2_reg_3292">64, 0, 64, 0</column>
-<column name="tmp_63_reg_3262">64, 0, 64, 0</column>
-<column name="tmp_64_1_reg_3322">64, 0, 64, 0</column>
-<column name="tmp_64_2_reg_3337">64, 0, 64, 0</column>
-<column name="tmp_64_reg_3307">64, 0, 64, 0</column>
-<column name="tmp_65_1_reg_3412">64, 0, 64, 0</column>
-<column name="tmp_65_2_reg_3427">64, 0, 64, 0</column>
-<column name="tmp_65_reg_3352">64, 0, 64, 0</column>
-<column name="tmp_68_1_reg_3237">64, 0, 64, 0</column>
-<column name="tmp_68_2_reg_3252">64, 0, 64, 0</column>
-<column name="tmp_68_reg_3222">64, 0, 64, 0</column>
-<column name="tmp_69_1_reg_3282">64, 0, 64, 0</column>
-<column name="tmp_69_2_reg_3297">64, 0, 64, 0</column>
-<column name="tmp_69_reg_3267">64, 0, 64, 0</column>
-<column name="tmp_70_1_reg_3327">64, 0, 64, 0</column>
-<column name="tmp_70_2_reg_3342">64, 0, 64, 0</column>
-<column name="tmp_70_reg_3312">64, 0, 64, 0</column>
-<column name="tmp_71_1_reg_3417">64, 0, 64, 0</column>
-<column name="tmp_71_2_reg_3432">64, 0, 64, 0</column>
-<column name="tmp_71_reg_3357">64, 0, 64, 0</column>
-<column name="tmp_74_1_reg_3242">64, 0, 64, 0</column>
-<column name="tmp_74_2_reg_3257">64, 0, 64, 0</column>
-<column name="tmp_74_reg_3227">64, 0, 64, 0</column>
-<column name="tmp_75_1_reg_3287">64, 0, 64, 0</column>
-<column name="tmp_75_2_reg_3302">64, 0, 64, 0</column>
-<column name="tmp_75_reg_3272">64, 0, 64, 0</column>
-<column name="tmp_76_1_reg_3332">64, 0, 64, 0</column>
-<column name="tmp_76_2_reg_3347">64, 0, 64, 0</column>
-<column name="tmp_76_reg_3317">64, 0, 64, 0</column>
-<column name="tmp_77_1_reg_3422">64, 0, 64, 0</column>
-<column name="tmp_77_2_reg_3437">64, 0, 64, 0</column>
-<column name="tmp_77_reg_3362">64, 0, 64, 0</column>
+<column name="tmp_73_1_reg_3232">64, 0, 64, 0</column>
+<column name="tmp_73_2_reg_3247">64, 0, 64, 0</column>
+<column name="tmp_73_reg_3217">64, 0, 64, 0</column>
+<column name="tmp_74_1_reg_3277">64, 0, 64, 0</column>
+<column name="tmp_74_2_reg_3292">64, 0, 64, 0</column>
+<column name="tmp_74_reg_3262">64, 0, 64, 0</column>
+<column name="tmp_75_1_reg_3322">64, 0, 64, 0</column>
+<column name="tmp_75_2_reg_3337">64, 0, 64, 0</column>
+<column name="tmp_75_reg_3307">64, 0, 64, 0</column>
+<column name="tmp_76_1_reg_3412">64, 0, 64, 0</column>
+<column name="tmp_76_2_reg_3427">64, 0, 64, 0</column>
+<column name="tmp_76_reg_3352">64, 0, 64, 0</column>
+<column name="tmp_79_1_reg_3237">64, 0, 64, 0</column>
+<column name="tmp_79_2_reg_3252">64, 0, 64, 0</column>
+<column name="tmp_79_reg_3222">64, 0, 64, 0</column>
+<column name="tmp_80_1_reg_3282">64, 0, 64, 0</column>
+<column name="tmp_80_2_reg_3297">64, 0, 64, 0</column>
+<column name="tmp_80_reg_3267">64, 0, 64, 0</column>
+<column name="tmp_81_1_reg_3327">64, 0, 64, 0</column>
+<column name="tmp_81_2_reg_3342">64, 0, 64, 0</column>
+<column name="tmp_81_reg_3312">64, 0, 64, 0</column>
+<column name="tmp_82_1_reg_3417">64, 0, 64, 0</column>
+<column name="tmp_82_2_reg_3432">64, 0, 64, 0</column>
+<column name="tmp_82_reg_3357">64, 0, 64, 0</column>
+<column name="tmp_85_1_reg_3242">64, 0, 64, 0</column>
+<column name="tmp_85_2_reg_3257">64, 0, 64, 0</column>
+<column name="tmp_85_reg_3227">64, 0, 64, 0</column>
+<column name="tmp_86_1_reg_3287">64, 0, 64, 0</column>
+<column name="tmp_86_2_reg_3302">64, 0, 64, 0</column>
+<column name="tmp_86_reg_3272">64, 0, 64, 0</column>
+<column name="tmp_87_1_reg_3332">64, 0, 64, 0</column>
+<column name="tmp_87_2_reg_3347">64, 0, 64, 0</column>
+<column name="tmp_87_reg_3317">64, 0, 64, 0</column>
+<column name="tmp_88_1_reg_3422">64, 0, 64, 0</column>
+<column name="tmp_88_2_reg_3437">64, 0, 64, 0</column>
+<column name="tmp_88_reg_3362">64, 0, 64, 0</column>
 <column name="tmp_reg_3125">1, 0, 1, 0</column>
 <column name="i_5_0_t_reg_3144">64, 32, 4, 0</column>
 <column name="i_5_1_t_reg_3163">64, 32, 4, 0</column>

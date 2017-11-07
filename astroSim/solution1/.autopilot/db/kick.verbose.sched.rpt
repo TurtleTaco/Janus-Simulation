@@ -3,7 +3,7 @@
 ================================================================
 == Vivado HLS Report for 'kick'
 ================================================================
-* Date:           Tue Nov  7 11:50:18 2017
+* Date:           Tue Nov  7 14:02:23 2017
 
 * Version:        2017.1 (Build 1846317 on Fri Apr 14 19:19:38 MDT 2017)
 * Project:        astroSim
@@ -1353,8 +1353,8 @@ The critical path consists of the following:
  <State 2>: 1.42ns
 The critical path consists of the following:
 	'phi' operation ('i', astro.c:46) with incoming values : ('i_3_2', astro.c:46) [138]  (0 ns)
-	'add' operation ('i_3_0_t', astro.c:46) [178]  (1.03 ns)
-	'icmp' operation ('tmp_68', astro.c:46) [180]  (0.394 ns)
+	'add' operation ('i_3_1_t', astro.c:46) [210]  (1.03 ns)
+	'icmp' operation ('tmp_72', astro.c:46) [212]  (0.394 ns)
 
  <State 3>: 8.73ns
 The critical path consists of the following:
