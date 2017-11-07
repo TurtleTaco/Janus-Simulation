@@ -8,9 +8,9 @@
 
 `timescale 1ns/1ps
 
-module astroSim_dsub_64nfYi
+module astroSim_dsub_64nhbi
 #(parameter
-    ID         = 371,
+    ID         = 450,
     NUM_STAGE  = 4,
     din0_WIDTH = 64,
     din1_WIDTH = 64,

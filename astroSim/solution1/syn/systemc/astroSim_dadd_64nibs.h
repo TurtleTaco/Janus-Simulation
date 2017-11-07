@@ -5,9 +5,9 @@
 // 
 // ==============================================================
 
-#ifndef __astroSim_dsub_64nfYi__HH__
-#define __astroSim_dsub_64nfYi__HH__
-#include "ACMP_dsub.h"
+#ifndef __astroSim_dadd_64nibs__HH__
+#define __astroSim_dadd_64nibs__HH__
+#include "ACMP_dadd.h"
 #include <systemc>
 
 template<
@@ -16,7 +16,7 @@ template<
     int din0_WIDTH,
     int din1_WIDTH,
     int dout_WIDTH>
-SC_MODULE(astroSim_dsub_64nfYi) {
+SC_MODULE(astroSim_dadd_64nibs) {
     sc_core::sc_in_clk clk;
     sc_core::sc_in<sc_dt::sc_logic> reset;
     sc_core::sc_in<sc_dt::sc_logic> ce;
@@ -26,15 +26,15 @@ SC_MODULE(astroSim_dsub_64nfYi) {
 
 
 
-    ACMP_dsub<ID, 4, din0_WIDTH, din1_WIDTH, dout_WIDTH> ACMP_dsub_U;
+    ACMP_dadd<ID, 4, din0_WIDTH, din1_WIDTH, dout_WIDTH> ACMP_dadd_U;
 
-    SC_CTOR(astroSim_dsub_64nfYi):  ACMP_dsub_U ("ACMP_dsub_U") {
-        ACMP_dsub_U.clk(clk);
-        ACMP_dsub_U.reset(reset);
-        ACMP_dsub_U.ce(ce);
-        ACMP_dsub_U.din0(din0);
-        ACMP_dsub_U.din1(din1);
-        ACMP_dsub_U.dout(dout);
+    SC_CTOR(astroSim_dadd_64nibs):  ACMP_dadd_U ("ACMP_dadd_U") {
+        ACMP_dadd_U.clk(clk);
+        ACMP_dadd_U.reset(reset);
+        ACMP_dadd_U.ce(ce);
+        ACMP_dadd_U.din0(din0);
+        ACMP_dadd_U.din1(din1);
+        ACMP_dadd_U.dout(dout);
 
     }
 

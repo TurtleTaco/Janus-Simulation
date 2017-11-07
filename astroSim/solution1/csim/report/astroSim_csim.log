@@ -1,21 +1,21 @@
 INFO: [SIM 2] *************** CSIM start ***************
 INFO: [SIM 4] CSIM will launch GCC as the compiler.
-   Compiling(apcc) ../../../../astro_test.c in debug mode
+   Compiling(apcc) ../../../../astro.c in debug mode
 INFO: [HLS 200-10] Running '/home/linsun/Xilinx/Vivado_HLS/2017.1/bin/unwrapped/lnx64.o/apcc'
-INFO: [HLS 200-10] For user 'linsun' on host 'PC' (Linux_x86_64 version 4.4.0-97-generic) on Tue Nov 07 10:29:17 EST 2017
+INFO: [HLS 200-10] For user 'linsun' on host 'PC' (Linux_x86_64 version 4.4.0-97-generic) on Tue Nov 07 11:49:37 EST 2017
 INFO: [HLS 200-10] On os Ubuntu 16.04.3 LTS
 INFO: [HLS 200-10] In directory '/home/linsun/XilinxLab/astro/astroSim/solution1/csim/build'
-INFO: [APCC 202-3] Tmp directory is /tmp/apcc_db_linsun/188121510068557764319
+INFO: [APCC 202-3] Tmp directory is /tmp/apcc_db_linsun/221241510073377218143
 INFO: [APCC 202-1] APCC is done.
    Generating csim.exe
-6.175573e-04, -3.624142e-03
-1.161526e-01, 2.812295e-01
--9.776683e-02, -7.234537e-01
-8.253466e-01, 5.508274e-01
-2.546414e-02, -1.456450e+00
--5.137464e+00, 1.690271e+00
-8.480965e+00, 3.837737e+00
-7.522079e+00, 1.784565e+01
-2.974610e+01, 2.610280e+00
+-1.702517e+02, 9.062670e+01
+-2.143156e+02, -2.147005e+02
+-4.897862e+02, 3.408444e+02
+1.176288e+01, -1.806744e+02
+3.745175e+01, -5.318476e+01
+-2.491431e+02, -3.683523e+01
+3.114439e+02, 1.070020e+02
+9.311962e+01, 1.908241e+01
+-5.568504e+01, -4.367669e+02
 INFO: [SIM 1] CSim done with 0 errors.
 INFO: [SIM 3] *************** CSIM finish ***************

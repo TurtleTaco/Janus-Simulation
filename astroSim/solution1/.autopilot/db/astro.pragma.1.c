@@ -6020,9 +6020,9 @@ _ssdm_Unroll(1, 0, 9, "");
                 const double dx = p[i].x - p[j].x;
                 const double dy = p[i].y - p[j].y;
                 const double dz = p[i].z - p[j].z;
-                const double _r = sqrt(dx*dx + dy*dy + dz*dz);
-                const double prefact = -1/(_r*_r*_r)*p[j].m;
-
+                //const double _r = sqrt(dx*dx + dy*dy + dz*dz);
+                //const double prefact = -1/(_r*_r*_r)*p[j].m;
+                const double prefact = 1;
                 p[i].ax += prefact*dx;
                 p[i].ay += prefact*dy;
                 p[i].az += prefact*dz;
@@ -6107,7 +6107,7 @@ _ssdm_SpecArrayPartition( p_int, 1, "COMPLETE", 0, "");
     to_int(p_int, p);
 
     LOOP_X:for (t = 0; t < 2.*3.14159265358979323846 /* pi */*1e3; t++){
-_ssdm_op_SpecPipeline(10, 1, 1, 0, ""); _ssdm_SpecLoopRewind(0, "");
+//#pragma HLS PIPELINE
 _ssdm_Unroll(1, 0, 10, "");
  janus_step(p_int, dt, p);
     }

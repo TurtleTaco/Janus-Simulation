@@ -3,7 +3,7 @@
 ================================================================
 == Vivado HLS Report for 'to_int'
 ================================================================
-* Date:           Tue Nov  7 10:41:08 2017
+* Date:           Tue Nov  7 11:50:11 2017
 
 * Version:        2017.1 (Build 1846317 on Fri Apr 14 19:19:38 MDT 2017)
 * Project:        astroSim
@@ -1786,8 +1786,8 @@ The critical path consists of the following:
 	'add' operation ('i_1_0_t', astro.c:12) [107]  (1.03 ns)
 	'icmp' operation ('tmp_12', astro.c:12) [108]  (0.394 ns)
 	'or' operation ('tmp_14', astro.c:14) [110]  (0.044 ns)
-	'select' operation ('p_vz_load_1_phi', astro.c:19) [146]  (0.071 ns)
-	'ddiv' operation ('tmp_11_1', astro.c:19) [147]  (7.11 ns)
+	'select' operation ('p_z_load_1_phi', astro.c:16) [125]  (0.071 ns)
+	'ddiv' operation ('tmp_6_1', astro.c:16) [126]  (7.11 ns)
 
  <State 3>: 7.11ns
 The critical path consists of the following:

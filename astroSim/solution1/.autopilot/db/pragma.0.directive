@@ -68,12 +68,6 @@
 </pragma>
 </directive>
 <directive functionLabel="" functionName="astroSim" label="">
-<pragma name="PIPELINE">
-<option name="II" value="10"/>
-<option name="rewind" positionalBoolean="1" value=""/>
-</pragma>
-</directive>
-<directive functionLabel="" functionName="astroSim" label="">
 <pragma name="UNROLL">
 <option name="factor" value="10"/>
 </pragma>

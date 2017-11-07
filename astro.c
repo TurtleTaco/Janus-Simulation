@@ -66,9 +66,9 @@ static void gravity(struct reb_particle* p){
                 const double dx = p[i].x - p[j].x;
                 const double dy = p[i].y - p[j].y;
                 const double dz = p[i].z - p[j].z;
-                const double _r = sqrt(dx*dx + dy*dy + dz*dz);
-                const double prefact = -1/(_r*_r*_r)*p[j].m;
-
+                //const double _r = sqrt(dx*dx + dy*dy + dz*dz);
+                //const double prefact = -1/(_r*_r*_r)*p[j].m;
+                const double prefact = 1;
                 p[i].ax += prefact*dx;
                 p[i].ay += prefact*dy;
                 p[i].az += prefact*dz;
@@ -153,7 +153,7 @@ void astroSim(struct reb_particle* result){
     to_int(p_int, p);
 
     LOOP_X:for (t = 0; t < 2.*M_PI*1e3; t++){
-#pragma HLS PIPELINE II=10 rewind
+//#pragma HLS PIPELINE
 #pragma HLS unroll factor=10
             janus_step(p_int, dt, p);
     }

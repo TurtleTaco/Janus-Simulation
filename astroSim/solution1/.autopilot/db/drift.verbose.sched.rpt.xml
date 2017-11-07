@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'drift'" level="0">
-<item name = "Date">Tue Nov  7 10:41:10 2017
+<item name = "Date">Tue Nov  7 11:50:12 2017
 </item>
 <item name = "Version">2017.1 (Build 1846317 on Fri Apr 14 19:19:38 MDT 2017)</item>
 <item name = "Project">astroSim</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">10.00, 8.66, 1.25</column>
+<column name="ap_clk">10.00, 8.69, 1.25</column>
 </table>
 </item>
 </section>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="6">, min, max, min, max, Type</keys>
-<column name="">28, 28, 1, 1, function</column>
+<column name="">33, 33, 33, 33, none</column>
 </table>
 </item>
 <item name = "Detail">
@@ -35,6 +35,7 @@
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+<column name="- Loop 1">31, 31, 30, 1, 1, 3, yes</column>
 </table>
 </item>
 </section>

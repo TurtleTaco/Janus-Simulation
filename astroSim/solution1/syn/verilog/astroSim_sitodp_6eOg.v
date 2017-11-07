@@ -10,7 +10,7 @@
 
 module astroSim_sitodp_6eOg
 #(parameter
-    ID         = 155,
+    ID         = 101,
     NUM_STAGE  = 3,
     din0_WIDTH = 64,
     dout_WIDTH = 64

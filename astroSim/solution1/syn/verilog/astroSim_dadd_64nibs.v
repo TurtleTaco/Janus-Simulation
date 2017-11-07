@@ -8,10 +8,10 @@
 
 `timescale 1ns/1ps
 
-module astroSim_dsqrt_64hbi
+module astroSim_dadd_64nibs
 #(parameter
-    ID         = 1659,
-    NUM_STAGE  = 14,
+    ID         = 453,
+    NUM_STAGE  = 4,
     din0_WIDTH = 64,
     din1_WIDTH = 64,
     dout_WIDTH = 64
@@ -28,15 +28,20 @@ wire                  aclk;
 wire                  aclken;
 wire                  a_tvalid;
 wire [63:0]           a_tdata;
+wire                  b_tvalid;
+wire [63:0]           b_tdata;
 wire                  r_tvalid;
 wire [63:0]           r_tdata;
+reg  [din0_WIDTH-1:0] din0_buf1;
 reg  [din1_WIDTH-1:0] din1_buf1;
 //------------------------Instantiation------------------
-astroSim_ap_dsqrt_12_no_dsp_64 astroSim_ap_dsqrt_12_no_dsp_64_u (
+astroSim_ap_dadd_2_full_dsp_64 astroSim_ap_dadd_2_full_dsp_64_u (
     .aclk                 ( aclk ),
     .aclken               ( aclken ),
     .s_axis_a_tvalid      ( a_tvalid ),
     .s_axis_a_tdata       ( a_tdata ),
+    .s_axis_b_tvalid      ( b_tvalid ),
+    .s_axis_b_tdata       ( b_tdata ),
     .m_axis_result_tvalid ( r_tvalid ),
     .m_axis_result_tdata  ( r_tdata )
 );
@@ -44,11 +49,14 @@ astroSim_ap_dsqrt_12_no_dsp_64 astroSim_ap_dsqrt_12_no_dsp_64_u (
 assign aclk     = clk;
 assign aclken   = ce;
 assign a_tvalid = 1'b1;
-assign a_tdata  = din1_buf1;
+assign a_tdata  = din0_buf1;
+assign b_tvalid = 1'b1;
+assign b_tdata  = din1_buf1;
 assign dout     = r_tdata;
 
 always @(posedge clk) begin
     if (ce) begin
+        din0_buf1 <= din0;
         din1_buf1 <= din1;
     end
 end

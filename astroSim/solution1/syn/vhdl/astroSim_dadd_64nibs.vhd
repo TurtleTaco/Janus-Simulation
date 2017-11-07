@@ -8,9 +8,9 @@
 Library ieee;
 use ieee.std_logic_1164.all;
 
-entity astroSim_dsub_64nfYi is
+entity astroSim_dadd_64nibs is
     generic (
-        ID         : integer := 371;
+        ID         : integer := 453;
         NUM_STAGE  : integer := 4;
         din0_WIDTH : integer := 64;
         din1_WIDTH : integer := 64;
@@ -26,9 +26,9 @@ entity astroSim_dsub_64nfYi is
     );
 end entity;
 
-architecture arch of astroSim_dsub_64nfYi is
+architecture arch of astroSim_dadd_64nibs is
     --------------------- Component ---------------------
-    component astroSim_ap_dsub_2_full_dsp_64 is
+    component astroSim_ap_dadd_2_full_dsp_64 is
         port (
             aclk                 : in  std_logic;
             aclken               : in  std_logic;
@@ -53,7 +53,7 @@ architecture arch of astroSim_dsub_64nfYi is
     signal din1_buf1 : std_logic_vector(din1_WIDTH-1 downto 0);
 begin
     --------------------- Instantiation -----------------
-    astroSim_ap_dsub_2_full_dsp_64_u : component astroSim_ap_dsub_2_full_dsp_64
+    astroSim_ap_dadd_2_full_dsp_64_u : component astroSim_ap_dadd_2_full_dsp_64
     port map (
         aclk                 => aclk,
         aclken               => aclken,

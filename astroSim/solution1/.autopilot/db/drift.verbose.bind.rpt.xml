@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'drift'" level="0">
-<item name = "Date">Tue Nov  7 10:41:10 2017
+<item name = "Date">Tue Nov  7 11:50:13 2017
 </item>
 <item name = "Version">2017.1 (Build 1846317 on Fri Apr 14 19:19:38 MDT 2017)</item>
 <item name = "Project">astroSim</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">10.00, 8.66, 1.25</column>
+<column name="ap_clk">10.00, 8.69, 1.25</column>
 </table>
 </item>
 </section>
@@ -24,44 +24,27 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="6">, min, max, min, max, Type</keys>
-<column name="">28, 28, 1, 1, function</column>
+<column name="">33, 33, 33, 33, none</column>
 </table>
 </item>
 <item name = "Detail">
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="7">Instance, Module, min, max, min, max, Type</keys>
-<column name="tmp_36_p_hls_fptosi_double_s_fu_442">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
-<column name="tmp_41_p_hls_fptosi_double_s_fu_447">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
-<column name="tmp_46_p_hls_fptosi_double_s_fu_452">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
-<column name="tmp_77_1_p_hls_fptosi_double_s_fu_457">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
-<column name="tmp_83_1_p_hls_fptosi_double_s_fu_462">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
-<column name="tmp_89_1_p_hls_fptosi_double_s_fu_467">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
-<column name="tmp_77_2_p_hls_fptosi_double_s_fu_472">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
-<column name="tmp_83_2_p_hls_fptosi_double_s_fu_477">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
-<column name="tmp_89_2_p_hls_fptosi_double_s_fu_482">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
-<column name="tmp_77_3_p_hls_fptosi_double_s_fu_487">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
-<column name="tmp_83_3_p_hls_fptosi_double_s_fu_492">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
-<column name="tmp_89_3_p_hls_fptosi_double_s_fu_497">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
-<column name="tmp_77_4_p_hls_fptosi_double_s_fu_502">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
-<column name="tmp_83_4_p_hls_fptosi_double_s_fu_507">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
-<column name="tmp_89_4_p_hls_fptosi_double_s_fu_512">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
-<column name="tmp_77_5_p_hls_fptosi_double_s_fu_517">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
-<column name="tmp_83_5_p_hls_fptosi_double_s_fu_522">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
-<column name="tmp_89_5_p_hls_fptosi_double_s_fu_527">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
-<column name="tmp_77_6_p_hls_fptosi_double_s_fu_532">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
-<column name="tmp_83_6_p_hls_fptosi_double_s_fu_537">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
-<column name="tmp_89_6_p_hls_fptosi_double_s_fu_542">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
-<column name="tmp_77_7_p_hls_fptosi_double_s_fu_547">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
-<column name="tmp_83_7_p_hls_fptosi_double_s_fu_552">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
-<column name="tmp_89_7_p_hls_fptosi_double_s_fu_557">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
-<column name="tmp_77_8_p_hls_fptosi_double_s_fu_562">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
-<column name="tmp_83_8_p_hls_fptosi_double_s_fu_567">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
-<column name="tmp_89_8_p_hls_fptosi_double_s_fu_572">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
+<column name="tmp_66_p_hls_fptosi_double_s_fu_756">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
+<column name="tmp_72_p_hls_fptosi_double_s_fu_761">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
+<column name="tmp_78_p_hls_fptosi_double_s_fu_766">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
+<column name="tmp_66_1_p_hls_fptosi_double_s_fu_771">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
+<column name="tmp_72_1_p_hls_fptosi_double_s_fu_776">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
+<column name="tmp_78_1_p_hls_fptosi_double_s_fu_781">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
+<column name="tmp_66_2_p_hls_fptosi_double_s_fu_786">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
+<column name="tmp_72_2_p_hls_fptosi_double_s_fu_791">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
+<column name="tmp_78_2_p_hls_fptosi_double_s_fu_796">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+<column name="- Loop 1">31, 31, 30, 1, 1, 3, yes</column>
 </table>
 </item>
 </section>

@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'janus_step'" level="0">
-<item name = "Date">Tue Nov  7 10:41:43 2017
+<item name = "Date">Tue Nov  7 11:50:22 2017
 </item>
 <item name = "Version">2017.1 (Build 1846317 on Fri Apr 14 19:19:38 MDT 2017)</item>
 <item name = "Project">astroSim</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">10.00, 8.71, 1.25</column>
+<column name="ap_clk">10.00, 9.19, 1.25</column>
 </table>
 </item>
 </section>
@@ -24,19 +24,17 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="6">, min, max, min, max, Type</keys>
-<column name="">183, 183, 1, 1, function</column>
+<column name="">156, 156, 156, 156, none</column>
 </table>
 </item>
 <item name = "Detail">
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="7">Instance, Module, min, max, min, max, Type</keys>
-<column name="grp_gravity_fu_444">gravity, 94, 94, 1, 1, function</column>
-<column name="grp_drift_fu_475">drift, 28, 28, 1, 1, function</column>
-<column name="grp_drift_fu_587">drift, 28, 28, 1, 1, function</column>
-<column name="grp_kick_fu_645">kick, 21, 21, 1, 1, function</column>
-<column name="grp_to_double_fu_703">to_double, 6, 6, 1, 1, function</column>
-<column name="grp_to_double_fu_752">to_double, 6, 6, 1, 1, function</column>
+<column name="grp_drift_fu_878">drift, 33, 33, 33, 33, none</column>
+<column name="grp_kick_fu_990">kick, 26, 26, 26, 26, none</column>
+<column name="grp_gravity_fu_1048">gravity, 35, 35, 35, 35, none</column>
+<column name="grp_to_double_fu_1079">to_double, 11, 11, 11, 11, none</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">

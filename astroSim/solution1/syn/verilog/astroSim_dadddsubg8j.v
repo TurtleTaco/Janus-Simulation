@@ -8,9 +8,9 @@
 
 `timescale 1ns/1ps
 
-module astroSim_dadd_64ng8j
+module astroSim_dadddsubg8j
 #(parameter
-    ID         = 408,
+    ID         = 423,
     NUM_STAGE  = 4,
     din0_WIDTH = 64,
     din1_WIDTH = 64,
@@ -21,6 +21,7 @@ module astroSim_dadd_64ng8j
     input  wire                  ce,
     input  wire [din0_WIDTH-1:0] din0,
     input  wire [din1_WIDTH-1:0] din1,
+    input  wire [1:0]            opcode,
     output wire [dout_WIDTH-1:0] dout
 );
 //------------------------Local signal-------------------
@@ -30,34 +31,42 @@ wire                  a_tvalid;
 wire [63:0]           a_tdata;
 wire                  b_tvalid;
 wire [63:0]           b_tdata;
+wire                  op_tvalid;
+wire [7:0]            op_tdata;
 wire                  r_tvalid;
 wire [63:0]           r_tdata;
 reg  [din0_WIDTH-1:0] din0_buf1;
 reg  [din1_WIDTH-1:0] din1_buf1;
+reg  [1:0]            opcode_buf1;
 //------------------------Instantiation------------------
-astroSim_ap_dadd_2_full_dsp_64 astroSim_ap_dadd_2_full_dsp_64_u (
-    .aclk                 ( aclk ),
-    .aclken               ( aclken ),
-    .s_axis_a_tvalid      ( a_tvalid ),
-    .s_axis_a_tdata       ( a_tdata ),
-    .s_axis_b_tvalid      ( b_tvalid ),
-    .s_axis_b_tdata       ( b_tdata ),
-    .m_axis_result_tvalid ( r_tvalid ),
-    .m_axis_result_tdata  ( r_tdata )
+astroSim_ap_dadddsub_2_full_dsp_64 astroSim_ap_dadddsub_2_full_dsp_64_u (
+    .aclk                    ( aclk ),
+    .aclken                  ( aclken ),
+    .s_axis_a_tvalid         ( a_tvalid ),
+    .s_axis_a_tdata          ( a_tdata ),
+    .s_axis_b_tvalid         ( b_tvalid ),
+    .s_axis_b_tdata          ( b_tdata ),
+    .s_axis_operation_tvalid ( op_tvalid ),
+    .s_axis_operation_tdata  ( op_tdata ),
+    .m_axis_result_tvalid    ( r_tvalid ),
+    .m_axis_result_tdata     ( r_tdata )
 );
 //------------------------Body---------------------------
-assign aclk     = clk;
-assign aclken   = ce;
-assign a_tvalid = 1'b1;
-assign a_tdata  = din0_buf1;
-assign b_tvalid = 1'b1;
-assign b_tdata  = din1_buf1;
-assign dout     = r_tdata;
+assign aclk      = clk;
+assign aclken    = ce;
+assign a_tvalid  = 1'b1;
+assign a_tdata   = din0_buf1;
+assign b_tvalid  = 1'b1;
+assign b_tdata   = din1_buf1;
+assign op_tvalid = 1'b1;
+assign op_tdata  = {6'b0, opcode_buf1};
+assign dout      = r_tdata;
 
 always @(posedge clk) begin
     if (ce) begin
-        din0_buf1 <= din0;
-        din1_buf1 <= din1;
+        din0_buf1   <= din0;
+        din1_buf1   <= din1;
+        opcode_buf1 <= opcode;
     end
 end
 
