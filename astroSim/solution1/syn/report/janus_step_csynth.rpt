@@ -1,0 +1,541 @@
+
+
+================================================================
+== Vivado HLS Report for 'janus_step'
+================================================================
+* Date:           Tue Nov  7 10:42:59 2017
+
+* Version:        2017.1 (Build 1846317 on Fri Apr 14 19:19:38 MDT 2017)
+* Project:        astroSim
+* Solution:       solution1
+* Product family: zynquplus
+* Target device:  xczu19eg-ffve1924-3-e-es2
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +--------+-------+----------+------------+
+    |  Clock | Target| Estimated| Uncertainty|
+    +--------+-------+----------+------------+
+    |ap_clk  |  10.00|      8.71|        1.25|
+    +--------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +-----+-----+-----+-----+----------+
+    |  Latency  |  Interval | Pipeline |
+    | min | max | min | max |   Type   |
+    +-----+-----+-----+-----+----------+
+    |  183|  183|    1|    1| function |
+    +-----+-----+-----+-----+----------+
+
+    + Detail: 
+        * Instance: 
+        +----------------------+-----------+-----+-----+-----+-----+----------+
+        |                      |           |  Latency  |  Interval | Pipeline |
+        |       Instance       |   Module  | min | max | min | max |   Type   |
+        +----------------------+-----------+-----+-----+-----+-----+----------+
+        |grp_gravity_fu_444    |gravity    |   94|   94|    1|    1| function |
+        |grp_drift_fu_475      |drift      |   28|   28|    1|    1| function |
+        |grp_drift_fu_587      |drift      |   28|   28|    1|    1| function |
+        |grp_kick_fu_645       |kick       |   21|   21|    1|    1| function |
+        |grp_to_double_fu_703  |to_double  |    6|    6|    1|    1| function |
+        |grp_to_double_fu_752  |to_double  |    6|    6|    1|    1| function |
+        +----------------------+-----------+-----+-----+-----+-----+----------+
+
+        * Loop: 
+        N/A
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-------+---------+---------+-----+
+|       Name      | BRAM_18K| DSP48E|    FF   |   LUT   | URAM|
++-----------------+---------+-------+---------+---------+-----+
+|DSP              |        -|      -|        -|        -|    -|
+|Expression       |        -|      -|        -|        -|    -|
+|FIFO             |        -|      -|        -|        -|    -|
+|Instance         |        -|  11243|  1023297|  1397174|    -|
+|Memory           |        -|      -|        -|        -|    -|
+|Multiplexer      |        -|      -|        -|        -|    -|
+|Register         |        -|      -|    16128|    10008|    -|
++-----------------+---------+-------+---------+---------+-----+
+|Total            |        0|  11243|  1039425|  1407182|    0|
++-----------------+---------+-------+---------+---------+-----+
+|Available        |     1968|   1968|  1045440|   522720|  128|
++-----------------+---------+-------+---------+---------+-----+
+|Utilization (%)  |        0|    571|       99|      269|    0|
++-----------------+---------+-------+---------+---------+-----+
+
++ Detail: 
+    * Instance: 
+    +----------------------+-----------+---------+-------+--------+--------+
+    |       Instance       |   Module  | BRAM_18K| DSP48E|   FF   |   LUT  |
+    +----------------------+-----------+---------+-------+--------+--------+
+    |grp_drift_fu_475      |drift      |        0|    594|   90747|  138807|
+    |grp_drift_fu_587      |drift      |        0|    594|   90747|  138807|
+    |grp_gravity_fu_444    |gravity    |        0|   8768|  719520|  943520|
+    |grp_kick_fu_645       |kick       |        0|    297|   74763|  122850|
+    |grp_to_double_fu_703  |to_double  |        0|    495|   23760|   26595|
+    |grp_to_double_fu_752  |to_double  |        0|    495|   23760|   26595|
+    +----------------------+-----------+---------+-------+--------+--------+
+    |Total                 |           |        0|  11243| 1023297| 1397174|
+    +----------------------+-----------+---------+-------+--------+--------+
+
+    * DSP48: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    N/A
+
+    * Multiplexer: 
+    N/A
+
+    * Register: 
+    +--------------------------------+-----+-----+-----+-----------+
+    |              Name              |  FF | LUT | Bits| Const Bits|
+    +--------------------------------+-----+-----+-----+-----------+
+    |p_ax100_assign_1_reg_2562       |   64|    0|   64|          0|
+    |p_ax101_assign_1_reg_2568       |   64|    0|   64|          0|
+    |p_ax97_assign_1_reg_2544        |   64|    0|   64|          0|
+    |p_ax98_assign_1_reg_2550        |   64|    0|   64|          0|
+    |p_ax99_assign_1_reg_2556        |   64|    0|   64|          0|
+    |p_ax_assign_1_reg_2538          |   64|    0|   64|          0|
+    |p_ay105_assign_1_reg_2580       |   64|    0|   64|          0|
+    |p_ay106_assign_1_reg_2586       |   64|    0|   64|          0|
+    |p_ay107_assign_1_reg_2592       |   64|    0|   64|          0|
+    |p_ay108_assign_1_reg_2598       |   64|    0|   64|          0|
+    |p_ay109_assign_1_reg_2604       |   64|    0|   64|          0|
+    |p_ay_assign_1_reg_2574          |   64|    0|   64|          0|
+    |p_az113_assign_1_reg_2616       |   64|    0|   64|          0|
+    |p_az114_assign_1_reg_2622       |   64|    0|   64|          0|
+    |p_az115_assign_1_reg_2628       |   64|    0|   64|          0|
+    |p_az116_assign_1_reg_2634       |   64|    0|   64|          0|
+    |p_az117_assign_1_reg_2640       |   64|    0|   64|          0|
+    |p_az_assign_1_reg_2610          |   64|    0|   64|          0|
+    |p_int_0_vx_read_3_reg_2369      |   64|    0|   64|          0|
+    |p_int_0_vy_read_3_reg_2309      |   64|    0|   64|          0|
+    |p_int_0_vz_read_3_reg_2249      |   64|    0|   64|          0|
+    |p_int_1_vx_read_3_reg_2362      |   64|    0|   64|          0|
+    |p_int_1_vy_read_2_reg_2302      |   64|    0|   64|          0|
+    |p_int_1_vz_read_3_reg_2242      |   64|    0|   64|          0|
+    |p_int_2_vx_read_3_reg_2355      |   64|    0|   64|          0|
+    |p_int_2_vy_read_3_reg_2295      |   64|    0|   64|          0|
+    |p_int_2_vz_read_2_reg_2235      |   64|    0|   64|          0|
+    |p_int_3_vx_read31_reg_2348      |   64|    0|   64|          0|
+    |p_int_3_vy_read_3_reg_2288      |   64|    0|   64|          0|
+    |p_int_3_vz_read_3_reg_2228      |   64|    0|   64|          0|
+    |p_int_4_vx_read32_reg_2341      |   64|    0|   64|          0|
+    |p_int_4_vy_read41_reg_2281      |   64|    0|   64|          0|
+    |p_int_4_vz_read_3_reg_2221      |   64|    0|   64|          0|
+    |p_int_5_vx_read_3_reg_2334      |   64|    0|   64|          0|
+    |p_int_5_vy_read42_reg_2274      |   64|    0|   64|          0|
+    |p_int_5_vz_read51_reg_2214      |   64|    0|   64|          0|
+    |p_int_6_vx_read_2_reg_2328      |   64|    0|   64|          0|
+    |p_int_6_vy_read_2_reg_2268      |   64|    0|   64|          0|
+    |p_int_6_vz_read_2_reg_2208      |   64|    0|   64|          0|
+    |p_int_7_vx_read_2_reg_2322      |   64|    0|   64|          0|
+    |p_int_7_vy_read_2_reg_2262      |   64|    0|   64|          0|
+    |p_int_7_vz_read_2_reg_2202      |   64|    0|   64|          0|
+    |p_int_8_vx_read_2_reg_2316      |   64|    0|   64|          0|
+    |p_int_8_vy_read_2_reg_2256      |   64|    0|   64|          0|
+    |p_int_8_vz_read_2_reg_2196      |   64|    0|   64|          0|
+    |p_int_vx25_assign_5_reg_2653    |   64|    0|   64|          0|
+    |p_int_vx26_assign_5_reg_2660    |   64|    0|   64|          0|
+    |p_int_vx27_assign_5_reg_2667    |   64|    0|   64|          0|
+    |p_int_vx28_assign_5_reg_2674    |   64|    0|   64|          0|
+    |p_int_vx29_assign_5_reg_2681    |   64|    0|   64|          0|
+    |p_int_vx30_assign_5_reg_2688    |   64|    0|   64|          0|
+    |p_int_vx3138_assign_5_reg_2694  |   64|    0|   64|          0|
+    |p_int_vx32_assign_5_reg_2700    |   64|    0|   64|          0|
+    |p_int_vx_assign_5_reg_2646      |   64|    0|   64|          0|
+    |p_int_vy33_assign_5_reg_2713    |   64|    0|   64|          0|
+    |p_int_vy34_assign_5_reg_2720    |   64|    0|   64|          0|
+    |p_int_vy35_assign_5_reg_2727    |   64|    0|   64|          0|
+    |p_int_vy36_assign_5_reg_2734    |   64|    0|   64|          0|
+    |p_int_vy37_assign_5_reg_2741    |   64|    0|   64|          0|
+    |p_int_vy38_assign_5_reg_2748    |   64|    0|   64|          0|
+    |p_int_vy39_assign_5_reg_2754    |   64|    0|   64|          0|
+    |p_int_vy40_assign_5_reg_2760    |   64|    0|   64|          0|
+    |p_int_vy_assign_5_reg_2706      |   64|    0|   64|          0|
+    |p_int_vz41_assign_5_reg_2773    |   64|    0|   64|          0|
+    |p_int_vz42_assign_5_reg_2780    |   64|    0|   64|          0|
+    |p_int_vz43_assign_5_reg_2787    |   64|    0|   64|          0|
+    |p_int_vz44_assign_5_reg_2794    |   64|    0|   64|          0|
+    |p_int_vz45_assign_5_reg_2801    |   64|    0|   64|          0|
+    |p_int_vz46_assign_5_reg_2808    |   64|    0|   64|          0|
+    |p_int_vz47_assign_5_reg_2814    |   64|    0|   64|          0|
+    |p_int_vz48_assign_5_reg_2820    |   64|    0|   64|          0|
+    |p_int_vz_assign_5_reg_2766      |   64|    0|   64|          0|
+    |p_int_x12_assign_2_reg_2832     |   64|    0|   64|          0|
+    |p_int_x12_assign_4_reg_2382     |   64|    0|   64|          0|
+    |p_int_x2_assign_2_reg_2838      |   64|    0|   64|          0|
+    |p_int_x2_assign_4_reg_2388      |   64|    0|   64|          0|
+    |p_int_x3_assign_2_reg_2844      |   64|    0|   64|          0|
+    |p_int_x3_assign_4_reg_2394      |   64|    0|   64|          0|
+    |p_int_x4_assign_2_reg_2850      |   64|    0|   64|          0|
+    |p_int_x4_assign_4_reg_2400      |   64|    0|   64|          0|
+    |p_int_x5_assign_2_reg_2856      |   64|    0|   64|          0|
+    |p_int_x5_assign_4_reg_2406      |   64|    0|   64|          0|
+    |p_int_x6_assign_2_reg_2862      |   64|    0|   64|          0|
+    |p_int_x6_assign_4_reg_2412      |   64|    0|   64|          0|
+    |p_int_x7_assign_2_reg_2868      |   64|    0|   64|          0|
+    |p_int_x7_assign_4_reg_2418      |   64|    0|   64|          0|
+    |p_int_x8_assign_2_reg_2874      |   64|    0|   64|          0|
+    |p_int_x8_assign_4_reg_2424      |   64|    0|   64|          0|
+    |p_int_x_assign_2_reg_2826       |   64|    0|   64|          0|
+    |p_int_x_assign_4_reg_2376       |   64|    0|   64|          0|
+    |p_int_y10_assign_2_reg_2892     |   64|    0|   64|          0|
+    |p_int_y10_assign_4_reg_2442     |   64|    0|   64|          0|
+    |p_int_y1114_assign_2_reg_2898   |   64|    0|   64|          0|
+    |p_int_y1114_assign_4_reg_2448   |   64|    0|   64|          0|
+    |p_int_y12_assign_2_reg_2904     |   64|    0|   64|          0|
+    |p_int_y12_assign_4_reg_2454     |   64|    0|   64|          0|
+    |p_int_y13_assign_2_reg_2910     |   64|    0|   64|          0|
+    |p_int_y13_assign_4_reg_2460     |   64|    0|   64|          0|
+    |p_int_y14_assign_2_reg_2916     |   64|    0|   64|          0|
+    |p_int_y14_assign_4_reg_2466     |   64|    0|   64|          0|
+    |p_int_y15_assign_2_reg_2922     |   64|    0|   64|          0|
+    |p_int_y15_assign_4_reg_2472     |   64|    0|   64|          0|
+    |p_int_y16_assign_2_reg_2928     |   64|    0|   64|          0|
+    |p_int_y16_assign_4_reg_2478     |   64|    0|   64|          0|
+    |p_int_y9_assign_2_reg_2886      |   64|    0|   64|          0|
+    |p_int_y9_assign_4_reg_2436      |   64|    0|   64|          0|
+    |p_int_y_assign_2_reg_2880       |   64|    0|   64|          0|
+    |p_int_y_assign_4_reg_2430       |   64|    0|   64|          0|
+    |p_int_z17_assign_2_reg_2940     |   64|    0|   64|          0|
+    |p_int_z17_assign_4_reg_2490     |   64|    0|   64|          0|
+    |p_int_z18_assign_2_reg_2946     |   64|    0|   64|          0|
+    |p_int_z18_assign_4_reg_2496     |   64|    0|   64|          0|
+    |p_int_z19_assign_2_reg_2952     |   64|    0|   64|          0|
+    |p_int_z19_assign_4_reg_2502     |   64|    0|   64|          0|
+    |p_int_z20_assign_2_reg_2958     |   64|    0|   64|          0|
+    |p_int_z20_assign_4_reg_2508     |   64|    0|   64|          0|
+    |p_int_z2126_assign_2_reg_2964   |   64|    0|   64|          0|
+    |p_int_z2126_assign_4_reg_2514   |   64|    0|   64|          0|
+    |p_int_z22_assign_2_reg_2970     |   64|    0|   64|          0|
+    |p_int_z22_assign_4_reg_2520     |   64|    0|   64|          0|
+    |p_int_z23_assign_2_reg_2976     |   64|    0|   64|          0|
+    |p_int_z23_assign_4_reg_2526     |   64|    0|   64|          0|
+    |p_int_z24_assign_2_reg_2982     |   64|    0|   64|          0|
+    |p_int_z24_assign_4_reg_2532     |   64|    0|   64|          0|
+    |p_int_z_assign_2_reg_2934       |   64|    0|   64|          0|
+    |p_int_z_assign_4_reg_2484       |   64|    0|   64|          0|
+    |p_ax100_assign_1_reg_2562       |   64|   64|   64|          0|
+    |p_ax101_assign_1_reg_2568       |   64|   64|   64|          0|
+    |p_ax97_assign_1_reg_2544        |   64|   64|   64|          0|
+    |p_ax98_assign_1_reg_2550        |   64|   64|   64|          0|
+    |p_ax99_assign_1_reg_2556        |   64|   64|   64|          0|
+    |p_ax_assign_1_reg_2538          |   64|   64|   64|          0|
+    |p_ay105_assign_1_reg_2580       |   64|   64|   64|          0|
+    |p_ay106_assign_1_reg_2586       |   64|   64|   64|          0|
+    |p_ay107_assign_1_reg_2592       |   64|   64|   64|          0|
+    |p_ay108_assign_1_reg_2598       |   64|   64|   64|          0|
+    |p_ay109_assign_1_reg_2604       |   64|   64|   64|          0|
+    |p_ay_assign_1_reg_2574          |   64|   64|   64|          0|
+    |p_az113_assign_1_reg_2616       |   64|   64|   64|          0|
+    |p_az114_assign_1_reg_2622       |   64|   64|   64|          0|
+    |p_az115_assign_1_reg_2628       |   64|   64|   64|          0|
+    |p_az116_assign_1_reg_2634       |   64|   64|   64|          0|
+    |p_az117_assign_1_reg_2640       |   64|   64|   64|          0|
+    |p_az_assign_1_reg_2610          |   64|   64|   64|          0|
+    |p_int_0_vx_read_3_reg_2369      |   64|  128|   64|          0|
+    |p_int_0_vy_read_3_reg_2309      |   64|  128|   64|          0|
+    |p_int_0_vz_read_3_reg_2249      |   64|  128|   64|          0|
+    |p_int_1_vx_read_3_reg_2362      |   64|  128|   64|          0|
+    |p_int_1_vy_read_2_reg_2302      |   64|  128|   64|          0|
+    |p_int_1_vz_read_3_reg_2242      |   64|  128|   64|          0|
+    |p_int_2_vx_read_3_reg_2355      |   64|  128|   64|          0|
+    |p_int_2_vy_read_3_reg_2295      |   64|  128|   64|          0|
+    |p_int_2_vz_read_2_reg_2235      |   64|  128|   64|          0|
+    |p_int_3_vx_read31_reg_2348      |   64|  128|   64|          0|
+    |p_int_3_vy_read_3_reg_2288      |   64|  128|   64|          0|
+    |p_int_3_vz_read_3_reg_2228      |   64|  128|   64|          0|
+    |p_int_4_vx_read32_reg_2341      |   64|  128|   64|          0|
+    |p_int_4_vy_read41_reg_2281      |   64|  128|   64|          0|
+    |p_int_4_vz_read_3_reg_2221      |   64|  128|   64|          0|
+    |p_int_5_vx_read_3_reg_2334      |   64|  128|   64|          0|
+    |p_int_5_vy_read42_reg_2274      |   64|  128|   64|          0|
+    |p_int_5_vz_read51_reg_2214      |   64|  128|   64|          0|
+    |p_int_6_vx_read_2_reg_2328      |   64|  128|   64|          0|
+    |p_int_6_vy_read_2_reg_2268      |   64|  128|   64|          0|
+    |p_int_6_vz_read_2_reg_2208      |   64|  128|   64|          0|
+    |p_int_7_vx_read_2_reg_2322      |   64|  128|   64|          0|
+    |p_int_7_vy_read_2_reg_2262      |   64|  128|   64|          0|
+    |p_int_7_vz_read_2_reg_2202      |   64|  128|   64|          0|
+    |p_int_8_vx_read_2_reg_2316      |   64|  128|   64|          0|
+    |p_int_8_vy_read_2_reg_2256      |   64|  128|   64|          0|
+    |p_int_8_vz_read_2_reg_2196      |   64|  128|   64|          0|
+    |p_int_vx25_assign_5_reg_2653    |   64|   40|   64|          0|
+    |p_int_vx26_assign_5_reg_2660    |   64|   40|   64|          0|
+    |p_int_vx27_assign_5_reg_2667    |   64|   40|   64|          0|
+    |p_int_vx28_assign_5_reg_2674    |   64|   40|   64|          0|
+    |p_int_vx29_assign_5_reg_2681    |   64|   40|   64|          0|
+    |p_int_vx30_assign_5_reg_2688    |   64|   40|   64|          0|
+    |p_int_vx3138_assign_5_reg_2694  |   64|   40|   64|          0|
+    |p_int_vx32_assign_5_reg_2700    |   64|   40|   64|          0|
+    |p_int_vx_assign_5_reg_2646      |   64|   40|   64|          0|
+    |p_int_vy33_assign_5_reg_2713    |   64|   40|   64|          0|
+    |p_int_vy34_assign_5_reg_2720    |   64|   40|   64|          0|
+    |p_int_vy35_assign_5_reg_2727    |   64|   40|   64|          0|
+    |p_int_vy36_assign_5_reg_2734    |   64|   40|   64|          0|
+    |p_int_vy37_assign_5_reg_2741    |   64|   40|   64|          0|
+    |p_int_vy38_assign_5_reg_2748    |   64|   40|   64|          0|
+    |p_int_vy39_assign_5_reg_2754    |   64|   40|   64|          0|
+    |p_int_vy40_assign_5_reg_2760    |   64|   40|   64|          0|
+    |p_int_vy_assign_5_reg_2706      |   64|   40|   64|          0|
+    |p_int_vz41_assign_5_reg_2773    |   64|   40|   64|          0|
+    |p_int_vz42_assign_5_reg_2780    |   64|   40|   64|          0|
+    |p_int_vz43_assign_5_reg_2787    |   64|   40|   64|          0|
+    |p_int_vz44_assign_5_reg_2794    |   64|   40|   64|          0|
+    |p_int_vz45_assign_5_reg_2801    |   64|   40|   64|          0|
+    |p_int_vz46_assign_5_reg_2808    |   64|   40|   64|          0|
+    |p_int_vz47_assign_5_reg_2814    |   64|   40|   64|          0|
+    |p_int_vz48_assign_5_reg_2820    |   64|   40|   64|          0|
+    |p_int_vz_assign_5_reg_2766      |   64|   40|   64|          0|
+    |p_int_x12_assign_2_reg_2832     |   64|   32|   64|          0|
+    |p_int_x12_assign_4_reg_2382     |   64|  128|   64|          0|
+    |p_int_x2_assign_2_reg_2838      |   64|   32|   64|          0|
+    |p_int_x2_assign_4_reg_2388      |   64|  128|   64|          0|
+    |p_int_x3_assign_2_reg_2844      |   64|   32|   64|          0|
+    |p_int_x3_assign_4_reg_2394      |   64|  128|   64|          0|
+    |p_int_x4_assign_2_reg_2850      |   64|   32|   64|          0|
+    |p_int_x4_assign_4_reg_2400      |   64|  128|   64|          0|
+    |p_int_x5_assign_2_reg_2856      |   64|   32|   64|          0|
+    |p_int_x5_assign_4_reg_2406      |   64|  128|   64|          0|
+    |p_int_x6_assign_2_reg_2862      |   64|   32|   64|          0|
+    |p_int_x6_assign_4_reg_2412      |   64|  128|   64|          0|
+    |p_int_x7_assign_2_reg_2868      |   64|   32|   64|          0|
+    |p_int_x7_assign_4_reg_2418      |   64|  128|   64|          0|
+    |p_int_x8_assign_2_reg_2874      |   64|   32|   64|          0|
+    |p_int_x8_assign_4_reg_2424      |   64|  128|   64|          0|
+    |p_int_x_assign_2_reg_2826       |   64|   32|   64|          0|
+    |p_int_x_assign_4_reg_2376       |   64|  128|   64|          0|
+    |p_int_y10_assign_2_reg_2892     |   64|   32|   64|          0|
+    |p_int_y10_assign_4_reg_2442     |   64|  128|   64|          0|
+    |p_int_y1114_assign_2_reg_2898   |   64|   32|   64|          0|
+    |p_int_y1114_assign_4_reg_2448   |   64|  128|   64|          0|
+    |p_int_y12_assign_2_reg_2904     |   64|   32|   64|          0|
+    |p_int_y12_assign_4_reg_2454     |   64|  128|   64|          0|
+    |p_int_y13_assign_2_reg_2910     |   64|   32|   64|          0|
+    |p_int_y13_assign_4_reg_2460     |   64|  128|   64|          0|
+    |p_int_y14_assign_2_reg_2916     |   64|   32|   64|          0|
+    |p_int_y14_assign_4_reg_2466     |   64|  128|   64|          0|
+    |p_int_y15_assign_2_reg_2922     |   64|   32|   64|          0|
+    |p_int_y15_assign_4_reg_2472     |   64|  128|   64|          0|
+    |p_int_y16_assign_2_reg_2928     |   64|   32|   64|          0|
+    |p_int_y16_assign_4_reg_2478     |   64|  128|   64|          0|
+    |p_int_y9_assign_2_reg_2886      |   64|   32|   64|          0|
+    |p_int_y9_assign_4_reg_2436      |   64|  128|   64|          0|
+    |p_int_y_assign_2_reg_2880       |   64|   32|   64|          0|
+    |p_int_y_assign_4_reg_2430       |   64|  128|   64|          0|
+    |p_int_z17_assign_2_reg_2940     |   64|   32|   64|          0|
+    |p_int_z17_assign_4_reg_2490     |   64|  128|   64|          0|
+    |p_int_z18_assign_2_reg_2946     |   64|   32|   64|          0|
+    |p_int_z18_assign_4_reg_2496     |   64|  128|   64|          0|
+    |p_int_z19_assign_2_reg_2952     |   64|   32|   64|          0|
+    |p_int_z19_assign_4_reg_2502     |   64|  128|   64|          0|
+    |p_int_z20_assign_2_reg_2958     |   64|   32|   64|          0|
+    |p_int_z20_assign_4_reg_2508     |   64|  128|   64|          0|
+    |p_int_z2126_assign_2_reg_2964   |   64|   32|   64|          0|
+    |p_int_z2126_assign_4_reg_2514   |   64|  128|   64|          0|
+    |p_int_z22_assign_2_reg_2970     |   64|   32|   64|          0|
+    |p_int_z22_assign_4_reg_2520     |   64|  128|   64|          0|
+    |p_int_z23_assign_2_reg_2976     |   64|   32|   64|          0|
+    |p_int_z23_assign_4_reg_2526     |   64|  128|   64|          0|
+    |p_int_z24_assign_2_reg_2982     |   64|   32|   64|          0|
+    |p_int_z24_assign_4_reg_2532     |   64|  128|   64|          0|
+    |p_int_z_assign_2_reg_2934       |   64|   32|   64|          0|
+    |p_int_z_assign_4_reg_2484       |   64|  128|   64|          0|
+    +--------------------------------+-----+-----+-----+-----------+
+    |Total                           |16128|10008|16128|          0|
+    +--------------------------------+-----+-----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++-----------------+-----+-----+------------+-----------------+--------------+
+|    RTL Ports    | Dir | Bits|  Protocol  |  Source Object  |    C Type    |
++-----------------+-----+-----+------------+-----------------+--------------+
+|ap_clk           |  in |    1| ap_ctrl_hs |    janus_step   | return value |
+|ap_rst           |  in |    1| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_0      | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_1      | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_2      | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_3      | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_4      | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_5      | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_6      | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_7      | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_8      | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_9      | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_10     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_11     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_12     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_13     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_14     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_15     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_16     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_17     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_18     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_19     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_20     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_21     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_22     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_23     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_24     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_25     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_26     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_27     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_28     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_29     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_30     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_31     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_32     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_33     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_34     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_35     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_36     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_37     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_38     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_39     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_40     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_41     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_42     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_43     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_44     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_45     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_46     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_47     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_48     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_49     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_50     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_51     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_52     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_53     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_54     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_55     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_56     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_57     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_58     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_59     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_60     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_61     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_62     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_63     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_64     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_65     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_66     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_67     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_68     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_69     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_70     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_71     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_72     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_73     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_74     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_75     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_76     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_77     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_78     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_79     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_80     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_81     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_82     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_83     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_84     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_85     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_86     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_87     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_88     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_89     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_90     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_91     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_92     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_93     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_94     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_95     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_96     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_97     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_98     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_99     | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_100    | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_101    | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_102    | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_103    | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_104    | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_105    | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_106    | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_return_107    | out |   64| ap_ctrl_hs |    janus_step   | return value |
+|ap_ce            |  in |    1| ap_ctrl_hs |    janus_step   | return value |
+|p_int_0_x_read   |  in |   64|   ap_none  |  p_int_0_x_read |    scalar    |
+|p_int_1_x_read   |  in |   64|   ap_none  |  p_int_1_x_read |    scalar    |
+|p_int_2_x_read   |  in |   64|   ap_none  |  p_int_2_x_read |    scalar    |
+|p_int_3_x_read   |  in |   64|   ap_none  |  p_int_3_x_read |    scalar    |
+|p_int_4_x_read   |  in |   64|   ap_none  |  p_int_4_x_read |    scalar    |
+|p_int_5_x_read   |  in |   64|   ap_none  |  p_int_5_x_read |    scalar    |
+|p_int_6_x_read   |  in |   64|   ap_none  |  p_int_6_x_read |    scalar    |
+|p_int_7_x_read   |  in |   64|   ap_none  |  p_int_7_x_read |    scalar    |
+|p_int_8_x_read   |  in |   64|   ap_none  |  p_int_8_x_read |    scalar    |
+|p_int_0_y_read   |  in |   64|   ap_none  |  p_int_0_y_read |    scalar    |
+|p_int_1_y_read   |  in |   64|   ap_none  |  p_int_1_y_read |    scalar    |
+|p_int_2_y_read   |  in |   64|   ap_none  |  p_int_2_y_read |    scalar    |
+|p_int_3_y_read   |  in |   64|   ap_none  |  p_int_3_y_read |    scalar    |
+|p_int_4_y_read   |  in |   64|   ap_none  |  p_int_4_y_read |    scalar    |
+|p_int_5_y_read   |  in |   64|   ap_none  |  p_int_5_y_read |    scalar    |
+|p_int_6_y_read   |  in |   64|   ap_none  |  p_int_6_y_read |    scalar    |
+|p_int_7_y_read   |  in |   64|   ap_none  |  p_int_7_y_read |    scalar    |
+|p_int_8_y_read   |  in |   64|   ap_none  |  p_int_8_y_read |    scalar    |
+|p_int_0_z_read   |  in |   64|   ap_none  |  p_int_0_z_read |    scalar    |
+|p_int_1_z_read   |  in |   64|   ap_none  |  p_int_1_z_read |    scalar    |
+|p_int_2_z_read   |  in |   64|   ap_none  |  p_int_2_z_read |    scalar    |
+|p_int_3_z_read   |  in |   64|   ap_none  |  p_int_3_z_read |    scalar    |
+|p_int_4_z_read   |  in |   64|   ap_none  |  p_int_4_z_read |    scalar    |
+|p_int_5_z_read   |  in |   64|   ap_none  |  p_int_5_z_read |    scalar    |
+|p_int_6_z_read   |  in |   64|   ap_none  |  p_int_6_z_read |    scalar    |
+|p_int_7_z_read   |  in |   64|   ap_none  |  p_int_7_z_read |    scalar    |
+|p_int_8_z_read   |  in |   64|   ap_none  |  p_int_8_z_read |    scalar    |
+|p_int_0_vx_read  |  in |   64|   ap_none  | p_int_0_vx_read |    scalar    |
+|p_int_1_vx_read  |  in |   64|   ap_none  | p_int_1_vx_read |    scalar    |
+|p_int_2_vx_read  |  in |   64|   ap_none  | p_int_2_vx_read |    scalar    |
+|p_int_3_vx_read  |  in |   64|   ap_none  | p_int_3_vx_read |    scalar    |
+|p_int_4_vx_read  |  in |   64|   ap_none  | p_int_4_vx_read |    scalar    |
+|p_int_5_vx_read  |  in |   64|   ap_none  | p_int_5_vx_read |    scalar    |
+|p_int_6_vx_read  |  in |   64|   ap_none  | p_int_6_vx_read |    scalar    |
+|p_int_7_vx_read  |  in |   64|   ap_none  | p_int_7_vx_read |    scalar    |
+|p_int_8_vx_read  |  in |   64|   ap_none  | p_int_8_vx_read |    scalar    |
+|p_int_0_vy_read  |  in |   64|   ap_none  | p_int_0_vy_read |    scalar    |
+|p_int_1_vy_read  |  in |   64|   ap_none  | p_int_1_vy_read |    scalar    |
+|p_int_2_vy_read  |  in |   64|   ap_none  | p_int_2_vy_read |    scalar    |
+|p_int_3_vy_read  |  in |   64|   ap_none  | p_int_3_vy_read |    scalar    |
+|p_int_4_vy_read  |  in |   64|   ap_none  | p_int_4_vy_read |    scalar    |
+|p_int_5_vy_read  |  in |   64|   ap_none  | p_int_5_vy_read |    scalar    |
+|p_int_6_vy_read  |  in |   64|   ap_none  | p_int_6_vy_read |    scalar    |
+|p_int_7_vy_read  |  in |   64|   ap_none  | p_int_7_vy_read |    scalar    |
+|p_int_8_vy_read  |  in |   64|   ap_none  | p_int_8_vy_read |    scalar    |
+|p_int_0_vz_read  |  in |   64|   ap_none  | p_int_0_vz_read |    scalar    |
+|p_int_1_vz_read  |  in |   64|   ap_none  | p_int_1_vz_read |    scalar    |
+|p_int_2_vz_read  |  in |   64|   ap_none  | p_int_2_vz_read |    scalar    |
+|p_int_3_vz_read  |  in |   64|   ap_none  | p_int_3_vz_read |    scalar    |
+|p_int_4_vz_read  |  in |   64|   ap_none  | p_int_4_vz_read |    scalar    |
+|p_int_5_vz_read  |  in |   64|   ap_none  | p_int_5_vz_read |    scalar    |
+|p_int_6_vz_read  |  in |   64|   ap_none  | p_int_6_vz_read |    scalar    |
+|p_int_7_vz_read  |  in |   64|   ap_none  | p_int_7_vz_read |    scalar    |
+|p_int_8_vz_read  |  in |   64|   ap_none  | p_int_8_vz_read |    scalar    |
++-----------------+-----+-----+------------+-----------------+--------------+
+

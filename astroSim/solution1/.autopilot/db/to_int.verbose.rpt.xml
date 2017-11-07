@@ -1,0 +1,502 @@
+<profile>
+
+<section name = "Vivado HLS Report for 'to_int'" level="0">
+<item name = "Date">Tue Nov  7 10:42:23 2017
+</item>
+<item name = "Version">2017.1 (Build 1846317 on Fri Apr 14 19:19:38 MDT 2017)</item>
+<item name = "Project">astroSim</item>
+<item name = "Solution">solution1</item>
+<item name = "Product family">zynquplus</item>
+<item name = "Target device">xczu19eg-ffve1924-3-e-es2</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing (ns)">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">10.00, 8.64, 1.25</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency (clock cycles)">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">, min, max, min, max, Type</keys>
+<column name="">55, 55, 55, 55, none</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="7">Instance, Module, min, max, min, max, Type</keys>
+<column name="p_int_x6_p_hls_fptosi_double_s_fu_796">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
+<column name="p_int_y_p_hls_fptosi_double_s_fu_801">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
+<column name="p_int_z_p_hls_fptosi_double_s_fu_806">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
+<column name="p_int_vx_p_hls_fptosi_double_s_fu_811">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
+<column name="p_int_vy_p_hls_fptosi_double_s_fu_816">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
+<column name="p_int_vz_p_hls_fptosi_double_s_fu_821">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
+<column name="p_int_x7_p_hls_fptosi_double_s_fu_826">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
+<column name="p_int_y9_p_hls_fptosi_double_s_fu_831">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
+<column name="p_int_z1_p_hls_fptosi_double_s_fu_836">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
+<column name="p_int_vx1_p_hls_fptosi_double_s_fu_841">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
+<column name="p_int_vy1_p_hls_fptosi_double_s_fu_846">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
+<column name="p_int_vz1_p_hls_fptosi_double_s_fu_851">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
+<column name="p_int_x5_p_hls_fptosi_double_s_fu_856">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
+<column name="p_int_y1_p_hls_fptosi_double_s_fu_861">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
+<column name="p_int_z2_p_hls_fptosi_double_s_fu_866">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
+<column name="p_int_vx2_p_hls_fptosi_double_s_fu_871">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
+<column name="p_int_vy2_p_hls_fptosi_double_s_fu_876">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
+<column name="p_int_vz2_p_hls_fptosi_double_s_fu_881">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+<column name="- Loop 1">54, 54, 18, -, -, 3, no</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Utilization Estimates" level="0">
+<item name = "Summary"><table name="" hasTotal="1">
+<keys size="6">Name, BRAM_18K, DSP48E, FF, LUT, URAM</keys>
+<column name="DSP">-, -, -, -, -</column>
+<column name="Expression">-, -, 0, 2347, -</column>
+<column name="FIFO">-, -, -, -, -</column>
+<column name="Instance">-, 0, 55296, 80226, -</column>
+<column name="Memory">-, -, -, -, -</column>
+<column name="Multiplexer">-, -, -, 592, -</column>
+<column name="Register">-, -, 8095, -, -</column>
+<specialColumn name="Available">1968, 1968, 1045440, 522720, 128</specialColumn>
+<specialColumn name="Utilization (%)">0, 0, 6, 15, 0</specialColumn>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="1">
+<keys size="6">Instance, Module, BRAM_18K, DSP48E, FF, LUT</keys>
+<column name="astroSim_ddiv_64nbkb_U2">astroSim_ddiv_64nbkb, 0, 0, 1708, 3246</column>
+<column name="astroSim_ddiv_64nbkb_U3">astroSim_ddiv_64nbkb, 0, 0, 1708, 3246</column>
+<column name="astroSim_ddiv_64nbkb_U4">astroSim_ddiv_64nbkb, 0, 0, 1708, 3246</column>
+<column name="astroSim_ddiv_64nbkb_U5">astroSim_ddiv_64nbkb, 0, 0, 1708, 3246</column>
+<column name="astroSim_ddiv_64nbkb_U6">astroSim_ddiv_64nbkb, 0, 0, 1708, 3246</column>
+<column name="astroSim_ddiv_64nbkb_U7">astroSim_ddiv_64nbkb, 0, 0, 1708, 3246</column>
+<column name="astroSim_ddiv_64nbkb_U8">astroSim_ddiv_64nbkb, 0, 0, 1708, 3246</column>
+<column name="astroSim_ddiv_64nbkb_U9">astroSim_ddiv_64nbkb, 0, 0, 1708, 3246</column>
+<column name="astroSim_ddiv_64nbkb_U10">astroSim_ddiv_64nbkb, 0, 0, 1708, 3246</column>
+<column name="astroSim_ddiv_64nbkb_U11">astroSim_ddiv_64nbkb, 0, 0, 1708, 3246</column>
+<column name="astroSim_ddiv_64nbkb_U12">astroSim_ddiv_64nbkb, 0, 0, 1708, 3246</column>
+<column name="astroSim_ddiv_64nbkb_U13">astroSim_ddiv_64nbkb, 0, 0, 1708, 3246</column>
+<column name="astroSim_ddiv_64nbkb_U14">astroSim_ddiv_64nbkb, 0, 0, 1708, 3246</column>
+<column name="astroSim_ddiv_64nbkb_U15">astroSim_ddiv_64nbkb, 0, 0, 1708, 3246</column>
+<column name="astroSim_ddiv_64nbkb_U16">astroSim_ddiv_64nbkb, 0, 0, 1708, 3246</column>
+<column name="astroSim_ddiv_64nbkb_U17">astroSim_ddiv_64nbkb, 0, 0, 1708, 3246</column>
+<column name="astroSim_ddiv_64nbkb_U18">astroSim_ddiv_64nbkb, 0, 0, 1708, 3246</column>
+<column name="astroSim_ddiv_64nbkb_U19">astroSim_ddiv_64nbkb, 0, 0, 1708, 3246</column>
+<column name="astroSim_mux_164_cud_U20">astroSim_mux_164_cud, 0, 0, 278, 65</column>
+<column name="astroSim_mux_164_cud_U21">astroSim_mux_164_cud, 0, 0, 278, 65</column>
+<column name="astroSim_mux_164_cud_U22">astroSim_mux_164_cud, 0, 0, 278, 65</column>
+<column name="astroSim_mux_164_cud_U23">astroSim_mux_164_cud, 0, 0, 278, 65</column>
+<column name="astroSim_mux_164_cud_U24">astroSim_mux_164_cud, 0, 0, 278, 65</column>
+<column name="astroSim_mux_164_cud_U25">astroSim_mux_164_cud, 0, 0, 278, 65</column>
+<column name="astroSim_mux_164_cud_U26">astroSim_mux_164_cud, 0, 0, 278, 65</column>
+<column name="astroSim_mux_164_cud_U27">astroSim_mux_164_cud, 0, 0, 278, 65</column>
+<column name="astroSim_mux_164_cud_U28">astroSim_mux_164_cud, 0, 0, 278, 65</column>
+<column name="astroSim_mux_164_cud_U29">astroSim_mux_164_cud, 0, 0, 278, 65</column>
+<column name="astroSim_mux_164_cud_U30">astroSim_mux_164_cud, 0, 0, 278, 65</column>
+<column name="astroSim_mux_164_cud_U31">astroSim_mux_164_cud, 0, 0, 278, 65</column>
+<column name="astroSim_mux_164_cud_U32">astroSim_mux_164_cud, 0, 0, 278, 65</column>
+<column name="astroSim_mux_164_cud_U33">astroSim_mux_164_cud, 0, 0, 278, 65</column>
+<column name="astroSim_mux_164_cud_U34">astroSim_mux_164_cud, 0, 0, 278, 65</column>
+<column name="astroSim_mux_164_cud_U35">astroSim_mux_164_cud, 0, 0, 278, 65</column>
+<column name="astroSim_mux_164_cud_U36">astroSim_mux_164_cud, 0, 0, 278, 65</column>
+<column name="astroSim_mux_164_cud_U37">astroSim_mux_164_cud, 0, 0, 278, 65</column>
+<column name="astroSim_mux_164_cud_U38">astroSim_mux_164_cud, 0, 0, 278, 65</column>
+<column name="astroSim_mux_164_cud_U39">astroSim_mux_164_cud, 0, 0, 278, 65</column>
+<column name="astroSim_mux_164_cud_U40">astroSim_mux_164_cud, 0, 0, 278, 65</column>
+<column name="astroSim_mux_164_cud_U41">astroSim_mux_164_cud, 0, 0, 278, 65</column>
+<column name="astroSim_mux_164_cud_U42">astroSim_mux_164_cud, 0, 0, 278, 65</column>
+<column name="astroSim_mux_164_cud_U43">astroSim_mux_164_cud, 0, 0, 278, 65</column>
+<column name="astroSim_mux_164_cud_U44">astroSim_mux_164_cud, 0, 0, 278, 65</column>
+<column name="astroSim_mux_164_cud_U45">astroSim_mux_164_cud, 0, 0, 278, 65</column>
+<column name="astroSim_mux_164_cud_U46">astroSim_mux_164_cud, 0, 0, 278, 65</column>
+<column name="astroSim_mux_164_cud_U47">astroSim_mux_164_cud, 0, 0, 278, 65</column>
+<column name="astroSim_mux_164_cud_U48">astroSim_mux_164_cud, 0, 0, 278, 65</column>
+<column name="astroSim_mux_164_cud_U49">astroSim_mux_164_cud, 0, 0, 278, 65</column>
+<column name="astroSim_mux_164_cud_U50">astroSim_mux_164_cud, 0, 0, 278, 65</column>
+<column name="astroSim_mux_164_cud_U51">astroSim_mux_164_cud, 0, 0, 278, 65</column>
+<column name="astroSim_mux_164_cud_U52">astroSim_mux_164_cud, 0, 0, 278, 65</column>
+<column name="astroSim_mux_164_cud_U53">astroSim_mux_164_cud, 0, 0, 278, 65</column>
+<column name="astroSim_mux_164_cud_U54">astroSim_mux_164_cud, 0, 0, 278, 65</column>
+<column name="astroSim_mux_164_cud_U55">astroSim_mux_164_cud, 0, 0, 278, 65</column>
+<column name="astroSim_mux_164_cud_U56">astroSim_mux_164_cud, 0, 0, 278, 65</column>
+<column name="astroSim_mux_164_cud_U57">astroSim_mux_164_cud, 0, 0, 278, 65</column>
+<column name="astroSim_mux_164_cud_U58">astroSim_mux_164_cud, 0, 0, 278, 65</column>
+<column name="astroSim_mux_164_cud_U59">astroSim_mux_164_cud, 0, 0, 278, 65</column>
+<column name="astroSim_mux_164_cud_U60">astroSim_mux_164_cud, 0, 0, 278, 65</column>
+<column name="astroSim_mux_164_cud_U61">astroSim_mux_164_cud, 0, 0, 278, 65</column>
+<column name="astroSim_mux_164_cud_U62">astroSim_mux_164_cud, 0, 0, 278, 65</column>
+<column name="astroSim_mux_164_cud_U63">astroSim_mux_164_cud, 0, 0, 278, 65</column>
+<column name="astroSim_mux_164_cud_U64">astroSim_mux_164_cud, 0, 0, 278, 65</column>
+<column name="astroSim_mux_164_cud_U65">astroSim_mux_164_cud, 0, 0, 278, 65</column>
+<column name="astroSim_mux_164_cud_U66">astroSim_mux_164_cud, 0, 0, 278, 65</column>
+<column name="astroSim_mux_164_cud_U67">astroSim_mux_164_cud, 0, 0, 278, 65</column>
+<column name="astroSim_mux_164_cud_U68">astroSim_mux_164_cud, 0, 0, 278, 65</column>
+<column name="astroSim_mux_164_cud_U69">astroSim_mux_164_cud, 0, 0, 278, 65</column>
+<column name="astroSim_mux_164_cud_U70">astroSim_mux_164_cud, 0, 0, 278, 65</column>
+<column name="astroSim_mux_164_cud_U71">astroSim_mux_164_cud, 0, 0, 278, 65</column>
+<column name="astroSim_mux_164_cud_U72">astroSim_mux_164_cud, 0, 0, 278, 65</column>
+<column name="astroSim_mux_164_cud_U73">astroSim_mux_164_cud, 0, 0, 278, 65</column>
+<column name="p_int_x6_p_hls_fptosi_double_s_fu_796">p_hls_fptosi_double_s, 0, 0, 530, 1016</column>
+<column name="p_int_y_p_hls_fptosi_double_s_fu_801">p_hls_fptosi_double_s, 0, 0, 530, 1016</column>
+<column name="p_int_z_p_hls_fptosi_double_s_fu_806">p_hls_fptosi_double_s, 0, 0, 530, 1016</column>
+<column name="p_int_vx_p_hls_fptosi_double_s_fu_811">p_hls_fptosi_double_s, 0, 0, 530, 1016</column>
+<column name="p_int_vy_p_hls_fptosi_double_s_fu_816">p_hls_fptosi_double_s, 0, 0, 530, 1016</column>
+<column name="p_int_vz_p_hls_fptosi_double_s_fu_821">p_hls_fptosi_double_s, 0, 0, 530, 1016</column>
+<column name="p_int_x7_p_hls_fptosi_double_s_fu_826">p_hls_fptosi_double_s, 0, 0, 530, 1016</column>
+<column name="p_int_y9_p_hls_fptosi_double_s_fu_831">p_hls_fptosi_double_s, 0, 0, 530, 1016</column>
+<column name="p_int_z1_p_hls_fptosi_double_s_fu_836">p_hls_fptosi_double_s, 0, 0, 530, 1016</column>
+<column name="p_int_vx1_p_hls_fptosi_double_s_fu_841">p_hls_fptosi_double_s, 0, 0, 530, 1016</column>
+<column name="p_int_vy1_p_hls_fptosi_double_s_fu_846">p_hls_fptosi_double_s, 0, 0, 530, 1016</column>
+<column name="p_int_vz1_p_hls_fptosi_double_s_fu_851">p_hls_fptosi_double_s, 0, 0, 530, 1016</column>
+<column name="p_int_x5_p_hls_fptosi_double_s_fu_856">p_hls_fptosi_double_s, 0, 0, 530, 1016</column>
+<column name="p_int_y1_p_hls_fptosi_double_s_fu_861">p_hls_fptosi_double_s, 0, 0, 530, 1016</column>
+<column name="p_int_z2_p_hls_fptosi_double_s_fu_866">p_hls_fptosi_double_s, 0, 0, 530, 1016</column>
+<column name="p_int_vx2_p_hls_fptosi_double_s_fu_871">p_hls_fptosi_double_s, 0, 0, 530, 1016</column>
+<column name="p_int_vy2_p_hls_fptosi_double_s_fu_876">p_hls_fptosi_double_s, 0, 0, 530, 1016</column>
+<column name="p_int_vz2_p_hls_fptosi_double_s_fu_881">p_hls_fptosi_double_s, 0, 0, 530, 1016</column>
+</table>
+</item>
+<item name = "DSP48"><table name="" hasTotal="0">
+<keys size="3">Instance, Module, Expression</keys>
+</table>
+</item>
+<item name = "Memory"><table name="" hasTotal="1">
+<keys size="9">Memory, Module, BRAM_18K, FF, LUT, Words, Bits, Banks, W*Bits*Banks</keys>
+</table>
+</item>
+<item name = "FIFO"><table name="" hasTotal="1">
+<keys size="7">Name, BRAM_18K, FF, LUT, Depth, Bits, Size:D*B</keys>
+</table>
+</item>
+<item name = "Expression"><table name="" hasTotal="1">
+<keys size="7">Variable Name, Operation, DSP48E, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
+<column name="i_1_0_t_fu_1102_p2">+, 0, 0, 12, 4, 1</column>
+<column name="i_1_1_t_fu_1222_p2">+, 0, 0, 12, 4, 2</column>
+<column name="i_1_2_fu_3682_p2">+, 0, 0, 12, 4, 2</column>
+<column name="sel_tmp2_fu_988_p2">icmp, 0, 0, 2, 4, 1</column>
+<column name="sel_tmp_fu_982_p2">icmp, 0, 0, 2, 4, 2</column>
+<column name="tmp_12_fu_1108_p2">icmp, 0, 0, 2, 4, 3</column>
+<column name="tmp_21_fu_1228_p2">icmp, 0, 0, 2, 4, 3</column>
+<column name="tmp_fu_976_p2">icmp, 0, 0, 2, 4, 4</column>
+<column name="tmp_14_fu_1122_p2">or, 0, 0, 2, 1, 1</column>
+<column name="tmp_1_fu_1002_p2">or, 0, 0, 2, 1, 1</column>
+<column name="tmp_27_fu_1242_p2">or, 0, 0, 2, 1, 1</column>
+<column name="grp_fu_886_p0">select, 0, 0, 64, 1, 64</column>
+<column name="grp_fu_891_p0">select, 0, 0, 64, 1, 64</column>
+<column name="grp_fu_896_p0">select, 0, 0, 64, 1, 64</column>
+<column name="grp_fu_901_p0">select, 0, 0, 64, 1, 64</column>
+<column name="grp_fu_906_p0">select, 0, 0, 64, 1, 64</column>
+<column name="grp_fu_911_p0">select, 0, 0, 64, 1, 64</column>
+<column name="grp_fu_916_p0">select, 0, 0, 64, 1, 64</column>
+<column name="grp_fu_921_p0">select, 0, 0, 64, 1, 64</column>
+<column name="grp_fu_926_p0">select, 0, 0, 64, 1, 64</column>
+<column name="grp_fu_931_p0">select, 0, 0, 64, 1, 64</column>
+<column name="grp_fu_936_p0">select, 0, 0, 64, 1, 64</column>
+<column name="grp_fu_941_p0">select, 0, 0, 64, 1, 64</column>
+<column name="grp_fu_946_p0">select, 0, 0, 64, 1, 64</column>
+<column name="grp_fu_951_p0">select, 0, 0, 64, 1, 64</column>
+<column name="grp_fu_956_p0">select, 0, 0, 64, 1, 64</column>
+<column name="grp_fu_961_p0">select, 0, 0, 64, 1, 64</column>
+<column name="grp_fu_966_p0">select, 0, 0, 64, 1, 64</column>
+<column name="grp_fu_971_p0">select, 0, 0, 64, 1, 64</column>
+<column name="sel_tmp1_fu_994_p3">select, 0, 0, 62, 1, 62</column>
+<column name="tmp_10_fu_1085_p3">select, 0, 0, 64, 1, 64</column>
+<column name="tmp_13_fu_1114_p3">select, 0, 0, 64, 1, 64</column>
+<column name="tmp_15_fu_1137_p3">select, 0, 0, 64, 1, 62</column>
+<column name="tmp_16_fu_1154_p3">select, 0, 0, 64, 1, 62</column>
+<column name="tmp_17_fu_1171_p3">select, 0, 0, 64, 1, 64</column>
+<column name="tmp_18_fu_1188_p3">select, 0, 0, 64, 1, 64</column>
+<column name="tmp_19_fu_1205_p3">select, 0, 0, 64, 1, 64</column>
+<column name="tmp_20_fu_1234_p3">select, 0, 0, 64, 1, 63</column>
+<column name="tmp_22_fu_1257_p3">select, 0, 0, 63, 1, 63</column>
+<column name="tmp_23_fu_1274_p3">select, 0, 0, 62, 1, 62</column>
+<column name="tmp_24_fu_1291_p3">select, 0, 0, 64, 1, 62</column>
+<column name="tmp_25_fu_1308_p3">select, 0, 0, 64, 1, 64</column>
+<column name="tmp_26_fu_1325_p3">select, 0, 0, 64, 1, 64</column>
+<column name="tmp_3_fu_1017_p3">select, 0, 0, 62, 1, 62</column>
+<column name="tmp_4_fu_1068_p3">select, 0, 0, 62, 1, 62</column>
+<column name="tmp_6_fu_1034_p3">select, 0, 0, 64, 1, 64</column>
+<column name="tmp_9_fu_1051_p3">select, 0, 0, 64, 1, 64</column>
+</table>
+</item>
+<item name = "Multiplexer"><table name="" hasTotal="1">
+<keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
+<column name="ap_NS_fsm">97, 20, 1, 20</column>
+<column name="ap_return_0">9, 2, 64, 128</column>
+<column name="ap_return_1">9, 2, 64, 128</column>
+<column name="ap_return_10">9, 2, 64, 128</column>
+<column name="ap_return_11">9, 2, 64, 128</column>
+<column name="ap_return_12">9, 2, 64, 128</column>
+<column name="ap_return_13">9, 2, 64, 128</column>
+<column name="ap_return_14">9, 2, 64, 128</column>
+<column name="ap_return_15">9, 2, 64, 128</column>
+<column name="ap_return_16">9, 2, 64, 128</column>
+<column name="ap_return_17">9, 2, 64, 128</column>
+<column name="ap_return_18">9, 2, 64, 128</column>
+<column name="ap_return_19">9, 2, 64, 128</column>
+<column name="ap_return_2">9, 2, 64, 128</column>
+<column name="ap_return_20">9, 2, 64, 128</column>
+<column name="ap_return_21">9, 2, 64, 128</column>
+<column name="ap_return_22">9, 2, 64, 128</column>
+<column name="ap_return_23">9, 2, 64, 128</column>
+<column name="ap_return_24">9, 2, 64, 128</column>
+<column name="ap_return_25">9, 2, 64, 128</column>
+<column name="ap_return_26">9, 2, 64, 128</column>
+<column name="ap_return_27">9, 2, 64, 128</column>
+<column name="ap_return_28">9, 2, 64, 128</column>
+<column name="ap_return_29">9, 2, 64, 128</column>
+<column name="ap_return_3">9, 2, 64, 128</column>
+<column name="ap_return_30">9, 2, 64, 128</column>
+<column name="ap_return_31">9, 2, 64, 128</column>
+<column name="ap_return_32">9, 2, 64, 128</column>
+<column name="ap_return_33">9, 2, 64, 128</column>
+<column name="ap_return_34">9, 2, 64, 128</column>
+<column name="ap_return_35">9, 2, 64, 128</column>
+<column name="ap_return_36">9, 2, 64, 128</column>
+<column name="ap_return_37">9, 2, 64, 128</column>
+<column name="ap_return_38">9, 2, 64, 128</column>
+<column name="ap_return_39">9, 2, 64, 128</column>
+<column name="ap_return_4">9, 2, 64, 128</column>
+<column name="ap_return_40">9, 2, 64, 128</column>
+<column name="ap_return_41">9, 2, 64, 128</column>
+<column name="ap_return_42">9, 2, 64, 128</column>
+<column name="ap_return_43">9, 2, 64, 128</column>
+<column name="ap_return_44">9, 2, 64, 128</column>
+<column name="ap_return_45">9, 2, 64, 128</column>
+<column name="ap_return_46">9, 2, 64, 128</column>
+<column name="ap_return_47">9, 2, 64, 128</column>
+<column name="ap_return_48">9, 2, 64, 128</column>
+<column name="ap_return_49">9, 2, 64, 128</column>
+<column name="ap_return_5">9, 2, 64, 128</column>
+<column name="ap_return_50">9, 2, 64, 128</column>
+<column name="ap_return_51">9, 2, 64, 128</column>
+<column name="ap_return_52">9, 2, 64, 128</column>
+<column name="ap_return_53">9, 2, 64, 128</column>
+<column name="ap_return_6">9, 2, 64, 128</column>
+<column name="ap_return_7">9, 2, 64, 128</column>
+<column name="ap_return_8">9, 2, 64, 128</column>
+<column name="ap_return_9">9, 2, 64, 128</column>
+<column name="i_reg_784">9, 2, 4, 8</column>
+</table>
+</item>
+<item name = "Register"><table name="" hasTotal="1">
+<keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
+<column name="ap_CS_fsm">19, 0, 19, 0</column>
+<column name="ap_return_0_preg">64, 0, 64, 0</column>
+<column name="ap_return_10_preg">64, 0, 64, 0</column>
+<column name="ap_return_11_preg">64, 0, 64, 0</column>
+<column name="ap_return_12_preg">64, 0, 64, 0</column>
+<column name="ap_return_13_preg">64, 0, 64, 0</column>
+<column name="ap_return_14_preg">64, 0, 64, 0</column>
+<column name="ap_return_15_preg">64, 0, 64, 0</column>
+<column name="ap_return_16_preg">64, 0, 64, 0</column>
+<column name="ap_return_17_preg">64, 0, 64, 0</column>
+<column name="ap_return_18_preg">64, 0, 64, 0</column>
+<column name="ap_return_19_preg">64, 0, 64, 0</column>
+<column name="ap_return_1_preg">64, 0, 64, 0</column>
+<column name="ap_return_20_preg">64, 0, 64, 0</column>
+<column name="ap_return_21_preg">64, 0, 64, 0</column>
+<column name="ap_return_22_preg">64, 0, 64, 0</column>
+<column name="ap_return_23_preg">64, 0, 64, 0</column>
+<column name="ap_return_24_preg">64, 0, 64, 0</column>
+<column name="ap_return_25_preg">64, 0, 64, 0</column>
+<column name="ap_return_26_preg">64, 0, 64, 0</column>
+<column name="ap_return_27_preg">64, 0, 64, 0</column>
+<column name="ap_return_28_preg">64, 0, 64, 0</column>
+<column name="ap_return_29_preg">64, 0, 64, 0</column>
+<column name="ap_return_2_preg">64, 0, 64, 0</column>
+<column name="ap_return_30_preg">64, 0, 64, 0</column>
+<column name="ap_return_31_preg">64, 0, 64, 0</column>
+<column name="ap_return_32_preg">64, 0, 64, 0</column>
+<column name="ap_return_33_preg">64, 0, 64, 0</column>
+<column name="ap_return_34_preg">64, 0, 64, 0</column>
+<column name="ap_return_35_preg">64, 0, 64, 0</column>
+<column name="ap_return_36_preg">64, 0, 64, 0</column>
+<column name="ap_return_37_preg">64, 0, 64, 0</column>
+<column name="ap_return_38_preg">64, 0, 64, 0</column>
+<column name="ap_return_39_preg">64, 0, 64, 0</column>
+<column name="ap_return_3_preg">64, 0, 64, 0</column>
+<column name="ap_return_40_preg">64, 0, 64, 0</column>
+<column name="ap_return_41_preg">64, 0, 64, 0</column>
+<column name="ap_return_42_preg">64, 0, 64, 0</column>
+<column name="ap_return_43_preg">64, 0, 64, 0</column>
+<column name="ap_return_44_preg">64, 0, 64, 0</column>
+<column name="ap_return_45_preg">64, 0, 64, 0</column>
+<column name="ap_return_46_preg">64, 0, 64, 0</column>
+<column name="ap_return_47_preg">64, 0, 64, 0</column>
+<column name="ap_return_48_preg">64, 0, 64, 0</column>
+<column name="ap_return_49_preg">64, 0, 64, 0</column>
+<column name="ap_return_4_preg">64, 0, 64, 0</column>
+<column name="ap_return_50_preg">64, 0, 64, 0</column>
+<column name="ap_return_51_preg">64, 0, 64, 0</column>
+<column name="ap_return_52_preg">64, 0, 64, 0</column>
+<column name="ap_return_53_preg">64, 0, 64, 0</column>
+<column name="ap_return_5_preg">64, 0, 64, 0</column>
+<column name="ap_return_6_preg">64, 0, 64, 0</column>
+<column name="ap_return_7_preg">64, 0, 64, 0</column>
+<column name="ap_return_8_preg">64, 0, 64, 0</column>
+<column name="ap_return_9_preg">64, 0, 64, 0</column>
+<column name="i_1_0_t_reg_3721">4, 0, 4, 0</column>
+<column name="i_1_1_t_reg_3773">4, 0, 4, 0</column>
+<column name="i_reg_784">4, 0, 4, 0</column>
+<column name="p_int_0_vx_write_as_reg_508">64, 0, 64, 0</column>
+<column name="p_int_0_vy_write_as_reg_460">64, 0, 64, 0</column>
+<column name="p_int_0_vz_write_as_reg_628">64, 0, 64, 0</column>
+<column name="p_int_0_x_write_ass_reg_340">64, 0, 64, 0</column>
+<column name="p_int_0_y_write_ass_reg_184">64, 0, 64, 0</column>
+<column name="p_int_0_z_write_ass_reg_352">64, 0, 64, 0</column>
+<column name="p_int_1_vx_write_as_reg_472">64, 0, 64, 0</column>
+<column name="p_int_1_vy_write_as_reg_484">64, 0, 64, 0</column>
+<column name="p_int_1_vz_write_as_reg_640">64, 0, 64, 0</column>
+<column name="p_int_1_x_write_ass_reg_304">64, 0, 64, 0</column>
+<column name="p_int_1_y_write_ass_reg_208">64, 0, 64, 0</column>
+<column name="p_int_1_z_write_ass_reg_364">64, 0, 64, 0</column>
+<column name="p_int_2_vx_write_as_reg_436">64, 0, 64, 0</column>
+<column name="p_int_2_vy_write_as_reg_496">64, 0, 64, 0</column>
+<column name="p_int_2_vz_write_as_reg_664">64, 0, 64, 0</column>
+<column name="p_int_2_x_write_ass_reg_268">64, 0, 64, 0</column>
+<column name="p_int_2_y_write_ass_reg_220">64, 0, 64, 0</column>
+<column name="p_int_2_z_write_ass_reg_760">64, 0, 64, 0</column>
+<column name="p_int_3_vx_write_as_reg_400">64, 0, 64, 0</column>
+<column name="p_int_3_vy_write_as_reg_520">64, 0, 64, 0</column>
+<column name="p_int_3_vz_write_as_reg_676">64, 0, 64, 0</column>
+<column name="p_int_3_x_write_ass_reg_232">64, 0, 64, 0</column>
+<column name="p_int_3_y_write_ass_reg_244">64, 0, 64, 0</column>
+<column name="p_int_3_z_write_ass_reg_724">64, 0, 64, 0</column>
+<column name="p_int_4_vx_write_as_reg_376">64, 0, 64, 0</column>
+<column name="p_int_4_vy_write_as_reg_532">64, 0, 64, 0</column>
+<column name="p_int_4_vz_write_as_reg_700">64, 0, 64, 0</column>
+<column name="p_int_4_x_write_ass_reg_196">64, 0, 64, 0</column>
+<column name="p_int_4_y_write_ass_reg_256">64, 0, 64, 0</column>
+<column name="p_int_4_z_write_ass_reg_688">64, 0, 64, 0</column>
+<column name="p_int_5_vx_write_as_reg_388">64, 0, 64, 0</column>
+<column name="p_int_5_vy_write_as_reg_556">64, 0, 64, 0</column>
+<column name="p_int_5_vz_write_as_reg_712">64, 0, 64, 0</column>
+<column name="p_int_5_x_write_ass_reg_160">64, 0, 64, 0</column>
+<column name="p_int_5_y_write_ass_reg_280">64, 0, 64, 0</column>
+<column name="p_int_5_z_write_ass_reg_652">64, 0, 64, 0</column>
+<column name="p_int_6_vx_write_as_reg_412">64, 0, 64, 0</column>
+<column name="p_int_6_vy_write_as_reg_568">64, 0, 64, 0</column>
+<column name="p_int_6_vz_write_as_reg_736">64, 0, 64, 0</column>
+<column name="p_int_6_x_write_ass_reg_136">64, 0, 64, 0</column>
+<column name="p_int_6_y_write_ass_reg_292">64, 0, 64, 0</column>
+<column name="p_int_6_z_write_ass_reg_616">64, 0, 64, 0</column>
+<column name="p_int_7_vx_write_as_reg_424">64, 0, 64, 0</column>
+<column name="p_int_7_vy_write_as_reg_592">64, 0, 64, 0</column>
+<column name="p_int_7_vz_write_as_reg_748">64, 0, 64, 0</column>
+<column name="p_int_7_x_write_ass_reg_148">64, 0, 64, 0</column>
+<column name="p_int_7_y_write_ass_reg_316">64, 0, 64, 0</column>
+<column name="p_int_7_z_write_ass_reg_580">64, 0, 64, 0</column>
+<column name="p_int_8_vx_write_as_reg_448">64, 0, 64, 0</column>
+<column name="p_int_8_vy_write_as_reg_604">64, 0, 64, 0</column>
+<column name="p_int_8_vz_write_as_reg_772">64, 0, 64, 0</column>
+<column name="p_int_8_x_write_ass_reg_172">64, 0, 64, 0</column>
+<column name="p_int_8_y_write_ass_reg_328">64, 0, 64, 0</column>
+<column name="p_int_8_z_write_ass_reg_544">64, 0, 64, 0</column>
+<column name="tmp_11_1_reg_3880">64, 0, 64, 0</column>
+<column name="tmp_11_2_reg_3910">64, 0, 64, 0</column>
+<column name="tmp_11_reg_3850">64, 0, 64, 0</column>
+<column name="tmp_1_6_reg_3875">64, 0, 64, 0</column>
+<column name="tmp_2_1_reg_3855">64, 0, 64, 0</column>
+<column name="tmp_2_2_reg_3885">64, 0, 64, 0</column>
+<column name="tmp_2_7_reg_3905">64, 0, 64, 0</column>
+<column name="tmp_2_reg_3825">64, 0, 64, 0</column>
+<column name="tmp_4_1_reg_3860">64, 0, 64, 0</column>
+<column name="tmp_4_2_reg_3890">64, 0, 64, 0</column>
+<column name="tmp_5_reg_3830">64, 0, 64, 0</column>
+<column name="tmp_6_1_reg_3865">64, 0, 64, 0</column>
+<column name="tmp_6_2_reg_3895">64, 0, 64, 0</column>
+<column name="tmp_7_reg_3835">64, 0, 64, 0</column>
+<column name="tmp_8_1_reg_3870">64, 0, 64, 0</column>
+<column name="tmp_8_2_reg_3900">64, 0, 64, 0</column>
+<column name="tmp_8_reg_3840">64, 0, 64, 0</column>
+<column name="tmp_s_reg_3845">64, 0, 64, 0</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Interface" level="0">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">RTL Ports, Dir, Bits, Protocol, Source Object, C Type</keys>
+<column name="ap_clk">in, 1, ap_ctrl_hs, to_int, return value</column>
+<column name="ap_rst">in, 1, ap_ctrl_hs, to_int, return value</column>
+<column name="ap_start">in, 1, ap_ctrl_hs, to_int, return value</column>
+<column name="ap_done">out, 1, ap_ctrl_hs, to_int, return value</column>
+<column name="ap_idle">out, 1, ap_ctrl_hs, to_int, return value</column>
+<column name="ap_ready">out, 1, ap_ctrl_hs, to_int, return value</column>
+<column name="ap_return_0">out, 64, ap_ctrl_hs, to_int, return value</column>
+<column name="ap_return_1">out, 64, ap_ctrl_hs, to_int, return value</column>
+<column name="ap_return_2">out, 64, ap_ctrl_hs, to_int, return value</column>
+<column name="ap_return_3">out, 64, ap_ctrl_hs, to_int, return value</column>
+<column name="ap_return_4">out, 64, ap_ctrl_hs, to_int, return value</column>
+<column name="ap_return_5">out, 64, ap_ctrl_hs, to_int, return value</column>
+<column name="ap_return_6">out, 64, ap_ctrl_hs, to_int, return value</column>
+<column name="ap_return_7">out, 64, ap_ctrl_hs, to_int, return value</column>
+<column name="ap_return_8">out, 64, ap_ctrl_hs, to_int, return value</column>
+<column name="ap_return_9">out, 64, ap_ctrl_hs, to_int, return value</column>
+<column name="ap_return_10">out, 64, ap_ctrl_hs, to_int, return value</column>
+<column name="ap_return_11">out, 64, ap_ctrl_hs, to_int, return value</column>
+<column name="ap_return_12">out, 64, ap_ctrl_hs, to_int, return value</column>
+<column name="ap_return_13">out, 64, ap_ctrl_hs, to_int, return value</column>
+<column name="ap_return_14">out, 64, ap_ctrl_hs, to_int, return value</column>
+<column name="ap_return_15">out, 64, ap_ctrl_hs, to_int, return value</column>
+<column name="ap_return_16">out, 64, ap_ctrl_hs, to_int, return value</column>
+<column name="ap_return_17">out, 64, ap_ctrl_hs, to_int, return value</column>
+<column name="ap_return_18">out, 64, ap_ctrl_hs, to_int, return value</column>
+<column name="ap_return_19">out, 64, ap_ctrl_hs, to_int, return value</column>
+<column name="ap_return_20">out, 64, ap_ctrl_hs, to_int, return value</column>
+<column name="ap_return_21">out, 64, ap_ctrl_hs, to_int, return value</column>
+<column name="ap_return_22">out, 64, ap_ctrl_hs, to_int, return value</column>
+<column name="ap_return_23">out, 64, ap_ctrl_hs, to_int, return value</column>
+<column name="ap_return_24">out, 64, ap_ctrl_hs, to_int, return value</column>
+<column name="ap_return_25">out, 64, ap_ctrl_hs, to_int, return value</column>
+<column name="ap_return_26">out, 64, ap_ctrl_hs, to_int, return value</column>
+<column name="ap_return_27">out, 64, ap_ctrl_hs, to_int, return value</column>
+<column name="ap_return_28">out, 64, ap_ctrl_hs, to_int, return value</column>
+<column name="ap_return_29">out, 64, ap_ctrl_hs, to_int, return value</column>
+<column name="ap_return_30">out, 64, ap_ctrl_hs, to_int, return value</column>
+<column name="ap_return_31">out, 64, ap_ctrl_hs, to_int, return value</column>
+<column name="ap_return_32">out, 64, ap_ctrl_hs, to_int, return value</column>
+<column name="ap_return_33">out, 64, ap_ctrl_hs, to_int, return value</column>
+<column name="ap_return_34">out, 64, ap_ctrl_hs, to_int, return value</column>
+<column name="ap_return_35">out, 64, ap_ctrl_hs, to_int, return value</column>
+<column name="ap_return_36">out, 64, ap_ctrl_hs, to_int, return value</column>
+<column name="ap_return_37">out, 64, ap_ctrl_hs, to_int, return value</column>
+<column name="ap_return_38">out, 64, ap_ctrl_hs, to_int, return value</column>
+<column name="ap_return_39">out, 64, ap_ctrl_hs, to_int, return value</column>
+<column name="ap_return_40">out, 64, ap_ctrl_hs, to_int, return value</column>
+<column name="ap_return_41">out, 64, ap_ctrl_hs, to_int, return value</column>
+<column name="ap_return_42">out, 64, ap_ctrl_hs, to_int, return value</column>
+<column name="ap_return_43">out, 64, ap_ctrl_hs, to_int, return value</column>
+<column name="ap_return_44">out, 64, ap_ctrl_hs, to_int, return value</column>
+<column name="ap_return_45">out, 64, ap_ctrl_hs, to_int, return value</column>
+<column name="ap_return_46">out, 64, ap_ctrl_hs, to_int, return value</column>
+<column name="ap_return_47">out, 64, ap_ctrl_hs, to_int, return value</column>
+<column name="ap_return_48">out, 64, ap_ctrl_hs, to_int, return value</column>
+<column name="ap_return_49">out, 64, ap_ctrl_hs, to_int, return value</column>
+<column name="ap_return_50">out, 64, ap_ctrl_hs, to_int, return value</column>
+<column name="ap_return_51">out, 64, ap_ctrl_hs, to_int, return value</column>
+<column name="ap_return_52">out, 64, ap_ctrl_hs, to_int, return value</column>
+<column name="ap_return_53">out, 64, ap_ctrl_hs, to_int, return value</column>
+</table>
+</item>
+</section>
+</profile>

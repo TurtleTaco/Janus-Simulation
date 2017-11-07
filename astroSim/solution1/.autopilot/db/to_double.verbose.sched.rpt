@@ -1,0 +1,1380 @@
+
+
+================================================================
+== Vivado HLS Report for 'to_double'
+================================================================
+* Date:           Tue Nov  7 10:41:12 2017
+
+* Version:        2017.1 (Build 1846317 on Fri Apr 14 19:19:38 MDT 2017)
+* Project:        astroSim
+* Solution:       solution1
+* Product family: zynquplus
+* Target device:  xczu19eg-ffve1924-3-e-es2
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +--------+-------+----------+------------+
+    |  Clock | Target| Estimated| Uncertainty|
+    +--------+-------+----------+------------+
+    |ap_clk  |  10.00|      8.66|        1.25|
+    +--------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +-----+-----+-----+-----+----------+
+    |  Latency  |  Interval | Pipeline |
+    | min | max | min | max |   Type   |
+    +-----+-----+-----+-----+----------+
+    |    6|    6|    1|    1| function |
+    +-----+-----+-----+-----+----------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+============================================================
++ Verbose Summary: Synthesis Manager
+============================================================
+InlineROM: 1
+ExposeGlobal: 0
+============================================================
++ Verbose Summary: CDFG Model
+============================================================
+IsTopModel: 0
+ResetActiveHigh: 1
+IsCombinational: 0
+IsDatapathOnly: 0
+HasWiredReturn: 1
+HasMFsm: 2
+HasVarLatency: 0
+IsPipeline: 1
+IsRtlPipelined: 1
+IsInstanceOverlapped: 0
+IsDontTouch: 0
+HasImplIP: 0
+IsGatedGlobalClock: 0
+
++ Individual pipeline summary: 
+  * Pipeline-0: initiation interval (II) = 1, depth = 7
+
+
+============================================================
++ Verbose Summary: Schedule
+============================================================
+* Number of FSM states: 7
+* Pipeline: 1
+  Pipeline-0: II = 1, D = 7, States = { 1 2 3 4 5 6 7 }
+* Dataflow Pipeline: 0
+
+* FSM state transitions: 
+1 --> 
+	2  / true
+2 --> 
+	3  / true
+3 --> 
+	4  / true
+4 --> 
+	5  / true
+5 --> 
+	6  / true
+6 --> 
+	7  / true
+7 --> 
+* FSM state operations: 
+
+ <State 1>: 8.22ns
+ST_1: p_int_5_vz_read_1 (46)  [1/1] 0.00ns
+:0  %p_int_5_vz_read_1 = call i64 @_ssdm_op_Read.ap_auto.i64(i64 %p_int_5_vz_read)
+
+ST_1: p_int_4_vz_read_1 (47)  [1/1] 0.00ns
+:1  %p_int_4_vz_read_1 = call i64 @_ssdm_op_Read.ap_auto.i64(i64 %p_int_4_vz_read)
+
+ST_1: p_int_3_vz_read_1 (48)  [1/1] 0.00ns
+:2  %p_int_3_vz_read_1 = call i64 @_ssdm_op_Read.ap_auto.i64(i64 %p_int_3_vz_read)
+
+ST_1: p_int_2_vz_read_1 (49)  [1/1] 0.00ns
+:3  %p_int_2_vz_read_1 = call i64 @_ssdm_op_Read.ap_auto.i64(i64 %p_int_2_vz_read)
+
+ST_1: p_int_1_vz_read_1 (50)  [1/1] 0.00ns
+:4  %p_int_1_vz_read_1 = call i64 @_ssdm_op_Read.ap_auto.i64(i64 %p_int_1_vz_read)
+
+ST_1: p_int_0_vz_read_1 (51)  [1/1] 0.00ns
+:5  %p_int_0_vz_read_1 = call i64 @_ssdm_op_Read.ap_auto.i64(i64 %p_int_0_vz_read)
+
+ST_1: p_int_5_vy_read_1 (52)  [1/1] 0.00ns
+:6  %p_int_5_vy_read_1 = call i64 @_ssdm_op_Read.ap_auto.i64(i64 %p_int_5_vy_read)
+
+ST_1: p_int_4_vy_read_1 (53)  [1/1] 0.00ns
+:7  %p_int_4_vy_read_1 = call i64 @_ssdm_op_Read.ap_auto.i64(i64 %p_int_4_vy_read)
+
+ST_1: p_int_3_vy_read_1 (54)  [1/1] 0.00ns
+:8  %p_int_3_vy_read_1 = call i64 @_ssdm_op_Read.ap_auto.i64(i64 %p_int_3_vy_read)
+
+ST_1: p_int_2_vy_read_1 (55)  [1/1] 0.00ns
+:9  %p_int_2_vy_read_1 = call i64 @_ssdm_op_Read.ap_auto.i64(i64 %p_int_2_vy_read)
+
+ST_1: p_int_1_vy_read_1 (56)  [1/1] 0.00ns
+:10  %p_int_1_vy_read_1 = call i64 @_ssdm_op_Read.ap_auto.i64(i64 %p_int_1_vy_read)
+
+ST_1: p_int_0_vy_read_1 (57)  [1/1] 0.00ns
+:11  %p_int_0_vy_read_1 = call i64 @_ssdm_op_Read.ap_auto.i64(i64 %p_int_0_vy_read)
+
+ST_1: p_int_5_vx_read_1 (58)  [1/1] 0.00ns
+:12  %p_int_5_vx_read_1 = call i64 @_ssdm_op_Read.ap_auto.i64(i64 %p_int_5_vx_read)
+
+ST_1: p_int_4_vx_read_1 (59)  [1/1] 0.00ns
+:13  %p_int_4_vx_read_1 = call i64 @_ssdm_op_Read.ap_auto.i64(i64 %p_int_4_vx_read)
+
+ST_1: p_int_3_vx_read_1 (60)  [1/1] 0.00ns
+:14  %p_int_3_vx_read_1 = call i64 @_ssdm_op_Read.ap_auto.i64(i64 %p_int_3_vx_read)
+
+ST_1: p_int_2_vx_read_1 (61)  [1/1] 0.00ns
+:15  %p_int_2_vx_read_1 = call i64 @_ssdm_op_Read.ap_auto.i64(i64 %p_int_2_vx_read)
+
+ST_1: p_int_1_vx_read_1 (62)  [1/1] 0.00ns
+:16  %p_int_1_vx_read_1 = call i64 @_ssdm_op_Read.ap_auto.i64(i64 %p_int_1_vx_read)
+
+ST_1: p_int_0_vx_read_1 (63)  [1/1] 0.00ns
+:17  %p_int_0_vx_read_1 = call i64 @_ssdm_op_Read.ap_auto.i64(i64 %p_int_0_vx_read)
+
+ST_1: p_int_8_z_read_1 (64)  [1/1] 0.00ns
+:18  %p_int_8_z_read_1 = call i64 @_ssdm_op_Read.ap_auto.i64(i64 %p_int_8_z_read)
+
+ST_1: p_int_7_z_read_1 (65)  [1/1] 0.00ns
+:19  %p_int_7_z_read_1 = call i64 @_ssdm_op_Read.ap_auto.i64(i64 %p_int_7_z_read)
+
+ST_1: p_int_6_z_read_1 (66)  [1/1] 0.00ns
+:20  %p_int_6_z_read_1 = call i64 @_ssdm_op_Read.ap_auto.i64(i64 %p_int_6_z_read)
+
+ST_1: p_int_5_z_read_1 (67)  [1/1] 0.00ns
+:21  %p_int_5_z_read_1 = call i64 @_ssdm_op_Read.ap_auto.i64(i64 %p_int_5_z_read)
+
+ST_1: p_int_4_z_read_1 (68)  [1/1] 0.00ns
+:22  %p_int_4_z_read_1 = call i64 @_ssdm_op_Read.ap_auto.i64(i64 %p_int_4_z_read)
+
+ST_1: p_int_3_z_read_1 (69)  [1/1] 0.00ns
+:23  %p_int_3_z_read_1 = call i64 @_ssdm_op_Read.ap_auto.i64(i64 %p_int_3_z_read)
+
+ST_1: p_int_2_z_read_1 (70)  [1/1] 0.00ns
+:24  %p_int_2_z_read_1 = call i64 @_ssdm_op_Read.ap_auto.i64(i64 %p_int_2_z_read)
+
+ST_1: p_int_1_z_read_1 (71)  [1/1] 0.00ns
+:25  %p_int_1_z_read_1 = call i64 @_ssdm_op_Read.ap_auto.i64(i64 %p_int_1_z_read)
+
+ST_1: p_int_0_z_read_1 (72)  [1/1] 0.00ns
+:26  %p_int_0_z_read_1 = call i64 @_ssdm_op_Read.ap_auto.i64(i64 %p_int_0_z_read)
+
+ST_1: p_int_8_y_read_1 (73)  [1/1] 0.00ns
+:27  %p_int_8_y_read_1 = call i64 @_ssdm_op_Read.ap_auto.i64(i64 %p_int_8_y_read)
+
+ST_1: p_int_7_y_read_1 (74)  [1/1] 0.00ns
+:28  %p_int_7_y_read_1 = call i64 @_ssdm_op_Read.ap_auto.i64(i64 %p_int_7_y_read)
+
+ST_1: p_int_6_y_read_1 (75)  [1/1] 0.00ns
+:29  %p_int_6_y_read_1 = call i64 @_ssdm_op_Read.ap_auto.i64(i64 %p_int_6_y_read)
+
+ST_1: p_int_5_y_read_1 (76)  [1/1] 0.00ns
+:30  %p_int_5_y_read_1 = call i64 @_ssdm_op_Read.ap_auto.i64(i64 %p_int_5_y_read)
+
+ST_1: p_int_4_y_read_1 (77)  [1/1] 0.00ns
+:31  %p_int_4_y_read_1 = call i64 @_ssdm_op_Read.ap_auto.i64(i64 %p_int_4_y_read)
+
+ST_1: p_int_3_y_read_1 (78)  [1/1] 0.00ns
+:32  %p_int_3_y_read_1 = call i64 @_ssdm_op_Read.ap_auto.i64(i64 %p_int_3_y_read)
+
+ST_1: p_int_2_y_read_1 (79)  [1/1] 0.00ns
+:33  %p_int_2_y_read_1 = call i64 @_ssdm_op_Read.ap_auto.i64(i64 %p_int_2_y_read)
+
+ST_1: p_int_1_y_read_1 (80)  [1/1] 0.00ns
+:34  %p_int_1_y_read_1 = call i64 @_ssdm_op_Read.ap_auto.i64(i64 %p_int_1_y_read)
+
+ST_1: p_int_0_y_read_1 (81)  [1/1] 0.00ns
+:35  %p_int_0_y_read_1 = call i64 @_ssdm_op_Read.ap_auto.i64(i64 %p_int_0_y_read)
+
+ST_1: p_int_8_x_read_1 (82)  [1/1] 0.00ns
+:36  %p_int_8_x_read_1 = call i64 @_ssdm_op_Read.ap_auto.i64(i64 %p_int_8_x_read)
+
+ST_1: p_int_7_x_read_1 (83)  [1/1] 0.00ns
+:37  %p_int_7_x_read_1 = call i64 @_ssdm_op_Read.ap_auto.i64(i64 %p_int_7_x_read)
+
+ST_1: p_int_6_x_read_1 (84)  [1/1] 0.00ns
+:38  %p_int_6_x_read_1 = call i64 @_ssdm_op_Read.ap_auto.i64(i64 %p_int_6_x_read)
+
+ST_1: p_int_5_x_read_1 (85)  [1/1] 0.00ns
+:39  %p_int_5_x_read_1 = call i64 @_ssdm_op_Read.ap_auto.i64(i64 %p_int_5_x_read)
+
+ST_1: p_int_4_x_read_1 (86)  [1/1] 0.00ns
+:40  %p_int_4_x_read_1 = call i64 @_ssdm_op_Read.ap_auto.i64(i64 %p_int_4_x_read)
+
+ST_1: p_int_3_x_read_1 (87)  [1/1] 0.00ns
+:41  %p_int_3_x_read_1 = call i64 @_ssdm_op_Read.ap_auto.i64(i64 %p_int_3_x_read)
+
+ST_1: p_int_2_x_read_1 (88)  [1/1] 0.00ns
+:42  %p_int_2_x_read_1 = call i64 @_ssdm_op_Read.ap_auto.i64(i64 %p_int_2_x_read)
+
+ST_1: p_int_1_x_read_1 (89)  [1/1] 0.00ns
+:43  %p_int_1_x_read_1 = call i64 @_ssdm_op_Read.ap_auto.i64(i64 %p_int_1_x_read)
+
+ST_1: p_int_0_x_read_1 (90)  [1/1] 0.00ns
+:44  %p_int_0_x_read_1 = call i64 @_ssdm_op_Read.ap_auto.i64(i64 %p_int_0_x_read)
+
+ST_1: tmp_13 (91)  [3/3] 8.22ns  loc: astro.c:26
+:45  %tmp_13 = sitofp i64 %p_int_0_x_read_1 to double
+
+ST_1: tmp_15 (93)  [3/3] 8.22ns  loc: astro.c:27
+:47  %tmp_15 = sitofp i64 %p_int_0_y_read_1 to double
+
+ST_1: tmp_17 (95)  [3/3] 8.22ns  loc: astro.c:28
+:49  %tmp_17 = sitofp i64 %p_int_0_z_read_1 to double
+
+ST_1: tmp_19 (97)  [3/3] 8.22ns  loc: astro.c:29
+:51  %tmp_19 = sitofp i64 %p_int_0_vx_read_1 to double
+
+ST_1: tmp_21 (99)  [3/3] 8.22ns  loc: astro.c:30
+:53  %tmp_21 = sitofp i64 %p_int_0_vy_read_1 to double
+
+ST_1: tmp_23 (101)  [3/3] 8.22ns  loc: astro.c:31
+:55  %tmp_23 = sitofp i64 %p_int_0_vz_read_1 to double
+
+ST_1: tmp_13_1 (103)  [3/3] 8.22ns  loc: astro.c:26
+:57  %tmp_13_1 = sitofp i64 %p_int_1_x_read_1 to double
+
+ST_1: tmp_15_1 (105)  [3/3] 8.22ns  loc: astro.c:27
+:59  %tmp_15_1 = sitofp i64 %p_int_1_y_read_1 to double
+
+ST_1: tmp_17_1 (107)  [3/3] 8.22ns  loc: astro.c:28
+:61  %tmp_17_1 = sitofp i64 %p_int_1_z_read_1 to double
+
+ST_1: tmp_19_1 (109)  [3/3] 8.22ns  loc: astro.c:29
+:63  %tmp_19_1 = sitofp i64 %p_int_1_vx_read_1 to double
+
+ST_1: tmp_21_1 (111)  [3/3] 8.22ns  loc: astro.c:30
+:65  %tmp_21_1 = sitofp i64 %p_int_1_vy_read_1 to double
+
+ST_1: tmp_23_1 (113)  [3/3] 8.22ns  loc: astro.c:31
+:67  %tmp_23_1 = sitofp i64 %p_int_1_vz_read_1 to double
+
+ST_1: tmp_13_2 (115)  [3/3] 8.22ns  loc: astro.c:26
+:69  %tmp_13_2 = sitofp i64 %p_int_2_x_read_1 to double
+
+ST_1: tmp_15_2 (117)  [3/3] 8.22ns  loc: astro.c:27
+:71  %tmp_15_2 = sitofp i64 %p_int_2_y_read_1 to double
+
+ST_1: tmp_17_2 (119)  [3/3] 8.22ns  loc: astro.c:28
+:73  %tmp_17_2 = sitofp i64 %p_int_2_z_read_1 to double
+
+ST_1: tmp_19_2 (121)  [3/3] 8.22ns  loc: astro.c:29
+:75  %tmp_19_2 = sitofp i64 %p_int_2_vx_read_1 to double
+
+ST_1: tmp_21_2 (123)  [3/3] 8.22ns  loc: astro.c:30
+:77  %tmp_21_2 = sitofp i64 %p_int_2_vy_read_1 to double
+
+ST_1: tmp_23_2 (125)  [3/3] 8.22ns  loc: astro.c:31
+:79  %tmp_23_2 = sitofp i64 %p_int_2_vz_read_1 to double
+
+ST_1: tmp_13_3 (127)  [3/3] 8.22ns  loc: astro.c:26
+:81  %tmp_13_3 = sitofp i64 %p_int_3_x_read_1 to double
+
+ST_1: tmp_15_3 (129)  [3/3] 8.22ns  loc: astro.c:27
+:83  %tmp_15_3 = sitofp i64 %p_int_3_y_read_1 to double
+
+ST_1: tmp_17_3 (131)  [3/3] 8.22ns  loc: astro.c:28
+:85  %tmp_17_3 = sitofp i64 %p_int_3_z_read_1 to double
+
+ST_1: tmp_19_3 (133)  [3/3] 8.22ns  loc: astro.c:29
+:87  %tmp_19_3 = sitofp i64 %p_int_3_vx_read_1 to double
+
+ST_1: tmp_21_3 (135)  [3/3] 8.22ns  loc: astro.c:30
+:89  %tmp_21_3 = sitofp i64 %p_int_3_vy_read_1 to double
+
+ST_1: tmp_23_3 (137)  [3/3] 8.22ns  loc: astro.c:31
+:91  %tmp_23_3 = sitofp i64 %p_int_3_vz_read_1 to double
+
+ST_1: tmp_13_4 (139)  [3/3] 8.22ns  loc: astro.c:26
+:93  %tmp_13_4 = sitofp i64 %p_int_4_x_read_1 to double
+
+ST_1: tmp_15_4 (141)  [3/3] 8.22ns  loc: astro.c:27
+:95  %tmp_15_4 = sitofp i64 %p_int_4_y_read_1 to double
+
+ST_1: tmp_17_4 (143)  [3/3] 8.22ns  loc: astro.c:28
+:97  %tmp_17_4 = sitofp i64 %p_int_4_z_read_1 to double
+
+ST_1: tmp_19_4 (145)  [3/3] 8.22ns  loc: astro.c:29
+:99  %tmp_19_4 = sitofp i64 %p_int_4_vx_read_1 to double
+
+ST_1: tmp_21_4 (147)  [3/3] 8.22ns  loc: astro.c:30
+:101  %tmp_21_4 = sitofp i64 %p_int_4_vy_read_1 to double
+
+ST_1: tmp_23_4 (149)  [3/3] 8.22ns  loc: astro.c:31
+:103  %tmp_23_4 = sitofp i64 %p_int_4_vz_read_1 to double
+
+ST_1: tmp_13_5 (151)  [3/3] 8.22ns  loc: astro.c:26
+:105  %tmp_13_5 = sitofp i64 %p_int_5_x_read_1 to double
+
+ST_1: tmp_15_5 (153)  [3/3] 8.22ns  loc: astro.c:27
+:107  %tmp_15_5 = sitofp i64 %p_int_5_y_read_1 to double
+
+ST_1: tmp_17_5 (155)  [3/3] 8.22ns  loc: astro.c:28
+:109  %tmp_17_5 = sitofp i64 %p_int_5_z_read_1 to double
+
+ST_1: tmp_19_5 (157)  [3/3] 8.22ns  loc: astro.c:29
+:111  %tmp_19_5 = sitofp i64 %p_int_5_vx_read_1 to double
+
+ST_1: tmp_21_5 (159)  [3/3] 8.22ns  loc: astro.c:30
+:113  %tmp_21_5 = sitofp i64 %p_int_5_vy_read_1 to double
+
+ST_1: tmp_23_5 (161)  [3/3] 8.22ns  loc: astro.c:31
+:115  %tmp_23_5 = sitofp i64 %p_int_5_vz_read_1 to double
+
+ST_1: tmp_13_6 (163)  [3/3] 8.22ns  loc: astro.c:26
+:117  %tmp_13_6 = sitofp i64 %p_int_6_x_read_1 to double
+
+ST_1: tmp_15_6 (165)  [3/3] 8.22ns  loc: astro.c:27
+:119  %tmp_15_6 = sitofp i64 %p_int_6_y_read_1 to double
+
+ST_1: tmp_17_6 (167)  [3/3] 8.22ns  loc: astro.c:28
+:121  %tmp_17_6 = sitofp i64 %p_int_6_z_read_1 to double
+
+ST_1: tmp_13_7 (169)  [3/3] 8.22ns  loc: astro.c:26
+:123  %tmp_13_7 = sitofp i64 %p_int_7_x_read_1 to double
+
+ST_1: tmp_15_7 (171)  [3/3] 8.22ns  loc: astro.c:27
+:125  %tmp_15_7 = sitofp i64 %p_int_7_y_read_1 to double
+
+ST_1: tmp_17_7 (173)  [3/3] 8.22ns  loc: astro.c:28
+:127  %tmp_17_7 = sitofp i64 %p_int_7_z_read_1 to double
+
+ST_1: tmp_13_8 (175)  [3/3] 8.22ns  loc: astro.c:26
+:129  %tmp_13_8 = sitofp i64 %p_int_8_x_read_1 to double
+
+ST_1: tmp_15_8 (177)  [3/3] 8.22ns  loc: astro.c:27
+:131  %tmp_15_8 = sitofp i64 %p_int_8_y_read_1 to double
+
+ST_1: tmp_17_8 (179)  [3/3] 8.22ns  loc: astro.c:28
+:133  %tmp_17_8 = sitofp i64 %p_int_8_z_read_1 to double
+
+
+ <State 2>: 8.22ns
+ST_2: tmp_13 (91)  [2/3] 8.22ns  loc: astro.c:26
+:45  %tmp_13 = sitofp i64 %p_int_0_x_read_1 to double
+
+ST_2: tmp_15 (93)  [2/3] 8.22ns  loc: astro.c:27
+:47  %tmp_15 = sitofp i64 %p_int_0_y_read_1 to double
+
+ST_2: tmp_17 (95)  [2/3] 8.22ns  loc: astro.c:28
+:49  %tmp_17 = sitofp i64 %p_int_0_z_read_1 to double
+
+ST_2: tmp_19 (97)  [2/3] 8.22ns  loc: astro.c:29
+:51  %tmp_19 = sitofp i64 %p_int_0_vx_read_1 to double
+
+ST_2: tmp_21 (99)  [2/3] 8.22ns  loc: astro.c:30
+:53  %tmp_21 = sitofp i64 %p_int_0_vy_read_1 to double
+
+ST_2: tmp_23 (101)  [2/3] 8.22ns  loc: astro.c:31
+:55  %tmp_23 = sitofp i64 %p_int_0_vz_read_1 to double
+
+ST_2: tmp_13_1 (103)  [2/3] 8.22ns  loc: astro.c:26
+:57  %tmp_13_1 = sitofp i64 %p_int_1_x_read_1 to double
+
+ST_2: tmp_15_1 (105)  [2/3] 8.22ns  loc: astro.c:27
+:59  %tmp_15_1 = sitofp i64 %p_int_1_y_read_1 to double
+
+ST_2: tmp_17_1 (107)  [2/3] 8.22ns  loc: astro.c:28
+:61  %tmp_17_1 = sitofp i64 %p_int_1_z_read_1 to double
+
+ST_2: tmp_19_1 (109)  [2/3] 8.22ns  loc: astro.c:29
+:63  %tmp_19_1 = sitofp i64 %p_int_1_vx_read_1 to double
+
+ST_2: tmp_21_1 (111)  [2/3] 8.22ns  loc: astro.c:30
+:65  %tmp_21_1 = sitofp i64 %p_int_1_vy_read_1 to double
+
+ST_2: tmp_23_1 (113)  [2/3] 8.22ns  loc: astro.c:31
+:67  %tmp_23_1 = sitofp i64 %p_int_1_vz_read_1 to double
+
+ST_2: tmp_13_2 (115)  [2/3] 8.22ns  loc: astro.c:26
+:69  %tmp_13_2 = sitofp i64 %p_int_2_x_read_1 to double
+
+ST_2: tmp_15_2 (117)  [2/3] 8.22ns  loc: astro.c:27
+:71  %tmp_15_2 = sitofp i64 %p_int_2_y_read_1 to double
+
+ST_2: tmp_17_2 (119)  [2/3] 8.22ns  loc: astro.c:28
+:73  %tmp_17_2 = sitofp i64 %p_int_2_z_read_1 to double
+
+ST_2: tmp_19_2 (121)  [2/3] 8.22ns  loc: astro.c:29
+:75  %tmp_19_2 = sitofp i64 %p_int_2_vx_read_1 to double
+
+ST_2: tmp_21_2 (123)  [2/3] 8.22ns  loc: astro.c:30
+:77  %tmp_21_2 = sitofp i64 %p_int_2_vy_read_1 to double
+
+ST_2: tmp_23_2 (125)  [2/3] 8.22ns  loc: astro.c:31
+:79  %tmp_23_2 = sitofp i64 %p_int_2_vz_read_1 to double
+
+ST_2: tmp_13_3 (127)  [2/3] 8.22ns  loc: astro.c:26
+:81  %tmp_13_3 = sitofp i64 %p_int_3_x_read_1 to double
+
+ST_2: tmp_15_3 (129)  [2/3] 8.22ns  loc: astro.c:27
+:83  %tmp_15_3 = sitofp i64 %p_int_3_y_read_1 to double
+
+ST_2: tmp_17_3 (131)  [2/3] 8.22ns  loc: astro.c:28
+:85  %tmp_17_3 = sitofp i64 %p_int_3_z_read_1 to double
+
+ST_2: tmp_19_3 (133)  [2/3] 8.22ns  loc: astro.c:29
+:87  %tmp_19_3 = sitofp i64 %p_int_3_vx_read_1 to double
+
+ST_2: tmp_21_3 (135)  [2/3] 8.22ns  loc: astro.c:30
+:89  %tmp_21_3 = sitofp i64 %p_int_3_vy_read_1 to double
+
+ST_2: tmp_23_3 (137)  [2/3] 8.22ns  loc: astro.c:31
+:91  %tmp_23_3 = sitofp i64 %p_int_3_vz_read_1 to double
+
+ST_2: tmp_13_4 (139)  [2/3] 8.22ns  loc: astro.c:26
+:93  %tmp_13_4 = sitofp i64 %p_int_4_x_read_1 to double
+
+ST_2: tmp_15_4 (141)  [2/3] 8.22ns  loc: astro.c:27
+:95  %tmp_15_4 = sitofp i64 %p_int_4_y_read_1 to double
+
+ST_2: tmp_17_4 (143)  [2/3] 8.22ns  loc: astro.c:28
+:97  %tmp_17_4 = sitofp i64 %p_int_4_z_read_1 to double
+
+ST_2: tmp_19_4 (145)  [2/3] 8.22ns  loc: astro.c:29
+:99  %tmp_19_4 = sitofp i64 %p_int_4_vx_read_1 to double
+
+ST_2: tmp_21_4 (147)  [2/3] 8.22ns  loc: astro.c:30
+:101  %tmp_21_4 = sitofp i64 %p_int_4_vy_read_1 to double
+
+ST_2: tmp_23_4 (149)  [2/3] 8.22ns  loc: astro.c:31
+:103  %tmp_23_4 = sitofp i64 %p_int_4_vz_read_1 to double
+
+ST_2: tmp_13_5 (151)  [2/3] 8.22ns  loc: astro.c:26
+:105  %tmp_13_5 = sitofp i64 %p_int_5_x_read_1 to double
+
+ST_2: tmp_15_5 (153)  [2/3] 8.22ns  loc: astro.c:27
+:107  %tmp_15_5 = sitofp i64 %p_int_5_y_read_1 to double
+
+ST_2: tmp_17_5 (155)  [2/3] 8.22ns  loc: astro.c:28
+:109  %tmp_17_5 = sitofp i64 %p_int_5_z_read_1 to double
+
+ST_2: tmp_19_5 (157)  [2/3] 8.22ns  loc: astro.c:29
+:111  %tmp_19_5 = sitofp i64 %p_int_5_vx_read_1 to double
+
+ST_2: tmp_21_5 (159)  [2/3] 8.22ns  loc: astro.c:30
+:113  %tmp_21_5 = sitofp i64 %p_int_5_vy_read_1 to double
+
+ST_2: tmp_23_5 (161)  [2/3] 8.22ns  loc: astro.c:31
+:115  %tmp_23_5 = sitofp i64 %p_int_5_vz_read_1 to double
+
+ST_2: tmp_13_6 (163)  [2/3] 8.22ns  loc: astro.c:26
+:117  %tmp_13_6 = sitofp i64 %p_int_6_x_read_1 to double
+
+ST_2: tmp_15_6 (165)  [2/3] 8.22ns  loc: astro.c:27
+:119  %tmp_15_6 = sitofp i64 %p_int_6_y_read_1 to double
+
+ST_2: tmp_17_6 (167)  [2/3] 8.22ns  loc: astro.c:28
+:121  %tmp_17_6 = sitofp i64 %p_int_6_z_read_1 to double
+
+ST_2: tmp_13_7 (169)  [2/3] 8.22ns  loc: astro.c:26
+:123  %tmp_13_7 = sitofp i64 %p_int_7_x_read_1 to double
+
+ST_2: tmp_15_7 (171)  [2/3] 8.22ns  loc: astro.c:27
+:125  %tmp_15_7 = sitofp i64 %p_int_7_y_read_1 to double
+
+ST_2: tmp_17_7 (173)  [2/3] 8.22ns  loc: astro.c:28
+:127  %tmp_17_7 = sitofp i64 %p_int_7_z_read_1 to double
+
+ST_2: tmp_13_8 (175)  [2/3] 8.22ns  loc: astro.c:26
+:129  %tmp_13_8 = sitofp i64 %p_int_8_x_read_1 to double
+
+ST_2: tmp_15_8 (177)  [2/3] 8.22ns  loc: astro.c:27
+:131  %tmp_15_8 = sitofp i64 %p_int_8_y_read_1 to double
+
+ST_2: tmp_17_8 (179)  [2/3] 8.22ns  loc: astro.c:28
+:133  %tmp_17_8 = sitofp i64 %p_int_8_z_read_1 to double
+
+
+ <State 3>: 8.22ns
+ST_3: tmp_13 (91)  [1/3] 8.22ns  loc: astro.c:26
+:45  %tmp_13 = sitofp i64 %p_int_0_x_read_1 to double
+
+ST_3: tmp_15 (93)  [1/3] 8.22ns  loc: astro.c:27
+:47  %tmp_15 = sitofp i64 %p_int_0_y_read_1 to double
+
+ST_3: tmp_17 (95)  [1/3] 8.22ns  loc: astro.c:28
+:49  %tmp_17 = sitofp i64 %p_int_0_z_read_1 to double
+
+ST_3: tmp_19 (97)  [1/3] 8.22ns  loc: astro.c:29
+:51  %tmp_19 = sitofp i64 %p_int_0_vx_read_1 to double
+
+ST_3: tmp_21 (99)  [1/3] 8.22ns  loc: astro.c:30
+:53  %tmp_21 = sitofp i64 %p_int_0_vy_read_1 to double
+
+ST_3: tmp_23 (101)  [1/3] 8.22ns  loc: astro.c:31
+:55  %tmp_23 = sitofp i64 %p_int_0_vz_read_1 to double
+
+ST_3: tmp_13_1 (103)  [1/3] 8.22ns  loc: astro.c:26
+:57  %tmp_13_1 = sitofp i64 %p_int_1_x_read_1 to double
+
+ST_3: tmp_15_1 (105)  [1/3] 8.22ns  loc: astro.c:27
+:59  %tmp_15_1 = sitofp i64 %p_int_1_y_read_1 to double
+
+ST_3: tmp_17_1 (107)  [1/3] 8.22ns  loc: astro.c:28
+:61  %tmp_17_1 = sitofp i64 %p_int_1_z_read_1 to double
+
+ST_3: tmp_19_1 (109)  [1/3] 8.22ns  loc: astro.c:29
+:63  %tmp_19_1 = sitofp i64 %p_int_1_vx_read_1 to double
+
+ST_3: tmp_21_1 (111)  [1/3] 8.22ns  loc: astro.c:30
+:65  %tmp_21_1 = sitofp i64 %p_int_1_vy_read_1 to double
+
+ST_3: tmp_23_1 (113)  [1/3] 8.22ns  loc: astro.c:31
+:67  %tmp_23_1 = sitofp i64 %p_int_1_vz_read_1 to double
+
+ST_3: tmp_13_2 (115)  [1/3] 8.22ns  loc: astro.c:26
+:69  %tmp_13_2 = sitofp i64 %p_int_2_x_read_1 to double
+
+ST_3: tmp_15_2 (117)  [1/3] 8.22ns  loc: astro.c:27
+:71  %tmp_15_2 = sitofp i64 %p_int_2_y_read_1 to double
+
+ST_3: tmp_17_2 (119)  [1/3] 8.22ns  loc: astro.c:28
+:73  %tmp_17_2 = sitofp i64 %p_int_2_z_read_1 to double
+
+ST_3: tmp_19_2 (121)  [1/3] 8.22ns  loc: astro.c:29
+:75  %tmp_19_2 = sitofp i64 %p_int_2_vx_read_1 to double
+
+ST_3: tmp_21_2 (123)  [1/3] 8.22ns  loc: astro.c:30
+:77  %tmp_21_2 = sitofp i64 %p_int_2_vy_read_1 to double
+
+ST_3: tmp_23_2 (125)  [1/3] 8.22ns  loc: astro.c:31
+:79  %tmp_23_2 = sitofp i64 %p_int_2_vz_read_1 to double
+
+ST_3: tmp_13_3 (127)  [1/3] 8.22ns  loc: astro.c:26
+:81  %tmp_13_3 = sitofp i64 %p_int_3_x_read_1 to double
+
+ST_3: tmp_15_3 (129)  [1/3] 8.22ns  loc: astro.c:27
+:83  %tmp_15_3 = sitofp i64 %p_int_3_y_read_1 to double
+
+ST_3: tmp_17_3 (131)  [1/3] 8.22ns  loc: astro.c:28
+:85  %tmp_17_3 = sitofp i64 %p_int_3_z_read_1 to double
+
+ST_3: tmp_19_3 (133)  [1/3] 8.22ns  loc: astro.c:29
+:87  %tmp_19_3 = sitofp i64 %p_int_3_vx_read_1 to double
+
+ST_3: tmp_21_3 (135)  [1/3] 8.22ns  loc: astro.c:30
+:89  %tmp_21_3 = sitofp i64 %p_int_3_vy_read_1 to double
+
+ST_3: tmp_23_3 (137)  [1/3] 8.22ns  loc: astro.c:31
+:91  %tmp_23_3 = sitofp i64 %p_int_3_vz_read_1 to double
+
+ST_3: tmp_13_4 (139)  [1/3] 8.22ns  loc: astro.c:26
+:93  %tmp_13_4 = sitofp i64 %p_int_4_x_read_1 to double
+
+ST_3: tmp_15_4 (141)  [1/3] 8.22ns  loc: astro.c:27
+:95  %tmp_15_4 = sitofp i64 %p_int_4_y_read_1 to double
+
+ST_3: tmp_17_4 (143)  [1/3] 8.22ns  loc: astro.c:28
+:97  %tmp_17_4 = sitofp i64 %p_int_4_z_read_1 to double
+
+ST_3: tmp_19_4 (145)  [1/3] 8.22ns  loc: astro.c:29
+:99  %tmp_19_4 = sitofp i64 %p_int_4_vx_read_1 to double
+
+ST_3: tmp_21_4 (147)  [1/3] 8.22ns  loc: astro.c:30
+:101  %tmp_21_4 = sitofp i64 %p_int_4_vy_read_1 to double
+
+ST_3: tmp_23_4 (149)  [1/3] 8.22ns  loc: astro.c:31
+:103  %tmp_23_4 = sitofp i64 %p_int_4_vz_read_1 to double
+
+ST_3: tmp_13_5 (151)  [1/3] 8.22ns  loc: astro.c:26
+:105  %tmp_13_5 = sitofp i64 %p_int_5_x_read_1 to double
+
+ST_3: tmp_15_5 (153)  [1/3] 8.22ns  loc: astro.c:27
+:107  %tmp_15_5 = sitofp i64 %p_int_5_y_read_1 to double
+
+ST_3: tmp_17_5 (155)  [1/3] 8.22ns  loc: astro.c:28
+:109  %tmp_17_5 = sitofp i64 %p_int_5_z_read_1 to double
+
+ST_3: tmp_19_5 (157)  [1/3] 8.22ns  loc: astro.c:29
+:111  %tmp_19_5 = sitofp i64 %p_int_5_vx_read_1 to double
+
+ST_3: tmp_21_5 (159)  [1/3] 8.22ns  loc: astro.c:30
+:113  %tmp_21_5 = sitofp i64 %p_int_5_vy_read_1 to double
+
+ST_3: tmp_23_5 (161)  [1/3] 8.22ns  loc: astro.c:31
+:115  %tmp_23_5 = sitofp i64 %p_int_5_vz_read_1 to double
+
+ST_3: tmp_13_6 (163)  [1/3] 8.22ns  loc: astro.c:26
+:117  %tmp_13_6 = sitofp i64 %p_int_6_x_read_1 to double
+
+ST_3: tmp_15_6 (165)  [1/3] 8.22ns  loc: astro.c:27
+:119  %tmp_15_6 = sitofp i64 %p_int_6_y_read_1 to double
+
+ST_3: tmp_17_6 (167)  [1/3] 8.22ns  loc: astro.c:28
+:121  %tmp_17_6 = sitofp i64 %p_int_6_z_read_1 to double
+
+ST_3: tmp_13_7 (169)  [1/3] 8.22ns  loc: astro.c:26
+:123  %tmp_13_7 = sitofp i64 %p_int_7_x_read_1 to double
+
+ST_3: tmp_15_7 (171)  [1/3] 8.22ns  loc: astro.c:27
+:125  %tmp_15_7 = sitofp i64 %p_int_7_y_read_1 to double
+
+ST_3: tmp_17_7 (173)  [1/3] 8.22ns  loc: astro.c:28
+:127  %tmp_17_7 = sitofp i64 %p_int_7_z_read_1 to double
+
+ST_3: tmp_13_8 (175)  [1/3] 8.22ns  loc: astro.c:26
+:129  %tmp_13_8 = sitofp i64 %p_int_8_x_read_1 to double
+
+ST_3: tmp_15_8 (177)  [1/3] 8.22ns  loc: astro.c:27
+:131  %tmp_15_8 = sitofp i64 %p_int_8_y_read_1 to double
+
+ST_3: tmp_17_8 (179)  [1/3] 8.22ns  loc: astro.c:28
+:133  %tmp_17_8 = sitofp i64 %p_int_8_z_read_1 to double
+
+
+ <State 4>: 8.66ns
+ST_4: p_0_x_write_assign (92)  [4/4] 8.66ns  loc: astro.c:26
+:46  %p_0_x_write_assign = fmul double %tmp_13, 1.000000e-16
+
+ST_4: p_0_y_write_assign (94)  [4/4] 8.66ns  loc: astro.c:27
+:48  %p_0_y_write_assign = fmul double %tmp_15, 1.000000e-16
+
+ST_4: p_0_z_write_assign (96)  [4/4] 8.66ns  loc: astro.c:28
+:50  %p_0_z_write_assign = fmul double %tmp_17, 1.000000e-16
+
+ST_4: p_0_vx_write_assign (98)  [4/4] 8.66ns  loc: astro.c:29
+:52  %p_0_vx_write_assign = fmul double %tmp_19, 1.000000e-16
+
+ST_4: p_0_vy_write_assign (100)  [4/4] 8.66ns  loc: astro.c:30
+:54  %p_0_vy_write_assign = fmul double %tmp_21, 1.000000e-16
+
+ST_4: p_0_vz_write_assign (102)  [4/4] 8.66ns  loc: astro.c:31
+:56  %p_0_vz_write_assign = fmul double %tmp_23, 1.000000e-16
+
+ST_4: p_1_x_write_assign (104)  [4/4] 8.66ns  loc: astro.c:26
+:58  %p_1_x_write_assign = fmul double %tmp_13_1, 1.000000e-16
+
+ST_4: p_1_y_write_assign (106)  [4/4] 8.66ns  loc: astro.c:27
+:60  %p_1_y_write_assign = fmul double %tmp_15_1, 1.000000e-16
+
+ST_4: p_1_z_write_assign (108)  [4/4] 8.66ns  loc: astro.c:28
+:62  %p_1_z_write_assign = fmul double %tmp_17_1, 1.000000e-16
+
+ST_4: p_1_vx_write_assign (110)  [4/4] 8.66ns  loc: astro.c:29
+:64  %p_1_vx_write_assign = fmul double %tmp_19_1, 1.000000e-16
+
+ST_4: p_1_vy_write_assign (112)  [4/4] 8.66ns  loc: astro.c:30
+:66  %p_1_vy_write_assign = fmul double %tmp_21_1, 1.000000e-16
+
+ST_4: p_1_vz_write_assign (114)  [4/4] 8.66ns  loc: astro.c:31
+:68  %p_1_vz_write_assign = fmul double %tmp_23_1, 1.000000e-16
+
+ST_4: p_2_x_write_assign (116)  [4/4] 8.66ns  loc: astro.c:26
+:70  %p_2_x_write_assign = fmul double %tmp_13_2, 1.000000e-16
+
+ST_4: p_2_y_write_assign (118)  [4/4] 8.66ns  loc: astro.c:27
+:72  %p_2_y_write_assign = fmul double %tmp_15_2, 1.000000e-16
+
+ST_4: p_2_z_write_assign (120)  [4/4] 8.66ns  loc: astro.c:28
+:74  %p_2_z_write_assign = fmul double %tmp_17_2, 1.000000e-16
+
+ST_4: p_2_vx_write_assign (122)  [4/4] 8.66ns  loc: astro.c:29
+:76  %p_2_vx_write_assign = fmul double %tmp_19_2, 1.000000e-16
+
+ST_4: p_2_vy_write_assign (124)  [4/4] 8.66ns  loc: astro.c:30
+:78  %p_2_vy_write_assign = fmul double %tmp_21_2, 1.000000e-16
+
+ST_4: p_2_vz_write_assign (126)  [4/4] 8.66ns  loc: astro.c:31
+:80  %p_2_vz_write_assign = fmul double %tmp_23_2, 1.000000e-16
+
+ST_4: p_3_x_write_assign (128)  [4/4] 8.66ns  loc: astro.c:26
+:82  %p_3_x_write_assign = fmul double %tmp_13_3, 1.000000e-16
+
+ST_4: p_3_y_write_assign (130)  [4/4] 8.66ns  loc: astro.c:27
+:84  %p_3_y_write_assign = fmul double %tmp_15_3, 1.000000e-16
+
+ST_4: p_3_z_write_assign (132)  [4/4] 8.66ns  loc: astro.c:28
+:86  %p_3_z_write_assign = fmul double %tmp_17_3, 1.000000e-16
+
+ST_4: p_3_vx_write_assign (134)  [4/4] 8.66ns  loc: astro.c:29
+:88  %p_3_vx_write_assign = fmul double %tmp_19_3, 1.000000e-16
+
+ST_4: p_3_vy_write_assign (136)  [4/4] 8.66ns  loc: astro.c:30
+:90  %p_3_vy_write_assign = fmul double %tmp_21_3, 1.000000e-16
+
+ST_4: p_3_vz_write_assign (138)  [4/4] 8.66ns  loc: astro.c:31
+:92  %p_3_vz_write_assign = fmul double %tmp_23_3, 1.000000e-16
+
+ST_4: p_4_x_write_assign (140)  [4/4] 8.66ns  loc: astro.c:26
+:94  %p_4_x_write_assign = fmul double %tmp_13_4, 1.000000e-16
+
+ST_4: p_4_y_write_assign (142)  [4/4] 8.66ns  loc: astro.c:27
+:96  %p_4_y_write_assign = fmul double %tmp_15_4, 1.000000e-16
+
+ST_4: p_4_z_write_assign (144)  [4/4] 8.66ns  loc: astro.c:28
+:98  %p_4_z_write_assign = fmul double %tmp_17_4, 1.000000e-16
+
+ST_4: p_4_vx_write_assign (146)  [4/4] 8.66ns  loc: astro.c:29
+:100  %p_4_vx_write_assign = fmul double %tmp_19_4, 1.000000e-16
+
+ST_4: p_4_vy_write_assign (148)  [4/4] 8.66ns  loc: astro.c:30
+:102  %p_4_vy_write_assign = fmul double %tmp_21_4, 1.000000e-16
+
+ST_4: p_4_vz_write_assign (150)  [4/4] 8.66ns  loc: astro.c:31
+:104  %p_4_vz_write_assign = fmul double %tmp_23_4, 1.000000e-16
+
+ST_4: p_5_x_write_assign (152)  [4/4] 8.66ns  loc: astro.c:26
+:106  %p_5_x_write_assign = fmul double %tmp_13_5, 1.000000e-16
+
+ST_4: p_5_y_write_assign (154)  [4/4] 8.66ns  loc: astro.c:27
+:108  %p_5_y_write_assign = fmul double %tmp_15_5, 1.000000e-16
+
+ST_4: p_5_z_write_assign (156)  [4/4] 8.66ns  loc: astro.c:28
+:110  %p_5_z_write_assign = fmul double %tmp_17_5, 1.000000e-16
+
+ST_4: p_5_vx_write_assign (158)  [4/4] 8.66ns  loc: astro.c:29
+:112  %p_5_vx_write_assign = fmul double %tmp_19_5, 1.000000e-16
+
+ST_4: p_5_vy_write_assign (160)  [4/4] 8.66ns  loc: astro.c:30
+:114  %p_5_vy_write_assign = fmul double %tmp_21_5, 1.000000e-16
+
+ST_4: p_5_vz_write_assign (162)  [4/4] 8.66ns  loc: astro.c:31
+:116  %p_5_vz_write_assign = fmul double %tmp_23_5, 1.000000e-16
+
+ST_4: p_6_x_write_assign (164)  [4/4] 8.66ns  loc: astro.c:26
+:118  %p_6_x_write_assign = fmul double %tmp_13_6, 1.000000e-16
+
+ST_4: p_6_y_write_assign (166)  [4/4] 8.66ns  loc: astro.c:27
+:120  %p_6_y_write_assign = fmul double %tmp_15_6, 1.000000e-16
+
+ST_4: p_6_z_write_assign (168)  [4/4] 8.66ns  loc: astro.c:28
+:122  %p_6_z_write_assign = fmul double %tmp_17_6, 1.000000e-16
+
+ST_4: p_7_x_write_assign (170)  [4/4] 8.66ns  loc: astro.c:26
+:124  %p_7_x_write_assign = fmul double %tmp_13_7, 1.000000e-16
+
+ST_4: p_7_y_write_assign (172)  [4/4] 8.66ns  loc: astro.c:27
+:126  %p_7_y_write_assign = fmul double %tmp_15_7, 1.000000e-16
+
+ST_4: p_7_z_write_assign (174)  [4/4] 8.66ns  loc: astro.c:28
+:128  %p_7_z_write_assign = fmul double %tmp_17_7, 1.000000e-16
+
+ST_4: p_8_x_write_assign (176)  [4/4] 8.66ns  loc: astro.c:26
+:130  %p_8_x_write_assign = fmul double %tmp_13_8, 1.000000e-16
+
+ST_4: p_8_y_write_assign (178)  [4/4] 8.66ns  loc: astro.c:27
+:132  %p_8_y_write_assign = fmul double %tmp_15_8, 1.000000e-16
+
+ST_4: p_8_z_write_assign (180)  [4/4] 8.66ns  loc: astro.c:28
+:134  %p_8_z_write_assign = fmul double %tmp_17_8, 1.000000e-16
+
+
+ <State 5>: 8.66ns
+ST_5: p_0_x_write_assign (92)  [3/4] 8.66ns  loc: astro.c:26
+:46  %p_0_x_write_assign = fmul double %tmp_13, 1.000000e-16
+
+ST_5: p_0_y_write_assign (94)  [3/4] 8.66ns  loc: astro.c:27
+:48  %p_0_y_write_assign = fmul double %tmp_15, 1.000000e-16
+
+ST_5: p_0_z_write_assign (96)  [3/4] 8.66ns  loc: astro.c:28
+:50  %p_0_z_write_assign = fmul double %tmp_17, 1.000000e-16
+
+ST_5: p_0_vx_write_assign (98)  [3/4] 8.66ns  loc: astro.c:29
+:52  %p_0_vx_write_assign = fmul double %tmp_19, 1.000000e-16
+
+ST_5: p_0_vy_write_assign (100)  [3/4] 8.66ns  loc: astro.c:30
+:54  %p_0_vy_write_assign = fmul double %tmp_21, 1.000000e-16
+
+ST_5: p_0_vz_write_assign (102)  [3/4] 8.66ns  loc: astro.c:31
+:56  %p_0_vz_write_assign = fmul double %tmp_23, 1.000000e-16
+
+ST_5: p_1_x_write_assign (104)  [3/4] 8.66ns  loc: astro.c:26
+:58  %p_1_x_write_assign = fmul double %tmp_13_1, 1.000000e-16
+
+ST_5: p_1_y_write_assign (106)  [3/4] 8.66ns  loc: astro.c:27
+:60  %p_1_y_write_assign = fmul double %tmp_15_1, 1.000000e-16
+
+ST_5: p_1_z_write_assign (108)  [3/4] 8.66ns  loc: astro.c:28
+:62  %p_1_z_write_assign = fmul double %tmp_17_1, 1.000000e-16
+
+ST_5: p_1_vx_write_assign (110)  [3/4] 8.66ns  loc: astro.c:29
+:64  %p_1_vx_write_assign = fmul double %tmp_19_1, 1.000000e-16
+
+ST_5: p_1_vy_write_assign (112)  [3/4] 8.66ns  loc: astro.c:30
+:66  %p_1_vy_write_assign = fmul double %tmp_21_1, 1.000000e-16
+
+ST_5: p_1_vz_write_assign (114)  [3/4] 8.66ns  loc: astro.c:31
+:68  %p_1_vz_write_assign = fmul double %tmp_23_1, 1.000000e-16
+
+ST_5: p_2_x_write_assign (116)  [3/4] 8.66ns  loc: astro.c:26
+:70  %p_2_x_write_assign = fmul double %tmp_13_2, 1.000000e-16
+
+ST_5: p_2_y_write_assign (118)  [3/4] 8.66ns  loc: astro.c:27
+:72  %p_2_y_write_assign = fmul double %tmp_15_2, 1.000000e-16
+
+ST_5: p_2_z_write_assign (120)  [3/4] 8.66ns  loc: astro.c:28
+:74  %p_2_z_write_assign = fmul double %tmp_17_2, 1.000000e-16
+
+ST_5: p_2_vx_write_assign (122)  [3/4] 8.66ns  loc: astro.c:29
+:76  %p_2_vx_write_assign = fmul double %tmp_19_2, 1.000000e-16
+
+ST_5: p_2_vy_write_assign (124)  [3/4] 8.66ns  loc: astro.c:30
+:78  %p_2_vy_write_assign = fmul double %tmp_21_2, 1.000000e-16
+
+ST_5: p_2_vz_write_assign (126)  [3/4] 8.66ns  loc: astro.c:31
+:80  %p_2_vz_write_assign = fmul double %tmp_23_2, 1.000000e-16
+
+ST_5: p_3_x_write_assign (128)  [3/4] 8.66ns  loc: astro.c:26
+:82  %p_3_x_write_assign = fmul double %tmp_13_3, 1.000000e-16
+
+ST_5: p_3_y_write_assign (130)  [3/4] 8.66ns  loc: astro.c:27
+:84  %p_3_y_write_assign = fmul double %tmp_15_3, 1.000000e-16
+
+ST_5: p_3_z_write_assign (132)  [3/4] 8.66ns  loc: astro.c:28
+:86  %p_3_z_write_assign = fmul double %tmp_17_3, 1.000000e-16
+
+ST_5: p_3_vx_write_assign (134)  [3/4] 8.66ns  loc: astro.c:29
+:88  %p_3_vx_write_assign = fmul double %tmp_19_3, 1.000000e-16
+
+ST_5: p_3_vy_write_assign (136)  [3/4] 8.66ns  loc: astro.c:30
+:90  %p_3_vy_write_assign = fmul double %tmp_21_3, 1.000000e-16
+
+ST_5: p_3_vz_write_assign (138)  [3/4] 8.66ns  loc: astro.c:31
+:92  %p_3_vz_write_assign = fmul double %tmp_23_3, 1.000000e-16
+
+ST_5: p_4_x_write_assign (140)  [3/4] 8.66ns  loc: astro.c:26
+:94  %p_4_x_write_assign = fmul double %tmp_13_4, 1.000000e-16
+
+ST_5: p_4_y_write_assign (142)  [3/4] 8.66ns  loc: astro.c:27
+:96  %p_4_y_write_assign = fmul double %tmp_15_4, 1.000000e-16
+
+ST_5: p_4_z_write_assign (144)  [3/4] 8.66ns  loc: astro.c:28
+:98  %p_4_z_write_assign = fmul double %tmp_17_4, 1.000000e-16
+
+ST_5: p_4_vx_write_assign (146)  [3/4] 8.66ns  loc: astro.c:29
+:100  %p_4_vx_write_assign = fmul double %tmp_19_4, 1.000000e-16
+
+ST_5: p_4_vy_write_assign (148)  [3/4] 8.66ns  loc: astro.c:30
+:102  %p_4_vy_write_assign = fmul double %tmp_21_4, 1.000000e-16
+
+ST_5: p_4_vz_write_assign (150)  [3/4] 8.66ns  loc: astro.c:31
+:104  %p_4_vz_write_assign = fmul double %tmp_23_4, 1.000000e-16
+
+ST_5: p_5_x_write_assign (152)  [3/4] 8.66ns  loc: astro.c:26
+:106  %p_5_x_write_assign = fmul double %tmp_13_5, 1.000000e-16
+
+ST_5: p_5_y_write_assign (154)  [3/4] 8.66ns  loc: astro.c:27
+:108  %p_5_y_write_assign = fmul double %tmp_15_5, 1.000000e-16
+
+ST_5: p_5_z_write_assign (156)  [3/4] 8.66ns  loc: astro.c:28
+:110  %p_5_z_write_assign = fmul double %tmp_17_5, 1.000000e-16
+
+ST_5: p_5_vx_write_assign (158)  [3/4] 8.66ns  loc: astro.c:29
+:112  %p_5_vx_write_assign = fmul double %tmp_19_5, 1.000000e-16
+
+ST_5: p_5_vy_write_assign (160)  [3/4] 8.66ns  loc: astro.c:30
+:114  %p_5_vy_write_assign = fmul double %tmp_21_5, 1.000000e-16
+
+ST_5: p_5_vz_write_assign (162)  [3/4] 8.66ns  loc: astro.c:31
+:116  %p_5_vz_write_assign = fmul double %tmp_23_5, 1.000000e-16
+
+ST_5: p_6_x_write_assign (164)  [3/4] 8.66ns  loc: astro.c:26
+:118  %p_6_x_write_assign = fmul double %tmp_13_6, 1.000000e-16
+
+ST_5: p_6_y_write_assign (166)  [3/4] 8.66ns  loc: astro.c:27
+:120  %p_6_y_write_assign = fmul double %tmp_15_6, 1.000000e-16
+
+ST_5: p_6_z_write_assign (168)  [3/4] 8.66ns  loc: astro.c:28
+:122  %p_6_z_write_assign = fmul double %tmp_17_6, 1.000000e-16
+
+ST_5: p_7_x_write_assign (170)  [3/4] 8.66ns  loc: astro.c:26
+:124  %p_7_x_write_assign = fmul double %tmp_13_7, 1.000000e-16
+
+ST_5: p_7_y_write_assign (172)  [3/4] 8.66ns  loc: astro.c:27
+:126  %p_7_y_write_assign = fmul double %tmp_15_7, 1.000000e-16
+
+ST_5: p_7_z_write_assign (174)  [3/4] 8.66ns  loc: astro.c:28
+:128  %p_7_z_write_assign = fmul double %tmp_17_7, 1.000000e-16
+
+ST_5: p_8_x_write_assign (176)  [3/4] 8.66ns  loc: astro.c:26
+:130  %p_8_x_write_assign = fmul double %tmp_13_8, 1.000000e-16
+
+ST_5: p_8_y_write_assign (178)  [3/4] 8.66ns  loc: astro.c:27
+:132  %p_8_y_write_assign = fmul double %tmp_15_8, 1.000000e-16
+
+ST_5: p_8_z_write_assign (180)  [3/4] 8.66ns  loc: astro.c:28
+:134  %p_8_z_write_assign = fmul double %tmp_17_8, 1.000000e-16
+
+
+ <State 6>: 8.66ns
+ST_6: p_0_x_write_assign (92)  [2/4] 8.66ns  loc: astro.c:26
+:46  %p_0_x_write_assign = fmul double %tmp_13, 1.000000e-16
+
+ST_6: p_0_y_write_assign (94)  [2/4] 8.66ns  loc: astro.c:27
+:48  %p_0_y_write_assign = fmul double %tmp_15, 1.000000e-16
+
+ST_6: p_0_z_write_assign (96)  [2/4] 8.66ns  loc: astro.c:28
+:50  %p_0_z_write_assign = fmul double %tmp_17, 1.000000e-16
+
+ST_6: p_0_vx_write_assign (98)  [2/4] 8.66ns  loc: astro.c:29
+:52  %p_0_vx_write_assign = fmul double %tmp_19, 1.000000e-16
+
+ST_6: p_0_vy_write_assign (100)  [2/4] 8.66ns  loc: astro.c:30
+:54  %p_0_vy_write_assign = fmul double %tmp_21, 1.000000e-16
+
+ST_6: p_0_vz_write_assign (102)  [2/4] 8.66ns  loc: astro.c:31
+:56  %p_0_vz_write_assign = fmul double %tmp_23, 1.000000e-16
+
+ST_6: p_1_x_write_assign (104)  [2/4] 8.66ns  loc: astro.c:26
+:58  %p_1_x_write_assign = fmul double %tmp_13_1, 1.000000e-16
+
+ST_6: p_1_y_write_assign (106)  [2/4] 8.66ns  loc: astro.c:27
+:60  %p_1_y_write_assign = fmul double %tmp_15_1, 1.000000e-16
+
+ST_6: p_1_z_write_assign (108)  [2/4] 8.66ns  loc: astro.c:28
+:62  %p_1_z_write_assign = fmul double %tmp_17_1, 1.000000e-16
+
+ST_6: p_1_vx_write_assign (110)  [2/4] 8.66ns  loc: astro.c:29
+:64  %p_1_vx_write_assign = fmul double %tmp_19_1, 1.000000e-16
+
+ST_6: p_1_vy_write_assign (112)  [2/4] 8.66ns  loc: astro.c:30
+:66  %p_1_vy_write_assign = fmul double %tmp_21_1, 1.000000e-16
+
+ST_6: p_1_vz_write_assign (114)  [2/4] 8.66ns  loc: astro.c:31
+:68  %p_1_vz_write_assign = fmul double %tmp_23_1, 1.000000e-16
+
+ST_6: p_2_x_write_assign (116)  [2/4] 8.66ns  loc: astro.c:26
+:70  %p_2_x_write_assign = fmul double %tmp_13_2, 1.000000e-16
+
+ST_6: p_2_y_write_assign (118)  [2/4] 8.66ns  loc: astro.c:27
+:72  %p_2_y_write_assign = fmul double %tmp_15_2, 1.000000e-16
+
+ST_6: p_2_z_write_assign (120)  [2/4] 8.66ns  loc: astro.c:28
+:74  %p_2_z_write_assign = fmul double %tmp_17_2, 1.000000e-16
+
+ST_6: p_2_vx_write_assign (122)  [2/4] 8.66ns  loc: astro.c:29
+:76  %p_2_vx_write_assign = fmul double %tmp_19_2, 1.000000e-16
+
+ST_6: p_2_vy_write_assign (124)  [2/4] 8.66ns  loc: astro.c:30
+:78  %p_2_vy_write_assign = fmul double %tmp_21_2, 1.000000e-16
+
+ST_6: p_2_vz_write_assign (126)  [2/4] 8.66ns  loc: astro.c:31
+:80  %p_2_vz_write_assign = fmul double %tmp_23_2, 1.000000e-16
+
+ST_6: p_3_x_write_assign (128)  [2/4] 8.66ns  loc: astro.c:26
+:82  %p_3_x_write_assign = fmul double %tmp_13_3, 1.000000e-16
+
+ST_6: p_3_y_write_assign (130)  [2/4] 8.66ns  loc: astro.c:27
+:84  %p_3_y_write_assign = fmul double %tmp_15_3, 1.000000e-16
+
+ST_6: p_3_z_write_assign (132)  [2/4] 8.66ns  loc: astro.c:28
+:86  %p_3_z_write_assign = fmul double %tmp_17_3, 1.000000e-16
+
+ST_6: p_3_vx_write_assign (134)  [2/4] 8.66ns  loc: astro.c:29
+:88  %p_3_vx_write_assign = fmul double %tmp_19_3, 1.000000e-16
+
+ST_6: p_3_vy_write_assign (136)  [2/4] 8.66ns  loc: astro.c:30
+:90  %p_3_vy_write_assign = fmul double %tmp_21_3, 1.000000e-16
+
+ST_6: p_3_vz_write_assign (138)  [2/4] 8.66ns  loc: astro.c:31
+:92  %p_3_vz_write_assign = fmul double %tmp_23_3, 1.000000e-16
+
+ST_6: p_4_x_write_assign (140)  [2/4] 8.66ns  loc: astro.c:26
+:94  %p_4_x_write_assign = fmul double %tmp_13_4, 1.000000e-16
+
+ST_6: p_4_y_write_assign (142)  [2/4] 8.66ns  loc: astro.c:27
+:96  %p_4_y_write_assign = fmul double %tmp_15_4, 1.000000e-16
+
+ST_6: p_4_z_write_assign (144)  [2/4] 8.66ns  loc: astro.c:28
+:98  %p_4_z_write_assign = fmul double %tmp_17_4, 1.000000e-16
+
+ST_6: p_4_vx_write_assign (146)  [2/4] 8.66ns  loc: astro.c:29
+:100  %p_4_vx_write_assign = fmul double %tmp_19_4, 1.000000e-16
+
+ST_6: p_4_vy_write_assign (148)  [2/4] 8.66ns  loc: astro.c:30
+:102  %p_4_vy_write_assign = fmul double %tmp_21_4, 1.000000e-16
+
+ST_6: p_4_vz_write_assign (150)  [2/4] 8.66ns  loc: astro.c:31
+:104  %p_4_vz_write_assign = fmul double %tmp_23_4, 1.000000e-16
+
+ST_6: p_5_x_write_assign (152)  [2/4] 8.66ns  loc: astro.c:26
+:106  %p_5_x_write_assign = fmul double %tmp_13_5, 1.000000e-16
+
+ST_6: p_5_y_write_assign (154)  [2/4] 8.66ns  loc: astro.c:27
+:108  %p_5_y_write_assign = fmul double %tmp_15_5, 1.000000e-16
+
+ST_6: p_5_z_write_assign (156)  [2/4] 8.66ns  loc: astro.c:28
+:110  %p_5_z_write_assign = fmul double %tmp_17_5, 1.000000e-16
+
+ST_6: p_5_vx_write_assign (158)  [2/4] 8.66ns  loc: astro.c:29
+:112  %p_5_vx_write_assign = fmul double %tmp_19_5, 1.000000e-16
+
+ST_6: p_5_vy_write_assign (160)  [2/4] 8.66ns  loc: astro.c:30
+:114  %p_5_vy_write_assign = fmul double %tmp_21_5, 1.000000e-16
+
+ST_6: p_5_vz_write_assign (162)  [2/4] 8.66ns  loc: astro.c:31
+:116  %p_5_vz_write_assign = fmul double %tmp_23_5, 1.000000e-16
+
+ST_6: p_6_x_write_assign (164)  [2/4] 8.66ns  loc: astro.c:26
+:118  %p_6_x_write_assign = fmul double %tmp_13_6, 1.000000e-16
+
+ST_6: p_6_y_write_assign (166)  [2/4] 8.66ns  loc: astro.c:27
+:120  %p_6_y_write_assign = fmul double %tmp_15_6, 1.000000e-16
+
+ST_6: p_6_z_write_assign (168)  [2/4] 8.66ns  loc: astro.c:28
+:122  %p_6_z_write_assign = fmul double %tmp_17_6, 1.000000e-16
+
+ST_6: p_7_x_write_assign (170)  [2/4] 8.66ns  loc: astro.c:26
+:124  %p_7_x_write_assign = fmul double %tmp_13_7, 1.000000e-16
+
+ST_6: p_7_y_write_assign (172)  [2/4] 8.66ns  loc: astro.c:27
+:126  %p_7_y_write_assign = fmul double %tmp_15_7, 1.000000e-16
+
+ST_6: p_7_z_write_assign (174)  [2/4] 8.66ns  loc: astro.c:28
+:128  %p_7_z_write_assign = fmul double %tmp_17_7, 1.000000e-16
+
+ST_6: p_8_x_write_assign (176)  [2/4] 8.66ns  loc: astro.c:26
+:130  %p_8_x_write_assign = fmul double %tmp_13_8, 1.000000e-16
+
+ST_6: p_8_y_write_assign (178)  [2/4] 8.66ns  loc: astro.c:27
+:132  %p_8_y_write_assign = fmul double %tmp_15_8, 1.000000e-16
+
+ST_6: p_8_z_write_assign (180)  [2/4] 8.66ns  loc: astro.c:28
+:134  %p_8_z_write_assign = fmul double %tmp_17_8, 1.000000e-16
+
+
+ <State 7>: 8.66ns
+ST_7: p_0_x_write_assign (92)  [1/4] 8.66ns  loc: astro.c:26
+:46  %p_0_x_write_assign = fmul double %tmp_13, 1.000000e-16
+
+ST_7: p_0_y_write_assign (94)  [1/4] 8.66ns  loc: astro.c:27
+:48  %p_0_y_write_assign = fmul double %tmp_15, 1.000000e-16
+
+ST_7: p_0_z_write_assign (96)  [1/4] 8.66ns  loc: astro.c:28
+:50  %p_0_z_write_assign = fmul double %tmp_17, 1.000000e-16
+
+ST_7: p_0_vx_write_assign (98)  [1/4] 8.66ns  loc: astro.c:29
+:52  %p_0_vx_write_assign = fmul double %tmp_19, 1.000000e-16
+
+ST_7: p_0_vy_write_assign (100)  [1/4] 8.66ns  loc: astro.c:30
+:54  %p_0_vy_write_assign = fmul double %tmp_21, 1.000000e-16
+
+ST_7: p_0_vz_write_assign (102)  [1/4] 8.66ns  loc: astro.c:31
+:56  %p_0_vz_write_assign = fmul double %tmp_23, 1.000000e-16
+
+ST_7: p_1_x_write_assign (104)  [1/4] 8.66ns  loc: astro.c:26
+:58  %p_1_x_write_assign = fmul double %tmp_13_1, 1.000000e-16
+
+ST_7: p_1_y_write_assign (106)  [1/4] 8.66ns  loc: astro.c:27
+:60  %p_1_y_write_assign = fmul double %tmp_15_1, 1.000000e-16
+
+ST_7: p_1_z_write_assign (108)  [1/4] 8.66ns  loc: astro.c:28
+:62  %p_1_z_write_assign = fmul double %tmp_17_1, 1.000000e-16
+
+ST_7: p_1_vx_write_assign (110)  [1/4] 8.66ns  loc: astro.c:29
+:64  %p_1_vx_write_assign = fmul double %tmp_19_1, 1.000000e-16
+
+ST_7: p_1_vy_write_assign (112)  [1/4] 8.66ns  loc: astro.c:30
+:66  %p_1_vy_write_assign = fmul double %tmp_21_1, 1.000000e-16
+
+ST_7: p_1_vz_write_assign (114)  [1/4] 8.66ns  loc: astro.c:31
+:68  %p_1_vz_write_assign = fmul double %tmp_23_1, 1.000000e-16
+
+ST_7: p_2_x_write_assign (116)  [1/4] 8.66ns  loc: astro.c:26
+:70  %p_2_x_write_assign = fmul double %tmp_13_2, 1.000000e-16
+
+ST_7: p_2_y_write_assign (118)  [1/4] 8.66ns  loc: astro.c:27
+:72  %p_2_y_write_assign = fmul double %tmp_15_2, 1.000000e-16
+
+ST_7: p_2_z_write_assign (120)  [1/4] 8.66ns  loc: astro.c:28
+:74  %p_2_z_write_assign = fmul double %tmp_17_2, 1.000000e-16
+
+ST_7: p_2_vx_write_assign (122)  [1/4] 8.66ns  loc: astro.c:29
+:76  %p_2_vx_write_assign = fmul double %tmp_19_2, 1.000000e-16
+
+ST_7: p_2_vy_write_assign (124)  [1/4] 8.66ns  loc: astro.c:30
+:78  %p_2_vy_write_assign = fmul double %tmp_21_2, 1.000000e-16
+
+ST_7: p_2_vz_write_assign (126)  [1/4] 8.66ns  loc: astro.c:31
+:80  %p_2_vz_write_assign = fmul double %tmp_23_2, 1.000000e-16
+
+ST_7: p_3_x_write_assign (128)  [1/4] 8.66ns  loc: astro.c:26
+:82  %p_3_x_write_assign = fmul double %tmp_13_3, 1.000000e-16
+
+ST_7: p_3_y_write_assign (130)  [1/4] 8.66ns  loc: astro.c:27
+:84  %p_3_y_write_assign = fmul double %tmp_15_3, 1.000000e-16
+
+ST_7: p_3_z_write_assign (132)  [1/4] 8.66ns  loc: astro.c:28
+:86  %p_3_z_write_assign = fmul double %tmp_17_3, 1.000000e-16
+
+ST_7: p_3_vx_write_assign (134)  [1/4] 8.66ns  loc: astro.c:29
+:88  %p_3_vx_write_assign = fmul double %tmp_19_3, 1.000000e-16
+
+ST_7: p_3_vy_write_assign (136)  [1/4] 8.66ns  loc: astro.c:30
+:90  %p_3_vy_write_assign = fmul double %tmp_21_3, 1.000000e-16
+
+ST_7: p_3_vz_write_assign (138)  [1/4] 8.66ns  loc: astro.c:31
+:92  %p_3_vz_write_assign = fmul double %tmp_23_3, 1.000000e-16
+
+ST_7: p_4_x_write_assign (140)  [1/4] 8.66ns  loc: astro.c:26
+:94  %p_4_x_write_assign = fmul double %tmp_13_4, 1.000000e-16
+
+ST_7: p_4_y_write_assign (142)  [1/4] 8.66ns  loc: astro.c:27
+:96  %p_4_y_write_assign = fmul double %tmp_15_4, 1.000000e-16
+
+ST_7: p_4_z_write_assign (144)  [1/4] 8.66ns  loc: astro.c:28
+:98  %p_4_z_write_assign = fmul double %tmp_17_4, 1.000000e-16
+
+ST_7: p_4_vx_write_assign (146)  [1/4] 8.66ns  loc: astro.c:29
+:100  %p_4_vx_write_assign = fmul double %tmp_19_4, 1.000000e-16
+
+ST_7: p_4_vy_write_assign (148)  [1/4] 8.66ns  loc: astro.c:30
+:102  %p_4_vy_write_assign = fmul double %tmp_21_4, 1.000000e-16
+
+ST_7: p_4_vz_write_assign (150)  [1/4] 8.66ns  loc: astro.c:31
+:104  %p_4_vz_write_assign = fmul double %tmp_23_4, 1.000000e-16
+
+ST_7: p_5_x_write_assign (152)  [1/4] 8.66ns  loc: astro.c:26
+:106  %p_5_x_write_assign = fmul double %tmp_13_5, 1.000000e-16
+
+ST_7: p_5_y_write_assign (154)  [1/4] 8.66ns  loc: astro.c:27
+:108  %p_5_y_write_assign = fmul double %tmp_15_5, 1.000000e-16
+
+ST_7: p_5_z_write_assign (156)  [1/4] 8.66ns  loc: astro.c:28
+:110  %p_5_z_write_assign = fmul double %tmp_17_5, 1.000000e-16
+
+ST_7: p_5_vx_write_assign (158)  [1/4] 8.66ns  loc: astro.c:29
+:112  %p_5_vx_write_assign = fmul double %tmp_19_5, 1.000000e-16
+
+ST_7: p_5_vy_write_assign (160)  [1/4] 8.66ns  loc: astro.c:30
+:114  %p_5_vy_write_assign = fmul double %tmp_21_5, 1.000000e-16
+
+ST_7: p_5_vz_write_assign (162)  [1/4] 8.66ns  loc: astro.c:31
+:116  %p_5_vz_write_assign = fmul double %tmp_23_5, 1.000000e-16
+
+ST_7: p_6_x_write_assign (164)  [1/4] 8.66ns  loc: astro.c:26
+:118  %p_6_x_write_assign = fmul double %tmp_13_6, 1.000000e-16
+
+ST_7: p_6_y_write_assign (166)  [1/4] 8.66ns  loc: astro.c:27
+:120  %p_6_y_write_assign = fmul double %tmp_15_6, 1.000000e-16
+
+ST_7: p_6_z_write_assign (168)  [1/4] 8.66ns  loc: astro.c:28
+:122  %p_6_z_write_assign = fmul double %tmp_17_6, 1.000000e-16
+
+ST_7: p_7_x_write_assign (170)  [1/4] 8.66ns  loc: astro.c:26
+:124  %p_7_x_write_assign = fmul double %tmp_13_7, 1.000000e-16
+
+ST_7: p_7_y_write_assign (172)  [1/4] 8.66ns  loc: astro.c:27
+:126  %p_7_y_write_assign = fmul double %tmp_15_7, 1.000000e-16
+
+ST_7: p_7_z_write_assign (174)  [1/4] 8.66ns  loc: astro.c:28
+:128  %p_7_z_write_assign = fmul double %tmp_17_7, 1.000000e-16
+
+ST_7: p_8_x_write_assign (176)  [1/4] 8.66ns  loc: astro.c:26
+:130  %p_8_x_write_assign = fmul double %tmp_13_8, 1.000000e-16
+
+ST_7: p_8_y_write_assign (178)  [1/4] 8.66ns  loc: astro.c:27
+:132  %p_8_y_write_assign = fmul double %tmp_15_8, 1.000000e-16
+
+ST_7: p_8_z_write_assign (180)  [1/4] 8.66ns  loc: astro.c:28
+:134  %p_8_z_write_assign = fmul double %tmp_17_8, 1.000000e-16
+
+ST_7: newret (181)  [1/1] 0.00ns  loc: astro.c:26
+:135  %newret = insertvalue { double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double } undef, double %p_0_x_write_assign, 0
+
+ST_7: newret2 (182)  [1/1] 0.00ns  loc: astro.c:26
+:136  %newret2 = insertvalue { double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double } %newret, double %p_1_x_write_assign, 1
+
+ST_7: newret4 (183)  [1/1] 0.00ns  loc: astro.c:26
+:137  %newret4 = insertvalue { double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double } %newret2, double %p_2_x_write_assign, 2
+
+ST_7: newret6 (184)  [1/1] 0.00ns  loc: astro.c:26
+:138  %newret6 = insertvalue { double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double } %newret4, double %p_3_x_write_assign, 3
+
+ST_7: newret8 (185)  [1/1] 0.00ns  loc: astro.c:26
+:139  %newret8 = insertvalue { double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double } %newret6, double %p_4_x_write_assign, 4
+
+ST_7: newret1 (186)  [1/1] 0.00ns  loc: astro.c:26
+:140  %newret1 = insertvalue { double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double } %newret8, double %p_5_x_write_assign, 5
+
+ST_7: newret3 (187)  [1/1] 0.00ns  loc: astro.c:26
+:141  %newret3 = insertvalue { double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double } %newret1, double %p_6_x_write_assign, 6
+
+ST_7: newret5 (188)  [1/1] 0.00ns  loc: astro.c:26
+:142  %newret5 = insertvalue { double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double } %newret3, double %p_7_x_write_assign, 7
+
+ST_7: newret7 (189)  [1/1] 0.00ns  loc: astro.c:26
+:143  %newret7 = insertvalue { double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double } %newret5, double %p_8_x_write_assign, 8
+
+ST_7: newret9 (190)  [1/1] 0.00ns  loc: astro.c:26
+:144  %newret9 = insertvalue { double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double } %newret7, double %p_0_y_write_assign, 9
+
+ST_7: newret10 (191)  [1/1] 0.00ns  loc: astro.c:26
+:145  %newret10 = insertvalue { double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double } %newret9, double %p_1_y_write_assign, 10
+
+ST_7: newret11 (192)  [1/1] 0.00ns  loc: astro.c:26
+:146  %newret11 = insertvalue { double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double } %newret10, double %p_2_y_write_assign, 11
+
+ST_7: newret12 (193)  [1/1] 0.00ns  loc: astro.c:26
+:147  %newret12 = insertvalue { double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double } %newret11, double %p_3_y_write_assign, 12
+
+ST_7: newret13 (194)  [1/1] 0.00ns  loc: astro.c:26
+:148  %newret13 = insertvalue { double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double } %newret12, double %p_4_y_write_assign, 13
+
+ST_7: newret14 (195)  [1/1] 0.00ns  loc: astro.c:26
+:149  %newret14 = insertvalue { double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double } %newret13, double %p_5_y_write_assign, 14
+
+ST_7: newret15 (196)  [1/1] 0.00ns  loc: astro.c:26
+:150  %newret15 = insertvalue { double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double } %newret14, double %p_6_y_write_assign, 15
+
+ST_7: newret16 (197)  [1/1] 0.00ns  loc: astro.c:26
+:151  %newret16 = insertvalue { double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double } %newret15, double %p_7_y_write_assign, 16
+
+ST_7: newret17 (198)  [1/1] 0.00ns  loc: astro.c:26
+:152  %newret17 = insertvalue { double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double } %newret16, double %p_8_y_write_assign, 17
+
+ST_7: newret18 (199)  [1/1] 0.00ns  loc: astro.c:26
+:153  %newret18 = insertvalue { double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double } %newret17, double %p_0_z_write_assign, 18
+
+ST_7: newret19 (200)  [1/1] 0.00ns  loc: astro.c:26
+:154  %newret19 = insertvalue { double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double } %newret18, double %p_1_z_write_assign, 19
+
+ST_7: newret20 (201)  [1/1] 0.00ns  loc: astro.c:26
+:155  %newret20 = insertvalue { double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double } %newret19, double %p_2_z_write_assign, 20
+
+ST_7: newret21 (202)  [1/1] 0.00ns  loc: astro.c:26
+:156  %newret21 = insertvalue { double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double } %newret20, double %p_3_z_write_assign, 21
+
+ST_7: newret22 (203)  [1/1] 0.00ns  loc: astro.c:26
+:157  %newret22 = insertvalue { double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double } %newret21, double %p_4_z_write_assign, 22
+
+ST_7: newret23 (204)  [1/1] 0.00ns  loc: astro.c:26
+:158  %newret23 = insertvalue { double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double } %newret22, double %p_5_z_write_assign, 23
+
+ST_7: newret24 (205)  [1/1] 0.00ns  loc: astro.c:26
+:159  %newret24 = insertvalue { double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double } %newret23, double %p_6_z_write_assign, 24
+
+ST_7: newret25 (206)  [1/1] 0.00ns  loc: astro.c:26
+:160  %newret25 = insertvalue { double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double } %newret24, double %p_7_z_write_assign, 25
+
+ST_7: newret26 (207)  [1/1] 0.00ns  loc: astro.c:26
+:161  %newret26 = insertvalue { double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double } %newret25, double %p_8_z_write_assign, 26
+
+ST_7: newret27 (208)  [1/1] 0.00ns  loc: astro.c:26
+:162  %newret27 = insertvalue { double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double } %newret26, double %p_0_vx_write_assign, 27
+
+ST_7: newret28 (209)  [1/1] 0.00ns  loc: astro.c:26
+:163  %newret28 = insertvalue { double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double } %newret27, double %p_1_vx_write_assign, 28
+
+ST_7: newret29 (210)  [1/1] 0.00ns  loc: astro.c:26
+:164  %newret29 = insertvalue { double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double } %newret28, double %p_2_vx_write_assign, 29
+
+ST_7: newret30 (211)  [1/1] 0.00ns  loc: astro.c:26
+:165  %newret30 = insertvalue { double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double } %newret29, double %p_3_vx_write_assign, 30
+
+ST_7: newret31 (212)  [1/1] 0.00ns  loc: astro.c:26
+:166  %newret31 = insertvalue { double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double } %newret30, double %p_4_vx_write_assign, 31
+
+ST_7: newret32 (213)  [1/1] 0.00ns  loc: astro.c:26
+:167  %newret32 = insertvalue { double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double } %newret31, double %p_5_vx_write_assign, 32
+
+ST_7: newret33 (214)  [1/1] 0.00ns  loc: astro.c:26
+:168  %newret33 = insertvalue { double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double } %newret32, double %p_0_vy_write_assign, 33
+
+ST_7: newret34 (215)  [1/1] 0.00ns  loc: astro.c:26
+:169  %newret34 = insertvalue { double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double } %newret33, double %p_1_vy_write_assign, 34
+
+ST_7: newret35 (216)  [1/1] 0.00ns  loc: astro.c:26
+:170  %newret35 = insertvalue { double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double } %newret34, double %p_2_vy_write_assign, 35
+
+ST_7: newret36 (217)  [1/1] 0.00ns  loc: astro.c:26
+:171  %newret36 = insertvalue { double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double } %newret35, double %p_3_vy_write_assign, 36
+
+ST_7: newret37 (218)  [1/1] 0.00ns  loc: astro.c:26
+:172  %newret37 = insertvalue { double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double } %newret36, double %p_4_vy_write_assign, 37
+
+ST_7: newret38 (219)  [1/1] 0.00ns  loc: astro.c:26
+:173  %newret38 = insertvalue { double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double } %newret37, double %p_5_vy_write_assign, 38
+
+ST_7: newret39 (220)  [1/1] 0.00ns  loc: astro.c:26
+:174  %newret39 = insertvalue { double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double } %newret38, double %p_0_vz_write_assign, 39
+
+ST_7: newret40 (221)  [1/1] 0.00ns  loc: astro.c:26
+:175  %newret40 = insertvalue { double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double } %newret39, double %p_1_vz_write_assign, 40
+
+ST_7: newret41 (222)  [1/1] 0.00ns  loc: astro.c:26
+:176  %newret41 = insertvalue { double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double } %newret40, double %p_2_vz_write_assign, 41
+
+ST_7: newret42 (223)  [1/1] 0.00ns  loc: astro.c:26
+:177  %newret42 = insertvalue { double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double } %newret41, double %p_3_vz_write_assign, 42
+
+ST_7: newret43 (224)  [1/1] 0.00ns  loc: astro.c:26
+:178  %newret43 = insertvalue { double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double } %newret42, double %p_4_vz_write_assign, 43
+
+ST_7: newret44 (225)  [1/1] 0.00ns  loc: astro.c:26
+:179  %newret44 = insertvalue { double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double } %newret43, double %p_5_vz_write_assign, 44
+
+ST_7: StgValue_413 (226)  [1/1] 0.00ns  loc: astro.c:26
+:180  ret { double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double, double } %newret44
+
+
+
+============================================================
++ Verbose Summary: Timing violations
+============================================================
+Target clock period: 10ns, clock uncertainty: 1.25ns.
+
+ <State 1>: 8.22ns
+The critical path consists of the following:
+	wire read on port 'p_int_5_vz_read' [46]  (0 ns)
+	'sitodp' operation ('tmp_23_5', astro.c:31) [161]  (8.22 ns)
+
+ <State 2>: 8.22ns
+The critical path consists of the following:
+	'sitodp' operation ('tmp_13', astro.c:26) [91]  (8.22 ns)
+
+ <State 3>: 8.22ns
+The critical path consists of the following:
+	'sitodp' operation ('tmp_13', astro.c:26) [91]  (8.22 ns)
+
+ <State 4>: 8.66ns
+The critical path consists of the following:
+	'dmul' operation ('p[0].x', astro.c:26) [92]  (8.66 ns)
+
+ <State 5>: 8.66ns
+The critical path consists of the following:
+	'dmul' operation ('p[0].x', astro.c:26) [92]  (8.66 ns)
+
+ <State 6>: 8.66ns
+The critical path consists of the following:
+	'dmul' operation ('p[0].x', astro.c:26) [92]  (8.66 ns)
+
+ <State 7>: 8.66ns
+The critical path consists of the following:
+	'dmul' operation ('p[0].x', astro.c:26) [92]  (8.66 ns)
+
+
+============================================================
++ Verbose Summary: Binding
+============================================================
+N/A
+* FSMD analyzer results:
+  - Output states:
+ - Input state : 
+  - Chain level:
+	State 1
+	State 2
+	State 3
+	State 4
+	State 5
+	State 6
+	State 7
+
+
+============================================================
++ Verbose Summary: Datapath Resource usage 
+============================================================
+N/A

@@ -1,0 +1,82 @@
+<AutoPilot:ProjectResources xmlns:AutoPilot="com.autoesl.autopilot.ui.directiveView">
+<sourceFile name="">
+<directive functionLabel="" functionName="to_int" label="">
+<pragma name="UNROLL">
+<option name="factor" value="3"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="to_double" label="">
+<pragma name="UNROLL">
+<option name="factor" value="3"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="to_double" label="">
+<pragma name="PIPELINE"/>
+</directive>
+<directive functionLabel="" functionName="drift" label="">
+<pragma name="UNROLL">
+<option name="factor" value="3"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="drift" label="">
+<pragma name="PIPELINE"/>
+</directive>
+<directive functionLabel="" functionName="kick" label="">
+<pragma name="UNROLL">
+<option name="factor" value="3"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="kick" label="">
+<pragma name="PIPELINE"/>
+</directive>
+<directive functionLabel="" functionName="gravity" label="">
+<pragma name="UNROLL">
+<option name="factor" value="9"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="gravity" label="">
+<pragma name="UNROLL">
+<option name="factor" value="9"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="astroSim" label="">
+<pragma name="INTERFACE">
+<option name="m_axi" positionalBoolean="mode" value=""/>
+<option name="depth" value="9"/>
+<option name="port" positionalBoolean="4" value="result"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="astroSim" label="">
+<pragma name="INTERFACE">
+<option name="s_axilite" positionalBoolean="mode" value=""/>
+<option name="port" positionalBoolean="4" value="return"/>
+<option name="bundle" value="AXILiteS"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="astroSim" label="">
+<pragma name="ARRAY_PARTITION">
+<option name="variable" positionalBoolean="4" value="p"/>
+<option name="complete" positionalBoolean="type" value=""/>
+<option name="dim" value="1"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="astroSim" label="">
+<pragma name="ARRAY_PARTITION">
+<option name="variable" positionalBoolean="4" value="p_int"/>
+<option name="complete" positionalBoolean="type" value=""/>
+<option name="dim" value="1"/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="astroSim" label="">
+<pragma name="PIPELINE">
+<option name="II" value="10"/>
+<option name="rewind" positionalBoolean="1" value=""/>
+</pragma>
+</directive>
+<directive functionLabel="" functionName="astroSim" label="">
+<pragma name="UNROLL">
+<option name="factor" value="10"/>
+</pragma>
+</directive>
+</sourceFile>
+</AutoPilot:ProjectResources>
