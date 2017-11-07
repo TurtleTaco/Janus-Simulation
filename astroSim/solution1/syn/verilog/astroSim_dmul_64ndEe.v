@@ -10,7 +10,7 @@
 
 module astroSim_dmul_64ndEe
 #(parameter
-    ID         = 74,
+    ID         = 128,
     NUM_STAGE  = 4,
     din0_WIDTH = 64,
     din1_WIDTH = 64,

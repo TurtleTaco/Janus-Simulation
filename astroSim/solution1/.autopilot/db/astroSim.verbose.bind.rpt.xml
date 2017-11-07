@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'astroSim'" level="0">
-<item name = "Date">Tue Nov  7 14:02:30 2017
+<item name = "Date">Tue Nov  7 14:40:49 2017
 </item>
 <item name = "Version">2017.1 (Build 1846317 on Fri Apr 14 19:19:38 MDT 2017)</item>
 <item name = "Project">astroSim</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">10.00, 9.49, 1.25</column>
+<column name="ap_clk">10.00, 9.50, 1.25</column>
 </table>
 </item>
 </section>
@@ -24,21 +24,21 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="6">, min, max, min, max, Type</keys>
-<column name="">1363461, 1363461, 1363462, 1363462, none</column>
+<column name="">1369116, 1369116, 1369117, 1369117, none</column>
 </table>
 </item>
 <item name = "Detail">
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="7">Instance, Module, min, max, min, max, Type</keys>
-<column name="grp_janus_step_fu_1548">janus_step, 216, 216, 216, 216, none</column>
-<column name="grp_to_int_fu_1768">to_int, 55, 55, 55, 55, none</column>
+<column name="grp_janus_step_fu_960">janus_step, 216, 216, 216, 216, none</column>
+<column name="grp_to_int_fu_1252">to_int, 55, 55, 55, 55, none</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
-<column name="- LOOP_X">1363392, 1363392, 2171, -, -, 628, no</column>
-<column name="- memcpy.result.m.p.x.addr">6, 6, 2, 1, 1, 6, yes</column>
+<column name="- LOOP_X">1369047, 1369047, 2180, -, -, 628, no</column>
+<column name="- memcpy.result.m.">6, 6, 2, 1, 1, 6, yes</column>
 </table>
 </item>
 </section>

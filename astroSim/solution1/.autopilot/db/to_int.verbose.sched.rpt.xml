@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'to_int'" level="0">
-<item name = "Date">Tue Nov  7 14:02:05 2017
+<item name = "Date">Tue Nov  7 14:40:26 2017
 </item>
 <item name = "Version">2017.1 (Build 1846317 on Fri Apr 14 19:19:38 MDT 2017)</item>
 <item name = "Project">astroSim</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">10.00, 8.64, 1.25</column>
+<column name="ap_clk">10.00, 7.58, 1.25</column>
 </table>
 </item>
 </section>

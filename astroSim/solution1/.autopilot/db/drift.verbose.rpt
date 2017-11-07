@@ -3,7 +3,7 @@
 ================================================================
 == Vivado HLS Report for 'drift'
 ================================================================
-* Date:           Tue Nov  7 14:02:34 2017
+* Date:           Tue Nov  7 14:40:53 2017
 
 * Version:        2017.1 (Build 1846317 on Fri Apr 14 19:19:38 MDT 2017)
 * Project:        astroSim
@@ -38,9 +38,9 @@
         |                                       |                       |  Latency  |  Interval | Pipeline |
         |                Instance               |         Module        | min | max | min | max |   Type   |
         +---------------------------------------+-----------------------+-----+-----+-----+-----+----------+
-        |tmp_77_p_hls_fptosi_double_s_fu_756    |p_hls_fptosi_double_s  |    0|    0|    1|    1| function |
-        |tmp_83_p_hls_fptosi_double_s_fu_761    |p_hls_fptosi_double_s  |    0|    0|    1|    1| function |
-        |tmp_89_p_hls_fptosi_double_s_fu_766    |p_hls_fptosi_double_s  |    0|    0|    1|    1| function |
+        |tmp_27_p_hls_fptosi_double_s_fu_756    |p_hls_fptosi_double_s  |    0|    0|    1|    1| function |
+        |tmp_33_p_hls_fptosi_double_s_fu_761    |p_hls_fptosi_double_s  |    0|    0|    1|    1| function |
+        |tmp_39_p_hls_fptosi_double_s_fu_766    |p_hls_fptosi_double_s  |    0|    0|    1|    1| function |
         |tmp_77_1_p_hls_fptosi_double_s_fu_771  |p_hls_fptosi_double_s  |    0|    0|    1|    1| function |
         |tmp_83_1_p_hls_fptosi_double_s_fu_776  |p_hls_fptosi_double_s  |    0|    0|    1|    1| function |
         |tmp_89_1_p_hls_fptosi_double_s_fu_781  |p_hls_fptosi_double_s  |    0|    0|    1|    1| function |
@@ -72,9 +72,9 @@
 |Instance         |        -|    198|    39025|   48202|    -|
 |Memory           |        -|      -|        -|       -|    -|
 |Multiplexer      |        -|      -|        -|     381|    -|
-|Register         |        -|      -|     6642|     128|    -|
+|Register         |        -|      -|     4914|     128|    -|
 +-----------------+---------+-------+---------+--------+-----+
-|Total            |        0|    198|    45667|   49524|    0|
+|Total            |        0|    198|    43939|   49524|    0|
 +-----------------+---------+-------+---------+--------+-----+
 |Available        |     1968|   1968|  1045440|  522720|  128|
 +-----------------+---------+-------+---------+--------+-----+
@@ -86,89 +86,89 @@
     +---------------------------------------+-----------------------+---------+-------+------+------+
     |                Instance               |         Module        | BRAM_18K| DSP48E|  FF  |  LUT |
     +---------------------------------------+-----------------------+---------+-------+------+------+
-    |astroSim_ddiv_64nbkb_x_U92             |astroSim_ddiv_64nbkb   |        0|      0|  1708|  3246|
-    |astroSim_ddiv_64nbkb_x_U93             |astroSim_ddiv_64nbkb   |        0|      0|  1708|  3246|
-    |astroSim_ddiv_64nbkb_x_U94             |astroSim_ddiv_64nbkb   |        0|      0|  1708|  3246|
-    |astroSim_ddiv_64nbkb_x_U95             |astroSim_ddiv_64nbkb   |        0|      0|  1708|  3246|
-    |astroSim_ddiv_64nbkb_x_U96             |astroSim_ddiv_64nbkb   |        0|      0|  1708|  3246|
-    |astroSim_ddiv_64nbkb_x_U97             |astroSim_ddiv_64nbkb   |        0|      0|  1708|  3246|
-    |astroSim_ddiv_64nbkb_x_U98             |astroSim_ddiv_64nbkb   |        0|      0|  1708|  3246|
-    |astroSim_ddiv_64nbkb_x_U99             |astroSim_ddiv_64nbkb   |        0|      0|  1708|  3246|
-    |astroSim_ddiv_64nbkb_x_U100            |astroSim_ddiv_64nbkb   |        0|      0|  1708|  3246|
-    |astroSim_dmul_64ndEe_U74               |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
-    |astroSim_dmul_64ndEe_U75               |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
-    |astroSim_dmul_64ndEe_U76               |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
-    |astroSim_dmul_64ndEe_U77               |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
-    |astroSim_dmul_64ndEe_U78               |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
-    |astroSim_dmul_64ndEe_U79               |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
-    |astroSim_dmul_64ndEe_U80               |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
-    |astroSim_dmul_64ndEe_U81               |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
-    |astroSim_dmul_64ndEe_U82               |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
-    |astroSim_dmul_64ndEe_U83               |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
-    |astroSim_dmul_64ndEe_U84               |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
-    |astroSim_dmul_64ndEe_U85               |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
-    |astroSim_dmul_64ndEe_U86               |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
-    |astroSim_dmul_64ndEe_U87               |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
-    |astroSim_dmul_64ndEe_U88               |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
-    |astroSim_dmul_64ndEe_U89               |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
-    |astroSim_dmul_64ndEe_U90               |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
-    |astroSim_dmul_64ndEe_U91               |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
-    |astroSim_mux_164_cud_x_U110            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U111            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U112            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U113            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U114            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U115            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U116            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U117            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U118            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U119            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U120            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U121            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U122            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U123            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U124            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U125            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U126            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U127            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U128            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U129            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U130            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U131            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U132            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U133            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U134            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U135            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U136            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U137            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U138            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U139            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U140            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U141            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U142            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U143            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U144            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U145            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U146            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U147            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U148            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U149            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U150            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U151            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U152            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U153            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_sitodp_6eOg_U101              |astroSim_sitodp_6eOg   |        0|      0|   189|   406|
-    |astroSim_sitodp_6eOg_U102              |astroSim_sitodp_6eOg   |        0|      0|   189|   406|
-    |astroSim_sitodp_6eOg_U103              |astroSim_sitodp_6eOg   |        0|      0|   189|   406|
-    |astroSim_sitodp_6eOg_U104              |astroSim_sitodp_6eOg   |        0|      0|   189|   406|
-    |astroSim_sitodp_6eOg_U105              |astroSim_sitodp_6eOg   |        0|      0|   189|   406|
-    |astroSim_sitodp_6eOg_U106              |astroSim_sitodp_6eOg   |        0|      0|   189|   406|
-    |astroSim_sitodp_6eOg_U107              |astroSim_sitodp_6eOg   |        0|      0|   189|   406|
-    |astroSim_sitodp_6eOg_U108              |astroSim_sitodp_6eOg   |        0|      0|   189|   406|
-    |astroSim_sitodp_6eOg_U109              |astroSim_sitodp_6eOg   |        0|      0|   189|   406|
-    |tmp_77_p_hls_fptosi_double_s_fu_756    |p_hls_fptosi_double_s  |        0|      0|   530|  1016|
-    |tmp_83_p_hls_fptosi_double_s_fu_761    |p_hls_fptosi_double_s  |        0|      0|   530|  1016|
-    |tmp_89_p_hls_fptosi_double_s_fu_766    |p_hls_fptosi_double_s  |        0|      0|   530|  1016|
+    |astroSim_ddiv_64nbkb_x_U146            |astroSim_ddiv_64nbkb   |        0|      0|  1708|  3246|
+    |astroSim_ddiv_64nbkb_x_U147            |astroSim_ddiv_64nbkb   |        0|      0|  1708|  3246|
+    |astroSim_ddiv_64nbkb_x_U148            |astroSim_ddiv_64nbkb   |        0|      0|  1708|  3246|
+    |astroSim_ddiv_64nbkb_x_U149            |astroSim_ddiv_64nbkb   |        0|      0|  1708|  3246|
+    |astroSim_ddiv_64nbkb_x_U150            |astroSim_ddiv_64nbkb   |        0|      0|  1708|  3246|
+    |astroSim_ddiv_64nbkb_x_U151            |astroSim_ddiv_64nbkb   |        0|      0|  1708|  3246|
+    |astroSim_ddiv_64nbkb_x_U152            |astroSim_ddiv_64nbkb   |        0|      0|  1708|  3246|
+    |astroSim_ddiv_64nbkb_x_U153            |astroSim_ddiv_64nbkb   |        0|      0|  1708|  3246|
+    |astroSim_ddiv_64nbkb_x_U154            |astroSim_ddiv_64nbkb   |        0|      0|  1708|  3246|
+    |astroSim_dmul_64ndEe_U128              |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
+    |astroSim_dmul_64ndEe_U129              |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
+    |astroSim_dmul_64ndEe_U130              |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
+    |astroSim_dmul_64ndEe_U131              |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
+    |astroSim_dmul_64ndEe_U132              |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
+    |astroSim_dmul_64ndEe_U133              |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
+    |astroSim_dmul_64ndEe_U134              |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
+    |astroSim_dmul_64ndEe_U135              |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
+    |astroSim_dmul_64ndEe_U136              |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
+    |astroSim_dmul_64ndEe_U137              |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
+    |astroSim_dmul_64ndEe_U138              |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
+    |astroSim_dmul_64ndEe_U139              |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
+    |astroSim_dmul_64ndEe_U140              |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
+    |astroSim_dmul_64ndEe_U141              |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
+    |astroSim_dmul_64ndEe_U142              |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
+    |astroSim_dmul_64ndEe_U143              |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
+    |astroSim_dmul_64ndEe_U144              |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
+    |astroSim_dmul_64ndEe_U145              |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
+    |astroSim_mux_164_cud_x_U164            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U165            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U166            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U167            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U168            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U169            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U170            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U171            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U172            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U173            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U174            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U175            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U176            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U177            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U178            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U179            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U180            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U181            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U182            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U183            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U184            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U185            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U186            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U187            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U188            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U189            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U190            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U191            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U192            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U193            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U194            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U195            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U196            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U197            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U198            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U199            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U200            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U201            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U202            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U203            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U204            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U205            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U206            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U207            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_sitodp_6eOg_U155              |astroSim_sitodp_6eOg   |        0|      0|   189|   406|
+    |astroSim_sitodp_6eOg_U156              |astroSim_sitodp_6eOg   |        0|      0|   189|   406|
+    |astroSim_sitodp_6eOg_U157              |astroSim_sitodp_6eOg   |        0|      0|   189|   406|
+    |astroSim_sitodp_6eOg_U158              |astroSim_sitodp_6eOg   |        0|      0|   189|   406|
+    |astroSim_sitodp_6eOg_U159              |astroSim_sitodp_6eOg   |        0|      0|   189|   406|
+    |astroSim_sitodp_6eOg_U160              |astroSim_sitodp_6eOg   |        0|      0|   189|   406|
+    |astroSim_sitodp_6eOg_U161              |astroSim_sitodp_6eOg   |        0|      0|   189|   406|
+    |astroSim_sitodp_6eOg_U162              |astroSim_sitodp_6eOg   |        0|      0|   189|   406|
+    |astroSim_sitodp_6eOg_U163              |astroSim_sitodp_6eOg   |        0|      0|   189|   406|
+    |tmp_27_p_hls_fptosi_double_s_fu_756    |p_hls_fptosi_double_s  |        0|      0|   530|  1016|
+    |tmp_33_p_hls_fptosi_double_s_fu_761    |p_hls_fptosi_double_s  |        0|      0|   530|  1016|
+    |tmp_39_p_hls_fptosi_double_s_fu_766    |p_hls_fptosi_double_s  |        0|      0|   530|  1016|
     |tmp_77_1_p_hls_fptosi_double_s_fu_771  |p_hls_fptosi_double_s  |        0|      0|   530|  1016|
     |tmp_83_1_p_hls_fptosi_double_s_fu_776  |p_hls_fptosi_double_s  |        0|      0|   530|  1016|
     |tmp_89_1_p_hls_fptosi_double_s_fu_781  |p_hls_fptosi_double_s  |        0|      0|   530|  1016|
@@ -195,15 +195,15 @@
     |i_5_0_t_fu_1041_p2       |     +    |      0|  0|  12|           4|           1|
     |i_5_1_t_fu_1047_p2       |     +    |      0|  0|  12|           4|           2|
     |i_5_2_fu_1053_p2         |     +    |      0|  0|  12|           4|           2|
+    |tmp_28_fu_1229_p2        |     +    |      0|  0|  71|          64|          64|
+    |tmp_34_fu_1387_p2        |     +    |      0|  0|  71|          64|          64|
+    |tmp_40_fu_1545_p2        |     +    |      0|  0|  71|          64|          64|
     |tmp_78_1_fu_1702_p2      |     +    |      0|  0|  71|          64|          64|
     |tmp_78_2_fu_2164_p2      |     +    |      0|  0|  71|          64|          64|
-    |tmp_78_fu_1229_p2        |     +    |      0|  0|  71|          64|          64|
     |tmp_84_1_fu_1856_p2      |     +    |      0|  0|  71|          64|          64|
     |tmp_84_2_fu_2318_p2      |     +    |      0|  0|  71|          64|          64|
-    |tmp_84_fu_1387_p2        |     +    |      0|  0|  71|          64|          64|
     |tmp_90_1_fu_2010_p2      |     +    |      0|  0|  71|          64|          64|
     |tmp_90_2_fu_2472_p2      |     +    |      0|  0|  71|          64|          64|
-    |tmp_90_fu_1545_p2        |     +    |      0|  0|  71|          64|          64|
     |sel_tmp2_fu_981_p2       |   icmp   |      0|  0|   2|           4|           1|
     |sel_tmp_fu_969_p2        |   icmp   |      0|  0|   2|           4|           2|
     |tmp_fu_963_p2            |   icmp   |      0|  0|   2|           4|           4|
@@ -265,151 +265,124 @@
     +--------------------------+----+-----------+-----+-----------+
 
     * Register: 
-    +----------------------------+----+----+-----+-----------+
-    |            Name            | FF | LUT| Bits| Const Bits|
-    +----------------------------+----+----+-----+-----------+
-    |ap_CS_fsm                   |   3|   0|    3|          0|
-    |ap_enable_reg_pp0_iter0     |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter1     |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter10    |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter11    |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter12    |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter13    |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter14    |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter15    |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter16    |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter17    |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter18    |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter19    |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter2     |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter20    |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter21    |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter22    |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter23    |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter24    |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter25    |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter26    |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter27    |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter28    |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter29    |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter3     |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter4     |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter5     |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter6     |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter7     |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter8     |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter9     |   1|   0|    1|          0|
-    |i_5_0_t_reg_3144            |   4|   0|    4|          0|
-    |i_5_1_t_reg_3163            |   4|   0|    4|          0|
-    |i_5_2_reg_3182              |   4|   0|    4|          0|
-    |i_reg_744                   |   4|   0|    4|          0|
-    |p_int_0_vx_read_4_reg_2985  |  64|   0|   64|          0|
-    |p_int_0_vy_read_4_reg_2914  |  64|   0|   64|          0|
-    |p_int_0_vz_read_4_reg_2830  |  64|   0|   64|          0|
-    |p_int_1_vx_read_4_reg_2980  |  64|   0|   64|          0|
-    |p_int_1_vy_read_3_reg_2909  |  64|   0|   64|          0|
-    |p_int_1_vz_read_4_reg_2825  |  64|   0|   64|          0|
-    |p_int_2_vx_read_4_reg_2975  |  64|   0|   64|          0|
-    |p_int_2_vy_read_4_reg_2904  |  64|   0|   64|          0|
-    |p_int_2_vz_read_3_reg_2820  |  64|   0|   64|          0|
-    |p_int_3_vx_read31_reg_2970  |  64|   0|   64|          0|
-    |p_int_3_vy_read_4_reg_2899  |  64|   0|   64|          0|
-    |p_int_3_vz_read_4_reg_2815  |  64|   0|   64|          0|
-    |p_int_4_vx_read32_reg_2965  |  64|   0|   64|          0|
-    |p_int_4_vy_read41_reg_2894  |  64|   0|   64|          0|
-    |p_int_4_vz_read_4_reg_2810  |  64|   0|   64|          0|
-    |p_int_5_vx_read33_reg_2960  |  64|   0|   64|          0|
-    |p_int_5_vy_read42_reg_2889  |  64|   0|   64|          0|
-    |p_int_5_vz_read51_reg_2805  |  64|   0|   64|          0|
-    |p_int_6_vx_read_4_reg_2955  |  64|   0|   64|          0|
-    |p_int_6_vy_read43_reg_2871  |  64|   0|   64|          0|
-    |p_int_6_vz_read52_reg_2787  |  64|   0|   64|          0|
-    |p_int_7_vx_read_4_reg_2937  |  64|   0|   64|          0|
-    |p_int_7_vy_read_4_reg_2853  |  64|   0|   64|          0|
-    |p_int_7_vz_read53_reg_2769  |  64|   0|   64|          0|
-    |p_int_8_vx_read_4_reg_2919  |  64|   0|   64|          0|
-    |p_int_8_vy_read_4_reg_2835  |  64|   0|   64|          0|
-    |p_int_8_vz_read_4_reg_2751  |  64|   0|   64|          0|
-    |p_int_x1_reg_484            |  64|   0|   64|          0|
-    |p_int_x2_reg_494            |  64|   0|   64|          0|
-    |p_int_x3_1_reg_3372         |  64|   0|   64|          0|
-    |p_int_x3_reg_504            |  64|   0|   64|          0|
-    |p_int_x4_reg_514            |  64|   0|   64|          0|
-    |p_int_x5_reg_524            |  64|   0|   64|          0|
-    |p_int_x6_1_reg_3367         |  64|   0|   64|          0|
-    |p_int_x6_reg_534            |  64|   0|   64|          0|
-    |p_int_x7_reg_544            |  64|   0|   64|          0|
-    |p_int_x8_reg_554            |  64|   0|   64|          0|
-    |p_int_x_1_reg_3377          |  64|   0|   64|          0|
-    |p_int_x_reg_474             |  64|   0|   64|          0|
-    |p_int_y1114_1_reg_3387      |  64|   0|   64|          0|
-    |p_int_y14_1_reg_3382        |  64|   0|   64|          0|
-    |p_int_y2_reg_584            |  64|   0|   64|          0|
-    |p_int_y3_reg_594            |  64|   0|   64|          0|
-    |p_int_y4_reg_604            |  64|   0|   64|          0|
-    |p_int_y5_reg_614            |  64|   0|   64|          0|
-    |p_int_y6_reg_624            |  64|   0|   64|          0|
-    |p_int_y7_reg_634            |  64|   0|   64|          0|
-    |p_int_y8_reg_644            |  64|   0|   64|          0|
-    |p_int_y9_reg_574            |  64|   0|   64|          0|
-    |p_int_y_1_reg_3392          |  64|   0|   64|          0|
-    |p_int_y_reg_564             |  64|   0|   64|          0|
-    |p_int_z19_1_reg_3402        |  64|   0|   64|          0|
-    |p_int_z1_reg_734            |  64|   0|   64|          0|
-    |p_int_z22_1_reg_3397        |  64|   0|   64|          0|
-    |p_int_z3_reg_664            |  64|   0|   64|          0|
-    |p_int_z4_reg_674            |  64|   0|   64|          0|
-    |p_int_z5_reg_684            |  64|   0|   64|          0|
-    |p_int_z6_reg_694            |  64|   0|   64|          0|
-    |p_int_z7_reg_704            |  64|   0|   64|          0|
-    |p_int_z8_reg_714            |  64|   0|   64|          0|
-    |p_int_z9_reg_724            |  64|   0|   64|          0|
-    |p_int_z_1_reg_3407          |  64|   0|   64|          0|
-    |p_int_z_reg_654             |  64|   0|   64|          0|
-    |tmp_73_1_reg_3232           |  64|   0|   64|          0|
-    |tmp_73_2_reg_3247           |  64|   0|   64|          0|
-    |tmp_73_reg_3217             |  64|   0|   64|          0|
-    |tmp_74_1_reg_3277           |  64|   0|   64|          0|
-    |tmp_74_2_reg_3292           |  64|   0|   64|          0|
-    |tmp_74_reg_3262             |  64|   0|   64|          0|
-    |tmp_75_1_reg_3322           |  64|   0|   64|          0|
-    |tmp_75_2_reg_3337           |  64|   0|   64|          0|
-    |tmp_75_reg_3307             |  64|   0|   64|          0|
-    |tmp_76_1_reg_3412           |  64|   0|   64|          0|
-    |tmp_76_2_reg_3427           |  64|   0|   64|          0|
-    |tmp_76_reg_3352             |  64|   0|   64|          0|
-    |tmp_79_1_reg_3237           |  64|   0|   64|          0|
-    |tmp_79_2_reg_3252           |  64|   0|   64|          0|
-    |tmp_79_reg_3222             |  64|   0|   64|          0|
-    |tmp_80_1_reg_3282           |  64|   0|   64|          0|
-    |tmp_80_2_reg_3297           |  64|   0|   64|          0|
-    |tmp_80_reg_3267             |  64|   0|   64|          0|
-    |tmp_81_1_reg_3327           |  64|   0|   64|          0|
-    |tmp_81_2_reg_3342           |  64|   0|   64|          0|
-    |tmp_81_reg_3312             |  64|   0|   64|          0|
-    |tmp_82_1_reg_3417           |  64|   0|   64|          0|
-    |tmp_82_2_reg_3432           |  64|   0|   64|          0|
-    |tmp_82_reg_3357             |  64|   0|   64|          0|
-    |tmp_85_1_reg_3242           |  64|   0|   64|          0|
-    |tmp_85_2_reg_3257           |  64|   0|   64|          0|
-    |tmp_85_reg_3227             |  64|   0|   64|          0|
-    |tmp_86_1_reg_3287           |  64|   0|   64|          0|
-    |tmp_86_2_reg_3302           |  64|   0|   64|          0|
-    |tmp_86_reg_3272             |  64|   0|   64|          0|
-    |tmp_87_1_reg_3332           |  64|   0|   64|          0|
-    |tmp_87_2_reg_3347           |  64|   0|   64|          0|
-    |tmp_87_reg_3317             |  64|   0|   64|          0|
-    |tmp_88_1_reg_3422           |  64|   0|   64|          0|
-    |tmp_88_2_reg_3437           |  64|   0|   64|          0|
-    |tmp_88_reg_3362             |  64|   0|   64|          0|
-    |tmp_reg_3125                |   1|   0|    1|          0|
-    |i_5_0_t_reg_3144            |  64|  32|    4|          0|
-    |i_5_1_t_reg_3163            |  64|  32|    4|          0|
-    |i_reg_744                   |  64|  32|    4|          0|
-    |tmp_reg_3125                |  64|  32|    1|          0|
-    +----------------------------+----+----+-----+-----------+
-    |Total                       |6642| 128| 6399|          0|
-    +----------------------------+----+----+-----+-----------+
+    +--------------------------+----+----+-----+-----------+
+    |           Name           | FF | LUT| Bits| Const Bits|
+    +--------------------------+----+----+-----+-----------+
+    |ap_CS_fsm                 |   3|   0|    3|          0|
+    |ap_enable_reg_pp0_iter0   |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter1   |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter10  |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter11  |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter12  |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter13  |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter14  |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter15  |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter16  |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter17  |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter18  |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter19  |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter2   |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter20  |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter21  |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter22  |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter23  |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter24  |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter25  |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter26  |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter27  |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter28  |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter29  |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter3   |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter4   |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter5   |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter6   |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter7   |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter8   |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter9   |   1|   0|    1|          0|
+    |i_5_0_t_reg_3144          |   4|   0|    4|          0|
+    |i_5_1_t_reg_3163          |   4|   0|    4|          0|
+    |i_5_2_reg_3182            |   4|   0|    4|          0|
+    |i_reg_744                 |   4|   0|    4|          0|
+    |p_int_x1_reg_484          |  64|   0|   64|          0|
+    |p_int_x2_reg_494          |  64|   0|   64|          0|
+    |p_int_x3_1_reg_3372       |  64|   0|   64|          0|
+    |p_int_x3_reg_504          |  64|   0|   64|          0|
+    |p_int_x4_reg_514          |  64|   0|   64|          0|
+    |p_int_x5_reg_524          |  64|   0|   64|          0|
+    |p_int_x6_1_reg_3367       |  64|   0|   64|          0|
+    |p_int_x6_reg_534          |  64|   0|   64|          0|
+    |p_int_x7_reg_544          |  64|   0|   64|          0|
+    |p_int_x8_reg_554          |  64|   0|   64|          0|
+    |p_int_x_1_reg_3377        |  64|   0|   64|          0|
+    |p_int_x_reg_474           |  64|   0|   64|          0|
+    |p_int_y1114_1_reg_3387    |  64|   0|   64|          0|
+    |p_int_y14_1_reg_3382      |  64|   0|   64|          0|
+    |p_int_y2_reg_584          |  64|   0|   64|          0|
+    |p_int_y3_reg_594          |  64|   0|   64|          0|
+    |p_int_y4_reg_604          |  64|   0|   64|          0|
+    |p_int_y5_reg_614          |  64|   0|   64|          0|
+    |p_int_y6_reg_624          |  64|   0|   64|          0|
+    |p_int_y7_reg_634          |  64|   0|   64|          0|
+    |p_int_y8_reg_644          |  64|   0|   64|          0|
+    |p_int_y9_reg_574          |  64|   0|   64|          0|
+    |p_int_y_1_reg_3392        |  64|   0|   64|          0|
+    |p_int_y_reg_564           |  64|   0|   64|          0|
+    |p_int_z19_1_reg_3402      |  64|   0|   64|          0|
+    |p_int_z1_reg_734          |  64|   0|   64|          0|
+    |p_int_z22_1_reg_3397      |  64|   0|   64|          0|
+    |p_int_z3_reg_664          |  64|   0|   64|          0|
+    |p_int_z4_reg_674          |  64|   0|   64|          0|
+    |p_int_z5_reg_684          |  64|   0|   64|          0|
+    |p_int_z6_reg_694          |  64|   0|   64|          0|
+    |p_int_z7_reg_704          |  64|   0|   64|          0|
+    |p_int_z8_reg_714          |  64|   0|   64|          0|
+    |p_int_z9_reg_724          |  64|   0|   64|          0|
+    |p_int_z_1_reg_3407        |  64|   0|   64|          0|
+    |p_int_z_reg_654           |  64|   0|   64|          0|
+    |tmp_24_reg_3262           |  64|   0|   64|          0|
+    |tmp_25_reg_3307           |  64|   0|   64|          0|
+    |tmp_26_reg_3352           |  64|   0|   64|          0|
+    |tmp_29_reg_3222           |  64|   0|   64|          0|
+    |tmp_30_reg_3267           |  64|   0|   64|          0|
+    |tmp_31_reg_3312           |  64|   0|   64|          0|
+    |tmp_32_reg_3357           |  64|   0|   64|          0|
+    |tmp_35_reg_3227           |  64|   0|   64|          0|
+    |tmp_36_reg_3272           |  64|   0|   64|          0|
+    |tmp_37_reg_3317           |  64|   0|   64|          0|
+    |tmp_38_reg_3362           |  64|   0|   64|          0|
+    |tmp_73_1_reg_3232         |  64|   0|   64|          0|
+    |tmp_73_2_reg_3247         |  64|   0|   64|          0|
+    |tmp_74_1_reg_3277         |  64|   0|   64|          0|
+    |tmp_74_2_reg_3292         |  64|   0|   64|          0|
+    |tmp_75_1_reg_3322         |  64|   0|   64|          0|
+    |tmp_75_2_reg_3337         |  64|   0|   64|          0|
+    |tmp_76_1_reg_3412         |  64|   0|   64|          0|
+    |tmp_76_2_reg_3427         |  64|   0|   64|          0|
+    |tmp_79_1_reg_3237         |  64|   0|   64|          0|
+    |tmp_79_2_reg_3252         |  64|   0|   64|          0|
+    |tmp_80_1_reg_3282         |  64|   0|   64|          0|
+    |tmp_80_2_reg_3297         |  64|   0|   64|          0|
+    |tmp_81_1_reg_3327         |  64|   0|   64|          0|
+    |tmp_81_2_reg_3342         |  64|   0|   64|          0|
+    |tmp_82_1_reg_3417         |  64|   0|   64|          0|
+    |tmp_82_2_reg_3432         |  64|   0|   64|          0|
+    |tmp_85_1_reg_3242         |  64|   0|   64|          0|
+    |tmp_85_2_reg_3257         |  64|   0|   64|          0|
+    |tmp_86_1_reg_3287         |  64|   0|   64|          0|
+    |tmp_86_2_reg_3302         |  64|   0|   64|          0|
+    |tmp_87_1_reg_3332         |  64|   0|   64|          0|
+    |tmp_87_2_reg_3347         |  64|   0|   64|          0|
+    |tmp_88_1_reg_3422         |  64|   0|   64|          0|
+    |tmp_88_2_reg_3437         |  64|   0|   64|          0|
+    |tmp_reg_3125              |   1|   0|    1|          0|
+    |tmp_s_reg_3217            |  64|   0|   64|          0|
+    |i_5_0_t_reg_3144          |  64|  32|    4|          0|
+    |i_5_1_t_reg_3163          |  64|  32|    4|          0|
+    |i_reg_744                 |  64|  32|    4|          0|
+    |tmp_reg_3125              |  64|  32|    1|          0|
+    +--------------------------+----+----+-----+-----------+
+    |Total                     |4914| 128| 4671|          0|
+    +--------------------------+----+----+-----+-----------+
 
 
 
@@ -526,7 +499,7 @@ HasMFsm: 0
 HasVarLatency: 1
 IsPipeline: 0
 IsRtlPipelined: 0
-IsInstanceOverlapped: 1
+IsInstanceOverlapped: 0
 IsDontTouch: 0
 HasImplIP: 0
 IsGatedGlobalClock: 0
@@ -773,1010 +746,1010 @@ ST_1: p_int_1_x_read_3 (107)  [1/1] 0.00ns
 ST_1: p_int_0_x_read_3 (108)  [1/1] 0.00ns
 :53  %p_int_0_x_read_3 = call i64 @_ssdm_op_Read.ap_auto.i64(i64 %p_int_0_x_read)
 
-ST_1: StgValue_87 (109)  [1/1] 0.60ns  loc: astro.c:36
+ST_1: StgValue_87 (109)  [1/1] 0.60ns  loc: astro.c:83
 :54  br label %1
 
 
  <State 2>: 8.69ns
-ST_2: p_int_x (111)  [1/1] 0.00ns  loc: astro.c:39
+ST_2: p_int_x (111)  [1/1] 0.00ns  loc: astro.c:86
 :0  %p_int_x = phi i64 [ %p_int_0_x_read_3, %0 ], [ %p_int_x_1, %_ifconv ]
 
-ST_2: p_int_x1 (112)  [1/1] 0.00ns  loc: astro.c:39
+ST_2: p_int_x1 (112)  [1/1] 0.00ns  loc: astro.c:86
 :1  %p_int_x1 = phi i64 [ %p_int_1_x_read_3, %0 ], [ %p_int_x12_1, %_ifconv ]
 
-ST_2: p_int_x2 (113)  [1/1] 0.00ns  loc: astro.c:39
+ST_2: p_int_x2 (113)  [1/1] 0.00ns  loc: astro.c:86
 :2  %p_int_x2 = phi i64 [ %p_int_2_x_read_3, %0 ], [ %p_int_x2_1, %_ifconv ]
 
-ST_2: p_int_x3 (114)  [1/1] 0.00ns  loc: astro.c:39
+ST_2: p_int_x3 (114)  [1/1] 0.00ns  loc: astro.c:86
 :3  %p_int_x3 = phi i64 [ %p_int_3_x_read_3, %0 ], [ %p_int_x3_1, %_ifconv ]
 
-ST_2: p_int_x4 (115)  [1/1] 0.00ns  loc: astro.c:39
+ST_2: p_int_x4 (115)  [1/1] 0.00ns  loc: astro.c:86
 :4  %p_int_x4 = phi i64 [ %p_int_4_x_read_3, %0 ], [ %p_int_x4_1, %_ifconv ]
 
-ST_2: p_int_x5 (116)  [1/1] 0.00ns  loc: astro.c:39
+ST_2: p_int_x5 (116)  [1/1] 0.00ns  loc: astro.c:86
 :5  %p_int_x5 = phi i64 [ %p_int_5_x_read_3, %0 ], [ %p_int_x5_1, %_ifconv ]
 
-ST_2: p_int_x6 (117)  [1/1] 0.00ns  loc: astro.c:39
+ST_2: p_int_x6 (117)  [1/1] 0.00ns  loc: astro.c:86
 :6  %p_int_x6 = phi i64 [ %p_int_6_x_read_3, %0 ], [ %p_int_x6_1, %_ifconv ]
 
-ST_2: p_int_x7 (118)  [1/1] 0.00ns  loc: astro.c:39
+ST_2: p_int_x7 (118)  [1/1] 0.00ns  loc: astro.c:86
 :7  %p_int_x7 = phi i64 [ %p_int_7_x_read_3, %0 ], [ %p_int_x7_1, %_ifconv ]
 
-ST_2: p_int_x8 (119)  [1/1] 0.00ns  loc: astro.c:39
+ST_2: p_int_x8 (119)  [1/1] 0.00ns  loc: astro.c:86
 :8  %p_int_x8 = phi i64 [ %p_int_8_x_read_3, %0 ], [ %p_int_x8_1, %_ifconv ]
 
-ST_2: p_int_y (120)  [1/1] 0.00ns  loc: astro.c:40
+ST_2: p_int_y (120)  [1/1] 0.00ns  loc: astro.c:87
 :9  %p_int_y = phi i64 [ %p_int_0_y_read_3, %0 ], [ %p_int_y_1, %_ifconv ]
 
-ST_2: p_int_y9 (121)  [1/1] 0.00ns  loc: astro.c:40
+ST_2: p_int_y9 (121)  [1/1] 0.00ns  loc: astro.c:87
 :10  %p_int_y9 = phi i64 [ %p_int_1_y_read11, %0 ], [ %p_int_y9_1, %_ifconv ]
 
-ST_2: p_int_y2 (122)  [1/1] 0.00ns  loc: astro.c:40
+ST_2: p_int_y2 (122)  [1/1] 0.00ns  loc: astro.c:87
 :11  %p_int_y2 = phi i64 [ %p_int_2_y_read12, %0 ], [ %p_int_y10_1, %_ifconv ]
 
-ST_2: p_int_y3 (123)  [1/1] 0.00ns  loc: astro.c:40
+ST_2: p_int_y3 (123)  [1/1] 0.00ns  loc: astro.c:87
 :12  %p_int_y3 = phi i64 [ %p_int_3_y_read_3, %0 ], [ %p_int_y1114_1, %_ifconv ]
 
-ST_2: p_int_y4 (124)  [1/1] 0.00ns  loc: astro.c:40
+ST_2: p_int_y4 (124)  [1/1] 0.00ns  loc: astro.c:87
 :13  %p_int_y4 = phi i64 [ %p_int_4_y_read_3, %0 ], [ %p_int_y12_1, %_ifconv ]
 
-ST_2: p_int_y5 (125)  [1/1] 0.00ns  loc: astro.c:40
+ST_2: p_int_y5 (125)  [1/1] 0.00ns  loc: astro.c:87
 :14  %p_int_y5 = phi i64 [ %p_int_5_y_read_3, %0 ], [ %p_int_y13_1, %_ifconv ]
 
-ST_2: p_int_y6 (126)  [1/1] 0.00ns  loc: astro.c:40
+ST_2: p_int_y6 (126)  [1/1] 0.00ns  loc: astro.c:87
 :15  %p_int_y6 = phi i64 [ %p_int_6_y_read_3, %0 ], [ %p_int_y14_1, %_ifconv ]
 
-ST_2: p_int_y7 (127)  [1/1] 0.00ns  loc: astro.c:40
+ST_2: p_int_y7 (127)  [1/1] 0.00ns  loc: astro.c:87
 :16  %p_int_y7 = phi i64 [ %p_int_7_y_read_3, %0 ], [ %p_int_y15_1, %_ifconv ]
 
-ST_2: p_int_y8 (128)  [1/1] 0.00ns  loc: astro.c:40
+ST_2: p_int_y8 (128)  [1/1] 0.00ns  loc: astro.c:87
 :17  %p_int_y8 = phi i64 [ %p_int_8_y_read_3, %0 ], [ %p_int_y16_1, %_ifconv ]
 
-ST_2: p_int_z (129)  [1/1] 0.00ns  loc: astro.c:41
+ST_2: p_int_z (129)  [1/1] 0.00ns  loc: astro.c:88
 :18  %p_int_z = phi i64 [ %p_int_0_z_read_3, %0 ], [ %p_int_z_1, %_ifconv ]
 
-ST_2: p_int_z3 (130)  [1/1] 0.00ns  loc: astro.c:41
+ST_2: p_int_z3 (130)  [1/1] 0.00ns  loc: astro.c:88
 :19  %p_int_z3 = phi i64 [ %p_int_1_z_read_3, %0 ], [ %p_int_z17_1, %_ifconv ]
 
-ST_2: p_int_z4 (131)  [1/1] 0.00ns  loc: astro.c:41
+ST_2: p_int_z4 (131)  [1/1] 0.00ns  loc: astro.c:88
 :20  %p_int_z4 = phi i64 [ %p_int_2_z_read21, %0 ], [ %p_int_z18_1, %_ifconv ]
 
-ST_2: p_int_z5 (132)  [1/1] 0.00ns  loc: astro.c:41
+ST_2: p_int_z5 (132)  [1/1] 0.00ns  loc: astro.c:88
 :21  %p_int_z5 = phi i64 [ %p_int_3_z_read22, %0 ], [ %p_int_z19_1, %_ifconv ]
 
-ST_2: p_int_z6 (133)  [1/1] 0.00ns  loc: astro.c:41
+ST_2: p_int_z6 (133)  [1/1] 0.00ns  loc: astro.c:88
 :22  %p_int_z6 = phi i64 [ %p_int_4_z_read_3, %0 ], [ %p_int_z20_1, %_ifconv ]
 
-ST_2: p_int_z7 (134)  [1/1] 0.00ns  loc: astro.c:41
+ST_2: p_int_z7 (134)  [1/1] 0.00ns  loc: astro.c:88
 :23  %p_int_z7 = phi i64 [ %p_int_5_z_read_3, %0 ], [ %p_int_z2126_1, %_ifconv ]
 
-ST_2: p_int_z8 (135)  [1/1] 0.00ns  loc: astro.c:41
+ST_2: p_int_z8 (135)  [1/1] 0.00ns  loc: astro.c:88
 :24  %p_int_z8 = phi i64 [ %p_int_6_z_read_3, %0 ], [ %p_int_z22_1, %_ifconv ]
 
-ST_2: p_int_z9 (136)  [1/1] 0.00ns  loc: astro.c:41
+ST_2: p_int_z9 (136)  [1/1] 0.00ns  loc: astro.c:88
 :25  %p_int_z9 = phi i64 [ %p_int_7_z_read_3, %0 ], [ %p_int_z23_1, %_ifconv ]
 
-ST_2: p_int_z1 (137)  [1/1] 0.00ns  loc: astro.c:41
+ST_2: p_int_z1 (137)  [1/1] 0.00ns  loc: astro.c:88
 :26  %p_int_z1 = phi i64 [ %p_int_8_z_read_3, %0 ], [ %p_int_z24_1, %_ifconv ]
 
-ST_2: i (138)  [1/1] 0.00ns  loc: astro.c:36
+ST_2: i (138)  [1/1] 0.00ns  loc: astro.c:83
 :27  %i = phi i4 [ 0, %0 ], [ %i_5_2, %_ifconv ]
 
-ST_2: tmp (139)  [1/1] 0.39ns  loc: astro.c:36
+ST_2: tmp (139)  [1/1] 0.39ns  loc: astro.c:83
 :28  %tmp = icmp eq i4 %i, -7
 
-ST_2: StgValue_117 (140)  [1/1] 0.00ns  loc: astro.c:36
+ST_2: StgValue_117 (140)  [1/1] 0.00ns  loc: astro.c:83
 :29  br i1 %tmp, label %2, label %_ifconv
 
-ST_2: sel_tmp (145)  [1/1] 0.39ns  loc: astro.c:39
+ST_2: sel_tmp (145)  [1/1] 0.39ns  loc: astro.c:86
 _ifconv:3  %sel_tmp = icmp eq i4 %i, 3
 
-ST_2: sel_tmp1 (146)  [1/1] 0.00ns  loc: astro.c:39 (grouped into LUT with out node p_int_vx_load_0_phi)
+ST_2: sel_tmp1 (146)  [1/1] 0.00ns  loc: astro.c:86 (grouped into LUT with out node p_int_vx_load_0_phi)
 _ifconv:4  %sel_tmp1 = select i1 %sel_tmp, i64 %p_int_3_vx_read31, i64 %p_int_6_vx_read_4
 
-ST_2: sel_tmp2 (147)  [1/1] 0.39ns  loc: astro.c:39
+ST_2: sel_tmp2 (147)  [1/1] 0.39ns  loc: astro.c:86
 _ifconv:5  %sel_tmp2 = icmp eq i4 %i, 0
 
-ST_2: p_int_vx_load_0_phi (148)  [1/1] 0.07ns  loc: astro.c:39 (out node of the LUT)
+ST_2: p_int_vx_load_0_phi (148)  [1/1] 0.07ns  loc: astro.c:86 (out node of the LUT)
 _ifconv:6  %p_int_vx_load_0_phi = select i1 %sel_tmp2, i64 %p_int_0_vx_read_4, i64 %sel_tmp1
 
-ST_2: tmp_73 (149)  [3/3] 8.22ns  loc: astro.c:39
-_ifconv:7  %tmp_73 = sitofp i64 %p_int_vx_load_0_phi to double
+ST_2: tmp_s (149)  [3/3] 8.22ns  loc: astro.c:86
+_ifconv:7  %tmp_s = sitofp i64 %p_int_vx_load_0_phi to double
 
-ST_2: p_int_vy_load_0_phi (159)  [1/1] 0.46ns  loc: astro.c:40
+ST_2: p_int_vy_load_0_phi (159)  [1/1] 0.46ns  loc: astro.c:87
 _ifconv:17  %p_int_vy_load_0_phi = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_0_vy_read_4, i64 %p_int_6_vy_read43, i64 %p_int_6_vy_read43, i64 %p_int_3_vy_read_4, i64 %p_int_6_vy_read43, i64 %p_int_6_vy_read43, i64 %p_int_6_vy_read43, i64 %p_int_6_vy_read43, i64 %p_int_6_vy_read43, i64 %p_int_6_vy_read43, i64 %p_int_6_vy_read43, i64 %p_int_6_vy_read43, i64 %p_int_6_vy_read43, i64 %p_int_6_vy_read43, i64 %p_int_6_vy_read43, i64 %p_int_6_vy_read43, i4 %i)
 
-ST_2: tmp_79 (160)  [3/3] 8.22ns  loc: astro.c:40
-_ifconv:18  %tmp_79 = sitofp i64 %p_int_vy_load_0_phi to double
+ST_2: tmp_29 (160)  [3/3] 8.22ns  loc: astro.c:87
+_ifconv:18  %tmp_29 = sitofp i64 %p_int_vy_load_0_phi to double
 
-ST_2: p_int_vz_load_0_phi (170)  [1/1] 0.46ns  loc: astro.c:41
+ST_2: p_int_vz_load_0_phi (170)  [1/1] 0.46ns  loc: astro.c:88
 _ifconv:28  %p_int_vz_load_0_phi = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_0_vz_read_4, i64 %p_int_6_vz_read52, i64 %p_int_6_vz_read52, i64 %p_int_3_vz_read_4, i64 %p_int_6_vz_read52, i64 %p_int_6_vz_read52, i64 %p_int_6_vz_read52, i64 %p_int_6_vz_read52, i64 %p_int_6_vz_read52, i64 %p_int_6_vz_read52, i64 %p_int_6_vz_read52, i64 %p_int_6_vz_read52, i64 %p_int_6_vz_read52, i64 %p_int_6_vz_read52, i64 %p_int_6_vz_read52, i64 %p_int_6_vz_read52, i4 %i)
 
-ST_2: tmp_85 (171)  [3/3] 8.22ns  loc: astro.c:41
-_ifconv:29  %tmp_85 = sitofp i64 %p_int_vz_load_0_phi to double
+ST_2: tmp_35 (171)  [3/3] 8.22ns  loc: astro.c:88
+_ifconv:29  %tmp_35 = sitofp i64 %p_int_vz_load_0_phi to double
 
-ST_2: i_5_0_t (182)  [1/1] 1.03ns  loc: astro.c:36
+ST_2: i_5_0_t (182)  [1/1] 1.03ns  loc: astro.c:83
 _ifconv:40  %i_5_0_t = add i4 %i, 1
 
-ST_2: i_5_1_t (216)  [1/1] 1.03ns  loc: astro.c:36
+ST_2: i_5_1_t (216)  [1/1] 1.03ns  loc: astro.c:83
 _ifconv:74  %i_5_1_t = add i4 %i, 2
 
-ST_2: i_5_2 (250)  [1/1] 1.03ns  loc: astro.c:36
+ST_2: i_5_2 (250)  [1/1] 1.03ns  loc: astro.c:83
 _ifconv:108  %i_5_2 = add i4 %i, 3
 
 
  <State 3>: 8.68ns
-ST_3: tmp_73 (149)  [2/3] 8.22ns  loc: astro.c:39
-_ifconv:7  %tmp_73 = sitofp i64 %p_int_vx_load_0_phi to double
+ST_3: tmp_s (149)  [2/3] 8.22ns  loc: astro.c:86
+_ifconv:7  %tmp_s = sitofp i64 %p_int_vx_load_0_phi to double
 
-ST_3: tmp_79 (160)  [2/3] 8.22ns  loc: astro.c:40
-_ifconv:18  %tmp_79 = sitofp i64 %p_int_vy_load_0_phi to double
+ST_3: tmp_29 (160)  [2/3] 8.22ns  loc: astro.c:87
+_ifconv:18  %tmp_29 = sitofp i64 %p_int_vy_load_0_phi to double
 
-ST_3: tmp_85 (171)  [2/3] 8.22ns  loc: astro.c:41
-_ifconv:29  %tmp_85 = sitofp i64 %p_int_vz_load_0_phi to double
+ST_3: tmp_35 (171)  [2/3] 8.22ns  loc: astro.c:88
+_ifconv:29  %tmp_35 = sitofp i64 %p_int_vz_load_0_phi to double
 
-ST_3: p_int_vx_load_1_phi (183)  [1/1] 0.46ns  loc: astro.c:39
+ST_3: p_int_vx_load_1_phi (183)  [1/1] 0.46ns  loc: astro.c:86
 _ifconv:41  %p_int_vx_load_1_phi = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_7_vx_read_4, i64 %p_int_1_vx_read_4, i64 %p_int_7_vx_read_4, i64 %p_int_7_vx_read_4, i64 %p_int_4_vx_read32, i64 %p_int_7_vx_read_4, i64 %p_int_7_vx_read_4, i64 %p_int_7_vx_read_4, i64 %p_int_7_vx_read_4, i64 %p_int_7_vx_read_4, i64 %p_int_7_vx_read_4, i64 %p_int_7_vx_read_4, i64 %p_int_7_vx_read_4, i64 %p_int_7_vx_read_4, i64 %p_int_7_vx_read_4, i64 %p_int_7_vx_read_4, i4 %i_5_0_t)
 
-ST_3: tmp_73_1 (184)  [3/3] 8.22ns  loc: astro.c:39
+ST_3: tmp_73_1 (184)  [3/3] 8.22ns  loc: astro.c:86
 _ifconv:42  %tmp_73_1 = sitofp i64 %p_int_vx_load_1_phi to double
 
-ST_3: p_int_vy_load_1_phi (194)  [1/1] 0.46ns  loc: astro.c:40
+ST_3: p_int_vy_load_1_phi (194)  [1/1] 0.46ns  loc: astro.c:87
 _ifconv:52  %p_int_vy_load_1_phi = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_7_vy_read_4, i64 %p_int_1_vy_read_3, i64 %p_int_7_vy_read_4, i64 %p_int_7_vy_read_4, i64 %p_int_4_vy_read41, i64 %p_int_7_vy_read_4, i64 %p_int_7_vy_read_4, i64 %p_int_7_vy_read_4, i64 %p_int_7_vy_read_4, i64 %p_int_7_vy_read_4, i64 %p_int_7_vy_read_4, i64 %p_int_7_vy_read_4, i64 %p_int_7_vy_read_4, i64 %p_int_7_vy_read_4, i64 %p_int_7_vy_read_4, i64 %p_int_7_vy_read_4, i4 %i_5_0_t)
 
-ST_3: tmp_79_1 (195)  [3/3] 8.22ns  loc: astro.c:40
+ST_3: tmp_79_1 (195)  [3/3] 8.22ns  loc: astro.c:87
 _ifconv:53  %tmp_79_1 = sitofp i64 %p_int_vy_load_1_phi to double
 
-ST_3: p_int_vz_load_1_phi (205)  [1/1] 0.46ns  loc: astro.c:41
+ST_3: p_int_vz_load_1_phi (205)  [1/1] 0.46ns  loc: astro.c:88
 _ifconv:63  %p_int_vz_load_1_phi = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_7_vz_read53, i64 %p_int_1_vz_read_4, i64 %p_int_7_vz_read53, i64 %p_int_7_vz_read53, i64 %p_int_4_vz_read_4, i64 %p_int_7_vz_read53, i64 %p_int_7_vz_read53, i64 %p_int_7_vz_read53, i64 %p_int_7_vz_read53, i64 %p_int_7_vz_read53, i64 %p_int_7_vz_read53, i64 %p_int_7_vz_read53, i64 %p_int_7_vz_read53, i64 %p_int_7_vz_read53, i64 %p_int_7_vz_read53, i64 %p_int_7_vz_read53, i4 %i_5_0_t)
 
-ST_3: tmp_85_1 (206)  [3/3] 8.22ns  loc: astro.c:41
+ST_3: tmp_85_1 (206)  [3/3] 8.22ns  loc: astro.c:88
 _ifconv:64  %tmp_85_1 = sitofp i64 %p_int_vz_load_1_phi to double
 
-ST_3: p_int_vx_load_2_phi (217)  [1/1] 0.46ns  loc: astro.c:39
+ST_3: p_int_vx_load_2_phi (217)  [1/1] 0.46ns  loc: astro.c:86
 _ifconv:75  %p_int_vx_load_2_phi = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_8_vx_read_4, i64 %p_int_8_vx_read_4, i64 %p_int_2_vx_read_4, i64 %p_int_8_vx_read_4, i64 %p_int_8_vx_read_4, i64 %p_int_5_vx_read33, i64 %p_int_8_vx_read_4, i64 %p_int_8_vx_read_4, i64 %p_int_8_vx_read_4, i64 %p_int_8_vx_read_4, i64 %p_int_8_vx_read_4, i64 %p_int_8_vx_read_4, i64 %p_int_8_vx_read_4, i64 %p_int_8_vx_read_4, i64 %p_int_8_vx_read_4, i64 %p_int_8_vx_read_4, i4 %i_5_1_t)
 
-ST_3: tmp_73_2 (218)  [3/3] 8.22ns  loc: astro.c:39
+ST_3: tmp_73_2 (218)  [3/3] 8.22ns  loc: astro.c:86
 _ifconv:76  %tmp_73_2 = sitofp i64 %p_int_vx_load_2_phi to double
 
-ST_3: p_int_vy_load_2_phi (228)  [1/1] 0.46ns  loc: astro.c:40
+ST_3: p_int_vy_load_2_phi (228)  [1/1] 0.46ns  loc: astro.c:87
 _ifconv:86  %p_int_vy_load_2_phi = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_8_vy_read_4, i64 %p_int_8_vy_read_4, i64 %p_int_2_vy_read_4, i64 %p_int_8_vy_read_4, i64 %p_int_8_vy_read_4, i64 %p_int_5_vy_read42, i64 %p_int_8_vy_read_4, i64 %p_int_8_vy_read_4, i64 %p_int_8_vy_read_4, i64 %p_int_8_vy_read_4, i64 %p_int_8_vy_read_4, i64 %p_int_8_vy_read_4, i64 %p_int_8_vy_read_4, i64 %p_int_8_vy_read_4, i64 %p_int_8_vy_read_4, i64 %p_int_8_vy_read_4, i4 %i_5_1_t)
 
-ST_3: tmp_79_2 (229)  [3/3] 8.22ns  loc: astro.c:40
+ST_3: tmp_79_2 (229)  [3/3] 8.22ns  loc: astro.c:87
 _ifconv:87  %tmp_79_2 = sitofp i64 %p_int_vy_load_2_phi to double
 
-ST_3: p_int_vz_load_2_phi (239)  [1/1] 0.46ns  loc: astro.c:41
+ST_3: p_int_vz_load_2_phi (239)  [1/1] 0.46ns  loc: astro.c:88
 _ifconv:97  %p_int_vz_load_2_phi = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_8_vz_read_4, i64 %p_int_8_vz_read_4, i64 %p_int_2_vz_read_3, i64 %p_int_8_vz_read_4, i64 %p_int_8_vz_read_4, i64 %p_int_5_vz_read51, i64 %p_int_8_vz_read_4, i64 %p_int_8_vz_read_4, i64 %p_int_8_vz_read_4, i64 %p_int_8_vz_read_4, i64 %p_int_8_vz_read_4, i64 %p_int_8_vz_read_4, i64 %p_int_8_vz_read_4, i64 %p_int_8_vz_read_4, i64 %p_int_8_vz_read_4, i64 %p_int_8_vz_read_4, i4 %i_5_1_t)
 
-ST_3: tmp_85_2 (240)  [3/3] 8.22ns  loc: astro.c:41
+ST_3: tmp_85_2 (240)  [3/3] 8.22ns  loc: astro.c:88
 _ifconv:98  %tmp_85_2 = sitofp i64 %p_int_vz_load_2_phi to double
 
 
  <State 4>: 8.22ns
-ST_4: tmp_73 (149)  [1/3] 8.22ns  loc: astro.c:39
-_ifconv:7  %tmp_73 = sitofp i64 %p_int_vx_load_0_phi to double
+ST_4: tmp_s (149)  [1/3] 8.22ns  loc: astro.c:86
+_ifconv:7  %tmp_s = sitofp i64 %p_int_vx_load_0_phi to double
 
-ST_4: tmp_79 (160)  [1/3] 8.22ns  loc: astro.c:40
-_ifconv:18  %tmp_79 = sitofp i64 %p_int_vy_load_0_phi to double
+ST_4: tmp_29 (160)  [1/3] 8.22ns  loc: astro.c:87
+_ifconv:18  %tmp_29 = sitofp i64 %p_int_vy_load_0_phi to double
 
-ST_4: tmp_85 (171)  [1/3] 8.22ns  loc: astro.c:41
-_ifconv:29  %tmp_85 = sitofp i64 %p_int_vz_load_0_phi to double
+ST_4: tmp_35 (171)  [1/3] 8.22ns  loc: astro.c:88
+_ifconv:29  %tmp_35 = sitofp i64 %p_int_vz_load_0_phi to double
 
-ST_4: tmp_73_1 (184)  [2/3] 8.22ns  loc: astro.c:39
+ST_4: tmp_73_1 (184)  [2/3] 8.22ns  loc: astro.c:86
 _ifconv:42  %tmp_73_1 = sitofp i64 %p_int_vx_load_1_phi to double
 
-ST_4: tmp_79_1 (195)  [2/3] 8.22ns  loc: astro.c:40
+ST_4: tmp_79_1 (195)  [2/3] 8.22ns  loc: astro.c:87
 _ifconv:53  %tmp_79_1 = sitofp i64 %p_int_vy_load_1_phi to double
 
-ST_4: tmp_85_1 (206)  [2/3] 8.22ns  loc: astro.c:41
+ST_4: tmp_85_1 (206)  [2/3] 8.22ns  loc: astro.c:88
 _ifconv:64  %tmp_85_1 = sitofp i64 %p_int_vz_load_1_phi to double
 
-ST_4: tmp_73_2 (218)  [2/3] 8.22ns  loc: astro.c:39
+ST_4: tmp_73_2 (218)  [2/3] 8.22ns  loc: astro.c:86
 _ifconv:76  %tmp_73_2 = sitofp i64 %p_int_vx_load_2_phi to double
 
-ST_4: tmp_79_2 (229)  [2/3] 8.22ns  loc: astro.c:40
+ST_4: tmp_79_2 (229)  [2/3] 8.22ns  loc: astro.c:87
 _ifconv:87  %tmp_79_2 = sitofp i64 %p_int_vy_load_2_phi to double
 
-ST_4: tmp_85_2 (240)  [2/3] 8.22ns  loc: astro.c:41
+ST_4: tmp_85_2 (240)  [2/3] 8.22ns  loc: astro.c:88
 _ifconv:98  %tmp_85_2 = sitofp i64 %p_int_vz_load_2_phi to double
 
 
  <State 5>: 8.66ns
-ST_5: tmp_74 (150)  [4/4] 8.66ns  loc: astro.c:39
-_ifconv:8  %tmp_74 = fmul double %tmp_73, 5.000000e-03
+ST_5: tmp_24 (150)  [4/4] 8.66ns  loc: astro.c:86
+_ifconv:8  %tmp_24 = fmul double %tmp_s, 5.000000e-03
 
-ST_5: tmp_80 (161)  [4/4] 8.66ns  loc: astro.c:40
-_ifconv:19  %tmp_80 = fmul double %tmp_79, 5.000000e-03
+ST_5: tmp_30 (161)  [4/4] 8.66ns  loc: astro.c:87
+_ifconv:19  %tmp_30 = fmul double %tmp_29, 5.000000e-03
 
-ST_5: tmp_86 (172)  [4/4] 8.66ns  loc: astro.c:41
-_ifconv:30  %tmp_86 = fmul double %tmp_85, 5.000000e-03
+ST_5: tmp_36 (172)  [4/4] 8.66ns  loc: astro.c:88
+_ifconv:30  %tmp_36 = fmul double %tmp_35, 5.000000e-03
 
-ST_5: tmp_73_1 (184)  [1/3] 8.22ns  loc: astro.c:39
+ST_5: tmp_73_1 (184)  [1/3] 8.22ns  loc: astro.c:86
 _ifconv:42  %tmp_73_1 = sitofp i64 %p_int_vx_load_1_phi to double
 
-ST_5: tmp_79_1 (195)  [1/3] 8.22ns  loc: astro.c:40
+ST_5: tmp_79_1 (195)  [1/3] 8.22ns  loc: astro.c:87
 _ifconv:53  %tmp_79_1 = sitofp i64 %p_int_vy_load_1_phi to double
 
-ST_5: tmp_85_1 (206)  [1/3] 8.22ns  loc: astro.c:41
+ST_5: tmp_85_1 (206)  [1/3] 8.22ns  loc: astro.c:88
 _ifconv:64  %tmp_85_1 = sitofp i64 %p_int_vz_load_1_phi to double
 
-ST_5: tmp_73_2 (218)  [1/3] 8.22ns  loc: astro.c:39
+ST_5: tmp_73_2 (218)  [1/3] 8.22ns  loc: astro.c:86
 _ifconv:76  %tmp_73_2 = sitofp i64 %p_int_vx_load_2_phi to double
 
-ST_5: tmp_79_2 (229)  [1/3] 8.22ns  loc: astro.c:40
+ST_5: tmp_79_2 (229)  [1/3] 8.22ns  loc: astro.c:87
 _ifconv:87  %tmp_79_2 = sitofp i64 %p_int_vy_load_2_phi to double
 
-ST_5: tmp_85_2 (240)  [1/3] 8.22ns  loc: astro.c:41
+ST_5: tmp_85_2 (240)  [1/3] 8.22ns  loc: astro.c:88
 _ifconv:98  %tmp_85_2 = sitofp i64 %p_int_vz_load_2_phi to double
 
 
  <State 6>: 8.66ns
-ST_6: tmp_74 (150)  [3/4] 8.66ns  loc: astro.c:39
-_ifconv:8  %tmp_74 = fmul double %tmp_73, 5.000000e-03
+ST_6: tmp_24 (150)  [3/4] 8.66ns  loc: astro.c:86
+_ifconv:8  %tmp_24 = fmul double %tmp_s, 5.000000e-03
 
-ST_6: tmp_80 (161)  [3/4] 8.66ns  loc: astro.c:40
-_ifconv:19  %tmp_80 = fmul double %tmp_79, 5.000000e-03
+ST_6: tmp_30 (161)  [3/4] 8.66ns  loc: astro.c:87
+_ifconv:19  %tmp_30 = fmul double %tmp_29, 5.000000e-03
 
-ST_6: tmp_86 (172)  [3/4] 8.66ns  loc: astro.c:41
-_ifconv:30  %tmp_86 = fmul double %tmp_85, 5.000000e-03
+ST_6: tmp_36 (172)  [3/4] 8.66ns  loc: astro.c:88
+_ifconv:30  %tmp_36 = fmul double %tmp_35, 5.000000e-03
 
-ST_6: tmp_74_1 (185)  [4/4] 8.66ns  loc: astro.c:39
+ST_6: tmp_74_1 (185)  [4/4] 8.66ns  loc: astro.c:86
 _ifconv:43  %tmp_74_1 = fmul double %tmp_73_1, 5.000000e-03
 
-ST_6: tmp_80_1 (196)  [4/4] 8.66ns  loc: astro.c:40
+ST_6: tmp_80_1 (196)  [4/4] 8.66ns  loc: astro.c:87
 _ifconv:54  %tmp_80_1 = fmul double %tmp_79_1, 5.000000e-03
 
-ST_6: tmp_86_1 (207)  [4/4] 8.66ns  loc: astro.c:41
+ST_6: tmp_86_1 (207)  [4/4] 8.66ns  loc: astro.c:88
 _ifconv:65  %tmp_86_1 = fmul double %tmp_85_1, 5.000000e-03
 
-ST_6: tmp_74_2 (219)  [4/4] 8.66ns  loc: astro.c:39
+ST_6: tmp_74_2 (219)  [4/4] 8.66ns  loc: astro.c:86
 _ifconv:77  %tmp_74_2 = fmul double %tmp_73_2, 5.000000e-03
 
-ST_6: tmp_80_2 (230)  [4/4] 8.66ns  loc: astro.c:40
+ST_6: tmp_80_2 (230)  [4/4] 8.66ns  loc: astro.c:87
 _ifconv:88  %tmp_80_2 = fmul double %tmp_79_2, 5.000000e-03
 
-ST_6: tmp_86_2 (241)  [4/4] 8.66ns  loc: astro.c:41
+ST_6: tmp_86_2 (241)  [4/4] 8.66ns  loc: astro.c:88
 _ifconv:99  %tmp_86_2 = fmul double %tmp_85_2, 5.000000e-03
 
 
  <State 7>: 8.66ns
-ST_7: tmp_74 (150)  [2/4] 8.66ns  loc: astro.c:39
-_ifconv:8  %tmp_74 = fmul double %tmp_73, 5.000000e-03
+ST_7: tmp_24 (150)  [2/4] 8.66ns  loc: astro.c:86
+_ifconv:8  %tmp_24 = fmul double %tmp_s, 5.000000e-03
 
-ST_7: tmp_80 (161)  [2/4] 8.66ns  loc: astro.c:40
-_ifconv:19  %tmp_80 = fmul double %tmp_79, 5.000000e-03
+ST_7: tmp_30 (161)  [2/4] 8.66ns  loc: astro.c:87
+_ifconv:19  %tmp_30 = fmul double %tmp_29, 5.000000e-03
 
-ST_7: tmp_86 (172)  [2/4] 8.66ns  loc: astro.c:41
-_ifconv:30  %tmp_86 = fmul double %tmp_85, 5.000000e-03
+ST_7: tmp_36 (172)  [2/4] 8.66ns  loc: astro.c:88
+_ifconv:30  %tmp_36 = fmul double %tmp_35, 5.000000e-03
 
-ST_7: tmp_74_1 (185)  [3/4] 8.66ns  loc: astro.c:39
+ST_7: tmp_74_1 (185)  [3/4] 8.66ns  loc: astro.c:86
 _ifconv:43  %tmp_74_1 = fmul double %tmp_73_1, 5.000000e-03
 
-ST_7: tmp_80_1 (196)  [3/4] 8.66ns  loc: astro.c:40
+ST_7: tmp_80_1 (196)  [3/4] 8.66ns  loc: astro.c:87
 _ifconv:54  %tmp_80_1 = fmul double %tmp_79_1, 5.000000e-03
 
-ST_7: tmp_86_1 (207)  [3/4] 8.66ns  loc: astro.c:41
+ST_7: tmp_86_1 (207)  [3/4] 8.66ns  loc: astro.c:88
 _ifconv:65  %tmp_86_1 = fmul double %tmp_85_1, 5.000000e-03
 
-ST_7: tmp_74_2 (219)  [3/4] 8.66ns  loc: astro.c:39
+ST_7: tmp_74_2 (219)  [3/4] 8.66ns  loc: astro.c:86
 _ifconv:77  %tmp_74_2 = fmul double %tmp_73_2, 5.000000e-03
 
-ST_7: tmp_80_2 (230)  [3/4] 8.66ns  loc: astro.c:40
+ST_7: tmp_80_2 (230)  [3/4] 8.66ns  loc: astro.c:87
 _ifconv:88  %tmp_80_2 = fmul double %tmp_79_2, 5.000000e-03
 
-ST_7: tmp_86_2 (241)  [3/4] 8.66ns  loc: astro.c:41
+ST_7: tmp_86_2 (241)  [3/4] 8.66ns  loc: astro.c:88
 _ifconv:99  %tmp_86_2 = fmul double %tmp_85_2, 5.000000e-03
 
 
  <State 8>: 8.66ns
-ST_8: tmp_74 (150)  [1/4] 8.66ns  loc: astro.c:39
-_ifconv:8  %tmp_74 = fmul double %tmp_73, 5.000000e-03
+ST_8: tmp_24 (150)  [1/4] 8.66ns  loc: astro.c:86
+_ifconv:8  %tmp_24 = fmul double %tmp_s, 5.000000e-03
 
-ST_8: tmp_80 (161)  [1/4] 8.66ns  loc: astro.c:40
-_ifconv:19  %tmp_80 = fmul double %tmp_79, 5.000000e-03
+ST_8: tmp_30 (161)  [1/4] 8.66ns  loc: astro.c:87
+_ifconv:19  %tmp_30 = fmul double %tmp_29, 5.000000e-03
 
-ST_8: tmp_86 (172)  [1/4] 8.66ns  loc: astro.c:41
-_ifconv:30  %tmp_86 = fmul double %tmp_85, 5.000000e-03
+ST_8: tmp_36 (172)  [1/4] 8.66ns  loc: astro.c:88
+_ifconv:30  %tmp_36 = fmul double %tmp_35, 5.000000e-03
 
-ST_8: tmp_74_1 (185)  [2/4] 8.66ns  loc: astro.c:39
+ST_8: tmp_74_1 (185)  [2/4] 8.66ns  loc: astro.c:86
 _ifconv:43  %tmp_74_1 = fmul double %tmp_73_1, 5.000000e-03
 
-ST_8: tmp_80_1 (196)  [2/4] 8.66ns  loc: astro.c:40
+ST_8: tmp_80_1 (196)  [2/4] 8.66ns  loc: astro.c:87
 _ifconv:54  %tmp_80_1 = fmul double %tmp_79_1, 5.000000e-03
 
-ST_8: tmp_86_1 (207)  [2/4] 8.66ns  loc: astro.c:41
+ST_8: tmp_86_1 (207)  [2/4] 8.66ns  loc: astro.c:88
 _ifconv:65  %tmp_86_1 = fmul double %tmp_85_1, 5.000000e-03
 
-ST_8: tmp_74_2 (219)  [2/4] 8.66ns  loc: astro.c:39
+ST_8: tmp_74_2 (219)  [2/4] 8.66ns  loc: astro.c:86
 _ifconv:77  %tmp_74_2 = fmul double %tmp_73_2, 5.000000e-03
 
-ST_8: tmp_80_2 (230)  [2/4] 8.66ns  loc: astro.c:40
+ST_8: tmp_80_2 (230)  [2/4] 8.66ns  loc: astro.c:87
 _ifconv:88  %tmp_80_2 = fmul double %tmp_79_2, 5.000000e-03
 
-ST_8: tmp_86_2 (241)  [2/4] 8.66ns  loc: astro.c:41
+ST_8: tmp_86_2 (241)  [2/4] 8.66ns  loc: astro.c:88
 _ifconv:99  %tmp_86_2 = fmul double %tmp_85_2, 5.000000e-03
 
 
  <State 9>: 8.66ns
-ST_9: tmp_75 (151)  [4/4] 8.66ns  loc: astro.c:39
-_ifconv:9  %tmp_75 = fmul double %tmp_74, 1.000000e-16
+ST_9: tmp_25 (151)  [4/4] 8.66ns  loc: astro.c:86
+_ifconv:9  %tmp_25 = fmul double %tmp_24, 1.000000e-16
 
-ST_9: tmp_81 (162)  [4/4] 8.66ns  loc: astro.c:40
-_ifconv:20  %tmp_81 = fmul double %tmp_80, 1.000000e-16
+ST_9: tmp_31 (162)  [4/4] 8.66ns  loc: astro.c:87
+_ifconv:20  %tmp_31 = fmul double %tmp_30, 1.000000e-16
 
-ST_9: tmp_87 (173)  [4/4] 8.66ns  loc: astro.c:41
-_ifconv:31  %tmp_87 = fmul double %tmp_86, 1.000000e-16
+ST_9: tmp_37 (173)  [4/4] 8.66ns  loc: astro.c:88
+_ifconv:31  %tmp_37 = fmul double %tmp_36, 1.000000e-16
 
-ST_9: tmp_74_1 (185)  [1/4] 8.66ns  loc: astro.c:39
+ST_9: tmp_74_1 (185)  [1/4] 8.66ns  loc: astro.c:86
 _ifconv:43  %tmp_74_1 = fmul double %tmp_73_1, 5.000000e-03
 
-ST_9: tmp_80_1 (196)  [1/4] 8.66ns  loc: astro.c:40
+ST_9: tmp_80_1 (196)  [1/4] 8.66ns  loc: astro.c:87
 _ifconv:54  %tmp_80_1 = fmul double %tmp_79_1, 5.000000e-03
 
-ST_9: tmp_86_1 (207)  [1/4] 8.66ns  loc: astro.c:41
+ST_9: tmp_86_1 (207)  [1/4] 8.66ns  loc: astro.c:88
 _ifconv:65  %tmp_86_1 = fmul double %tmp_85_1, 5.000000e-03
 
-ST_9: tmp_74_2 (219)  [1/4] 8.66ns  loc: astro.c:39
+ST_9: tmp_74_2 (219)  [1/4] 8.66ns  loc: astro.c:86
 _ifconv:77  %tmp_74_2 = fmul double %tmp_73_2, 5.000000e-03
 
-ST_9: tmp_80_2 (230)  [1/4] 8.66ns  loc: astro.c:40
+ST_9: tmp_80_2 (230)  [1/4] 8.66ns  loc: astro.c:87
 _ifconv:88  %tmp_80_2 = fmul double %tmp_79_2, 5.000000e-03
 
-ST_9: tmp_86_2 (241)  [1/4] 8.66ns  loc: astro.c:41
+ST_9: tmp_86_2 (241)  [1/4] 8.66ns  loc: astro.c:88
 _ifconv:99  %tmp_86_2 = fmul double %tmp_85_2, 5.000000e-03
 
 
  <State 10>: 8.66ns
-ST_10: tmp_75 (151)  [3/4] 8.66ns  loc: astro.c:39
-_ifconv:9  %tmp_75 = fmul double %tmp_74, 1.000000e-16
+ST_10: tmp_25 (151)  [3/4] 8.66ns  loc: astro.c:86
+_ifconv:9  %tmp_25 = fmul double %tmp_24, 1.000000e-16
 
-ST_10: tmp_81 (162)  [3/4] 8.66ns  loc: astro.c:40
-_ifconv:20  %tmp_81 = fmul double %tmp_80, 1.000000e-16
+ST_10: tmp_31 (162)  [3/4] 8.66ns  loc: astro.c:87
+_ifconv:20  %tmp_31 = fmul double %tmp_30, 1.000000e-16
 
-ST_10: tmp_87 (173)  [3/4] 8.66ns  loc: astro.c:41
-_ifconv:31  %tmp_87 = fmul double %tmp_86, 1.000000e-16
+ST_10: tmp_37 (173)  [3/4] 8.66ns  loc: astro.c:88
+_ifconv:31  %tmp_37 = fmul double %tmp_36, 1.000000e-16
 
-ST_10: tmp_75_1 (186)  [4/4] 8.66ns  loc: astro.c:39
+ST_10: tmp_75_1 (186)  [4/4] 8.66ns  loc: astro.c:86
 _ifconv:44  %tmp_75_1 = fmul double %tmp_74_1, 1.000000e-16
 
-ST_10: tmp_81_1 (197)  [4/4] 8.66ns  loc: astro.c:40
+ST_10: tmp_81_1 (197)  [4/4] 8.66ns  loc: astro.c:87
 _ifconv:55  %tmp_81_1 = fmul double %tmp_80_1, 1.000000e-16
 
-ST_10: tmp_87_1 (208)  [4/4] 8.66ns  loc: astro.c:41
+ST_10: tmp_87_1 (208)  [4/4] 8.66ns  loc: astro.c:88
 _ifconv:66  %tmp_87_1 = fmul double %tmp_86_1, 1.000000e-16
 
-ST_10: tmp_75_2 (220)  [4/4] 8.66ns  loc: astro.c:39
+ST_10: tmp_75_2 (220)  [4/4] 8.66ns  loc: astro.c:86
 _ifconv:78  %tmp_75_2 = fmul double %tmp_74_2, 1.000000e-16
 
-ST_10: tmp_81_2 (231)  [4/4] 8.66ns  loc: astro.c:40
+ST_10: tmp_81_2 (231)  [4/4] 8.66ns  loc: astro.c:87
 _ifconv:89  %tmp_81_2 = fmul double %tmp_80_2, 1.000000e-16
 
-ST_10: tmp_87_2 (242)  [4/4] 8.66ns  loc: astro.c:41
+ST_10: tmp_87_2 (242)  [4/4] 8.66ns  loc: astro.c:88
 _ifconv:100  %tmp_87_2 = fmul double %tmp_86_2, 1.000000e-16
 
 
  <State 11>: 8.66ns
-ST_11: tmp_75 (151)  [2/4] 8.66ns  loc: astro.c:39
-_ifconv:9  %tmp_75 = fmul double %tmp_74, 1.000000e-16
+ST_11: tmp_25 (151)  [2/4] 8.66ns  loc: astro.c:86
+_ifconv:9  %tmp_25 = fmul double %tmp_24, 1.000000e-16
 
-ST_11: tmp_81 (162)  [2/4] 8.66ns  loc: astro.c:40
-_ifconv:20  %tmp_81 = fmul double %tmp_80, 1.000000e-16
+ST_11: tmp_31 (162)  [2/4] 8.66ns  loc: astro.c:87
+_ifconv:20  %tmp_31 = fmul double %tmp_30, 1.000000e-16
 
-ST_11: tmp_87 (173)  [2/4] 8.66ns  loc: astro.c:41
-_ifconv:31  %tmp_87 = fmul double %tmp_86, 1.000000e-16
+ST_11: tmp_37 (173)  [2/4] 8.66ns  loc: astro.c:88
+_ifconv:31  %tmp_37 = fmul double %tmp_36, 1.000000e-16
 
-ST_11: tmp_75_1 (186)  [3/4] 8.66ns  loc: astro.c:39
+ST_11: tmp_75_1 (186)  [3/4] 8.66ns  loc: astro.c:86
 _ifconv:44  %tmp_75_1 = fmul double %tmp_74_1, 1.000000e-16
 
-ST_11: tmp_81_1 (197)  [3/4] 8.66ns  loc: astro.c:40
+ST_11: tmp_81_1 (197)  [3/4] 8.66ns  loc: astro.c:87
 _ifconv:55  %tmp_81_1 = fmul double %tmp_80_1, 1.000000e-16
 
-ST_11: tmp_87_1 (208)  [3/4] 8.66ns  loc: astro.c:41
+ST_11: tmp_87_1 (208)  [3/4] 8.66ns  loc: astro.c:88
 _ifconv:66  %tmp_87_1 = fmul double %tmp_86_1, 1.000000e-16
 
-ST_11: tmp_75_2 (220)  [3/4] 8.66ns  loc: astro.c:39
+ST_11: tmp_75_2 (220)  [3/4] 8.66ns  loc: astro.c:86
 _ifconv:78  %tmp_75_2 = fmul double %tmp_74_2, 1.000000e-16
 
-ST_11: tmp_81_2 (231)  [3/4] 8.66ns  loc: astro.c:40
+ST_11: tmp_81_2 (231)  [3/4] 8.66ns  loc: astro.c:87
 _ifconv:89  %tmp_81_2 = fmul double %tmp_80_2, 1.000000e-16
 
-ST_11: tmp_87_2 (242)  [3/4] 8.66ns  loc: astro.c:41
+ST_11: tmp_87_2 (242)  [3/4] 8.66ns  loc: astro.c:88
 _ifconv:100  %tmp_87_2 = fmul double %tmp_86_2, 1.000000e-16
 
 
  <State 12>: 8.66ns
-ST_12: tmp_75 (151)  [1/4] 8.66ns  loc: astro.c:39
-_ifconv:9  %tmp_75 = fmul double %tmp_74, 1.000000e-16
+ST_12: tmp_25 (151)  [1/4] 8.66ns  loc: astro.c:86
+_ifconv:9  %tmp_25 = fmul double %tmp_24, 1.000000e-16
 
-ST_12: tmp_81 (162)  [1/4] 8.66ns  loc: astro.c:40
-_ifconv:20  %tmp_81 = fmul double %tmp_80, 1.000000e-16
+ST_12: tmp_31 (162)  [1/4] 8.66ns  loc: astro.c:87
+_ifconv:20  %tmp_31 = fmul double %tmp_30, 1.000000e-16
 
-ST_12: tmp_87 (173)  [1/4] 8.66ns  loc: astro.c:41
-_ifconv:31  %tmp_87 = fmul double %tmp_86, 1.000000e-16
+ST_12: tmp_37 (173)  [1/4] 8.66ns  loc: astro.c:88
+_ifconv:31  %tmp_37 = fmul double %tmp_36, 1.000000e-16
 
-ST_12: tmp_75_1 (186)  [2/4] 8.66ns  loc: astro.c:39
+ST_12: tmp_75_1 (186)  [2/4] 8.66ns  loc: astro.c:86
 _ifconv:44  %tmp_75_1 = fmul double %tmp_74_1, 1.000000e-16
 
-ST_12: tmp_81_1 (197)  [2/4] 8.66ns  loc: astro.c:40
+ST_12: tmp_81_1 (197)  [2/4] 8.66ns  loc: astro.c:87
 _ifconv:55  %tmp_81_1 = fmul double %tmp_80_1, 1.000000e-16
 
-ST_12: tmp_87_1 (208)  [2/4] 8.66ns  loc: astro.c:41
+ST_12: tmp_87_1 (208)  [2/4] 8.66ns  loc: astro.c:88
 _ifconv:66  %tmp_87_1 = fmul double %tmp_86_1, 1.000000e-16
 
-ST_12: tmp_75_2 (220)  [2/4] 8.66ns  loc: astro.c:39
+ST_12: tmp_75_2 (220)  [2/4] 8.66ns  loc: astro.c:86
 _ifconv:78  %tmp_75_2 = fmul double %tmp_74_2, 1.000000e-16
 
-ST_12: tmp_81_2 (231)  [2/4] 8.66ns  loc: astro.c:40
+ST_12: tmp_81_2 (231)  [2/4] 8.66ns  loc: astro.c:87
 _ifconv:89  %tmp_81_2 = fmul double %tmp_80_2, 1.000000e-16
 
-ST_12: tmp_87_2 (242)  [2/4] 8.66ns  loc: astro.c:41
+ST_12: tmp_87_2 (242)  [2/4] 8.66ns  loc: astro.c:88
 _ifconv:100  %tmp_87_2 = fmul double %tmp_86_2, 1.000000e-16
 
 
  <State 13>: 8.66ns
-ST_13: tmp_76 (152)  [17/17] 7.11ns  loc: astro.c:39
-_ifconv:10  %tmp_76 = fdiv double %tmp_75, 1.000000e-16
+ST_13: tmp_26 (152)  [17/17] 7.11ns  loc: astro.c:86
+_ifconv:10  %tmp_26 = fdiv double %tmp_25, 1.000000e-16
 
-ST_13: tmp_82 (163)  [17/17] 7.11ns  loc: astro.c:40
-_ifconv:21  %tmp_82 = fdiv double %tmp_81, 1.000000e-16
+ST_13: tmp_32 (163)  [17/17] 7.11ns  loc: astro.c:87
+_ifconv:21  %tmp_32 = fdiv double %tmp_31, 1.000000e-16
 
-ST_13: tmp_88 (174)  [17/17] 7.11ns  loc: astro.c:41
-_ifconv:32  %tmp_88 = fdiv double %tmp_87, 1.000000e-16
+ST_13: tmp_38 (174)  [17/17] 7.11ns  loc: astro.c:88
+_ifconv:32  %tmp_38 = fdiv double %tmp_37, 1.000000e-16
 
-ST_13: tmp_75_1 (186)  [1/4] 8.66ns  loc: astro.c:39
+ST_13: tmp_75_1 (186)  [1/4] 8.66ns  loc: astro.c:86
 _ifconv:44  %tmp_75_1 = fmul double %tmp_74_1, 1.000000e-16
 
-ST_13: tmp_81_1 (197)  [1/4] 8.66ns  loc: astro.c:40
+ST_13: tmp_81_1 (197)  [1/4] 8.66ns  loc: astro.c:87
 _ifconv:55  %tmp_81_1 = fmul double %tmp_80_1, 1.000000e-16
 
-ST_13: tmp_87_1 (208)  [1/4] 8.66ns  loc: astro.c:41
+ST_13: tmp_87_1 (208)  [1/4] 8.66ns  loc: astro.c:88
 _ifconv:66  %tmp_87_1 = fmul double %tmp_86_1, 1.000000e-16
 
-ST_13: tmp_75_2 (220)  [1/4] 8.66ns  loc: astro.c:39
+ST_13: tmp_75_2 (220)  [1/4] 8.66ns  loc: astro.c:86
 _ifconv:78  %tmp_75_2 = fmul double %tmp_74_2, 1.000000e-16
 
-ST_13: tmp_81_2 (231)  [1/4] 8.66ns  loc: astro.c:40
+ST_13: tmp_81_2 (231)  [1/4] 8.66ns  loc: astro.c:87
 _ifconv:89  %tmp_81_2 = fmul double %tmp_80_2, 1.000000e-16
 
-ST_13: tmp_87_2 (242)  [1/4] 8.66ns  loc: astro.c:41
+ST_13: tmp_87_2 (242)  [1/4] 8.66ns  loc: astro.c:88
 _ifconv:100  %tmp_87_2 = fmul double %tmp_86_2, 1.000000e-16
 
 
  <State 14>: 7.11ns
-ST_14: tmp_76 (152)  [16/17] 7.11ns  loc: astro.c:39
-_ifconv:10  %tmp_76 = fdiv double %tmp_75, 1.000000e-16
+ST_14: tmp_26 (152)  [16/17] 7.11ns  loc: astro.c:86
+_ifconv:10  %tmp_26 = fdiv double %tmp_25, 1.000000e-16
 
-ST_14: tmp_82 (163)  [16/17] 7.11ns  loc: astro.c:40
-_ifconv:21  %tmp_82 = fdiv double %tmp_81, 1.000000e-16
+ST_14: tmp_32 (163)  [16/17] 7.11ns  loc: astro.c:87
+_ifconv:21  %tmp_32 = fdiv double %tmp_31, 1.000000e-16
 
-ST_14: tmp_88 (174)  [16/17] 7.11ns  loc: astro.c:41
-_ifconv:32  %tmp_88 = fdiv double %tmp_87, 1.000000e-16
+ST_14: tmp_38 (174)  [16/17] 7.11ns  loc: astro.c:88
+_ifconv:32  %tmp_38 = fdiv double %tmp_37, 1.000000e-16
 
-ST_14: tmp_76_1 (187)  [17/17] 7.11ns  loc: astro.c:39
+ST_14: tmp_76_1 (187)  [17/17] 7.11ns  loc: astro.c:86
 _ifconv:45  %tmp_76_1 = fdiv double %tmp_75_1, 1.000000e-16
 
-ST_14: tmp_82_1 (198)  [17/17] 7.11ns  loc: astro.c:40
+ST_14: tmp_82_1 (198)  [17/17] 7.11ns  loc: astro.c:87
 _ifconv:56  %tmp_82_1 = fdiv double %tmp_81_1, 1.000000e-16
 
-ST_14: tmp_88_1 (209)  [17/17] 7.11ns  loc: astro.c:41
+ST_14: tmp_88_1 (209)  [17/17] 7.11ns  loc: astro.c:88
 _ifconv:67  %tmp_88_1 = fdiv double %tmp_87_1, 1.000000e-16
 
-ST_14: tmp_76_2 (221)  [17/17] 7.11ns  loc: astro.c:39
+ST_14: tmp_76_2 (221)  [17/17] 7.11ns  loc: astro.c:86
 _ifconv:79  %tmp_76_2 = fdiv double %tmp_75_2, 1.000000e-16
 
-ST_14: tmp_82_2 (232)  [17/17] 7.11ns  loc: astro.c:40
+ST_14: tmp_82_2 (232)  [17/17] 7.11ns  loc: astro.c:87
 _ifconv:90  %tmp_82_2 = fdiv double %tmp_81_2, 1.000000e-16
 
-ST_14: tmp_88_2 (243)  [17/17] 7.11ns  loc: astro.c:41
+ST_14: tmp_88_2 (243)  [17/17] 7.11ns  loc: astro.c:88
 _ifconv:101  %tmp_88_2 = fdiv double %tmp_87_2, 1.000000e-16
 
 
  <State 15>: 7.11ns
-ST_15: tmp_76 (152)  [15/17] 7.11ns  loc: astro.c:39
-_ifconv:10  %tmp_76 = fdiv double %tmp_75, 1.000000e-16
+ST_15: tmp_26 (152)  [15/17] 7.11ns  loc: astro.c:86
+_ifconv:10  %tmp_26 = fdiv double %tmp_25, 1.000000e-16
 
-ST_15: tmp_82 (163)  [15/17] 7.11ns  loc: astro.c:40
-_ifconv:21  %tmp_82 = fdiv double %tmp_81, 1.000000e-16
+ST_15: tmp_32 (163)  [15/17] 7.11ns  loc: astro.c:87
+_ifconv:21  %tmp_32 = fdiv double %tmp_31, 1.000000e-16
 
-ST_15: tmp_88 (174)  [15/17] 7.11ns  loc: astro.c:41
-_ifconv:32  %tmp_88 = fdiv double %tmp_87, 1.000000e-16
+ST_15: tmp_38 (174)  [15/17] 7.11ns  loc: astro.c:88
+_ifconv:32  %tmp_38 = fdiv double %tmp_37, 1.000000e-16
 
-ST_15: tmp_76_1 (187)  [16/17] 7.11ns  loc: astro.c:39
+ST_15: tmp_76_1 (187)  [16/17] 7.11ns  loc: astro.c:86
 _ifconv:45  %tmp_76_1 = fdiv double %tmp_75_1, 1.000000e-16
 
-ST_15: tmp_82_1 (198)  [16/17] 7.11ns  loc: astro.c:40
+ST_15: tmp_82_1 (198)  [16/17] 7.11ns  loc: astro.c:87
 _ifconv:56  %tmp_82_1 = fdiv double %tmp_81_1, 1.000000e-16
 
-ST_15: tmp_88_1 (209)  [16/17] 7.11ns  loc: astro.c:41
+ST_15: tmp_88_1 (209)  [16/17] 7.11ns  loc: astro.c:88
 _ifconv:67  %tmp_88_1 = fdiv double %tmp_87_1, 1.000000e-16
 
-ST_15: tmp_76_2 (221)  [16/17] 7.11ns  loc: astro.c:39
+ST_15: tmp_76_2 (221)  [16/17] 7.11ns  loc: astro.c:86
 _ifconv:79  %tmp_76_2 = fdiv double %tmp_75_2, 1.000000e-16
 
-ST_15: tmp_82_2 (232)  [16/17] 7.11ns  loc: astro.c:40
+ST_15: tmp_82_2 (232)  [16/17] 7.11ns  loc: astro.c:87
 _ifconv:90  %tmp_82_2 = fdiv double %tmp_81_2, 1.000000e-16
 
-ST_15: tmp_88_2 (243)  [16/17] 7.11ns  loc: astro.c:41
+ST_15: tmp_88_2 (243)  [16/17] 7.11ns  loc: astro.c:88
 _ifconv:101  %tmp_88_2 = fdiv double %tmp_87_2, 1.000000e-16
 
 
  <State 16>: 7.11ns
-ST_16: tmp_76 (152)  [14/17] 7.11ns  loc: astro.c:39
-_ifconv:10  %tmp_76 = fdiv double %tmp_75, 1.000000e-16
+ST_16: tmp_26 (152)  [14/17] 7.11ns  loc: astro.c:86
+_ifconv:10  %tmp_26 = fdiv double %tmp_25, 1.000000e-16
 
-ST_16: tmp_82 (163)  [14/17] 7.11ns  loc: astro.c:40
-_ifconv:21  %tmp_82 = fdiv double %tmp_81, 1.000000e-16
+ST_16: tmp_32 (163)  [14/17] 7.11ns  loc: astro.c:87
+_ifconv:21  %tmp_32 = fdiv double %tmp_31, 1.000000e-16
 
-ST_16: tmp_88 (174)  [14/17] 7.11ns  loc: astro.c:41
-_ifconv:32  %tmp_88 = fdiv double %tmp_87, 1.000000e-16
+ST_16: tmp_38 (174)  [14/17] 7.11ns  loc: astro.c:88
+_ifconv:32  %tmp_38 = fdiv double %tmp_37, 1.000000e-16
 
-ST_16: tmp_76_1 (187)  [15/17] 7.11ns  loc: astro.c:39
+ST_16: tmp_76_1 (187)  [15/17] 7.11ns  loc: astro.c:86
 _ifconv:45  %tmp_76_1 = fdiv double %tmp_75_1, 1.000000e-16
 
-ST_16: tmp_82_1 (198)  [15/17] 7.11ns  loc: astro.c:40
+ST_16: tmp_82_1 (198)  [15/17] 7.11ns  loc: astro.c:87
 _ifconv:56  %tmp_82_1 = fdiv double %tmp_81_1, 1.000000e-16
 
-ST_16: tmp_88_1 (209)  [15/17] 7.11ns  loc: astro.c:41
+ST_16: tmp_88_1 (209)  [15/17] 7.11ns  loc: astro.c:88
 _ifconv:67  %tmp_88_1 = fdiv double %tmp_87_1, 1.000000e-16
 
-ST_16: tmp_76_2 (221)  [15/17] 7.11ns  loc: astro.c:39
+ST_16: tmp_76_2 (221)  [15/17] 7.11ns  loc: astro.c:86
 _ifconv:79  %tmp_76_2 = fdiv double %tmp_75_2, 1.000000e-16
 
-ST_16: tmp_82_2 (232)  [15/17] 7.11ns  loc: astro.c:40
+ST_16: tmp_82_2 (232)  [15/17] 7.11ns  loc: astro.c:87
 _ifconv:90  %tmp_82_2 = fdiv double %tmp_81_2, 1.000000e-16
 
-ST_16: tmp_88_2 (243)  [15/17] 7.11ns  loc: astro.c:41
+ST_16: tmp_88_2 (243)  [15/17] 7.11ns  loc: astro.c:88
 _ifconv:101  %tmp_88_2 = fdiv double %tmp_87_2, 1.000000e-16
 
 
  <State 17>: 7.11ns
-ST_17: tmp_76 (152)  [13/17] 7.11ns  loc: astro.c:39
-_ifconv:10  %tmp_76 = fdiv double %tmp_75, 1.000000e-16
+ST_17: tmp_26 (152)  [13/17] 7.11ns  loc: astro.c:86
+_ifconv:10  %tmp_26 = fdiv double %tmp_25, 1.000000e-16
 
-ST_17: tmp_82 (163)  [13/17] 7.11ns  loc: astro.c:40
-_ifconv:21  %tmp_82 = fdiv double %tmp_81, 1.000000e-16
+ST_17: tmp_32 (163)  [13/17] 7.11ns  loc: astro.c:87
+_ifconv:21  %tmp_32 = fdiv double %tmp_31, 1.000000e-16
 
-ST_17: tmp_88 (174)  [13/17] 7.11ns  loc: astro.c:41
-_ifconv:32  %tmp_88 = fdiv double %tmp_87, 1.000000e-16
+ST_17: tmp_38 (174)  [13/17] 7.11ns  loc: astro.c:88
+_ifconv:32  %tmp_38 = fdiv double %tmp_37, 1.000000e-16
 
-ST_17: tmp_76_1 (187)  [14/17] 7.11ns  loc: astro.c:39
+ST_17: tmp_76_1 (187)  [14/17] 7.11ns  loc: astro.c:86
 _ifconv:45  %tmp_76_1 = fdiv double %tmp_75_1, 1.000000e-16
 
-ST_17: tmp_82_1 (198)  [14/17] 7.11ns  loc: astro.c:40
+ST_17: tmp_82_1 (198)  [14/17] 7.11ns  loc: astro.c:87
 _ifconv:56  %tmp_82_1 = fdiv double %tmp_81_1, 1.000000e-16
 
-ST_17: tmp_88_1 (209)  [14/17] 7.11ns  loc: astro.c:41
+ST_17: tmp_88_1 (209)  [14/17] 7.11ns  loc: astro.c:88
 _ifconv:67  %tmp_88_1 = fdiv double %tmp_87_1, 1.000000e-16
 
-ST_17: tmp_76_2 (221)  [14/17] 7.11ns  loc: astro.c:39
+ST_17: tmp_76_2 (221)  [14/17] 7.11ns  loc: astro.c:86
 _ifconv:79  %tmp_76_2 = fdiv double %tmp_75_2, 1.000000e-16
 
-ST_17: tmp_82_2 (232)  [14/17] 7.11ns  loc: astro.c:40
+ST_17: tmp_82_2 (232)  [14/17] 7.11ns  loc: astro.c:87
 _ifconv:90  %tmp_82_2 = fdiv double %tmp_81_2, 1.000000e-16
 
-ST_17: tmp_88_2 (243)  [14/17] 7.11ns  loc: astro.c:41
+ST_17: tmp_88_2 (243)  [14/17] 7.11ns  loc: astro.c:88
 _ifconv:101  %tmp_88_2 = fdiv double %tmp_87_2, 1.000000e-16
 
 
  <State 18>: 7.11ns
-ST_18: tmp_76 (152)  [12/17] 7.11ns  loc: astro.c:39
-_ifconv:10  %tmp_76 = fdiv double %tmp_75, 1.000000e-16
+ST_18: tmp_26 (152)  [12/17] 7.11ns  loc: astro.c:86
+_ifconv:10  %tmp_26 = fdiv double %tmp_25, 1.000000e-16
 
-ST_18: tmp_82 (163)  [12/17] 7.11ns  loc: astro.c:40
-_ifconv:21  %tmp_82 = fdiv double %tmp_81, 1.000000e-16
+ST_18: tmp_32 (163)  [12/17] 7.11ns  loc: astro.c:87
+_ifconv:21  %tmp_32 = fdiv double %tmp_31, 1.000000e-16
 
-ST_18: tmp_88 (174)  [12/17] 7.11ns  loc: astro.c:41
-_ifconv:32  %tmp_88 = fdiv double %tmp_87, 1.000000e-16
+ST_18: tmp_38 (174)  [12/17] 7.11ns  loc: astro.c:88
+_ifconv:32  %tmp_38 = fdiv double %tmp_37, 1.000000e-16
 
-ST_18: tmp_76_1 (187)  [13/17] 7.11ns  loc: astro.c:39
+ST_18: tmp_76_1 (187)  [13/17] 7.11ns  loc: astro.c:86
 _ifconv:45  %tmp_76_1 = fdiv double %tmp_75_1, 1.000000e-16
 
-ST_18: tmp_82_1 (198)  [13/17] 7.11ns  loc: astro.c:40
+ST_18: tmp_82_1 (198)  [13/17] 7.11ns  loc: astro.c:87
 _ifconv:56  %tmp_82_1 = fdiv double %tmp_81_1, 1.000000e-16
 
-ST_18: tmp_88_1 (209)  [13/17] 7.11ns  loc: astro.c:41
+ST_18: tmp_88_1 (209)  [13/17] 7.11ns  loc: astro.c:88
 _ifconv:67  %tmp_88_1 = fdiv double %tmp_87_1, 1.000000e-16
 
-ST_18: tmp_76_2 (221)  [13/17] 7.11ns  loc: astro.c:39
+ST_18: tmp_76_2 (221)  [13/17] 7.11ns  loc: astro.c:86
 _ifconv:79  %tmp_76_2 = fdiv double %tmp_75_2, 1.000000e-16
 
-ST_18: tmp_82_2 (232)  [13/17] 7.11ns  loc: astro.c:40
+ST_18: tmp_82_2 (232)  [13/17] 7.11ns  loc: astro.c:87
 _ifconv:90  %tmp_82_2 = fdiv double %tmp_81_2, 1.000000e-16
 
-ST_18: tmp_88_2 (243)  [13/17] 7.11ns  loc: astro.c:41
+ST_18: tmp_88_2 (243)  [13/17] 7.11ns  loc: astro.c:88
 _ifconv:101  %tmp_88_2 = fdiv double %tmp_87_2, 1.000000e-16
 
 
  <State 19>: 7.11ns
-ST_19: tmp_76 (152)  [11/17] 7.11ns  loc: astro.c:39
-_ifconv:10  %tmp_76 = fdiv double %tmp_75, 1.000000e-16
+ST_19: tmp_26 (152)  [11/17] 7.11ns  loc: astro.c:86
+_ifconv:10  %tmp_26 = fdiv double %tmp_25, 1.000000e-16
 
-ST_19: tmp_82 (163)  [11/17] 7.11ns  loc: astro.c:40
-_ifconv:21  %tmp_82 = fdiv double %tmp_81, 1.000000e-16
+ST_19: tmp_32 (163)  [11/17] 7.11ns  loc: astro.c:87
+_ifconv:21  %tmp_32 = fdiv double %tmp_31, 1.000000e-16
 
-ST_19: tmp_88 (174)  [11/17] 7.11ns  loc: astro.c:41
-_ifconv:32  %tmp_88 = fdiv double %tmp_87, 1.000000e-16
+ST_19: tmp_38 (174)  [11/17] 7.11ns  loc: astro.c:88
+_ifconv:32  %tmp_38 = fdiv double %tmp_37, 1.000000e-16
 
-ST_19: tmp_76_1 (187)  [12/17] 7.11ns  loc: astro.c:39
+ST_19: tmp_76_1 (187)  [12/17] 7.11ns  loc: astro.c:86
 _ifconv:45  %tmp_76_1 = fdiv double %tmp_75_1, 1.000000e-16
 
-ST_19: tmp_82_1 (198)  [12/17] 7.11ns  loc: astro.c:40
+ST_19: tmp_82_1 (198)  [12/17] 7.11ns  loc: astro.c:87
 _ifconv:56  %tmp_82_1 = fdiv double %tmp_81_1, 1.000000e-16
 
-ST_19: tmp_88_1 (209)  [12/17] 7.11ns  loc: astro.c:41
+ST_19: tmp_88_1 (209)  [12/17] 7.11ns  loc: astro.c:88
 _ifconv:67  %tmp_88_1 = fdiv double %tmp_87_1, 1.000000e-16
 
-ST_19: tmp_76_2 (221)  [12/17] 7.11ns  loc: astro.c:39
+ST_19: tmp_76_2 (221)  [12/17] 7.11ns  loc: astro.c:86
 _ifconv:79  %tmp_76_2 = fdiv double %tmp_75_2, 1.000000e-16
 
-ST_19: tmp_82_2 (232)  [12/17] 7.11ns  loc: astro.c:40
+ST_19: tmp_82_2 (232)  [12/17] 7.11ns  loc: astro.c:87
 _ifconv:90  %tmp_82_2 = fdiv double %tmp_81_2, 1.000000e-16
 
-ST_19: tmp_88_2 (243)  [12/17] 7.11ns  loc: astro.c:41
+ST_19: tmp_88_2 (243)  [12/17] 7.11ns  loc: astro.c:88
 _ifconv:101  %tmp_88_2 = fdiv double %tmp_87_2, 1.000000e-16
 
 
  <State 20>: 7.11ns
-ST_20: tmp_76 (152)  [10/17] 7.11ns  loc: astro.c:39
-_ifconv:10  %tmp_76 = fdiv double %tmp_75, 1.000000e-16
+ST_20: tmp_26 (152)  [10/17] 7.11ns  loc: astro.c:86
+_ifconv:10  %tmp_26 = fdiv double %tmp_25, 1.000000e-16
 
-ST_20: tmp_82 (163)  [10/17] 7.11ns  loc: astro.c:40
-_ifconv:21  %tmp_82 = fdiv double %tmp_81, 1.000000e-16
+ST_20: tmp_32 (163)  [10/17] 7.11ns  loc: astro.c:87
+_ifconv:21  %tmp_32 = fdiv double %tmp_31, 1.000000e-16
 
-ST_20: tmp_88 (174)  [10/17] 7.11ns  loc: astro.c:41
-_ifconv:32  %tmp_88 = fdiv double %tmp_87, 1.000000e-16
+ST_20: tmp_38 (174)  [10/17] 7.11ns  loc: astro.c:88
+_ifconv:32  %tmp_38 = fdiv double %tmp_37, 1.000000e-16
 
-ST_20: tmp_76_1 (187)  [11/17] 7.11ns  loc: astro.c:39
+ST_20: tmp_76_1 (187)  [11/17] 7.11ns  loc: astro.c:86
 _ifconv:45  %tmp_76_1 = fdiv double %tmp_75_1, 1.000000e-16
 
-ST_20: tmp_82_1 (198)  [11/17] 7.11ns  loc: astro.c:40
+ST_20: tmp_82_1 (198)  [11/17] 7.11ns  loc: astro.c:87
 _ifconv:56  %tmp_82_1 = fdiv double %tmp_81_1, 1.000000e-16
 
-ST_20: tmp_88_1 (209)  [11/17] 7.11ns  loc: astro.c:41
+ST_20: tmp_88_1 (209)  [11/17] 7.11ns  loc: astro.c:88
 _ifconv:67  %tmp_88_1 = fdiv double %tmp_87_1, 1.000000e-16
 
-ST_20: tmp_76_2 (221)  [11/17] 7.11ns  loc: astro.c:39
+ST_20: tmp_76_2 (221)  [11/17] 7.11ns  loc: astro.c:86
 _ifconv:79  %tmp_76_2 = fdiv double %tmp_75_2, 1.000000e-16
 
-ST_20: tmp_82_2 (232)  [11/17] 7.11ns  loc: astro.c:40
+ST_20: tmp_82_2 (232)  [11/17] 7.11ns  loc: astro.c:87
 _ifconv:90  %tmp_82_2 = fdiv double %tmp_81_2, 1.000000e-16
 
-ST_20: tmp_88_2 (243)  [11/17] 7.11ns  loc: astro.c:41
+ST_20: tmp_88_2 (243)  [11/17] 7.11ns  loc: astro.c:88
 _ifconv:101  %tmp_88_2 = fdiv double %tmp_87_2, 1.000000e-16
 
 
  <State 21>: 7.11ns
-ST_21: tmp_76 (152)  [9/17] 7.11ns  loc: astro.c:39
-_ifconv:10  %tmp_76 = fdiv double %tmp_75, 1.000000e-16
+ST_21: tmp_26 (152)  [9/17] 7.11ns  loc: astro.c:86
+_ifconv:10  %tmp_26 = fdiv double %tmp_25, 1.000000e-16
 
-ST_21: tmp_82 (163)  [9/17] 7.11ns  loc: astro.c:40
-_ifconv:21  %tmp_82 = fdiv double %tmp_81, 1.000000e-16
+ST_21: tmp_32 (163)  [9/17] 7.11ns  loc: astro.c:87
+_ifconv:21  %tmp_32 = fdiv double %tmp_31, 1.000000e-16
 
-ST_21: tmp_88 (174)  [9/17] 7.11ns  loc: astro.c:41
-_ifconv:32  %tmp_88 = fdiv double %tmp_87, 1.000000e-16
+ST_21: tmp_38 (174)  [9/17] 7.11ns  loc: astro.c:88
+_ifconv:32  %tmp_38 = fdiv double %tmp_37, 1.000000e-16
 
-ST_21: tmp_76_1 (187)  [10/17] 7.11ns  loc: astro.c:39
+ST_21: tmp_76_1 (187)  [10/17] 7.11ns  loc: astro.c:86
 _ifconv:45  %tmp_76_1 = fdiv double %tmp_75_1, 1.000000e-16
 
-ST_21: tmp_82_1 (198)  [10/17] 7.11ns  loc: astro.c:40
+ST_21: tmp_82_1 (198)  [10/17] 7.11ns  loc: astro.c:87
 _ifconv:56  %tmp_82_1 = fdiv double %tmp_81_1, 1.000000e-16
 
-ST_21: tmp_88_1 (209)  [10/17] 7.11ns  loc: astro.c:41
+ST_21: tmp_88_1 (209)  [10/17] 7.11ns  loc: astro.c:88
 _ifconv:67  %tmp_88_1 = fdiv double %tmp_87_1, 1.000000e-16
 
-ST_21: tmp_76_2 (221)  [10/17] 7.11ns  loc: astro.c:39
+ST_21: tmp_76_2 (221)  [10/17] 7.11ns  loc: astro.c:86
 _ifconv:79  %tmp_76_2 = fdiv double %tmp_75_2, 1.000000e-16
 
-ST_21: tmp_82_2 (232)  [10/17] 7.11ns  loc: astro.c:40
+ST_21: tmp_82_2 (232)  [10/17] 7.11ns  loc: astro.c:87
 _ifconv:90  %tmp_82_2 = fdiv double %tmp_81_2, 1.000000e-16
 
-ST_21: tmp_88_2 (243)  [10/17] 7.11ns  loc: astro.c:41
+ST_21: tmp_88_2 (243)  [10/17] 7.11ns  loc: astro.c:88
 _ifconv:101  %tmp_88_2 = fdiv double %tmp_87_2, 1.000000e-16
 
 
  <State 22>: 7.11ns
-ST_22: tmp_76 (152)  [8/17] 7.11ns  loc: astro.c:39
-_ifconv:10  %tmp_76 = fdiv double %tmp_75, 1.000000e-16
+ST_22: tmp_26 (152)  [8/17] 7.11ns  loc: astro.c:86
+_ifconv:10  %tmp_26 = fdiv double %tmp_25, 1.000000e-16
 
-ST_22: tmp_82 (163)  [8/17] 7.11ns  loc: astro.c:40
-_ifconv:21  %tmp_82 = fdiv double %tmp_81, 1.000000e-16
+ST_22: tmp_32 (163)  [8/17] 7.11ns  loc: astro.c:87
+_ifconv:21  %tmp_32 = fdiv double %tmp_31, 1.000000e-16
 
-ST_22: tmp_88 (174)  [8/17] 7.11ns  loc: astro.c:41
-_ifconv:32  %tmp_88 = fdiv double %tmp_87, 1.000000e-16
+ST_22: tmp_38 (174)  [8/17] 7.11ns  loc: astro.c:88
+_ifconv:32  %tmp_38 = fdiv double %tmp_37, 1.000000e-16
 
-ST_22: tmp_76_1 (187)  [9/17] 7.11ns  loc: astro.c:39
+ST_22: tmp_76_1 (187)  [9/17] 7.11ns  loc: astro.c:86
 _ifconv:45  %tmp_76_1 = fdiv double %tmp_75_1, 1.000000e-16
 
-ST_22: tmp_82_1 (198)  [9/17] 7.11ns  loc: astro.c:40
+ST_22: tmp_82_1 (198)  [9/17] 7.11ns  loc: astro.c:87
 _ifconv:56  %tmp_82_1 = fdiv double %tmp_81_1, 1.000000e-16
 
-ST_22: tmp_88_1 (209)  [9/17] 7.11ns  loc: astro.c:41
+ST_22: tmp_88_1 (209)  [9/17] 7.11ns  loc: astro.c:88
 _ifconv:67  %tmp_88_1 = fdiv double %tmp_87_1, 1.000000e-16
 
-ST_22: tmp_76_2 (221)  [9/17] 7.11ns  loc: astro.c:39
+ST_22: tmp_76_2 (221)  [9/17] 7.11ns  loc: astro.c:86
 _ifconv:79  %tmp_76_2 = fdiv double %tmp_75_2, 1.000000e-16
 
-ST_22: tmp_82_2 (232)  [9/17] 7.11ns  loc: astro.c:40
+ST_22: tmp_82_2 (232)  [9/17] 7.11ns  loc: astro.c:87
 _ifconv:90  %tmp_82_2 = fdiv double %tmp_81_2, 1.000000e-16
 
-ST_22: tmp_88_2 (243)  [9/17] 7.11ns  loc: astro.c:41
+ST_22: tmp_88_2 (243)  [9/17] 7.11ns  loc: astro.c:88
 _ifconv:101  %tmp_88_2 = fdiv double %tmp_87_2, 1.000000e-16
 
 
  <State 23>: 7.11ns
-ST_23: tmp_76 (152)  [7/17] 7.11ns  loc: astro.c:39
-_ifconv:10  %tmp_76 = fdiv double %tmp_75, 1.000000e-16
+ST_23: tmp_26 (152)  [7/17] 7.11ns  loc: astro.c:86
+_ifconv:10  %tmp_26 = fdiv double %tmp_25, 1.000000e-16
 
-ST_23: tmp_82 (163)  [7/17] 7.11ns  loc: astro.c:40
-_ifconv:21  %tmp_82 = fdiv double %tmp_81, 1.000000e-16
+ST_23: tmp_32 (163)  [7/17] 7.11ns  loc: astro.c:87
+_ifconv:21  %tmp_32 = fdiv double %tmp_31, 1.000000e-16
 
-ST_23: tmp_88 (174)  [7/17] 7.11ns  loc: astro.c:41
-_ifconv:32  %tmp_88 = fdiv double %tmp_87, 1.000000e-16
+ST_23: tmp_38 (174)  [7/17] 7.11ns  loc: astro.c:88
+_ifconv:32  %tmp_38 = fdiv double %tmp_37, 1.000000e-16
 
-ST_23: tmp_76_1 (187)  [8/17] 7.11ns  loc: astro.c:39
+ST_23: tmp_76_1 (187)  [8/17] 7.11ns  loc: astro.c:86
 _ifconv:45  %tmp_76_1 = fdiv double %tmp_75_1, 1.000000e-16
 
-ST_23: tmp_82_1 (198)  [8/17] 7.11ns  loc: astro.c:40
+ST_23: tmp_82_1 (198)  [8/17] 7.11ns  loc: astro.c:87
 _ifconv:56  %tmp_82_1 = fdiv double %tmp_81_1, 1.000000e-16
 
-ST_23: tmp_88_1 (209)  [8/17] 7.11ns  loc: astro.c:41
+ST_23: tmp_88_1 (209)  [8/17] 7.11ns  loc: astro.c:88
 _ifconv:67  %tmp_88_1 = fdiv double %tmp_87_1, 1.000000e-16
 
-ST_23: tmp_76_2 (221)  [8/17] 7.11ns  loc: astro.c:39
+ST_23: tmp_76_2 (221)  [8/17] 7.11ns  loc: astro.c:86
 _ifconv:79  %tmp_76_2 = fdiv double %tmp_75_2, 1.000000e-16
 
-ST_23: tmp_82_2 (232)  [8/17] 7.11ns  loc: astro.c:40
+ST_23: tmp_82_2 (232)  [8/17] 7.11ns  loc: astro.c:87
 _ifconv:90  %tmp_82_2 = fdiv double %tmp_81_2, 1.000000e-16
 
-ST_23: tmp_88_2 (243)  [8/17] 7.11ns  loc: astro.c:41
+ST_23: tmp_88_2 (243)  [8/17] 7.11ns  loc: astro.c:88
 _ifconv:101  %tmp_88_2 = fdiv double %tmp_87_2, 1.000000e-16
 
 
  <State 24>: 7.11ns
-ST_24: tmp_76 (152)  [6/17] 7.11ns  loc: astro.c:39
-_ifconv:10  %tmp_76 = fdiv double %tmp_75, 1.000000e-16
+ST_24: tmp_26 (152)  [6/17] 7.11ns  loc: astro.c:86
+_ifconv:10  %tmp_26 = fdiv double %tmp_25, 1.000000e-16
 
-ST_24: tmp_82 (163)  [6/17] 7.11ns  loc: astro.c:40
-_ifconv:21  %tmp_82 = fdiv double %tmp_81, 1.000000e-16
+ST_24: tmp_32 (163)  [6/17] 7.11ns  loc: astro.c:87
+_ifconv:21  %tmp_32 = fdiv double %tmp_31, 1.000000e-16
 
-ST_24: tmp_88 (174)  [6/17] 7.11ns  loc: astro.c:41
-_ifconv:32  %tmp_88 = fdiv double %tmp_87, 1.000000e-16
+ST_24: tmp_38 (174)  [6/17] 7.11ns  loc: astro.c:88
+_ifconv:32  %tmp_38 = fdiv double %tmp_37, 1.000000e-16
 
-ST_24: tmp_76_1 (187)  [7/17] 7.11ns  loc: astro.c:39
+ST_24: tmp_76_1 (187)  [7/17] 7.11ns  loc: astro.c:86
 _ifconv:45  %tmp_76_1 = fdiv double %tmp_75_1, 1.000000e-16
 
-ST_24: tmp_82_1 (198)  [7/17] 7.11ns  loc: astro.c:40
+ST_24: tmp_82_1 (198)  [7/17] 7.11ns  loc: astro.c:87
 _ifconv:56  %tmp_82_1 = fdiv double %tmp_81_1, 1.000000e-16
 
-ST_24: tmp_88_1 (209)  [7/17] 7.11ns  loc: astro.c:41
+ST_24: tmp_88_1 (209)  [7/17] 7.11ns  loc: astro.c:88
 _ifconv:67  %tmp_88_1 = fdiv double %tmp_87_1, 1.000000e-16
 
-ST_24: tmp_76_2 (221)  [7/17] 7.11ns  loc: astro.c:39
+ST_24: tmp_76_2 (221)  [7/17] 7.11ns  loc: astro.c:86
 _ifconv:79  %tmp_76_2 = fdiv double %tmp_75_2, 1.000000e-16
 
-ST_24: tmp_82_2 (232)  [7/17] 7.11ns  loc: astro.c:40
+ST_24: tmp_82_2 (232)  [7/17] 7.11ns  loc: astro.c:87
 _ifconv:90  %tmp_82_2 = fdiv double %tmp_81_2, 1.000000e-16
 
-ST_24: tmp_88_2 (243)  [7/17] 7.11ns  loc: astro.c:41
+ST_24: tmp_88_2 (243)  [7/17] 7.11ns  loc: astro.c:88
 _ifconv:101  %tmp_88_2 = fdiv double %tmp_87_2, 1.000000e-16
 
 
  <State 25>: 7.11ns
-ST_25: tmp_76 (152)  [5/17] 7.11ns  loc: astro.c:39
-_ifconv:10  %tmp_76 = fdiv double %tmp_75, 1.000000e-16
+ST_25: tmp_26 (152)  [5/17] 7.11ns  loc: astro.c:86
+_ifconv:10  %tmp_26 = fdiv double %tmp_25, 1.000000e-16
 
-ST_25: tmp_82 (163)  [5/17] 7.11ns  loc: astro.c:40
-_ifconv:21  %tmp_82 = fdiv double %tmp_81, 1.000000e-16
+ST_25: tmp_32 (163)  [5/17] 7.11ns  loc: astro.c:87
+_ifconv:21  %tmp_32 = fdiv double %tmp_31, 1.000000e-16
 
-ST_25: tmp_88 (174)  [5/17] 7.11ns  loc: astro.c:41
-_ifconv:32  %tmp_88 = fdiv double %tmp_87, 1.000000e-16
+ST_25: tmp_38 (174)  [5/17] 7.11ns  loc: astro.c:88
+_ifconv:32  %tmp_38 = fdiv double %tmp_37, 1.000000e-16
 
-ST_25: tmp_76_1 (187)  [6/17] 7.11ns  loc: astro.c:39
+ST_25: tmp_76_1 (187)  [6/17] 7.11ns  loc: astro.c:86
 _ifconv:45  %tmp_76_1 = fdiv double %tmp_75_1, 1.000000e-16
 
-ST_25: tmp_82_1 (198)  [6/17] 7.11ns  loc: astro.c:40
+ST_25: tmp_82_1 (198)  [6/17] 7.11ns  loc: astro.c:87
 _ifconv:56  %tmp_82_1 = fdiv double %tmp_81_1, 1.000000e-16
 
-ST_25: tmp_88_1 (209)  [6/17] 7.11ns  loc: astro.c:41
+ST_25: tmp_88_1 (209)  [6/17] 7.11ns  loc: astro.c:88
 _ifconv:67  %tmp_88_1 = fdiv double %tmp_87_1, 1.000000e-16
 
-ST_25: tmp_76_2 (221)  [6/17] 7.11ns  loc: astro.c:39
+ST_25: tmp_76_2 (221)  [6/17] 7.11ns  loc: astro.c:86
 _ifconv:79  %tmp_76_2 = fdiv double %tmp_75_2, 1.000000e-16
 
-ST_25: tmp_82_2 (232)  [6/17] 7.11ns  loc: astro.c:40
+ST_25: tmp_82_2 (232)  [6/17] 7.11ns  loc: astro.c:87
 _ifconv:90  %tmp_82_2 = fdiv double %tmp_81_2, 1.000000e-16
 
-ST_25: tmp_88_2 (243)  [6/17] 7.11ns  loc: astro.c:41
+ST_25: tmp_88_2 (243)  [6/17] 7.11ns  loc: astro.c:88
 _ifconv:101  %tmp_88_2 = fdiv double %tmp_87_2, 1.000000e-16
 
 
  <State 26>: 7.11ns
-ST_26: tmp_76 (152)  [4/17] 7.11ns  loc: astro.c:39
-_ifconv:10  %tmp_76 = fdiv double %tmp_75, 1.000000e-16
+ST_26: tmp_26 (152)  [4/17] 7.11ns  loc: astro.c:86
+_ifconv:10  %tmp_26 = fdiv double %tmp_25, 1.000000e-16
 
-ST_26: tmp_82 (163)  [4/17] 7.11ns  loc: astro.c:40
-_ifconv:21  %tmp_82 = fdiv double %tmp_81, 1.000000e-16
+ST_26: tmp_32 (163)  [4/17] 7.11ns  loc: astro.c:87
+_ifconv:21  %tmp_32 = fdiv double %tmp_31, 1.000000e-16
 
-ST_26: tmp_88 (174)  [4/17] 7.11ns  loc: astro.c:41
-_ifconv:32  %tmp_88 = fdiv double %tmp_87, 1.000000e-16
+ST_26: tmp_38 (174)  [4/17] 7.11ns  loc: astro.c:88
+_ifconv:32  %tmp_38 = fdiv double %tmp_37, 1.000000e-16
 
-ST_26: tmp_76_1 (187)  [5/17] 7.11ns  loc: astro.c:39
+ST_26: tmp_76_1 (187)  [5/17] 7.11ns  loc: astro.c:86
 _ifconv:45  %tmp_76_1 = fdiv double %tmp_75_1, 1.000000e-16
 
-ST_26: tmp_82_1 (198)  [5/17] 7.11ns  loc: astro.c:40
+ST_26: tmp_82_1 (198)  [5/17] 7.11ns  loc: astro.c:87
 _ifconv:56  %tmp_82_1 = fdiv double %tmp_81_1, 1.000000e-16
 
-ST_26: tmp_88_1 (209)  [5/17] 7.11ns  loc: astro.c:41
+ST_26: tmp_88_1 (209)  [5/17] 7.11ns  loc: astro.c:88
 _ifconv:67  %tmp_88_1 = fdiv double %tmp_87_1, 1.000000e-16
 
-ST_26: tmp_76_2 (221)  [5/17] 7.11ns  loc: astro.c:39
+ST_26: tmp_76_2 (221)  [5/17] 7.11ns  loc: astro.c:86
 _ifconv:79  %tmp_76_2 = fdiv double %tmp_75_2, 1.000000e-16
 
-ST_26: tmp_82_2 (232)  [5/17] 7.11ns  loc: astro.c:40
+ST_26: tmp_82_2 (232)  [5/17] 7.11ns  loc: astro.c:87
 _ifconv:90  %tmp_82_2 = fdiv double %tmp_81_2, 1.000000e-16
 
-ST_26: tmp_88_2 (243)  [5/17] 7.11ns  loc: astro.c:41
+ST_26: tmp_88_2 (243)  [5/17] 7.11ns  loc: astro.c:88
 _ifconv:101  %tmp_88_2 = fdiv double %tmp_87_2, 1.000000e-16
 
 
  <State 27>: 7.11ns
-ST_27: tmp_76 (152)  [3/17] 7.11ns  loc: astro.c:39
-_ifconv:10  %tmp_76 = fdiv double %tmp_75, 1.000000e-16
+ST_27: tmp_26 (152)  [3/17] 7.11ns  loc: astro.c:86
+_ifconv:10  %tmp_26 = fdiv double %tmp_25, 1.000000e-16
 
-ST_27: tmp_82 (163)  [3/17] 7.11ns  loc: astro.c:40
-_ifconv:21  %tmp_82 = fdiv double %tmp_81, 1.000000e-16
+ST_27: tmp_32 (163)  [3/17] 7.11ns  loc: astro.c:87
+_ifconv:21  %tmp_32 = fdiv double %tmp_31, 1.000000e-16
 
-ST_27: tmp_88 (174)  [3/17] 7.11ns  loc: astro.c:41
-_ifconv:32  %tmp_88 = fdiv double %tmp_87, 1.000000e-16
+ST_27: tmp_38 (174)  [3/17] 7.11ns  loc: astro.c:88
+_ifconv:32  %tmp_38 = fdiv double %tmp_37, 1.000000e-16
 
-ST_27: tmp_76_1 (187)  [4/17] 7.11ns  loc: astro.c:39
+ST_27: tmp_76_1 (187)  [4/17] 7.11ns  loc: astro.c:86
 _ifconv:45  %tmp_76_1 = fdiv double %tmp_75_1, 1.000000e-16
 
-ST_27: tmp_82_1 (198)  [4/17] 7.11ns  loc: astro.c:40
+ST_27: tmp_82_1 (198)  [4/17] 7.11ns  loc: astro.c:87
 _ifconv:56  %tmp_82_1 = fdiv double %tmp_81_1, 1.000000e-16
 
-ST_27: tmp_88_1 (209)  [4/17] 7.11ns  loc: astro.c:41
+ST_27: tmp_88_1 (209)  [4/17] 7.11ns  loc: astro.c:88
 _ifconv:67  %tmp_88_1 = fdiv double %tmp_87_1, 1.000000e-16
 
-ST_27: tmp_76_2 (221)  [4/17] 7.11ns  loc: astro.c:39
+ST_27: tmp_76_2 (221)  [4/17] 7.11ns  loc: astro.c:86
 _ifconv:79  %tmp_76_2 = fdiv double %tmp_75_2, 1.000000e-16
 
-ST_27: tmp_82_2 (232)  [4/17] 7.11ns  loc: astro.c:40
+ST_27: tmp_82_2 (232)  [4/17] 7.11ns  loc: astro.c:87
 _ifconv:90  %tmp_82_2 = fdiv double %tmp_81_2, 1.000000e-16
 
-ST_27: tmp_88_2 (243)  [4/17] 7.11ns  loc: astro.c:41
+ST_27: tmp_88_2 (243)  [4/17] 7.11ns  loc: astro.c:88
 _ifconv:101  %tmp_88_2 = fdiv double %tmp_87_2, 1.000000e-16
 
 
  <State 28>: 7.11ns
-ST_28: tmp_76 (152)  [2/17] 7.11ns  loc: astro.c:39
-_ifconv:10  %tmp_76 = fdiv double %tmp_75, 1.000000e-16
+ST_28: tmp_26 (152)  [2/17] 7.11ns  loc: astro.c:86
+_ifconv:10  %tmp_26 = fdiv double %tmp_25, 1.000000e-16
 
-ST_28: tmp_82 (163)  [2/17] 7.11ns  loc: astro.c:40
-_ifconv:21  %tmp_82 = fdiv double %tmp_81, 1.000000e-16
+ST_28: tmp_32 (163)  [2/17] 7.11ns  loc: astro.c:87
+_ifconv:21  %tmp_32 = fdiv double %tmp_31, 1.000000e-16
 
-ST_28: tmp_88 (174)  [2/17] 7.11ns  loc: astro.c:41
-_ifconv:32  %tmp_88 = fdiv double %tmp_87, 1.000000e-16
+ST_28: tmp_38 (174)  [2/17] 7.11ns  loc: astro.c:88
+_ifconv:32  %tmp_38 = fdiv double %tmp_37, 1.000000e-16
 
-ST_28: tmp_76_1 (187)  [3/17] 7.11ns  loc: astro.c:39
+ST_28: tmp_76_1 (187)  [3/17] 7.11ns  loc: astro.c:86
 _ifconv:45  %tmp_76_1 = fdiv double %tmp_75_1, 1.000000e-16
 
-ST_28: tmp_82_1 (198)  [3/17] 7.11ns  loc: astro.c:40
+ST_28: tmp_82_1 (198)  [3/17] 7.11ns  loc: astro.c:87
 _ifconv:56  %tmp_82_1 = fdiv double %tmp_81_1, 1.000000e-16
 
-ST_28: tmp_88_1 (209)  [3/17] 7.11ns  loc: astro.c:41
+ST_28: tmp_88_1 (209)  [3/17] 7.11ns  loc: astro.c:88
 _ifconv:67  %tmp_88_1 = fdiv double %tmp_87_1, 1.000000e-16
 
-ST_28: tmp_76_2 (221)  [3/17] 7.11ns  loc: astro.c:39
+ST_28: tmp_76_2 (221)  [3/17] 7.11ns  loc: astro.c:86
 _ifconv:79  %tmp_76_2 = fdiv double %tmp_75_2, 1.000000e-16
 
-ST_28: tmp_82_2 (232)  [3/17] 7.11ns  loc: astro.c:40
+ST_28: tmp_82_2 (232)  [3/17] 7.11ns  loc: astro.c:87
 _ifconv:90  %tmp_82_2 = fdiv double %tmp_81_2, 1.000000e-16
 
-ST_28: tmp_88_2 (243)  [3/17] 7.11ns  loc: astro.c:41
+ST_28: tmp_88_2 (243)  [3/17] 7.11ns  loc: astro.c:88
 _ifconv:101  %tmp_88_2 = fdiv double %tmp_87_2, 1.000000e-16
 
 
  <State 29>: 7.11ns
-ST_29: tmp_76 (152)  [1/17] 7.11ns  loc: astro.c:39
-_ifconv:10  %tmp_76 = fdiv double %tmp_75, 1.000000e-16
+ST_29: tmp_26 (152)  [1/17] 7.11ns  loc: astro.c:86
+_ifconv:10  %tmp_26 = fdiv double %tmp_25, 1.000000e-16
 
-ST_29: tmp_82 (163)  [1/17] 7.11ns  loc: astro.c:40
-_ifconv:21  %tmp_82 = fdiv double %tmp_81, 1.000000e-16
+ST_29: tmp_32 (163)  [1/17] 7.11ns  loc: astro.c:87
+_ifconv:21  %tmp_32 = fdiv double %tmp_31, 1.000000e-16
 
-ST_29: tmp_88 (174)  [1/17] 7.11ns  loc: astro.c:41
-_ifconv:32  %tmp_88 = fdiv double %tmp_87, 1.000000e-16
+ST_29: tmp_38 (174)  [1/17] 7.11ns  loc: astro.c:88
+_ifconv:32  %tmp_38 = fdiv double %tmp_37, 1.000000e-16
 
-ST_29: tmp_76_1 (187)  [2/17] 7.11ns  loc: astro.c:39
+ST_29: tmp_76_1 (187)  [2/17] 7.11ns  loc: astro.c:86
 _ifconv:45  %tmp_76_1 = fdiv double %tmp_75_1, 1.000000e-16
 
-ST_29: tmp_82_1 (198)  [2/17] 7.11ns  loc: astro.c:40
+ST_29: tmp_82_1 (198)  [2/17] 7.11ns  loc: astro.c:87
 _ifconv:56  %tmp_82_1 = fdiv double %tmp_81_1, 1.000000e-16
 
-ST_29: tmp_88_1 (209)  [2/17] 7.11ns  loc: astro.c:41
+ST_29: tmp_88_1 (209)  [2/17] 7.11ns  loc: astro.c:88
 _ifconv:67  %tmp_88_1 = fdiv double %tmp_87_1, 1.000000e-16
 
-ST_29: tmp_76_2 (221)  [2/17] 7.11ns  loc: astro.c:39
+ST_29: tmp_76_2 (221)  [2/17] 7.11ns  loc: astro.c:86
 _ifconv:79  %tmp_76_2 = fdiv double %tmp_75_2, 1.000000e-16
 
-ST_29: tmp_82_2 (232)  [2/17] 7.11ns  loc: astro.c:40
+ST_29: tmp_82_2 (232)  [2/17] 7.11ns  loc: astro.c:87
 _ifconv:90  %tmp_82_2 = fdiv double %tmp_81_2, 1.000000e-16
 
-ST_29: tmp_88_2 (243)  [2/17] 7.11ns  loc: astro.c:41
+ST_29: tmp_88_2 (243)  [2/17] 7.11ns  loc: astro.c:88
 _ifconv:101  %tmp_88_2 = fdiv double %tmp_87_2, 1.000000e-16
 
 
  <State 30>: 7.11ns
-ST_30: tmp_77 (153)  [1/1] 3.98ns  loc: astro.c:39
-_ifconv:11  %tmp_77 = call fastcc i64 @__hls_fptosi_double_(double %tmp_76)
+ST_30: tmp_27 (153)  [1/1] 3.98ns  loc: astro.c:86
+_ifconv:11  %tmp_27 = call fastcc i64 @__hls_fptosi_double_(double %tmp_26)
 
-ST_30: p_int_x_load_0_phi (154)  [1/1] 0.46ns  loc: astro.c:39
+ST_30: p_int_x_load_0_phi (154)  [1/1] 0.46ns  loc: astro.c:86
 _ifconv:12  %p_int_x_load_0_phi = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_x, i64 %p_int_x6, i64 %p_int_x6, i64 %p_int_x3, i64 %p_int_x6, i64 %p_int_x6, i64 %p_int_x6, i64 %p_int_x6, i64 %p_int_x6, i64 %p_int_x6, i64 %p_int_x6, i64 %p_int_x6, i64 %p_int_x6, i64 %p_int_x6, i64 %p_int_x6, i64 %p_int_x6, i4 %i)
 
-ST_30: tmp_78 (155)  [1/1] 1.42ns  loc: astro.c:39
-_ifconv:13  %tmp_78 = add nsw i64 %tmp_77, %p_int_x_load_0_phi
+ST_30: tmp_28 (155)  [1/1] 1.42ns  loc: astro.c:86
+_ifconv:13  %tmp_28 = add nsw i64 %tmp_27, %p_int_x_load_0_phi
 
-ST_30: p_int_x6_1 (156)  [1/1] 0.46ns  loc: astro.c:39
-_ifconv:14  %p_int_x6_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_x6, i64 %tmp_78, i64 %tmp_78, i64 %p_int_x6, i64 %tmp_78, i64 %tmp_78, i64 %tmp_78, i64 %tmp_78, i64 %tmp_78, i64 %tmp_78, i64 %tmp_78, i64 %tmp_78, i64 %tmp_78, i64 %tmp_78, i64 %tmp_78, i64 %tmp_78, i4 %i)
+ST_30: p_int_x6_1 (156)  [1/1] 0.46ns  loc: astro.c:86
+_ifconv:14  %p_int_x6_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_x6, i64 %tmp_28, i64 %tmp_28, i64 %p_int_x6, i64 %tmp_28, i64 %tmp_28, i64 %tmp_28, i64 %tmp_28, i64 %tmp_28, i64 %tmp_28, i64 %tmp_28, i64 %tmp_28, i64 %tmp_28, i64 %tmp_28, i64 %tmp_28, i64 %tmp_28, i4 %i)
 
-ST_30: p_int_x3_1 (157)  [1/1] 0.46ns  loc: astro.c:39
-_ifconv:15  %p_int_x3_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_x3, i64 %p_int_x3, i64 %p_int_x3, i64 %tmp_78, i64 %p_int_x3, i64 %p_int_x3, i64 %p_int_x3, i64 %p_int_x3, i64 %p_int_x3, i64 %p_int_x3, i64 %p_int_x3, i64 %p_int_x3, i64 %p_int_x3, i64 %p_int_x3, i64 %p_int_x3, i64 %p_int_x3, i4 %i)
+ST_30: p_int_x3_1 (157)  [1/1] 0.46ns  loc: astro.c:86
+_ifconv:15  %p_int_x3_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_x3, i64 %p_int_x3, i64 %p_int_x3, i64 %tmp_28, i64 %p_int_x3, i64 %p_int_x3, i64 %p_int_x3, i64 %p_int_x3, i64 %p_int_x3, i64 %p_int_x3, i64 %p_int_x3, i64 %p_int_x3, i64 %p_int_x3, i64 %p_int_x3, i64 %p_int_x3, i64 %p_int_x3, i4 %i)
 
-ST_30: p_int_x_1 (158)  [1/1] 0.46ns  loc: astro.c:39
-_ifconv:16  %p_int_x_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %tmp_78, i64 %p_int_x, i64 %p_int_x, i64 %p_int_x, i64 %p_int_x, i64 %p_int_x, i64 %p_int_x, i64 %p_int_x, i64 %p_int_x, i64 %p_int_x, i64 %p_int_x, i64 %p_int_x, i64 %p_int_x, i64 %p_int_x, i64 %p_int_x, i64 %p_int_x, i4 %i)
+ST_30: p_int_x_1 (158)  [1/1] 0.46ns  loc: astro.c:86
+_ifconv:16  %p_int_x_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %tmp_28, i64 %p_int_x, i64 %p_int_x, i64 %p_int_x, i64 %p_int_x, i64 %p_int_x, i64 %p_int_x, i64 %p_int_x, i64 %p_int_x, i64 %p_int_x, i64 %p_int_x, i64 %p_int_x, i64 %p_int_x, i64 %p_int_x, i64 %p_int_x, i64 %p_int_x, i4 %i)
 
-ST_30: tmp_83 (164)  [1/1] 3.98ns  loc: astro.c:40
-_ifconv:22  %tmp_83 = call fastcc i64 @__hls_fptosi_double_(double %tmp_82)
+ST_30: tmp_33 (164)  [1/1] 3.98ns  loc: astro.c:87
+_ifconv:22  %tmp_33 = call fastcc i64 @__hls_fptosi_double_(double %tmp_32)
 
-ST_30: p_int_y_load_0_phi (165)  [1/1] 0.46ns  loc: astro.c:40
+ST_30: p_int_y_load_0_phi (165)  [1/1] 0.46ns  loc: astro.c:87
 _ifconv:23  %p_int_y_load_0_phi = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_y, i64 %p_int_y6, i64 %p_int_y6, i64 %p_int_y3, i64 %p_int_y6, i64 %p_int_y6, i64 %p_int_y6, i64 %p_int_y6, i64 %p_int_y6, i64 %p_int_y6, i64 %p_int_y6, i64 %p_int_y6, i64 %p_int_y6, i64 %p_int_y6, i64 %p_int_y6, i64 %p_int_y6, i4 %i)
 
-ST_30: tmp_84 (166)  [1/1] 1.42ns  loc: astro.c:40
-_ifconv:24  %tmp_84 = add nsw i64 %tmp_83, %p_int_y_load_0_phi
+ST_30: tmp_34 (166)  [1/1] 1.42ns  loc: astro.c:87
+_ifconv:24  %tmp_34 = add nsw i64 %tmp_33, %p_int_y_load_0_phi
 
-ST_30: p_int_y14_1 (167)  [1/1] 0.46ns  loc: astro.c:40
-_ifconv:25  %p_int_y14_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_y6, i64 %tmp_84, i64 %tmp_84, i64 %p_int_y6, i64 %tmp_84, i64 %tmp_84, i64 %tmp_84, i64 %tmp_84, i64 %tmp_84, i64 %tmp_84, i64 %tmp_84, i64 %tmp_84, i64 %tmp_84, i64 %tmp_84, i64 %tmp_84, i64 %tmp_84, i4 %i)
+ST_30: p_int_y14_1 (167)  [1/1] 0.46ns  loc: astro.c:87
+_ifconv:25  %p_int_y14_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_y6, i64 %tmp_34, i64 %tmp_34, i64 %p_int_y6, i64 %tmp_34, i64 %tmp_34, i64 %tmp_34, i64 %tmp_34, i64 %tmp_34, i64 %tmp_34, i64 %tmp_34, i64 %tmp_34, i64 %tmp_34, i64 %tmp_34, i64 %tmp_34, i64 %tmp_34, i4 %i)
 
-ST_30: p_int_y1114_1 (168)  [1/1] 0.46ns  loc: astro.c:40
-_ifconv:26  %p_int_y1114_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_y3, i64 %p_int_y3, i64 %p_int_y3, i64 %tmp_84, i64 %p_int_y3, i64 %p_int_y3, i64 %p_int_y3, i64 %p_int_y3, i64 %p_int_y3, i64 %p_int_y3, i64 %p_int_y3, i64 %p_int_y3, i64 %p_int_y3, i64 %p_int_y3, i64 %p_int_y3, i64 %p_int_y3, i4 %i)
+ST_30: p_int_y1114_1 (168)  [1/1] 0.46ns  loc: astro.c:87
+_ifconv:26  %p_int_y1114_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_y3, i64 %p_int_y3, i64 %p_int_y3, i64 %tmp_34, i64 %p_int_y3, i64 %p_int_y3, i64 %p_int_y3, i64 %p_int_y3, i64 %p_int_y3, i64 %p_int_y3, i64 %p_int_y3, i64 %p_int_y3, i64 %p_int_y3, i64 %p_int_y3, i64 %p_int_y3, i64 %p_int_y3, i4 %i)
 
-ST_30: p_int_y_1 (169)  [1/1] 0.46ns  loc: astro.c:40
-_ifconv:27  %p_int_y_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %tmp_84, i64 %p_int_y, i64 %p_int_y, i64 %p_int_y, i64 %p_int_y, i64 %p_int_y, i64 %p_int_y, i64 %p_int_y, i64 %p_int_y, i64 %p_int_y, i64 %p_int_y, i64 %p_int_y, i64 %p_int_y, i64 %p_int_y, i64 %p_int_y, i64 %p_int_y, i4 %i)
+ST_30: p_int_y_1 (169)  [1/1] 0.46ns  loc: astro.c:87
+_ifconv:27  %p_int_y_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %tmp_34, i64 %p_int_y, i64 %p_int_y, i64 %p_int_y, i64 %p_int_y, i64 %p_int_y, i64 %p_int_y, i64 %p_int_y, i64 %p_int_y, i64 %p_int_y, i64 %p_int_y, i64 %p_int_y, i64 %p_int_y, i64 %p_int_y, i64 %p_int_y, i64 %p_int_y, i4 %i)
 
-ST_30: tmp_89 (175)  [1/1] 3.98ns  loc: astro.c:41
-_ifconv:33  %tmp_89 = call fastcc i64 @__hls_fptosi_double_(double %tmp_88)
+ST_30: tmp_39 (175)  [1/1] 3.98ns  loc: astro.c:88
+_ifconv:33  %tmp_39 = call fastcc i64 @__hls_fptosi_double_(double %tmp_38)
 
-ST_30: p_int_z_load_0_phi (176)  [1/1] 0.46ns  loc: astro.c:41
+ST_30: p_int_z_load_0_phi (176)  [1/1] 0.46ns  loc: astro.c:88
 _ifconv:34  %p_int_z_load_0_phi = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_z, i64 %p_int_z8, i64 %p_int_z8, i64 %p_int_z5, i64 %p_int_z8, i64 %p_int_z8, i64 %p_int_z8, i64 %p_int_z8, i64 %p_int_z8, i64 %p_int_z8, i64 %p_int_z8, i64 %p_int_z8, i64 %p_int_z8, i64 %p_int_z8, i64 %p_int_z8, i64 %p_int_z8, i4 %i)
 
-ST_30: tmp_90 (177)  [1/1] 1.42ns  loc: astro.c:41
-_ifconv:35  %tmp_90 = add nsw i64 %tmp_89, %p_int_z_load_0_phi
+ST_30: tmp_40 (177)  [1/1] 1.42ns  loc: astro.c:88
+_ifconv:35  %tmp_40 = add nsw i64 %tmp_39, %p_int_z_load_0_phi
 
-ST_30: p_int_z22_1 (178)  [1/1] 0.46ns  loc: astro.c:41
-_ifconv:36  %p_int_z22_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_z8, i64 %tmp_90, i64 %tmp_90, i64 %p_int_z8, i64 %tmp_90, i64 %tmp_90, i64 %tmp_90, i64 %tmp_90, i64 %tmp_90, i64 %tmp_90, i64 %tmp_90, i64 %tmp_90, i64 %tmp_90, i64 %tmp_90, i64 %tmp_90, i64 %tmp_90, i4 %i)
+ST_30: p_int_z22_1 (178)  [1/1] 0.46ns  loc: astro.c:88
+_ifconv:36  %p_int_z22_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_z8, i64 %tmp_40, i64 %tmp_40, i64 %p_int_z8, i64 %tmp_40, i64 %tmp_40, i64 %tmp_40, i64 %tmp_40, i64 %tmp_40, i64 %tmp_40, i64 %tmp_40, i64 %tmp_40, i64 %tmp_40, i64 %tmp_40, i64 %tmp_40, i64 %tmp_40, i4 %i)
 
-ST_30: p_int_z19_1 (179)  [1/1] 0.46ns  loc: astro.c:41
-_ifconv:37  %p_int_z19_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_z5, i64 %p_int_z5, i64 %p_int_z5, i64 %tmp_90, i64 %p_int_z5, i64 %p_int_z5, i64 %p_int_z5, i64 %p_int_z5, i64 %p_int_z5, i64 %p_int_z5, i64 %p_int_z5, i64 %p_int_z5, i64 %p_int_z5, i64 %p_int_z5, i64 %p_int_z5, i64 %p_int_z5, i4 %i)
+ST_30: p_int_z19_1 (179)  [1/1] 0.46ns  loc: astro.c:88
+_ifconv:37  %p_int_z19_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_z5, i64 %p_int_z5, i64 %p_int_z5, i64 %tmp_40, i64 %p_int_z5, i64 %p_int_z5, i64 %p_int_z5, i64 %p_int_z5, i64 %p_int_z5, i64 %p_int_z5, i64 %p_int_z5, i64 %p_int_z5, i64 %p_int_z5, i64 %p_int_z5, i64 %p_int_z5, i64 %p_int_z5, i4 %i)
 
-ST_30: p_int_z_1 (180)  [1/1] 0.46ns  loc: astro.c:41
-_ifconv:38  %p_int_z_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %tmp_90, i64 %p_int_z, i64 %p_int_z, i64 %p_int_z, i64 %p_int_z, i64 %p_int_z, i64 %p_int_z, i64 %p_int_z, i64 %p_int_z, i64 %p_int_z, i64 %p_int_z, i64 %p_int_z, i64 %p_int_z, i64 %p_int_z, i64 %p_int_z, i64 %p_int_z, i4 %i)
+ST_30: p_int_z_1 (180)  [1/1] 0.46ns  loc: astro.c:88
+_ifconv:38  %p_int_z_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %tmp_40, i64 %p_int_z, i64 %p_int_z, i64 %p_int_z, i64 %p_int_z, i64 %p_int_z, i64 %p_int_z, i64 %p_int_z, i64 %p_int_z, i64 %p_int_z, i64 %p_int_z, i64 %p_int_z, i64 %p_int_z, i64 %p_int_z, i64 %p_int_z, i64 %p_int_z, i4 %i)
 
-ST_30: tmp_76_1 (187)  [1/17] 7.11ns  loc: astro.c:39
+ST_30: tmp_76_1 (187)  [1/17] 7.11ns  loc: astro.c:86
 _ifconv:45  %tmp_76_1 = fdiv double %tmp_75_1, 1.000000e-16
 
-ST_30: tmp_82_1 (198)  [1/17] 7.11ns  loc: astro.c:40
+ST_30: tmp_82_1 (198)  [1/17] 7.11ns  loc: astro.c:87
 _ifconv:56  %tmp_82_1 = fdiv double %tmp_81_1, 1.000000e-16
 
-ST_30: tmp_88_1 (209)  [1/17] 7.11ns  loc: astro.c:41
+ST_30: tmp_88_1 (209)  [1/17] 7.11ns  loc: astro.c:88
 _ifconv:67  %tmp_88_1 = fdiv double %tmp_87_1, 1.000000e-16
 
-ST_30: tmp_76_2 (221)  [1/17] 7.11ns  loc: astro.c:39
+ST_30: tmp_76_2 (221)  [1/17] 7.11ns  loc: astro.c:86
 _ifconv:79  %tmp_76_2 = fdiv double %tmp_75_2, 1.000000e-16
 
-ST_30: tmp_82_2 (232)  [1/17] 7.11ns  loc: astro.c:40
+ST_30: tmp_82_2 (232)  [1/17] 7.11ns  loc: astro.c:87
 _ifconv:90  %tmp_82_2 = fdiv double %tmp_81_2, 1.000000e-16
 
-ST_30: tmp_88_2 (243)  [1/17] 7.11ns  loc: astro.c:41
+ST_30: tmp_88_2 (243)  [1/17] 7.11ns  loc: astro.c:88
 _ifconv:101  %tmp_88_2 = fdiv double %tmp_87_2, 1.000000e-16
 
 
@@ -1784,210 +1757,210 @@ _ifconv:101  %tmp_88_2 = fdiv double %tmp_87_2, 1.000000e-16
 ST_31: empty (142)  [1/1] 0.00ns
 _ifconv:0  %empty = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 3, i64 3, i64 3)
 
-ST_31: tmp_s (143)  [1/1] 0.00ns  loc: astro.c:36
-_ifconv:1  %tmp_s = call i32 (...)* @_ssdm_op_SpecRegionBegin([12 x i8]* @p_str11)
+ST_31: tmp_10 (143)  [1/1] 0.00ns  loc: astro.c:83
+_ifconv:1  %tmp_10 = call i32 (...)* @_ssdm_op_SpecRegionBegin([12 x i8]* @p_str11)
 
-ST_31: StgValue_405 (144)  [1/1] 0.00ns  loc: astro.c:38
+ST_31: StgValue_405 (144)  [1/1] 0.00ns  loc: astro.c:85
 _ifconv:2  call void (...)* @_ssdm_op_SpecPipeline(i32 -1, i32 1, i32 1, i32 0, [1 x i8]* @p_str1) nounwind
 
-ST_31: empty_10 (181)  [1/1] 0.00ns  loc: astro.c:42
-_ifconv:39  %empty_10 = call i32 (...)* @_ssdm_op_SpecRegionEnd([12 x i8]* @p_str11, i32 %tmp_s)
+ST_31: empty_10 (181)  [1/1] 0.00ns  loc: astro.c:89
+_ifconv:39  %empty_10 = call i32 (...)* @_ssdm_op_SpecRegionEnd([12 x i8]* @p_str11, i32 %tmp_10)
 
-ST_31: tmp_77_1 (188)  [1/1] 3.98ns  loc: astro.c:39
+ST_31: tmp_77_1 (188)  [1/1] 3.98ns  loc: astro.c:86
 _ifconv:46  %tmp_77_1 = call fastcc i64 @__hls_fptosi_double_(double %tmp_76_1)
 
-ST_31: p_int_x_load_1_phi (189)  [1/1] 0.46ns  loc: astro.c:39
+ST_31: p_int_x_load_1_phi (189)  [1/1] 0.46ns  loc: astro.c:86
 _ifconv:47  %p_int_x_load_1_phi = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_x7, i64 %p_int_x1, i64 %p_int_x7, i64 %p_int_x7, i64 %p_int_x4, i64 %p_int_x7, i64 %p_int_x7, i64 %p_int_x7, i64 %p_int_x7, i64 %p_int_x7, i64 %p_int_x7, i64 %p_int_x7, i64 %p_int_x7, i64 %p_int_x7, i64 %p_int_x7, i64 %p_int_x7, i4 %i_5_0_t)
 
-ST_31: tmp_78_1 (190)  [1/1] 1.42ns  loc: astro.c:39
+ST_31: tmp_78_1 (190)  [1/1] 1.42ns  loc: astro.c:86
 _ifconv:48  %tmp_78_1 = add nsw i64 %tmp_77_1, %p_int_x_load_1_phi
 
-ST_31: p_int_x7_1 (191)  [1/1] 0.46ns  loc: astro.c:39
+ST_31: p_int_x7_1 (191)  [1/1] 0.46ns  loc: astro.c:86
 _ifconv:49  %p_int_x7_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %tmp_78_1, i64 %p_int_x7, i64 %tmp_78_1, i64 %tmp_78_1, i64 %p_int_x7, i64 %tmp_78_1, i64 %tmp_78_1, i64 %tmp_78_1, i64 %tmp_78_1, i64 %tmp_78_1, i64 %tmp_78_1, i64 %tmp_78_1, i64 %tmp_78_1, i64 %tmp_78_1, i64 %tmp_78_1, i64 %tmp_78_1, i4 %i_5_0_t)
 
-ST_31: p_int_x4_1 (192)  [1/1] 0.46ns  loc: astro.c:39
+ST_31: p_int_x4_1 (192)  [1/1] 0.46ns  loc: astro.c:86
 _ifconv:50  %p_int_x4_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_x4, i64 %p_int_x4, i64 %p_int_x4, i64 %p_int_x4, i64 %tmp_78_1, i64 %p_int_x4, i64 %p_int_x4, i64 %p_int_x4, i64 %p_int_x4, i64 %p_int_x4, i64 %p_int_x4, i64 %p_int_x4, i64 %p_int_x4, i64 %p_int_x4, i64 %p_int_x4, i64 %p_int_x4, i4 %i_5_0_t)
 
-ST_31: p_int_x12_1 (193)  [1/1] 0.46ns  loc: astro.c:39
+ST_31: p_int_x12_1 (193)  [1/1] 0.46ns  loc: astro.c:86
 _ifconv:51  %p_int_x12_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_x1, i64 %tmp_78_1, i64 %p_int_x1, i64 %p_int_x1, i64 %p_int_x1, i64 %p_int_x1, i64 %p_int_x1, i64 %p_int_x1, i64 %p_int_x1, i64 %p_int_x1, i64 %p_int_x1, i64 %p_int_x1, i64 %p_int_x1, i64 %p_int_x1, i64 %p_int_x1, i64 %p_int_x1, i4 %i_5_0_t)
 
-ST_31: tmp_83_1 (199)  [1/1] 3.98ns  loc: astro.c:40
+ST_31: tmp_83_1 (199)  [1/1] 3.98ns  loc: astro.c:87
 _ifconv:57  %tmp_83_1 = call fastcc i64 @__hls_fptosi_double_(double %tmp_82_1)
 
-ST_31: p_int_y_load_1_phi (200)  [1/1] 0.46ns  loc: astro.c:40
+ST_31: p_int_y_load_1_phi (200)  [1/1] 0.46ns  loc: astro.c:87
 _ifconv:58  %p_int_y_load_1_phi = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_y7, i64 %p_int_y9, i64 %p_int_y7, i64 %p_int_y7, i64 %p_int_y4, i64 %p_int_y7, i64 %p_int_y7, i64 %p_int_y7, i64 %p_int_y7, i64 %p_int_y7, i64 %p_int_y7, i64 %p_int_y7, i64 %p_int_y7, i64 %p_int_y7, i64 %p_int_y7, i64 %p_int_y7, i4 %i_5_0_t)
 
-ST_31: tmp_84_1 (201)  [1/1] 1.42ns  loc: astro.c:40
+ST_31: tmp_84_1 (201)  [1/1] 1.42ns  loc: astro.c:87
 _ifconv:59  %tmp_84_1 = add nsw i64 %tmp_83_1, %p_int_y_load_1_phi
 
-ST_31: p_int_y15_1 (202)  [1/1] 0.46ns  loc: astro.c:40
+ST_31: p_int_y15_1 (202)  [1/1] 0.46ns  loc: astro.c:87
 _ifconv:60  %p_int_y15_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %tmp_84_1, i64 %p_int_y7, i64 %tmp_84_1, i64 %tmp_84_1, i64 %p_int_y7, i64 %tmp_84_1, i64 %tmp_84_1, i64 %tmp_84_1, i64 %tmp_84_1, i64 %tmp_84_1, i64 %tmp_84_1, i64 %tmp_84_1, i64 %tmp_84_1, i64 %tmp_84_1, i64 %tmp_84_1, i64 %tmp_84_1, i4 %i_5_0_t)
 
-ST_31: p_int_y12_1 (203)  [1/1] 0.46ns  loc: astro.c:40
+ST_31: p_int_y12_1 (203)  [1/1] 0.46ns  loc: astro.c:87
 _ifconv:61  %p_int_y12_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_y4, i64 %p_int_y4, i64 %p_int_y4, i64 %p_int_y4, i64 %tmp_84_1, i64 %p_int_y4, i64 %p_int_y4, i64 %p_int_y4, i64 %p_int_y4, i64 %p_int_y4, i64 %p_int_y4, i64 %p_int_y4, i64 %p_int_y4, i64 %p_int_y4, i64 %p_int_y4, i64 %p_int_y4, i4 %i_5_0_t)
 
-ST_31: p_int_y9_1 (204)  [1/1] 0.46ns  loc: astro.c:40
+ST_31: p_int_y9_1 (204)  [1/1] 0.46ns  loc: astro.c:87
 _ifconv:62  %p_int_y9_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_y9, i64 %tmp_84_1, i64 %p_int_y9, i64 %p_int_y9, i64 %p_int_y9, i64 %p_int_y9, i64 %p_int_y9, i64 %p_int_y9, i64 %p_int_y9, i64 %p_int_y9, i64 %p_int_y9, i64 %p_int_y9, i64 %p_int_y9, i64 %p_int_y9, i64 %p_int_y9, i64 %p_int_y9, i4 %i_5_0_t)
 
-ST_31: tmp_89_1 (210)  [1/1] 3.98ns  loc: astro.c:41
+ST_31: tmp_89_1 (210)  [1/1] 3.98ns  loc: astro.c:88
 _ifconv:68  %tmp_89_1 = call fastcc i64 @__hls_fptosi_double_(double %tmp_88_1)
 
-ST_31: p_int_z_load_1_phi (211)  [1/1] 0.46ns  loc: astro.c:41
+ST_31: p_int_z_load_1_phi (211)  [1/1] 0.46ns  loc: astro.c:88
 _ifconv:69  %p_int_z_load_1_phi = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_z9, i64 %p_int_z3, i64 %p_int_z9, i64 %p_int_z9, i64 %p_int_z6, i64 %p_int_z9, i64 %p_int_z9, i64 %p_int_z9, i64 %p_int_z9, i64 %p_int_z9, i64 %p_int_z9, i64 %p_int_z9, i64 %p_int_z9, i64 %p_int_z9, i64 %p_int_z9, i64 %p_int_z9, i4 %i_5_0_t)
 
-ST_31: tmp_90_1 (212)  [1/1] 1.42ns  loc: astro.c:41
+ST_31: tmp_90_1 (212)  [1/1] 1.42ns  loc: astro.c:88
 _ifconv:70  %tmp_90_1 = add nsw i64 %tmp_89_1, %p_int_z_load_1_phi
 
-ST_31: p_int_z23_1 (213)  [1/1] 0.46ns  loc: astro.c:41
+ST_31: p_int_z23_1 (213)  [1/1] 0.46ns  loc: astro.c:88
 _ifconv:71  %p_int_z23_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %tmp_90_1, i64 %p_int_z9, i64 %tmp_90_1, i64 %tmp_90_1, i64 %p_int_z9, i64 %tmp_90_1, i64 %tmp_90_1, i64 %tmp_90_1, i64 %tmp_90_1, i64 %tmp_90_1, i64 %tmp_90_1, i64 %tmp_90_1, i64 %tmp_90_1, i64 %tmp_90_1, i64 %tmp_90_1, i64 %tmp_90_1, i4 %i_5_0_t)
 
-ST_31: p_int_z20_1 (214)  [1/1] 0.46ns  loc: astro.c:41
+ST_31: p_int_z20_1 (214)  [1/1] 0.46ns  loc: astro.c:88
 _ifconv:72  %p_int_z20_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_z6, i64 %p_int_z6, i64 %p_int_z6, i64 %p_int_z6, i64 %tmp_90_1, i64 %p_int_z6, i64 %p_int_z6, i64 %p_int_z6, i64 %p_int_z6, i64 %p_int_z6, i64 %p_int_z6, i64 %p_int_z6, i64 %p_int_z6, i64 %p_int_z6, i64 %p_int_z6, i64 %p_int_z6, i4 %i_5_0_t)
 
-ST_31: p_int_z17_1 (215)  [1/1] 0.46ns  loc: astro.c:41
+ST_31: p_int_z17_1 (215)  [1/1] 0.46ns  loc: astro.c:88
 _ifconv:73  %p_int_z17_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_z3, i64 %tmp_90_1, i64 %p_int_z3, i64 %p_int_z3, i64 %p_int_z3, i64 %p_int_z3, i64 %p_int_z3, i64 %p_int_z3, i64 %p_int_z3, i64 %p_int_z3, i64 %p_int_z3, i64 %p_int_z3, i64 %p_int_z3, i64 %p_int_z3, i64 %p_int_z3, i64 %p_int_z3, i4 %i_5_0_t)
 
-ST_31: tmp_77_2 (222)  [1/1] 3.98ns  loc: astro.c:39
+ST_31: tmp_77_2 (222)  [1/1] 3.98ns  loc: astro.c:86
 _ifconv:80  %tmp_77_2 = call fastcc i64 @__hls_fptosi_double_(double %tmp_76_2)
 
-ST_31: p_int_x_load_2_phi (223)  [1/1] 0.46ns  loc: astro.c:39
+ST_31: p_int_x_load_2_phi (223)  [1/1] 0.46ns  loc: astro.c:86
 _ifconv:81  %p_int_x_load_2_phi = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_x8, i64 %p_int_x8, i64 %p_int_x2, i64 %p_int_x8, i64 %p_int_x8, i64 %p_int_x5, i64 %p_int_x8, i64 %p_int_x8, i64 %p_int_x8, i64 %p_int_x8, i64 %p_int_x8, i64 %p_int_x8, i64 %p_int_x8, i64 %p_int_x8, i64 %p_int_x8, i64 %p_int_x8, i4 %i_5_1_t)
 
-ST_31: tmp_78_2 (224)  [1/1] 1.42ns  loc: astro.c:39
+ST_31: tmp_78_2 (224)  [1/1] 1.42ns  loc: astro.c:86
 _ifconv:82  %tmp_78_2 = add nsw i64 %tmp_77_2, %p_int_x_load_2_phi
 
-ST_31: p_int_x8_1 (225)  [1/1] 0.46ns  loc: astro.c:39
+ST_31: p_int_x8_1 (225)  [1/1] 0.46ns  loc: astro.c:86
 _ifconv:83  %p_int_x8_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %tmp_78_2, i64 %tmp_78_2, i64 %p_int_x8, i64 %tmp_78_2, i64 %tmp_78_2, i64 %p_int_x8, i64 %tmp_78_2, i64 %tmp_78_2, i64 %tmp_78_2, i64 %tmp_78_2, i64 %tmp_78_2, i64 %tmp_78_2, i64 %tmp_78_2, i64 %tmp_78_2, i64 %tmp_78_2, i64 %tmp_78_2, i4 %i_5_1_t)
 
-ST_31: p_int_x5_1 (226)  [1/1] 0.46ns  loc: astro.c:39
+ST_31: p_int_x5_1 (226)  [1/1] 0.46ns  loc: astro.c:86
 _ifconv:84  %p_int_x5_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_x5, i64 %p_int_x5, i64 %p_int_x5, i64 %p_int_x5, i64 %p_int_x5, i64 %tmp_78_2, i64 %p_int_x5, i64 %p_int_x5, i64 %p_int_x5, i64 %p_int_x5, i64 %p_int_x5, i64 %p_int_x5, i64 %p_int_x5, i64 %p_int_x5, i64 %p_int_x5, i64 %p_int_x5, i4 %i_5_1_t)
 
-ST_31: p_int_x2_1 (227)  [1/1] 0.46ns  loc: astro.c:39
+ST_31: p_int_x2_1 (227)  [1/1] 0.46ns  loc: astro.c:86
 _ifconv:85  %p_int_x2_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_x2, i64 %p_int_x2, i64 %tmp_78_2, i64 %p_int_x2, i64 %p_int_x2, i64 %p_int_x2, i64 %p_int_x2, i64 %p_int_x2, i64 %p_int_x2, i64 %p_int_x2, i64 %p_int_x2, i64 %p_int_x2, i64 %p_int_x2, i64 %p_int_x2, i64 %p_int_x2, i64 %p_int_x2, i4 %i_5_1_t)
 
-ST_31: tmp_83_2 (233)  [1/1] 3.98ns  loc: astro.c:40
+ST_31: tmp_83_2 (233)  [1/1] 3.98ns  loc: astro.c:87
 _ifconv:91  %tmp_83_2 = call fastcc i64 @__hls_fptosi_double_(double %tmp_82_2)
 
-ST_31: p_int_y_load_2_phi (234)  [1/1] 0.46ns  loc: astro.c:40
+ST_31: p_int_y_load_2_phi (234)  [1/1] 0.46ns  loc: astro.c:87
 _ifconv:92  %p_int_y_load_2_phi = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_y8, i64 %p_int_y8, i64 %p_int_y2, i64 %p_int_y8, i64 %p_int_y8, i64 %p_int_y5, i64 %p_int_y8, i64 %p_int_y8, i64 %p_int_y8, i64 %p_int_y8, i64 %p_int_y8, i64 %p_int_y8, i64 %p_int_y8, i64 %p_int_y8, i64 %p_int_y8, i64 %p_int_y8, i4 %i_5_1_t)
 
-ST_31: tmp_84_2 (235)  [1/1] 1.42ns  loc: astro.c:40
+ST_31: tmp_84_2 (235)  [1/1] 1.42ns  loc: astro.c:87
 _ifconv:93  %tmp_84_2 = add nsw i64 %tmp_83_2, %p_int_y_load_2_phi
 
-ST_31: p_int_y16_1 (236)  [1/1] 0.46ns  loc: astro.c:40
+ST_31: p_int_y16_1 (236)  [1/1] 0.46ns  loc: astro.c:87
 _ifconv:94  %p_int_y16_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %tmp_84_2, i64 %tmp_84_2, i64 %p_int_y8, i64 %tmp_84_2, i64 %tmp_84_2, i64 %p_int_y8, i64 %tmp_84_2, i64 %tmp_84_2, i64 %tmp_84_2, i64 %tmp_84_2, i64 %tmp_84_2, i64 %tmp_84_2, i64 %tmp_84_2, i64 %tmp_84_2, i64 %tmp_84_2, i64 %tmp_84_2, i4 %i_5_1_t)
 
-ST_31: p_int_y13_1 (237)  [1/1] 0.46ns  loc: astro.c:40
+ST_31: p_int_y13_1 (237)  [1/1] 0.46ns  loc: astro.c:87
 _ifconv:95  %p_int_y13_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_y5, i64 %p_int_y5, i64 %p_int_y5, i64 %p_int_y5, i64 %p_int_y5, i64 %tmp_84_2, i64 %p_int_y5, i64 %p_int_y5, i64 %p_int_y5, i64 %p_int_y5, i64 %p_int_y5, i64 %p_int_y5, i64 %p_int_y5, i64 %p_int_y5, i64 %p_int_y5, i64 %p_int_y5, i4 %i_5_1_t)
 
-ST_31: p_int_y10_1 (238)  [1/1] 0.46ns  loc: astro.c:40
+ST_31: p_int_y10_1 (238)  [1/1] 0.46ns  loc: astro.c:87
 _ifconv:96  %p_int_y10_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_y2, i64 %p_int_y2, i64 %tmp_84_2, i64 %p_int_y2, i64 %p_int_y2, i64 %p_int_y2, i64 %p_int_y2, i64 %p_int_y2, i64 %p_int_y2, i64 %p_int_y2, i64 %p_int_y2, i64 %p_int_y2, i64 %p_int_y2, i64 %p_int_y2, i64 %p_int_y2, i64 %p_int_y2, i4 %i_5_1_t)
 
-ST_31: tmp_89_2 (244)  [1/1] 3.98ns  loc: astro.c:41
+ST_31: tmp_89_2 (244)  [1/1] 3.98ns  loc: astro.c:88
 _ifconv:102  %tmp_89_2 = call fastcc i64 @__hls_fptosi_double_(double %tmp_88_2)
 
-ST_31: p_int_z_load_2_phi (245)  [1/1] 0.46ns  loc: astro.c:41
+ST_31: p_int_z_load_2_phi (245)  [1/1] 0.46ns  loc: astro.c:88
 _ifconv:103  %p_int_z_load_2_phi = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_z1, i64 %p_int_z1, i64 %p_int_z4, i64 %p_int_z1, i64 %p_int_z1, i64 %p_int_z7, i64 %p_int_z1, i64 %p_int_z1, i64 %p_int_z1, i64 %p_int_z1, i64 %p_int_z1, i64 %p_int_z1, i64 %p_int_z1, i64 %p_int_z1, i64 %p_int_z1, i64 %p_int_z1, i4 %i_5_1_t)
 
-ST_31: tmp_90_2 (246)  [1/1] 1.42ns  loc: astro.c:41
+ST_31: tmp_90_2 (246)  [1/1] 1.42ns  loc: astro.c:88
 _ifconv:104  %tmp_90_2 = add nsw i64 %tmp_89_2, %p_int_z_load_2_phi
 
-ST_31: p_int_z24_1 (247)  [1/1] 0.46ns  loc: astro.c:41
+ST_31: p_int_z24_1 (247)  [1/1] 0.46ns  loc: astro.c:88
 _ifconv:105  %p_int_z24_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %tmp_90_2, i64 %tmp_90_2, i64 %p_int_z1, i64 %tmp_90_2, i64 %tmp_90_2, i64 %p_int_z1, i64 %tmp_90_2, i64 %tmp_90_2, i64 %tmp_90_2, i64 %tmp_90_2, i64 %tmp_90_2, i64 %tmp_90_2, i64 %tmp_90_2, i64 %tmp_90_2, i64 %tmp_90_2, i64 %tmp_90_2, i4 %i_5_1_t)
 
-ST_31: p_int_z2126_1 (248)  [1/1] 0.46ns  loc: astro.c:41
+ST_31: p_int_z2126_1 (248)  [1/1] 0.46ns  loc: astro.c:88
 _ifconv:106  %p_int_z2126_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_z7, i64 %p_int_z7, i64 %p_int_z7, i64 %p_int_z7, i64 %p_int_z7, i64 %tmp_90_2, i64 %p_int_z7, i64 %p_int_z7, i64 %p_int_z7, i64 %p_int_z7, i64 %p_int_z7, i64 %p_int_z7, i64 %p_int_z7, i64 %p_int_z7, i64 %p_int_z7, i64 %p_int_z7, i4 %i_5_1_t)
 
-ST_31: p_int_z18_1 (249)  [1/1] 0.46ns  loc: astro.c:41
+ST_31: p_int_z18_1 (249)  [1/1] 0.46ns  loc: astro.c:88
 _ifconv:107  %p_int_z18_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_z4, i64 %p_int_z4, i64 %tmp_90_2, i64 %p_int_z4, i64 %p_int_z4, i64 %p_int_z4, i64 %p_int_z4, i64 %p_int_z4, i64 %p_int_z4, i64 %p_int_z4, i64 %p_int_z4, i64 %p_int_z4, i64 %p_int_z4, i64 %p_int_z4, i64 %p_int_z4, i64 %p_int_z4, i4 %i_5_1_t)
 
-ST_31: StgValue_443 (251)  [1/1] 0.00ns  loc: astro.c:36
+ST_31: StgValue_443 (251)  [1/1] 0.00ns  loc: astro.c:83
 _ifconv:109  br label %1
 
 
  <State 32>: 0.00ns
-ST_32: mrv (253)  [1/1] 0.00ns  loc: astro.c:43
+ST_32: mrv (253)  [1/1] 0.00ns  loc: astro.c:90
 :0  %mrv = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } undef, i64 %p_int_x, 0
 
-ST_32: mrv_1 (254)  [1/1] 0.00ns  loc: astro.c:43
+ST_32: mrv_1 (254)  [1/1] 0.00ns  loc: astro.c:90
 :1  %mrv_1 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv, i64 %p_int_x1, 1
 
-ST_32: mrv_2 (255)  [1/1] 0.00ns  loc: astro.c:43
+ST_32: mrv_2 (255)  [1/1] 0.00ns  loc: astro.c:90
 :2  %mrv_2 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_1, i64 %p_int_x2, 2
 
-ST_32: mrv_3 (256)  [1/1] 0.00ns  loc: astro.c:43
+ST_32: mrv_3 (256)  [1/1] 0.00ns  loc: astro.c:90
 :3  %mrv_3 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_2, i64 %p_int_x3, 3
 
-ST_32: mrv_4 (257)  [1/1] 0.00ns  loc: astro.c:43
+ST_32: mrv_4 (257)  [1/1] 0.00ns  loc: astro.c:90
 :4  %mrv_4 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_3, i64 %p_int_x4, 4
 
-ST_32: mrv_5 (258)  [1/1] 0.00ns  loc: astro.c:43
+ST_32: mrv_5 (258)  [1/1] 0.00ns  loc: astro.c:90
 :5  %mrv_5 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_4, i64 %p_int_x5, 5
 
-ST_32: mrv_6 (259)  [1/1] 0.00ns  loc: astro.c:43
+ST_32: mrv_6 (259)  [1/1] 0.00ns  loc: astro.c:90
 :6  %mrv_6 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_5, i64 %p_int_x6, 6
 
-ST_32: mrv_7 (260)  [1/1] 0.00ns  loc: astro.c:43
+ST_32: mrv_7 (260)  [1/1] 0.00ns  loc: astro.c:90
 :7  %mrv_7 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_6, i64 %p_int_x7, 7
 
-ST_32: mrv_8 (261)  [1/1] 0.00ns  loc: astro.c:43
+ST_32: mrv_8 (261)  [1/1] 0.00ns  loc: astro.c:90
 :8  %mrv_8 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_7, i64 %p_int_x8, 8
 
-ST_32: mrv_9 (262)  [1/1] 0.00ns  loc: astro.c:43
+ST_32: mrv_9 (262)  [1/1] 0.00ns  loc: astro.c:90
 :9  %mrv_9 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_8, i64 %p_int_y, 9
 
-ST_32: mrv_10 (263)  [1/1] 0.00ns  loc: astro.c:43
+ST_32: mrv_10 (263)  [1/1] 0.00ns  loc: astro.c:90
 :10  %mrv_10 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_9, i64 %p_int_y9, 10
 
-ST_32: mrv_11 (264)  [1/1] 0.00ns  loc: astro.c:43
+ST_32: mrv_11 (264)  [1/1] 0.00ns  loc: astro.c:90
 :11  %mrv_11 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_10, i64 %p_int_y2, 11
 
-ST_32: mrv_12 (265)  [1/1] 0.00ns  loc: astro.c:43
+ST_32: mrv_12 (265)  [1/1] 0.00ns  loc: astro.c:90
 :12  %mrv_12 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_11, i64 %p_int_y3, 12
 
-ST_32: mrv_13 (266)  [1/1] 0.00ns  loc: astro.c:43
+ST_32: mrv_13 (266)  [1/1] 0.00ns  loc: astro.c:90
 :13  %mrv_13 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_12, i64 %p_int_y4, 13
 
-ST_32: mrv_14 (267)  [1/1] 0.00ns  loc: astro.c:43
+ST_32: mrv_14 (267)  [1/1] 0.00ns  loc: astro.c:90
 :14  %mrv_14 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_13, i64 %p_int_y5, 14
 
-ST_32: mrv_15 (268)  [1/1] 0.00ns  loc: astro.c:43
+ST_32: mrv_15 (268)  [1/1] 0.00ns  loc: astro.c:90
 :15  %mrv_15 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_14, i64 %p_int_y6, 15
 
-ST_32: mrv_16 (269)  [1/1] 0.00ns  loc: astro.c:43
+ST_32: mrv_16 (269)  [1/1] 0.00ns  loc: astro.c:90
 :16  %mrv_16 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_15, i64 %p_int_y7, 16
 
-ST_32: mrv_17 (270)  [1/1] 0.00ns  loc: astro.c:43
+ST_32: mrv_17 (270)  [1/1] 0.00ns  loc: astro.c:90
 :17  %mrv_17 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_16, i64 %p_int_y8, 17
 
-ST_32: mrv_18 (271)  [1/1] 0.00ns  loc: astro.c:43
+ST_32: mrv_18 (271)  [1/1] 0.00ns  loc: astro.c:90
 :18  %mrv_18 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_17, i64 %p_int_z, 18
 
-ST_32: mrv_19 (272)  [1/1] 0.00ns  loc: astro.c:43
+ST_32: mrv_19 (272)  [1/1] 0.00ns  loc: astro.c:90
 :19  %mrv_19 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_18, i64 %p_int_z3, 19
 
-ST_32: mrv_20 (273)  [1/1] 0.00ns  loc: astro.c:43
+ST_32: mrv_20 (273)  [1/1] 0.00ns  loc: astro.c:90
 :20  %mrv_20 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_19, i64 %p_int_z4, 20
 
-ST_32: mrv_21 (274)  [1/1] 0.00ns  loc: astro.c:43
+ST_32: mrv_21 (274)  [1/1] 0.00ns  loc: astro.c:90
 :21  %mrv_21 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_20, i64 %p_int_z5, 21
 
-ST_32: mrv_22 (275)  [1/1] 0.00ns  loc: astro.c:43
+ST_32: mrv_22 (275)  [1/1] 0.00ns  loc: astro.c:90
 :22  %mrv_22 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_21, i64 %p_int_z6, 22
 
-ST_32: mrv_23 (276)  [1/1] 0.00ns  loc: astro.c:43
+ST_32: mrv_23 (276)  [1/1] 0.00ns  loc: astro.c:90
 :23  %mrv_23 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_22, i64 %p_int_z7, 23
 
-ST_32: mrv_24 (277)  [1/1] 0.00ns  loc: astro.c:43
+ST_32: mrv_24 (277)  [1/1] 0.00ns  loc: astro.c:90
 :24  %mrv_24 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_23, i64 %p_int_z8, 24
 
-ST_32: mrv_25 (278)  [1/1] 0.00ns  loc: astro.c:43
+ST_32: mrv_25 (278)  [1/1] 0.00ns  loc: astro.c:90
 :25  %mrv_25 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_24, i64 %p_int_z9, 25
 
-ST_32: mrv_26 (279)  [1/1] 0.00ns  loc: astro.c:43
+ST_32: mrv_26 (279)  [1/1] 0.00ns  loc: astro.c:90
 :26  %mrv_26 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_25, i64 %p_int_z1, 26
 
-ST_32: StgValue_471 (280)  [1/1] 0.00ns  loc: astro.c:43
+ST_32: StgValue_471 (280)  [1/1] 0.00ns  loc: astro.c:90
 :27  ret { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_26
 
 
@@ -2163,51 +2136,51 @@ p_int_vz_load_1_phi (mux              ) [ 001011000000000000000000000000000]
 p_int_vx_load_2_phi (mux              ) [ 001011000000000000000000000000000]
 p_int_vy_load_2_phi (mux              ) [ 001011000000000000000000000000000]
 p_int_vz_load_2_phi (mux              ) [ 001011000000000000000000000000000]
-tmp_73              (sitodp           ) [ 001001111000000000000000000000000]
-tmp_79              (sitodp           ) [ 001001111000000000000000000000000]
-tmp_85              (sitodp           ) [ 001001111000000000000000000000000]
+tmp_s               (sitodp           ) [ 001001111000000000000000000000000]
+tmp_29              (sitodp           ) [ 001001111000000000000000000000000]
+tmp_35              (sitodp           ) [ 001001111000000000000000000000000]
 tmp_73_1            (sitodp           ) [ 001000111100000000000000000000000]
 tmp_79_1            (sitodp           ) [ 001000111100000000000000000000000]
 tmp_85_1            (sitodp           ) [ 001000111100000000000000000000000]
 tmp_73_2            (sitodp           ) [ 001000111100000000000000000000000]
 tmp_79_2            (sitodp           ) [ 001000111100000000000000000000000]
 tmp_85_2            (sitodp           ) [ 001000111100000000000000000000000]
-tmp_74              (dmul             ) [ 001000000111100000000000000000000]
-tmp_80              (dmul             ) [ 001000000111100000000000000000000]
-tmp_86              (dmul             ) [ 001000000111100000000000000000000]
+tmp_24              (dmul             ) [ 001000000111100000000000000000000]
+tmp_30              (dmul             ) [ 001000000111100000000000000000000]
+tmp_36              (dmul             ) [ 001000000111100000000000000000000]
 tmp_74_1            (dmul             ) [ 001000000011110000000000000000000]
 tmp_80_1            (dmul             ) [ 001000000011110000000000000000000]
 tmp_86_1            (dmul             ) [ 001000000011110000000000000000000]
 tmp_74_2            (dmul             ) [ 001000000011110000000000000000000]
 tmp_80_2            (dmul             ) [ 001000000011110000000000000000000]
 tmp_86_2            (dmul             ) [ 001000000011110000000000000000000]
-tmp_75              (dmul             ) [ 001000000000011111111111111111000]
-tmp_81              (dmul             ) [ 001000000000011111111111111111000]
-tmp_87              (dmul             ) [ 001000000000011111111111111111000]
+tmp_25              (dmul             ) [ 001000000000011111111111111111000]
+tmp_31              (dmul             ) [ 001000000000011111111111111111000]
+tmp_37              (dmul             ) [ 001000000000011111111111111111000]
 tmp_75_1            (dmul             ) [ 001000000000001111111111111111100]
 tmp_81_1            (dmul             ) [ 001000000000001111111111111111100]
 tmp_87_1            (dmul             ) [ 001000000000001111111111111111100]
 tmp_75_2            (dmul             ) [ 001000000000001111111111111111100]
 tmp_81_2            (dmul             ) [ 001000000000001111111111111111100]
 tmp_87_2            (dmul             ) [ 001000000000001111111111111111100]
-tmp_76              (ddiv             ) [ 001000000000000000000000000000100]
-tmp_82              (ddiv             ) [ 001000000000000000000000000000100]
-tmp_88              (ddiv             ) [ 001000000000000000000000000000100]
-tmp_77              (call             ) [ 000000000000000000000000000000000]
+tmp_26              (ddiv             ) [ 001000000000000000000000000000100]
+tmp_32              (ddiv             ) [ 001000000000000000000000000000100]
+tmp_38              (ddiv             ) [ 001000000000000000000000000000100]
+tmp_27              (call             ) [ 000000000000000000000000000000000]
 p_int_x_load_0_phi  (mux              ) [ 000000000000000000000000000000000]
-tmp_78              (add              ) [ 000000000000000000000000000000000]
+tmp_28              (add              ) [ 000000000000000000000000000000000]
 p_int_x6_1          (mux              ) [ 011000000000000000000000000000010]
 p_int_x3_1          (mux              ) [ 011000000000000000000000000000010]
 p_int_x_1           (mux              ) [ 011000000000000000000000000000010]
-tmp_83              (call             ) [ 000000000000000000000000000000000]
+tmp_33              (call             ) [ 000000000000000000000000000000000]
 p_int_y_load_0_phi  (mux              ) [ 000000000000000000000000000000000]
-tmp_84              (add              ) [ 000000000000000000000000000000000]
+tmp_34              (add              ) [ 000000000000000000000000000000000]
 p_int_y14_1         (mux              ) [ 011000000000000000000000000000010]
 p_int_y1114_1       (mux              ) [ 011000000000000000000000000000010]
 p_int_y_1           (mux              ) [ 011000000000000000000000000000010]
-tmp_89              (call             ) [ 000000000000000000000000000000000]
+tmp_39              (call             ) [ 000000000000000000000000000000000]
 p_int_z_load_0_phi  (mux              ) [ 000000000000000000000000000000000]
-tmp_90              (add              ) [ 000000000000000000000000000000000]
+tmp_40              (add              ) [ 000000000000000000000000000000000]
 p_int_z22_1         (mux              ) [ 011000000000000000000000000000010]
 p_int_z19_1         (mux              ) [ 011000000000000000000000000000010]
 p_int_z_1           (mux              ) [ 011000000000000000000000000000010]
@@ -2218,7 +2191,7 @@ tmp_76_2            (ddiv             ) [ 001000000000000000000000000000010]
 tmp_82_2            (ddiv             ) [ 001000000000000000000000000000010]
 tmp_88_2            (ddiv             ) [ 001000000000000000000000000000010]
 empty               (speclooptripcount) [ 000000000000000000000000000000000]
-tmp_s               (specregionbegin  ) [ 000000000000000000000000000000000]
+tmp_10              (specregionbegin  ) [ 000000000000000000000000000000000]
 StgValue_405        (specpipeline     ) [ 000000000000000000000000000000000]
 empty_10            (specregionend    ) [ 000000000000000000000000000000000]
 tmp_77_1            (call             ) [ 000000000000000000000000000000000]
@@ -4286,7 +4259,7 @@ StgValue_471        (ret              ) [ 000000000000000000000000000000000]
 </bind>
 </comp>
 
-<comp id="756" class="1004" name="tmp_77_p_hls_fptosi_double_s_fu_756">
+<comp id="756" class="1004" name="tmp_27_p_hls_fptosi_double_s_fu_756">
 <pin_list>
 <pin id="757" dir="0" index="0" bw="64" slack="0"/>
 <pin id="758" dir="0" index="1" bw="64" slack="1"/>
@@ -4294,11 +4267,11 @@ StgValue_471        (ret              ) [ 000000000000000000000000000000000]
 </pin_list>
 <bind>
 <opcode="call(48) " fcode="call"/>
-<opset="tmp_77/30 "/>
+<opset="tmp_27/30 "/>
 </bind>
 </comp>
 
-<comp id="761" class="1004" name="tmp_83_p_hls_fptosi_double_s_fu_761">
+<comp id="761" class="1004" name="tmp_33_p_hls_fptosi_double_s_fu_761">
 <pin_list>
 <pin id="762" dir="0" index="0" bw="64" slack="0"/>
 <pin id="763" dir="0" index="1" bw="64" slack="1"/>
@@ -4306,11 +4279,11 @@ StgValue_471        (ret              ) [ 000000000000000000000000000000000]
 </pin_list>
 <bind>
 <opcode="call(48) " fcode="call"/>
-<opset="tmp_83/30 "/>
+<opset="tmp_33/30 "/>
 </bind>
 </comp>
 
-<comp id="766" class="1004" name="tmp_89_p_hls_fptosi_double_s_fu_766">
+<comp id="766" class="1004" name="tmp_39_p_hls_fptosi_double_s_fu_766">
 <pin_list>
 <pin id="767" dir="0" index="0" bw="64" slack="0"/>
 <pin id="768" dir="0" index="1" bw="64" slack="1"/>
@@ -4318,7 +4291,7 @@ StgValue_471        (ret              ) [ 000000000000000000000000000000000]
 </pin_list>
 <bind>
 <opcode="call(48) " fcode="call"/>
-<opset="tmp_89/30 "/>
+<opset="tmp_39/30 "/>
 </bind>
 </comp>
 
@@ -4402,7 +4375,7 @@ StgValue_471        (ret              ) [ 000000000000000000000000000000000]
 </pin_list>
 <bind>
 <opcode="dmul(510) " fcode="dmul"/>
-<opset="tmp_74/5 "/>
+<opset="tmp_24/5 "/>
 </bind>
 </comp>
 
@@ -4414,7 +4387,7 @@ StgValue_471        (ret              ) [ 000000000000000000000000000000000]
 </pin_list>
 <bind>
 <opcode="dmul(510) " fcode="dmul"/>
-<opset="tmp_80/5 "/>
+<opset="tmp_30/5 "/>
 </bind>
 </comp>
 
@@ -4426,7 +4399,7 @@ StgValue_471        (ret              ) [ 000000000000000000000000000000000]
 </pin_list>
 <bind>
 <opcode="dmul(510) " fcode="dmul"/>
-<opset="tmp_86/5 "/>
+<opset="tmp_36/5 "/>
 </bind>
 </comp>
 
@@ -4510,7 +4483,7 @@ StgValue_471        (ret              ) [ 000000000000000000000000000000000]
 </pin_list>
 <bind>
 <opcode="dmul(510) " fcode="dmul"/>
-<opset="tmp_75/9 "/>
+<opset="tmp_25/9 "/>
 </bind>
 </comp>
 
@@ -4522,7 +4495,7 @@ StgValue_471        (ret              ) [ 000000000000000000000000000000000]
 </pin_list>
 <bind>
 <opcode="dmul(510) " fcode="dmul"/>
-<opset="tmp_81/9 "/>
+<opset="tmp_31/9 "/>
 </bind>
 </comp>
 
@@ -4534,7 +4507,7 @@ StgValue_471        (ret              ) [ 000000000000000000000000000000000]
 </pin_list>
 <bind>
 <opcode="dmul(510) " fcode="dmul"/>
-<opset="tmp_87/9 "/>
+<opset="tmp_37/9 "/>
 </bind>
 </comp>
 
@@ -4618,7 +4591,7 @@ StgValue_471        (ret              ) [ 000000000000000000000000000000000]
 </pin_list>
 <bind>
 <opcode="ddiv(511) " fcode="ddiv"/>
-<opset="tmp_76/13 "/>
+<opset="tmp_26/13 "/>
 </bind>
 </comp>
 
@@ -4630,7 +4603,7 @@ StgValue_471        (ret              ) [ 000000000000000000000000000000000]
 </pin_list>
 <bind>
 <opcode="ddiv(511) " fcode="ddiv"/>
-<opset="tmp_82/13 "/>
+<opset="tmp_32/13 "/>
 </bind>
 </comp>
 
@@ -4642,7 +4615,7 @@ StgValue_471        (ret              ) [ 000000000000000000000000000000000]
 </pin_list>
 <bind>
 <opcode="ddiv(511) " fcode="ddiv"/>
-<opset="tmp_88/13 "/>
+<opset="tmp_38/13 "/>
 </bind>
 </comp>
 
@@ -4725,7 +4698,7 @@ StgValue_471        (ret              ) [ 000000000000000000000000000000000]
 </pin_list>
 <bind>
 <opcode="sitodp(517) " fcode="sitodp"/>
-<opset="tmp_73/2 "/>
+<opset="tmp_s/2 "/>
 </bind>
 </comp>
 
@@ -4736,7 +4709,7 @@ StgValue_471        (ret              ) [ 000000000000000000000000000000000]
 </pin_list>
 <bind>
 <opcode="sitodp(517) " fcode="sitodp"/>
-<opset="tmp_79/2 "/>
+<opset="tmp_29/2 "/>
 </bind>
 </comp>
 
@@ -4747,7 +4720,7 @@ StgValue_471        (ret              ) [ 000000000000000000000000000000000]
 </pin_list>
 <bind>
 <opcode="sitodp(517) " fcode="sitodp"/>
-<opset="tmp_85/2 "/>
+<opset="tmp_35/2 "/>
 </bind>
 </comp>
 
@@ -5167,7 +5140,7 @@ StgValue_471        (ret              ) [ 000000000000000000000000000000000]
 </bind>
 </comp>
 
-<comp id="1229" class="1004" name="tmp_78_fu_1229">
+<comp id="1229" class="1004" name="tmp_28_fu_1229">
 <pin_list>
 <pin id="1230" dir="0" index="0" bw="64" slack="0"/>
 <pin id="1231" dir="0" index="1" bw="64" slack="0"/>
@@ -5175,7 +5148,7 @@ StgValue_471        (ret              ) [ 000000000000000000000000000000000]
 </pin_list>
 <bind>
 <opcode="add(8) " fcode="add"/>
-<opset="tmp_78/30 "/>
+<opset="tmp_28/30 "/>
 </bind>
 </comp>
 
@@ -5291,7 +5264,7 @@ StgValue_471        (ret              ) [ 000000000000000000000000000000000]
 </bind>
 </comp>
 
-<comp id="1387" class="1004" name="tmp_84_fu_1387">
+<comp id="1387" class="1004" name="tmp_34_fu_1387">
 <pin_list>
 <pin id="1388" dir="0" index="0" bw="64" slack="0"/>
 <pin id="1389" dir="0" index="1" bw="64" slack="0"/>
@@ -5299,7 +5272,7 @@ StgValue_471        (ret              ) [ 000000000000000000000000000000000]
 </pin_list>
 <bind>
 <opcode="add(8) " fcode="add"/>
-<opset="tmp_84/30 "/>
+<opset="tmp_34/30 "/>
 </bind>
 </comp>
 
@@ -5415,7 +5388,7 @@ StgValue_471        (ret              ) [ 000000000000000000000000000000000]
 </bind>
 </comp>
 
-<comp id="1545" class="1004" name="tmp_90_fu_1545">
+<comp id="1545" class="1004" name="tmp_40_fu_1545">
 <pin_list>
 <pin id="1546" dir="0" index="0" bw="64" slack="0"/>
 <pin id="1547" dir="0" index="1" bw="64" slack="0"/>
@@ -5423,7 +5396,7 @@ StgValue_471        (ret              ) [ 000000000000000000000000000000000]
 </pin_list>
 <bind>
 <opcode="add(8) " fcode="add"/>
-<opset="tmp_90/30 "/>
+<opset="tmp_40/30 "/>
 </bind>
 </comp>
 
@@ -7249,33 +7222,33 @@ StgValue_471        (ret              ) [ 000000000000000000000000000000000]
 </bind>
 </comp>
 
-<comp id="3217" class="1005" name="tmp_73_reg_3217">
+<comp id="3217" class="1005" name="tmp_s_reg_3217">
 <pin_list>
 <pin id="3218" dir="0" index="0" bw="64" slack="1"/>
 <pin id="3219" dir="1" index="1" bw="64" slack="1"/>
 </pin_list>
 <bind>
-<opset="tmp_73 "/>
+<opset="tmp_s "/>
 </bind>
 </comp>
 
-<comp id="3222" class="1005" name="tmp_79_reg_3222">
+<comp id="3222" class="1005" name="tmp_29_reg_3222">
 <pin_list>
 <pin id="3223" dir="0" index="0" bw="64" slack="1"/>
 <pin id="3224" dir="1" index="1" bw="64" slack="1"/>
 </pin_list>
 <bind>
-<opset="tmp_79 "/>
+<opset="tmp_29 "/>
 </bind>
 </comp>
 
-<comp id="3227" class="1005" name="tmp_85_reg_3227">
+<comp id="3227" class="1005" name="tmp_35_reg_3227">
 <pin_list>
 <pin id="3228" dir="0" index="0" bw="64" slack="1"/>
 <pin id="3229" dir="1" index="1" bw="64" slack="1"/>
 </pin_list>
 <bind>
-<opset="tmp_85 "/>
+<opset="tmp_35 "/>
 </bind>
 </comp>
 
@@ -7339,33 +7312,33 @@ StgValue_471        (ret              ) [ 000000000000000000000000000000000]
 </bind>
 </comp>
 
-<comp id="3262" class="1005" name="tmp_74_reg_3262">
+<comp id="3262" class="1005" name="tmp_24_reg_3262">
 <pin_list>
 <pin id="3263" dir="0" index="0" bw="64" slack="1"/>
 <pin id="3264" dir="1" index="1" bw="64" slack="1"/>
 </pin_list>
 <bind>
-<opset="tmp_74 "/>
+<opset="tmp_24 "/>
 </bind>
 </comp>
 
-<comp id="3267" class="1005" name="tmp_80_reg_3267">
+<comp id="3267" class="1005" name="tmp_30_reg_3267">
 <pin_list>
 <pin id="3268" dir="0" index="0" bw="64" slack="1"/>
 <pin id="3269" dir="1" index="1" bw="64" slack="1"/>
 </pin_list>
 <bind>
-<opset="tmp_80 "/>
+<opset="tmp_30 "/>
 </bind>
 </comp>
 
-<comp id="3272" class="1005" name="tmp_86_reg_3272">
+<comp id="3272" class="1005" name="tmp_36_reg_3272">
 <pin_list>
 <pin id="3273" dir="0" index="0" bw="64" slack="1"/>
 <pin id="3274" dir="1" index="1" bw="64" slack="1"/>
 </pin_list>
 <bind>
-<opset="tmp_86 "/>
+<opset="tmp_36 "/>
 </bind>
 </comp>
 
@@ -7429,33 +7402,33 @@ StgValue_471        (ret              ) [ 000000000000000000000000000000000]
 </bind>
 </comp>
 
-<comp id="3307" class="1005" name="tmp_75_reg_3307">
+<comp id="3307" class="1005" name="tmp_25_reg_3307">
 <pin_list>
 <pin id="3308" dir="0" index="0" bw="64" slack="1"/>
 <pin id="3309" dir="1" index="1" bw="64" slack="1"/>
 </pin_list>
 <bind>
-<opset="tmp_75 "/>
+<opset="tmp_25 "/>
 </bind>
 </comp>
 
-<comp id="3312" class="1005" name="tmp_81_reg_3312">
+<comp id="3312" class="1005" name="tmp_31_reg_3312">
 <pin_list>
 <pin id="3313" dir="0" index="0" bw="64" slack="1"/>
 <pin id="3314" dir="1" index="1" bw="64" slack="1"/>
 </pin_list>
 <bind>
-<opset="tmp_81 "/>
+<opset="tmp_31 "/>
 </bind>
 </comp>
 
-<comp id="3317" class="1005" name="tmp_87_reg_3317">
+<comp id="3317" class="1005" name="tmp_37_reg_3317">
 <pin_list>
 <pin id="3318" dir="0" index="0" bw="64" slack="1"/>
 <pin id="3319" dir="1" index="1" bw="64" slack="1"/>
 </pin_list>
 <bind>
-<opset="tmp_87 "/>
+<opset="tmp_37 "/>
 </bind>
 </comp>
 
@@ -7519,33 +7492,33 @@ StgValue_471        (ret              ) [ 000000000000000000000000000000000]
 </bind>
 </comp>
 
-<comp id="3352" class="1005" name="tmp_76_reg_3352">
+<comp id="3352" class="1005" name="tmp_26_reg_3352">
 <pin_list>
 <pin id="3353" dir="0" index="0" bw="64" slack="1"/>
 <pin id="3354" dir="1" index="1" bw="64" slack="1"/>
 </pin_list>
 <bind>
-<opset="tmp_76 "/>
+<opset="tmp_26 "/>
 </bind>
 </comp>
 
-<comp id="3357" class="1005" name="tmp_82_reg_3357">
+<comp id="3357" class="1005" name="tmp_32_reg_3357">
 <pin_list>
 <pin id="3358" dir="0" index="0" bw="64" slack="1"/>
 <pin id="3359" dir="1" index="1" bw="64" slack="1"/>
 </pin_list>
 <bind>
-<opset="tmp_82 "/>
+<opset="tmp_32 "/>
 </bind>
 </comp>
 
-<comp id="3362" class="1005" name="tmp_88_reg_3362">
+<comp id="3362" class="1005" name="tmp_38_reg_3362">
 <pin_list>
 <pin id="3363" dir="0" index="0" bw="64" slack="1"/>
 <pin id="3364" dir="1" index="1" bw="64" slack="1"/>
 </pin_list>
 <bind>
-<opset="tmp_88 "/>
+<opset="tmp_38 "/>
 </bind>
 </comp>
 
@@ -10543,11 +10516,11 @@ StgValue_471        (ret              ) [ 000000000000000000000000000000000]
 		sel_tmp1 : 2
 		sel_tmp2 : 1
 		p_int_vx_load_0_phi : 3
-		tmp_73 : 4
+		tmp_s : 4
 		p_int_vy_load_0_phi : 1
-		tmp_79 : 2
+		tmp_29 : 2
 		p_int_vz_load_0_phi : 1
-		tmp_85 : 2
+		tmp_35 : 2
 		i_5_0_t : 1
 		i_5_1_t : 1
 		i_5_2 : 1
@@ -10585,15 +10558,15 @@ StgValue_471        (ret              ) [ 000000000000000000000000000000000]
 	State 28
 	State 29
 	State 30
-		tmp_78 : 1
+		tmp_28 : 1
 		p_int_x6_1 : 2
 		p_int_x3_1 : 2
 		p_int_x_1 : 2
-		tmp_84 : 1
+		tmp_34 : 1
 		p_int_y14_1 : 2
 		p_int_y1114_1 : 2
 		p_int_y_1 : 2
-		tmp_90 : 1
+		tmp_40 : 1
 		p_int_z22_1 : 2
 		p_int_z19_1 : 2
 		p_int_z_1 : 2
@@ -10735,9 +10708,9 @@ StgValue_471        (ret              ) [ 000000000000000000000000000000000]
 |          |               grp_fu_881              |    11   |   275   |   185   |
 |          |               grp_fu_886              |    11   |   275   |   185   |
 |----------|---------------------------------------|---------|---------|---------|
-|          |  tmp_77_p_hls_fptosi_double_s_fu_756  |    0    |   302   |   579   |
-|          |  tmp_83_p_hls_fptosi_double_s_fu_761  |    0    |   302   |   579   |
-|          |  tmp_89_p_hls_fptosi_double_s_fu_766  |    0    |   302   |   579   |
+|          |  tmp_27_p_hls_fptosi_double_s_fu_756  |    0    |   302   |   579   |
+|          |  tmp_33_p_hls_fptosi_double_s_fu_761  |    0    |   302   |   579   |
+|          |  tmp_39_p_hls_fptosi_double_s_fu_766  |    0    |   302   |   579   |
 |          | tmp_77_1_p_hls_fptosi_double_s_fu_771 |    0    |   302   |   579   |
 |   call   | tmp_83_1_p_hls_fptosi_double_s_fu_776 |    0    |   302   |   579   |
 |          | tmp_89_1_p_hls_fptosi_double_s_fu_781 |    0    |   302   |   579   |
@@ -10758,9 +10731,9 @@ StgValue_471        (ret              ) [ 000000000000000000000000000000000]
 |          |            i_5_0_t_fu_1041            |    0    |    0    |    12   |
 |          |            i_5_1_t_fu_1047            |    0    |    0    |    12   |
 |          |             i_5_2_fu_1053             |    0    |    0    |    12   |
-|          |             tmp_78_fu_1229            |    0    |    0    |    71   |
-|          |             tmp_84_fu_1387            |    0    |    0    |    71   |
-|    add   |             tmp_90_fu_1545            |    0    |    0    |    71   |
+|          |             tmp_28_fu_1229            |    0    |    0    |    71   |
+|          |             tmp_34_fu_1387            |    0    |    0    |    71   |
+|    add   |             tmp_40_fu_1545            |    0    |    0    |    71   |
 |          |            tmp_78_1_fu_1702           |    0    |    0    |    71   |
 |          |            tmp_84_1_fu_1856           |    0    |    0    |    71   |
 |          |            tmp_90_1_fu_2010           |    0    |    0    |    71   |
@@ -10989,43 +10962,43 @@ N/A
 |      p_int_z9_reg_724      |   64   |
 |     p_int_z_1_reg_3407     |   64   |
 |       p_int_z_reg_654      |   64   |
+|       tmp_24_reg_3262      |   64   |
+|       tmp_25_reg_3307      |   64   |
+|       tmp_26_reg_3352      |   64   |
+|       tmp_29_reg_3222      |   64   |
+|       tmp_30_reg_3267      |   64   |
+|       tmp_31_reg_3312      |   64   |
+|       tmp_32_reg_3357      |   64   |
+|       tmp_35_reg_3227      |   64   |
+|       tmp_36_reg_3272      |   64   |
+|       tmp_37_reg_3317      |   64   |
+|       tmp_38_reg_3362      |   64   |
 |      tmp_73_1_reg_3232     |   64   |
 |      tmp_73_2_reg_3247     |   64   |
-|       tmp_73_reg_3217      |   64   |
 |      tmp_74_1_reg_3277     |   64   |
 |      tmp_74_2_reg_3292     |   64   |
-|       tmp_74_reg_3262      |   64   |
 |      tmp_75_1_reg_3322     |   64   |
 |      tmp_75_2_reg_3337     |   64   |
-|       tmp_75_reg_3307      |   64   |
 |      tmp_76_1_reg_3412     |   64   |
 |      tmp_76_2_reg_3427     |   64   |
-|       tmp_76_reg_3352      |   64   |
 |      tmp_79_1_reg_3237     |   64   |
 |      tmp_79_2_reg_3252     |   64   |
-|       tmp_79_reg_3222      |   64   |
 |      tmp_80_1_reg_3282     |   64   |
 |      tmp_80_2_reg_3297     |   64   |
-|       tmp_80_reg_3267      |   64   |
 |      tmp_81_1_reg_3327     |   64   |
 |      tmp_81_2_reg_3342     |   64   |
-|       tmp_81_reg_3312      |   64   |
 |      tmp_82_1_reg_3417     |   64   |
 |      tmp_82_2_reg_3432     |   64   |
-|       tmp_82_reg_3357      |   64   |
 |      tmp_85_1_reg_3242     |   64   |
 |      tmp_85_2_reg_3257     |   64   |
-|       tmp_85_reg_3227      |   64   |
 |      tmp_86_1_reg_3287     |   64   |
 |      tmp_86_2_reg_3302     |   64   |
-|       tmp_86_reg_3272      |   64   |
 |      tmp_87_1_reg_3332     |   64   |
 |      tmp_87_2_reg_3347     |   64   |
-|       tmp_87_reg_3317      |   64   |
 |      tmp_88_1_reg_3422     |   64   |
 |      tmp_88_2_reg_3437     |   64   |
-|       tmp_88_reg_3362      |   64   |
 |        tmp_reg_3125        |    1   |
+|       tmp_s_reg_3217       |   64   |
 +----------------------------+--------+
 |            Total           |  9809  |
 +----------------------------+--------+

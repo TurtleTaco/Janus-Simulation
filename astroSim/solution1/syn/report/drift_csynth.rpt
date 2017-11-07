@@ -3,7 +3,7 @@
 ================================================================
 == Vivado HLS Report for 'drift'
 ================================================================
-* Date:           Tue Nov  7 14:02:34 2017
+* Date:           Tue Nov  7 14:40:52 2017
 
 * Version:        2017.1 (Build 1846317 on Fri Apr 14 19:19:38 MDT 2017)
 * Project:        astroSim
@@ -38,9 +38,9 @@
         |                                       |                       |  Latency  |  Interval | Pipeline |
         |                Instance               |         Module        | min | max | min | max |   Type   |
         +---------------------------------------+-----------------------+-----+-----+-----+-----+----------+
-        |tmp_77_p_hls_fptosi_double_s_fu_756    |p_hls_fptosi_double_s  |    0|    0|    1|    1| function |
-        |tmp_83_p_hls_fptosi_double_s_fu_761    |p_hls_fptosi_double_s  |    0|    0|    1|    1| function |
-        |tmp_89_p_hls_fptosi_double_s_fu_766    |p_hls_fptosi_double_s  |    0|    0|    1|    1| function |
+        |tmp_27_p_hls_fptosi_double_s_fu_756    |p_hls_fptosi_double_s  |    0|    0|    1|    1| function |
+        |tmp_33_p_hls_fptosi_double_s_fu_761    |p_hls_fptosi_double_s  |    0|    0|    1|    1| function |
+        |tmp_39_p_hls_fptosi_double_s_fu_766    |p_hls_fptosi_double_s  |    0|    0|    1|    1| function |
         |tmp_77_1_p_hls_fptosi_double_s_fu_771  |p_hls_fptosi_double_s  |    0|    0|    1|    1| function |
         |tmp_83_1_p_hls_fptosi_double_s_fu_776  |p_hls_fptosi_double_s  |    0|    0|    1|    1| function |
         |tmp_89_1_p_hls_fptosi_double_s_fu_781  |p_hls_fptosi_double_s  |    0|    0|    1|    1| function |
@@ -72,9 +72,9 @@
 |Instance         |        -|    198|    39025|   48202|    -|
 |Memory           |        -|      -|        -|       -|    -|
 |Multiplexer      |        -|      -|        -|     381|    -|
-|Register         |        -|      -|     6642|     128|    -|
+|Register         |        -|      -|     4914|     128|    -|
 +-----------------+---------+-------+---------+--------+-----+
-|Total            |        0|    198|    45667|   49524|    0|
+|Total            |        0|    198|    43939|   49524|    0|
 +-----------------+---------+-------+---------+--------+-----+
 |Available        |     1968|   1968|  1045440|  522720|  128|
 +-----------------+---------+-------+---------+--------+-----+
@@ -86,89 +86,89 @@
     +---------------------------------------+-----------------------+---------+-------+------+------+
     |                Instance               |         Module        | BRAM_18K| DSP48E|  FF  |  LUT |
     +---------------------------------------+-----------------------+---------+-------+------+------+
-    |astroSim_ddiv_64nbkb_x_U92             |astroSim_ddiv_64nbkb   |        0|      0|  1708|  3246|
-    |astroSim_ddiv_64nbkb_x_U93             |astroSim_ddiv_64nbkb   |        0|      0|  1708|  3246|
-    |astroSim_ddiv_64nbkb_x_U94             |astroSim_ddiv_64nbkb   |        0|      0|  1708|  3246|
-    |astroSim_ddiv_64nbkb_x_U95             |astroSim_ddiv_64nbkb   |        0|      0|  1708|  3246|
-    |astroSim_ddiv_64nbkb_x_U96             |astroSim_ddiv_64nbkb   |        0|      0|  1708|  3246|
-    |astroSim_ddiv_64nbkb_x_U97             |astroSim_ddiv_64nbkb   |        0|      0|  1708|  3246|
-    |astroSim_ddiv_64nbkb_x_U98             |astroSim_ddiv_64nbkb   |        0|      0|  1708|  3246|
-    |astroSim_ddiv_64nbkb_x_U99             |astroSim_ddiv_64nbkb   |        0|      0|  1708|  3246|
-    |astroSim_ddiv_64nbkb_x_U100            |astroSim_ddiv_64nbkb   |        0|      0|  1708|  3246|
-    |astroSim_dmul_64ndEe_U74               |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
-    |astroSim_dmul_64ndEe_U75               |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
-    |astroSim_dmul_64ndEe_U76               |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
-    |astroSim_dmul_64ndEe_U77               |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
-    |astroSim_dmul_64ndEe_U78               |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
-    |astroSim_dmul_64ndEe_U79               |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
-    |astroSim_dmul_64ndEe_U80               |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
-    |astroSim_dmul_64ndEe_U81               |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
-    |astroSim_dmul_64ndEe_U82               |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
-    |astroSim_dmul_64ndEe_U83               |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
-    |astroSim_dmul_64ndEe_U84               |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
-    |astroSim_dmul_64ndEe_U85               |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
-    |astroSim_dmul_64ndEe_U86               |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
-    |astroSim_dmul_64ndEe_U87               |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
-    |astroSim_dmul_64ndEe_U88               |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
-    |astroSim_dmul_64ndEe_U89               |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
-    |astroSim_dmul_64ndEe_U90               |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
-    |astroSim_dmul_64ndEe_U91               |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
-    |astroSim_mux_164_cud_x_U110            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U111            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U112            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U113            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U114            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U115            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U116            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U117            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U118            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U119            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U120            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U121            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U122            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U123            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U124            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U125            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U126            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U127            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U128            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U129            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U130            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U131            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U132            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U133            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U134            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U135            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U136            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U137            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U138            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U139            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U140            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U141            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U142            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U143            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U144            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U145            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U146            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U147            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U148            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U149            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U150            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U151            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U152            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_mux_164_cud_x_U153            |astroSim_mux_164_cud   |        0|      0|   278|    65|
-    |astroSim_sitodp_6eOg_U101              |astroSim_sitodp_6eOg   |        0|      0|   189|   406|
-    |astroSim_sitodp_6eOg_U102              |astroSim_sitodp_6eOg   |        0|      0|   189|   406|
-    |astroSim_sitodp_6eOg_U103              |astroSim_sitodp_6eOg   |        0|      0|   189|   406|
-    |astroSim_sitodp_6eOg_U104              |astroSim_sitodp_6eOg   |        0|      0|   189|   406|
-    |astroSim_sitodp_6eOg_U105              |astroSim_sitodp_6eOg   |        0|      0|   189|   406|
-    |astroSim_sitodp_6eOg_U106              |astroSim_sitodp_6eOg   |        0|      0|   189|   406|
-    |astroSim_sitodp_6eOg_U107              |astroSim_sitodp_6eOg   |        0|      0|   189|   406|
-    |astroSim_sitodp_6eOg_U108              |astroSim_sitodp_6eOg   |        0|      0|   189|   406|
-    |astroSim_sitodp_6eOg_U109              |astroSim_sitodp_6eOg   |        0|      0|   189|   406|
-    |tmp_77_p_hls_fptosi_double_s_fu_756    |p_hls_fptosi_double_s  |        0|      0|   530|  1016|
-    |tmp_83_p_hls_fptosi_double_s_fu_761    |p_hls_fptosi_double_s  |        0|      0|   530|  1016|
-    |tmp_89_p_hls_fptosi_double_s_fu_766    |p_hls_fptosi_double_s  |        0|      0|   530|  1016|
+    |astroSim_ddiv_64nbkb_x_U146            |astroSim_ddiv_64nbkb   |        0|      0|  1708|  3246|
+    |astroSim_ddiv_64nbkb_x_U147            |astroSim_ddiv_64nbkb   |        0|      0|  1708|  3246|
+    |astroSim_ddiv_64nbkb_x_U148            |astroSim_ddiv_64nbkb   |        0|      0|  1708|  3246|
+    |astroSim_ddiv_64nbkb_x_U149            |astroSim_ddiv_64nbkb   |        0|      0|  1708|  3246|
+    |astroSim_ddiv_64nbkb_x_U150            |astroSim_ddiv_64nbkb   |        0|      0|  1708|  3246|
+    |astroSim_ddiv_64nbkb_x_U151            |astroSim_ddiv_64nbkb   |        0|      0|  1708|  3246|
+    |astroSim_ddiv_64nbkb_x_U152            |astroSim_ddiv_64nbkb   |        0|      0|  1708|  3246|
+    |astroSim_ddiv_64nbkb_x_U153            |astroSim_ddiv_64nbkb   |        0|      0|  1708|  3246|
+    |astroSim_ddiv_64nbkb_x_U154            |astroSim_ddiv_64nbkb   |        0|      0|  1708|  3246|
+    |astroSim_dmul_64ndEe_U128              |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
+    |astroSim_dmul_64ndEe_U129              |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
+    |astroSim_dmul_64ndEe_U130              |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
+    |astroSim_dmul_64ndEe_U131              |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
+    |astroSim_dmul_64ndEe_U132              |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
+    |astroSim_dmul_64ndEe_U133              |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
+    |astroSim_dmul_64ndEe_U134              |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
+    |astroSim_dmul_64ndEe_U135              |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
+    |astroSim_dmul_64ndEe_U136              |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
+    |astroSim_dmul_64ndEe_U137              |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
+    |astroSim_dmul_64ndEe_U138              |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
+    |astroSim_dmul_64ndEe_U139              |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
+    |astroSim_dmul_64ndEe_U140              |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
+    |astroSim_dmul_64ndEe_U141              |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
+    |astroSim_dmul_64ndEe_U142              |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
+    |astroSim_dmul_64ndEe_U143              |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
+    |astroSim_dmul_64ndEe_U144              |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
+    |astroSim_dmul_64ndEe_U145              |astroSim_dmul_64ndEe   |        0|     11|   275|   185|
+    |astroSim_mux_164_cud_x_U164            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U165            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U166            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U167            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U168            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U169            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U170            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U171            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U172            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U173            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U174            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U175            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U176            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U177            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U178            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U179            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U180            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U181            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U182            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U183            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U184            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U185            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U186            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U187            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U188            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U189            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U190            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U191            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U192            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U193            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U194            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U195            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U196            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U197            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U198            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U199            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U200            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U201            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U202            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U203            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U204            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U205            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U206            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_mux_164_cud_x_U207            |astroSim_mux_164_cud   |        0|      0|   278|    65|
+    |astroSim_sitodp_6eOg_U155              |astroSim_sitodp_6eOg   |        0|      0|   189|   406|
+    |astroSim_sitodp_6eOg_U156              |astroSim_sitodp_6eOg   |        0|      0|   189|   406|
+    |astroSim_sitodp_6eOg_U157              |astroSim_sitodp_6eOg   |        0|      0|   189|   406|
+    |astroSim_sitodp_6eOg_U158              |astroSim_sitodp_6eOg   |        0|      0|   189|   406|
+    |astroSim_sitodp_6eOg_U159              |astroSim_sitodp_6eOg   |        0|      0|   189|   406|
+    |astroSim_sitodp_6eOg_U160              |astroSim_sitodp_6eOg   |        0|      0|   189|   406|
+    |astroSim_sitodp_6eOg_U161              |astroSim_sitodp_6eOg   |        0|      0|   189|   406|
+    |astroSim_sitodp_6eOg_U162              |astroSim_sitodp_6eOg   |        0|      0|   189|   406|
+    |astroSim_sitodp_6eOg_U163              |astroSim_sitodp_6eOg   |        0|      0|   189|   406|
+    |tmp_27_p_hls_fptosi_double_s_fu_756    |p_hls_fptosi_double_s  |        0|      0|   530|  1016|
+    |tmp_33_p_hls_fptosi_double_s_fu_761    |p_hls_fptosi_double_s  |        0|      0|   530|  1016|
+    |tmp_39_p_hls_fptosi_double_s_fu_766    |p_hls_fptosi_double_s  |        0|      0|   530|  1016|
     |tmp_77_1_p_hls_fptosi_double_s_fu_771  |p_hls_fptosi_double_s  |        0|      0|   530|  1016|
     |tmp_83_1_p_hls_fptosi_double_s_fu_776  |p_hls_fptosi_double_s  |        0|      0|   530|  1016|
     |tmp_89_1_p_hls_fptosi_double_s_fu_781  |p_hls_fptosi_double_s  |        0|      0|   530|  1016|
@@ -195,15 +195,15 @@
     |i_5_0_t_fu_1041_p2       |     +    |      0|  0|  12|           4|           1|
     |i_5_1_t_fu_1047_p2       |     +    |      0|  0|  12|           4|           2|
     |i_5_2_fu_1053_p2         |     +    |      0|  0|  12|           4|           2|
+    |tmp_28_fu_1229_p2        |     +    |      0|  0|  71|          64|          64|
+    |tmp_34_fu_1387_p2        |     +    |      0|  0|  71|          64|          64|
+    |tmp_40_fu_1545_p2        |     +    |      0|  0|  71|          64|          64|
     |tmp_78_1_fu_1702_p2      |     +    |      0|  0|  71|          64|          64|
     |tmp_78_2_fu_2164_p2      |     +    |      0|  0|  71|          64|          64|
-    |tmp_78_fu_1229_p2        |     +    |      0|  0|  71|          64|          64|
     |tmp_84_1_fu_1856_p2      |     +    |      0|  0|  71|          64|          64|
     |tmp_84_2_fu_2318_p2      |     +    |      0|  0|  71|          64|          64|
-    |tmp_84_fu_1387_p2        |     +    |      0|  0|  71|          64|          64|
     |tmp_90_1_fu_2010_p2      |     +    |      0|  0|  71|          64|          64|
     |tmp_90_2_fu_2472_p2      |     +    |      0|  0|  71|          64|          64|
-    |tmp_90_fu_1545_p2        |     +    |      0|  0|  71|          64|          64|
     |sel_tmp2_fu_981_p2       |   icmp   |      0|  0|   2|           4|           1|
     |sel_tmp_fu_969_p2        |   icmp   |      0|  0|   2|           4|           2|
     |tmp_fu_963_p2            |   icmp   |      0|  0|   2|           4|           4|
@@ -265,151 +265,124 @@
     +--------------------------+----+-----------+-----+-----------+
 
     * Register: 
-    +----------------------------+----+----+-----+-----------+
-    |            Name            | FF | LUT| Bits| Const Bits|
-    +----------------------------+----+----+-----+-----------+
-    |ap_CS_fsm                   |   3|   0|    3|          0|
-    |ap_enable_reg_pp0_iter0     |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter1     |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter10    |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter11    |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter12    |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter13    |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter14    |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter15    |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter16    |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter17    |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter18    |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter19    |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter2     |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter20    |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter21    |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter22    |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter23    |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter24    |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter25    |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter26    |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter27    |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter28    |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter29    |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter3     |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter4     |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter5     |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter6     |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter7     |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter8     |   1|   0|    1|          0|
-    |ap_enable_reg_pp0_iter9     |   1|   0|    1|          0|
-    |i_5_0_t_reg_3144            |   4|   0|    4|          0|
-    |i_5_1_t_reg_3163            |   4|   0|    4|          0|
-    |i_5_2_reg_3182              |   4|   0|    4|          0|
-    |i_reg_744                   |   4|   0|    4|          0|
-    |p_int_0_vx_read_4_reg_2985  |  64|   0|   64|          0|
-    |p_int_0_vy_read_4_reg_2914  |  64|   0|   64|          0|
-    |p_int_0_vz_read_4_reg_2830  |  64|   0|   64|          0|
-    |p_int_1_vx_read_4_reg_2980  |  64|   0|   64|          0|
-    |p_int_1_vy_read_3_reg_2909  |  64|   0|   64|          0|
-    |p_int_1_vz_read_4_reg_2825  |  64|   0|   64|          0|
-    |p_int_2_vx_read_4_reg_2975  |  64|   0|   64|          0|
-    |p_int_2_vy_read_4_reg_2904  |  64|   0|   64|          0|
-    |p_int_2_vz_read_3_reg_2820  |  64|   0|   64|          0|
-    |p_int_3_vx_read31_reg_2970  |  64|   0|   64|          0|
-    |p_int_3_vy_read_4_reg_2899  |  64|   0|   64|          0|
-    |p_int_3_vz_read_4_reg_2815  |  64|   0|   64|          0|
-    |p_int_4_vx_read32_reg_2965  |  64|   0|   64|          0|
-    |p_int_4_vy_read41_reg_2894  |  64|   0|   64|          0|
-    |p_int_4_vz_read_4_reg_2810  |  64|   0|   64|          0|
-    |p_int_5_vx_read33_reg_2960  |  64|   0|   64|          0|
-    |p_int_5_vy_read42_reg_2889  |  64|   0|   64|          0|
-    |p_int_5_vz_read51_reg_2805  |  64|   0|   64|          0|
-    |p_int_6_vx_read_4_reg_2955  |  64|   0|   64|          0|
-    |p_int_6_vy_read43_reg_2871  |  64|   0|   64|          0|
-    |p_int_6_vz_read52_reg_2787  |  64|   0|   64|          0|
-    |p_int_7_vx_read_4_reg_2937  |  64|   0|   64|          0|
-    |p_int_7_vy_read_4_reg_2853  |  64|   0|   64|          0|
-    |p_int_7_vz_read53_reg_2769  |  64|   0|   64|          0|
-    |p_int_8_vx_read_4_reg_2919  |  64|   0|   64|          0|
-    |p_int_8_vy_read_4_reg_2835  |  64|   0|   64|          0|
-    |p_int_8_vz_read_4_reg_2751  |  64|   0|   64|          0|
-    |p_int_x1_reg_484            |  64|   0|   64|          0|
-    |p_int_x2_reg_494            |  64|   0|   64|          0|
-    |p_int_x3_1_reg_3372         |  64|   0|   64|          0|
-    |p_int_x3_reg_504            |  64|   0|   64|          0|
-    |p_int_x4_reg_514            |  64|   0|   64|          0|
-    |p_int_x5_reg_524            |  64|   0|   64|          0|
-    |p_int_x6_1_reg_3367         |  64|   0|   64|          0|
-    |p_int_x6_reg_534            |  64|   0|   64|          0|
-    |p_int_x7_reg_544            |  64|   0|   64|          0|
-    |p_int_x8_reg_554            |  64|   0|   64|          0|
-    |p_int_x_1_reg_3377          |  64|   0|   64|          0|
-    |p_int_x_reg_474             |  64|   0|   64|          0|
-    |p_int_y1114_1_reg_3387      |  64|   0|   64|          0|
-    |p_int_y14_1_reg_3382        |  64|   0|   64|          0|
-    |p_int_y2_reg_584            |  64|   0|   64|          0|
-    |p_int_y3_reg_594            |  64|   0|   64|          0|
-    |p_int_y4_reg_604            |  64|   0|   64|          0|
-    |p_int_y5_reg_614            |  64|   0|   64|          0|
-    |p_int_y6_reg_624            |  64|   0|   64|          0|
-    |p_int_y7_reg_634            |  64|   0|   64|          0|
-    |p_int_y8_reg_644            |  64|   0|   64|          0|
-    |p_int_y9_reg_574            |  64|   0|   64|          0|
-    |p_int_y_1_reg_3392          |  64|   0|   64|          0|
-    |p_int_y_reg_564             |  64|   0|   64|          0|
-    |p_int_z19_1_reg_3402        |  64|   0|   64|          0|
-    |p_int_z1_reg_734            |  64|   0|   64|          0|
-    |p_int_z22_1_reg_3397        |  64|   0|   64|          0|
-    |p_int_z3_reg_664            |  64|   0|   64|          0|
-    |p_int_z4_reg_674            |  64|   0|   64|          0|
-    |p_int_z5_reg_684            |  64|   0|   64|          0|
-    |p_int_z6_reg_694            |  64|   0|   64|          0|
-    |p_int_z7_reg_704            |  64|   0|   64|          0|
-    |p_int_z8_reg_714            |  64|   0|   64|          0|
-    |p_int_z9_reg_724            |  64|   0|   64|          0|
-    |p_int_z_1_reg_3407          |  64|   0|   64|          0|
-    |p_int_z_reg_654             |  64|   0|   64|          0|
-    |tmp_73_1_reg_3232           |  64|   0|   64|          0|
-    |tmp_73_2_reg_3247           |  64|   0|   64|          0|
-    |tmp_73_reg_3217             |  64|   0|   64|          0|
-    |tmp_74_1_reg_3277           |  64|   0|   64|          0|
-    |tmp_74_2_reg_3292           |  64|   0|   64|          0|
-    |tmp_74_reg_3262             |  64|   0|   64|          0|
-    |tmp_75_1_reg_3322           |  64|   0|   64|          0|
-    |tmp_75_2_reg_3337           |  64|   0|   64|          0|
-    |tmp_75_reg_3307             |  64|   0|   64|          0|
-    |tmp_76_1_reg_3412           |  64|   0|   64|          0|
-    |tmp_76_2_reg_3427           |  64|   0|   64|          0|
-    |tmp_76_reg_3352             |  64|   0|   64|          0|
-    |tmp_79_1_reg_3237           |  64|   0|   64|          0|
-    |tmp_79_2_reg_3252           |  64|   0|   64|          0|
-    |tmp_79_reg_3222             |  64|   0|   64|          0|
-    |tmp_80_1_reg_3282           |  64|   0|   64|          0|
-    |tmp_80_2_reg_3297           |  64|   0|   64|          0|
-    |tmp_80_reg_3267             |  64|   0|   64|          0|
-    |tmp_81_1_reg_3327           |  64|   0|   64|          0|
-    |tmp_81_2_reg_3342           |  64|   0|   64|          0|
-    |tmp_81_reg_3312             |  64|   0|   64|          0|
-    |tmp_82_1_reg_3417           |  64|   0|   64|          0|
-    |tmp_82_2_reg_3432           |  64|   0|   64|          0|
-    |tmp_82_reg_3357             |  64|   0|   64|          0|
-    |tmp_85_1_reg_3242           |  64|   0|   64|          0|
-    |tmp_85_2_reg_3257           |  64|   0|   64|          0|
-    |tmp_85_reg_3227             |  64|   0|   64|          0|
-    |tmp_86_1_reg_3287           |  64|   0|   64|          0|
-    |tmp_86_2_reg_3302           |  64|   0|   64|          0|
-    |tmp_86_reg_3272             |  64|   0|   64|          0|
-    |tmp_87_1_reg_3332           |  64|   0|   64|          0|
-    |tmp_87_2_reg_3347           |  64|   0|   64|          0|
-    |tmp_87_reg_3317             |  64|   0|   64|          0|
-    |tmp_88_1_reg_3422           |  64|   0|   64|          0|
-    |tmp_88_2_reg_3437           |  64|   0|   64|          0|
-    |tmp_88_reg_3362             |  64|   0|   64|          0|
-    |tmp_reg_3125                |   1|   0|    1|          0|
-    |i_5_0_t_reg_3144            |  64|  32|    4|          0|
-    |i_5_1_t_reg_3163            |  64|  32|    4|          0|
-    |i_reg_744                   |  64|  32|    4|          0|
-    |tmp_reg_3125                |  64|  32|    1|          0|
-    +----------------------------+----+----+-----+-----------+
-    |Total                       |6642| 128| 6399|          0|
-    +----------------------------+----+----+-----+-----------+
+    +--------------------------+----+----+-----+-----------+
+    |           Name           | FF | LUT| Bits| Const Bits|
+    +--------------------------+----+----+-----+-----------+
+    |ap_CS_fsm                 |   3|   0|    3|          0|
+    |ap_enable_reg_pp0_iter0   |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter1   |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter10  |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter11  |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter12  |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter13  |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter14  |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter15  |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter16  |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter17  |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter18  |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter19  |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter2   |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter20  |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter21  |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter22  |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter23  |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter24  |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter25  |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter26  |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter27  |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter28  |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter29  |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter3   |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter4   |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter5   |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter6   |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter7   |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter8   |   1|   0|    1|          0|
+    |ap_enable_reg_pp0_iter9   |   1|   0|    1|          0|
+    |i_5_0_t_reg_3144          |   4|   0|    4|          0|
+    |i_5_1_t_reg_3163          |   4|   0|    4|          0|
+    |i_5_2_reg_3182            |   4|   0|    4|          0|
+    |i_reg_744                 |   4|   0|    4|          0|
+    |p_int_x1_reg_484          |  64|   0|   64|          0|
+    |p_int_x2_reg_494          |  64|   0|   64|          0|
+    |p_int_x3_1_reg_3372       |  64|   0|   64|          0|
+    |p_int_x3_reg_504          |  64|   0|   64|          0|
+    |p_int_x4_reg_514          |  64|   0|   64|          0|
+    |p_int_x5_reg_524          |  64|   0|   64|          0|
+    |p_int_x6_1_reg_3367       |  64|   0|   64|          0|
+    |p_int_x6_reg_534          |  64|   0|   64|          0|
+    |p_int_x7_reg_544          |  64|   0|   64|          0|
+    |p_int_x8_reg_554          |  64|   0|   64|          0|
+    |p_int_x_1_reg_3377        |  64|   0|   64|          0|
+    |p_int_x_reg_474           |  64|   0|   64|          0|
+    |p_int_y1114_1_reg_3387    |  64|   0|   64|          0|
+    |p_int_y14_1_reg_3382      |  64|   0|   64|          0|
+    |p_int_y2_reg_584          |  64|   0|   64|          0|
+    |p_int_y3_reg_594          |  64|   0|   64|          0|
+    |p_int_y4_reg_604          |  64|   0|   64|          0|
+    |p_int_y5_reg_614          |  64|   0|   64|          0|
+    |p_int_y6_reg_624          |  64|   0|   64|          0|
+    |p_int_y7_reg_634          |  64|   0|   64|          0|
+    |p_int_y8_reg_644          |  64|   0|   64|          0|
+    |p_int_y9_reg_574          |  64|   0|   64|          0|
+    |p_int_y_1_reg_3392        |  64|   0|   64|          0|
+    |p_int_y_reg_564           |  64|   0|   64|          0|
+    |p_int_z19_1_reg_3402      |  64|   0|   64|          0|
+    |p_int_z1_reg_734          |  64|   0|   64|          0|
+    |p_int_z22_1_reg_3397      |  64|   0|   64|          0|
+    |p_int_z3_reg_664          |  64|   0|   64|          0|
+    |p_int_z4_reg_674          |  64|   0|   64|          0|
+    |p_int_z5_reg_684          |  64|   0|   64|          0|
+    |p_int_z6_reg_694          |  64|   0|   64|          0|
+    |p_int_z7_reg_704          |  64|   0|   64|          0|
+    |p_int_z8_reg_714          |  64|   0|   64|          0|
+    |p_int_z9_reg_724          |  64|   0|   64|          0|
+    |p_int_z_1_reg_3407        |  64|   0|   64|          0|
+    |p_int_z_reg_654           |  64|   0|   64|          0|
+    |tmp_24_reg_3262           |  64|   0|   64|          0|
+    |tmp_25_reg_3307           |  64|   0|   64|          0|
+    |tmp_26_reg_3352           |  64|   0|   64|          0|
+    |tmp_29_reg_3222           |  64|   0|   64|          0|
+    |tmp_30_reg_3267           |  64|   0|   64|          0|
+    |tmp_31_reg_3312           |  64|   0|   64|          0|
+    |tmp_32_reg_3357           |  64|   0|   64|          0|
+    |tmp_35_reg_3227           |  64|   0|   64|          0|
+    |tmp_36_reg_3272           |  64|   0|   64|          0|
+    |tmp_37_reg_3317           |  64|   0|   64|          0|
+    |tmp_38_reg_3362           |  64|   0|   64|          0|
+    |tmp_73_1_reg_3232         |  64|   0|   64|          0|
+    |tmp_73_2_reg_3247         |  64|   0|   64|          0|
+    |tmp_74_1_reg_3277         |  64|   0|   64|          0|
+    |tmp_74_2_reg_3292         |  64|   0|   64|          0|
+    |tmp_75_1_reg_3322         |  64|   0|   64|          0|
+    |tmp_75_2_reg_3337         |  64|   0|   64|          0|
+    |tmp_76_1_reg_3412         |  64|   0|   64|          0|
+    |tmp_76_2_reg_3427         |  64|   0|   64|          0|
+    |tmp_79_1_reg_3237         |  64|   0|   64|          0|
+    |tmp_79_2_reg_3252         |  64|   0|   64|          0|
+    |tmp_80_1_reg_3282         |  64|   0|   64|          0|
+    |tmp_80_2_reg_3297         |  64|   0|   64|          0|
+    |tmp_81_1_reg_3327         |  64|   0|   64|          0|
+    |tmp_81_2_reg_3342         |  64|   0|   64|          0|
+    |tmp_82_1_reg_3417         |  64|   0|   64|          0|
+    |tmp_82_2_reg_3432         |  64|   0|   64|          0|
+    |tmp_85_1_reg_3242         |  64|   0|   64|          0|
+    |tmp_85_2_reg_3257         |  64|   0|   64|          0|
+    |tmp_86_1_reg_3287         |  64|   0|   64|          0|
+    |tmp_86_2_reg_3302         |  64|   0|   64|          0|
+    |tmp_87_1_reg_3332         |  64|   0|   64|          0|
+    |tmp_87_2_reg_3347         |  64|   0|   64|          0|
+    |tmp_88_1_reg_3422         |  64|   0|   64|          0|
+    |tmp_88_2_reg_3437         |  64|   0|   64|          0|
+    |tmp_reg_3125              |   1|   0|    1|          0|
+    |tmp_s_reg_3217            |  64|   0|   64|          0|
+    |i_5_0_t_reg_3144          |  64|  32|    4|          0|
+    |i_5_1_t_reg_3163          |  64|  32|    4|          0|
+    |i_reg_744                 |  64|  32|    4|          0|
+    |tmp_reg_3125              |  64|  32|    1|          0|
+    +--------------------------+----+----+-----+-----------+
+    |Total                     |4914| 128| 4671|          0|
+    +--------------------------+----+----+-----+-----------+
 
 
 

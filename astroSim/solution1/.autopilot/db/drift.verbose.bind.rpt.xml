@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'drift'" level="0">
-<item name = "Date">Tue Nov  7 14:02:07 2017
+<item name = "Date">Tue Nov  7 14:40:28 2017
 </item>
 <item name = "Version">2017.1 (Build 1846317 on Fri Apr 14 19:19:38 MDT 2017)</item>
 <item name = "Project">astroSim</item>
@@ -31,9 +31,9 @@
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="7">Instance, Module, min, max, min, max, Type</keys>
-<column name="tmp_77_p_hls_fptosi_double_s_fu_756">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
-<column name="tmp_83_p_hls_fptosi_double_s_fu_761">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
-<column name="tmp_89_p_hls_fptosi_double_s_fu_766">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
+<column name="tmp_27_p_hls_fptosi_double_s_fu_756">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
+<column name="tmp_33_p_hls_fptosi_double_s_fu_761">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
+<column name="tmp_39_p_hls_fptosi_double_s_fu_766">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
 <column name="tmp_77_1_p_hls_fptosi_double_s_fu_771">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
 <column name="tmp_83_1_p_hls_fptosi_double_s_fu_776">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>
 <column name="tmp_89_1_p_hls_fptosi_double_s_fu_781">p_hls_fptosi_double_s, 0, 0, 1, 1, function</column>

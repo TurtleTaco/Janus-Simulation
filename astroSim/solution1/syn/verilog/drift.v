@@ -282,33 +282,6 @@ reg   [3:0] ap_reg_pp0_iter24_i_reg_744;
 reg   [3:0] ap_reg_pp0_iter25_i_reg_744;
 reg   [3:0] ap_reg_pp0_iter26_i_reg_744;
 reg   [3:0] ap_reg_pp0_iter27_i_reg_744;
-reg   [63:0] p_int_8_vz_read_4_reg_2751;
-reg   [63:0] p_int_7_vz_read53_reg_2769;
-reg   [63:0] p_int_6_vz_read52_reg_2787;
-reg   [63:0] p_int_5_vz_read51_reg_2805;
-reg   [63:0] p_int_4_vz_read_4_reg_2810;
-reg   [63:0] p_int_3_vz_read_4_reg_2815;
-reg   [63:0] p_int_2_vz_read_3_reg_2820;
-reg   [63:0] p_int_1_vz_read_4_reg_2825;
-reg   [63:0] p_int_0_vz_read_4_reg_2830;
-reg   [63:0] p_int_8_vy_read_4_reg_2835;
-reg   [63:0] p_int_7_vy_read_4_reg_2853;
-reg   [63:0] p_int_6_vy_read43_reg_2871;
-reg   [63:0] p_int_5_vy_read42_reg_2889;
-reg   [63:0] p_int_4_vy_read41_reg_2894;
-reg   [63:0] p_int_3_vy_read_4_reg_2899;
-reg   [63:0] p_int_2_vy_read_4_reg_2904;
-reg   [63:0] p_int_1_vy_read_3_reg_2909;
-reg   [63:0] p_int_0_vy_read_4_reg_2914;
-reg   [63:0] p_int_8_vx_read_4_reg_2919;
-reg   [63:0] p_int_7_vx_read_4_reg_2937;
-reg   [63:0] p_int_6_vx_read_4_reg_2955;
-reg   [63:0] p_int_5_vx_read33_reg_2960;
-reg   [63:0] p_int_4_vx_read32_reg_2965;
-reg   [63:0] p_int_3_vx_read31_reg_2970;
-reg   [63:0] p_int_2_vx_read_4_reg_2975;
-reg   [63:0] p_int_1_vx_read_4_reg_2980;
-reg   [63:0] p_int_0_vx_read_4_reg_2985;
 wire   [0:0] tmp_fu_963_p2;
 reg   [0:0] tmp_reg_3125;
 reg   [0:0] ap_reg_pp0_iter1_tmp_reg_3125;
@@ -411,11 +384,11 @@ wire   [63:0] p_int_vx_load_2_phi_fu_1125_p18;
 wire   [63:0] p_int_vy_load_2_phi_fu_1147_p18;
 wire   [63:0] p_int_vz_load_2_phi_fu_1169_p18;
 wire   [63:0] grp_fu_936_p1;
-reg   [63:0] tmp_73_reg_3217;
+reg   [63:0] tmp_s_reg_3217;
 wire   [63:0] grp_fu_939_p1;
-reg   [63:0] tmp_79_reg_3222;
+reg   [63:0] tmp_29_reg_3222;
 wire   [63:0] grp_fu_942_p1;
-reg   [63:0] tmp_85_reg_3227;
+reg   [63:0] tmp_35_reg_3227;
 wire   [63:0] grp_fu_945_p1;
 reg   [63:0] tmp_73_1_reg_3232;
 wire   [63:0] grp_fu_948_p1;
@@ -429,11 +402,11 @@ reg   [63:0] tmp_79_2_reg_3252;
 wire   [63:0] grp_fu_960_p1;
 reg   [63:0] tmp_85_2_reg_3257;
 wire   [63:0] grp_fu_801_p2;
-reg   [63:0] tmp_74_reg_3262;
+reg   [63:0] tmp_24_reg_3262;
 wire   [63:0] grp_fu_806_p2;
-reg   [63:0] tmp_80_reg_3267;
+reg   [63:0] tmp_30_reg_3267;
 wire   [63:0] grp_fu_811_p2;
-reg   [63:0] tmp_86_reg_3272;
+reg   [63:0] tmp_36_reg_3272;
 wire   [63:0] grp_fu_816_p2;
 reg   [63:0] tmp_74_1_reg_3277;
 wire   [63:0] grp_fu_821_p2;
@@ -447,11 +420,11 @@ reg   [63:0] tmp_80_2_reg_3297;
 wire   [63:0] grp_fu_841_p2;
 reg   [63:0] tmp_86_2_reg_3302;
 wire   [63:0] grp_fu_846_p2;
-reg   [63:0] tmp_75_reg_3307;
+reg   [63:0] tmp_25_reg_3307;
 wire   [63:0] grp_fu_851_p2;
-reg   [63:0] tmp_81_reg_3312;
+reg   [63:0] tmp_31_reg_3312;
 wire   [63:0] grp_fu_856_p2;
-reg   [63:0] tmp_87_reg_3317;
+reg   [63:0] tmp_37_reg_3317;
 wire   [63:0] grp_fu_861_p2;
 reg   [63:0] tmp_75_1_reg_3322;
 wire   [63:0] grp_fu_866_p2;
@@ -465,11 +438,11 @@ reg   [63:0] tmp_81_2_reg_3342;
 wire   [63:0] grp_fu_886_p2;
 reg   [63:0] tmp_87_2_reg_3347;
 wire   [63:0] grp_fu_891_p2;
-reg   [63:0] tmp_76_reg_3352;
+reg   [63:0] tmp_26_reg_3352;
 wire   [63:0] grp_fu_896_p2;
-reg   [63:0] tmp_82_reg_3357;
+reg   [63:0] tmp_32_reg_3357;
 wire   [63:0] grp_fu_901_p2;
-reg   [63:0] tmp_88_reg_3362;
+reg   [63:0] tmp_38_reg_3362;
 wire   [63:0] p_int_x6_1_fu_1235_p18;
 reg   [63:0] p_int_x6_1_reg_3367;
 reg    ap_enable_reg_pp0_iter28;
@@ -549,9 +522,9 @@ reg    ap_enable_reg_pp0_iter24;
 reg    ap_enable_reg_pp0_iter25;
 reg    ap_enable_reg_pp0_iter26;
 reg    ap_enable_reg_pp0_iter27;
-wire   [63:0] tmp_77_p_hls_fptosi_double_s_fu_756_ap_return;
-wire   [63:0] tmp_83_p_hls_fptosi_double_s_fu_761_ap_return;
-wire   [63:0] tmp_89_p_hls_fptosi_double_s_fu_766_ap_return;
+wire   [63:0] tmp_27_p_hls_fptosi_double_s_fu_756_ap_return;
+wire   [63:0] tmp_33_p_hls_fptosi_double_s_fu_761_ap_return;
+wire   [63:0] tmp_39_p_hls_fptosi_double_s_fu_766_ap_return;
 wire   [63:0] tmp_77_1_p_hls_fptosi_double_s_fu_771_ap_return;
 wire   [63:0] tmp_83_1_p_hls_fptosi_double_s_fu_776_ap_return;
 wire   [63:0] tmp_89_1_p_hls_fptosi_double_s_fu_781_ap_return;
@@ -574,11 +547,11 @@ wire   [0:0] sel_tmp_fu_969_p2;
 wire   [0:0] sel_tmp2_fu_981_p2;
 wire   [63:0] sel_tmp1_fu_975_p3;
 wire   [63:0] p_int_x_load_0_phi_fu_1191_p18;
-wire   [63:0] tmp_78_fu_1229_p2;
+wire   [63:0] tmp_28_fu_1229_p2;
 wire   [63:0] p_int_y_load_0_phi_fu_1349_p18;
-wire   [63:0] tmp_84_fu_1387_p2;
+wire   [63:0] tmp_34_fu_1387_p2;
 wire   [63:0] p_int_z_load_0_phi_fu_1507_p18;
-wire   [63:0] tmp_90_fu_1545_p2;
+wire   [63:0] tmp_40_fu_1545_p2;
 wire   [63:0] p_int_x_load_1_phi_fu_1665_p18;
 wire   [63:0] tmp_78_1_fu_1702_p2;
 wire   [63:0] p_int_y_load_1_phi_fu_1819_p18;
@@ -631,19 +604,19 @@ initial begin
 #0 ap_enable_reg_pp0_iter27 = 1'b0;
 end
 
-p_hls_fptosi_double_s tmp_77_p_hls_fptosi_double_s_fu_756(
-    .x(tmp_76_reg_3352),
-    .ap_return(tmp_77_p_hls_fptosi_double_s_fu_756_ap_return)
+p_hls_fptosi_double_s tmp_27_p_hls_fptosi_double_s_fu_756(
+    .x(tmp_26_reg_3352),
+    .ap_return(tmp_27_p_hls_fptosi_double_s_fu_756_ap_return)
 );
 
-p_hls_fptosi_double_s tmp_83_p_hls_fptosi_double_s_fu_761(
-    .x(tmp_82_reg_3357),
-    .ap_return(tmp_83_p_hls_fptosi_double_s_fu_761_ap_return)
+p_hls_fptosi_double_s tmp_33_p_hls_fptosi_double_s_fu_761(
+    .x(tmp_32_reg_3357),
+    .ap_return(tmp_33_p_hls_fptosi_double_s_fu_761_ap_return)
 );
 
-p_hls_fptosi_double_s tmp_89_p_hls_fptosi_double_s_fu_766(
-    .x(tmp_88_reg_3362),
-    .ap_return(tmp_89_p_hls_fptosi_double_s_fu_766_ap_return)
+p_hls_fptosi_double_s tmp_39_p_hls_fptosi_double_s_fu_766(
+    .x(tmp_38_reg_3362),
+    .ap_return(tmp_39_p_hls_fptosi_double_s_fu_766_ap_return)
 );
 
 p_hls_fptosi_double_s tmp_77_1_p_hls_fptosi_double_s_fu_771(
@@ -682,10 +655,10 @@ astroSim_dmul_64ndEe #(
     .din0_WIDTH( 64 ),
     .din1_WIDTH( 64 ),
     .dout_WIDTH( 64 ))
-astroSim_dmul_64ndEe_U74(
+astroSim_dmul_64ndEe_U128(
     .clk(ap_clk),
     .reset(ap_rst),
-    .din0(tmp_73_reg_3217),
+    .din0(tmp_s_reg_3217),
     .din1(64'd4572414629676717179),
     .ce(1'b1),
     .dout(grp_fu_801_p2)
@@ -697,10 +670,10 @@ astroSim_dmul_64ndEe #(
     .din0_WIDTH( 64 ),
     .din1_WIDTH( 64 ),
     .dout_WIDTH( 64 ))
-astroSim_dmul_64ndEe_U75(
+astroSim_dmul_64ndEe_U129(
     .clk(ap_clk),
     .reset(ap_rst),
-    .din0(tmp_79_reg_3222),
+    .din0(tmp_29_reg_3222),
     .din1(64'd4572414629676717179),
     .ce(1'b1),
     .dout(grp_fu_806_p2)
@@ -712,10 +685,10 @@ astroSim_dmul_64ndEe #(
     .din0_WIDTH( 64 ),
     .din1_WIDTH( 64 ),
     .dout_WIDTH( 64 ))
-astroSim_dmul_64ndEe_U76(
+astroSim_dmul_64ndEe_U130(
     .clk(ap_clk),
     .reset(ap_rst),
-    .din0(tmp_85_reg_3227),
+    .din0(tmp_35_reg_3227),
     .din1(64'd4572414629676717179),
     .ce(1'b1),
     .dout(grp_fu_811_p2)
@@ -727,7 +700,7 @@ astroSim_dmul_64ndEe #(
     .din0_WIDTH( 64 ),
     .din1_WIDTH( 64 ),
     .dout_WIDTH( 64 ))
-astroSim_dmul_64ndEe_U77(
+astroSim_dmul_64ndEe_U131(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(tmp_73_1_reg_3232),
@@ -742,7 +715,7 @@ astroSim_dmul_64ndEe #(
     .din0_WIDTH( 64 ),
     .din1_WIDTH( 64 ),
     .dout_WIDTH( 64 ))
-astroSim_dmul_64ndEe_U78(
+astroSim_dmul_64ndEe_U132(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(tmp_79_1_reg_3237),
@@ -757,7 +730,7 @@ astroSim_dmul_64ndEe #(
     .din0_WIDTH( 64 ),
     .din1_WIDTH( 64 ),
     .dout_WIDTH( 64 ))
-astroSim_dmul_64ndEe_U79(
+astroSim_dmul_64ndEe_U133(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(tmp_85_1_reg_3242),
@@ -772,7 +745,7 @@ astroSim_dmul_64ndEe #(
     .din0_WIDTH( 64 ),
     .din1_WIDTH( 64 ),
     .dout_WIDTH( 64 ))
-astroSim_dmul_64ndEe_U80(
+astroSim_dmul_64ndEe_U134(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(tmp_73_2_reg_3247),
@@ -787,7 +760,7 @@ astroSim_dmul_64ndEe #(
     .din0_WIDTH( 64 ),
     .din1_WIDTH( 64 ),
     .dout_WIDTH( 64 ))
-astroSim_dmul_64ndEe_U81(
+astroSim_dmul_64ndEe_U135(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(tmp_79_2_reg_3252),
@@ -802,7 +775,7 @@ astroSim_dmul_64ndEe #(
     .din0_WIDTH( 64 ),
     .din1_WIDTH( 64 ),
     .dout_WIDTH( 64 ))
-astroSim_dmul_64ndEe_U82(
+astroSim_dmul_64ndEe_U136(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(tmp_85_2_reg_3257),
@@ -817,10 +790,10 @@ astroSim_dmul_64ndEe #(
     .din0_WIDTH( 64 ),
     .din1_WIDTH( 64 ),
     .dout_WIDTH( 64 ))
-astroSim_dmul_64ndEe_U83(
+astroSim_dmul_64ndEe_U137(
     .clk(ap_clk),
     .reset(ap_rst),
-    .din0(tmp_74_reg_3262),
+    .din0(tmp_24_reg_3262),
     .din1(64'd4367597403136100796),
     .ce(1'b1),
     .dout(grp_fu_846_p2)
@@ -832,10 +805,10 @@ astroSim_dmul_64ndEe #(
     .din0_WIDTH( 64 ),
     .din1_WIDTH( 64 ),
     .dout_WIDTH( 64 ))
-astroSim_dmul_64ndEe_U84(
+astroSim_dmul_64ndEe_U138(
     .clk(ap_clk),
     .reset(ap_rst),
-    .din0(tmp_80_reg_3267),
+    .din0(tmp_30_reg_3267),
     .din1(64'd4367597403136100796),
     .ce(1'b1),
     .dout(grp_fu_851_p2)
@@ -847,10 +820,10 @@ astroSim_dmul_64ndEe #(
     .din0_WIDTH( 64 ),
     .din1_WIDTH( 64 ),
     .dout_WIDTH( 64 ))
-astroSim_dmul_64ndEe_U85(
+astroSim_dmul_64ndEe_U139(
     .clk(ap_clk),
     .reset(ap_rst),
-    .din0(tmp_86_reg_3272),
+    .din0(tmp_36_reg_3272),
     .din1(64'd4367597403136100796),
     .ce(1'b1),
     .dout(grp_fu_856_p2)
@@ -862,7 +835,7 @@ astroSim_dmul_64ndEe #(
     .din0_WIDTH( 64 ),
     .din1_WIDTH( 64 ),
     .dout_WIDTH( 64 ))
-astroSim_dmul_64ndEe_U86(
+astroSim_dmul_64ndEe_U140(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(tmp_74_1_reg_3277),
@@ -877,7 +850,7 @@ astroSim_dmul_64ndEe #(
     .din0_WIDTH( 64 ),
     .din1_WIDTH( 64 ),
     .dout_WIDTH( 64 ))
-astroSim_dmul_64ndEe_U87(
+astroSim_dmul_64ndEe_U141(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(tmp_80_1_reg_3282),
@@ -892,7 +865,7 @@ astroSim_dmul_64ndEe #(
     .din0_WIDTH( 64 ),
     .din1_WIDTH( 64 ),
     .dout_WIDTH( 64 ))
-astroSim_dmul_64ndEe_U88(
+astroSim_dmul_64ndEe_U142(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(tmp_86_1_reg_3287),
@@ -907,7 +880,7 @@ astroSim_dmul_64ndEe #(
     .din0_WIDTH( 64 ),
     .din1_WIDTH( 64 ),
     .dout_WIDTH( 64 ))
-astroSim_dmul_64ndEe_U89(
+astroSim_dmul_64ndEe_U143(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(tmp_74_2_reg_3292),
@@ -922,7 +895,7 @@ astroSim_dmul_64ndEe #(
     .din0_WIDTH( 64 ),
     .din1_WIDTH( 64 ),
     .dout_WIDTH( 64 ))
-astroSim_dmul_64ndEe_U90(
+astroSim_dmul_64ndEe_U144(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(tmp_80_2_reg_3297),
@@ -937,7 +910,7 @@ astroSim_dmul_64ndEe #(
     .din0_WIDTH( 64 ),
     .din1_WIDTH( 64 ),
     .dout_WIDTH( 64 ))
-astroSim_dmul_64ndEe_U91(
+astroSim_dmul_64ndEe_U145(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(tmp_86_2_reg_3302),
@@ -952,10 +925,10 @@ astroSim_ddiv_64nbkb #(
     .din0_WIDTH( 64 ),
     .din1_WIDTH( 64 ),
     .dout_WIDTH( 64 ))
-astroSim_ddiv_64nbkb_x_U92(
+astroSim_ddiv_64nbkb_x_U146(
     .clk(ap_clk),
     .reset(ap_rst),
-    .din0(tmp_75_reg_3307),
+    .din0(tmp_25_reg_3307),
     .din1(64'd4367597403136100796),
     .ce(1'b1),
     .dout(grp_fu_891_p2)
@@ -967,10 +940,10 @@ astroSim_ddiv_64nbkb #(
     .din0_WIDTH( 64 ),
     .din1_WIDTH( 64 ),
     .dout_WIDTH( 64 ))
-astroSim_ddiv_64nbkb_x_U93(
+astroSim_ddiv_64nbkb_x_U147(
     .clk(ap_clk),
     .reset(ap_rst),
-    .din0(tmp_81_reg_3312),
+    .din0(tmp_31_reg_3312),
     .din1(64'd4367597403136100796),
     .ce(1'b1),
     .dout(grp_fu_896_p2)
@@ -982,10 +955,10 @@ astroSim_ddiv_64nbkb #(
     .din0_WIDTH( 64 ),
     .din1_WIDTH( 64 ),
     .dout_WIDTH( 64 ))
-astroSim_ddiv_64nbkb_x_U94(
+astroSim_ddiv_64nbkb_x_U148(
     .clk(ap_clk),
     .reset(ap_rst),
-    .din0(tmp_87_reg_3317),
+    .din0(tmp_37_reg_3317),
     .din1(64'd4367597403136100796),
     .ce(1'b1),
     .dout(grp_fu_901_p2)
@@ -997,7 +970,7 @@ astroSim_ddiv_64nbkb #(
     .din0_WIDTH( 64 ),
     .din1_WIDTH( 64 ),
     .dout_WIDTH( 64 ))
-astroSim_ddiv_64nbkb_x_U95(
+astroSim_ddiv_64nbkb_x_U149(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(tmp_75_1_reg_3322),
@@ -1012,7 +985,7 @@ astroSim_ddiv_64nbkb #(
     .din0_WIDTH( 64 ),
     .din1_WIDTH( 64 ),
     .dout_WIDTH( 64 ))
-astroSim_ddiv_64nbkb_x_U96(
+astroSim_ddiv_64nbkb_x_U150(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(tmp_81_1_reg_3327),
@@ -1027,7 +1000,7 @@ astroSim_ddiv_64nbkb #(
     .din0_WIDTH( 64 ),
     .din1_WIDTH( 64 ),
     .dout_WIDTH( 64 ))
-astroSim_ddiv_64nbkb_x_U97(
+astroSim_ddiv_64nbkb_x_U151(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(tmp_87_1_reg_3332),
@@ -1042,7 +1015,7 @@ astroSim_ddiv_64nbkb #(
     .din0_WIDTH( 64 ),
     .din1_WIDTH( 64 ),
     .dout_WIDTH( 64 ))
-astroSim_ddiv_64nbkb_x_U98(
+astroSim_ddiv_64nbkb_x_U152(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(tmp_75_2_reg_3337),
@@ -1057,7 +1030,7 @@ astroSim_ddiv_64nbkb #(
     .din0_WIDTH( 64 ),
     .din1_WIDTH( 64 ),
     .dout_WIDTH( 64 ))
-astroSim_ddiv_64nbkb_x_U99(
+astroSim_ddiv_64nbkb_x_U153(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(tmp_81_2_reg_3342),
@@ -1072,7 +1045,7 @@ astroSim_ddiv_64nbkb #(
     .din0_WIDTH( 64 ),
     .din1_WIDTH( 64 ),
     .dout_WIDTH( 64 ))
-astroSim_ddiv_64nbkb_x_U100(
+astroSim_ddiv_64nbkb_x_U154(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(tmp_87_2_reg_3347),
@@ -1086,7 +1059,7 @@ astroSim_sitodp_6eOg #(
     .NUM_STAGE( 3 ),
     .din0_WIDTH( 64 ),
     .dout_WIDTH( 64 ))
-astroSim_sitodp_6eOg_U101(
+astroSim_sitodp_6eOg_U155(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(grp_fu_936_p0),
@@ -1099,7 +1072,7 @@ astroSim_sitodp_6eOg #(
     .NUM_STAGE( 3 ),
     .din0_WIDTH( 64 ),
     .dout_WIDTH( 64 ))
-astroSim_sitodp_6eOg_U102(
+astroSim_sitodp_6eOg_U156(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(p_int_vy_load_0_phi_fu_995_p18),
@@ -1112,7 +1085,7 @@ astroSim_sitodp_6eOg #(
     .NUM_STAGE( 3 ),
     .din0_WIDTH( 64 ),
     .dout_WIDTH( 64 ))
-astroSim_sitodp_6eOg_U103(
+astroSim_sitodp_6eOg_U157(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(p_int_vz_load_0_phi_fu_1018_p18),
@@ -1125,7 +1098,7 @@ astroSim_sitodp_6eOg #(
     .NUM_STAGE( 3 ),
     .din0_WIDTH( 64 ),
     .dout_WIDTH( 64 ))
-astroSim_sitodp_6eOg_U104(
+astroSim_sitodp_6eOg_U158(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(p_int_vx_load_1_phi_fu_1059_p18),
@@ -1138,7 +1111,7 @@ astroSim_sitodp_6eOg #(
     .NUM_STAGE( 3 ),
     .din0_WIDTH( 64 ),
     .dout_WIDTH( 64 ))
-astroSim_sitodp_6eOg_U105(
+astroSim_sitodp_6eOg_U159(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(p_int_vy_load_1_phi_fu_1081_p18),
@@ -1151,7 +1124,7 @@ astroSim_sitodp_6eOg #(
     .NUM_STAGE( 3 ),
     .din0_WIDTH( 64 ),
     .dout_WIDTH( 64 ))
-astroSim_sitodp_6eOg_U106(
+astroSim_sitodp_6eOg_U160(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(p_int_vz_load_1_phi_fu_1103_p18),
@@ -1164,7 +1137,7 @@ astroSim_sitodp_6eOg #(
     .NUM_STAGE( 3 ),
     .din0_WIDTH( 64 ),
     .dout_WIDTH( 64 ))
-astroSim_sitodp_6eOg_U107(
+astroSim_sitodp_6eOg_U161(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(p_int_vx_load_2_phi_fu_1125_p18),
@@ -1177,7 +1150,7 @@ astroSim_sitodp_6eOg #(
     .NUM_STAGE( 3 ),
     .din0_WIDTH( 64 ),
     .dout_WIDTH( 64 ))
-astroSim_sitodp_6eOg_U108(
+astroSim_sitodp_6eOg_U162(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(p_int_vy_load_2_phi_fu_1147_p18),
@@ -1190,7 +1163,7 @@ astroSim_sitodp_6eOg #(
     .NUM_STAGE( 3 ),
     .din0_WIDTH( 64 ),
     .dout_WIDTH( 64 ))
-astroSim_sitodp_6eOg_U109(
+astroSim_sitodp_6eOg_U163(
     .clk(ap_clk),
     .reset(ap_rst),
     .din0(p_int_vz_load_2_phi_fu_1169_p18),
@@ -1219,23 +1192,23 @@ astroSim_mux_164_cud #(
     .din16_WIDTH( 64 ),
     .din17_WIDTH( 4 ),
     .dout_WIDTH( 64 ))
-astroSim_mux_164_cud_x_U110(
-    .din1(p_int_0_vy_read_4_reg_2914),
-    .din2(p_int_6_vy_read43_reg_2871),
-    .din3(p_int_6_vy_read43_reg_2871),
-    .din4(p_int_3_vy_read_4_reg_2899),
-    .din5(p_int_6_vy_read43_reg_2871),
-    .din6(p_int_6_vy_read43_reg_2871),
-    .din7(p_int_6_vy_read43_reg_2871),
-    .din8(p_int_6_vy_read43_reg_2871),
-    .din9(p_int_6_vy_read43_reg_2871),
-    .din10(p_int_6_vy_read43_reg_2871),
-    .din11(p_int_6_vy_read43_reg_2871),
-    .din12(p_int_6_vy_read43_reg_2871),
-    .din13(p_int_6_vy_read43_reg_2871),
-    .din14(p_int_6_vy_read43_reg_2871),
-    .din15(p_int_6_vy_read43_reg_2871),
-    .din16(p_int_6_vy_read43_reg_2871),
+astroSim_mux_164_cud_x_U164(
+    .din1(p_int_0_vy_read),
+    .din2(p_int_6_vy_read),
+    .din3(p_int_6_vy_read),
+    .din4(p_int_3_vy_read),
+    .din5(p_int_6_vy_read),
+    .din6(p_int_6_vy_read),
+    .din7(p_int_6_vy_read),
+    .din8(p_int_6_vy_read),
+    .din9(p_int_6_vy_read),
+    .din10(p_int_6_vy_read),
+    .din11(p_int_6_vy_read),
+    .din12(p_int_6_vy_read),
+    .din13(p_int_6_vy_read),
+    .din14(p_int_6_vy_read),
+    .din15(p_int_6_vy_read),
+    .din16(p_int_6_vy_read),
     .din17(i_phi_fu_748_p4),
     .dout(p_int_vy_load_0_phi_fu_995_p18)
 );
@@ -1261,23 +1234,23 @@ astroSim_mux_164_cud #(
     .din16_WIDTH( 64 ),
     .din17_WIDTH( 4 ),
     .dout_WIDTH( 64 ))
-astroSim_mux_164_cud_x_U111(
-    .din1(p_int_0_vz_read_4_reg_2830),
-    .din2(p_int_6_vz_read52_reg_2787),
-    .din3(p_int_6_vz_read52_reg_2787),
-    .din4(p_int_3_vz_read_4_reg_2815),
-    .din5(p_int_6_vz_read52_reg_2787),
-    .din6(p_int_6_vz_read52_reg_2787),
-    .din7(p_int_6_vz_read52_reg_2787),
-    .din8(p_int_6_vz_read52_reg_2787),
-    .din9(p_int_6_vz_read52_reg_2787),
-    .din10(p_int_6_vz_read52_reg_2787),
-    .din11(p_int_6_vz_read52_reg_2787),
-    .din12(p_int_6_vz_read52_reg_2787),
-    .din13(p_int_6_vz_read52_reg_2787),
-    .din14(p_int_6_vz_read52_reg_2787),
-    .din15(p_int_6_vz_read52_reg_2787),
-    .din16(p_int_6_vz_read52_reg_2787),
+astroSim_mux_164_cud_x_U165(
+    .din1(p_int_0_vz_read),
+    .din2(p_int_6_vz_read),
+    .din3(p_int_6_vz_read),
+    .din4(p_int_3_vz_read),
+    .din5(p_int_6_vz_read),
+    .din6(p_int_6_vz_read),
+    .din7(p_int_6_vz_read),
+    .din8(p_int_6_vz_read),
+    .din9(p_int_6_vz_read),
+    .din10(p_int_6_vz_read),
+    .din11(p_int_6_vz_read),
+    .din12(p_int_6_vz_read),
+    .din13(p_int_6_vz_read),
+    .din14(p_int_6_vz_read),
+    .din15(p_int_6_vz_read),
+    .din16(p_int_6_vz_read),
     .din17(i_phi_fu_748_p4),
     .dout(p_int_vz_load_0_phi_fu_1018_p18)
 );
@@ -1303,23 +1276,23 @@ astroSim_mux_164_cud #(
     .din16_WIDTH( 64 ),
     .din17_WIDTH( 4 ),
     .dout_WIDTH( 64 ))
-astroSim_mux_164_cud_x_U112(
-    .din1(p_int_7_vx_read_4_reg_2937),
-    .din2(p_int_1_vx_read_4_reg_2980),
-    .din3(p_int_7_vx_read_4_reg_2937),
-    .din4(p_int_7_vx_read_4_reg_2937),
-    .din5(p_int_4_vx_read32_reg_2965),
-    .din6(p_int_7_vx_read_4_reg_2937),
-    .din7(p_int_7_vx_read_4_reg_2937),
-    .din8(p_int_7_vx_read_4_reg_2937),
-    .din9(p_int_7_vx_read_4_reg_2937),
-    .din10(p_int_7_vx_read_4_reg_2937),
-    .din11(p_int_7_vx_read_4_reg_2937),
-    .din12(p_int_7_vx_read_4_reg_2937),
-    .din13(p_int_7_vx_read_4_reg_2937),
-    .din14(p_int_7_vx_read_4_reg_2937),
-    .din15(p_int_7_vx_read_4_reg_2937),
-    .din16(p_int_7_vx_read_4_reg_2937),
+astroSim_mux_164_cud_x_U166(
+    .din1(p_int_7_vx_read),
+    .din2(p_int_1_vx_read),
+    .din3(p_int_7_vx_read),
+    .din4(p_int_7_vx_read),
+    .din5(p_int_4_vx_read),
+    .din6(p_int_7_vx_read),
+    .din7(p_int_7_vx_read),
+    .din8(p_int_7_vx_read),
+    .din9(p_int_7_vx_read),
+    .din10(p_int_7_vx_read),
+    .din11(p_int_7_vx_read),
+    .din12(p_int_7_vx_read),
+    .din13(p_int_7_vx_read),
+    .din14(p_int_7_vx_read),
+    .din15(p_int_7_vx_read),
+    .din16(p_int_7_vx_read),
     .din17(i_5_0_t_reg_3144),
     .dout(p_int_vx_load_1_phi_fu_1059_p18)
 );
@@ -1345,23 +1318,23 @@ astroSim_mux_164_cud #(
     .din16_WIDTH( 64 ),
     .din17_WIDTH( 4 ),
     .dout_WIDTH( 64 ))
-astroSim_mux_164_cud_x_U113(
-    .din1(p_int_7_vy_read_4_reg_2853),
-    .din2(p_int_1_vy_read_3_reg_2909),
-    .din3(p_int_7_vy_read_4_reg_2853),
-    .din4(p_int_7_vy_read_4_reg_2853),
-    .din5(p_int_4_vy_read41_reg_2894),
-    .din6(p_int_7_vy_read_4_reg_2853),
-    .din7(p_int_7_vy_read_4_reg_2853),
-    .din8(p_int_7_vy_read_4_reg_2853),
-    .din9(p_int_7_vy_read_4_reg_2853),
-    .din10(p_int_7_vy_read_4_reg_2853),
-    .din11(p_int_7_vy_read_4_reg_2853),
-    .din12(p_int_7_vy_read_4_reg_2853),
-    .din13(p_int_7_vy_read_4_reg_2853),
-    .din14(p_int_7_vy_read_4_reg_2853),
-    .din15(p_int_7_vy_read_4_reg_2853),
-    .din16(p_int_7_vy_read_4_reg_2853),
+astroSim_mux_164_cud_x_U167(
+    .din1(p_int_7_vy_read),
+    .din2(p_int_1_vy_read),
+    .din3(p_int_7_vy_read),
+    .din4(p_int_7_vy_read),
+    .din5(p_int_4_vy_read),
+    .din6(p_int_7_vy_read),
+    .din7(p_int_7_vy_read),
+    .din8(p_int_7_vy_read),
+    .din9(p_int_7_vy_read),
+    .din10(p_int_7_vy_read),
+    .din11(p_int_7_vy_read),
+    .din12(p_int_7_vy_read),
+    .din13(p_int_7_vy_read),
+    .din14(p_int_7_vy_read),
+    .din15(p_int_7_vy_read),
+    .din16(p_int_7_vy_read),
     .din17(i_5_0_t_reg_3144),
     .dout(p_int_vy_load_1_phi_fu_1081_p18)
 );
@@ -1387,23 +1360,23 @@ astroSim_mux_164_cud #(
     .din16_WIDTH( 64 ),
     .din17_WIDTH( 4 ),
     .dout_WIDTH( 64 ))
-astroSim_mux_164_cud_x_U114(
-    .din1(p_int_7_vz_read53_reg_2769),
-    .din2(p_int_1_vz_read_4_reg_2825),
-    .din3(p_int_7_vz_read53_reg_2769),
-    .din4(p_int_7_vz_read53_reg_2769),
-    .din5(p_int_4_vz_read_4_reg_2810),
-    .din6(p_int_7_vz_read53_reg_2769),
-    .din7(p_int_7_vz_read53_reg_2769),
-    .din8(p_int_7_vz_read53_reg_2769),
-    .din9(p_int_7_vz_read53_reg_2769),
-    .din10(p_int_7_vz_read53_reg_2769),
-    .din11(p_int_7_vz_read53_reg_2769),
-    .din12(p_int_7_vz_read53_reg_2769),
-    .din13(p_int_7_vz_read53_reg_2769),
-    .din14(p_int_7_vz_read53_reg_2769),
-    .din15(p_int_7_vz_read53_reg_2769),
-    .din16(p_int_7_vz_read53_reg_2769),
+astroSim_mux_164_cud_x_U168(
+    .din1(p_int_7_vz_read),
+    .din2(p_int_1_vz_read),
+    .din3(p_int_7_vz_read),
+    .din4(p_int_7_vz_read),
+    .din5(p_int_4_vz_read),
+    .din6(p_int_7_vz_read),
+    .din7(p_int_7_vz_read),
+    .din8(p_int_7_vz_read),
+    .din9(p_int_7_vz_read),
+    .din10(p_int_7_vz_read),
+    .din11(p_int_7_vz_read),
+    .din12(p_int_7_vz_read),
+    .din13(p_int_7_vz_read),
+    .din14(p_int_7_vz_read),
+    .din15(p_int_7_vz_read),
+    .din16(p_int_7_vz_read),
     .din17(i_5_0_t_reg_3144),
     .dout(p_int_vz_load_1_phi_fu_1103_p18)
 );
@@ -1429,23 +1402,23 @@ astroSim_mux_164_cud #(
     .din16_WIDTH( 64 ),
     .din17_WIDTH( 4 ),
     .dout_WIDTH( 64 ))
-astroSim_mux_164_cud_x_U115(
-    .din1(p_int_8_vx_read_4_reg_2919),
-    .din2(p_int_8_vx_read_4_reg_2919),
-    .din3(p_int_2_vx_read_4_reg_2975),
-    .din4(p_int_8_vx_read_4_reg_2919),
-    .din5(p_int_8_vx_read_4_reg_2919),
-    .din6(p_int_5_vx_read33_reg_2960),
-    .din7(p_int_8_vx_read_4_reg_2919),
-    .din8(p_int_8_vx_read_4_reg_2919),
-    .din9(p_int_8_vx_read_4_reg_2919),
-    .din10(p_int_8_vx_read_4_reg_2919),
-    .din11(p_int_8_vx_read_4_reg_2919),
-    .din12(p_int_8_vx_read_4_reg_2919),
-    .din13(p_int_8_vx_read_4_reg_2919),
-    .din14(p_int_8_vx_read_4_reg_2919),
-    .din15(p_int_8_vx_read_4_reg_2919),
-    .din16(p_int_8_vx_read_4_reg_2919),
+astroSim_mux_164_cud_x_U169(
+    .din1(p_int_8_vx_read),
+    .din2(p_int_8_vx_read),
+    .din3(p_int_2_vx_read),
+    .din4(p_int_8_vx_read),
+    .din5(p_int_8_vx_read),
+    .din6(p_int_5_vx_read),
+    .din7(p_int_8_vx_read),
+    .din8(p_int_8_vx_read),
+    .din9(p_int_8_vx_read),
+    .din10(p_int_8_vx_read),
+    .din11(p_int_8_vx_read),
+    .din12(p_int_8_vx_read),
+    .din13(p_int_8_vx_read),
+    .din14(p_int_8_vx_read),
+    .din15(p_int_8_vx_read),
+    .din16(p_int_8_vx_read),
     .din17(i_5_1_t_reg_3163),
     .dout(p_int_vx_load_2_phi_fu_1125_p18)
 );
@@ -1471,23 +1444,23 @@ astroSim_mux_164_cud #(
     .din16_WIDTH( 64 ),
     .din17_WIDTH( 4 ),
     .dout_WIDTH( 64 ))
-astroSim_mux_164_cud_x_U116(
-    .din1(p_int_8_vy_read_4_reg_2835),
-    .din2(p_int_8_vy_read_4_reg_2835),
-    .din3(p_int_2_vy_read_4_reg_2904),
-    .din4(p_int_8_vy_read_4_reg_2835),
-    .din5(p_int_8_vy_read_4_reg_2835),
-    .din6(p_int_5_vy_read42_reg_2889),
-    .din7(p_int_8_vy_read_4_reg_2835),
-    .din8(p_int_8_vy_read_4_reg_2835),
-    .din9(p_int_8_vy_read_4_reg_2835),
-    .din10(p_int_8_vy_read_4_reg_2835),
-    .din11(p_int_8_vy_read_4_reg_2835),
-    .din12(p_int_8_vy_read_4_reg_2835),
-    .din13(p_int_8_vy_read_4_reg_2835),
-    .din14(p_int_8_vy_read_4_reg_2835),
-    .din15(p_int_8_vy_read_4_reg_2835),
-    .din16(p_int_8_vy_read_4_reg_2835),
+astroSim_mux_164_cud_x_U170(
+    .din1(p_int_8_vy_read),
+    .din2(p_int_8_vy_read),
+    .din3(p_int_2_vy_read),
+    .din4(p_int_8_vy_read),
+    .din5(p_int_8_vy_read),
+    .din6(p_int_5_vy_read),
+    .din7(p_int_8_vy_read),
+    .din8(p_int_8_vy_read),
+    .din9(p_int_8_vy_read),
+    .din10(p_int_8_vy_read),
+    .din11(p_int_8_vy_read),
+    .din12(p_int_8_vy_read),
+    .din13(p_int_8_vy_read),
+    .din14(p_int_8_vy_read),
+    .din15(p_int_8_vy_read),
+    .din16(p_int_8_vy_read),
     .din17(i_5_1_t_reg_3163),
     .dout(p_int_vy_load_2_phi_fu_1147_p18)
 );
@@ -1513,23 +1486,23 @@ astroSim_mux_164_cud #(
     .din16_WIDTH( 64 ),
     .din17_WIDTH( 4 ),
     .dout_WIDTH( 64 ))
-astroSim_mux_164_cud_x_U117(
-    .din1(p_int_8_vz_read_4_reg_2751),
-    .din2(p_int_8_vz_read_4_reg_2751),
-    .din3(p_int_2_vz_read_3_reg_2820),
-    .din4(p_int_8_vz_read_4_reg_2751),
-    .din5(p_int_8_vz_read_4_reg_2751),
-    .din6(p_int_5_vz_read51_reg_2805),
-    .din7(p_int_8_vz_read_4_reg_2751),
-    .din8(p_int_8_vz_read_4_reg_2751),
-    .din9(p_int_8_vz_read_4_reg_2751),
-    .din10(p_int_8_vz_read_4_reg_2751),
-    .din11(p_int_8_vz_read_4_reg_2751),
-    .din12(p_int_8_vz_read_4_reg_2751),
-    .din13(p_int_8_vz_read_4_reg_2751),
-    .din14(p_int_8_vz_read_4_reg_2751),
-    .din15(p_int_8_vz_read_4_reg_2751),
-    .din16(p_int_8_vz_read_4_reg_2751),
+astroSim_mux_164_cud_x_U171(
+    .din1(p_int_8_vz_read),
+    .din2(p_int_8_vz_read),
+    .din3(p_int_2_vz_read),
+    .din4(p_int_8_vz_read),
+    .din5(p_int_8_vz_read),
+    .din6(p_int_5_vz_read),
+    .din7(p_int_8_vz_read),
+    .din8(p_int_8_vz_read),
+    .din9(p_int_8_vz_read),
+    .din10(p_int_8_vz_read),
+    .din11(p_int_8_vz_read),
+    .din12(p_int_8_vz_read),
+    .din13(p_int_8_vz_read),
+    .din14(p_int_8_vz_read),
+    .din15(p_int_8_vz_read),
+    .din16(p_int_8_vz_read),
     .din17(i_5_1_t_reg_3163),
     .dout(p_int_vz_load_2_phi_fu_1169_p18)
 );
@@ -1555,7 +1528,7 @@ astroSim_mux_164_cud #(
     .din16_WIDTH( 64 ),
     .din17_WIDTH( 4 ),
     .dout_WIDTH( 64 ))
-astroSim_mux_164_cud_x_U118(
+astroSim_mux_164_cud_x_U172(
     .din1(p_int_x_phi_fu_477_p4),
     .din2(p_int_x6_phi_fu_537_p4),
     .din3(p_int_x6_phi_fu_537_p4),
@@ -1597,23 +1570,23 @@ astroSim_mux_164_cud #(
     .din16_WIDTH( 64 ),
     .din17_WIDTH( 4 ),
     .dout_WIDTH( 64 ))
-astroSim_mux_164_cud_x_U119(
+astroSim_mux_164_cud_x_U173(
     .din1(p_int_x6_phi_fu_537_p4),
-    .din2(tmp_78_fu_1229_p2),
-    .din3(tmp_78_fu_1229_p2),
+    .din2(tmp_28_fu_1229_p2),
+    .din3(tmp_28_fu_1229_p2),
     .din4(p_int_x6_phi_fu_537_p4),
-    .din5(tmp_78_fu_1229_p2),
-    .din6(tmp_78_fu_1229_p2),
-    .din7(tmp_78_fu_1229_p2),
-    .din8(tmp_78_fu_1229_p2),
-    .din9(tmp_78_fu_1229_p2),
-    .din10(tmp_78_fu_1229_p2),
-    .din11(tmp_78_fu_1229_p2),
-    .din12(tmp_78_fu_1229_p2),
-    .din13(tmp_78_fu_1229_p2),
-    .din14(tmp_78_fu_1229_p2),
-    .din15(tmp_78_fu_1229_p2),
-    .din16(tmp_78_fu_1229_p2),
+    .din5(tmp_28_fu_1229_p2),
+    .din6(tmp_28_fu_1229_p2),
+    .din7(tmp_28_fu_1229_p2),
+    .din8(tmp_28_fu_1229_p2),
+    .din9(tmp_28_fu_1229_p2),
+    .din10(tmp_28_fu_1229_p2),
+    .din11(tmp_28_fu_1229_p2),
+    .din12(tmp_28_fu_1229_p2),
+    .din13(tmp_28_fu_1229_p2),
+    .din14(tmp_28_fu_1229_p2),
+    .din15(tmp_28_fu_1229_p2),
+    .din16(tmp_28_fu_1229_p2),
     .din17(ap_reg_pp0_iter27_i_reg_744),
     .dout(p_int_x6_1_fu_1235_p18)
 );
@@ -1639,11 +1612,11 @@ astroSim_mux_164_cud #(
     .din16_WIDTH( 64 ),
     .din17_WIDTH( 4 ),
     .dout_WIDTH( 64 ))
-astroSim_mux_164_cud_x_U120(
+astroSim_mux_164_cud_x_U174(
     .din1(p_int_x3_phi_fu_507_p4),
     .din2(p_int_x3_phi_fu_507_p4),
     .din3(p_int_x3_phi_fu_507_p4),
-    .din4(tmp_78_fu_1229_p2),
+    .din4(tmp_28_fu_1229_p2),
     .din5(p_int_x3_phi_fu_507_p4),
     .din6(p_int_x3_phi_fu_507_p4),
     .din7(p_int_x3_phi_fu_507_p4),
@@ -1681,8 +1654,8 @@ astroSim_mux_164_cud #(
     .din16_WIDTH( 64 ),
     .din17_WIDTH( 4 ),
     .dout_WIDTH( 64 ))
-astroSim_mux_164_cud_x_U121(
-    .din1(tmp_78_fu_1229_p2),
+astroSim_mux_164_cud_x_U175(
+    .din1(tmp_28_fu_1229_p2),
     .din2(p_int_x_phi_fu_477_p4),
     .din3(p_int_x_phi_fu_477_p4),
     .din4(p_int_x_phi_fu_477_p4),
@@ -1723,7 +1696,7 @@ astroSim_mux_164_cud #(
     .din16_WIDTH( 64 ),
     .din17_WIDTH( 4 ),
     .dout_WIDTH( 64 ))
-astroSim_mux_164_cud_x_U122(
+astroSim_mux_164_cud_x_U176(
     .din1(p_int_y_phi_fu_567_p4),
     .din2(p_int_y6_phi_fu_627_p4),
     .din3(p_int_y6_phi_fu_627_p4),
@@ -1765,23 +1738,23 @@ astroSim_mux_164_cud #(
     .din16_WIDTH( 64 ),
     .din17_WIDTH( 4 ),
     .dout_WIDTH( 64 ))
-astroSim_mux_164_cud_x_U123(
+astroSim_mux_164_cud_x_U177(
     .din1(p_int_y6_phi_fu_627_p4),
-    .din2(tmp_84_fu_1387_p2),
-    .din3(tmp_84_fu_1387_p2),
+    .din2(tmp_34_fu_1387_p2),
+    .din3(tmp_34_fu_1387_p2),
     .din4(p_int_y6_phi_fu_627_p4),
-    .din5(tmp_84_fu_1387_p2),
-    .din6(tmp_84_fu_1387_p2),
-    .din7(tmp_84_fu_1387_p2),
-    .din8(tmp_84_fu_1387_p2),
-    .din9(tmp_84_fu_1387_p2),
-    .din10(tmp_84_fu_1387_p2),
-    .din11(tmp_84_fu_1387_p2),
-    .din12(tmp_84_fu_1387_p2),
-    .din13(tmp_84_fu_1387_p2),
-    .din14(tmp_84_fu_1387_p2),
-    .din15(tmp_84_fu_1387_p2),
-    .din16(tmp_84_fu_1387_p2),
+    .din5(tmp_34_fu_1387_p2),
+    .din6(tmp_34_fu_1387_p2),
+    .din7(tmp_34_fu_1387_p2),
+    .din8(tmp_34_fu_1387_p2),
+    .din9(tmp_34_fu_1387_p2),
+    .din10(tmp_34_fu_1387_p2),
+    .din11(tmp_34_fu_1387_p2),
+    .din12(tmp_34_fu_1387_p2),
+    .din13(tmp_34_fu_1387_p2),
+    .din14(tmp_34_fu_1387_p2),
+    .din15(tmp_34_fu_1387_p2),
+    .din16(tmp_34_fu_1387_p2),
     .din17(ap_reg_pp0_iter27_i_reg_744),
     .dout(p_int_y14_1_fu_1393_p18)
 );
@@ -1807,11 +1780,11 @@ astroSim_mux_164_cud #(
     .din16_WIDTH( 64 ),
     .din17_WIDTH( 4 ),
     .dout_WIDTH( 64 ))
-astroSim_mux_164_cud_x_U124(
+astroSim_mux_164_cud_x_U178(
     .din1(p_int_y3_phi_fu_597_p4),
     .din2(p_int_y3_phi_fu_597_p4),
     .din3(p_int_y3_phi_fu_597_p4),
-    .din4(tmp_84_fu_1387_p2),
+    .din4(tmp_34_fu_1387_p2),
     .din5(p_int_y3_phi_fu_597_p4),
     .din6(p_int_y3_phi_fu_597_p4),
     .din7(p_int_y3_phi_fu_597_p4),
@@ -1849,8 +1822,8 @@ astroSim_mux_164_cud #(
     .din16_WIDTH( 64 ),
     .din17_WIDTH( 4 ),
     .dout_WIDTH( 64 ))
-astroSim_mux_164_cud_x_U125(
-    .din1(tmp_84_fu_1387_p2),
+astroSim_mux_164_cud_x_U179(
+    .din1(tmp_34_fu_1387_p2),
     .din2(p_int_y_phi_fu_567_p4),
     .din3(p_int_y_phi_fu_567_p4),
     .din4(p_int_y_phi_fu_567_p4),
@@ -1891,7 +1864,7 @@ astroSim_mux_164_cud #(
     .din16_WIDTH( 64 ),
     .din17_WIDTH( 4 ),
     .dout_WIDTH( 64 ))
-astroSim_mux_164_cud_x_U126(
+astroSim_mux_164_cud_x_U180(
     .din1(p_int_z_phi_fu_657_p4),
     .din2(p_int_z8_phi_fu_717_p4),
     .din3(p_int_z8_phi_fu_717_p4),
@@ -1933,23 +1906,23 @@ astroSim_mux_164_cud #(
     .din16_WIDTH( 64 ),
     .din17_WIDTH( 4 ),
     .dout_WIDTH( 64 ))
-astroSim_mux_164_cud_x_U127(
+astroSim_mux_164_cud_x_U181(
     .din1(p_int_z8_phi_fu_717_p4),
-    .din2(tmp_90_fu_1545_p2),
-    .din3(tmp_90_fu_1545_p2),
+    .din2(tmp_40_fu_1545_p2),
+    .din3(tmp_40_fu_1545_p2),
     .din4(p_int_z8_phi_fu_717_p4),
-    .din5(tmp_90_fu_1545_p2),
-    .din6(tmp_90_fu_1545_p2),
-    .din7(tmp_90_fu_1545_p2),
-    .din8(tmp_90_fu_1545_p2),
-    .din9(tmp_90_fu_1545_p2),
-    .din10(tmp_90_fu_1545_p2),
-    .din11(tmp_90_fu_1545_p2),
-    .din12(tmp_90_fu_1545_p2),
-    .din13(tmp_90_fu_1545_p2),
-    .din14(tmp_90_fu_1545_p2),
-    .din15(tmp_90_fu_1545_p2),
-    .din16(tmp_90_fu_1545_p2),
+    .din5(tmp_40_fu_1545_p2),
+    .din6(tmp_40_fu_1545_p2),
+    .din7(tmp_40_fu_1545_p2),
+    .din8(tmp_40_fu_1545_p2),
+    .din9(tmp_40_fu_1545_p2),
+    .din10(tmp_40_fu_1545_p2),
+    .din11(tmp_40_fu_1545_p2),
+    .din12(tmp_40_fu_1545_p2),
+    .din13(tmp_40_fu_1545_p2),
+    .din14(tmp_40_fu_1545_p2),
+    .din15(tmp_40_fu_1545_p2),
+    .din16(tmp_40_fu_1545_p2),
     .din17(ap_reg_pp0_iter27_i_reg_744),
     .dout(p_int_z22_1_fu_1551_p18)
 );
@@ -1975,11 +1948,11 @@ astroSim_mux_164_cud #(
     .din16_WIDTH( 64 ),
     .din17_WIDTH( 4 ),
     .dout_WIDTH( 64 ))
-astroSim_mux_164_cud_x_U128(
+astroSim_mux_164_cud_x_U182(
     .din1(p_int_z5_phi_fu_687_p4),
     .din2(p_int_z5_phi_fu_687_p4),
     .din3(p_int_z5_phi_fu_687_p4),
-    .din4(tmp_90_fu_1545_p2),
+    .din4(tmp_40_fu_1545_p2),
     .din5(p_int_z5_phi_fu_687_p4),
     .din6(p_int_z5_phi_fu_687_p4),
     .din7(p_int_z5_phi_fu_687_p4),
@@ -2017,8 +1990,8 @@ astroSim_mux_164_cud #(
     .din16_WIDTH( 64 ),
     .din17_WIDTH( 4 ),
     .dout_WIDTH( 64 ))
-astroSim_mux_164_cud_x_U129(
-    .din1(tmp_90_fu_1545_p2),
+astroSim_mux_164_cud_x_U183(
+    .din1(tmp_40_fu_1545_p2),
     .din2(p_int_z_phi_fu_657_p4),
     .din3(p_int_z_phi_fu_657_p4),
     .din4(p_int_z_phi_fu_657_p4),
@@ -2059,7 +2032,7 @@ astroSim_mux_164_cud #(
     .din16_WIDTH( 64 ),
     .din17_WIDTH( 4 ),
     .dout_WIDTH( 64 ))
-astroSim_mux_164_cud_x_U130(
+astroSim_mux_164_cud_x_U184(
     .din1(p_int_x7_reg_544),
     .din2(p_int_x1_reg_484),
     .din3(p_int_x7_reg_544),
@@ -2101,7 +2074,7 @@ astroSim_mux_164_cud #(
     .din16_WIDTH( 64 ),
     .din17_WIDTH( 4 ),
     .dout_WIDTH( 64 ))
-astroSim_mux_164_cud_x_U131(
+astroSim_mux_164_cud_x_U185(
     .din1(tmp_78_1_fu_1702_p2),
     .din2(p_int_x7_reg_544),
     .din3(tmp_78_1_fu_1702_p2),
@@ -2143,7 +2116,7 @@ astroSim_mux_164_cud #(
     .din16_WIDTH( 64 ),
     .din17_WIDTH( 4 ),
     .dout_WIDTH( 64 ))
-astroSim_mux_164_cud_x_U132(
+astroSim_mux_164_cud_x_U186(
     .din1(p_int_x4_reg_514),
     .din2(p_int_x4_reg_514),
     .din3(p_int_x4_reg_514),
@@ -2185,7 +2158,7 @@ astroSim_mux_164_cud #(
     .din16_WIDTH( 64 ),
     .din17_WIDTH( 4 ),
     .dout_WIDTH( 64 ))
-astroSim_mux_164_cud_x_U133(
+astroSim_mux_164_cud_x_U187(
     .din1(p_int_x1_reg_484),
     .din2(tmp_78_1_fu_1702_p2),
     .din3(p_int_x1_reg_484),
@@ -2227,7 +2200,7 @@ astroSim_mux_164_cud #(
     .din16_WIDTH( 64 ),
     .din17_WIDTH( 4 ),
     .dout_WIDTH( 64 ))
-astroSim_mux_164_cud_x_U134(
+astroSim_mux_164_cud_x_U188(
     .din1(p_int_y7_reg_634),
     .din2(p_int_y9_reg_574),
     .din3(p_int_y7_reg_634),
@@ -2269,7 +2242,7 @@ astroSim_mux_164_cud #(
     .din16_WIDTH( 64 ),
     .din17_WIDTH( 4 ),
     .dout_WIDTH( 64 ))
-astroSim_mux_164_cud_x_U135(
+astroSim_mux_164_cud_x_U189(
     .din1(tmp_84_1_fu_1856_p2),
     .din2(p_int_y7_reg_634),
     .din3(tmp_84_1_fu_1856_p2),
@@ -2311,7 +2284,7 @@ astroSim_mux_164_cud #(
     .din16_WIDTH( 64 ),
     .din17_WIDTH( 4 ),
     .dout_WIDTH( 64 ))
-astroSim_mux_164_cud_x_U136(
+astroSim_mux_164_cud_x_U190(
     .din1(p_int_y4_reg_604),
     .din2(p_int_y4_reg_604),
     .din3(p_int_y4_reg_604),
@@ -2353,7 +2326,7 @@ astroSim_mux_164_cud #(
     .din16_WIDTH( 64 ),
     .din17_WIDTH( 4 ),
     .dout_WIDTH( 64 ))
-astroSim_mux_164_cud_x_U137(
+astroSim_mux_164_cud_x_U191(
     .din1(p_int_y9_reg_574),
     .din2(tmp_84_1_fu_1856_p2),
     .din3(p_int_y9_reg_574),
@@ -2395,7 +2368,7 @@ astroSim_mux_164_cud #(
     .din16_WIDTH( 64 ),
     .din17_WIDTH( 4 ),
     .dout_WIDTH( 64 ))
-astroSim_mux_164_cud_x_U138(
+astroSim_mux_164_cud_x_U192(
     .din1(p_int_z9_reg_724),
     .din2(p_int_z3_reg_664),
     .din3(p_int_z9_reg_724),
@@ -2437,7 +2410,7 @@ astroSim_mux_164_cud #(
     .din16_WIDTH( 64 ),
     .din17_WIDTH( 4 ),
     .dout_WIDTH( 64 ))
-astroSim_mux_164_cud_x_U139(
+astroSim_mux_164_cud_x_U193(
     .din1(tmp_90_1_fu_2010_p2),
     .din2(p_int_z9_reg_724),
     .din3(tmp_90_1_fu_2010_p2),
@@ -2479,7 +2452,7 @@ astroSim_mux_164_cud #(
     .din16_WIDTH( 64 ),
     .din17_WIDTH( 4 ),
     .dout_WIDTH( 64 ))
-astroSim_mux_164_cud_x_U140(
+astroSim_mux_164_cud_x_U194(
     .din1(p_int_z6_reg_694),
     .din2(p_int_z6_reg_694),
     .din3(p_int_z6_reg_694),
@@ -2521,7 +2494,7 @@ astroSim_mux_164_cud #(
     .din16_WIDTH( 64 ),
     .din17_WIDTH( 4 ),
     .dout_WIDTH( 64 ))
-astroSim_mux_164_cud_x_U141(
+astroSim_mux_164_cud_x_U195(
     .din1(p_int_z3_reg_664),
     .din2(tmp_90_1_fu_2010_p2),
     .din3(p_int_z3_reg_664),
@@ -2563,7 +2536,7 @@ astroSim_mux_164_cud #(
     .din16_WIDTH( 64 ),
     .din17_WIDTH( 4 ),
     .dout_WIDTH( 64 ))
-astroSim_mux_164_cud_x_U142(
+astroSim_mux_164_cud_x_U196(
     .din1(p_int_x8_reg_554),
     .din2(p_int_x8_reg_554),
     .din3(p_int_x2_reg_494),
@@ -2605,7 +2578,7 @@ astroSim_mux_164_cud #(
     .din16_WIDTH( 64 ),
     .din17_WIDTH( 4 ),
     .dout_WIDTH( 64 ))
-astroSim_mux_164_cud_x_U143(
+astroSim_mux_164_cud_x_U197(
     .din1(tmp_78_2_fu_2164_p2),
     .din2(tmp_78_2_fu_2164_p2),
     .din3(p_int_x8_reg_554),
@@ -2647,7 +2620,7 @@ astroSim_mux_164_cud #(
     .din16_WIDTH( 64 ),
     .din17_WIDTH( 4 ),
     .dout_WIDTH( 64 ))
-astroSim_mux_164_cud_x_U144(
+astroSim_mux_164_cud_x_U198(
     .din1(p_int_x5_reg_524),
     .din2(p_int_x5_reg_524),
     .din3(p_int_x5_reg_524),
@@ -2689,7 +2662,7 @@ astroSim_mux_164_cud #(
     .din16_WIDTH( 64 ),
     .din17_WIDTH( 4 ),
     .dout_WIDTH( 64 ))
-astroSim_mux_164_cud_x_U145(
+astroSim_mux_164_cud_x_U199(
     .din1(p_int_x2_reg_494),
     .din2(p_int_x2_reg_494),
     .din3(tmp_78_2_fu_2164_p2),
@@ -2731,7 +2704,7 @@ astroSim_mux_164_cud #(
     .din16_WIDTH( 64 ),
     .din17_WIDTH( 4 ),
     .dout_WIDTH( 64 ))
-astroSim_mux_164_cud_x_U146(
+astroSim_mux_164_cud_x_U200(
     .din1(p_int_y8_reg_644),
     .din2(p_int_y8_reg_644),
     .din3(p_int_y2_reg_584),
@@ -2773,7 +2746,7 @@ astroSim_mux_164_cud #(
     .din16_WIDTH( 64 ),
     .din17_WIDTH( 4 ),
     .dout_WIDTH( 64 ))
-astroSim_mux_164_cud_x_U147(
+astroSim_mux_164_cud_x_U201(
     .din1(tmp_84_2_fu_2318_p2),
     .din2(tmp_84_2_fu_2318_p2),
     .din3(p_int_y8_reg_644),
@@ -2815,7 +2788,7 @@ astroSim_mux_164_cud #(
     .din16_WIDTH( 64 ),
     .din17_WIDTH( 4 ),
     .dout_WIDTH( 64 ))
-astroSim_mux_164_cud_x_U148(
+astroSim_mux_164_cud_x_U202(
     .din1(p_int_y5_reg_614),
     .din2(p_int_y5_reg_614),
     .din3(p_int_y5_reg_614),
@@ -2857,7 +2830,7 @@ astroSim_mux_164_cud #(
     .din16_WIDTH( 64 ),
     .din17_WIDTH( 4 ),
     .dout_WIDTH( 64 ))
-astroSim_mux_164_cud_x_U149(
+astroSim_mux_164_cud_x_U203(
     .din1(p_int_y2_reg_584),
     .din2(p_int_y2_reg_584),
     .din3(tmp_84_2_fu_2318_p2),
@@ -2899,7 +2872,7 @@ astroSim_mux_164_cud #(
     .din16_WIDTH( 64 ),
     .din17_WIDTH( 4 ),
     .dout_WIDTH( 64 ))
-astroSim_mux_164_cud_x_U150(
+astroSim_mux_164_cud_x_U204(
     .din1(p_int_z1_reg_734),
     .din2(p_int_z1_reg_734),
     .din3(p_int_z4_reg_674),
@@ -2941,7 +2914,7 @@ astroSim_mux_164_cud #(
     .din16_WIDTH( 64 ),
     .din17_WIDTH( 4 ),
     .dout_WIDTH( 64 ))
-astroSim_mux_164_cud_x_U151(
+astroSim_mux_164_cud_x_U205(
     .din1(tmp_90_2_fu_2472_p2),
     .din2(tmp_90_2_fu_2472_p2),
     .din3(p_int_z1_reg_734),
@@ -2983,7 +2956,7 @@ astroSim_mux_164_cud #(
     .din16_WIDTH( 64 ),
     .din17_WIDTH( 4 ),
     .dout_WIDTH( 64 ))
-astroSim_mux_164_cud_x_U152(
+astroSim_mux_164_cud_x_U206(
     .din1(p_int_z7_reg_704),
     .din2(p_int_z7_reg_704),
     .din3(p_int_z7_reg_704),
@@ -3025,7 +2998,7 @@ astroSim_mux_164_cud #(
     .din16_WIDTH( 64 ),
     .din17_WIDTH( 4 ),
     .dout_WIDTH( 64 ))
-astroSim_mux_164_cud_x_U153(
+astroSim_mux_164_cud_x_U207(
     .din1(p_int_z4_reg_674),
     .din2(p_int_z4_reg_674),
     .din3(tmp_90_2_fu_2472_p2),
@@ -3722,38 +3695,6 @@ always @ (posedge ap_clk) begin
 end
 
 always @ (posedge ap_clk) begin
-    if (((1'b1 == ap_CS_fsm_state1) & (ap_start == 1'b1))) begin
-        p_int_0_vx_read_4_reg_2985 <= p_int_0_vx_read;
-        p_int_0_vy_read_4_reg_2914 <= p_int_0_vy_read;
-        p_int_0_vz_read_4_reg_2830 <= p_int_0_vz_read;
-        p_int_1_vx_read_4_reg_2980 <= p_int_1_vx_read;
-        p_int_1_vy_read_3_reg_2909 <= p_int_1_vy_read;
-        p_int_1_vz_read_4_reg_2825 <= p_int_1_vz_read;
-        p_int_2_vx_read_4_reg_2975 <= p_int_2_vx_read;
-        p_int_2_vy_read_4_reg_2904 <= p_int_2_vy_read;
-        p_int_2_vz_read_3_reg_2820 <= p_int_2_vz_read;
-        p_int_3_vx_read31_reg_2970 <= p_int_3_vx_read;
-        p_int_3_vy_read_4_reg_2899 <= p_int_3_vy_read;
-        p_int_3_vz_read_4_reg_2815 <= p_int_3_vz_read;
-        p_int_4_vx_read32_reg_2965 <= p_int_4_vx_read;
-        p_int_4_vy_read41_reg_2894 <= p_int_4_vy_read;
-        p_int_4_vz_read_4_reg_2810 <= p_int_4_vz_read;
-        p_int_5_vx_read33_reg_2960 <= p_int_5_vx_read;
-        p_int_5_vy_read42_reg_2889 <= p_int_5_vy_read;
-        p_int_5_vz_read51_reg_2805 <= p_int_5_vz_read;
-        p_int_6_vx_read_4_reg_2955 <= p_int_6_vx_read;
-        p_int_6_vy_read43_reg_2871 <= p_int_6_vy_read;
-        p_int_6_vz_read52_reg_2787 <= p_int_6_vz_read;
-        p_int_7_vx_read_4_reg_2937 <= p_int_7_vx_read;
-        p_int_7_vy_read_4_reg_2853 <= p_int_7_vy_read;
-        p_int_7_vz_read53_reg_2769 <= p_int_7_vz_read;
-        p_int_8_vx_read_4_reg_2919 <= p_int_8_vx_read;
-        p_int_8_vy_read_4_reg_2835 <= p_int_8_vy_read;
-        p_int_8_vz_read_4_reg_2751 <= p_int_8_vz_read;
-    end
-end
-
-always @ (posedge ap_clk) begin
     if (((ap_block_pp0_stage0_flag00011001 == 1'b0) & (1'b1 == ap_enable_reg_pp0_iter28) & (ap_reg_pp0_iter27_tmp_reg_3125 == 1'd0))) begin
         p_int_x3_1_reg_3372 <= p_int_x3_1_fu_1273_p18;
         p_int_x6_1_reg_3367 <= p_int_x6_1_fu_1235_p18;
@@ -3764,6 +3705,38 @@ always @ (posedge ap_clk) begin
         p_int_z19_1_reg_3402 <= p_int_z19_1_fu_1589_p18;
         p_int_z22_1_reg_3397 <= p_int_z22_1_fu_1551_p18;
         p_int_z_1_reg_3407 <= p_int_z_1_fu_1627_p18;
+    end
+end
+
+always @ (posedge ap_clk) begin
+    if (((ap_block_pp0_stage0_flag00011001 == 1'b0) & (ap_reg_pp0_iter5_tmp_reg_3125 == 1'd0))) begin
+        tmp_24_reg_3262 <= grp_fu_801_p2;
+        tmp_30_reg_3267 <= grp_fu_806_p2;
+        tmp_36_reg_3272 <= grp_fu_811_p2;
+    end
+end
+
+always @ (posedge ap_clk) begin
+    if (((ap_block_pp0_stage0_flag00011001 == 1'b0) & (ap_reg_pp0_iter9_tmp_reg_3125 == 1'd0))) begin
+        tmp_25_reg_3307 <= grp_fu_846_p2;
+        tmp_31_reg_3312 <= grp_fu_851_p2;
+        tmp_37_reg_3317 <= grp_fu_856_p2;
+    end
+end
+
+always @ (posedge ap_clk) begin
+    if (((ap_block_pp0_stage0_flag00011001 == 1'b0) & (ap_reg_pp0_iter26_tmp_reg_3125 == 1'd0))) begin
+        tmp_26_reg_3352 <= grp_fu_891_p2;
+        tmp_32_reg_3357 <= grp_fu_896_p2;
+        tmp_38_reg_3362 <= grp_fu_901_p2;
+    end
+end
+
+always @ (posedge ap_clk) begin
+    if (((ap_block_pp0_stage0_flag00011001 == 1'b0) & (ap_reg_pp0_iter1_tmp_reg_3125 == 1'd0))) begin
+        tmp_29_reg_3222 <= grp_fu_939_p1;
+        tmp_35_reg_3227 <= grp_fu_942_p1;
+        tmp_s_reg_3217 <= grp_fu_936_p1;
     end
 end
 
@@ -3779,14 +3752,6 @@ always @ (posedge ap_clk) begin
 end
 
 always @ (posedge ap_clk) begin
-    if (((ap_block_pp0_stage0_flag00011001 == 1'b0) & (ap_reg_pp0_iter1_tmp_reg_3125 == 1'd0))) begin
-        tmp_73_reg_3217 <= grp_fu_936_p1;
-        tmp_79_reg_3222 <= grp_fu_939_p1;
-        tmp_85_reg_3227 <= grp_fu_942_p1;
-    end
-end
-
-always @ (posedge ap_clk) begin
     if (((ap_block_pp0_stage0_flag00011001 == 1'b0) & (ap_reg_pp0_iter6_tmp_reg_3125 == 1'd0))) begin
         tmp_74_1_reg_3277 <= grp_fu_816_p2;
         tmp_74_2_reg_3292 <= grp_fu_831_p2;
@@ -3794,14 +3759,6 @@ always @ (posedge ap_clk) begin
         tmp_80_2_reg_3297 <= grp_fu_836_p2;
         tmp_86_1_reg_3287 <= grp_fu_826_p2;
         tmp_86_2_reg_3302 <= grp_fu_841_p2;
-    end
-end
-
-always @ (posedge ap_clk) begin
-    if (((ap_block_pp0_stage0_flag00011001 == 1'b0) & (ap_reg_pp0_iter5_tmp_reg_3125 == 1'd0))) begin
-        tmp_74_reg_3262 <= grp_fu_801_p2;
-        tmp_80_reg_3267 <= grp_fu_806_p2;
-        tmp_86_reg_3272 <= grp_fu_811_p2;
     end
 end
 
@@ -3817,14 +3774,6 @@ always @ (posedge ap_clk) begin
 end
 
 always @ (posedge ap_clk) begin
-    if (((ap_block_pp0_stage0_flag00011001 == 1'b0) & (ap_reg_pp0_iter9_tmp_reg_3125 == 1'd0))) begin
-        tmp_75_reg_3307 <= grp_fu_846_p2;
-        tmp_81_reg_3312 <= grp_fu_851_p2;
-        tmp_87_reg_3317 <= grp_fu_856_p2;
-    end
-end
-
-always @ (posedge ap_clk) begin
     if (((ap_block_pp0_stage0_flag00011001 == 1'b0) & (ap_reg_pp0_iter27_tmp_reg_3125 == 1'd0))) begin
         tmp_76_1_reg_3412 <= grp_fu_906_p2;
         tmp_76_2_reg_3427 <= grp_fu_921_p2;
@@ -3832,14 +3781,6 @@ always @ (posedge ap_clk) begin
         tmp_82_2_reg_3432 <= grp_fu_926_p2;
         tmp_88_1_reg_3422 <= grp_fu_916_p2;
         tmp_88_2_reg_3437 <= grp_fu_931_p2;
-    end
-end
-
-always @ (posedge ap_clk) begin
-    if (((ap_block_pp0_stage0_flag00011001 == 1'b0) & (ap_reg_pp0_iter26_tmp_reg_3125 == 1'd0))) begin
-        tmp_76_reg_3352 <= grp_fu_891_p2;
-        tmp_82_reg_3357 <= grp_fu_896_p2;
-        tmp_88_reg_3362 <= grp_fu_901_p2;
     end
 end
 
@@ -4118,7 +4059,7 @@ assign ap_return_8 = p_int_x8_reg_554;
 
 assign ap_return_9 = p_int_y_reg_564;
 
-assign grp_fu_936_p0 = ((sel_tmp2_fu_981_p2[0:0] === 1'b1) ? p_int_0_vx_read_4_reg_2985 : sel_tmp1_fu_975_p3);
+assign grp_fu_936_p0 = ((sel_tmp2_fu_981_p2[0:0] === 1'b1) ? p_int_0_vx_read : sel_tmp1_fu_975_p3);
 
 assign i_5_0_t_fu_1041_p2 = (i_phi_fu_748_p4 + 4'd1);
 
@@ -4126,29 +4067,29 @@ assign i_5_1_t_fu_1047_p2 = (i_phi_fu_748_p4 + 4'd2);
 
 assign i_5_2_fu_1053_p2 = (i_phi_fu_748_p4 + 4'd3);
 
-assign sel_tmp1_fu_975_p3 = ((sel_tmp_fu_969_p2[0:0] === 1'b1) ? p_int_3_vx_read31_reg_2970 : p_int_6_vx_read_4_reg_2955);
+assign sel_tmp1_fu_975_p3 = ((sel_tmp_fu_969_p2[0:0] === 1'b1) ? p_int_3_vx_read : p_int_6_vx_read);
 
 assign sel_tmp2_fu_981_p2 = ((i_phi_fu_748_p4 == 4'd0) ? 1'b1 : 1'b0);
 
 assign sel_tmp_fu_969_p2 = ((i_phi_fu_748_p4 == 4'd3) ? 1'b1 : 1'b0);
 
+assign tmp_28_fu_1229_p2 = (tmp_27_p_hls_fptosi_double_s_fu_756_ap_return + p_int_x_load_0_phi_fu_1191_p18);
+
+assign tmp_34_fu_1387_p2 = (tmp_33_p_hls_fptosi_double_s_fu_761_ap_return + p_int_y_load_0_phi_fu_1349_p18);
+
+assign tmp_40_fu_1545_p2 = (tmp_39_p_hls_fptosi_double_s_fu_766_ap_return + p_int_z_load_0_phi_fu_1507_p18);
+
 assign tmp_78_1_fu_1702_p2 = (tmp_77_1_p_hls_fptosi_double_s_fu_771_ap_return + p_int_x_load_1_phi_fu_1665_p18);
 
 assign tmp_78_2_fu_2164_p2 = (tmp_77_2_p_hls_fptosi_double_s_fu_786_ap_return + p_int_x_load_2_phi_fu_2127_p18);
-
-assign tmp_78_fu_1229_p2 = (tmp_77_p_hls_fptosi_double_s_fu_756_ap_return + p_int_x_load_0_phi_fu_1191_p18);
 
 assign tmp_84_1_fu_1856_p2 = (tmp_83_1_p_hls_fptosi_double_s_fu_776_ap_return + p_int_y_load_1_phi_fu_1819_p18);
 
 assign tmp_84_2_fu_2318_p2 = (tmp_83_2_p_hls_fptosi_double_s_fu_791_ap_return + p_int_y_load_2_phi_fu_2281_p18);
 
-assign tmp_84_fu_1387_p2 = (tmp_83_p_hls_fptosi_double_s_fu_761_ap_return + p_int_y_load_0_phi_fu_1349_p18);
-
 assign tmp_90_1_fu_2010_p2 = (tmp_89_1_p_hls_fptosi_double_s_fu_781_ap_return + p_int_z_load_1_phi_fu_1973_p18);
 
 assign tmp_90_2_fu_2472_p2 = (tmp_89_2_p_hls_fptosi_double_s_fu_796_ap_return + p_int_z_load_2_phi_fu_2435_p18);
-
-assign tmp_90_fu_1545_p2 = (tmp_89_p_hls_fptosi_double_s_fu_766_ap_return + p_int_z_load_0_phi_fu_1507_p18);
 
 assign tmp_fu_963_p2 = ((i_phi_fu_748_p4 == 4'd9) ? 1'b1 : 1'b0);
 

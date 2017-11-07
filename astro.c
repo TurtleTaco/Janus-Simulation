@@ -6,97 +6,7 @@
 const double scale_vel  = 1e-16;
 const double scale_pos  = 1e-16;
 const unsigned int N = 9;
-#endif
-
-static void to_int(struct reb_particle_int* p_int, struct reb_particle* p){
-    for(unsigned int i=0; i<N; i++){
-#pragma HLS unroll factor=3
-        p_int[i].x = p[i].x/scale_pos;
-        p_int[i].y = p[i].y/scale_pos;
-        p_int[i].z = p[i].z/scale_pos;
-        p_int[i].vx = p[i].vx/scale_vel;
-        p_int[i].vy = p[i].vy/scale_vel;
-        p_int[i].vz = p[i].vz/scale_vel;
-    }
-}
-static void to_double(struct reb_particle_int* p_int, struct reb_particle* p){
-    for(unsigned int i=0; i<N; i++){
-#pragma HLS unroll factor=3
-#pragma HLS PIPELINE
-        p[i].x = ((double)p_int[i].x)*scale_pos;
-        p[i].y = ((double)p_int[i].y)*scale_pos;
-        p[i].z = ((double)p_int[i].z)*scale_pos;
-        p[i].vx = ((double)p_int[i].vx)*scale_vel;
-        p[i].vy = ((double)p_int[i].vy)*scale_vel;
-        p[i].vz = ((double)p_int[i].vz)*scale_vel;
-    }
-}
-
-static void drift(struct reb_particle_int* p_int, double dt){
-    for(unsigned int i=0; i<N; i++){
-#pragma HLS unroll factor=3
-#pragma HLS PIPELINE
-        p_int[i].x += (REB_PARTICLE_INT_TYPE)(dt/2.*(double)p_int[i].vx*scale_vel/scale_pos);
-        p_int[i].y += (REB_PARTICLE_INT_TYPE)(dt/2.*(double)p_int[i].vy*scale_vel/scale_pos);
-        p_int[i].z += (REB_PARTICLE_INT_TYPE)(dt/2.*(double)p_int[i].vz*scale_vel/scale_pos);
-    }
-}
-
-static void kick(struct reb_particle_int* p_int, double dt, struct reb_particle* p){
-    for(unsigned int i=0; i<N; i++){
-#pragma HLS unroll factor=3
-#pragma HLS PIPELINE
-        p_int[i].vx += (REB_PARTICLE_INT_TYPE)(dt*p[i].ax/scale_vel);
-        p_int[i].vy += (REB_PARTICLE_INT_TYPE)(dt*p[i].ay/scale_vel);
-        p_int[i].vz += (REB_PARTICLE_INT_TYPE)(dt*p[i].az/scale_vel);
-    }
-}
-
-static void gravity(struct reb_particle* p){
-    for(unsigned int i=0; i<N; i++){
-#pragma HLS unroll factor=9
-        for(unsigned int j=0; j<N; j++){
-#pragma HLS unroll factor=9
-        	if (j == 0){
-        		p[i].ax = 0.;
-        		p[i].ay = 0.;
-        		p[i].az = 0.;
-        	}
-            if (i!=j){
-                const double dx = p[i].x - p[j].x;
-                const double dy = p[i].y - p[j].y;
-                const double dz = p[i].z - p[j].z;
-                const double _r = sqrt(dx*dx + dy*dy + dz*dz);
-                const double prefact = -1/(_r*_r*_r)*p[j].m;
-
-                p[i].ax += prefact*dx;
-                p[i].ay += prefact*dy;
-                p[i].az += prefact*dz;
-            }
-        }
-    }
-}
-
-void janus_step(struct reb_particle_int* p_int, double dt, struct reb_particle* p){
-    // One leapfrog step
-    drift(p_int, dt);
-
-    to_double(p_int, p);
-    gravity(p);
-    kick(p_int, dt, p);
-
-    drift(p_int, dt);
-
-    // Only needed for floating point outputs
-    to_double(p_int, p);
-}
- 
-void astroSim(struct reb_particle* result){
-#pragma HLS INTERFACE m_axi depth=9 port=result
-#pragma HLS INTERFACE s_axilite port=return bundle=AXILiteS
-	// Initial conditions (in FP)
-	struct reb_particle_int p_int[9];
-	struct reb_particle p[9] = {
+struct reb_particle p[9] = {
 	    {
 			.x = 0.0021709922250528, .y = 0.0057845061154043, .z = -0.0001290326677066,
 			.vx = -0.0003084904334499, .vy = 0.0003164862379414, .vz = 0.0000072860648107,
@@ -143,19 +53,110 @@ void astroSim(struct reb_particle* result){
 			.m = 0.0000515138377263
 		},
 	};
+#endif
 
+static void to_int(struct reb_particle_int* p_int){
+    for(unsigned int i=0; i<N; i++){
+#pragma HLS unroll factor=3
+        p_int[i].x = p[i].x/scale_pos;
+        p_int[i].y = p[i].y/scale_pos;
+        p_int[i].z = p[i].z/scale_pos;
+        p_int[i].vx = p[i].vx/scale_vel;
+        p_int[i].vy = p[i].vy/scale_vel;
+        p_int[i].vz = p[i].vz/scale_vel;
+    }
+}
+static void to_double(struct reb_particle_int* p_int){
+    for(unsigned int i=0; i<N; i++){
+#pragma HLS unroll factor=3
+#pragma HLS PIPELINE
+        p[i].x = ((double)p_int[i].x)*scale_pos;
+        p[i].y = ((double)p_int[i].y)*scale_pos;
+        p[i].z = ((double)p_int[i].z)*scale_pos;
+        p[i].vx = ((double)p_int[i].vx)*scale_vel;
+        p[i].vy = ((double)p_int[i].vy)*scale_vel;
+        p[i].vz = ((double)p_int[i].vz)*scale_vel;
+    }
+}
+
+static void drift(struct reb_particle_int* p_int, double dt){
+    for(unsigned int i=0; i<N; i++){
+#pragma HLS unroll factor=3
+#pragma HLS PIPELINE
+        p_int[i].x += (REB_PARTICLE_INT_TYPE)(dt/2.*(double)p_int[i].vx*scale_vel/scale_pos);
+        p_int[i].y += (REB_PARTICLE_INT_TYPE)(dt/2.*(double)p_int[i].vy*scale_vel/scale_pos);
+        p_int[i].z += (REB_PARTICLE_INT_TYPE)(dt/2.*(double)p_int[i].vz*scale_vel/scale_pos);
+    }
+}
+
+static void kick(struct reb_particle_int* p_int, double dt){
+    for(unsigned int i=0; i<N; i++){
+#pragma HLS unroll factor=3
+#pragma HLS PIPELINE
+        p_int[i].vx += (REB_PARTICLE_INT_TYPE)(dt*p[i].ax/scale_vel);
+        p_int[i].vy += (REB_PARTICLE_INT_TYPE)(dt*p[i].ay/scale_vel);
+        p_int[i].vz += (REB_PARTICLE_INT_TYPE)(dt*p[i].az/scale_vel);
+    }
+}
+
+static void gravity(){
+    for(unsigned int i=0; i<N; i++){
+#pragma HLS unroll factor=9
+        for(unsigned int j=0; j<N; j++){
+#pragma HLS unroll factor=9
+        	if (j == 0){
+        		p[i].ax = 0.;
+        		p[i].ay = 0.;
+        		p[i].az = 0.;
+        	}
+            if (i!=j){
+                const double dx = p[i].x - p[j].x;
+                const double dy = p[i].y - p[j].y;
+                const double dz = p[i].z - p[j].z;
+                const double _r = sqrt(dx*dx + dy*dy + dz*dz);
+                const double prefact = -1/(_r*_r*_r)*p[j].m;
+
+                p[i].ax += prefact*dx;
+                p[i].ay += prefact*dy;
+                p[i].az += prefact*dz;
+            }
+        }
+    }
+}
+
+void janus_step(struct reb_particle_int* p_int, double dt){
+    // One leapfrog step
+    drift(p_int, dt);
+
+    to_double(p_int);
+    gravity();
+    kick(p_int, dt);
+
+    drift(p_int, dt);
+
+    // Only needed for floating point outputs
+    to_double(p_int);
+}
+ 
+void astroSim(struct reb_particle* result){
+	struct reb_particle_int p_int[9];
+
+#pragma HLS INTERFACE m_axi depth=9 port=result
+#pragma HLS INTERFACE s_axilite port=return bundle=AXILiteS
 #pragma HLS ARRAY_PARTITION variable=p complete dim=1
 #pragma HLS ARRAY_PARTITION variable=p_int complete dim=1
 
     int t = 0;
     double dt = 0.01;
 
-    to_int(p_int, p);
+    to_int(p_int);
 
     LOOP_X:for (t = 0; t < 2.*M_PI*1e3; t++){
 //#pragma HLS PIPELINE
 #pragma HLS unroll factor=10
-            janus_step(p_int, dt, p);
-    }
+            janus_step(p_int, dt);
+    	}
+
+    //now only copies the last set of result for return value
     memcpy((struct reb_particle*)result,p,9*sizeof(struct reb_particle));
 }

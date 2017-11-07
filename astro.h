@@ -35,17 +35,17 @@ struct reb_particle {
     double m;
 };
 
-static void to_int(struct reb_particle_int* p_int, struct reb_particle* p);
+static void to_int(struct reb_particle_int* p_int);
 
-static void to_double(struct reb_particle_int* p_int, struct reb_particle* p);
+static void to_double(struct reb_particle_int* p_int);
 
 static void drift(struct reb_particle_int* p_int, double dt);
 
-static void kick(struct reb_particle_int* p_int, double dt, struct reb_particle* p);
+static void kick(struct reb_particle_int* p_int, double dt);
 
-static void gravity(struct reb_particle* p);
+static void gravity();
 
-void janus_step(struct reb_particle_int* p_int, double dt, struct reb_particle* p);
+void janus_step(struct reb_particle_int* p_int, double dt);
 
 void astroSim(struct reb_particle* result);
 

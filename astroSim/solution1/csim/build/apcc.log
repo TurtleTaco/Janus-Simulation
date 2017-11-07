@@ -1,6 +1,14 @@
 INFO: [HLS 200-10] Running '/home/linsun/Xilinx/Vivado_HLS/2017.1/bin/unwrapped/lnx64.o/apcc'
-INFO: [HLS 200-10] For user 'linsun' on host 'PC' (Linux_x86_64 version 4.4.0-97-generic) on Tue Nov 07 11:49:37 EST 2017
+INFO: [HLS 200-10] For user 'linsun' on host 'PC' (Linux_x86_64 version 4.4.0-97-generic) on Tue Nov 07 14:39:40 EST 2017
 INFO: [HLS 200-10] On os Ubuntu 16.04.3 LTS
 INFO: [HLS 200-10] In directory '/home/linsun/XilinxLab/astro/astroSim/solution1/csim/build'
-INFO: [APCC 202-3] Tmp directory is /tmp/apcc_db_linsun/221241510073377218143
+../../../../astro.c:132:14: warning: too many arguments in call to 'gravity'
+    gravity(p);
+    ~~~~~~~  ^
+1 warning generated.
+../../../../astro.c:132:14: warning: too many arguments in call to 'gravity'
+    gravity(p);
+    ~~~~~~~  ^
+1 warning generated.
+INFO: [APCC 202-3] Tmp directory is /tmp/apcc_db_linsun/271491510083581016919
 INFO: [APCC 202-1] APCC is done.

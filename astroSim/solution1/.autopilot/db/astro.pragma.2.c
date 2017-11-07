@@ -6157,17 +6157,17 @@ struct reb_particle {
     double m;
 };
 
-static void to_int(struct reb_particle_int* p_int, struct reb_particle* p);
+static void to_int(struct reb_particle_int* p_int);
 
-static void to_double(struct reb_particle_int* p_int, struct reb_particle* p);
+static void to_double(struct reb_particle_int* p_int);
 
 static void drift(struct reb_particle_int* p_int, double dt);
 
-static void kick(struct reb_particle_int* p_int, double dt, struct reb_particle* p);
+static void kick(struct reb_particle_int* p_int, double dt);
 
-static void gravity(struct reb_particle* p);
+static void gravity();
 
-void janus_step(struct reb_particle_int* p_int, double dt, struct reb_particle* p);
+void janus_step(struct reb_particle_int* p_int, double dt);
 
 void astroSim(struct reb_particle* result);
 # 2 "astro.c" 2
@@ -6178,97 +6178,7 @@ void astroSim(struct reb_particle* result);
 const double scale_vel = 1e-16;
 const double scale_pos = 1e-16;
 const unsigned int N = 9;
-
-
-static void to_int(struct reb_particle_int* p_int, struct reb_particle* p){
-    for(unsigned int i=0; i<N; i++){
-_ssdm_Unroll(1, 0, 3, "");
- p_int[i].x = p[i].x/scale_pos;
-        p_int[i].y = p[i].y/scale_pos;
-        p_int[i].z = p[i].z/scale_pos;
-        p_int[i].vx = p[i].vx/scale_vel;
-        p_int[i].vy = p[i].vy/scale_vel;
-        p_int[i].vz = p[i].vz/scale_vel;
-    }
-}
-static void to_double(struct reb_particle_int* p_int, struct reb_particle* p){
-    for(unsigned int i=0; i<N; i++){
-_ssdm_Unroll(1, 0, 3, "");
-_ssdm_op_SpecPipeline(-1, 1, 1, 0, "");
- p[i].x = ((double)p_int[i].x)*scale_pos;
-        p[i].y = ((double)p_int[i].y)*scale_pos;
-        p[i].z = ((double)p_int[i].z)*scale_pos;
-        p[i].vx = ((double)p_int[i].vx)*scale_vel;
-        p[i].vy = ((double)p_int[i].vy)*scale_vel;
-        p[i].vz = ((double)p_int[i].vz)*scale_vel;
-    }
-}
-
-static void drift(struct reb_particle_int* p_int, double dt){
-    for(unsigned int i=0; i<N; i++){
-_ssdm_Unroll(1, 0, 3, "");
-_ssdm_op_SpecPipeline(-1, 1, 1, 0, "");
- p_int[i].x += (int64_t)(dt/2.*(double)p_int[i].vx*scale_vel/scale_pos);
-        p_int[i].y += (int64_t)(dt/2.*(double)p_int[i].vy*scale_vel/scale_pos);
-        p_int[i].z += (int64_t)(dt/2.*(double)p_int[i].vz*scale_vel/scale_pos);
-    }
-}
-
-static void kick(struct reb_particle_int* p_int, double dt, struct reb_particle* p){
-    for(unsigned int i=0; i<N; i++){
-_ssdm_Unroll(1, 0, 3, "");
-_ssdm_op_SpecPipeline(-1, 1, 1, 0, "");
- p_int[i].vx += (int64_t)(dt*p[i].ax/scale_vel);
-        p_int[i].vy += (int64_t)(dt*p[i].ay/scale_vel);
-        p_int[i].vz += (int64_t)(dt*p[i].az/scale_vel);
-    }
-}
-
-static void gravity(struct reb_particle* p){
-    for(unsigned int i=0; i<N; i++){
-_ssdm_Unroll(1, 0, 9, "");
- for(unsigned int j=0; j<N; j++){
-_ssdm_Unroll(1, 0, 9, "");
- if (j == 0){
-          p[i].ax = 0.;
-          p[i].ay = 0.;
-          p[i].az = 0.;
-         }
-            if (i!=j){
-                const double dx = p[i].x - p[j].x;
-                const double dy = p[i].y - p[j].y;
-                const double dz = p[i].z - p[j].z;
-                const double _r = sqrt(dx*dx + dy*dy + dz*dz);
-                const double prefact = -1/(_r*_r*_r)*p[j].m;
-
-                p[i].ax += prefact*dx;
-                p[i].ay += prefact*dy;
-                p[i].az += prefact*dz;
-            }
-        }
-    }
-}
-
-void janus_step(struct reb_particle_int* p_int, double dt, struct reb_particle* p){
-    // One leapfrog step
-    drift(p_int, dt);
-
-    to_double(p_int, p);
-    gravity(p);
-    kick(p_int, dt, p);
-
-    drift(p_int, dt);
-
-    // Only needed for floating point outputs
-    to_double(p_int, p);
-}
-
-void astroSim(struct reb_particle* result){
-_ssdm_op_SpecInterface(result, "m_axi", 0, 0, "", 0, 9, "", "", "", 16, 16, 16, 16, "", "");
-_ssdm_op_SpecInterface(0, "s_axilite", 0, 0, "", 0, 0, "AXILiteS", "", "", 0, 0, 0, 0, "", "");
- // Initial conditions (in FP)
- struct reb_particle_int p_int[9];
- struct reb_particle p[9] = {
+struct reb_particle p[9] = {
      {
    .x = 0.0021709922250528, .y = 0.0057845061154043, .z = -0.0001290326677066,
    .vx = -0.0003084904334499, .vy = 0.0003164862379414, .vz = 0.0000072860648107,
@@ -6316,18 +6226,109 @@ _ssdm_op_SpecInterface(0, "s_axilite", 0, 0, "", 0, 0, "AXILiteS", "", "", 0, 0,
   },
  };
 
+
+static void to_int(struct reb_particle_int* p_int){
+    for(unsigned int i=0; i<N; i++){
+_ssdm_Unroll(1, 0, 3, "");
+ p_int[i].x = p[i].x/scale_pos;
+        p_int[i].y = p[i].y/scale_pos;
+        p_int[i].z = p[i].z/scale_pos;
+        p_int[i].vx = p[i].vx/scale_vel;
+        p_int[i].vy = p[i].vy/scale_vel;
+        p_int[i].vz = p[i].vz/scale_vel;
+    }
+}
+static void to_double(struct reb_particle_int* p_int){
+    for(unsigned int i=0; i<N; i++){
+_ssdm_Unroll(1, 0, 3, "");
+_ssdm_op_SpecPipeline(-1, 1, 1, 0, "");
+ p[i].x = ((double)p_int[i].x)*scale_pos;
+        p[i].y = ((double)p_int[i].y)*scale_pos;
+        p[i].z = ((double)p_int[i].z)*scale_pos;
+        p[i].vx = ((double)p_int[i].vx)*scale_vel;
+        p[i].vy = ((double)p_int[i].vy)*scale_vel;
+        p[i].vz = ((double)p_int[i].vz)*scale_vel;
+    }
+}
+
+static void drift(struct reb_particle_int* p_int, double dt){
+    for(unsigned int i=0; i<N; i++){
+_ssdm_Unroll(1, 0, 3, "");
+_ssdm_op_SpecPipeline(-1, 1, 1, 0, "");
+ p_int[i].x += (int64_t)(dt/2.*(double)p_int[i].vx*scale_vel/scale_pos);
+        p_int[i].y += (int64_t)(dt/2.*(double)p_int[i].vy*scale_vel/scale_pos);
+        p_int[i].z += (int64_t)(dt/2.*(double)p_int[i].vz*scale_vel/scale_pos);
+    }
+}
+
+static void kick(struct reb_particle_int* p_int, double dt){
+    for(unsigned int i=0; i<N; i++){
+_ssdm_Unroll(1, 0, 3, "");
+_ssdm_op_SpecPipeline(-1, 1, 1, 0, "");
+ p_int[i].vx += (int64_t)(dt*p[i].ax/scale_vel);
+        p_int[i].vy += (int64_t)(dt*p[i].ay/scale_vel);
+        p_int[i].vz += (int64_t)(dt*p[i].az/scale_vel);
+    }
+}
+
+static void gravity(){
+    for(unsigned int i=0; i<N; i++){
+_ssdm_Unroll(1, 0, 9, "");
+ for(unsigned int j=0; j<N; j++){
+_ssdm_Unroll(1, 0, 9, "");
+ if (j == 0){
+          p[i].ax = 0.;
+          p[i].ay = 0.;
+          p[i].az = 0.;
+         }
+            if (i!=j){
+                const double dx = p[i].x - p[j].x;
+                const double dy = p[i].y - p[j].y;
+                const double dz = p[i].z - p[j].z;
+                const double _r = sqrt(dx*dx + dy*dy + dz*dz);
+                const double prefact = -1/(_r*_r*_r)*p[j].m;
+
+                p[i].ax += prefact*dx;
+                p[i].ay += prefact*dy;
+                p[i].az += prefact*dz;
+            }
+        }
+    }
+}
+
+void janus_step(struct reb_particle_int* p_int, double dt){
+    // One leapfrog step
+    drift(p_int, dt);
+
+    to_double(p_int);
+    gravity();
+    kick(p_int, dt);
+
+    drift(p_int, dt);
+
+    // Only needed for floating point outputs
+    to_double(p_int);
+}
+
+void astroSim(struct reb_particle* result){
+ struct reb_particle_int p_int[9];
+
+_ssdm_op_SpecInterface(result, "m_axi", 0, 0, "", 0, 9, "", "", "", 16, 16, 16, 16, "", "");
+_ssdm_op_SpecInterface(0, "s_axilite", 0, 0, "", 0, 0, "AXILiteS", "", "", 0, 0, 0, 0, "", "");
 _ssdm_SpecArrayPartition( p, 1, "COMPLETE", 0, "");
 _ssdm_SpecArrayPartition( p_int, 1, "COMPLETE", 0, "");
 
  int t = 0;
     double dt = 0.01;
 
-    to_int(p_int, p);
+    to_int(p_int);
 
     LOOP_X:for (t = 0; t < 2.*3.14159265358979323846 /* pi */*1e3; t++){
 //#pragma HLS PIPELINE
 _ssdm_Unroll(1, 0, 10, "");
- janus_step(p_int, dt, p);
-    }
+ janus_step(p_int, dt);
+     }
+
+    //now only copies the last set of result for return value
     memcpy((struct reb_particle*)result,p,9*sizeof(struct reb_particle));
 }

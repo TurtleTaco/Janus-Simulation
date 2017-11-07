@@ -10,7 +10,7 @@ use ieee.std_logic_1164.all;
 
 entity astroSim_dmul_64ndEe is
     generic (
-        ID         : integer := 74;
+        ID         : integer := 128;
         NUM_STAGE  : integer := 4;
         din0_WIDTH : integer := 64;
         din1_WIDTH : integer := 64;

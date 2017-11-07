@@ -3,7 +3,7 @@
 ================================================================
 == Vivado HLS Report for 'to_int'
 ================================================================
-* Date:           Tue Nov  7 14:02:05 2017
+* Date:           Tue Nov  7 14:40:26 2017
 
 * Version:        2017.1 (Build 1846317 on Fri Apr 14 19:19:38 MDT 2017)
 * Project:        astroSim
@@ -20,7 +20,7 @@
     +--------+-------+----------+------------+
     |  Clock | Target| Estimated| Uncertainty|
     +--------+-------+----------+------------+
-    |ap_clk  |  10.00|      8.64|        1.25|
+    |ap_clk  |  10.00|      7.58|        1.25|
     +--------+-------+----------+------------+
 
 + Latency (clock cycles): 
@@ -116,1658 +116,1805 @@ IsGatedGlobalClock: 0
 * FSM state operations: 
 
  <State 1>: 0.60ns
-ST_1: StgValue_20 (1)  [1/1] 0.60ns  loc: astro.c:12
+ST_1: StgValue_20 (55)  [1/1] 0.60ns  loc: astro.c:59
 :0  br label %1
 
 
- <State 2>: 8.64ns
-ST_2: p_int_6_x_write_ass (3)  [1/1] 0.00ns  loc: astro.c:14
+ <State 2>: 7.58ns
+ST_2: p_int_6_x_write_ass (57)  [1/1] 0.00ns  loc: astro.c:61
 :0  %p_int_6_x_write_ass = phi i64 [ undef, %0 ], [ %p_int_x6_1, %_ifconv ]
 
-ST_2: p_int_7_x_write_ass (4)  [1/1] 0.00ns  loc: astro.c:14
+ST_2: p_int_7_x_write_ass (58)  [1/1] 0.00ns  loc: astro.c:61
 :1  %p_int_7_x_write_ass = phi i64 [ undef, %0 ], [ %p_int_x7_1, %_ifconv ]
 
-ST_2: p_int_5_x_write_ass (5)  [1/1] 0.00ns  loc: astro.c:14
+ST_2: p_int_5_x_write_ass (59)  [1/1] 0.00ns  loc: astro.c:61
 :2  %p_int_5_x_write_ass = phi i64 [ undef, %0 ], [ %p_int_x5_1, %_ifconv ]
 
-ST_2: p_int_8_x_write_ass (6)  [1/1] 0.00ns  loc: astro.c:14
+ST_2: p_int_8_x_write_ass (60)  [1/1] 0.00ns  loc: astro.c:61
 :3  %p_int_8_x_write_ass = phi i64 [ undef, %0 ], [ %p_int_x8_1, %_ifconv ]
 
-ST_2: p_int_0_y_write_ass (7)  [1/1] 0.00ns  loc: astro.c:15
+ST_2: p_int_0_y_write_ass (61)  [1/1] 0.00ns  loc: astro.c:62
 :4  %p_int_0_y_write_ass = phi i64 [ undef, %0 ], [ %p_int_y_1, %_ifconv ]
 
-ST_2: p_int_4_x_write_ass (8)  [1/1] 0.00ns  loc: astro.c:14
+ST_2: p_int_4_x_write_ass (62)  [1/1] 0.00ns  loc: astro.c:61
 :5  %p_int_4_x_write_ass = phi i64 [ undef, %0 ], [ %p_int_x4_1, %_ifconv ]
 
-ST_2: p_int_1_y_write_ass (9)  [1/1] 0.00ns  loc: astro.c:15
+ST_2: p_int_1_y_write_ass (63)  [1/1] 0.00ns  loc: astro.c:62
 :6  %p_int_1_y_write_ass = phi i64 [ undef, %0 ], [ %p_int_y9_1, %_ifconv ]
 
-ST_2: p_int_2_y_write_ass (10)  [1/1] 0.00ns  loc: astro.c:15
+ST_2: p_int_2_y_write_ass (64)  [1/1] 0.00ns  loc: astro.c:62
 :7  %p_int_2_y_write_ass = phi i64 [ undef, %0 ], [ %p_int_y10_1, %_ifconv ]
 
-ST_2: p_int_3_x_write_ass (11)  [1/1] 0.00ns  loc: astro.c:14
+ST_2: p_int_3_x_write_ass (65)  [1/1] 0.00ns  loc: astro.c:61
 :8  %p_int_3_x_write_ass = phi i64 [ undef, %0 ], [ %p_int_x3_1, %_ifconv ]
 
-ST_2: p_int_3_y_write_ass (12)  [1/1] 0.00ns  loc: astro.c:15
+ST_2: p_int_3_y_write_ass (66)  [1/1] 0.00ns  loc: astro.c:62
 :9  %p_int_3_y_write_ass = phi i64 [ undef, %0 ], [ %p_int_y11_1, %_ifconv ]
 
-ST_2: p_int_4_y_write_ass (13)  [1/1] 0.00ns  loc: astro.c:15
+ST_2: p_int_4_y_write_ass (67)  [1/1] 0.00ns  loc: astro.c:62
 :10  %p_int_4_y_write_ass = phi i64 [ undef, %0 ], [ %p_int_y12_1, %_ifconv ]
 
-ST_2: p_int_2_x_write_ass (14)  [1/1] 0.00ns  loc: astro.c:14
+ST_2: p_int_2_x_write_ass (68)  [1/1] 0.00ns  loc: astro.c:61
 :11  %p_int_2_x_write_ass = phi i64 [ undef, %0 ], [ %p_int_x2_1, %_ifconv ]
 
-ST_2: p_int_5_y_write_ass (15)  [1/1] 0.00ns  loc: astro.c:15
+ST_2: p_int_5_y_write_ass (69)  [1/1] 0.00ns  loc: astro.c:62
 :12  %p_int_5_y_write_ass = phi i64 [ undef, %0 ], [ %p_int_y13_1, %_ifconv ]
 
-ST_2: p_int_6_y_write_ass (16)  [1/1] 0.00ns  loc: astro.c:15
+ST_2: p_int_6_y_write_ass (70)  [1/1] 0.00ns  loc: astro.c:62
 :13  %p_int_6_y_write_ass = phi i64 [ undef, %0 ], [ %p_int_y14_1, %_ifconv ]
 
-ST_2: p_int_1_x_write_ass (17)  [1/1] 0.00ns  loc: astro.c:14
+ST_2: p_int_1_x_write_ass (71)  [1/1] 0.00ns  loc: astro.c:61
 :14  %p_int_1_x_write_ass = phi i64 [ undef, %0 ], [ %p_int_x16_1, %_ifconv ]
 
-ST_2: p_int_7_y_write_ass (18)  [1/1] 0.00ns  loc: astro.c:15
+ST_2: p_int_7_y_write_ass (72)  [1/1] 0.00ns  loc: astro.c:62
 :15  %p_int_7_y_write_ass = phi i64 [ undef, %0 ], [ %p_int_y15_1, %_ifconv ]
 
-ST_2: p_int_8_y_write_ass (19)  [1/1] 0.00ns  loc: astro.c:15
+ST_2: p_int_8_y_write_ass (73)  [1/1] 0.00ns  loc: astro.c:62
 :16  %p_int_8_y_write_ass = phi i64 [ undef, %0 ], [ %p_int_y16_1, %_ifconv ]
 
-ST_2: p_int_0_x_write_ass (20)  [1/1] 0.00ns  loc: astro.c:14
+ST_2: p_int_0_x_write_ass (74)  [1/1] 0.00ns  loc: astro.c:61
 :17  %p_int_0_x_write_ass = phi i64 [ undef, %0 ], [ %p_int_x_1, %_ifconv ]
 
-ST_2: p_int_0_z_write_ass (21)  [1/1] 0.00ns  loc: astro.c:16
+ST_2: p_int_0_z_write_ass (75)  [1/1] 0.00ns  loc: astro.c:63
 :18  %p_int_0_z_write_ass = phi i64 [ undef, %0 ], [ %p_int_z_1, %_ifconv ]
 
-ST_2: p_int_1_z_write_ass (22)  [1/1] 0.00ns  loc: astro.c:16
+ST_2: p_int_1_z_write_ass (76)  [1/1] 0.00ns  loc: astro.c:63
 :19  %p_int_1_z_write_ass = phi i64 [ undef, %0 ], [ %p_int_z17_1, %_ifconv ]
 
-ST_2: p_int_4_vx_write_as (23)  [1/1] 0.00ns  loc: astro.c:17
+ST_2: p_int_4_vx_write_as (77)  [1/1] 0.00ns  loc: astro.c:64
 :20  %p_int_4_vx_write_as = phi i64 [ undef, %0 ], [ %p_int_vx28_1, %_ifconv ]
 
-ST_2: p_int_5_vx_write_as (24)  [1/1] 0.00ns  loc: astro.c:17
+ST_2: p_int_5_vx_write_as (78)  [1/1] 0.00ns  loc: astro.c:64
 :21  %p_int_5_vx_write_as = phi i64 [ undef, %0 ], [ %p_int_vx29_1, %_ifconv ]
 
-ST_2: p_int_3_vx_write_as (25)  [1/1] 0.00ns  loc: astro.c:17
+ST_2: p_int_3_vx_write_as (79)  [1/1] 0.00ns  loc: astro.c:64
 :22  %p_int_3_vx_write_as = phi i64 [ undef, %0 ], [ %p_int_vx27_1, %_ifconv ]
 
-ST_2: p_int_6_vx_write_as (26)  [1/1] 0.00ns  loc: astro.c:17
+ST_2: p_int_6_vx_write_as (80)  [1/1] 0.00ns  loc: astro.c:64
 :23  %p_int_6_vx_write_as = phi i64 [ undef, %0 ], [ %p_int_vx30_1, %_ifconv ]
 
-ST_2: p_int_7_vx_write_as (27)  [1/1] 0.00ns  loc: astro.c:17
+ST_2: p_int_7_vx_write_as (81)  [1/1] 0.00ns  loc: astro.c:64
 :24  %p_int_7_vx_write_as = phi i64 [ undef, %0 ], [ %p_int_vx31_1, %_ifconv ]
 
-ST_2: p_int_2_vx_write_as (28)  [1/1] 0.00ns  loc: astro.c:17
+ST_2: p_int_2_vx_write_as (82)  [1/1] 0.00ns  loc: astro.c:64
 :25  %p_int_2_vx_write_as = phi i64 [ undef, %0 ], [ %p_int_vx26_1, %_ifconv ]
 
-ST_2: p_int_8_vx_write_as (29)  [1/1] 0.00ns  loc: astro.c:17
+ST_2: p_int_8_vx_write_as (83)  [1/1] 0.00ns  loc: astro.c:64
 :26  %p_int_8_vx_write_as = phi i64 [ undef, %0 ], [ %p_int_vx32_1, %_ifconv ]
 
-ST_2: p_int_0_vy_write_as (30)  [1/1] 0.00ns  loc: astro.c:18
+ST_2: p_int_0_vy_write_as (84)  [1/1] 0.00ns  loc: astro.c:65
 :27  %p_int_0_vy_write_as = phi i64 [ undef, %0 ], [ %p_int_vy_1, %_ifconv ]
 
-ST_2: p_int_1_vx_write_as (31)  [1/1] 0.00ns  loc: astro.c:17
+ST_2: p_int_1_vx_write_as (85)  [1/1] 0.00ns  loc: astro.c:64
 :28  %p_int_1_vx_write_as = phi i64 [ undef, %0 ], [ %p_int_vx25_1, %_ifconv ]
 
-ST_2: p_int_1_vy_write_as (32)  [1/1] 0.00ns  loc: astro.c:18
+ST_2: p_int_1_vy_write_as (86)  [1/1] 0.00ns  loc: astro.c:65
 :29  %p_int_1_vy_write_as = phi i64 [ undef, %0 ], [ %p_int_vy33_1, %_ifconv ]
 
-ST_2: p_int_2_vy_write_as (33)  [1/1] 0.00ns  loc: astro.c:18
+ST_2: p_int_2_vy_write_as (87)  [1/1] 0.00ns  loc: astro.c:65
 :30  %p_int_2_vy_write_as = phi i64 [ undef, %0 ], [ %p_int_vy34_1, %_ifconv ]
 
-ST_2: p_int_0_vx_write_as (34)  [1/1] 0.00ns  loc: astro.c:17
+ST_2: p_int_0_vx_write_as (88)  [1/1] 0.00ns  loc: astro.c:64
 :31  %p_int_0_vx_write_as = phi i64 [ undef, %0 ], [ %p_int_vx_1, %_ifconv ]
 
-ST_2: p_int_3_vy_write_as (35)  [1/1] 0.00ns  loc: astro.c:18
+ST_2: p_int_3_vy_write_as (89)  [1/1] 0.00ns  loc: astro.c:65
 :32  %p_int_3_vy_write_as = phi i64 [ undef, %0 ], [ %p_int_vy35_1, %_ifconv ]
 
-ST_2: p_int_4_vy_write_as (36)  [1/1] 0.00ns  loc: astro.c:18
+ST_2: p_int_4_vy_write_as (90)  [1/1] 0.00ns  loc: astro.c:65
 :33  %p_int_4_vy_write_as = phi i64 [ undef, %0 ], [ %p_int_vy36_1, %_ifconv ]
 
-ST_2: p_int_8_z_write_ass (37)  [1/1] 0.00ns  loc: astro.c:16
+ST_2: p_int_8_z_write_ass (91)  [1/1] 0.00ns  loc: astro.c:63
 :34  %p_int_8_z_write_ass = phi i64 [ undef, %0 ], [ %p_int_z24_1, %_ifconv ]
 
-ST_2: p_int_5_vy_write_as (38)  [1/1] 0.00ns  loc: astro.c:18
+ST_2: p_int_5_vy_write_as (92)  [1/1] 0.00ns  loc: astro.c:65
 :35  %p_int_5_vy_write_as = phi i64 [ undef, %0 ], [ %p_int_vy37_1, %_ifconv ]
 
-ST_2: p_int_6_vy_write_as (39)  [1/1] 0.00ns  loc: astro.c:18
+ST_2: p_int_6_vy_write_as (93)  [1/1] 0.00ns  loc: astro.c:65
 :36  %p_int_6_vy_write_as = phi i64 [ undef, %0 ], [ %p_int_vy38_1, %_ifconv ]
 
-ST_2: p_int_7_z_write_ass (40)  [1/1] 0.00ns  loc: astro.c:16
+ST_2: p_int_7_z_write_ass (94)  [1/1] 0.00ns  loc: astro.c:63
 :37  %p_int_7_z_write_ass = phi i64 [ undef, %0 ], [ %p_int_z23_1, %_ifconv ]
 
-ST_2: p_int_7_vy_write_as (41)  [1/1] 0.00ns  loc: astro.c:18
+ST_2: p_int_7_vy_write_as (95)  [1/1] 0.00ns  loc: astro.c:65
 :38  %p_int_7_vy_write_as = phi i64 [ undef, %0 ], [ %p_int_vy39_1, %_ifconv ]
 
-ST_2: p_int_8_vy_write_as (42)  [1/1] 0.00ns  loc: astro.c:18
+ST_2: p_int_8_vy_write_as (96)  [1/1] 0.00ns  loc: astro.c:65
 :39  %p_int_8_vy_write_as = phi i64 [ undef, %0 ], [ %p_int_vy40_1, %_ifconv ]
 
-ST_2: p_int_6_z_write_ass (43)  [1/1] 0.00ns  loc: astro.c:16
+ST_2: p_int_6_z_write_ass (97)  [1/1] 0.00ns  loc: astro.c:63
 :40  %p_int_6_z_write_ass = phi i64 [ undef, %0 ], [ %p_int_z22_1, %_ifconv ]
 
-ST_2: p_int_0_vz_write_as (44)  [1/1] 0.00ns  loc: astro.c:19
+ST_2: p_int_0_vz_write_as (98)  [1/1] 0.00ns  loc: astro.c:66
 :41  %p_int_0_vz_write_as = phi i64 [ undef, %0 ], [ %p_int_vz_1, %_ifconv ]
 
-ST_2: p_int_1_vz_write_as (45)  [1/1] 0.00ns  loc: astro.c:19
+ST_2: p_int_1_vz_write_as (99)  [1/1] 0.00ns  loc: astro.c:66
 :42  %p_int_1_vz_write_as = phi i64 [ undef, %0 ], [ %p_int_vz41_1, %_ifconv ]
 
-ST_2: p_int_5_z_write_ass (46)  [1/1] 0.00ns  loc: astro.c:16
+ST_2: p_int_5_z_write_ass (100)  [1/1] 0.00ns  loc: astro.c:63
 :43  %p_int_5_z_write_ass = phi i64 [ undef, %0 ], [ %p_int_z21_1, %_ifconv ]
 
-ST_2: p_int_2_vz_write_as (47)  [1/1] 0.00ns  loc: astro.c:19
+ST_2: p_int_2_vz_write_as (101)  [1/1] 0.00ns  loc: astro.c:66
 :44  %p_int_2_vz_write_as = phi i64 [ undef, %0 ], [ %p_int_vz42_1, %_ifconv ]
 
-ST_2: p_int_3_vz_write_as (48)  [1/1] 0.00ns  loc: astro.c:19
+ST_2: p_int_3_vz_write_as (102)  [1/1] 0.00ns  loc: astro.c:66
 :45  %p_int_3_vz_write_as = phi i64 [ undef, %0 ], [ %p_int_vz43_1, %_ifconv ]
 
-ST_2: p_int_4_z_write_ass (49)  [1/1] 0.00ns  loc: astro.c:16
+ST_2: p_int_4_z_write_ass (103)  [1/1] 0.00ns  loc: astro.c:63
 :46  %p_int_4_z_write_ass = phi i64 [ undef, %0 ], [ %p_int_z20_1, %_ifconv ]
 
-ST_2: p_int_4_vz_write_as (50)  [1/1] 0.00ns  loc: astro.c:19
+ST_2: p_int_4_vz_write_as (104)  [1/1] 0.00ns  loc: astro.c:66
 :47  %p_int_4_vz_write_as = phi i64 [ undef, %0 ], [ %p_int_vz44_1, %_ifconv ]
 
-ST_2: p_int_5_vz_write_as (51)  [1/1] 0.00ns  loc: astro.c:19
+ST_2: p_int_5_vz_write_as (105)  [1/1] 0.00ns  loc: astro.c:66
 :48  %p_int_5_vz_write_as = phi i64 [ undef, %0 ], [ %p_int_vz45_1, %_ifconv ]
 
-ST_2: p_int_3_z_write_ass (52)  [1/1] 0.00ns  loc: astro.c:16
+ST_2: p_int_3_z_write_ass (106)  [1/1] 0.00ns  loc: astro.c:63
 :49  %p_int_3_z_write_ass = phi i64 [ undef, %0 ], [ %p_int_z19_1, %_ifconv ]
 
-ST_2: p_int_6_vz_write_as (53)  [1/1] 0.00ns  loc: astro.c:19
+ST_2: p_int_6_vz_write_as (107)  [1/1] 0.00ns  loc: astro.c:66
 :50  %p_int_6_vz_write_as = phi i64 [ undef, %0 ], [ %p_int_vz46_1, %_ifconv ]
 
-ST_2: p_int_7_vz_write_as (54)  [1/1] 0.00ns  loc: astro.c:19
+ST_2: p_int_7_vz_write_as (108)  [1/1] 0.00ns  loc: astro.c:66
 :51  %p_int_7_vz_write_as = phi i64 [ undef, %0 ], [ %p_int_vz47_1, %_ifconv ]
 
-ST_2: p_int_2_z_write_ass (55)  [1/1] 0.00ns  loc: astro.c:16
+ST_2: p_int_2_z_write_ass (109)  [1/1] 0.00ns  loc: astro.c:63
 :52  %p_int_2_z_write_ass = phi i64 [ undef, %0 ], [ %p_int_z18_1, %_ifconv ]
 
-ST_2: p_int_8_vz_write_as (56)  [1/1] 0.00ns  loc: astro.c:19
+ST_2: p_int_8_vz_write_as (110)  [1/1] 0.00ns  loc: astro.c:66
 :53  %p_int_8_vz_write_as = phi i64 [ undef, %0 ], [ %p_int_vz48_1, %_ifconv ]
 
-ST_2: i (57)  [1/1] 0.00ns  loc: astro.c:12
+ST_2: i (111)  [1/1] 0.00ns  loc: astro.c:59
 :54  %i = phi i4 [ 0, %0 ], [ %i_1_2, %_ifconv ]
 
-ST_2: empty (58)  [1/1] 0.00ns
+ST_2: empty (112)  [1/1] 0.00ns
 :55  %empty = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 3, i64 3, i64 3)
 
-ST_2: tmp (59)  [1/1] 0.39ns  loc: astro.c:12
+ST_2: tmp (113)  [1/1] 0.39ns  loc: astro.c:59
 :56  %tmp = icmp eq i4 %i, -7
 
-ST_2: StgValue_78 (60)  [1/1] 0.00ns  loc: astro.c:12
+ST_2: StgValue_78 (114)  [1/1] 0.00ns  loc: astro.c:59
 :57  br i1 %tmp, label %2, label %_ifconv
 
-ST_2: sel_tmp (62)  [1/1] 0.39ns  loc: astro.c:14
-_ifconv:0  %sel_tmp = icmp eq i4 %i, 3
+ST_2: p_x_6_load (116)  [1/1] 0.00ns  loc: astro.c:61
+_ifconv:0  %p_x_6_load = load double* @p_x_6, align 16
 
-ST_2: sel_tmp2 (63)  [1/1] 0.39ns  loc: astro.c:14
-_ifconv:1  %sel_tmp2 = icmp eq i4 %i, 0
+ST_2: p_x_0_load (117)  [1/1] 0.00ns  loc: astro.c:61
+_ifconv:1  %p_x_0_load = load double* @p_x_0, align 16
 
-ST_2: sel_tmp1 (64)  [1/1] 0.00ns  loc: astro.c:14 (grouped into LUT with out node p_x_load_0_phi)
-_ifconv:2  %sel_tmp1 = select i1 %sel_tmp2, double 0x3F61C8E693683811, double 0x3FEA9286B17974A3
+ST_2: p_x_3_load (118)  [1/1] 0.00ns  loc: astro.c:61
+_ifconv:2  %p_x_3_load = load double* @p_x_3, align 16
 
-ST_2: tmp_1 (65)  [1/1] 0.04ns  loc: astro.c:14
-_ifconv:3  %tmp_1 = or i1 %sel_tmp2, %sel_tmp
+ST_2: sel_tmp (119)  [1/1] 0.39ns  loc: astro.c:61
+_ifconv:3  %sel_tmp = icmp eq i4 %i, 0
 
-ST_2: p_x_load_0_phi (66)  [1/1] 0.07ns  loc: astro.c:14 (out node of the LUT)
-_ifconv:4  %p_x_load_0_phi = select i1 %tmp_1, double %sel_tmp1, double 0xBFD3307121192C06
+ST_2: sel_tmp1 (120)  [1/1] 0.00ns  loc: astro.c:61 (grouped into LUT with out node p_x_load_0_phi)
+_ifconv:4  %sel_tmp1 = select i1 %sel_tmp, double %p_x_0_load, double %p_x_6_load
 
-ST_2: tmp_2 (67)  [17/17] 7.11ns  loc: astro.c:14
-_ifconv:5  %tmp_2 = fdiv double %p_x_load_0_phi, 1.000000e-16
+ST_2: sel_tmp2 (121)  [1/1] 0.39ns  loc: astro.c:61
+_ifconv:5  %sel_tmp2 = icmp eq i4 %i, 3
 
-ST_2: tmp_3 (72)  [1/1] 0.00ns  loc: astro.c:15 (grouped into LUT with out node p_y_load_0_phi)
-_ifconv:10  %tmp_3 = select i1 %sel_tmp, double 0x3FE1C3FE1FA86D35, double 0x3F77B17E896D4129
+ST_2: p_x_load_0_phi (122)  [1/1] 0.07ns  loc: astro.c:61 (out node of the LUT)
+_ifconv:6  %p_x_load_0_phi = select i1 %sel_tmp2, double %p_x_3_load, double %sel_tmp1
 
-ST_2: p_y_load_0_phi (73)  [1/1] 0.07ns  loc: astro.c:15 (out node of the LUT)
-_ifconv:11  %p_y_load_0_phi = select i1 %tmp_1, double %tmp_3, double 0xC0241A39E25E85F4
+ST_2: tmp_2 (123)  [17/17] 7.11ns  loc: astro.c:61
+_ifconv:7  %tmp_2 = fdiv double %p_x_load_0_phi, 1.000000e-16
 
-ST_2: tmp_5 (74)  [17/17] 7.11ns  loc: astro.c:15
-_ifconv:12  %tmp_5 = fdiv double %p_y_load_0_phi, 1.000000e-16
+ST_2: p_y_6_load (128)  [1/1] 0.00ns  loc: astro.c:62
+_ifconv:12  %p_y_6_load = load double* @p_y_6, align 8
 
-ST_2: tmp_6 (79)  [1/1] 0.00ns  loc: astro.c:16 (grouped into LUT with out node p_z_load_0_phi)
-_ifconv:17  %tmp_6 = select i1 %sel_tmp, double 0xBF2465D41C124A40, double 0xBF20E99E2D034213
+ST_2: p_y_0_load (129)  [1/1] 0.00ns  loc: astro.c:62
+_ifconv:13  %p_y_0_load = load double* @p_y_0, align 8
 
-ST_2: p_z_load_0_phi (80)  [1/1] 0.07ns  loc: astro.c:16 (out node of the LUT)
-_ifconv:18  %p_z_load_0_phi = select i1 %tmp_1, double %tmp_6, double 0x3FC7E5989FEBDF52
+ST_2: p_y_3_load (130)  [1/1] 0.00ns  loc: astro.c:62
+_ifconv:14  %p_y_3_load = load double* @p_y_3, align 8
 
-ST_2: tmp_7 (81)  [17/17] 7.11ns  loc: astro.c:16
-_ifconv:19  %tmp_7 = fdiv double %p_z_load_0_phi, 1.000000e-16
+ST_2: sel_tmp5 (131)  [1/1] 0.00ns  loc: astro.c:62 (grouped into LUT with out node p_y_load_0_phi)
+_ifconv:15  %sel_tmp5 = select i1 %sel_tmp, double %p_y_0_load, double %p_y_6_load
 
-ST_2: tmp_9 (86)  [1/1] 0.00ns  loc: astro.c:17 (grouped into LUT with out node p_vx_load_0_phi)
-_ifconv:24  %tmp_9 = select i1 %sel_tmp, double 0xBFE238DAECF98D5A, double 0xBF34379C52A2C552
+ST_2: p_y_load_0_phi (132)  [1/1] 0.07ns  loc: astro.c:62 (out node of the LUT)
+_ifconv:16  %p_y_load_0_phi = select i1 %sel_tmp2, double %p_y_3_load, double %sel_tmp5
 
-ST_2: p_vx_load_0_phi (87)  [1/1] 0.07ns  loc: astro.c:17 (out node of the LUT)
-_ifconv:25  %p_vx_load_0_phi = select i1 %tmp_1, double %tmp_9, double 0x3FD39B66EF2B2F4F
+ST_2: tmp_4 (133)  [17/17] 7.11ns  loc: astro.c:62
+_ifconv:17  %tmp_4 = fdiv double %p_y_load_0_phi, 1.000000e-16
 
-ST_2: tmp_8 (88)  [17/17] 7.11ns  loc: astro.c:17
-_ifconv:26  %tmp_8 = fdiv double %p_vx_load_0_phi, 1.000000e-16
+ST_2: p_z_6_load (138)  [1/1] 0.00ns  loc: astro.c:63
+_ifconv:22  %p_z_6_load = load double* @p_z_6, align 16
 
-ST_2: tmp_4 (93)  [1/1] 0.00ns  loc: astro.c:18 (grouped into LUT with out node p_vy_load_0_phi)
-_ifconv:31  %tmp_4 = select i1 %sel_tmp, double 0x3FEA8FA78A436C92, double 0x3F34BDC20AA5CC77
+ST_2: p_z_0_load (139)  [1/1] 0.00ns  loc: astro.c:63
+_ifconv:23  %p_z_0_load = load double* @p_z_0, align 16
 
-ST_2: p_vy_load_0_phi (94)  [1/1] 0.07ns  loc: astro.c:18 (out node of the LUT)
-_ifconv:32  %p_vy_load_0_phi = select i1 %tmp_1, double %tmp_4, double 0xBF85F0F79C6BDB23
+ST_2: p_z_3_load (140)  [1/1] 0.00ns  loc: astro.c:63
+_ifconv:24  %p_z_3_load = load double* @p_z_3, align 16
 
-ST_2: tmp_s (95)  [17/17] 7.11ns  loc: astro.c:18
-_ifconv:33  %tmp_s = fdiv double %p_vy_load_0_phi, 1.000000e-16
+ST_2: sel_tmp9 (141)  [1/1] 0.00ns  loc: astro.c:63 (grouped into LUT with out node p_z_load_0_phi)
+_ifconv:25  %sel_tmp9 = select i1 %sel_tmp, double %p_z_0_load, double %p_z_6_load
 
-ST_2: tmp_10 (100)  [1/1] 0.00ns  loc: astro.c:19 (grouped into LUT with out node p_vz_load_0_phi)
-_ifconv:38  %tmp_10 = select i1 %sel_tmp, double 0xBEFA43F02C76C8AB, double 0x3EDE8F5A3EB9DCFC
+ST_2: p_z_load_0_phi (142)  [1/1] 0.07ns  loc: astro.c:63 (out node of the LUT)
+_ifconv:26  %p_z_load_0_phi = select i1 %sel_tmp2, double %p_z_3_load, double %sel_tmp9
 
-ST_2: p_vz_load_0_phi (101)  [1/1] 0.07ns  loc: astro.c:19 (out node of the LUT)
-_ifconv:39  %p_vz_load_0_phi = select i1 %tmp_1, double %tmp_10, double 0xBF88973D44583149
+ST_2: tmp_6 (143)  [17/17] 7.11ns  loc: astro.c:63
+_ifconv:27  %tmp_6 = fdiv double %p_z_load_0_phi, 1.000000e-16
 
-ST_2: tmp_11 (102)  [17/17] 7.11ns  loc: astro.c:19
-_ifconv:40  %tmp_11 = fdiv double %p_vz_load_0_phi, 1.000000e-16
+ST_2: p_vx_6_load (148)  [1/1] 0.00ns  loc: astro.c:64
+_ifconv:32  %p_vx_6_load = load double* @p_vx_6, align 8
 
-ST_2: i_1_0_t (107)  [1/1] 1.03ns  loc: astro.c:12
-_ifconv:45  %i_1_0_t = add i4 %i, 1
+ST_2: p_vx_0_load (149)  [1/1] 0.00ns  loc: astro.c:64
+_ifconv:33  %p_vx_0_load = load double* @p_vx_0, align 8
 
-ST_2: tmp_12 (108)  [1/1] 0.39ns  loc: astro.c:12
-_ifconv:46  %tmp_12 = icmp eq i4 %i_1_0_t, 4
+ST_2: p_vx_3_load (150)  [1/1] 0.00ns  loc: astro.c:64
+_ifconv:34  %p_vx_3_load = load double* @p_vx_3, align 8
 
-ST_2: tmp_13 (109)  [1/1] 0.00ns  loc: astro.c:14 (grouped into LUT with out node p_x_load_1_phi)
-_ifconv:47  %tmp_13 = select i1 %tmp_12, double 0xBFF99CB9F9E42F76, double 0xBFC3927878C2E34A
+ST_2: sel_tmp3 (151)  [1/1] 0.00ns  loc: astro.c:64 (grouped into LUT with out node p_vx_load_0_phi)
+_ifconv:35  %sel_tmp3 = select i1 %sel_tmp, double %p_vx_0_load, double %p_vx_6_load
 
-ST_2: tmp_14 (110)  [1/1] 0.04ns  loc: astro.c:14
-_ifconv:48  %tmp_14 = or i1 %tmp_12, %sel_tmp2
+ST_2: p_vx_load_0_phi (152)  [1/1] 0.07ns  loc: astro.c:64 (out node of the LUT)
+_ifconv:36  %p_vx_load_0_phi = select i1 %sel_tmp2, double %p_vx_3_load, double %sel_tmp3
 
-ST_2: p_x_load_1_phi (111)  [1/1] 0.07ns  loc: astro.c:14 (out node of the LUT)
-_ifconv:49  %p_x_load_1_phi = select i1 %tmp_14, double %tmp_13, double 0x4031D783AF637DB7
+ST_2: tmp_8 (153)  [17/17] 7.11ns  loc: astro.c:64
+_ifconv:37  %tmp_8 = fdiv double %p_vx_load_0_phi, 1.000000e-16
 
-ST_2: tmp_2_1 (112)  [17/17] 7.11ns  loc: astro.c:14
-_ifconv:50  %tmp_2_1 = fdiv double %p_x_load_1_phi, 1.000000e-16
+ST_2: p_vy_6_load (158)  [1/1] 0.00ns  loc: astro.c:65
+_ifconv:42  %p_vy_6_load = load double* @p_vy_6, align 16
 
-ST_2: tmp_15 (117)  [1/1] 0.00ns  loc: astro.c:15 (grouped into LUT with out node p_y_load_1_phi)
-_ifconv:55  %tmp_15 = select i1 %tmp_12, double 0x3FDCD9A6C1889FBB, double 0xBFDBB5B2C08236D6
+ST_2: p_vy_0_load (159)  [1/1] 0.00ns  loc: astro.c:65
+_ifconv:43  %p_vy_0_load = load double* @p_vy_0, align 16
 
-ST_2: p_y_load_1_phi (118)  [1/1] 0.07ns  loc: astro.c:15 (out node of the LUT)
-_ifconv:56  %p_y_load_1_phi = select i1 %tmp_14, double %tmp_15, double 0x4021AFCF747ADCA3
+ST_2: p_vy_3_load (160)  [1/1] 0.00ns  loc: astro.c:65
+_ifconv:44  %p_vy_3_load = load double* @p_vy_3, align 16
 
-ST_2: tmp_4_1 (119)  [17/17] 7.11ns  loc: astro.c:15
-_ifconv:57  %tmp_4_1 = fdiv double %p_y_load_1_phi, 1.000000e-16
+ST_2: sel_tmp4 (161)  [1/1] 0.00ns  loc: astro.c:65 (grouped into LUT with out node p_vy_load_0_phi)
+_ifconv:45  %sel_tmp4 = select i1 %sel_tmp, double %p_vy_0_load, double %p_vy_6_load
 
-ST_2: tmp_16 (124)  [1/1] 0.00ns  loc: astro.c:16 (grouped into LUT with out node p_z_load_1_phi)
-_ifconv:62  %tmp_16 = select i1 %tmp_12, double 0x3FA8D9956609AAD1, double 0xBF964698DBEFCB0B
+ST_2: p_vy_load_0_phi (162)  [1/1] 0.07ns  loc: astro.c:65 (out node of the LUT)
+_ifconv:46  %p_vy_load_0_phi = select i1 %sel_tmp2, double %p_vy_3_load, double %sel_tmp4
 
-ST_2: p_z_load_1_phi (125)  [1/1] 0.07ns  loc: astro.c:16 (out node of the LUT)
-_ifconv:63  %p_z_load_1_phi = select i1 %tmp_14, double %tmp_16, double 0xBFC961E0BE157C12
+ST_2: tmp_s (163)  [17/17] 7.11ns  loc: astro.c:65
+_ifconv:47  %tmp_s = fdiv double %p_vy_load_0_phi, 1.000000e-16
 
-ST_2: tmp_6_1 (126)  [17/17] 7.11ns  loc: astro.c:16
-_ifconv:64  %tmp_6_1 = fdiv double %p_z_load_1_phi, 1.000000e-16
+ST_2: p_vz_6_load (168)  [1/1] 0.00ns  loc: astro.c:66
+_ifconv:52  %p_vz_6_load = load double* @p_vz_6, align 8
 
-ST_2: tmp_17 (131)  [1/1] 0.00ns  loc: astro.c:17 (grouped into LUT with out node p_vx_load_1_phi)
-_ifconv:69  %tmp_17 = select i1 %tmp_12, double 0xBFC7FEE458000E0D, double 0x3FF368D039E12295
+ST_2: p_vz_0_load (169)  [1/1] 0.00ns  loc: astro.c:66
+_ifconv:53  %p_vz_0_load = load double* @p_vz_0, align 8
 
-ST_2: p_vx_load_1_phi (132)  [1/1] 0.07ns  loc: astro.c:17 (out node of the LUT)
-_ifconv:70  %p_vx_load_1_phi = select i1 %tmp_14, double %tmp_17, double 0xBFBA6C2D89FC4D33
+ST_2: p_vz_3_load (170)  [1/1] 0.00ns  loc: astro.c:66
+_ifconv:54  %p_vz_3_load = load double* @p_vz_3, align 8
 
-ST_2: tmp_8_1 (133)  [17/17] 7.11ns  loc: astro.c:17
-_ifconv:71  %tmp_8_1 = fdiv double %p_vx_load_1_phi, 1.000000e-16
+ST_2: sel_tmp6 (171)  [1/1] 0.00ns  loc: astro.c:66 (grouped into LUT with out node p_vz_load_0_phi)
+_ifconv:55  %sel_tmp6 = select i1 %sel_tmp, double %p_vz_0_load, double %p_vz_6_load
 
-ST_2: tmp_18 (138)  [1/1] 0.00ns  loc: astro.c:18 (grouped into LUT with out node p_vy_load_1_phi)
-_ifconv:76  %tmp_18 = select i1 %tmp_12, double 0xBFE6D947030952B4, double 0xBFDDACB633B56C17
+ST_2: p_vz_load_0_phi (172)  [1/1] 0.07ns  loc: astro.c:66 (out node of the LUT)
+_ifconv:56  %p_vz_load_0_phi = select i1 %sel_tmp2, double %p_vz_3_load, double %sel_tmp6
 
-ST_2: p_vy_load_1_phi (139)  [1/1] 0.07ns  loc: astro.c:18 (out node of the LUT)
-_ifconv:77  %p_vy_load_1_phi = select i1 %tmp_14, double %tmp_18, double 0x3FC8DB85A5B42410
+ST_2: tmp_1 (173)  [17/17] 7.11ns  loc: astro.c:66
+_ifconv:57  %tmp_1 = fdiv double %p_vz_load_0_phi, 1.000000e-16
 
-ST_2: tmp_1_6 (140)  [17/17] 7.11ns  loc: astro.c:18
-_ifconv:78  %tmp_1_6 = fdiv double %p_vy_load_1_phi, 1.000000e-16
+ST_2: p_x_7_load (179)  [1/1] 0.00ns  loc: astro.c:61
+_ifconv:63  %p_x_7_load = load double* @p_x_7, align 16
 
-ST_2: tmp_19 (145)  [1/1] 0.00ns  loc: astro.c:19 (grouped into LUT with out node p_vz_load_1_phi)
-_ifconv:83  %tmp_19 = select i1 %tmp_12, double 0xBF853C4453159B2B, double 0xBFC319BD79AF55DD
+ST_2: p_x_1_load (180)  [1/1] 0.00ns  loc: astro.c:61
+_ifconv:64  %p_x_1_load = load double* @p_x_1, align 16
 
-ST_2: p_vz_load_1_phi (146)  [1/1] 0.07ns  loc: astro.c:19 (out node of the LUT)
-_ifconv:84  %p_vz_load_1_phi = select i1 %tmp_14, double %tmp_19, double 0x3F60DCF854CE4C7C
+ST_2: p_x_4_load (181)  [1/1] 0.00ns  loc: astro.c:61
+_ifconv:65  %p_x_4_load = load double* @p_x_4, align 16
 
-ST_2: tmp_11_1 (147)  [17/17] 7.11ns  loc: astro.c:19
-_ifconv:85  %tmp_11_1 = fdiv double %p_vz_load_1_phi, 1.000000e-16
+ST_2: sel_tmp7 (182)  [1/1] 0.00ns  loc: astro.c:61 (grouped into LUT with out node p_x_load_1_phi)
+_ifconv:66  %sel_tmp7 = select i1 %sel_tmp, double %p_x_1_load, double %p_x_7_load
 
-ST_2: i_1_1_t (152)  [1/1] 1.03ns  loc: astro.c:12
-_ifconv:90  %i_1_1_t = add i4 %i, 2
+ST_2: p_x_load_1_phi (183)  [1/1] 0.07ns  loc: astro.c:61 (out node of the LUT)
+_ifconv:67  %p_x_load_1_phi = select i1 %sel_tmp2, double %p_x_4_load, double %sel_tmp7
 
-ST_2: tmp_21 (153)  [1/1] 0.39ns  loc: astro.c:12
-_ifconv:91  %tmp_21 = icmp eq i4 %i_1_1_t, 5
+ST_2: tmp_2_1 (184)  [17/17] 7.11ns  loc: astro.c:61
+_ifconv:68  %tmp_2_1 = fdiv double %p_x_load_1_phi, 1.000000e-16
 
-ST_2: tmp_20 (154)  [1/1] 0.00ns  loc: astro.c:14 (grouped into LUT with out node p_x_load_2_phi)
-_ifconv:92  %tmp_20 = select i1 %tmp_21, double 0xC0122D8A2D8E41D1, double 0xBFE6907EC81DDB80
+ST_2: p_y_7_load (189)  [1/1] 0.00ns  loc: astro.c:62
+_ifconv:73  %p_y_7_load = load double* @p_y_7, align 8
 
-ST_2: tmp_27 (155)  [1/1] 0.04ns  loc: astro.c:14
-_ifconv:93  %tmp_27 = or i1 %tmp_21, %sel_tmp2
+ST_2: p_y_1_load (190)  [1/1] 0.00ns  loc: astro.c:62
+_ifconv:74  %p_y_1_load = load double* @p_y_1, align 8
 
-ST_2: p_x_load_2_phi (156)  [1/1] 0.07ns  loc: astro.c:14 (out node of the LUT)
-_ifconv:94  %p_x_load_2_phi = select i1 %tmp_27, double %tmp_20, double 0x403C9F7653CCEE75
+ST_2: p_y_4_load (191)  [1/1] 0.00ns  loc: astro.c:62
+_ifconv:75  %p_y_4_load = load double* @p_y_4, align 8
 
-ST_2: tmp_2_2 (157)  [17/17] 7.11ns  loc: astro.c:14
-_ifconv:95  %tmp_2_2 = fdiv double %p_x_load_2_phi, 1.000000e-16
+ST_2: sel_tmp8 (192)  [1/1] 0.00ns  loc: astro.c:62 (grouped into LUT with out node p_y_load_1_phi)
+_ifconv:76  %sel_tmp8 = select i1 %sel_tmp, double %p_y_1_load, double %p_y_7_load
 
-ST_2: tmp_22 (162)  [1/1] 0.00ns  loc: astro.c:15 (grouped into LUT with out node p_y_load_2_phi)
-_ifconv:100  %tmp_22 = select i1 %tmp_21, double 0xC007D955EEEAB803, double 0x3FC0B46DAED4F4AD
+ST_2: p_y_load_1_phi (193)  [1/1] 0.07ns  loc: astro.c:62 (out node of the LUT)
+_ifconv:77  %p_y_load_1_phi = select i1 %sel_tmp2, double %p_y_4_load, double %sel_tmp8
 
-ST_2: p_y_load_2_phi (163)  [1/1] 0.07ns  loc: astro.c:15 (out node of the LUT)
-_ifconv:101  %p_y_load_2_phi = select i1 %tmp_27, double %tmp_22, double 0xC0219502573C37FA
+ST_2: tmp_4_1 (194)  [17/17] 7.11ns  loc: astro.c:62
+_ifconv:78  %tmp_4_1 = fdiv double %p_y_load_1_phi, 1.000000e-16
 
-ST_2: tmp_4_2 (164)  [17/17] 7.11ns  loc: astro.c:15
-_ifconv:102  %tmp_4_2 = fdiv double %p_y_load_2_phi, 1.000000e-16
+ST_2: p_z_7_load (199)  [1/1] 0.00ns  loc: astro.c:63
+_ifconv:83  %p_z_7_load = load double* @p_z_7, align 16
 
-ST_2: tmp_23 (169)  [1/1] 0.00ns  loc: astro.c:16 (grouped into LUT with out node p_z_load_2_phi)
-_ifconv:107  %tmp_23 = select i1 %tmp_21, double 0x3FBD2FDCD0179FA4, double 0x3FA5B5322CF8CE05
+ST_2: p_z_1_load (200)  [1/1] 0.00ns  loc: astro.c:63
+_ifconv:84  %p_z_1_load = load double* @p_z_1, align 16
 
-ST_2: p_z_load_2_phi (170)  [1/1] 0.07ns  loc: astro.c:16 (out node of the LUT)
-_ifconv:108  %p_z_load_2_phi = select i1 %tmp_27, double %tmp_23, double 0xBFDEA187B634DB1A
+ST_2: p_z_4_load (201)  [1/1] 0.00ns  loc: astro.c:63
+_ifconv:85  %p_z_4_load = load double* @p_z_4, align 16
 
-ST_2: tmp_6_2 (171)  [17/17] 7.11ns  loc: astro.c:16
-_ifconv:109  %tmp_6_2 = fdiv double %p_z_load_2_phi, 1.000000e-16
+ST_2: sel_tmp10 (202)  [1/1] 0.00ns  loc: astro.c:63 (grouped into LUT with out node p_z_load_1_phi)
+_ifconv:86  %sel_tmp10 = select i1 %sel_tmp, double %p_z_1_load, double %p_z_7_load
 
-ST_2: tmp_24 (176)  [1/1] 0.00ns  loc: astro.c:17 (grouped into LUT with out node p_vx_load_2_phi)
-_ifconv:114  %tmp_24 = select i1 %tmp_21, double 0x3FCE23C71B55DC83, double 0xBFCAF89B7302DA8D
+ST_2: p_z_load_1_phi (203)  [1/1] 0.07ns  loc: astro.c:63 (out node of the LUT)
+_ifconv:87  %p_z_load_1_phi = select i1 %sel_tmp2, double %p_z_4_load, double %sel_tmp10
 
-ST_2: p_vx_load_2_phi (177)  [1/1] 0.07ns  loc: astro.c:17 (out node of the LUT)
-_ifconv:115  %p_vx_load_2_phi = select i1 %tmp_27, double %tmp_24, double 0x3FAACF601FAEFFED
+ST_2: tmp_6_1 (204)  [17/17] 7.11ns  loc: astro.c:63
+_ifconv:88  %tmp_6_1 = fdiv double %p_z_load_1_phi, 1.000000e-16
 
-ST_2: tmp_8_2 (178)  [17/17] 7.11ns  loc: astro.c:17
-_ifconv:116  %tmp_8_2 = fdiv double %p_vx_load_2_phi, 1.000000e-16
+ST_2: p_vx_7_load (209)  [1/1] 0.00ns  loc: astro.c:64
+_ifconv:93  %p_vx_7_load = load double* @p_vx_7, align 8
 
-ST_2: tmp_25 (183)  [1/1] 0.00ns  loc: astro.c:18 (grouped into LUT with out node p_vy_load_2_phi)
-_ifconv:121  %tmp_25 = select i1 %tmp_21, double 0xBFD6241DECB5C325, double 0xBFF29B21E53B95B9
+ST_2: p_vx_1_load (210)  [1/1] 0.00ns  loc: astro.c:64
+_ifconv:94  %p_vx_1_load = load double* @p_vx_1, align 8
 
-ST_2: p_vy_load_2_phi (184)  [1/1] 0.07ns  loc: astro.c:18 (out node of the LUT)
-_ifconv:122  %p_vy_load_2_phi = select i1 %tmp_27, double %tmp_25, double 0x3FC677B23A587859
+ST_2: p_vx_4_load (211)  [1/1] 0.00ns  loc: astro.c:64
+_ifconv:95  %p_vx_4_load = load double* @p_vx_4, align 8
 
-ST_2: tmp_2_7 (185)  [17/17] 7.11ns  loc: astro.c:18
-_ifconv:123  %tmp_2_7 = fdiv double %p_vy_load_2_phi, 1.000000e-16
+ST_2: sel_tmp11 (212)  [1/1] 0.00ns  loc: astro.c:64 (grouped into LUT with out node p_vx_load_1_phi)
+_ifconv:96  %sel_tmp11 = select i1 %sel_tmp, double %p_vx_1_load, double %p_vx_7_load
 
-ST_2: tmp_26 (190)  [1/1] 0.00ns  loc: astro.c:19 (grouped into LUT with out node p_vz_load_2_phi)
-_ifconv:128  %tmp_26 = select i1 %tmp_21, double 0xBF6F613A0D086259, double 0xBF6F2F613DADF176
+ST_2: p_vx_load_1_phi (213)  [1/1] 0.07ns  loc: astro.c:64 (out node of the LUT)
+_ifconv:97  %p_vx_load_1_phi = select i1 %sel_tmp2, double %p_vx_4_load, double %sel_tmp11
 
-ST_2: p_vz_load_2_phi (191)  [1/1] 0.07ns  loc: astro.c:19 (out node of the LUT)
-_ifconv:129  %p_vz_load_2_phi = select i1 %tmp_27, double %tmp_26, double 0xBF73BF9E2E3C5383
+ST_2: tmp_8_1 (214)  [17/17] 7.11ns  loc: astro.c:64
+_ifconv:98  %tmp_8_1 = fdiv double %p_vx_load_1_phi, 1.000000e-16
 
-ST_2: tmp_11_2 (192)  [17/17] 7.11ns  loc: astro.c:19
-_ifconv:130  %tmp_11_2 = fdiv double %p_vz_load_2_phi, 1.000000e-16
+ST_2: p_vy_7_load (219)  [1/1] 0.00ns  loc: astro.c:65
+_ifconv:103  %p_vy_7_load = load double* @p_vy_7, align 16
 
-ST_2: mrv (200)  [1/1] 0.00ns  loc: astro.c:21
+ST_2: p_vy_1_load (220)  [1/1] 0.00ns  loc: astro.c:65
+_ifconv:104  %p_vy_1_load = load double* @p_vy_1, align 16
+
+ST_2: p_vy_4_load (221)  [1/1] 0.00ns  loc: astro.c:65
+_ifconv:105  %p_vy_4_load = load double* @p_vy_4, align 16
+
+ST_2: sel_tmp12 (222)  [1/1] 0.00ns  loc: astro.c:65 (grouped into LUT with out node p_vy_load_1_phi)
+_ifconv:106  %sel_tmp12 = select i1 %sel_tmp, double %p_vy_1_load, double %p_vy_7_load
+
+ST_2: p_vy_load_1_phi (223)  [1/1] 0.07ns  loc: astro.c:65 (out node of the LUT)
+_ifconv:107  %p_vy_load_1_phi = select i1 %sel_tmp2, double %p_vy_4_load, double %sel_tmp12
+
+ST_2: tmp_1_6 (224)  [17/17] 7.11ns  loc: astro.c:65
+_ifconv:108  %tmp_1_6 = fdiv double %p_vy_load_1_phi, 1.000000e-16
+
+ST_2: p_vz_7_load (229)  [1/1] 0.00ns  loc: astro.c:66
+_ifconv:113  %p_vz_7_load = load double* @p_vz_7, align 8
+
+ST_2: p_vz_1_load (230)  [1/1] 0.00ns  loc: astro.c:66
+_ifconv:114  %p_vz_1_load = load double* @p_vz_1, align 8
+
+ST_2: p_vz_4_load (231)  [1/1] 0.00ns  loc: astro.c:66
+_ifconv:115  %p_vz_4_load = load double* @p_vz_4, align 8
+
+ST_2: sel_tmp13 (232)  [1/1] 0.00ns  loc: astro.c:66 (grouped into LUT with out node p_vz_load_1_phi)
+_ifconv:116  %sel_tmp13 = select i1 %sel_tmp, double %p_vz_1_load, double %p_vz_7_load
+
+ST_2: p_vz_load_1_phi (233)  [1/1] 0.07ns  loc: astro.c:66 (out node of the LUT)
+_ifconv:117  %p_vz_load_1_phi = select i1 %sel_tmp2, double %p_vz_4_load, double %sel_tmp13
+
+ST_2: tmp_11_1 (234)  [17/17] 7.11ns  loc: astro.c:66
+_ifconv:118  %tmp_11_1 = fdiv double %p_vz_load_1_phi, 1.000000e-16
+
+ST_2: p_x_8_load (240)  [1/1] 0.00ns  loc: astro.c:61
+_ifconv:124  %p_x_8_load = load double* @p_x_8, align 16
+
+ST_2: p_x_2_load (241)  [1/1] 0.00ns  loc: astro.c:61
+_ifconv:125  %p_x_2_load = load double* @p_x_2, align 16
+
+ST_2: p_x_5_load (242)  [1/1] 0.00ns  loc: astro.c:61
+_ifconv:126  %p_x_5_load = load double* @p_x_5, align 16
+
+ST_2: sel_tmp14 (243)  [1/1] 0.00ns  loc: astro.c:61 (grouped into LUT with out node p_x_load_2_phi)
+_ifconv:127  %sel_tmp14 = select i1 %sel_tmp, double %p_x_2_load, double %p_x_8_load
+
+ST_2: p_x_load_2_phi (244)  [1/1] 0.07ns  loc: astro.c:61 (out node of the LUT)
+_ifconv:128  %p_x_load_2_phi = select i1 %sel_tmp2, double %p_x_5_load, double %sel_tmp14
+
+ST_2: tmp_2_2 (245)  [17/17] 7.11ns  loc: astro.c:61
+_ifconv:129  %tmp_2_2 = fdiv double %p_x_load_2_phi, 1.000000e-16
+
+ST_2: p_y_8_load (250)  [1/1] 0.00ns  loc: astro.c:62
+_ifconv:134  %p_y_8_load = load double* @p_y_8, align 8
+
+ST_2: p_y_2_load (251)  [1/1] 0.00ns  loc: astro.c:62
+_ifconv:135  %p_y_2_load = load double* @p_y_2, align 8
+
+ST_2: p_y_5_load (252)  [1/1] 0.00ns  loc: astro.c:62
+_ifconv:136  %p_y_5_load = load double* @p_y_5, align 8
+
+ST_2: sel_tmp15 (253)  [1/1] 0.00ns  loc: astro.c:62 (grouped into LUT with out node p_y_load_2_phi)
+_ifconv:137  %sel_tmp15 = select i1 %sel_tmp, double %p_y_2_load, double %p_y_8_load
+
+ST_2: p_y_load_2_phi (254)  [1/1] 0.07ns  loc: astro.c:62 (out node of the LUT)
+_ifconv:138  %p_y_load_2_phi = select i1 %sel_tmp2, double %p_y_5_load, double %sel_tmp15
+
+ST_2: tmp_4_2 (255)  [17/17] 7.11ns  loc: astro.c:62
+_ifconv:139  %tmp_4_2 = fdiv double %p_y_load_2_phi, 1.000000e-16
+
+ST_2: p_z_8_load (260)  [1/1] 0.00ns  loc: astro.c:63
+_ifconv:144  %p_z_8_load = load double* @p_z_8, align 16
+
+ST_2: p_z_2_load (261)  [1/1] 0.00ns  loc: astro.c:63
+_ifconv:145  %p_z_2_load = load double* @p_z_2, align 16
+
+ST_2: p_z_5_load (262)  [1/1] 0.00ns  loc: astro.c:63
+_ifconv:146  %p_z_5_load = load double* @p_z_5, align 16
+
+ST_2: sel_tmp16 (263)  [1/1] 0.00ns  loc: astro.c:63 (grouped into LUT with out node p_z_load_2_phi)
+_ifconv:147  %sel_tmp16 = select i1 %sel_tmp, double %p_z_2_load, double %p_z_8_load
+
+ST_2: p_z_load_2_phi (264)  [1/1] 0.07ns  loc: astro.c:63 (out node of the LUT)
+_ifconv:148  %p_z_load_2_phi = select i1 %sel_tmp2, double %p_z_5_load, double %sel_tmp16
+
+ST_2: tmp_6_2 (265)  [17/17] 7.11ns  loc: astro.c:63
+_ifconv:149  %tmp_6_2 = fdiv double %p_z_load_2_phi, 1.000000e-16
+
+ST_2: p_vx_8_load (270)  [1/1] 0.00ns  loc: astro.c:64
+_ifconv:154  %p_vx_8_load = load double* @p_vx_8, align 8
+
+ST_2: p_vx_2_load (271)  [1/1] 0.00ns  loc: astro.c:64
+_ifconv:155  %p_vx_2_load = load double* @p_vx_2, align 8
+
+ST_2: p_vx_5_load (272)  [1/1] 0.00ns  loc: astro.c:64
+_ifconv:156  %p_vx_5_load = load double* @p_vx_5, align 8
+
+ST_2: sel_tmp17 (273)  [1/1] 0.00ns  loc: astro.c:64 (grouped into LUT with out node p_vx_load_2_phi)
+_ifconv:157  %sel_tmp17 = select i1 %sel_tmp, double %p_vx_2_load, double %p_vx_8_load
+
+ST_2: p_vx_load_2_phi (274)  [1/1] 0.07ns  loc: astro.c:64 (out node of the LUT)
+_ifconv:158  %p_vx_load_2_phi = select i1 %sel_tmp2, double %p_vx_5_load, double %sel_tmp17
+
+ST_2: tmp_8_2 (275)  [17/17] 7.11ns  loc: astro.c:64
+_ifconv:159  %tmp_8_2 = fdiv double %p_vx_load_2_phi, 1.000000e-16
+
+ST_2: p_vy_8_load (280)  [1/1] 0.00ns  loc: astro.c:65
+_ifconv:164  %p_vy_8_load = load double* @p_vy_8, align 16
+
+ST_2: p_vy_2_load (281)  [1/1] 0.00ns  loc: astro.c:65
+_ifconv:165  %p_vy_2_load = load double* @p_vy_2, align 16
+
+ST_2: p_vy_5_load (282)  [1/1] 0.00ns  loc: astro.c:65
+_ifconv:166  %p_vy_5_load = load double* @p_vy_5, align 16
+
+ST_2: sel_tmp18 (283)  [1/1] 0.00ns  loc: astro.c:65 (grouped into LUT with out node p_vy_load_2_phi)
+_ifconv:167  %sel_tmp18 = select i1 %sel_tmp, double %p_vy_2_load, double %p_vy_8_load
+
+ST_2: p_vy_load_2_phi (284)  [1/1] 0.07ns  loc: astro.c:65 (out node of the LUT)
+_ifconv:168  %p_vy_load_2_phi = select i1 %sel_tmp2, double %p_vy_5_load, double %sel_tmp18
+
+ST_2: tmp_2_7 (285)  [17/17] 7.11ns  loc: astro.c:65
+_ifconv:169  %tmp_2_7 = fdiv double %p_vy_load_2_phi, 1.000000e-16
+
+ST_2: p_vz_8_load (290)  [1/1] 0.00ns  loc: astro.c:66
+_ifconv:174  %p_vz_8_load = load double* @p_vz_8, align 8
+
+ST_2: p_vz_2_load (291)  [1/1] 0.00ns  loc: astro.c:66
+_ifconv:175  %p_vz_2_load = load double* @p_vz_2, align 8
+
+ST_2: p_vz_5_load (292)  [1/1] 0.00ns  loc: astro.c:66
+_ifconv:176  %p_vz_5_load = load double* @p_vz_5, align 8
+
+ST_2: sel_tmp19 (293)  [1/1] 0.00ns  loc: astro.c:66 (grouped into LUT with out node p_vz_load_2_phi)
+_ifconv:177  %sel_tmp19 = select i1 %sel_tmp, double %p_vz_2_load, double %p_vz_8_load
+
+ST_2: p_vz_load_2_phi (294)  [1/1] 0.07ns  loc: astro.c:66 (out node of the LUT)
+_ifconv:178  %p_vz_load_2_phi = select i1 %sel_tmp2, double %p_vz_5_load, double %sel_tmp19
+
+ST_2: tmp_11_2 (295)  [17/17] 7.11ns  loc: astro.c:66
+_ifconv:179  %tmp_11_2 = fdiv double %p_vz_load_2_phi, 1.000000e-16
+
+ST_2: mrv (303)  [1/1] 0.00ns  loc: astro.c:68
 :0  %mrv = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } undef, i64 %p_int_0_x_write_ass, 0
 
-ST_2: mrv_1 (201)  [1/1] 0.00ns  loc: astro.c:21
+ST_2: mrv_1 (304)  [1/1] 0.00ns  loc: astro.c:68
 :1  %mrv_1 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv, i64 %p_int_1_x_write_ass, 1
 
-ST_2: mrv_2 (202)  [1/1] 0.00ns  loc: astro.c:21
+ST_2: mrv_2 (305)  [1/1] 0.00ns  loc: astro.c:68
 :2  %mrv_2 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_1, i64 %p_int_2_x_write_ass, 2
 
-ST_2: mrv_3 (203)  [1/1] 0.00ns  loc: astro.c:21
+ST_2: mrv_3 (306)  [1/1] 0.00ns  loc: astro.c:68
 :3  %mrv_3 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_2, i64 %p_int_3_x_write_ass, 3
 
-ST_2: mrv_4 (204)  [1/1] 0.00ns  loc: astro.c:21
+ST_2: mrv_4 (307)  [1/1] 0.00ns  loc: astro.c:68
 :4  %mrv_4 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_3, i64 %p_int_4_x_write_ass, 4
 
-ST_2: mrv_5 (205)  [1/1] 0.00ns  loc: astro.c:21
+ST_2: mrv_5 (308)  [1/1] 0.00ns  loc: astro.c:68
 :5  %mrv_5 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_4, i64 %p_int_5_x_write_ass, 5
 
-ST_2: mrv_6 (206)  [1/1] 0.00ns  loc: astro.c:21
+ST_2: mrv_6 (309)  [1/1] 0.00ns  loc: astro.c:68
 :6  %mrv_6 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_5, i64 %p_int_6_x_write_ass, 6
 
-ST_2: mrv_7 (207)  [1/1] 0.00ns  loc: astro.c:21
+ST_2: mrv_7 (310)  [1/1] 0.00ns  loc: astro.c:68
 :7  %mrv_7 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_6, i64 %p_int_7_x_write_ass, 7
 
-ST_2: mrv_8 (208)  [1/1] 0.00ns  loc: astro.c:21
+ST_2: mrv_8 (311)  [1/1] 0.00ns  loc: astro.c:68
 :8  %mrv_8 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_7, i64 %p_int_8_x_write_ass, 8
 
-ST_2: mrv_9 (209)  [1/1] 0.00ns  loc: astro.c:21
+ST_2: mrv_9 (312)  [1/1] 0.00ns  loc: astro.c:68
 :9  %mrv_9 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_8, i64 %p_int_0_y_write_ass, 9
 
-ST_2: mrv_s (210)  [1/1] 0.00ns  loc: astro.c:21
+ST_2: mrv_s (313)  [1/1] 0.00ns  loc: astro.c:68
 :10  %mrv_s = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_9, i64 %p_int_1_y_write_ass, 10
 
-ST_2: mrv_10 (211)  [1/1] 0.00ns  loc: astro.c:21
+ST_2: mrv_10 (314)  [1/1] 0.00ns  loc: astro.c:68
 :11  %mrv_10 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_s, i64 %p_int_2_y_write_ass, 11
 
-ST_2: mrv_11 (212)  [1/1] 0.00ns  loc: astro.c:21
+ST_2: mrv_11 (315)  [1/1] 0.00ns  loc: astro.c:68
 :12  %mrv_11 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_10, i64 %p_int_3_y_write_ass, 12
 
-ST_2: mrv_12 (213)  [1/1] 0.00ns  loc: astro.c:21
+ST_2: mrv_12 (316)  [1/1] 0.00ns  loc: astro.c:68
 :13  %mrv_12 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_11, i64 %p_int_4_y_write_ass, 13
 
-ST_2: mrv_13 (214)  [1/1] 0.00ns  loc: astro.c:21
+ST_2: mrv_13 (317)  [1/1] 0.00ns  loc: astro.c:68
 :14  %mrv_13 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_12, i64 %p_int_5_y_write_ass, 14
 
-ST_2: mrv_14 (215)  [1/1] 0.00ns  loc: astro.c:21
+ST_2: mrv_14 (318)  [1/1] 0.00ns  loc: astro.c:68
 :15  %mrv_14 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_13, i64 %p_int_6_y_write_ass, 15
 
-ST_2: mrv_15 (216)  [1/1] 0.00ns  loc: astro.c:21
+ST_2: mrv_15 (319)  [1/1] 0.00ns  loc: astro.c:68
 :16  %mrv_15 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_14, i64 %p_int_7_y_write_ass, 16
 
-ST_2: mrv_16 (217)  [1/1] 0.00ns  loc: astro.c:21
+ST_2: mrv_16 (320)  [1/1] 0.00ns  loc: astro.c:68
 :17  %mrv_16 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_15, i64 %p_int_8_y_write_ass, 17
 
-ST_2: mrv_17 (218)  [1/1] 0.00ns  loc: astro.c:21
+ST_2: mrv_17 (321)  [1/1] 0.00ns  loc: astro.c:68
 :18  %mrv_17 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_16, i64 %p_int_0_z_write_ass, 18
 
-ST_2: mrv_18 (219)  [1/1] 0.00ns  loc: astro.c:21
+ST_2: mrv_18 (322)  [1/1] 0.00ns  loc: astro.c:68
 :19  %mrv_18 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_17, i64 %p_int_1_z_write_ass, 19
 
-ST_2: mrv_19 (220)  [1/1] 0.00ns  loc: astro.c:21
+ST_2: mrv_19 (323)  [1/1] 0.00ns  loc: astro.c:68
 :20  %mrv_19 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_18, i64 %p_int_2_z_write_ass, 20
 
-ST_2: mrv_20 (221)  [1/1] 0.00ns  loc: astro.c:21
+ST_2: mrv_20 (324)  [1/1] 0.00ns  loc: astro.c:68
 :21  %mrv_20 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_19, i64 %p_int_3_z_write_ass, 21
 
-ST_2: mrv_21 (222)  [1/1] 0.00ns  loc: astro.c:21
+ST_2: mrv_21 (325)  [1/1] 0.00ns  loc: astro.c:68
 :22  %mrv_21 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_20, i64 %p_int_4_z_write_ass, 22
 
-ST_2: mrv_22 (223)  [1/1] 0.00ns  loc: astro.c:21
+ST_2: mrv_22 (326)  [1/1] 0.00ns  loc: astro.c:68
 :23  %mrv_22 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_21, i64 %p_int_5_z_write_ass, 23
 
-ST_2: mrv_23 (224)  [1/1] 0.00ns  loc: astro.c:21
+ST_2: mrv_23 (327)  [1/1] 0.00ns  loc: astro.c:68
 :24  %mrv_23 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_22, i64 %p_int_6_z_write_ass, 24
 
-ST_2: mrv_24 (225)  [1/1] 0.00ns  loc: astro.c:21
+ST_2: mrv_24 (328)  [1/1] 0.00ns  loc: astro.c:68
 :25  %mrv_24 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_23, i64 %p_int_7_z_write_ass, 25
 
-ST_2: mrv_25 (226)  [1/1] 0.00ns  loc: astro.c:21
+ST_2: mrv_25 (329)  [1/1] 0.00ns  loc: astro.c:68
 :26  %mrv_25 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_24, i64 %p_int_8_z_write_ass, 26
 
-ST_2: mrv_26 (227)  [1/1] 0.00ns  loc: astro.c:21
+ST_2: mrv_26 (330)  [1/1] 0.00ns  loc: astro.c:68
 :27  %mrv_26 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_25, i64 %p_int_0_vx_write_as, 27
 
-ST_2: mrv_27 (228)  [1/1] 0.00ns  loc: astro.c:21
+ST_2: mrv_27 (331)  [1/1] 0.00ns  loc: astro.c:68
 :28  %mrv_27 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_26, i64 %p_int_1_vx_write_as, 28
 
-ST_2: mrv_28 (229)  [1/1] 0.00ns  loc: astro.c:21
+ST_2: mrv_28 (332)  [1/1] 0.00ns  loc: astro.c:68
 :29  %mrv_28 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_27, i64 %p_int_2_vx_write_as, 29
 
-ST_2: mrv_29 (230)  [1/1] 0.00ns  loc: astro.c:21
+ST_2: mrv_29 (333)  [1/1] 0.00ns  loc: astro.c:68
 :30  %mrv_29 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_28, i64 %p_int_3_vx_write_as, 30
 
-ST_2: mrv_30 (231)  [1/1] 0.00ns  loc: astro.c:21
+ST_2: mrv_30 (334)  [1/1] 0.00ns  loc: astro.c:68
 :31  %mrv_30 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_29, i64 %p_int_4_vx_write_as, 31
 
-ST_2: mrv_31 (232)  [1/1] 0.00ns  loc: astro.c:21
+ST_2: mrv_31 (335)  [1/1] 0.00ns  loc: astro.c:68
 :32  %mrv_31 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_30, i64 %p_int_5_vx_write_as, 32
 
-ST_2: mrv_32 (233)  [1/1] 0.00ns  loc: astro.c:21
+ST_2: mrv_32 (336)  [1/1] 0.00ns  loc: astro.c:68
 :33  %mrv_32 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_31, i64 %p_int_6_vx_write_as, 33
 
-ST_2: mrv_33 (234)  [1/1] 0.00ns  loc: astro.c:21
+ST_2: mrv_33 (337)  [1/1] 0.00ns  loc: astro.c:68
 :34  %mrv_33 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_32, i64 %p_int_7_vx_write_as, 34
 
-ST_2: mrv_34 (235)  [1/1] 0.00ns  loc: astro.c:21
+ST_2: mrv_34 (338)  [1/1] 0.00ns  loc: astro.c:68
 :35  %mrv_34 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_33, i64 %p_int_8_vx_write_as, 35
 
-ST_2: mrv_35 (236)  [1/1] 0.00ns  loc: astro.c:21
+ST_2: mrv_35 (339)  [1/1] 0.00ns  loc: astro.c:68
 :36  %mrv_35 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_34, i64 %p_int_0_vy_write_as, 36
 
-ST_2: mrv_36 (237)  [1/1] 0.00ns  loc: astro.c:21
+ST_2: mrv_36 (340)  [1/1] 0.00ns  loc: astro.c:68
 :37  %mrv_36 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_35, i64 %p_int_1_vy_write_as, 37
 
-ST_2: mrv_37 (238)  [1/1] 0.00ns  loc: astro.c:21
+ST_2: mrv_37 (341)  [1/1] 0.00ns  loc: astro.c:68
 :38  %mrv_37 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_36, i64 %p_int_2_vy_write_as, 38
 
-ST_2: mrv_38 (239)  [1/1] 0.00ns  loc: astro.c:21
+ST_2: mrv_38 (342)  [1/1] 0.00ns  loc: astro.c:68
 :39  %mrv_38 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_37, i64 %p_int_3_vy_write_as, 39
 
-ST_2: mrv_39 (240)  [1/1] 0.00ns  loc: astro.c:21
+ST_2: mrv_39 (343)  [1/1] 0.00ns  loc: astro.c:68
 :40  %mrv_39 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_38, i64 %p_int_4_vy_write_as, 40
 
-ST_2: mrv_40 (241)  [1/1] 0.00ns  loc: astro.c:21
+ST_2: mrv_40 (344)  [1/1] 0.00ns  loc: astro.c:68
 :41  %mrv_40 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_39, i64 %p_int_5_vy_write_as, 41
 
-ST_2: mrv_41 (242)  [1/1] 0.00ns  loc: astro.c:21
+ST_2: mrv_41 (345)  [1/1] 0.00ns  loc: astro.c:68
 :42  %mrv_41 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_40, i64 %p_int_6_vy_write_as, 42
 
-ST_2: mrv_42 (243)  [1/1] 0.00ns  loc: astro.c:21
+ST_2: mrv_42 (346)  [1/1] 0.00ns  loc: astro.c:68
 :43  %mrv_42 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_41, i64 %p_int_7_vy_write_as, 43
 
-ST_2: mrv_43 (244)  [1/1] 0.00ns  loc: astro.c:21
+ST_2: mrv_43 (347)  [1/1] 0.00ns  loc: astro.c:68
 :44  %mrv_43 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_42, i64 %p_int_8_vy_write_as, 44
 
-ST_2: mrv_44 (245)  [1/1] 0.00ns  loc: astro.c:21
+ST_2: mrv_44 (348)  [1/1] 0.00ns  loc: astro.c:68
 :45  %mrv_44 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_43, i64 %p_int_0_vz_write_as, 45
 
-ST_2: mrv_45 (246)  [1/1] 0.00ns  loc: astro.c:21
+ST_2: mrv_45 (349)  [1/1] 0.00ns  loc: astro.c:68
 :46  %mrv_45 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_44, i64 %p_int_1_vz_write_as, 46
 
-ST_2: mrv_46 (247)  [1/1] 0.00ns  loc: astro.c:21
+ST_2: mrv_46 (350)  [1/1] 0.00ns  loc: astro.c:68
 :47  %mrv_46 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_45, i64 %p_int_2_vz_write_as, 47
 
-ST_2: mrv_47 (248)  [1/1] 0.00ns  loc: astro.c:21
+ST_2: mrv_47 (351)  [1/1] 0.00ns  loc: astro.c:68
 :48  %mrv_47 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_46, i64 %p_int_3_vz_write_as, 48
 
-ST_2: mrv_48 (249)  [1/1] 0.00ns  loc: astro.c:21
+ST_2: mrv_48 (352)  [1/1] 0.00ns  loc: astro.c:68
 :49  %mrv_48 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_47, i64 %p_int_4_vz_write_as, 49
 
-ST_2: mrv_49 (250)  [1/1] 0.00ns  loc: astro.c:21
+ST_2: mrv_49 (353)  [1/1] 0.00ns  loc: astro.c:68
 :50  %mrv_49 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_48, i64 %p_int_5_vz_write_as, 50
 
-ST_2: mrv_50 (251)  [1/1] 0.00ns  loc: astro.c:21
+ST_2: mrv_50 (354)  [1/1] 0.00ns  loc: astro.c:68
 :51  %mrv_50 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_49, i64 %p_int_6_vz_write_as, 51
 
-ST_2: mrv_51 (252)  [1/1] 0.00ns  loc: astro.c:21
+ST_2: mrv_51 (355)  [1/1] 0.00ns  loc: astro.c:68
 :52  %mrv_51 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_50, i64 %p_int_7_vz_write_as, 52
 
-ST_2: mrv_52 (253)  [1/1] 0.00ns  loc: astro.c:21
+ST_2: mrv_52 (356)  [1/1] 0.00ns  loc: astro.c:68
 :53  %mrv_52 = insertvalue { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_51, i64 %p_int_8_vz_write_as, 53
 
-ST_2: StgValue_196 (254)  [1/1] 0.00ns  loc: astro.c:21
+ST_2: StgValue_243 (357)  [1/1] 0.00ns  loc: astro.c:68
 :54  ret { i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64, i64 } %mrv_52
 
 
  <State 3>: 7.11ns
-ST_3: tmp_2 (67)  [16/17] 7.11ns  loc: astro.c:14
-_ifconv:5  %tmp_2 = fdiv double %p_x_load_0_phi, 1.000000e-16
+ST_3: tmp_2 (123)  [16/17] 7.11ns  loc: astro.c:61
+_ifconv:7  %tmp_2 = fdiv double %p_x_load_0_phi, 1.000000e-16
 
-ST_3: tmp_5 (74)  [16/17] 7.11ns  loc: astro.c:15
-_ifconv:12  %tmp_5 = fdiv double %p_y_load_0_phi, 1.000000e-16
+ST_3: tmp_4 (133)  [16/17] 7.11ns  loc: astro.c:62
+_ifconv:17  %tmp_4 = fdiv double %p_y_load_0_phi, 1.000000e-16
 
-ST_3: tmp_7 (81)  [16/17] 7.11ns  loc: astro.c:16
-_ifconv:19  %tmp_7 = fdiv double %p_z_load_0_phi, 1.000000e-16
+ST_3: tmp_6 (143)  [16/17] 7.11ns  loc: astro.c:63
+_ifconv:27  %tmp_6 = fdiv double %p_z_load_0_phi, 1.000000e-16
 
-ST_3: tmp_8 (88)  [16/17] 7.11ns  loc: astro.c:17
-_ifconv:26  %tmp_8 = fdiv double %p_vx_load_0_phi, 1.000000e-16
+ST_3: tmp_8 (153)  [16/17] 7.11ns  loc: astro.c:64
+_ifconv:37  %tmp_8 = fdiv double %p_vx_load_0_phi, 1.000000e-16
 
-ST_3: tmp_s (95)  [16/17] 7.11ns  loc: astro.c:18
-_ifconv:33  %tmp_s = fdiv double %p_vy_load_0_phi, 1.000000e-16
+ST_3: tmp_s (163)  [16/17] 7.11ns  loc: astro.c:65
+_ifconv:47  %tmp_s = fdiv double %p_vy_load_0_phi, 1.000000e-16
 
-ST_3: tmp_11 (102)  [16/17] 7.11ns  loc: astro.c:19
-_ifconv:40  %tmp_11 = fdiv double %p_vz_load_0_phi, 1.000000e-16
+ST_3: tmp_1 (173)  [16/17] 7.11ns  loc: astro.c:66
+_ifconv:57  %tmp_1 = fdiv double %p_vz_load_0_phi, 1.000000e-16
 
-ST_3: tmp_2_1 (112)  [16/17] 7.11ns  loc: astro.c:14
-_ifconv:50  %tmp_2_1 = fdiv double %p_x_load_1_phi, 1.000000e-16
+ST_3: tmp_2_1 (184)  [16/17] 7.11ns  loc: astro.c:61
+_ifconv:68  %tmp_2_1 = fdiv double %p_x_load_1_phi, 1.000000e-16
 
-ST_3: tmp_4_1 (119)  [16/17] 7.11ns  loc: astro.c:15
-_ifconv:57  %tmp_4_1 = fdiv double %p_y_load_1_phi, 1.000000e-16
+ST_3: tmp_4_1 (194)  [16/17] 7.11ns  loc: astro.c:62
+_ifconv:78  %tmp_4_1 = fdiv double %p_y_load_1_phi, 1.000000e-16
 
-ST_3: tmp_6_1 (126)  [16/17] 7.11ns  loc: astro.c:16
-_ifconv:64  %tmp_6_1 = fdiv double %p_z_load_1_phi, 1.000000e-16
+ST_3: tmp_6_1 (204)  [16/17] 7.11ns  loc: astro.c:63
+_ifconv:88  %tmp_6_1 = fdiv double %p_z_load_1_phi, 1.000000e-16
 
-ST_3: tmp_8_1 (133)  [16/17] 7.11ns  loc: astro.c:17
-_ifconv:71  %tmp_8_1 = fdiv double %p_vx_load_1_phi, 1.000000e-16
+ST_3: tmp_8_1 (214)  [16/17] 7.11ns  loc: astro.c:64
+_ifconv:98  %tmp_8_1 = fdiv double %p_vx_load_1_phi, 1.000000e-16
 
-ST_3: tmp_1_6 (140)  [16/17] 7.11ns  loc: astro.c:18
-_ifconv:78  %tmp_1_6 = fdiv double %p_vy_load_1_phi, 1.000000e-16
+ST_3: tmp_1_6 (224)  [16/17] 7.11ns  loc: astro.c:65
+_ifconv:108  %tmp_1_6 = fdiv double %p_vy_load_1_phi, 1.000000e-16
 
-ST_3: tmp_11_1 (147)  [16/17] 7.11ns  loc: astro.c:19
-_ifconv:85  %tmp_11_1 = fdiv double %p_vz_load_1_phi, 1.000000e-16
+ST_3: tmp_11_1 (234)  [16/17] 7.11ns  loc: astro.c:66
+_ifconv:118  %tmp_11_1 = fdiv double %p_vz_load_1_phi, 1.000000e-16
 
-ST_3: tmp_2_2 (157)  [16/17] 7.11ns  loc: astro.c:14
-_ifconv:95  %tmp_2_2 = fdiv double %p_x_load_2_phi, 1.000000e-16
+ST_3: tmp_2_2 (245)  [16/17] 7.11ns  loc: astro.c:61
+_ifconv:129  %tmp_2_2 = fdiv double %p_x_load_2_phi, 1.000000e-16
 
-ST_3: tmp_4_2 (164)  [16/17] 7.11ns  loc: astro.c:15
-_ifconv:102  %tmp_4_2 = fdiv double %p_y_load_2_phi, 1.000000e-16
+ST_3: tmp_4_2 (255)  [16/17] 7.11ns  loc: astro.c:62
+_ifconv:139  %tmp_4_2 = fdiv double %p_y_load_2_phi, 1.000000e-16
 
-ST_3: tmp_6_2 (171)  [16/17] 7.11ns  loc: astro.c:16
-_ifconv:109  %tmp_6_2 = fdiv double %p_z_load_2_phi, 1.000000e-16
+ST_3: tmp_6_2 (265)  [16/17] 7.11ns  loc: astro.c:63
+_ifconv:149  %tmp_6_2 = fdiv double %p_z_load_2_phi, 1.000000e-16
 
-ST_3: tmp_8_2 (178)  [16/17] 7.11ns  loc: astro.c:17
-_ifconv:116  %tmp_8_2 = fdiv double %p_vx_load_2_phi, 1.000000e-16
+ST_3: tmp_8_2 (275)  [16/17] 7.11ns  loc: astro.c:64
+_ifconv:159  %tmp_8_2 = fdiv double %p_vx_load_2_phi, 1.000000e-16
 
-ST_3: tmp_2_7 (185)  [16/17] 7.11ns  loc: astro.c:18
-_ifconv:123  %tmp_2_7 = fdiv double %p_vy_load_2_phi, 1.000000e-16
+ST_3: tmp_2_7 (285)  [16/17] 7.11ns  loc: astro.c:65
+_ifconv:169  %tmp_2_7 = fdiv double %p_vy_load_2_phi, 1.000000e-16
 
-ST_3: tmp_11_2 (192)  [16/17] 7.11ns  loc: astro.c:19
-_ifconv:130  %tmp_11_2 = fdiv double %p_vz_load_2_phi, 1.000000e-16
+ST_3: tmp_11_2 (295)  [16/17] 7.11ns  loc: astro.c:66
+_ifconv:179  %tmp_11_2 = fdiv double %p_vz_load_2_phi, 1.000000e-16
 
 
  <State 4>: 7.11ns
-ST_4: tmp_2 (67)  [15/17] 7.11ns  loc: astro.c:14
-_ifconv:5  %tmp_2 = fdiv double %p_x_load_0_phi, 1.000000e-16
+ST_4: tmp_2 (123)  [15/17] 7.11ns  loc: astro.c:61
+_ifconv:7  %tmp_2 = fdiv double %p_x_load_0_phi, 1.000000e-16
 
-ST_4: tmp_5 (74)  [15/17] 7.11ns  loc: astro.c:15
-_ifconv:12  %tmp_5 = fdiv double %p_y_load_0_phi, 1.000000e-16
+ST_4: tmp_4 (133)  [15/17] 7.11ns  loc: astro.c:62
+_ifconv:17  %tmp_4 = fdiv double %p_y_load_0_phi, 1.000000e-16
 
-ST_4: tmp_7 (81)  [15/17] 7.11ns  loc: astro.c:16
-_ifconv:19  %tmp_7 = fdiv double %p_z_load_0_phi, 1.000000e-16
+ST_4: tmp_6 (143)  [15/17] 7.11ns  loc: astro.c:63
+_ifconv:27  %tmp_6 = fdiv double %p_z_load_0_phi, 1.000000e-16
 
-ST_4: tmp_8 (88)  [15/17] 7.11ns  loc: astro.c:17
-_ifconv:26  %tmp_8 = fdiv double %p_vx_load_0_phi, 1.000000e-16
+ST_4: tmp_8 (153)  [15/17] 7.11ns  loc: astro.c:64
+_ifconv:37  %tmp_8 = fdiv double %p_vx_load_0_phi, 1.000000e-16
 
-ST_4: tmp_s (95)  [15/17] 7.11ns  loc: astro.c:18
-_ifconv:33  %tmp_s = fdiv double %p_vy_load_0_phi, 1.000000e-16
+ST_4: tmp_s (163)  [15/17] 7.11ns  loc: astro.c:65
+_ifconv:47  %tmp_s = fdiv double %p_vy_load_0_phi, 1.000000e-16
 
-ST_4: tmp_11 (102)  [15/17] 7.11ns  loc: astro.c:19
-_ifconv:40  %tmp_11 = fdiv double %p_vz_load_0_phi, 1.000000e-16
+ST_4: tmp_1 (173)  [15/17] 7.11ns  loc: astro.c:66
+_ifconv:57  %tmp_1 = fdiv double %p_vz_load_0_phi, 1.000000e-16
 
-ST_4: tmp_2_1 (112)  [15/17] 7.11ns  loc: astro.c:14
-_ifconv:50  %tmp_2_1 = fdiv double %p_x_load_1_phi, 1.000000e-16
+ST_4: tmp_2_1 (184)  [15/17] 7.11ns  loc: astro.c:61
+_ifconv:68  %tmp_2_1 = fdiv double %p_x_load_1_phi, 1.000000e-16
 
-ST_4: tmp_4_1 (119)  [15/17] 7.11ns  loc: astro.c:15
-_ifconv:57  %tmp_4_1 = fdiv double %p_y_load_1_phi, 1.000000e-16
+ST_4: tmp_4_1 (194)  [15/17] 7.11ns  loc: astro.c:62
+_ifconv:78  %tmp_4_1 = fdiv double %p_y_load_1_phi, 1.000000e-16
 
-ST_4: tmp_6_1 (126)  [15/17] 7.11ns  loc: astro.c:16
-_ifconv:64  %tmp_6_1 = fdiv double %p_z_load_1_phi, 1.000000e-16
+ST_4: tmp_6_1 (204)  [15/17] 7.11ns  loc: astro.c:63
+_ifconv:88  %tmp_6_1 = fdiv double %p_z_load_1_phi, 1.000000e-16
 
-ST_4: tmp_8_1 (133)  [15/17] 7.11ns  loc: astro.c:17
-_ifconv:71  %tmp_8_1 = fdiv double %p_vx_load_1_phi, 1.000000e-16
+ST_4: tmp_8_1 (214)  [15/17] 7.11ns  loc: astro.c:64
+_ifconv:98  %tmp_8_1 = fdiv double %p_vx_load_1_phi, 1.000000e-16
 
-ST_4: tmp_1_6 (140)  [15/17] 7.11ns  loc: astro.c:18
-_ifconv:78  %tmp_1_6 = fdiv double %p_vy_load_1_phi, 1.000000e-16
+ST_4: tmp_1_6 (224)  [15/17] 7.11ns  loc: astro.c:65
+_ifconv:108  %tmp_1_6 = fdiv double %p_vy_load_1_phi, 1.000000e-16
 
-ST_4: tmp_11_1 (147)  [15/17] 7.11ns  loc: astro.c:19
-_ifconv:85  %tmp_11_1 = fdiv double %p_vz_load_1_phi, 1.000000e-16
+ST_4: tmp_11_1 (234)  [15/17] 7.11ns  loc: astro.c:66
+_ifconv:118  %tmp_11_1 = fdiv double %p_vz_load_1_phi, 1.000000e-16
 
-ST_4: tmp_2_2 (157)  [15/17] 7.11ns  loc: astro.c:14
-_ifconv:95  %tmp_2_2 = fdiv double %p_x_load_2_phi, 1.000000e-16
+ST_4: tmp_2_2 (245)  [15/17] 7.11ns  loc: astro.c:61
+_ifconv:129  %tmp_2_2 = fdiv double %p_x_load_2_phi, 1.000000e-16
 
-ST_4: tmp_4_2 (164)  [15/17] 7.11ns  loc: astro.c:15
-_ifconv:102  %tmp_4_2 = fdiv double %p_y_load_2_phi, 1.000000e-16
+ST_4: tmp_4_2 (255)  [15/17] 7.11ns  loc: astro.c:62
+_ifconv:139  %tmp_4_2 = fdiv double %p_y_load_2_phi, 1.000000e-16
 
-ST_4: tmp_6_2 (171)  [15/17] 7.11ns  loc: astro.c:16
-_ifconv:109  %tmp_6_2 = fdiv double %p_z_load_2_phi, 1.000000e-16
+ST_4: tmp_6_2 (265)  [15/17] 7.11ns  loc: astro.c:63
+_ifconv:149  %tmp_6_2 = fdiv double %p_z_load_2_phi, 1.000000e-16
 
-ST_4: tmp_8_2 (178)  [15/17] 7.11ns  loc: astro.c:17
-_ifconv:116  %tmp_8_2 = fdiv double %p_vx_load_2_phi, 1.000000e-16
+ST_4: tmp_8_2 (275)  [15/17] 7.11ns  loc: astro.c:64
+_ifconv:159  %tmp_8_2 = fdiv double %p_vx_load_2_phi, 1.000000e-16
 
-ST_4: tmp_2_7 (185)  [15/17] 7.11ns  loc: astro.c:18
-_ifconv:123  %tmp_2_7 = fdiv double %p_vy_load_2_phi, 1.000000e-16
+ST_4: tmp_2_7 (285)  [15/17] 7.11ns  loc: astro.c:65
+_ifconv:169  %tmp_2_7 = fdiv double %p_vy_load_2_phi, 1.000000e-16
 
-ST_4: tmp_11_2 (192)  [15/17] 7.11ns  loc: astro.c:19
-_ifconv:130  %tmp_11_2 = fdiv double %p_vz_load_2_phi, 1.000000e-16
+ST_4: tmp_11_2 (295)  [15/17] 7.11ns  loc: astro.c:66
+_ifconv:179  %tmp_11_2 = fdiv double %p_vz_load_2_phi, 1.000000e-16
 
 
  <State 5>: 7.11ns
-ST_5: tmp_2 (67)  [14/17] 7.11ns  loc: astro.c:14
-_ifconv:5  %tmp_2 = fdiv double %p_x_load_0_phi, 1.000000e-16
+ST_5: tmp_2 (123)  [14/17] 7.11ns  loc: astro.c:61
+_ifconv:7  %tmp_2 = fdiv double %p_x_load_0_phi, 1.000000e-16
 
-ST_5: tmp_5 (74)  [14/17] 7.11ns  loc: astro.c:15
-_ifconv:12  %tmp_5 = fdiv double %p_y_load_0_phi, 1.000000e-16
+ST_5: tmp_4 (133)  [14/17] 7.11ns  loc: astro.c:62
+_ifconv:17  %tmp_4 = fdiv double %p_y_load_0_phi, 1.000000e-16
 
-ST_5: tmp_7 (81)  [14/17] 7.11ns  loc: astro.c:16
-_ifconv:19  %tmp_7 = fdiv double %p_z_load_0_phi, 1.000000e-16
+ST_5: tmp_6 (143)  [14/17] 7.11ns  loc: astro.c:63
+_ifconv:27  %tmp_6 = fdiv double %p_z_load_0_phi, 1.000000e-16
 
-ST_5: tmp_8 (88)  [14/17] 7.11ns  loc: astro.c:17
-_ifconv:26  %tmp_8 = fdiv double %p_vx_load_0_phi, 1.000000e-16
+ST_5: tmp_8 (153)  [14/17] 7.11ns  loc: astro.c:64
+_ifconv:37  %tmp_8 = fdiv double %p_vx_load_0_phi, 1.000000e-16
 
-ST_5: tmp_s (95)  [14/17] 7.11ns  loc: astro.c:18
-_ifconv:33  %tmp_s = fdiv double %p_vy_load_0_phi, 1.000000e-16
+ST_5: tmp_s (163)  [14/17] 7.11ns  loc: astro.c:65
+_ifconv:47  %tmp_s = fdiv double %p_vy_load_0_phi, 1.000000e-16
 
-ST_5: tmp_11 (102)  [14/17] 7.11ns  loc: astro.c:19
-_ifconv:40  %tmp_11 = fdiv double %p_vz_load_0_phi, 1.000000e-16
+ST_5: tmp_1 (173)  [14/17] 7.11ns  loc: astro.c:66
+_ifconv:57  %tmp_1 = fdiv double %p_vz_load_0_phi, 1.000000e-16
 
-ST_5: tmp_2_1 (112)  [14/17] 7.11ns  loc: astro.c:14
-_ifconv:50  %tmp_2_1 = fdiv double %p_x_load_1_phi, 1.000000e-16
+ST_5: tmp_2_1 (184)  [14/17] 7.11ns  loc: astro.c:61
+_ifconv:68  %tmp_2_1 = fdiv double %p_x_load_1_phi, 1.000000e-16
 
-ST_5: tmp_4_1 (119)  [14/17] 7.11ns  loc: astro.c:15
-_ifconv:57  %tmp_4_1 = fdiv double %p_y_load_1_phi, 1.000000e-16
+ST_5: tmp_4_1 (194)  [14/17] 7.11ns  loc: astro.c:62
+_ifconv:78  %tmp_4_1 = fdiv double %p_y_load_1_phi, 1.000000e-16
 
-ST_5: tmp_6_1 (126)  [14/17] 7.11ns  loc: astro.c:16
-_ifconv:64  %tmp_6_1 = fdiv double %p_z_load_1_phi, 1.000000e-16
+ST_5: tmp_6_1 (204)  [14/17] 7.11ns  loc: astro.c:63
+_ifconv:88  %tmp_6_1 = fdiv double %p_z_load_1_phi, 1.000000e-16
 
-ST_5: tmp_8_1 (133)  [14/17] 7.11ns  loc: astro.c:17
-_ifconv:71  %tmp_8_1 = fdiv double %p_vx_load_1_phi, 1.000000e-16
+ST_5: tmp_8_1 (214)  [14/17] 7.11ns  loc: astro.c:64
+_ifconv:98  %tmp_8_1 = fdiv double %p_vx_load_1_phi, 1.000000e-16
 
-ST_5: tmp_1_6 (140)  [14/17] 7.11ns  loc: astro.c:18
-_ifconv:78  %tmp_1_6 = fdiv double %p_vy_load_1_phi, 1.000000e-16
+ST_5: tmp_1_6 (224)  [14/17] 7.11ns  loc: astro.c:65
+_ifconv:108  %tmp_1_6 = fdiv double %p_vy_load_1_phi, 1.000000e-16
 
-ST_5: tmp_11_1 (147)  [14/17] 7.11ns  loc: astro.c:19
-_ifconv:85  %tmp_11_1 = fdiv double %p_vz_load_1_phi, 1.000000e-16
+ST_5: tmp_11_1 (234)  [14/17] 7.11ns  loc: astro.c:66
+_ifconv:118  %tmp_11_1 = fdiv double %p_vz_load_1_phi, 1.000000e-16
 
-ST_5: tmp_2_2 (157)  [14/17] 7.11ns  loc: astro.c:14
-_ifconv:95  %tmp_2_2 = fdiv double %p_x_load_2_phi, 1.000000e-16
+ST_5: tmp_2_2 (245)  [14/17] 7.11ns  loc: astro.c:61
+_ifconv:129  %tmp_2_2 = fdiv double %p_x_load_2_phi, 1.000000e-16
 
-ST_5: tmp_4_2 (164)  [14/17] 7.11ns  loc: astro.c:15
-_ifconv:102  %tmp_4_2 = fdiv double %p_y_load_2_phi, 1.000000e-16
+ST_5: tmp_4_2 (255)  [14/17] 7.11ns  loc: astro.c:62
+_ifconv:139  %tmp_4_2 = fdiv double %p_y_load_2_phi, 1.000000e-16
 
-ST_5: tmp_6_2 (171)  [14/17] 7.11ns  loc: astro.c:16
-_ifconv:109  %tmp_6_2 = fdiv double %p_z_load_2_phi, 1.000000e-16
+ST_5: tmp_6_2 (265)  [14/17] 7.11ns  loc: astro.c:63
+_ifconv:149  %tmp_6_2 = fdiv double %p_z_load_2_phi, 1.000000e-16
 
-ST_5: tmp_8_2 (178)  [14/17] 7.11ns  loc: astro.c:17
-_ifconv:116  %tmp_8_2 = fdiv double %p_vx_load_2_phi, 1.000000e-16
+ST_5: tmp_8_2 (275)  [14/17] 7.11ns  loc: astro.c:64
+_ifconv:159  %tmp_8_2 = fdiv double %p_vx_load_2_phi, 1.000000e-16
 
-ST_5: tmp_2_7 (185)  [14/17] 7.11ns  loc: astro.c:18
-_ifconv:123  %tmp_2_7 = fdiv double %p_vy_load_2_phi, 1.000000e-16
+ST_5: tmp_2_7 (285)  [14/17] 7.11ns  loc: astro.c:65
+_ifconv:169  %tmp_2_7 = fdiv double %p_vy_load_2_phi, 1.000000e-16
 
-ST_5: tmp_11_2 (192)  [14/17] 7.11ns  loc: astro.c:19
-_ifconv:130  %tmp_11_2 = fdiv double %p_vz_load_2_phi, 1.000000e-16
+ST_5: tmp_11_2 (295)  [14/17] 7.11ns  loc: astro.c:66
+_ifconv:179  %tmp_11_2 = fdiv double %p_vz_load_2_phi, 1.000000e-16
 
 
  <State 6>: 7.11ns
-ST_6: tmp_2 (67)  [13/17] 7.11ns  loc: astro.c:14
-_ifconv:5  %tmp_2 = fdiv double %p_x_load_0_phi, 1.000000e-16
+ST_6: tmp_2 (123)  [13/17] 7.11ns  loc: astro.c:61
+_ifconv:7  %tmp_2 = fdiv double %p_x_load_0_phi, 1.000000e-16
 
-ST_6: tmp_5 (74)  [13/17] 7.11ns  loc: astro.c:15
-_ifconv:12  %tmp_5 = fdiv double %p_y_load_0_phi, 1.000000e-16
+ST_6: tmp_4 (133)  [13/17] 7.11ns  loc: astro.c:62
+_ifconv:17  %tmp_4 = fdiv double %p_y_load_0_phi, 1.000000e-16
 
-ST_6: tmp_7 (81)  [13/17] 7.11ns  loc: astro.c:16
-_ifconv:19  %tmp_7 = fdiv double %p_z_load_0_phi, 1.000000e-16
+ST_6: tmp_6 (143)  [13/17] 7.11ns  loc: astro.c:63
+_ifconv:27  %tmp_6 = fdiv double %p_z_load_0_phi, 1.000000e-16
 
-ST_6: tmp_8 (88)  [13/17] 7.11ns  loc: astro.c:17
-_ifconv:26  %tmp_8 = fdiv double %p_vx_load_0_phi, 1.000000e-16
+ST_6: tmp_8 (153)  [13/17] 7.11ns  loc: astro.c:64
+_ifconv:37  %tmp_8 = fdiv double %p_vx_load_0_phi, 1.000000e-16
 
-ST_6: tmp_s (95)  [13/17] 7.11ns  loc: astro.c:18
-_ifconv:33  %tmp_s = fdiv double %p_vy_load_0_phi, 1.000000e-16
+ST_6: tmp_s (163)  [13/17] 7.11ns  loc: astro.c:65
+_ifconv:47  %tmp_s = fdiv double %p_vy_load_0_phi, 1.000000e-16
 
-ST_6: tmp_11 (102)  [13/17] 7.11ns  loc: astro.c:19
-_ifconv:40  %tmp_11 = fdiv double %p_vz_load_0_phi, 1.000000e-16
+ST_6: tmp_1 (173)  [13/17] 7.11ns  loc: astro.c:66
+_ifconv:57  %tmp_1 = fdiv double %p_vz_load_0_phi, 1.000000e-16
 
-ST_6: tmp_2_1 (112)  [13/17] 7.11ns  loc: astro.c:14
-_ifconv:50  %tmp_2_1 = fdiv double %p_x_load_1_phi, 1.000000e-16
+ST_6: tmp_2_1 (184)  [13/17] 7.11ns  loc: astro.c:61
+_ifconv:68  %tmp_2_1 = fdiv double %p_x_load_1_phi, 1.000000e-16
 
-ST_6: tmp_4_1 (119)  [13/17] 7.11ns  loc: astro.c:15
-_ifconv:57  %tmp_4_1 = fdiv double %p_y_load_1_phi, 1.000000e-16
+ST_6: tmp_4_1 (194)  [13/17] 7.11ns  loc: astro.c:62
+_ifconv:78  %tmp_4_1 = fdiv double %p_y_load_1_phi, 1.000000e-16
 
-ST_6: tmp_6_1 (126)  [13/17] 7.11ns  loc: astro.c:16
-_ifconv:64  %tmp_6_1 = fdiv double %p_z_load_1_phi, 1.000000e-16
+ST_6: tmp_6_1 (204)  [13/17] 7.11ns  loc: astro.c:63
+_ifconv:88  %tmp_6_1 = fdiv double %p_z_load_1_phi, 1.000000e-16
 
-ST_6: tmp_8_1 (133)  [13/17] 7.11ns  loc: astro.c:17
-_ifconv:71  %tmp_8_1 = fdiv double %p_vx_load_1_phi, 1.000000e-16
+ST_6: tmp_8_1 (214)  [13/17] 7.11ns  loc: astro.c:64
+_ifconv:98  %tmp_8_1 = fdiv double %p_vx_load_1_phi, 1.000000e-16
 
-ST_6: tmp_1_6 (140)  [13/17] 7.11ns  loc: astro.c:18
-_ifconv:78  %tmp_1_6 = fdiv double %p_vy_load_1_phi, 1.000000e-16
+ST_6: tmp_1_6 (224)  [13/17] 7.11ns  loc: astro.c:65
+_ifconv:108  %tmp_1_6 = fdiv double %p_vy_load_1_phi, 1.000000e-16
 
-ST_6: tmp_11_1 (147)  [13/17] 7.11ns  loc: astro.c:19
-_ifconv:85  %tmp_11_1 = fdiv double %p_vz_load_1_phi, 1.000000e-16
+ST_6: tmp_11_1 (234)  [13/17] 7.11ns  loc: astro.c:66
+_ifconv:118  %tmp_11_1 = fdiv double %p_vz_load_1_phi, 1.000000e-16
 
-ST_6: tmp_2_2 (157)  [13/17] 7.11ns  loc: astro.c:14
-_ifconv:95  %tmp_2_2 = fdiv double %p_x_load_2_phi, 1.000000e-16
+ST_6: tmp_2_2 (245)  [13/17] 7.11ns  loc: astro.c:61
+_ifconv:129  %tmp_2_2 = fdiv double %p_x_load_2_phi, 1.000000e-16
 
-ST_6: tmp_4_2 (164)  [13/17] 7.11ns  loc: astro.c:15
-_ifconv:102  %tmp_4_2 = fdiv double %p_y_load_2_phi, 1.000000e-16
+ST_6: tmp_4_2 (255)  [13/17] 7.11ns  loc: astro.c:62
+_ifconv:139  %tmp_4_2 = fdiv double %p_y_load_2_phi, 1.000000e-16
 
-ST_6: tmp_6_2 (171)  [13/17] 7.11ns  loc: astro.c:16
-_ifconv:109  %tmp_6_2 = fdiv double %p_z_load_2_phi, 1.000000e-16
+ST_6: tmp_6_2 (265)  [13/17] 7.11ns  loc: astro.c:63
+_ifconv:149  %tmp_6_2 = fdiv double %p_z_load_2_phi, 1.000000e-16
 
-ST_6: tmp_8_2 (178)  [13/17] 7.11ns  loc: astro.c:17
-_ifconv:116  %tmp_8_2 = fdiv double %p_vx_load_2_phi, 1.000000e-16
+ST_6: tmp_8_2 (275)  [13/17] 7.11ns  loc: astro.c:64
+_ifconv:159  %tmp_8_2 = fdiv double %p_vx_load_2_phi, 1.000000e-16
 
-ST_6: tmp_2_7 (185)  [13/17] 7.11ns  loc: astro.c:18
-_ifconv:123  %tmp_2_7 = fdiv double %p_vy_load_2_phi, 1.000000e-16
+ST_6: tmp_2_7 (285)  [13/17] 7.11ns  loc: astro.c:65
+_ifconv:169  %tmp_2_7 = fdiv double %p_vy_load_2_phi, 1.000000e-16
 
-ST_6: tmp_11_2 (192)  [13/17] 7.11ns  loc: astro.c:19
-_ifconv:130  %tmp_11_2 = fdiv double %p_vz_load_2_phi, 1.000000e-16
+ST_6: tmp_11_2 (295)  [13/17] 7.11ns  loc: astro.c:66
+_ifconv:179  %tmp_11_2 = fdiv double %p_vz_load_2_phi, 1.000000e-16
 
 
  <State 7>: 7.11ns
-ST_7: tmp_2 (67)  [12/17] 7.11ns  loc: astro.c:14
-_ifconv:5  %tmp_2 = fdiv double %p_x_load_0_phi, 1.000000e-16
+ST_7: tmp_2 (123)  [12/17] 7.11ns  loc: astro.c:61
+_ifconv:7  %tmp_2 = fdiv double %p_x_load_0_phi, 1.000000e-16
 
-ST_7: tmp_5 (74)  [12/17] 7.11ns  loc: astro.c:15
-_ifconv:12  %tmp_5 = fdiv double %p_y_load_0_phi, 1.000000e-16
+ST_7: tmp_4 (133)  [12/17] 7.11ns  loc: astro.c:62
+_ifconv:17  %tmp_4 = fdiv double %p_y_load_0_phi, 1.000000e-16
 
-ST_7: tmp_7 (81)  [12/17] 7.11ns  loc: astro.c:16
-_ifconv:19  %tmp_7 = fdiv double %p_z_load_0_phi, 1.000000e-16
+ST_7: tmp_6 (143)  [12/17] 7.11ns  loc: astro.c:63
+_ifconv:27  %tmp_6 = fdiv double %p_z_load_0_phi, 1.000000e-16
 
-ST_7: tmp_8 (88)  [12/17] 7.11ns  loc: astro.c:17
-_ifconv:26  %tmp_8 = fdiv double %p_vx_load_0_phi, 1.000000e-16
+ST_7: tmp_8 (153)  [12/17] 7.11ns  loc: astro.c:64
+_ifconv:37  %tmp_8 = fdiv double %p_vx_load_0_phi, 1.000000e-16
 
-ST_7: tmp_s (95)  [12/17] 7.11ns  loc: astro.c:18
-_ifconv:33  %tmp_s = fdiv double %p_vy_load_0_phi, 1.000000e-16
+ST_7: tmp_s (163)  [12/17] 7.11ns  loc: astro.c:65
+_ifconv:47  %tmp_s = fdiv double %p_vy_load_0_phi, 1.000000e-16
 
-ST_7: tmp_11 (102)  [12/17] 7.11ns  loc: astro.c:19
-_ifconv:40  %tmp_11 = fdiv double %p_vz_load_0_phi, 1.000000e-16
+ST_7: tmp_1 (173)  [12/17] 7.11ns  loc: astro.c:66
+_ifconv:57  %tmp_1 = fdiv double %p_vz_load_0_phi, 1.000000e-16
 
-ST_7: tmp_2_1 (112)  [12/17] 7.11ns  loc: astro.c:14
-_ifconv:50  %tmp_2_1 = fdiv double %p_x_load_1_phi, 1.000000e-16
+ST_7: tmp_2_1 (184)  [12/17] 7.11ns  loc: astro.c:61
+_ifconv:68  %tmp_2_1 = fdiv double %p_x_load_1_phi, 1.000000e-16
 
-ST_7: tmp_4_1 (119)  [12/17] 7.11ns  loc: astro.c:15
-_ifconv:57  %tmp_4_1 = fdiv double %p_y_load_1_phi, 1.000000e-16
+ST_7: tmp_4_1 (194)  [12/17] 7.11ns  loc: astro.c:62
+_ifconv:78  %tmp_4_1 = fdiv double %p_y_load_1_phi, 1.000000e-16
 
-ST_7: tmp_6_1 (126)  [12/17] 7.11ns  loc: astro.c:16
-_ifconv:64  %tmp_6_1 = fdiv double %p_z_load_1_phi, 1.000000e-16
+ST_7: tmp_6_1 (204)  [12/17] 7.11ns  loc: astro.c:63
+_ifconv:88  %tmp_6_1 = fdiv double %p_z_load_1_phi, 1.000000e-16
 
-ST_7: tmp_8_1 (133)  [12/17] 7.11ns  loc: astro.c:17
-_ifconv:71  %tmp_8_1 = fdiv double %p_vx_load_1_phi, 1.000000e-16
+ST_7: tmp_8_1 (214)  [12/17] 7.11ns  loc: astro.c:64
+_ifconv:98  %tmp_8_1 = fdiv double %p_vx_load_1_phi, 1.000000e-16
 
-ST_7: tmp_1_6 (140)  [12/17] 7.11ns  loc: astro.c:18
-_ifconv:78  %tmp_1_6 = fdiv double %p_vy_load_1_phi, 1.000000e-16
+ST_7: tmp_1_6 (224)  [12/17] 7.11ns  loc: astro.c:65
+_ifconv:108  %tmp_1_6 = fdiv double %p_vy_load_1_phi, 1.000000e-16
 
-ST_7: tmp_11_1 (147)  [12/17] 7.11ns  loc: astro.c:19
-_ifconv:85  %tmp_11_1 = fdiv double %p_vz_load_1_phi, 1.000000e-16
+ST_7: tmp_11_1 (234)  [12/17] 7.11ns  loc: astro.c:66
+_ifconv:118  %tmp_11_1 = fdiv double %p_vz_load_1_phi, 1.000000e-16
 
-ST_7: tmp_2_2 (157)  [12/17] 7.11ns  loc: astro.c:14
-_ifconv:95  %tmp_2_2 = fdiv double %p_x_load_2_phi, 1.000000e-16
+ST_7: tmp_2_2 (245)  [12/17] 7.11ns  loc: astro.c:61
+_ifconv:129  %tmp_2_2 = fdiv double %p_x_load_2_phi, 1.000000e-16
 
-ST_7: tmp_4_2 (164)  [12/17] 7.11ns  loc: astro.c:15
-_ifconv:102  %tmp_4_2 = fdiv double %p_y_load_2_phi, 1.000000e-16
+ST_7: tmp_4_2 (255)  [12/17] 7.11ns  loc: astro.c:62
+_ifconv:139  %tmp_4_2 = fdiv double %p_y_load_2_phi, 1.000000e-16
 
-ST_7: tmp_6_2 (171)  [12/17] 7.11ns  loc: astro.c:16
-_ifconv:109  %tmp_6_2 = fdiv double %p_z_load_2_phi, 1.000000e-16
+ST_7: tmp_6_2 (265)  [12/17] 7.11ns  loc: astro.c:63
+_ifconv:149  %tmp_6_2 = fdiv double %p_z_load_2_phi, 1.000000e-16
 
-ST_7: tmp_8_2 (178)  [12/17] 7.11ns  loc: astro.c:17
-_ifconv:116  %tmp_8_2 = fdiv double %p_vx_load_2_phi, 1.000000e-16
+ST_7: tmp_8_2 (275)  [12/17] 7.11ns  loc: astro.c:64
+_ifconv:159  %tmp_8_2 = fdiv double %p_vx_load_2_phi, 1.000000e-16
 
-ST_7: tmp_2_7 (185)  [12/17] 7.11ns  loc: astro.c:18
-_ifconv:123  %tmp_2_7 = fdiv double %p_vy_load_2_phi, 1.000000e-16
+ST_7: tmp_2_7 (285)  [12/17] 7.11ns  loc: astro.c:65
+_ifconv:169  %tmp_2_7 = fdiv double %p_vy_load_2_phi, 1.000000e-16
 
-ST_7: tmp_11_2 (192)  [12/17] 7.11ns  loc: astro.c:19
-_ifconv:130  %tmp_11_2 = fdiv double %p_vz_load_2_phi, 1.000000e-16
+ST_7: tmp_11_2 (295)  [12/17] 7.11ns  loc: astro.c:66
+_ifconv:179  %tmp_11_2 = fdiv double %p_vz_load_2_phi, 1.000000e-16
 
 
  <State 8>: 7.11ns
-ST_8: tmp_2 (67)  [11/17] 7.11ns  loc: astro.c:14
-_ifconv:5  %tmp_2 = fdiv double %p_x_load_0_phi, 1.000000e-16
+ST_8: tmp_2 (123)  [11/17] 7.11ns  loc: astro.c:61
+_ifconv:7  %tmp_2 = fdiv double %p_x_load_0_phi, 1.000000e-16
 
-ST_8: tmp_5 (74)  [11/17] 7.11ns  loc: astro.c:15
-_ifconv:12  %tmp_5 = fdiv double %p_y_load_0_phi, 1.000000e-16
+ST_8: tmp_4 (133)  [11/17] 7.11ns  loc: astro.c:62
+_ifconv:17  %tmp_4 = fdiv double %p_y_load_0_phi, 1.000000e-16
 
-ST_8: tmp_7 (81)  [11/17] 7.11ns  loc: astro.c:16
-_ifconv:19  %tmp_7 = fdiv double %p_z_load_0_phi, 1.000000e-16
+ST_8: tmp_6 (143)  [11/17] 7.11ns  loc: astro.c:63
+_ifconv:27  %tmp_6 = fdiv double %p_z_load_0_phi, 1.000000e-16
 
-ST_8: tmp_8 (88)  [11/17] 7.11ns  loc: astro.c:17
-_ifconv:26  %tmp_8 = fdiv double %p_vx_load_0_phi, 1.000000e-16
+ST_8: tmp_8 (153)  [11/17] 7.11ns  loc: astro.c:64
+_ifconv:37  %tmp_8 = fdiv double %p_vx_load_0_phi, 1.000000e-16
 
-ST_8: tmp_s (95)  [11/17] 7.11ns  loc: astro.c:18
-_ifconv:33  %tmp_s = fdiv double %p_vy_load_0_phi, 1.000000e-16
+ST_8: tmp_s (163)  [11/17] 7.11ns  loc: astro.c:65
+_ifconv:47  %tmp_s = fdiv double %p_vy_load_0_phi, 1.000000e-16
 
-ST_8: tmp_11 (102)  [11/17] 7.11ns  loc: astro.c:19
-_ifconv:40  %tmp_11 = fdiv double %p_vz_load_0_phi, 1.000000e-16
+ST_8: tmp_1 (173)  [11/17] 7.11ns  loc: astro.c:66
+_ifconv:57  %tmp_1 = fdiv double %p_vz_load_0_phi, 1.000000e-16
 
-ST_8: tmp_2_1 (112)  [11/17] 7.11ns  loc: astro.c:14
-_ifconv:50  %tmp_2_1 = fdiv double %p_x_load_1_phi, 1.000000e-16
+ST_8: tmp_2_1 (184)  [11/17] 7.11ns  loc: astro.c:61
+_ifconv:68  %tmp_2_1 = fdiv double %p_x_load_1_phi, 1.000000e-16
 
-ST_8: tmp_4_1 (119)  [11/17] 7.11ns  loc: astro.c:15
-_ifconv:57  %tmp_4_1 = fdiv double %p_y_load_1_phi, 1.000000e-16
+ST_8: tmp_4_1 (194)  [11/17] 7.11ns  loc: astro.c:62
+_ifconv:78  %tmp_4_1 = fdiv double %p_y_load_1_phi, 1.000000e-16
 
-ST_8: tmp_6_1 (126)  [11/17] 7.11ns  loc: astro.c:16
-_ifconv:64  %tmp_6_1 = fdiv double %p_z_load_1_phi, 1.000000e-16
+ST_8: tmp_6_1 (204)  [11/17] 7.11ns  loc: astro.c:63
+_ifconv:88  %tmp_6_1 = fdiv double %p_z_load_1_phi, 1.000000e-16
 
-ST_8: tmp_8_1 (133)  [11/17] 7.11ns  loc: astro.c:17
-_ifconv:71  %tmp_8_1 = fdiv double %p_vx_load_1_phi, 1.000000e-16
+ST_8: tmp_8_1 (214)  [11/17] 7.11ns  loc: astro.c:64
+_ifconv:98  %tmp_8_1 = fdiv double %p_vx_load_1_phi, 1.000000e-16
 
-ST_8: tmp_1_6 (140)  [11/17] 7.11ns  loc: astro.c:18
-_ifconv:78  %tmp_1_6 = fdiv double %p_vy_load_1_phi, 1.000000e-16
+ST_8: tmp_1_6 (224)  [11/17] 7.11ns  loc: astro.c:65
+_ifconv:108  %tmp_1_6 = fdiv double %p_vy_load_1_phi, 1.000000e-16
 
-ST_8: tmp_11_1 (147)  [11/17] 7.11ns  loc: astro.c:19
-_ifconv:85  %tmp_11_1 = fdiv double %p_vz_load_1_phi, 1.000000e-16
+ST_8: tmp_11_1 (234)  [11/17] 7.11ns  loc: astro.c:66
+_ifconv:118  %tmp_11_1 = fdiv double %p_vz_load_1_phi, 1.000000e-16
 
-ST_8: tmp_2_2 (157)  [11/17] 7.11ns  loc: astro.c:14
-_ifconv:95  %tmp_2_2 = fdiv double %p_x_load_2_phi, 1.000000e-16
+ST_8: tmp_2_2 (245)  [11/17] 7.11ns  loc: astro.c:61
+_ifconv:129  %tmp_2_2 = fdiv double %p_x_load_2_phi, 1.000000e-16
 
-ST_8: tmp_4_2 (164)  [11/17] 7.11ns  loc: astro.c:15
-_ifconv:102  %tmp_4_2 = fdiv double %p_y_load_2_phi, 1.000000e-16
+ST_8: tmp_4_2 (255)  [11/17] 7.11ns  loc: astro.c:62
+_ifconv:139  %tmp_4_2 = fdiv double %p_y_load_2_phi, 1.000000e-16
 
-ST_8: tmp_6_2 (171)  [11/17] 7.11ns  loc: astro.c:16
-_ifconv:109  %tmp_6_2 = fdiv double %p_z_load_2_phi, 1.000000e-16
+ST_8: tmp_6_2 (265)  [11/17] 7.11ns  loc: astro.c:63
+_ifconv:149  %tmp_6_2 = fdiv double %p_z_load_2_phi, 1.000000e-16
 
-ST_8: tmp_8_2 (178)  [11/17] 7.11ns  loc: astro.c:17
-_ifconv:116  %tmp_8_2 = fdiv double %p_vx_load_2_phi, 1.000000e-16
+ST_8: tmp_8_2 (275)  [11/17] 7.11ns  loc: astro.c:64
+_ifconv:159  %tmp_8_2 = fdiv double %p_vx_load_2_phi, 1.000000e-16
 
-ST_8: tmp_2_7 (185)  [11/17] 7.11ns  loc: astro.c:18
-_ifconv:123  %tmp_2_7 = fdiv double %p_vy_load_2_phi, 1.000000e-16
+ST_8: tmp_2_7 (285)  [11/17] 7.11ns  loc: astro.c:65
+_ifconv:169  %tmp_2_7 = fdiv double %p_vy_load_2_phi, 1.000000e-16
 
-ST_8: tmp_11_2 (192)  [11/17] 7.11ns  loc: astro.c:19
-_ifconv:130  %tmp_11_2 = fdiv double %p_vz_load_2_phi, 1.000000e-16
+ST_8: tmp_11_2 (295)  [11/17] 7.11ns  loc: astro.c:66
+_ifconv:179  %tmp_11_2 = fdiv double %p_vz_load_2_phi, 1.000000e-16
 
 
  <State 9>: 7.11ns
-ST_9: tmp_2 (67)  [10/17] 7.11ns  loc: astro.c:14
-_ifconv:5  %tmp_2 = fdiv double %p_x_load_0_phi, 1.000000e-16
+ST_9: tmp_2 (123)  [10/17] 7.11ns  loc: astro.c:61
+_ifconv:7  %tmp_2 = fdiv double %p_x_load_0_phi, 1.000000e-16
 
-ST_9: tmp_5 (74)  [10/17] 7.11ns  loc: astro.c:15
-_ifconv:12  %tmp_5 = fdiv double %p_y_load_0_phi, 1.000000e-16
+ST_9: tmp_4 (133)  [10/17] 7.11ns  loc: astro.c:62
+_ifconv:17  %tmp_4 = fdiv double %p_y_load_0_phi, 1.000000e-16
 
-ST_9: tmp_7 (81)  [10/17] 7.11ns  loc: astro.c:16
-_ifconv:19  %tmp_7 = fdiv double %p_z_load_0_phi, 1.000000e-16
+ST_9: tmp_6 (143)  [10/17] 7.11ns  loc: astro.c:63
+_ifconv:27  %tmp_6 = fdiv double %p_z_load_0_phi, 1.000000e-16
 
-ST_9: tmp_8 (88)  [10/17] 7.11ns  loc: astro.c:17
-_ifconv:26  %tmp_8 = fdiv double %p_vx_load_0_phi, 1.000000e-16
+ST_9: tmp_8 (153)  [10/17] 7.11ns  loc: astro.c:64
+_ifconv:37  %tmp_8 = fdiv double %p_vx_load_0_phi, 1.000000e-16
 
-ST_9: tmp_s (95)  [10/17] 7.11ns  loc: astro.c:18
-_ifconv:33  %tmp_s = fdiv double %p_vy_load_0_phi, 1.000000e-16
+ST_9: tmp_s (163)  [10/17] 7.11ns  loc: astro.c:65
+_ifconv:47  %tmp_s = fdiv double %p_vy_load_0_phi, 1.000000e-16
 
-ST_9: tmp_11 (102)  [10/17] 7.11ns  loc: astro.c:19
-_ifconv:40  %tmp_11 = fdiv double %p_vz_load_0_phi, 1.000000e-16
+ST_9: tmp_1 (173)  [10/17] 7.11ns  loc: astro.c:66
+_ifconv:57  %tmp_1 = fdiv double %p_vz_load_0_phi, 1.000000e-16
 
-ST_9: tmp_2_1 (112)  [10/17] 7.11ns  loc: astro.c:14
-_ifconv:50  %tmp_2_1 = fdiv double %p_x_load_1_phi, 1.000000e-16
+ST_9: tmp_2_1 (184)  [10/17] 7.11ns  loc: astro.c:61
+_ifconv:68  %tmp_2_1 = fdiv double %p_x_load_1_phi, 1.000000e-16
 
-ST_9: tmp_4_1 (119)  [10/17] 7.11ns  loc: astro.c:15
-_ifconv:57  %tmp_4_1 = fdiv double %p_y_load_1_phi, 1.000000e-16
+ST_9: tmp_4_1 (194)  [10/17] 7.11ns  loc: astro.c:62
+_ifconv:78  %tmp_4_1 = fdiv double %p_y_load_1_phi, 1.000000e-16
 
-ST_9: tmp_6_1 (126)  [10/17] 7.11ns  loc: astro.c:16
-_ifconv:64  %tmp_6_1 = fdiv double %p_z_load_1_phi, 1.000000e-16
+ST_9: tmp_6_1 (204)  [10/17] 7.11ns  loc: astro.c:63
+_ifconv:88  %tmp_6_1 = fdiv double %p_z_load_1_phi, 1.000000e-16
 
-ST_9: tmp_8_1 (133)  [10/17] 7.11ns  loc: astro.c:17
-_ifconv:71  %tmp_8_1 = fdiv double %p_vx_load_1_phi, 1.000000e-16
+ST_9: tmp_8_1 (214)  [10/17] 7.11ns  loc: astro.c:64
+_ifconv:98  %tmp_8_1 = fdiv double %p_vx_load_1_phi, 1.000000e-16
 
-ST_9: tmp_1_6 (140)  [10/17] 7.11ns  loc: astro.c:18
-_ifconv:78  %tmp_1_6 = fdiv double %p_vy_load_1_phi, 1.000000e-16
+ST_9: tmp_1_6 (224)  [10/17] 7.11ns  loc: astro.c:65
+_ifconv:108  %tmp_1_6 = fdiv double %p_vy_load_1_phi, 1.000000e-16
 
-ST_9: tmp_11_1 (147)  [10/17] 7.11ns  loc: astro.c:19
-_ifconv:85  %tmp_11_1 = fdiv double %p_vz_load_1_phi, 1.000000e-16
+ST_9: tmp_11_1 (234)  [10/17] 7.11ns  loc: astro.c:66
+_ifconv:118  %tmp_11_1 = fdiv double %p_vz_load_1_phi, 1.000000e-16
 
-ST_9: tmp_2_2 (157)  [10/17] 7.11ns  loc: astro.c:14
-_ifconv:95  %tmp_2_2 = fdiv double %p_x_load_2_phi, 1.000000e-16
+ST_9: tmp_2_2 (245)  [10/17] 7.11ns  loc: astro.c:61
+_ifconv:129  %tmp_2_2 = fdiv double %p_x_load_2_phi, 1.000000e-16
 
-ST_9: tmp_4_2 (164)  [10/17] 7.11ns  loc: astro.c:15
-_ifconv:102  %tmp_4_2 = fdiv double %p_y_load_2_phi, 1.000000e-16
+ST_9: tmp_4_2 (255)  [10/17] 7.11ns  loc: astro.c:62
+_ifconv:139  %tmp_4_2 = fdiv double %p_y_load_2_phi, 1.000000e-16
 
-ST_9: tmp_6_2 (171)  [10/17] 7.11ns  loc: astro.c:16
-_ifconv:109  %tmp_6_2 = fdiv double %p_z_load_2_phi, 1.000000e-16
+ST_9: tmp_6_2 (265)  [10/17] 7.11ns  loc: astro.c:63
+_ifconv:149  %tmp_6_2 = fdiv double %p_z_load_2_phi, 1.000000e-16
 
-ST_9: tmp_8_2 (178)  [10/17] 7.11ns  loc: astro.c:17
-_ifconv:116  %tmp_8_2 = fdiv double %p_vx_load_2_phi, 1.000000e-16
+ST_9: tmp_8_2 (275)  [10/17] 7.11ns  loc: astro.c:64
+_ifconv:159  %tmp_8_2 = fdiv double %p_vx_load_2_phi, 1.000000e-16
 
-ST_9: tmp_2_7 (185)  [10/17] 7.11ns  loc: astro.c:18
-_ifconv:123  %tmp_2_7 = fdiv double %p_vy_load_2_phi, 1.000000e-16
+ST_9: tmp_2_7 (285)  [10/17] 7.11ns  loc: astro.c:65
+_ifconv:169  %tmp_2_7 = fdiv double %p_vy_load_2_phi, 1.000000e-16
 
-ST_9: tmp_11_2 (192)  [10/17] 7.11ns  loc: astro.c:19
-_ifconv:130  %tmp_11_2 = fdiv double %p_vz_load_2_phi, 1.000000e-16
+ST_9: tmp_11_2 (295)  [10/17] 7.11ns  loc: astro.c:66
+_ifconv:179  %tmp_11_2 = fdiv double %p_vz_load_2_phi, 1.000000e-16
 
 
  <State 10>: 7.11ns
-ST_10: tmp_2 (67)  [9/17] 7.11ns  loc: astro.c:14
-_ifconv:5  %tmp_2 = fdiv double %p_x_load_0_phi, 1.000000e-16
+ST_10: tmp_2 (123)  [9/17] 7.11ns  loc: astro.c:61
+_ifconv:7  %tmp_2 = fdiv double %p_x_load_0_phi, 1.000000e-16
 
-ST_10: tmp_5 (74)  [9/17] 7.11ns  loc: astro.c:15
-_ifconv:12  %tmp_5 = fdiv double %p_y_load_0_phi, 1.000000e-16
+ST_10: tmp_4 (133)  [9/17] 7.11ns  loc: astro.c:62
+_ifconv:17  %tmp_4 = fdiv double %p_y_load_0_phi, 1.000000e-16
 
-ST_10: tmp_7 (81)  [9/17] 7.11ns  loc: astro.c:16
-_ifconv:19  %tmp_7 = fdiv double %p_z_load_0_phi, 1.000000e-16
+ST_10: tmp_6 (143)  [9/17] 7.11ns  loc: astro.c:63
+_ifconv:27  %tmp_6 = fdiv double %p_z_load_0_phi, 1.000000e-16
 
-ST_10: tmp_8 (88)  [9/17] 7.11ns  loc: astro.c:17
-_ifconv:26  %tmp_8 = fdiv double %p_vx_load_0_phi, 1.000000e-16
+ST_10: tmp_8 (153)  [9/17] 7.11ns  loc: astro.c:64
+_ifconv:37  %tmp_8 = fdiv double %p_vx_load_0_phi, 1.000000e-16
 
-ST_10: tmp_s (95)  [9/17] 7.11ns  loc: astro.c:18
-_ifconv:33  %tmp_s = fdiv double %p_vy_load_0_phi, 1.000000e-16
+ST_10: tmp_s (163)  [9/17] 7.11ns  loc: astro.c:65
+_ifconv:47  %tmp_s = fdiv double %p_vy_load_0_phi, 1.000000e-16
 
-ST_10: tmp_11 (102)  [9/17] 7.11ns  loc: astro.c:19
-_ifconv:40  %tmp_11 = fdiv double %p_vz_load_0_phi, 1.000000e-16
+ST_10: tmp_1 (173)  [9/17] 7.11ns  loc: astro.c:66
+_ifconv:57  %tmp_1 = fdiv double %p_vz_load_0_phi, 1.000000e-16
 
-ST_10: tmp_2_1 (112)  [9/17] 7.11ns  loc: astro.c:14
-_ifconv:50  %tmp_2_1 = fdiv double %p_x_load_1_phi, 1.000000e-16
+ST_10: tmp_2_1 (184)  [9/17] 7.11ns  loc: astro.c:61
+_ifconv:68  %tmp_2_1 = fdiv double %p_x_load_1_phi, 1.000000e-16
 
-ST_10: tmp_4_1 (119)  [9/17] 7.11ns  loc: astro.c:15
-_ifconv:57  %tmp_4_1 = fdiv double %p_y_load_1_phi, 1.000000e-16
+ST_10: tmp_4_1 (194)  [9/17] 7.11ns  loc: astro.c:62
+_ifconv:78  %tmp_4_1 = fdiv double %p_y_load_1_phi, 1.000000e-16
 
-ST_10: tmp_6_1 (126)  [9/17] 7.11ns  loc: astro.c:16
-_ifconv:64  %tmp_6_1 = fdiv double %p_z_load_1_phi, 1.000000e-16
+ST_10: tmp_6_1 (204)  [9/17] 7.11ns  loc: astro.c:63
+_ifconv:88  %tmp_6_1 = fdiv double %p_z_load_1_phi, 1.000000e-16
 
-ST_10: tmp_8_1 (133)  [9/17] 7.11ns  loc: astro.c:17
-_ifconv:71  %tmp_8_1 = fdiv double %p_vx_load_1_phi, 1.000000e-16
+ST_10: tmp_8_1 (214)  [9/17] 7.11ns  loc: astro.c:64
+_ifconv:98  %tmp_8_1 = fdiv double %p_vx_load_1_phi, 1.000000e-16
 
-ST_10: tmp_1_6 (140)  [9/17] 7.11ns  loc: astro.c:18
-_ifconv:78  %tmp_1_6 = fdiv double %p_vy_load_1_phi, 1.000000e-16
+ST_10: tmp_1_6 (224)  [9/17] 7.11ns  loc: astro.c:65
+_ifconv:108  %tmp_1_6 = fdiv double %p_vy_load_1_phi, 1.000000e-16
 
-ST_10: tmp_11_1 (147)  [9/17] 7.11ns  loc: astro.c:19
-_ifconv:85  %tmp_11_1 = fdiv double %p_vz_load_1_phi, 1.000000e-16
+ST_10: tmp_11_1 (234)  [9/17] 7.11ns  loc: astro.c:66
+_ifconv:118  %tmp_11_1 = fdiv double %p_vz_load_1_phi, 1.000000e-16
 
-ST_10: tmp_2_2 (157)  [9/17] 7.11ns  loc: astro.c:14
-_ifconv:95  %tmp_2_2 = fdiv double %p_x_load_2_phi, 1.000000e-16
+ST_10: tmp_2_2 (245)  [9/17] 7.11ns  loc: astro.c:61
+_ifconv:129  %tmp_2_2 = fdiv double %p_x_load_2_phi, 1.000000e-16
 
-ST_10: tmp_4_2 (164)  [9/17] 7.11ns  loc: astro.c:15
-_ifconv:102  %tmp_4_2 = fdiv double %p_y_load_2_phi, 1.000000e-16
+ST_10: tmp_4_2 (255)  [9/17] 7.11ns  loc: astro.c:62
+_ifconv:139  %tmp_4_2 = fdiv double %p_y_load_2_phi, 1.000000e-16
 
-ST_10: tmp_6_2 (171)  [9/17] 7.11ns  loc: astro.c:16
-_ifconv:109  %tmp_6_2 = fdiv double %p_z_load_2_phi, 1.000000e-16
+ST_10: tmp_6_2 (265)  [9/17] 7.11ns  loc: astro.c:63
+_ifconv:149  %tmp_6_2 = fdiv double %p_z_load_2_phi, 1.000000e-16
 
-ST_10: tmp_8_2 (178)  [9/17] 7.11ns  loc: astro.c:17
-_ifconv:116  %tmp_8_2 = fdiv double %p_vx_load_2_phi, 1.000000e-16
+ST_10: tmp_8_2 (275)  [9/17] 7.11ns  loc: astro.c:64
+_ifconv:159  %tmp_8_2 = fdiv double %p_vx_load_2_phi, 1.000000e-16
 
-ST_10: tmp_2_7 (185)  [9/17] 7.11ns  loc: astro.c:18
-_ifconv:123  %tmp_2_7 = fdiv double %p_vy_load_2_phi, 1.000000e-16
+ST_10: tmp_2_7 (285)  [9/17] 7.11ns  loc: astro.c:65
+_ifconv:169  %tmp_2_7 = fdiv double %p_vy_load_2_phi, 1.000000e-16
 
-ST_10: tmp_11_2 (192)  [9/17] 7.11ns  loc: astro.c:19
-_ifconv:130  %tmp_11_2 = fdiv double %p_vz_load_2_phi, 1.000000e-16
+ST_10: tmp_11_2 (295)  [9/17] 7.11ns  loc: astro.c:66
+_ifconv:179  %tmp_11_2 = fdiv double %p_vz_load_2_phi, 1.000000e-16
 
 
  <State 11>: 7.11ns
-ST_11: tmp_2 (67)  [8/17] 7.11ns  loc: astro.c:14
-_ifconv:5  %tmp_2 = fdiv double %p_x_load_0_phi, 1.000000e-16
+ST_11: tmp_2 (123)  [8/17] 7.11ns  loc: astro.c:61
+_ifconv:7  %tmp_2 = fdiv double %p_x_load_0_phi, 1.000000e-16
 
-ST_11: tmp_5 (74)  [8/17] 7.11ns  loc: astro.c:15
-_ifconv:12  %tmp_5 = fdiv double %p_y_load_0_phi, 1.000000e-16
+ST_11: tmp_4 (133)  [8/17] 7.11ns  loc: astro.c:62
+_ifconv:17  %tmp_4 = fdiv double %p_y_load_0_phi, 1.000000e-16
 
-ST_11: tmp_7 (81)  [8/17] 7.11ns  loc: astro.c:16
-_ifconv:19  %tmp_7 = fdiv double %p_z_load_0_phi, 1.000000e-16
+ST_11: tmp_6 (143)  [8/17] 7.11ns  loc: astro.c:63
+_ifconv:27  %tmp_6 = fdiv double %p_z_load_0_phi, 1.000000e-16
 
-ST_11: tmp_8 (88)  [8/17] 7.11ns  loc: astro.c:17
-_ifconv:26  %tmp_8 = fdiv double %p_vx_load_0_phi, 1.000000e-16
+ST_11: tmp_8 (153)  [8/17] 7.11ns  loc: astro.c:64
+_ifconv:37  %tmp_8 = fdiv double %p_vx_load_0_phi, 1.000000e-16
 
-ST_11: tmp_s (95)  [8/17] 7.11ns  loc: astro.c:18
-_ifconv:33  %tmp_s = fdiv double %p_vy_load_0_phi, 1.000000e-16
+ST_11: tmp_s (163)  [8/17] 7.11ns  loc: astro.c:65
+_ifconv:47  %tmp_s = fdiv double %p_vy_load_0_phi, 1.000000e-16
 
-ST_11: tmp_11 (102)  [8/17] 7.11ns  loc: astro.c:19
-_ifconv:40  %tmp_11 = fdiv double %p_vz_load_0_phi, 1.000000e-16
+ST_11: tmp_1 (173)  [8/17] 7.11ns  loc: astro.c:66
+_ifconv:57  %tmp_1 = fdiv double %p_vz_load_0_phi, 1.000000e-16
 
-ST_11: tmp_2_1 (112)  [8/17] 7.11ns  loc: astro.c:14
-_ifconv:50  %tmp_2_1 = fdiv double %p_x_load_1_phi, 1.000000e-16
+ST_11: tmp_2_1 (184)  [8/17] 7.11ns  loc: astro.c:61
+_ifconv:68  %tmp_2_1 = fdiv double %p_x_load_1_phi, 1.000000e-16
 
-ST_11: tmp_4_1 (119)  [8/17] 7.11ns  loc: astro.c:15
-_ifconv:57  %tmp_4_1 = fdiv double %p_y_load_1_phi, 1.000000e-16
+ST_11: tmp_4_1 (194)  [8/17] 7.11ns  loc: astro.c:62
+_ifconv:78  %tmp_4_1 = fdiv double %p_y_load_1_phi, 1.000000e-16
 
-ST_11: tmp_6_1 (126)  [8/17] 7.11ns  loc: astro.c:16
-_ifconv:64  %tmp_6_1 = fdiv double %p_z_load_1_phi, 1.000000e-16
+ST_11: tmp_6_1 (204)  [8/17] 7.11ns  loc: astro.c:63
+_ifconv:88  %tmp_6_1 = fdiv double %p_z_load_1_phi, 1.000000e-16
 
-ST_11: tmp_8_1 (133)  [8/17] 7.11ns  loc: astro.c:17
-_ifconv:71  %tmp_8_1 = fdiv double %p_vx_load_1_phi, 1.000000e-16
+ST_11: tmp_8_1 (214)  [8/17] 7.11ns  loc: astro.c:64
+_ifconv:98  %tmp_8_1 = fdiv double %p_vx_load_1_phi, 1.000000e-16
 
-ST_11: tmp_1_6 (140)  [8/17] 7.11ns  loc: astro.c:18
-_ifconv:78  %tmp_1_6 = fdiv double %p_vy_load_1_phi, 1.000000e-16
+ST_11: tmp_1_6 (224)  [8/17] 7.11ns  loc: astro.c:65
+_ifconv:108  %tmp_1_6 = fdiv double %p_vy_load_1_phi, 1.000000e-16
 
-ST_11: tmp_11_1 (147)  [8/17] 7.11ns  loc: astro.c:19
-_ifconv:85  %tmp_11_1 = fdiv double %p_vz_load_1_phi, 1.000000e-16
+ST_11: tmp_11_1 (234)  [8/17] 7.11ns  loc: astro.c:66
+_ifconv:118  %tmp_11_1 = fdiv double %p_vz_load_1_phi, 1.000000e-16
 
-ST_11: tmp_2_2 (157)  [8/17] 7.11ns  loc: astro.c:14
-_ifconv:95  %tmp_2_2 = fdiv double %p_x_load_2_phi, 1.000000e-16
+ST_11: tmp_2_2 (245)  [8/17] 7.11ns  loc: astro.c:61
+_ifconv:129  %tmp_2_2 = fdiv double %p_x_load_2_phi, 1.000000e-16
 
-ST_11: tmp_4_2 (164)  [8/17] 7.11ns  loc: astro.c:15
-_ifconv:102  %tmp_4_2 = fdiv double %p_y_load_2_phi, 1.000000e-16
+ST_11: tmp_4_2 (255)  [8/17] 7.11ns  loc: astro.c:62
+_ifconv:139  %tmp_4_2 = fdiv double %p_y_load_2_phi, 1.000000e-16
 
-ST_11: tmp_6_2 (171)  [8/17] 7.11ns  loc: astro.c:16
-_ifconv:109  %tmp_6_2 = fdiv double %p_z_load_2_phi, 1.000000e-16
+ST_11: tmp_6_2 (265)  [8/17] 7.11ns  loc: astro.c:63
+_ifconv:149  %tmp_6_2 = fdiv double %p_z_load_2_phi, 1.000000e-16
 
-ST_11: tmp_8_2 (178)  [8/17] 7.11ns  loc: astro.c:17
-_ifconv:116  %tmp_8_2 = fdiv double %p_vx_load_2_phi, 1.000000e-16
+ST_11: tmp_8_2 (275)  [8/17] 7.11ns  loc: astro.c:64
+_ifconv:159  %tmp_8_2 = fdiv double %p_vx_load_2_phi, 1.000000e-16
 
-ST_11: tmp_2_7 (185)  [8/17] 7.11ns  loc: astro.c:18
-_ifconv:123  %tmp_2_7 = fdiv double %p_vy_load_2_phi, 1.000000e-16
+ST_11: tmp_2_7 (285)  [8/17] 7.11ns  loc: astro.c:65
+_ifconv:169  %tmp_2_7 = fdiv double %p_vy_load_2_phi, 1.000000e-16
 
-ST_11: tmp_11_2 (192)  [8/17] 7.11ns  loc: astro.c:19
-_ifconv:130  %tmp_11_2 = fdiv double %p_vz_load_2_phi, 1.000000e-16
+ST_11: tmp_11_2 (295)  [8/17] 7.11ns  loc: astro.c:66
+_ifconv:179  %tmp_11_2 = fdiv double %p_vz_load_2_phi, 1.000000e-16
 
 
  <State 12>: 7.11ns
-ST_12: tmp_2 (67)  [7/17] 7.11ns  loc: astro.c:14
-_ifconv:5  %tmp_2 = fdiv double %p_x_load_0_phi, 1.000000e-16
+ST_12: tmp_2 (123)  [7/17] 7.11ns  loc: astro.c:61
+_ifconv:7  %tmp_2 = fdiv double %p_x_load_0_phi, 1.000000e-16
 
-ST_12: tmp_5 (74)  [7/17] 7.11ns  loc: astro.c:15
-_ifconv:12  %tmp_5 = fdiv double %p_y_load_0_phi, 1.000000e-16
+ST_12: tmp_4 (133)  [7/17] 7.11ns  loc: astro.c:62
+_ifconv:17  %tmp_4 = fdiv double %p_y_load_0_phi, 1.000000e-16
 
-ST_12: tmp_7 (81)  [7/17] 7.11ns  loc: astro.c:16
-_ifconv:19  %tmp_7 = fdiv double %p_z_load_0_phi, 1.000000e-16
+ST_12: tmp_6 (143)  [7/17] 7.11ns  loc: astro.c:63
+_ifconv:27  %tmp_6 = fdiv double %p_z_load_0_phi, 1.000000e-16
 
-ST_12: tmp_8 (88)  [7/17] 7.11ns  loc: astro.c:17
-_ifconv:26  %tmp_8 = fdiv double %p_vx_load_0_phi, 1.000000e-16
+ST_12: tmp_8 (153)  [7/17] 7.11ns  loc: astro.c:64
+_ifconv:37  %tmp_8 = fdiv double %p_vx_load_0_phi, 1.000000e-16
 
-ST_12: tmp_s (95)  [7/17] 7.11ns  loc: astro.c:18
-_ifconv:33  %tmp_s = fdiv double %p_vy_load_0_phi, 1.000000e-16
+ST_12: tmp_s (163)  [7/17] 7.11ns  loc: astro.c:65
+_ifconv:47  %tmp_s = fdiv double %p_vy_load_0_phi, 1.000000e-16
 
-ST_12: tmp_11 (102)  [7/17] 7.11ns  loc: astro.c:19
-_ifconv:40  %tmp_11 = fdiv double %p_vz_load_0_phi, 1.000000e-16
+ST_12: tmp_1 (173)  [7/17] 7.11ns  loc: astro.c:66
+_ifconv:57  %tmp_1 = fdiv double %p_vz_load_0_phi, 1.000000e-16
 
-ST_12: tmp_2_1 (112)  [7/17] 7.11ns  loc: astro.c:14
-_ifconv:50  %tmp_2_1 = fdiv double %p_x_load_1_phi, 1.000000e-16
+ST_12: tmp_2_1 (184)  [7/17] 7.11ns  loc: astro.c:61
+_ifconv:68  %tmp_2_1 = fdiv double %p_x_load_1_phi, 1.000000e-16
 
-ST_12: tmp_4_1 (119)  [7/17] 7.11ns  loc: astro.c:15
-_ifconv:57  %tmp_4_1 = fdiv double %p_y_load_1_phi, 1.000000e-16
+ST_12: tmp_4_1 (194)  [7/17] 7.11ns  loc: astro.c:62
+_ifconv:78  %tmp_4_1 = fdiv double %p_y_load_1_phi, 1.000000e-16
 
-ST_12: tmp_6_1 (126)  [7/17] 7.11ns  loc: astro.c:16
-_ifconv:64  %tmp_6_1 = fdiv double %p_z_load_1_phi, 1.000000e-16
+ST_12: tmp_6_1 (204)  [7/17] 7.11ns  loc: astro.c:63
+_ifconv:88  %tmp_6_1 = fdiv double %p_z_load_1_phi, 1.000000e-16
 
-ST_12: tmp_8_1 (133)  [7/17] 7.11ns  loc: astro.c:17
-_ifconv:71  %tmp_8_1 = fdiv double %p_vx_load_1_phi, 1.000000e-16
+ST_12: tmp_8_1 (214)  [7/17] 7.11ns  loc: astro.c:64
+_ifconv:98  %tmp_8_1 = fdiv double %p_vx_load_1_phi, 1.000000e-16
 
-ST_12: tmp_1_6 (140)  [7/17] 7.11ns  loc: astro.c:18
-_ifconv:78  %tmp_1_6 = fdiv double %p_vy_load_1_phi, 1.000000e-16
+ST_12: tmp_1_6 (224)  [7/17] 7.11ns  loc: astro.c:65
+_ifconv:108  %tmp_1_6 = fdiv double %p_vy_load_1_phi, 1.000000e-16
 
-ST_12: tmp_11_1 (147)  [7/17] 7.11ns  loc: astro.c:19
-_ifconv:85  %tmp_11_1 = fdiv double %p_vz_load_1_phi, 1.000000e-16
+ST_12: tmp_11_1 (234)  [7/17] 7.11ns  loc: astro.c:66
+_ifconv:118  %tmp_11_1 = fdiv double %p_vz_load_1_phi, 1.000000e-16
 
-ST_12: tmp_2_2 (157)  [7/17] 7.11ns  loc: astro.c:14
-_ifconv:95  %tmp_2_2 = fdiv double %p_x_load_2_phi, 1.000000e-16
+ST_12: tmp_2_2 (245)  [7/17] 7.11ns  loc: astro.c:61
+_ifconv:129  %tmp_2_2 = fdiv double %p_x_load_2_phi, 1.000000e-16
 
-ST_12: tmp_4_2 (164)  [7/17] 7.11ns  loc: astro.c:15
-_ifconv:102  %tmp_4_2 = fdiv double %p_y_load_2_phi, 1.000000e-16
+ST_12: tmp_4_2 (255)  [7/17] 7.11ns  loc: astro.c:62
+_ifconv:139  %tmp_4_2 = fdiv double %p_y_load_2_phi, 1.000000e-16
 
-ST_12: tmp_6_2 (171)  [7/17] 7.11ns  loc: astro.c:16
-_ifconv:109  %tmp_6_2 = fdiv double %p_z_load_2_phi, 1.000000e-16
+ST_12: tmp_6_2 (265)  [7/17] 7.11ns  loc: astro.c:63
+_ifconv:149  %tmp_6_2 = fdiv double %p_z_load_2_phi, 1.000000e-16
 
-ST_12: tmp_8_2 (178)  [7/17] 7.11ns  loc: astro.c:17
-_ifconv:116  %tmp_8_2 = fdiv double %p_vx_load_2_phi, 1.000000e-16
+ST_12: tmp_8_2 (275)  [7/17] 7.11ns  loc: astro.c:64
+_ifconv:159  %tmp_8_2 = fdiv double %p_vx_load_2_phi, 1.000000e-16
 
-ST_12: tmp_2_7 (185)  [7/17] 7.11ns  loc: astro.c:18
-_ifconv:123  %tmp_2_7 = fdiv double %p_vy_load_2_phi, 1.000000e-16
+ST_12: tmp_2_7 (285)  [7/17] 7.11ns  loc: astro.c:65
+_ifconv:169  %tmp_2_7 = fdiv double %p_vy_load_2_phi, 1.000000e-16
 
-ST_12: tmp_11_2 (192)  [7/17] 7.11ns  loc: astro.c:19
-_ifconv:130  %tmp_11_2 = fdiv double %p_vz_load_2_phi, 1.000000e-16
+ST_12: tmp_11_2 (295)  [7/17] 7.11ns  loc: astro.c:66
+_ifconv:179  %tmp_11_2 = fdiv double %p_vz_load_2_phi, 1.000000e-16
 
 
  <State 13>: 7.11ns
-ST_13: tmp_2 (67)  [6/17] 7.11ns  loc: astro.c:14
-_ifconv:5  %tmp_2 = fdiv double %p_x_load_0_phi, 1.000000e-16
+ST_13: tmp_2 (123)  [6/17] 7.11ns  loc: astro.c:61
+_ifconv:7  %tmp_2 = fdiv double %p_x_load_0_phi, 1.000000e-16
 
-ST_13: tmp_5 (74)  [6/17] 7.11ns  loc: astro.c:15
-_ifconv:12  %tmp_5 = fdiv double %p_y_load_0_phi, 1.000000e-16
+ST_13: tmp_4 (133)  [6/17] 7.11ns  loc: astro.c:62
+_ifconv:17  %tmp_4 = fdiv double %p_y_load_0_phi, 1.000000e-16
 
-ST_13: tmp_7 (81)  [6/17] 7.11ns  loc: astro.c:16
-_ifconv:19  %tmp_7 = fdiv double %p_z_load_0_phi, 1.000000e-16
+ST_13: tmp_6 (143)  [6/17] 7.11ns  loc: astro.c:63
+_ifconv:27  %tmp_6 = fdiv double %p_z_load_0_phi, 1.000000e-16
 
-ST_13: tmp_8 (88)  [6/17] 7.11ns  loc: astro.c:17
-_ifconv:26  %tmp_8 = fdiv double %p_vx_load_0_phi, 1.000000e-16
+ST_13: tmp_8 (153)  [6/17] 7.11ns  loc: astro.c:64
+_ifconv:37  %tmp_8 = fdiv double %p_vx_load_0_phi, 1.000000e-16
 
-ST_13: tmp_s (95)  [6/17] 7.11ns  loc: astro.c:18
-_ifconv:33  %tmp_s = fdiv double %p_vy_load_0_phi, 1.000000e-16
+ST_13: tmp_s (163)  [6/17] 7.11ns  loc: astro.c:65
+_ifconv:47  %tmp_s = fdiv double %p_vy_load_0_phi, 1.000000e-16
 
-ST_13: tmp_11 (102)  [6/17] 7.11ns  loc: astro.c:19
-_ifconv:40  %tmp_11 = fdiv double %p_vz_load_0_phi, 1.000000e-16
+ST_13: tmp_1 (173)  [6/17] 7.11ns  loc: astro.c:66
+_ifconv:57  %tmp_1 = fdiv double %p_vz_load_0_phi, 1.000000e-16
 
-ST_13: tmp_2_1 (112)  [6/17] 7.11ns  loc: astro.c:14
-_ifconv:50  %tmp_2_1 = fdiv double %p_x_load_1_phi, 1.000000e-16
+ST_13: tmp_2_1 (184)  [6/17] 7.11ns  loc: astro.c:61
+_ifconv:68  %tmp_2_1 = fdiv double %p_x_load_1_phi, 1.000000e-16
 
-ST_13: tmp_4_1 (119)  [6/17] 7.11ns  loc: astro.c:15
-_ifconv:57  %tmp_4_1 = fdiv double %p_y_load_1_phi, 1.000000e-16
+ST_13: tmp_4_1 (194)  [6/17] 7.11ns  loc: astro.c:62
+_ifconv:78  %tmp_4_1 = fdiv double %p_y_load_1_phi, 1.000000e-16
 
-ST_13: tmp_6_1 (126)  [6/17] 7.11ns  loc: astro.c:16
-_ifconv:64  %tmp_6_1 = fdiv double %p_z_load_1_phi, 1.000000e-16
+ST_13: tmp_6_1 (204)  [6/17] 7.11ns  loc: astro.c:63
+_ifconv:88  %tmp_6_1 = fdiv double %p_z_load_1_phi, 1.000000e-16
 
-ST_13: tmp_8_1 (133)  [6/17] 7.11ns  loc: astro.c:17
-_ifconv:71  %tmp_8_1 = fdiv double %p_vx_load_1_phi, 1.000000e-16
+ST_13: tmp_8_1 (214)  [6/17] 7.11ns  loc: astro.c:64
+_ifconv:98  %tmp_8_1 = fdiv double %p_vx_load_1_phi, 1.000000e-16
 
-ST_13: tmp_1_6 (140)  [6/17] 7.11ns  loc: astro.c:18
-_ifconv:78  %tmp_1_6 = fdiv double %p_vy_load_1_phi, 1.000000e-16
+ST_13: tmp_1_6 (224)  [6/17] 7.11ns  loc: astro.c:65
+_ifconv:108  %tmp_1_6 = fdiv double %p_vy_load_1_phi, 1.000000e-16
 
-ST_13: tmp_11_1 (147)  [6/17] 7.11ns  loc: astro.c:19
-_ifconv:85  %tmp_11_1 = fdiv double %p_vz_load_1_phi, 1.000000e-16
+ST_13: tmp_11_1 (234)  [6/17] 7.11ns  loc: astro.c:66
+_ifconv:118  %tmp_11_1 = fdiv double %p_vz_load_1_phi, 1.000000e-16
 
-ST_13: tmp_2_2 (157)  [6/17] 7.11ns  loc: astro.c:14
-_ifconv:95  %tmp_2_2 = fdiv double %p_x_load_2_phi, 1.000000e-16
+ST_13: tmp_2_2 (245)  [6/17] 7.11ns  loc: astro.c:61
+_ifconv:129  %tmp_2_2 = fdiv double %p_x_load_2_phi, 1.000000e-16
 
-ST_13: tmp_4_2 (164)  [6/17] 7.11ns  loc: astro.c:15
-_ifconv:102  %tmp_4_2 = fdiv double %p_y_load_2_phi, 1.000000e-16
+ST_13: tmp_4_2 (255)  [6/17] 7.11ns  loc: astro.c:62
+_ifconv:139  %tmp_4_2 = fdiv double %p_y_load_2_phi, 1.000000e-16
 
-ST_13: tmp_6_2 (171)  [6/17] 7.11ns  loc: astro.c:16
-_ifconv:109  %tmp_6_2 = fdiv double %p_z_load_2_phi, 1.000000e-16
+ST_13: tmp_6_2 (265)  [6/17] 7.11ns  loc: astro.c:63
+_ifconv:149  %tmp_6_2 = fdiv double %p_z_load_2_phi, 1.000000e-16
 
-ST_13: tmp_8_2 (178)  [6/17] 7.11ns  loc: astro.c:17
-_ifconv:116  %tmp_8_2 = fdiv double %p_vx_load_2_phi, 1.000000e-16
+ST_13: tmp_8_2 (275)  [6/17] 7.11ns  loc: astro.c:64
+_ifconv:159  %tmp_8_2 = fdiv double %p_vx_load_2_phi, 1.000000e-16
 
-ST_13: tmp_2_7 (185)  [6/17] 7.11ns  loc: astro.c:18
-_ifconv:123  %tmp_2_7 = fdiv double %p_vy_load_2_phi, 1.000000e-16
+ST_13: tmp_2_7 (285)  [6/17] 7.11ns  loc: astro.c:65
+_ifconv:169  %tmp_2_7 = fdiv double %p_vy_load_2_phi, 1.000000e-16
 
-ST_13: tmp_11_2 (192)  [6/17] 7.11ns  loc: astro.c:19
-_ifconv:130  %tmp_11_2 = fdiv double %p_vz_load_2_phi, 1.000000e-16
+ST_13: tmp_11_2 (295)  [6/17] 7.11ns  loc: astro.c:66
+_ifconv:179  %tmp_11_2 = fdiv double %p_vz_load_2_phi, 1.000000e-16
 
 
  <State 14>: 7.11ns
-ST_14: tmp_2 (67)  [5/17] 7.11ns  loc: astro.c:14
-_ifconv:5  %tmp_2 = fdiv double %p_x_load_0_phi, 1.000000e-16
+ST_14: tmp_2 (123)  [5/17] 7.11ns  loc: astro.c:61
+_ifconv:7  %tmp_2 = fdiv double %p_x_load_0_phi, 1.000000e-16
 
-ST_14: tmp_5 (74)  [5/17] 7.11ns  loc: astro.c:15
-_ifconv:12  %tmp_5 = fdiv double %p_y_load_0_phi, 1.000000e-16
+ST_14: tmp_4 (133)  [5/17] 7.11ns  loc: astro.c:62
+_ifconv:17  %tmp_4 = fdiv double %p_y_load_0_phi, 1.000000e-16
 
-ST_14: tmp_7 (81)  [5/17] 7.11ns  loc: astro.c:16
-_ifconv:19  %tmp_7 = fdiv double %p_z_load_0_phi, 1.000000e-16
+ST_14: tmp_6 (143)  [5/17] 7.11ns  loc: astro.c:63
+_ifconv:27  %tmp_6 = fdiv double %p_z_load_0_phi, 1.000000e-16
 
-ST_14: tmp_8 (88)  [5/17] 7.11ns  loc: astro.c:17
-_ifconv:26  %tmp_8 = fdiv double %p_vx_load_0_phi, 1.000000e-16
+ST_14: tmp_8 (153)  [5/17] 7.11ns  loc: astro.c:64
+_ifconv:37  %tmp_8 = fdiv double %p_vx_load_0_phi, 1.000000e-16
 
-ST_14: tmp_s (95)  [5/17] 7.11ns  loc: astro.c:18
-_ifconv:33  %tmp_s = fdiv double %p_vy_load_0_phi, 1.000000e-16
+ST_14: tmp_s (163)  [5/17] 7.11ns  loc: astro.c:65
+_ifconv:47  %tmp_s = fdiv double %p_vy_load_0_phi, 1.000000e-16
 
-ST_14: tmp_11 (102)  [5/17] 7.11ns  loc: astro.c:19
-_ifconv:40  %tmp_11 = fdiv double %p_vz_load_0_phi, 1.000000e-16
+ST_14: tmp_1 (173)  [5/17] 7.11ns  loc: astro.c:66
+_ifconv:57  %tmp_1 = fdiv double %p_vz_load_0_phi, 1.000000e-16
 
-ST_14: tmp_2_1 (112)  [5/17] 7.11ns  loc: astro.c:14
-_ifconv:50  %tmp_2_1 = fdiv double %p_x_load_1_phi, 1.000000e-16
+ST_14: tmp_2_1 (184)  [5/17] 7.11ns  loc: astro.c:61
+_ifconv:68  %tmp_2_1 = fdiv double %p_x_load_1_phi, 1.000000e-16
 
-ST_14: tmp_4_1 (119)  [5/17] 7.11ns  loc: astro.c:15
-_ifconv:57  %tmp_4_1 = fdiv double %p_y_load_1_phi, 1.000000e-16
+ST_14: tmp_4_1 (194)  [5/17] 7.11ns  loc: astro.c:62
+_ifconv:78  %tmp_4_1 = fdiv double %p_y_load_1_phi, 1.000000e-16
 
-ST_14: tmp_6_1 (126)  [5/17] 7.11ns  loc: astro.c:16
-_ifconv:64  %tmp_6_1 = fdiv double %p_z_load_1_phi, 1.000000e-16
+ST_14: tmp_6_1 (204)  [5/17] 7.11ns  loc: astro.c:63
+_ifconv:88  %tmp_6_1 = fdiv double %p_z_load_1_phi, 1.000000e-16
 
-ST_14: tmp_8_1 (133)  [5/17] 7.11ns  loc: astro.c:17
-_ifconv:71  %tmp_8_1 = fdiv double %p_vx_load_1_phi, 1.000000e-16
+ST_14: tmp_8_1 (214)  [5/17] 7.11ns  loc: astro.c:64
+_ifconv:98  %tmp_8_1 = fdiv double %p_vx_load_1_phi, 1.000000e-16
 
-ST_14: tmp_1_6 (140)  [5/17] 7.11ns  loc: astro.c:18
-_ifconv:78  %tmp_1_6 = fdiv double %p_vy_load_1_phi, 1.000000e-16
+ST_14: tmp_1_6 (224)  [5/17] 7.11ns  loc: astro.c:65
+_ifconv:108  %tmp_1_6 = fdiv double %p_vy_load_1_phi, 1.000000e-16
 
-ST_14: tmp_11_1 (147)  [5/17] 7.11ns  loc: astro.c:19
-_ifconv:85  %tmp_11_1 = fdiv double %p_vz_load_1_phi, 1.000000e-16
+ST_14: tmp_11_1 (234)  [5/17] 7.11ns  loc: astro.c:66
+_ifconv:118  %tmp_11_1 = fdiv double %p_vz_load_1_phi, 1.000000e-16
 
-ST_14: tmp_2_2 (157)  [5/17] 7.11ns  loc: astro.c:14
-_ifconv:95  %tmp_2_2 = fdiv double %p_x_load_2_phi, 1.000000e-16
+ST_14: tmp_2_2 (245)  [5/17] 7.11ns  loc: astro.c:61
+_ifconv:129  %tmp_2_2 = fdiv double %p_x_load_2_phi, 1.000000e-16
 
-ST_14: tmp_4_2 (164)  [5/17] 7.11ns  loc: astro.c:15
-_ifconv:102  %tmp_4_2 = fdiv double %p_y_load_2_phi, 1.000000e-16
+ST_14: tmp_4_2 (255)  [5/17] 7.11ns  loc: astro.c:62
+_ifconv:139  %tmp_4_2 = fdiv double %p_y_load_2_phi, 1.000000e-16
 
-ST_14: tmp_6_2 (171)  [5/17] 7.11ns  loc: astro.c:16
-_ifconv:109  %tmp_6_2 = fdiv double %p_z_load_2_phi, 1.000000e-16
+ST_14: tmp_6_2 (265)  [5/17] 7.11ns  loc: astro.c:63
+_ifconv:149  %tmp_6_2 = fdiv double %p_z_load_2_phi, 1.000000e-16
 
-ST_14: tmp_8_2 (178)  [5/17] 7.11ns  loc: astro.c:17
-_ifconv:116  %tmp_8_2 = fdiv double %p_vx_load_2_phi, 1.000000e-16
+ST_14: tmp_8_2 (275)  [5/17] 7.11ns  loc: astro.c:64
+_ifconv:159  %tmp_8_2 = fdiv double %p_vx_load_2_phi, 1.000000e-16
 
-ST_14: tmp_2_7 (185)  [5/17] 7.11ns  loc: astro.c:18
-_ifconv:123  %tmp_2_7 = fdiv double %p_vy_load_2_phi, 1.000000e-16
+ST_14: tmp_2_7 (285)  [5/17] 7.11ns  loc: astro.c:65
+_ifconv:169  %tmp_2_7 = fdiv double %p_vy_load_2_phi, 1.000000e-16
 
-ST_14: tmp_11_2 (192)  [5/17] 7.11ns  loc: astro.c:19
-_ifconv:130  %tmp_11_2 = fdiv double %p_vz_load_2_phi, 1.000000e-16
+ST_14: tmp_11_2 (295)  [5/17] 7.11ns  loc: astro.c:66
+_ifconv:179  %tmp_11_2 = fdiv double %p_vz_load_2_phi, 1.000000e-16
 
 
  <State 15>: 7.11ns
-ST_15: tmp_2 (67)  [4/17] 7.11ns  loc: astro.c:14
-_ifconv:5  %tmp_2 = fdiv double %p_x_load_0_phi, 1.000000e-16
+ST_15: tmp_2 (123)  [4/17] 7.11ns  loc: astro.c:61
+_ifconv:7  %tmp_2 = fdiv double %p_x_load_0_phi, 1.000000e-16
 
-ST_15: tmp_5 (74)  [4/17] 7.11ns  loc: astro.c:15
-_ifconv:12  %tmp_5 = fdiv double %p_y_load_0_phi, 1.000000e-16
+ST_15: tmp_4 (133)  [4/17] 7.11ns  loc: astro.c:62
+_ifconv:17  %tmp_4 = fdiv double %p_y_load_0_phi, 1.000000e-16
 
-ST_15: tmp_7 (81)  [4/17] 7.11ns  loc: astro.c:16
-_ifconv:19  %tmp_7 = fdiv double %p_z_load_0_phi, 1.000000e-16
+ST_15: tmp_6 (143)  [4/17] 7.11ns  loc: astro.c:63
+_ifconv:27  %tmp_6 = fdiv double %p_z_load_0_phi, 1.000000e-16
 
-ST_15: tmp_8 (88)  [4/17] 7.11ns  loc: astro.c:17
-_ifconv:26  %tmp_8 = fdiv double %p_vx_load_0_phi, 1.000000e-16
+ST_15: tmp_8 (153)  [4/17] 7.11ns  loc: astro.c:64
+_ifconv:37  %tmp_8 = fdiv double %p_vx_load_0_phi, 1.000000e-16
 
-ST_15: tmp_s (95)  [4/17] 7.11ns  loc: astro.c:18
-_ifconv:33  %tmp_s = fdiv double %p_vy_load_0_phi, 1.000000e-16
+ST_15: tmp_s (163)  [4/17] 7.11ns  loc: astro.c:65
+_ifconv:47  %tmp_s = fdiv double %p_vy_load_0_phi, 1.000000e-16
 
-ST_15: tmp_11 (102)  [4/17] 7.11ns  loc: astro.c:19
-_ifconv:40  %tmp_11 = fdiv double %p_vz_load_0_phi, 1.000000e-16
+ST_15: tmp_1 (173)  [4/17] 7.11ns  loc: astro.c:66
+_ifconv:57  %tmp_1 = fdiv double %p_vz_load_0_phi, 1.000000e-16
 
-ST_15: tmp_2_1 (112)  [4/17] 7.11ns  loc: astro.c:14
-_ifconv:50  %tmp_2_1 = fdiv double %p_x_load_1_phi, 1.000000e-16
+ST_15: tmp_2_1 (184)  [4/17] 7.11ns  loc: astro.c:61
+_ifconv:68  %tmp_2_1 = fdiv double %p_x_load_1_phi, 1.000000e-16
 
-ST_15: tmp_4_1 (119)  [4/17] 7.11ns  loc: astro.c:15
-_ifconv:57  %tmp_4_1 = fdiv double %p_y_load_1_phi, 1.000000e-16
+ST_15: tmp_4_1 (194)  [4/17] 7.11ns  loc: astro.c:62
+_ifconv:78  %tmp_4_1 = fdiv double %p_y_load_1_phi, 1.000000e-16
 
-ST_15: tmp_6_1 (126)  [4/17] 7.11ns  loc: astro.c:16
-_ifconv:64  %tmp_6_1 = fdiv double %p_z_load_1_phi, 1.000000e-16
+ST_15: tmp_6_1 (204)  [4/17] 7.11ns  loc: astro.c:63
+_ifconv:88  %tmp_6_1 = fdiv double %p_z_load_1_phi, 1.000000e-16
 
-ST_15: tmp_8_1 (133)  [4/17] 7.11ns  loc: astro.c:17
-_ifconv:71  %tmp_8_1 = fdiv double %p_vx_load_1_phi, 1.000000e-16
+ST_15: tmp_8_1 (214)  [4/17] 7.11ns  loc: astro.c:64
+_ifconv:98  %tmp_8_1 = fdiv double %p_vx_load_1_phi, 1.000000e-16
 
-ST_15: tmp_1_6 (140)  [4/17] 7.11ns  loc: astro.c:18
-_ifconv:78  %tmp_1_6 = fdiv double %p_vy_load_1_phi, 1.000000e-16
+ST_15: tmp_1_6 (224)  [4/17] 7.11ns  loc: astro.c:65
+_ifconv:108  %tmp_1_6 = fdiv double %p_vy_load_1_phi, 1.000000e-16
 
-ST_15: tmp_11_1 (147)  [4/17] 7.11ns  loc: astro.c:19
-_ifconv:85  %tmp_11_1 = fdiv double %p_vz_load_1_phi, 1.000000e-16
+ST_15: tmp_11_1 (234)  [4/17] 7.11ns  loc: astro.c:66
+_ifconv:118  %tmp_11_1 = fdiv double %p_vz_load_1_phi, 1.000000e-16
 
-ST_15: tmp_2_2 (157)  [4/17] 7.11ns  loc: astro.c:14
-_ifconv:95  %tmp_2_2 = fdiv double %p_x_load_2_phi, 1.000000e-16
+ST_15: tmp_2_2 (245)  [4/17] 7.11ns  loc: astro.c:61
+_ifconv:129  %tmp_2_2 = fdiv double %p_x_load_2_phi, 1.000000e-16
 
-ST_15: tmp_4_2 (164)  [4/17] 7.11ns  loc: astro.c:15
-_ifconv:102  %tmp_4_2 = fdiv double %p_y_load_2_phi, 1.000000e-16
+ST_15: tmp_4_2 (255)  [4/17] 7.11ns  loc: astro.c:62
+_ifconv:139  %tmp_4_2 = fdiv double %p_y_load_2_phi, 1.000000e-16
 
-ST_15: tmp_6_2 (171)  [4/17] 7.11ns  loc: astro.c:16
-_ifconv:109  %tmp_6_2 = fdiv double %p_z_load_2_phi, 1.000000e-16
+ST_15: tmp_6_2 (265)  [4/17] 7.11ns  loc: astro.c:63
+_ifconv:149  %tmp_6_2 = fdiv double %p_z_load_2_phi, 1.000000e-16
 
-ST_15: tmp_8_2 (178)  [4/17] 7.11ns  loc: astro.c:17
-_ifconv:116  %tmp_8_2 = fdiv double %p_vx_load_2_phi, 1.000000e-16
+ST_15: tmp_8_2 (275)  [4/17] 7.11ns  loc: astro.c:64
+_ifconv:159  %tmp_8_2 = fdiv double %p_vx_load_2_phi, 1.000000e-16
 
-ST_15: tmp_2_7 (185)  [4/17] 7.11ns  loc: astro.c:18
-_ifconv:123  %tmp_2_7 = fdiv double %p_vy_load_2_phi, 1.000000e-16
+ST_15: tmp_2_7 (285)  [4/17] 7.11ns  loc: astro.c:65
+_ifconv:169  %tmp_2_7 = fdiv double %p_vy_load_2_phi, 1.000000e-16
 
-ST_15: tmp_11_2 (192)  [4/17] 7.11ns  loc: astro.c:19
-_ifconv:130  %tmp_11_2 = fdiv double %p_vz_load_2_phi, 1.000000e-16
+ST_15: tmp_11_2 (295)  [4/17] 7.11ns  loc: astro.c:66
+_ifconv:179  %tmp_11_2 = fdiv double %p_vz_load_2_phi, 1.000000e-16
 
 
  <State 16>: 7.11ns
-ST_16: tmp_2 (67)  [3/17] 7.11ns  loc: astro.c:14
-_ifconv:5  %tmp_2 = fdiv double %p_x_load_0_phi, 1.000000e-16
+ST_16: tmp_2 (123)  [3/17] 7.11ns  loc: astro.c:61
+_ifconv:7  %tmp_2 = fdiv double %p_x_load_0_phi, 1.000000e-16
 
-ST_16: tmp_5 (74)  [3/17] 7.11ns  loc: astro.c:15
-_ifconv:12  %tmp_5 = fdiv double %p_y_load_0_phi, 1.000000e-16
+ST_16: tmp_4 (133)  [3/17] 7.11ns  loc: astro.c:62
+_ifconv:17  %tmp_4 = fdiv double %p_y_load_0_phi, 1.000000e-16
 
-ST_16: tmp_7 (81)  [3/17] 7.11ns  loc: astro.c:16
-_ifconv:19  %tmp_7 = fdiv double %p_z_load_0_phi, 1.000000e-16
+ST_16: tmp_6 (143)  [3/17] 7.11ns  loc: astro.c:63
+_ifconv:27  %tmp_6 = fdiv double %p_z_load_0_phi, 1.000000e-16
 
-ST_16: tmp_8 (88)  [3/17] 7.11ns  loc: astro.c:17
-_ifconv:26  %tmp_8 = fdiv double %p_vx_load_0_phi, 1.000000e-16
+ST_16: tmp_8 (153)  [3/17] 7.11ns  loc: astro.c:64
+_ifconv:37  %tmp_8 = fdiv double %p_vx_load_0_phi, 1.000000e-16
 
-ST_16: tmp_s (95)  [3/17] 7.11ns  loc: astro.c:18
-_ifconv:33  %tmp_s = fdiv double %p_vy_load_0_phi, 1.000000e-16
+ST_16: tmp_s (163)  [3/17] 7.11ns  loc: astro.c:65
+_ifconv:47  %tmp_s = fdiv double %p_vy_load_0_phi, 1.000000e-16
 
-ST_16: tmp_11 (102)  [3/17] 7.11ns  loc: astro.c:19
-_ifconv:40  %tmp_11 = fdiv double %p_vz_load_0_phi, 1.000000e-16
+ST_16: tmp_1 (173)  [3/17] 7.11ns  loc: astro.c:66
+_ifconv:57  %tmp_1 = fdiv double %p_vz_load_0_phi, 1.000000e-16
 
-ST_16: tmp_2_1 (112)  [3/17] 7.11ns  loc: astro.c:14
-_ifconv:50  %tmp_2_1 = fdiv double %p_x_load_1_phi, 1.000000e-16
+ST_16: tmp_2_1 (184)  [3/17] 7.11ns  loc: astro.c:61
+_ifconv:68  %tmp_2_1 = fdiv double %p_x_load_1_phi, 1.000000e-16
 
-ST_16: tmp_4_1 (119)  [3/17] 7.11ns  loc: astro.c:15
-_ifconv:57  %tmp_4_1 = fdiv double %p_y_load_1_phi, 1.000000e-16
+ST_16: tmp_4_1 (194)  [3/17] 7.11ns  loc: astro.c:62
+_ifconv:78  %tmp_4_1 = fdiv double %p_y_load_1_phi, 1.000000e-16
 
-ST_16: tmp_6_1 (126)  [3/17] 7.11ns  loc: astro.c:16
-_ifconv:64  %tmp_6_1 = fdiv double %p_z_load_1_phi, 1.000000e-16
+ST_16: tmp_6_1 (204)  [3/17] 7.11ns  loc: astro.c:63
+_ifconv:88  %tmp_6_1 = fdiv double %p_z_load_1_phi, 1.000000e-16
 
-ST_16: tmp_8_1 (133)  [3/17] 7.11ns  loc: astro.c:17
-_ifconv:71  %tmp_8_1 = fdiv double %p_vx_load_1_phi, 1.000000e-16
+ST_16: tmp_8_1 (214)  [3/17] 7.11ns  loc: astro.c:64
+_ifconv:98  %tmp_8_1 = fdiv double %p_vx_load_1_phi, 1.000000e-16
 
-ST_16: tmp_1_6 (140)  [3/17] 7.11ns  loc: astro.c:18
-_ifconv:78  %tmp_1_6 = fdiv double %p_vy_load_1_phi, 1.000000e-16
+ST_16: tmp_1_6 (224)  [3/17] 7.11ns  loc: astro.c:65
+_ifconv:108  %tmp_1_6 = fdiv double %p_vy_load_1_phi, 1.000000e-16
 
-ST_16: tmp_11_1 (147)  [3/17] 7.11ns  loc: astro.c:19
-_ifconv:85  %tmp_11_1 = fdiv double %p_vz_load_1_phi, 1.000000e-16
+ST_16: tmp_11_1 (234)  [3/17] 7.11ns  loc: astro.c:66
+_ifconv:118  %tmp_11_1 = fdiv double %p_vz_load_1_phi, 1.000000e-16
 
-ST_16: tmp_2_2 (157)  [3/17] 7.11ns  loc: astro.c:14
-_ifconv:95  %tmp_2_2 = fdiv double %p_x_load_2_phi, 1.000000e-16
+ST_16: tmp_2_2 (245)  [3/17] 7.11ns  loc: astro.c:61
+_ifconv:129  %tmp_2_2 = fdiv double %p_x_load_2_phi, 1.000000e-16
 
-ST_16: tmp_4_2 (164)  [3/17] 7.11ns  loc: astro.c:15
-_ifconv:102  %tmp_4_2 = fdiv double %p_y_load_2_phi, 1.000000e-16
+ST_16: tmp_4_2 (255)  [3/17] 7.11ns  loc: astro.c:62
+_ifconv:139  %tmp_4_2 = fdiv double %p_y_load_2_phi, 1.000000e-16
 
-ST_16: tmp_6_2 (171)  [3/17] 7.11ns  loc: astro.c:16
-_ifconv:109  %tmp_6_2 = fdiv double %p_z_load_2_phi, 1.000000e-16
+ST_16: tmp_6_2 (265)  [3/17] 7.11ns  loc: astro.c:63
+_ifconv:149  %tmp_6_2 = fdiv double %p_z_load_2_phi, 1.000000e-16
 
-ST_16: tmp_8_2 (178)  [3/17] 7.11ns  loc: astro.c:17
-_ifconv:116  %tmp_8_2 = fdiv double %p_vx_load_2_phi, 1.000000e-16
+ST_16: tmp_8_2 (275)  [3/17] 7.11ns  loc: astro.c:64
+_ifconv:159  %tmp_8_2 = fdiv double %p_vx_load_2_phi, 1.000000e-16
 
-ST_16: tmp_2_7 (185)  [3/17] 7.11ns  loc: astro.c:18
-_ifconv:123  %tmp_2_7 = fdiv double %p_vy_load_2_phi, 1.000000e-16
+ST_16: tmp_2_7 (285)  [3/17] 7.11ns  loc: astro.c:65
+_ifconv:169  %tmp_2_7 = fdiv double %p_vy_load_2_phi, 1.000000e-16
 
-ST_16: tmp_11_2 (192)  [3/17] 7.11ns  loc: astro.c:19
-_ifconv:130  %tmp_11_2 = fdiv double %p_vz_load_2_phi, 1.000000e-16
+ST_16: tmp_11_2 (295)  [3/17] 7.11ns  loc: astro.c:66
+_ifconv:179  %tmp_11_2 = fdiv double %p_vz_load_2_phi, 1.000000e-16
 
 
  <State 17>: 7.11ns
-ST_17: tmp_2 (67)  [2/17] 7.11ns  loc: astro.c:14
-_ifconv:5  %tmp_2 = fdiv double %p_x_load_0_phi, 1.000000e-16
+ST_17: tmp_2 (123)  [2/17] 7.11ns  loc: astro.c:61
+_ifconv:7  %tmp_2 = fdiv double %p_x_load_0_phi, 1.000000e-16
 
-ST_17: tmp_5 (74)  [2/17] 7.11ns  loc: astro.c:15
-_ifconv:12  %tmp_5 = fdiv double %p_y_load_0_phi, 1.000000e-16
+ST_17: tmp_4 (133)  [2/17] 7.11ns  loc: astro.c:62
+_ifconv:17  %tmp_4 = fdiv double %p_y_load_0_phi, 1.000000e-16
 
-ST_17: tmp_7 (81)  [2/17] 7.11ns  loc: astro.c:16
-_ifconv:19  %tmp_7 = fdiv double %p_z_load_0_phi, 1.000000e-16
+ST_17: tmp_6 (143)  [2/17] 7.11ns  loc: astro.c:63
+_ifconv:27  %tmp_6 = fdiv double %p_z_load_0_phi, 1.000000e-16
 
-ST_17: tmp_8 (88)  [2/17] 7.11ns  loc: astro.c:17
-_ifconv:26  %tmp_8 = fdiv double %p_vx_load_0_phi, 1.000000e-16
+ST_17: tmp_8 (153)  [2/17] 7.11ns  loc: astro.c:64
+_ifconv:37  %tmp_8 = fdiv double %p_vx_load_0_phi, 1.000000e-16
 
-ST_17: tmp_s (95)  [2/17] 7.11ns  loc: astro.c:18
-_ifconv:33  %tmp_s = fdiv double %p_vy_load_0_phi, 1.000000e-16
+ST_17: tmp_s (163)  [2/17] 7.11ns  loc: astro.c:65
+_ifconv:47  %tmp_s = fdiv double %p_vy_load_0_phi, 1.000000e-16
 
-ST_17: tmp_11 (102)  [2/17] 7.11ns  loc: astro.c:19
-_ifconv:40  %tmp_11 = fdiv double %p_vz_load_0_phi, 1.000000e-16
+ST_17: tmp_1 (173)  [2/17] 7.11ns  loc: astro.c:66
+_ifconv:57  %tmp_1 = fdiv double %p_vz_load_0_phi, 1.000000e-16
 
-ST_17: tmp_2_1 (112)  [2/17] 7.11ns  loc: astro.c:14
-_ifconv:50  %tmp_2_1 = fdiv double %p_x_load_1_phi, 1.000000e-16
+ST_17: tmp_2_1 (184)  [2/17] 7.11ns  loc: astro.c:61
+_ifconv:68  %tmp_2_1 = fdiv double %p_x_load_1_phi, 1.000000e-16
 
-ST_17: tmp_4_1 (119)  [2/17] 7.11ns  loc: astro.c:15
-_ifconv:57  %tmp_4_1 = fdiv double %p_y_load_1_phi, 1.000000e-16
+ST_17: tmp_4_1 (194)  [2/17] 7.11ns  loc: astro.c:62
+_ifconv:78  %tmp_4_1 = fdiv double %p_y_load_1_phi, 1.000000e-16
 
-ST_17: tmp_6_1 (126)  [2/17] 7.11ns  loc: astro.c:16
-_ifconv:64  %tmp_6_1 = fdiv double %p_z_load_1_phi, 1.000000e-16
+ST_17: tmp_6_1 (204)  [2/17] 7.11ns  loc: astro.c:63
+_ifconv:88  %tmp_6_1 = fdiv double %p_z_load_1_phi, 1.000000e-16
 
-ST_17: tmp_8_1 (133)  [2/17] 7.11ns  loc: astro.c:17
-_ifconv:71  %tmp_8_1 = fdiv double %p_vx_load_1_phi, 1.000000e-16
+ST_17: tmp_8_1 (214)  [2/17] 7.11ns  loc: astro.c:64
+_ifconv:98  %tmp_8_1 = fdiv double %p_vx_load_1_phi, 1.000000e-16
 
-ST_17: tmp_1_6 (140)  [2/17] 7.11ns  loc: astro.c:18
-_ifconv:78  %tmp_1_6 = fdiv double %p_vy_load_1_phi, 1.000000e-16
+ST_17: tmp_1_6 (224)  [2/17] 7.11ns  loc: astro.c:65
+_ifconv:108  %tmp_1_6 = fdiv double %p_vy_load_1_phi, 1.000000e-16
 
-ST_17: tmp_11_1 (147)  [2/17] 7.11ns  loc: astro.c:19
-_ifconv:85  %tmp_11_1 = fdiv double %p_vz_load_1_phi, 1.000000e-16
+ST_17: tmp_11_1 (234)  [2/17] 7.11ns  loc: astro.c:66
+_ifconv:118  %tmp_11_1 = fdiv double %p_vz_load_1_phi, 1.000000e-16
 
-ST_17: tmp_2_2 (157)  [2/17] 7.11ns  loc: astro.c:14
-_ifconv:95  %tmp_2_2 = fdiv double %p_x_load_2_phi, 1.000000e-16
+ST_17: tmp_2_2 (245)  [2/17] 7.11ns  loc: astro.c:61
+_ifconv:129  %tmp_2_2 = fdiv double %p_x_load_2_phi, 1.000000e-16
 
-ST_17: tmp_4_2 (164)  [2/17] 7.11ns  loc: astro.c:15
-_ifconv:102  %tmp_4_2 = fdiv double %p_y_load_2_phi, 1.000000e-16
+ST_17: tmp_4_2 (255)  [2/17] 7.11ns  loc: astro.c:62
+_ifconv:139  %tmp_4_2 = fdiv double %p_y_load_2_phi, 1.000000e-16
 
-ST_17: tmp_6_2 (171)  [2/17] 7.11ns  loc: astro.c:16
-_ifconv:109  %tmp_6_2 = fdiv double %p_z_load_2_phi, 1.000000e-16
+ST_17: tmp_6_2 (265)  [2/17] 7.11ns  loc: astro.c:63
+_ifconv:149  %tmp_6_2 = fdiv double %p_z_load_2_phi, 1.000000e-16
 
-ST_17: tmp_8_2 (178)  [2/17] 7.11ns  loc: astro.c:17
-_ifconv:116  %tmp_8_2 = fdiv double %p_vx_load_2_phi, 1.000000e-16
+ST_17: tmp_8_2 (275)  [2/17] 7.11ns  loc: astro.c:64
+_ifconv:159  %tmp_8_2 = fdiv double %p_vx_load_2_phi, 1.000000e-16
 
-ST_17: tmp_2_7 (185)  [2/17] 7.11ns  loc: astro.c:18
-_ifconv:123  %tmp_2_7 = fdiv double %p_vy_load_2_phi, 1.000000e-16
+ST_17: tmp_2_7 (285)  [2/17] 7.11ns  loc: astro.c:65
+_ifconv:169  %tmp_2_7 = fdiv double %p_vy_load_2_phi, 1.000000e-16
 
-ST_17: tmp_11_2 (192)  [2/17] 7.11ns  loc: astro.c:19
-_ifconv:130  %tmp_11_2 = fdiv double %p_vz_load_2_phi, 1.000000e-16
+ST_17: tmp_11_2 (295)  [2/17] 7.11ns  loc: astro.c:66
+_ifconv:179  %tmp_11_2 = fdiv double %p_vz_load_2_phi, 1.000000e-16
 
 
  <State 18>: 7.11ns
-ST_18: tmp_2 (67)  [1/17] 7.11ns  loc: astro.c:14
-_ifconv:5  %tmp_2 = fdiv double %p_x_load_0_phi, 1.000000e-16
+ST_18: tmp_2 (123)  [1/17] 7.11ns  loc: astro.c:61
+_ifconv:7  %tmp_2 = fdiv double %p_x_load_0_phi, 1.000000e-16
 
-ST_18: tmp_5 (74)  [1/17] 7.11ns  loc: astro.c:15
-_ifconv:12  %tmp_5 = fdiv double %p_y_load_0_phi, 1.000000e-16
+ST_18: tmp_4 (133)  [1/17] 7.11ns  loc: astro.c:62
+_ifconv:17  %tmp_4 = fdiv double %p_y_load_0_phi, 1.000000e-16
 
-ST_18: tmp_7 (81)  [1/17] 7.11ns  loc: astro.c:16
-_ifconv:19  %tmp_7 = fdiv double %p_z_load_0_phi, 1.000000e-16
+ST_18: tmp_6 (143)  [1/17] 7.11ns  loc: astro.c:63
+_ifconv:27  %tmp_6 = fdiv double %p_z_load_0_phi, 1.000000e-16
 
-ST_18: tmp_8 (88)  [1/17] 7.11ns  loc: astro.c:17
-_ifconv:26  %tmp_8 = fdiv double %p_vx_load_0_phi, 1.000000e-16
+ST_18: tmp_8 (153)  [1/17] 7.11ns  loc: astro.c:64
+_ifconv:37  %tmp_8 = fdiv double %p_vx_load_0_phi, 1.000000e-16
 
-ST_18: tmp_s (95)  [1/17] 7.11ns  loc: astro.c:18
-_ifconv:33  %tmp_s = fdiv double %p_vy_load_0_phi, 1.000000e-16
+ST_18: tmp_s (163)  [1/17] 7.11ns  loc: astro.c:65
+_ifconv:47  %tmp_s = fdiv double %p_vy_load_0_phi, 1.000000e-16
 
-ST_18: tmp_11 (102)  [1/17] 7.11ns  loc: astro.c:19
-_ifconv:40  %tmp_11 = fdiv double %p_vz_load_0_phi, 1.000000e-16
+ST_18: tmp_1 (173)  [1/17] 7.11ns  loc: astro.c:66
+_ifconv:57  %tmp_1 = fdiv double %p_vz_load_0_phi, 1.000000e-16
 
-ST_18: tmp_2_1 (112)  [1/17] 7.11ns  loc: astro.c:14
-_ifconv:50  %tmp_2_1 = fdiv double %p_x_load_1_phi, 1.000000e-16
+ST_18: tmp_2_1 (184)  [1/17] 7.11ns  loc: astro.c:61
+_ifconv:68  %tmp_2_1 = fdiv double %p_x_load_1_phi, 1.000000e-16
 
-ST_18: tmp_4_1 (119)  [1/17] 7.11ns  loc: astro.c:15
-_ifconv:57  %tmp_4_1 = fdiv double %p_y_load_1_phi, 1.000000e-16
+ST_18: tmp_4_1 (194)  [1/17] 7.11ns  loc: astro.c:62
+_ifconv:78  %tmp_4_1 = fdiv double %p_y_load_1_phi, 1.000000e-16
 
-ST_18: tmp_6_1 (126)  [1/17] 7.11ns  loc: astro.c:16
-_ifconv:64  %tmp_6_1 = fdiv double %p_z_load_1_phi, 1.000000e-16
+ST_18: tmp_6_1 (204)  [1/17] 7.11ns  loc: astro.c:63
+_ifconv:88  %tmp_6_1 = fdiv double %p_z_load_1_phi, 1.000000e-16
 
-ST_18: tmp_8_1 (133)  [1/17] 7.11ns  loc: astro.c:17
-_ifconv:71  %tmp_8_1 = fdiv double %p_vx_load_1_phi, 1.000000e-16
+ST_18: tmp_8_1 (214)  [1/17] 7.11ns  loc: astro.c:64
+_ifconv:98  %tmp_8_1 = fdiv double %p_vx_load_1_phi, 1.000000e-16
 
-ST_18: tmp_1_6 (140)  [1/17] 7.11ns  loc: astro.c:18
-_ifconv:78  %tmp_1_6 = fdiv double %p_vy_load_1_phi, 1.000000e-16
+ST_18: tmp_1_6 (224)  [1/17] 7.11ns  loc: astro.c:65
+_ifconv:108  %tmp_1_6 = fdiv double %p_vy_load_1_phi, 1.000000e-16
 
-ST_18: tmp_11_1 (147)  [1/17] 7.11ns  loc: astro.c:19
-_ifconv:85  %tmp_11_1 = fdiv double %p_vz_load_1_phi, 1.000000e-16
+ST_18: tmp_11_1 (234)  [1/17] 7.11ns  loc: astro.c:66
+_ifconv:118  %tmp_11_1 = fdiv double %p_vz_load_1_phi, 1.000000e-16
 
-ST_18: tmp_2_2 (157)  [1/17] 7.11ns  loc: astro.c:14
-_ifconv:95  %tmp_2_2 = fdiv double %p_x_load_2_phi, 1.000000e-16
+ST_18: tmp_2_2 (245)  [1/17] 7.11ns  loc: astro.c:61
+_ifconv:129  %tmp_2_2 = fdiv double %p_x_load_2_phi, 1.000000e-16
 
-ST_18: tmp_4_2 (164)  [1/17] 7.11ns  loc: astro.c:15
-_ifconv:102  %tmp_4_2 = fdiv double %p_y_load_2_phi, 1.000000e-16
+ST_18: tmp_4_2 (255)  [1/17] 7.11ns  loc: astro.c:62
+_ifconv:139  %tmp_4_2 = fdiv double %p_y_load_2_phi, 1.000000e-16
 
-ST_18: tmp_6_2 (171)  [1/17] 7.11ns  loc: astro.c:16
-_ifconv:109  %tmp_6_2 = fdiv double %p_z_load_2_phi, 1.000000e-16
+ST_18: tmp_6_2 (265)  [1/17] 7.11ns  loc: astro.c:63
+_ifconv:149  %tmp_6_2 = fdiv double %p_z_load_2_phi, 1.000000e-16
 
-ST_18: tmp_8_2 (178)  [1/17] 7.11ns  loc: astro.c:17
-_ifconv:116  %tmp_8_2 = fdiv double %p_vx_load_2_phi, 1.000000e-16
+ST_18: tmp_8_2 (275)  [1/17] 7.11ns  loc: astro.c:64
+_ifconv:159  %tmp_8_2 = fdiv double %p_vx_load_2_phi, 1.000000e-16
 
-ST_18: tmp_2_7 (185)  [1/17] 7.11ns  loc: astro.c:18
-_ifconv:123  %tmp_2_7 = fdiv double %p_vy_load_2_phi, 1.000000e-16
+ST_18: tmp_2_7 (285)  [1/17] 7.11ns  loc: astro.c:65
+_ifconv:169  %tmp_2_7 = fdiv double %p_vy_load_2_phi, 1.000000e-16
 
-ST_18: tmp_11_2 (192)  [1/17] 7.11ns  loc: astro.c:19
-_ifconv:130  %tmp_11_2 = fdiv double %p_vz_load_2_phi, 1.000000e-16
+ST_18: tmp_11_2 (295)  [1/17] 7.11ns  loc: astro.c:66
+_ifconv:179  %tmp_11_2 = fdiv double %p_vz_load_2_phi, 1.000000e-16
 
 
  <State 19>: 5.49ns
-ST_19: p_int_x6 (68)  [1/1] 5.03ns  loc: astro.c:14
-_ifconv:6  %p_int_x6 = call fastcc i64 @__hls_fptosi_double_(double %tmp_2)
+ST_19: p_int_x6 (124)  [1/1] 5.03ns  loc: astro.c:61
+_ifconv:8  %p_int_x6 = call fastcc i64 @__hls_fptosi_double_(double %tmp_2)
 
-ST_19: p_int_x_1 (69)  [1/1] 0.46ns  loc: astro.c:14
-_ifconv:7  %p_int_x_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_x6, i64 %p_int_0_x_write_ass, i64 %p_int_0_x_write_ass, i64 %p_int_0_x_write_ass, i64 %p_int_0_x_write_ass, i64 %p_int_0_x_write_ass, i64 %p_int_0_x_write_ass, i64 %p_int_0_x_write_ass, i64 %p_int_0_x_write_ass, i64 %p_int_0_x_write_ass, i64 %p_int_0_x_write_ass, i64 %p_int_0_x_write_ass, i64 %p_int_0_x_write_ass, i64 %p_int_0_x_write_ass, i64 %p_int_0_x_write_ass, i64 %p_int_0_x_write_ass, i4 %i)
+ST_19: p_int_x_1 (125)  [1/1] 0.46ns  loc: astro.c:61
+_ifconv:9  %p_int_x_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_x6, i64 %p_int_0_x_write_ass, i64 %p_int_0_x_write_ass, i64 %p_int_0_x_write_ass, i64 %p_int_0_x_write_ass, i64 %p_int_0_x_write_ass, i64 %p_int_0_x_write_ass, i64 %p_int_0_x_write_ass, i64 %p_int_0_x_write_ass, i64 %p_int_0_x_write_ass, i64 %p_int_0_x_write_ass, i64 %p_int_0_x_write_ass, i64 %p_int_0_x_write_ass, i64 %p_int_0_x_write_ass, i64 %p_int_0_x_write_ass, i64 %p_int_0_x_write_ass, i4 %i)
 
-ST_19: p_int_x3_1 (70)  [1/1] 0.46ns  loc: astro.c:14
-_ifconv:8  %p_int_x3_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_3_x_write_ass, i64 %p_int_3_x_write_ass, i64 %p_int_3_x_write_ass, i64 %p_int_x6, i64 %p_int_3_x_write_ass, i64 %p_int_3_x_write_ass, i64 %p_int_3_x_write_ass, i64 %p_int_3_x_write_ass, i64 %p_int_3_x_write_ass, i64 %p_int_3_x_write_ass, i64 %p_int_3_x_write_ass, i64 %p_int_3_x_write_ass, i64 %p_int_3_x_write_ass, i64 %p_int_3_x_write_ass, i64 %p_int_3_x_write_ass, i64 %p_int_3_x_write_ass, i4 %i)
+ST_19: p_int_x3_1 (126)  [1/1] 0.46ns  loc: astro.c:61
+_ifconv:10  %p_int_x3_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_3_x_write_ass, i64 %p_int_3_x_write_ass, i64 %p_int_3_x_write_ass, i64 %p_int_x6, i64 %p_int_3_x_write_ass, i64 %p_int_3_x_write_ass, i64 %p_int_3_x_write_ass, i64 %p_int_3_x_write_ass, i64 %p_int_3_x_write_ass, i64 %p_int_3_x_write_ass, i64 %p_int_3_x_write_ass, i64 %p_int_3_x_write_ass, i64 %p_int_3_x_write_ass, i64 %p_int_3_x_write_ass, i64 %p_int_3_x_write_ass, i64 %p_int_3_x_write_ass, i4 %i)
 
-ST_19: p_int_x6_1 (71)  [1/1] 0.46ns  loc: astro.c:14
-_ifconv:9  %p_int_x6_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_6_x_write_ass, i64 %p_int_x6, i64 %p_int_x6, i64 %p_int_6_x_write_ass, i64 %p_int_x6, i64 %p_int_x6, i64 %p_int_x6, i64 %p_int_x6, i64 %p_int_x6, i64 %p_int_x6, i64 %p_int_x6, i64 %p_int_x6, i64 %p_int_x6, i64 %p_int_x6, i64 %p_int_x6, i64 %p_int_x6, i4 %i)
+ST_19: p_int_x6_1 (127)  [1/1] 0.46ns  loc: astro.c:61
+_ifconv:11  %p_int_x6_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_6_x_write_ass, i64 %p_int_x6, i64 %p_int_x6, i64 %p_int_6_x_write_ass, i64 %p_int_x6, i64 %p_int_x6, i64 %p_int_x6, i64 %p_int_x6, i64 %p_int_x6, i64 %p_int_x6, i64 %p_int_x6, i64 %p_int_x6, i64 %p_int_x6, i64 %p_int_x6, i64 %p_int_x6, i64 %p_int_x6, i4 %i)
 
-ST_19: p_int_y (75)  [1/1] 5.03ns  loc: astro.c:15
-_ifconv:13  %p_int_y = call fastcc i64 @__hls_fptosi_double_(double %tmp_5)
+ST_19: p_int_y (134)  [1/1] 5.03ns  loc: astro.c:62
+_ifconv:18  %p_int_y = call fastcc i64 @__hls_fptosi_double_(double %tmp_4)
 
-ST_19: p_int_y14_1 (76)  [1/1] 0.46ns  loc: astro.c:15
-_ifconv:14  %p_int_y14_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_6_y_write_ass, i64 %p_int_y, i64 %p_int_y, i64 %p_int_6_y_write_ass, i64 %p_int_y, i64 %p_int_y, i64 %p_int_y, i64 %p_int_y, i64 %p_int_y, i64 %p_int_y, i64 %p_int_y, i64 %p_int_y, i64 %p_int_y, i64 %p_int_y, i64 %p_int_y, i64 %p_int_y, i4 %i)
+ST_19: p_int_y14_1 (135)  [1/1] 0.46ns  loc: astro.c:62
+_ifconv:19  %p_int_y14_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_6_y_write_ass, i64 %p_int_y, i64 %p_int_y, i64 %p_int_6_y_write_ass, i64 %p_int_y, i64 %p_int_y, i64 %p_int_y, i64 %p_int_y, i64 %p_int_y, i64 %p_int_y, i64 %p_int_y, i64 %p_int_y, i64 %p_int_y, i64 %p_int_y, i64 %p_int_y, i64 %p_int_y, i4 %i)
 
-ST_19: p_int_y11_1 (77)  [1/1] 0.46ns  loc: astro.c:15
-_ifconv:15  %p_int_y11_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_3_y_write_ass, i64 %p_int_3_y_write_ass, i64 %p_int_3_y_write_ass, i64 %p_int_y, i64 %p_int_3_y_write_ass, i64 %p_int_3_y_write_ass, i64 %p_int_3_y_write_ass, i64 %p_int_3_y_write_ass, i64 %p_int_3_y_write_ass, i64 %p_int_3_y_write_ass, i64 %p_int_3_y_write_ass, i64 %p_int_3_y_write_ass, i64 %p_int_3_y_write_ass, i64 %p_int_3_y_write_ass, i64 %p_int_3_y_write_ass, i64 %p_int_3_y_write_ass, i4 %i)
+ST_19: p_int_y11_1 (136)  [1/1] 0.46ns  loc: astro.c:62
+_ifconv:20  %p_int_y11_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_3_y_write_ass, i64 %p_int_3_y_write_ass, i64 %p_int_3_y_write_ass, i64 %p_int_y, i64 %p_int_3_y_write_ass, i64 %p_int_3_y_write_ass, i64 %p_int_3_y_write_ass, i64 %p_int_3_y_write_ass, i64 %p_int_3_y_write_ass, i64 %p_int_3_y_write_ass, i64 %p_int_3_y_write_ass, i64 %p_int_3_y_write_ass, i64 %p_int_3_y_write_ass, i64 %p_int_3_y_write_ass, i64 %p_int_3_y_write_ass, i64 %p_int_3_y_write_ass, i4 %i)
 
-ST_19: p_int_y_1 (78)  [1/1] 0.46ns  loc: astro.c:15
-_ifconv:16  %p_int_y_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_y, i64 %p_int_0_y_write_ass, i64 %p_int_0_y_write_ass, i64 %p_int_0_y_write_ass, i64 %p_int_0_y_write_ass, i64 %p_int_0_y_write_ass, i64 %p_int_0_y_write_ass, i64 %p_int_0_y_write_ass, i64 %p_int_0_y_write_ass, i64 %p_int_0_y_write_ass, i64 %p_int_0_y_write_ass, i64 %p_int_0_y_write_ass, i64 %p_int_0_y_write_ass, i64 %p_int_0_y_write_ass, i64 %p_int_0_y_write_ass, i64 %p_int_0_y_write_ass, i4 %i)
+ST_19: p_int_y_1 (137)  [1/1] 0.46ns  loc: astro.c:62
+_ifconv:21  %p_int_y_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_y, i64 %p_int_0_y_write_ass, i64 %p_int_0_y_write_ass, i64 %p_int_0_y_write_ass, i64 %p_int_0_y_write_ass, i64 %p_int_0_y_write_ass, i64 %p_int_0_y_write_ass, i64 %p_int_0_y_write_ass, i64 %p_int_0_y_write_ass, i64 %p_int_0_y_write_ass, i64 %p_int_0_y_write_ass, i64 %p_int_0_y_write_ass, i64 %p_int_0_y_write_ass, i64 %p_int_0_y_write_ass, i64 %p_int_0_y_write_ass, i64 %p_int_0_y_write_ass, i4 %i)
 
-ST_19: p_int_z (82)  [1/1] 5.03ns  loc: astro.c:16
-_ifconv:20  %p_int_z = call fastcc i64 @__hls_fptosi_double_(double %tmp_7)
+ST_19: p_int_z (144)  [1/1] 5.03ns  loc: astro.c:63
+_ifconv:28  %p_int_z = call fastcc i64 @__hls_fptosi_double_(double %tmp_6)
 
-ST_19: p_int_z19_1 (83)  [1/1] 0.46ns  loc: astro.c:16
-_ifconv:21  %p_int_z19_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_3_z_write_ass, i64 %p_int_3_z_write_ass, i64 %p_int_3_z_write_ass, i64 %p_int_z, i64 %p_int_3_z_write_ass, i64 %p_int_3_z_write_ass, i64 %p_int_3_z_write_ass, i64 %p_int_3_z_write_ass, i64 %p_int_3_z_write_ass, i64 %p_int_3_z_write_ass, i64 %p_int_3_z_write_ass, i64 %p_int_3_z_write_ass, i64 %p_int_3_z_write_ass, i64 %p_int_3_z_write_ass, i64 %p_int_3_z_write_ass, i64 %p_int_3_z_write_ass, i4 %i)
+ST_19: p_int_z19_1 (145)  [1/1] 0.46ns  loc: astro.c:63
+_ifconv:29  %p_int_z19_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_3_z_write_ass, i64 %p_int_3_z_write_ass, i64 %p_int_3_z_write_ass, i64 %p_int_z, i64 %p_int_3_z_write_ass, i64 %p_int_3_z_write_ass, i64 %p_int_3_z_write_ass, i64 %p_int_3_z_write_ass, i64 %p_int_3_z_write_ass, i64 %p_int_3_z_write_ass, i64 %p_int_3_z_write_ass, i64 %p_int_3_z_write_ass, i64 %p_int_3_z_write_ass, i64 %p_int_3_z_write_ass, i64 %p_int_3_z_write_ass, i64 %p_int_3_z_write_ass, i4 %i)
 
-ST_19: p_int_z22_1 (84)  [1/1] 0.46ns  loc: astro.c:16
-_ifconv:22  %p_int_z22_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_6_z_write_ass, i64 %p_int_z, i64 %p_int_z, i64 %p_int_6_z_write_ass, i64 %p_int_z, i64 %p_int_z, i64 %p_int_z, i64 %p_int_z, i64 %p_int_z, i64 %p_int_z, i64 %p_int_z, i64 %p_int_z, i64 %p_int_z, i64 %p_int_z, i64 %p_int_z, i64 %p_int_z, i4 %i)
+ST_19: p_int_z22_1 (146)  [1/1] 0.46ns  loc: astro.c:63
+_ifconv:30  %p_int_z22_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_6_z_write_ass, i64 %p_int_z, i64 %p_int_z, i64 %p_int_6_z_write_ass, i64 %p_int_z, i64 %p_int_z, i64 %p_int_z, i64 %p_int_z, i64 %p_int_z, i64 %p_int_z, i64 %p_int_z, i64 %p_int_z, i64 %p_int_z, i64 %p_int_z, i64 %p_int_z, i64 %p_int_z, i4 %i)
 
-ST_19: p_int_z_1 (85)  [1/1] 0.46ns  loc: astro.c:16
-_ifconv:23  %p_int_z_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_z, i64 %p_int_0_z_write_ass, i64 %p_int_0_z_write_ass, i64 %p_int_0_z_write_ass, i64 %p_int_0_z_write_ass, i64 %p_int_0_z_write_ass, i64 %p_int_0_z_write_ass, i64 %p_int_0_z_write_ass, i64 %p_int_0_z_write_ass, i64 %p_int_0_z_write_ass, i64 %p_int_0_z_write_ass, i64 %p_int_0_z_write_ass, i64 %p_int_0_z_write_ass, i64 %p_int_0_z_write_ass, i64 %p_int_0_z_write_ass, i64 %p_int_0_z_write_ass, i4 %i)
+ST_19: p_int_z_1 (147)  [1/1] 0.46ns  loc: astro.c:63
+_ifconv:31  %p_int_z_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_z, i64 %p_int_0_z_write_ass, i64 %p_int_0_z_write_ass, i64 %p_int_0_z_write_ass, i64 %p_int_0_z_write_ass, i64 %p_int_0_z_write_ass, i64 %p_int_0_z_write_ass, i64 %p_int_0_z_write_ass, i64 %p_int_0_z_write_ass, i64 %p_int_0_z_write_ass, i64 %p_int_0_z_write_ass, i64 %p_int_0_z_write_ass, i64 %p_int_0_z_write_ass, i64 %p_int_0_z_write_ass, i64 %p_int_0_z_write_ass, i64 %p_int_0_z_write_ass, i4 %i)
 
-ST_19: p_int_vx (89)  [1/1] 5.03ns  loc: astro.c:17
-_ifconv:27  %p_int_vx = call fastcc i64 @__hls_fptosi_double_(double %tmp_8)
+ST_19: p_int_vx (154)  [1/1] 5.03ns  loc: astro.c:64
+_ifconv:38  %p_int_vx = call fastcc i64 @__hls_fptosi_double_(double %tmp_8)
 
-ST_19: p_int_vx_1 (90)  [1/1] 0.46ns  loc: astro.c:17
-_ifconv:28  %p_int_vx_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_vx, i64 %p_int_0_vx_write_as, i64 %p_int_0_vx_write_as, i64 %p_int_0_vx_write_as, i64 %p_int_0_vx_write_as, i64 %p_int_0_vx_write_as, i64 %p_int_0_vx_write_as, i64 %p_int_0_vx_write_as, i64 %p_int_0_vx_write_as, i64 %p_int_0_vx_write_as, i64 %p_int_0_vx_write_as, i64 %p_int_0_vx_write_as, i64 %p_int_0_vx_write_as, i64 %p_int_0_vx_write_as, i64 %p_int_0_vx_write_as, i64 %p_int_0_vx_write_as, i4 %i)
+ST_19: p_int_vx_1 (155)  [1/1] 0.46ns  loc: astro.c:64
+_ifconv:39  %p_int_vx_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_vx, i64 %p_int_0_vx_write_as, i64 %p_int_0_vx_write_as, i64 %p_int_0_vx_write_as, i64 %p_int_0_vx_write_as, i64 %p_int_0_vx_write_as, i64 %p_int_0_vx_write_as, i64 %p_int_0_vx_write_as, i64 %p_int_0_vx_write_as, i64 %p_int_0_vx_write_as, i64 %p_int_0_vx_write_as, i64 %p_int_0_vx_write_as, i64 %p_int_0_vx_write_as, i64 %p_int_0_vx_write_as, i64 %p_int_0_vx_write_as, i64 %p_int_0_vx_write_as, i4 %i)
 
-ST_19: p_int_vx30_1 (91)  [1/1] 0.46ns  loc: astro.c:17
-_ifconv:29  %p_int_vx30_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_6_vx_write_as, i64 %p_int_vx, i64 %p_int_vx, i64 %p_int_6_vx_write_as, i64 %p_int_vx, i64 %p_int_vx, i64 %p_int_vx, i64 %p_int_vx, i64 %p_int_vx, i64 %p_int_vx, i64 %p_int_vx, i64 %p_int_vx, i64 %p_int_vx, i64 %p_int_vx, i64 %p_int_vx, i64 %p_int_vx, i4 %i)
+ST_19: p_int_vx30_1 (156)  [1/1] 0.46ns  loc: astro.c:64
+_ifconv:40  %p_int_vx30_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_6_vx_write_as, i64 %p_int_vx, i64 %p_int_vx, i64 %p_int_6_vx_write_as, i64 %p_int_vx, i64 %p_int_vx, i64 %p_int_vx, i64 %p_int_vx, i64 %p_int_vx, i64 %p_int_vx, i64 %p_int_vx, i64 %p_int_vx, i64 %p_int_vx, i64 %p_int_vx, i64 %p_int_vx, i64 %p_int_vx, i4 %i)
 
-ST_19: p_int_vx27_1 (92)  [1/1] 0.46ns  loc: astro.c:17
-_ifconv:30  %p_int_vx27_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_3_vx_write_as, i64 %p_int_3_vx_write_as, i64 %p_int_3_vx_write_as, i64 %p_int_vx, i64 %p_int_3_vx_write_as, i64 %p_int_3_vx_write_as, i64 %p_int_3_vx_write_as, i64 %p_int_3_vx_write_as, i64 %p_int_3_vx_write_as, i64 %p_int_3_vx_write_as, i64 %p_int_3_vx_write_as, i64 %p_int_3_vx_write_as, i64 %p_int_3_vx_write_as, i64 %p_int_3_vx_write_as, i64 %p_int_3_vx_write_as, i64 %p_int_3_vx_write_as, i4 %i)
+ST_19: p_int_vx27_1 (157)  [1/1] 0.46ns  loc: astro.c:64
+_ifconv:41  %p_int_vx27_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_3_vx_write_as, i64 %p_int_3_vx_write_as, i64 %p_int_3_vx_write_as, i64 %p_int_vx, i64 %p_int_3_vx_write_as, i64 %p_int_3_vx_write_as, i64 %p_int_3_vx_write_as, i64 %p_int_3_vx_write_as, i64 %p_int_3_vx_write_as, i64 %p_int_3_vx_write_as, i64 %p_int_3_vx_write_as, i64 %p_int_3_vx_write_as, i64 %p_int_3_vx_write_as, i64 %p_int_3_vx_write_as, i64 %p_int_3_vx_write_as, i64 %p_int_3_vx_write_as, i4 %i)
 
-ST_19: p_int_vy (96)  [1/1] 5.03ns  loc: astro.c:18
-_ifconv:34  %p_int_vy = call fastcc i64 @__hls_fptosi_double_(double %tmp_s)
+ST_19: p_int_vy (164)  [1/1] 5.03ns  loc: astro.c:65
+_ifconv:48  %p_int_vy = call fastcc i64 @__hls_fptosi_double_(double %tmp_s)
 
-ST_19: p_int_vy38_1 (97)  [1/1] 0.46ns  loc: astro.c:18
-_ifconv:35  %p_int_vy38_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_6_vy_write_as, i64 %p_int_vy, i64 %p_int_vy, i64 %p_int_6_vy_write_as, i64 %p_int_vy, i64 %p_int_vy, i64 %p_int_vy, i64 %p_int_vy, i64 %p_int_vy, i64 %p_int_vy, i64 %p_int_vy, i64 %p_int_vy, i64 %p_int_vy, i64 %p_int_vy, i64 %p_int_vy, i64 %p_int_vy, i4 %i)
+ST_19: p_int_vy38_1 (165)  [1/1] 0.46ns  loc: astro.c:65
+_ifconv:49  %p_int_vy38_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_6_vy_write_as, i64 %p_int_vy, i64 %p_int_vy, i64 %p_int_6_vy_write_as, i64 %p_int_vy, i64 %p_int_vy, i64 %p_int_vy, i64 %p_int_vy, i64 %p_int_vy, i64 %p_int_vy, i64 %p_int_vy, i64 %p_int_vy, i64 %p_int_vy, i64 %p_int_vy, i64 %p_int_vy, i64 %p_int_vy, i4 %i)
 
-ST_19: p_int_vy35_1 (98)  [1/1] 0.46ns  loc: astro.c:18
-_ifconv:36  %p_int_vy35_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_3_vy_write_as, i64 %p_int_3_vy_write_as, i64 %p_int_3_vy_write_as, i64 %p_int_vy, i64 %p_int_3_vy_write_as, i64 %p_int_3_vy_write_as, i64 %p_int_3_vy_write_as, i64 %p_int_3_vy_write_as, i64 %p_int_3_vy_write_as, i64 %p_int_3_vy_write_as, i64 %p_int_3_vy_write_as, i64 %p_int_3_vy_write_as, i64 %p_int_3_vy_write_as, i64 %p_int_3_vy_write_as, i64 %p_int_3_vy_write_as, i64 %p_int_3_vy_write_as, i4 %i)
+ST_19: p_int_vy35_1 (166)  [1/1] 0.46ns  loc: astro.c:65
+_ifconv:50  %p_int_vy35_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_3_vy_write_as, i64 %p_int_3_vy_write_as, i64 %p_int_3_vy_write_as, i64 %p_int_vy, i64 %p_int_3_vy_write_as, i64 %p_int_3_vy_write_as, i64 %p_int_3_vy_write_as, i64 %p_int_3_vy_write_as, i64 %p_int_3_vy_write_as, i64 %p_int_3_vy_write_as, i64 %p_int_3_vy_write_as, i64 %p_int_3_vy_write_as, i64 %p_int_3_vy_write_as, i64 %p_int_3_vy_write_as, i64 %p_int_3_vy_write_as, i64 %p_int_3_vy_write_as, i4 %i)
 
-ST_19: p_int_vy_1 (99)  [1/1] 0.46ns  loc: astro.c:18
-_ifconv:37  %p_int_vy_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_vy, i64 %p_int_0_vy_write_as, i64 %p_int_0_vy_write_as, i64 %p_int_0_vy_write_as, i64 %p_int_0_vy_write_as, i64 %p_int_0_vy_write_as, i64 %p_int_0_vy_write_as, i64 %p_int_0_vy_write_as, i64 %p_int_0_vy_write_as, i64 %p_int_0_vy_write_as, i64 %p_int_0_vy_write_as, i64 %p_int_0_vy_write_as, i64 %p_int_0_vy_write_as, i64 %p_int_0_vy_write_as, i64 %p_int_0_vy_write_as, i64 %p_int_0_vy_write_as, i4 %i)
+ST_19: p_int_vy_1 (167)  [1/1] 0.46ns  loc: astro.c:65
+_ifconv:51  %p_int_vy_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_vy, i64 %p_int_0_vy_write_as, i64 %p_int_0_vy_write_as, i64 %p_int_0_vy_write_as, i64 %p_int_0_vy_write_as, i64 %p_int_0_vy_write_as, i64 %p_int_0_vy_write_as, i64 %p_int_0_vy_write_as, i64 %p_int_0_vy_write_as, i64 %p_int_0_vy_write_as, i64 %p_int_0_vy_write_as, i64 %p_int_0_vy_write_as, i64 %p_int_0_vy_write_as, i64 %p_int_0_vy_write_as, i64 %p_int_0_vy_write_as, i64 %p_int_0_vy_write_as, i4 %i)
 
-ST_19: p_int_vz (103)  [1/1] 5.03ns  loc: astro.c:19
-_ifconv:41  %p_int_vz = call fastcc i64 @__hls_fptosi_double_(double %tmp_11)
+ST_19: p_int_vz (174)  [1/1] 5.03ns  loc: astro.c:66
+_ifconv:58  %p_int_vz = call fastcc i64 @__hls_fptosi_double_(double %tmp_1)
 
-ST_19: p_int_vz46_1 (104)  [1/1] 0.46ns  loc: astro.c:19
-_ifconv:42  %p_int_vz46_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_6_vz_write_as, i64 %p_int_vz, i64 %p_int_vz, i64 %p_int_6_vz_write_as, i64 %p_int_vz, i64 %p_int_vz, i64 %p_int_vz, i64 %p_int_vz, i64 %p_int_vz, i64 %p_int_vz, i64 %p_int_vz, i64 %p_int_vz, i64 %p_int_vz, i64 %p_int_vz, i64 %p_int_vz, i64 %p_int_vz, i4 %i)
+ST_19: p_int_vz46_1 (175)  [1/1] 0.46ns  loc: astro.c:66
+_ifconv:59  %p_int_vz46_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_6_vz_write_as, i64 %p_int_vz, i64 %p_int_vz, i64 %p_int_6_vz_write_as, i64 %p_int_vz, i64 %p_int_vz, i64 %p_int_vz, i64 %p_int_vz, i64 %p_int_vz, i64 %p_int_vz, i64 %p_int_vz, i64 %p_int_vz, i64 %p_int_vz, i64 %p_int_vz, i64 %p_int_vz, i64 %p_int_vz, i4 %i)
 
-ST_19: p_int_vz43_1 (105)  [1/1] 0.46ns  loc: astro.c:19
-_ifconv:43  %p_int_vz43_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_3_vz_write_as, i64 %p_int_3_vz_write_as, i64 %p_int_3_vz_write_as, i64 %p_int_vz, i64 %p_int_3_vz_write_as, i64 %p_int_3_vz_write_as, i64 %p_int_3_vz_write_as, i64 %p_int_3_vz_write_as, i64 %p_int_3_vz_write_as, i64 %p_int_3_vz_write_as, i64 %p_int_3_vz_write_as, i64 %p_int_3_vz_write_as, i64 %p_int_3_vz_write_as, i64 %p_int_3_vz_write_as, i64 %p_int_3_vz_write_as, i64 %p_int_3_vz_write_as, i4 %i)
+ST_19: p_int_vz43_1 (176)  [1/1] 0.46ns  loc: astro.c:66
+_ifconv:60  %p_int_vz43_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_3_vz_write_as, i64 %p_int_3_vz_write_as, i64 %p_int_3_vz_write_as, i64 %p_int_vz, i64 %p_int_3_vz_write_as, i64 %p_int_3_vz_write_as, i64 %p_int_3_vz_write_as, i64 %p_int_3_vz_write_as, i64 %p_int_3_vz_write_as, i64 %p_int_3_vz_write_as, i64 %p_int_3_vz_write_as, i64 %p_int_3_vz_write_as, i64 %p_int_3_vz_write_as, i64 %p_int_3_vz_write_as, i64 %p_int_3_vz_write_as, i64 %p_int_3_vz_write_as, i4 %i)
 
-ST_19: p_int_vz_1 (106)  [1/1] 0.46ns  loc: astro.c:19
-_ifconv:44  %p_int_vz_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_vz, i64 %p_int_0_vz_write_as, i64 %p_int_0_vz_write_as, i64 %p_int_0_vz_write_as, i64 %p_int_0_vz_write_as, i64 %p_int_0_vz_write_as, i64 %p_int_0_vz_write_as, i64 %p_int_0_vz_write_as, i64 %p_int_0_vz_write_as, i64 %p_int_0_vz_write_as, i64 %p_int_0_vz_write_as, i64 %p_int_0_vz_write_as, i64 %p_int_0_vz_write_as, i64 %p_int_0_vz_write_as, i64 %p_int_0_vz_write_as, i64 %p_int_0_vz_write_as, i4 %i)
+ST_19: p_int_vz_1 (177)  [1/1] 0.46ns  loc: astro.c:66
+_ifconv:61  %p_int_vz_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_vz, i64 %p_int_0_vz_write_as, i64 %p_int_0_vz_write_as, i64 %p_int_0_vz_write_as, i64 %p_int_0_vz_write_as, i64 %p_int_0_vz_write_as, i64 %p_int_0_vz_write_as, i64 %p_int_0_vz_write_as, i64 %p_int_0_vz_write_as, i64 %p_int_0_vz_write_as, i64 %p_int_0_vz_write_as, i64 %p_int_0_vz_write_as, i64 %p_int_0_vz_write_as, i64 %p_int_0_vz_write_as, i64 %p_int_0_vz_write_as, i64 %p_int_0_vz_write_as, i4 %i)
 
-ST_19: p_int_x7 (113)  [1/1] 5.03ns  loc: astro.c:14
-_ifconv:51  %p_int_x7 = call fastcc i64 @__hls_fptosi_double_(double %tmp_2_1)
+ST_19: i_1_0_t (178)  [1/1] 1.03ns  loc: astro.c:59
+_ifconv:62  %i_1_0_t = add i4 %i, 1
 
-ST_19: p_int_x16_1 (114)  [1/1] 0.46ns  loc: astro.c:14
-_ifconv:52  %p_int_x16_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_1_x_write_ass, i64 %p_int_x7, i64 %p_int_1_x_write_ass, i64 %p_int_1_x_write_ass, i64 %p_int_1_x_write_ass, i64 %p_int_1_x_write_ass, i64 %p_int_1_x_write_ass, i64 %p_int_1_x_write_ass, i64 %p_int_1_x_write_ass, i64 %p_int_1_x_write_ass, i64 %p_int_1_x_write_ass, i64 %p_int_1_x_write_ass, i64 %p_int_1_x_write_ass, i64 %p_int_1_x_write_ass, i64 %p_int_1_x_write_ass, i64 %p_int_1_x_write_ass, i4 %i_1_0_t)
+ST_19: p_int_x7 (185)  [1/1] 5.03ns  loc: astro.c:61
+_ifconv:69  %p_int_x7 = call fastcc i64 @__hls_fptosi_double_(double %tmp_2_1)
 
-ST_19: p_int_x4_1 (115)  [1/1] 0.46ns  loc: astro.c:14
-_ifconv:53  %p_int_x4_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_4_x_write_ass, i64 %p_int_4_x_write_ass, i64 %p_int_4_x_write_ass, i64 %p_int_4_x_write_ass, i64 %p_int_x7, i64 %p_int_4_x_write_ass, i64 %p_int_4_x_write_ass, i64 %p_int_4_x_write_ass, i64 %p_int_4_x_write_ass, i64 %p_int_4_x_write_ass, i64 %p_int_4_x_write_ass, i64 %p_int_4_x_write_ass, i64 %p_int_4_x_write_ass, i64 %p_int_4_x_write_ass, i64 %p_int_4_x_write_ass, i64 %p_int_4_x_write_ass, i4 %i_1_0_t)
+ST_19: p_int_x16_1 (186)  [1/1] 0.46ns  loc: astro.c:61
+_ifconv:70  %p_int_x16_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_1_x_write_ass, i64 %p_int_x7, i64 %p_int_1_x_write_ass, i64 %p_int_1_x_write_ass, i64 %p_int_1_x_write_ass, i64 %p_int_1_x_write_ass, i64 %p_int_1_x_write_ass, i64 %p_int_1_x_write_ass, i64 %p_int_1_x_write_ass, i64 %p_int_1_x_write_ass, i64 %p_int_1_x_write_ass, i64 %p_int_1_x_write_ass, i64 %p_int_1_x_write_ass, i64 %p_int_1_x_write_ass, i64 %p_int_1_x_write_ass, i64 %p_int_1_x_write_ass, i4 %i_1_0_t)
 
-ST_19: p_int_x7_1 (116)  [1/1] 0.46ns  loc: astro.c:14
-_ifconv:54  %p_int_x7_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_x7, i64 %p_int_7_x_write_ass, i64 %p_int_x7, i64 %p_int_x7, i64 %p_int_7_x_write_ass, i64 %p_int_x7, i64 %p_int_x7, i64 %p_int_x7, i64 %p_int_x7, i64 %p_int_x7, i64 %p_int_x7, i64 %p_int_x7, i64 %p_int_x7, i64 %p_int_x7, i64 %p_int_x7, i64 %p_int_x7, i4 %i_1_0_t)
+ST_19: p_int_x4_1 (187)  [1/1] 0.46ns  loc: astro.c:61
+_ifconv:71  %p_int_x4_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_4_x_write_ass, i64 %p_int_4_x_write_ass, i64 %p_int_4_x_write_ass, i64 %p_int_4_x_write_ass, i64 %p_int_x7, i64 %p_int_4_x_write_ass, i64 %p_int_4_x_write_ass, i64 %p_int_4_x_write_ass, i64 %p_int_4_x_write_ass, i64 %p_int_4_x_write_ass, i64 %p_int_4_x_write_ass, i64 %p_int_4_x_write_ass, i64 %p_int_4_x_write_ass, i64 %p_int_4_x_write_ass, i64 %p_int_4_x_write_ass, i64 %p_int_4_x_write_ass, i4 %i_1_0_t)
 
-ST_19: p_int_y9 (120)  [1/1] 5.03ns  loc: astro.c:15
-_ifconv:58  %p_int_y9 = call fastcc i64 @__hls_fptosi_double_(double %tmp_4_1)
+ST_19: p_int_x7_1 (188)  [1/1] 0.46ns  loc: astro.c:61
+_ifconv:72  %p_int_x7_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_x7, i64 %p_int_7_x_write_ass, i64 %p_int_x7, i64 %p_int_x7, i64 %p_int_7_x_write_ass, i64 %p_int_x7, i64 %p_int_x7, i64 %p_int_x7, i64 %p_int_x7, i64 %p_int_x7, i64 %p_int_x7, i64 %p_int_x7, i64 %p_int_x7, i64 %p_int_x7, i64 %p_int_x7, i64 %p_int_x7, i4 %i_1_0_t)
 
-ST_19: p_int_y15_1 (121)  [1/1] 0.46ns  loc: astro.c:15
-_ifconv:59  %p_int_y15_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_y9, i64 %p_int_7_y_write_ass, i64 %p_int_y9, i64 %p_int_y9, i64 %p_int_7_y_write_ass, i64 %p_int_y9, i64 %p_int_y9, i64 %p_int_y9, i64 %p_int_y9, i64 %p_int_y9, i64 %p_int_y9, i64 %p_int_y9, i64 %p_int_y9, i64 %p_int_y9, i64 %p_int_y9, i64 %p_int_y9, i4 %i_1_0_t)
+ST_19: p_int_y9 (195)  [1/1] 5.03ns  loc: astro.c:62
+_ifconv:79  %p_int_y9 = call fastcc i64 @__hls_fptosi_double_(double %tmp_4_1)
 
-ST_19: p_int_y12_1 (122)  [1/1] 0.46ns  loc: astro.c:15
-_ifconv:60  %p_int_y12_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_4_y_write_ass, i64 %p_int_4_y_write_ass, i64 %p_int_4_y_write_ass, i64 %p_int_4_y_write_ass, i64 %p_int_y9, i64 %p_int_4_y_write_ass, i64 %p_int_4_y_write_ass, i64 %p_int_4_y_write_ass, i64 %p_int_4_y_write_ass, i64 %p_int_4_y_write_ass, i64 %p_int_4_y_write_ass, i64 %p_int_4_y_write_ass, i64 %p_int_4_y_write_ass, i64 %p_int_4_y_write_ass, i64 %p_int_4_y_write_ass, i64 %p_int_4_y_write_ass, i4 %i_1_0_t)
+ST_19: p_int_y15_1 (196)  [1/1] 0.46ns  loc: astro.c:62
+_ifconv:80  %p_int_y15_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_y9, i64 %p_int_7_y_write_ass, i64 %p_int_y9, i64 %p_int_y9, i64 %p_int_7_y_write_ass, i64 %p_int_y9, i64 %p_int_y9, i64 %p_int_y9, i64 %p_int_y9, i64 %p_int_y9, i64 %p_int_y9, i64 %p_int_y9, i64 %p_int_y9, i64 %p_int_y9, i64 %p_int_y9, i64 %p_int_y9, i4 %i_1_0_t)
 
-ST_19: p_int_y9_1 (123)  [1/1] 0.46ns  loc: astro.c:15
-_ifconv:61  %p_int_y9_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_1_y_write_ass, i64 %p_int_y9, i64 %p_int_1_y_write_ass, i64 %p_int_1_y_write_ass, i64 %p_int_1_y_write_ass, i64 %p_int_1_y_write_ass, i64 %p_int_1_y_write_ass, i64 %p_int_1_y_write_ass, i64 %p_int_1_y_write_ass, i64 %p_int_1_y_write_ass, i64 %p_int_1_y_write_ass, i64 %p_int_1_y_write_ass, i64 %p_int_1_y_write_ass, i64 %p_int_1_y_write_ass, i64 %p_int_1_y_write_ass, i64 %p_int_1_y_write_ass, i4 %i_1_0_t)
+ST_19: p_int_y12_1 (197)  [1/1] 0.46ns  loc: astro.c:62
+_ifconv:81  %p_int_y12_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_4_y_write_ass, i64 %p_int_4_y_write_ass, i64 %p_int_4_y_write_ass, i64 %p_int_4_y_write_ass, i64 %p_int_y9, i64 %p_int_4_y_write_ass, i64 %p_int_4_y_write_ass, i64 %p_int_4_y_write_ass, i64 %p_int_4_y_write_ass, i64 %p_int_4_y_write_ass, i64 %p_int_4_y_write_ass, i64 %p_int_4_y_write_ass, i64 %p_int_4_y_write_ass, i64 %p_int_4_y_write_ass, i64 %p_int_4_y_write_ass, i64 %p_int_4_y_write_ass, i4 %i_1_0_t)
 
-ST_19: p_int_z1 (127)  [1/1] 5.03ns  loc: astro.c:16
-_ifconv:65  %p_int_z1 = call fastcc i64 @__hls_fptosi_double_(double %tmp_6_1)
+ST_19: p_int_y9_1 (198)  [1/1] 0.46ns  loc: astro.c:62
+_ifconv:82  %p_int_y9_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_1_y_write_ass, i64 %p_int_y9, i64 %p_int_1_y_write_ass, i64 %p_int_1_y_write_ass, i64 %p_int_1_y_write_ass, i64 %p_int_1_y_write_ass, i64 %p_int_1_y_write_ass, i64 %p_int_1_y_write_ass, i64 %p_int_1_y_write_ass, i64 %p_int_1_y_write_ass, i64 %p_int_1_y_write_ass, i64 %p_int_1_y_write_ass, i64 %p_int_1_y_write_ass, i64 %p_int_1_y_write_ass, i64 %p_int_1_y_write_ass, i64 %p_int_1_y_write_ass, i4 %i_1_0_t)
 
-ST_19: p_int_z20_1 (128)  [1/1] 0.46ns  loc: astro.c:16
-_ifconv:66  %p_int_z20_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_4_z_write_ass, i64 %p_int_4_z_write_ass, i64 %p_int_4_z_write_ass, i64 %p_int_4_z_write_ass, i64 %p_int_z1, i64 %p_int_4_z_write_ass, i64 %p_int_4_z_write_ass, i64 %p_int_4_z_write_ass, i64 %p_int_4_z_write_ass, i64 %p_int_4_z_write_ass, i64 %p_int_4_z_write_ass, i64 %p_int_4_z_write_ass, i64 %p_int_4_z_write_ass, i64 %p_int_4_z_write_ass, i64 %p_int_4_z_write_ass, i64 %p_int_4_z_write_ass, i4 %i_1_0_t)
+ST_19: p_int_z1 (205)  [1/1] 5.03ns  loc: astro.c:63
+_ifconv:89  %p_int_z1 = call fastcc i64 @__hls_fptosi_double_(double %tmp_6_1)
 
-ST_19: p_int_z23_1 (129)  [1/1] 0.46ns  loc: astro.c:16
-_ifconv:67  %p_int_z23_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_z1, i64 %p_int_7_z_write_ass, i64 %p_int_z1, i64 %p_int_z1, i64 %p_int_7_z_write_ass, i64 %p_int_z1, i64 %p_int_z1, i64 %p_int_z1, i64 %p_int_z1, i64 %p_int_z1, i64 %p_int_z1, i64 %p_int_z1, i64 %p_int_z1, i64 %p_int_z1, i64 %p_int_z1, i64 %p_int_z1, i4 %i_1_0_t)
+ST_19: p_int_z20_1 (206)  [1/1] 0.46ns  loc: astro.c:63
+_ifconv:90  %p_int_z20_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_4_z_write_ass, i64 %p_int_4_z_write_ass, i64 %p_int_4_z_write_ass, i64 %p_int_4_z_write_ass, i64 %p_int_z1, i64 %p_int_4_z_write_ass, i64 %p_int_4_z_write_ass, i64 %p_int_4_z_write_ass, i64 %p_int_4_z_write_ass, i64 %p_int_4_z_write_ass, i64 %p_int_4_z_write_ass, i64 %p_int_4_z_write_ass, i64 %p_int_4_z_write_ass, i64 %p_int_4_z_write_ass, i64 %p_int_4_z_write_ass, i64 %p_int_4_z_write_ass, i4 %i_1_0_t)
 
-ST_19: p_int_z17_1 (130)  [1/1] 0.46ns  loc: astro.c:16
-_ifconv:68  %p_int_z17_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_1_z_write_ass, i64 %p_int_z1, i64 %p_int_1_z_write_ass, i64 %p_int_1_z_write_ass, i64 %p_int_1_z_write_ass, i64 %p_int_1_z_write_ass, i64 %p_int_1_z_write_ass, i64 %p_int_1_z_write_ass, i64 %p_int_1_z_write_ass, i64 %p_int_1_z_write_ass, i64 %p_int_1_z_write_ass, i64 %p_int_1_z_write_ass, i64 %p_int_1_z_write_ass, i64 %p_int_1_z_write_ass, i64 %p_int_1_z_write_ass, i64 %p_int_1_z_write_ass, i4 %i_1_0_t)
+ST_19: p_int_z23_1 (207)  [1/1] 0.46ns  loc: astro.c:63
+_ifconv:91  %p_int_z23_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_z1, i64 %p_int_7_z_write_ass, i64 %p_int_z1, i64 %p_int_z1, i64 %p_int_7_z_write_ass, i64 %p_int_z1, i64 %p_int_z1, i64 %p_int_z1, i64 %p_int_z1, i64 %p_int_z1, i64 %p_int_z1, i64 %p_int_z1, i64 %p_int_z1, i64 %p_int_z1, i64 %p_int_z1, i64 %p_int_z1, i4 %i_1_0_t)
 
-ST_19: p_int_vx1 (134)  [1/1] 5.03ns  loc: astro.c:17
-_ifconv:72  %p_int_vx1 = call fastcc i64 @__hls_fptosi_double_(double %tmp_8_1)
+ST_19: p_int_z17_1 (208)  [1/1] 0.46ns  loc: astro.c:63
+_ifconv:92  %p_int_z17_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_1_z_write_ass, i64 %p_int_z1, i64 %p_int_1_z_write_ass, i64 %p_int_1_z_write_ass, i64 %p_int_1_z_write_ass, i64 %p_int_1_z_write_ass, i64 %p_int_1_z_write_ass, i64 %p_int_1_z_write_ass, i64 %p_int_1_z_write_ass, i64 %p_int_1_z_write_ass, i64 %p_int_1_z_write_ass, i64 %p_int_1_z_write_ass, i64 %p_int_1_z_write_ass, i64 %p_int_1_z_write_ass, i64 %p_int_1_z_write_ass, i64 %p_int_1_z_write_ass, i4 %i_1_0_t)
 
-ST_19: p_int_vx25_1 (135)  [1/1] 0.46ns  loc: astro.c:17
-_ifconv:73  %p_int_vx25_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_1_vx_write_as, i64 %p_int_vx1, i64 %p_int_1_vx_write_as, i64 %p_int_1_vx_write_as, i64 %p_int_1_vx_write_as, i64 %p_int_1_vx_write_as, i64 %p_int_1_vx_write_as, i64 %p_int_1_vx_write_as, i64 %p_int_1_vx_write_as, i64 %p_int_1_vx_write_as, i64 %p_int_1_vx_write_as, i64 %p_int_1_vx_write_as, i64 %p_int_1_vx_write_as, i64 %p_int_1_vx_write_as, i64 %p_int_1_vx_write_as, i64 %p_int_1_vx_write_as, i4 %i_1_0_t)
+ST_19: p_int_vx1 (215)  [1/1] 5.03ns  loc: astro.c:64
+_ifconv:99  %p_int_vx1 = call fastcc i64 @__hls_fptosi_double_(double %tmp_8_1)
 
-ST_19: p_int_vx31_1 (136)  [1/1] 0.46ns  loc: astro.c:17
-_ifconv:74  %p_int_vx31_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_vx1, i64 %p_int_7_vx_write_as, i64 %p_int_vx1, i64 %p_int_vx1, i64 %p_int_7_vx_write_as, i64 %p_int_vx1, i64 %p_int_vx1, i64 %p_int_vx1, i64 %p_int_vx1, i64 %p_int_vx1, i64 %p_int_vx1, i64 %p_int_vx1, i64 %p_int_vx1, i64 %p_int_vx1, i64 %p_int_vx1, i64 %p_int_vx1, i4 %i_1_0_t)
+ST_19: p_int_vx25_1 (216)  [1/1] 0.46ns  loc: astro.c:64
+_ifconv:100  %p_int_vx25_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_1_vx_write_as, i64 %p_int_vx1, i64 %p_int_1_vx_write_as, i64 %p_int_1_vx_write_as, i64 %p_int_1_vx_write_as, i64 %p_int_1_vx_write_as, i64 %p_int_1_vx_write_as, i64 %p_int_1_vx_write_as, i64 %p_int_1_vx_write_as, i64 %p_int_1_vx_write_as, i64 %p_int_1_vx_write_as, i64 %p_int_1_vx_write_as, i64 %p_int_1_vx_write_as, i64 %p_int_1_vx_write_as, i64 %p_int_1_vx_write_as, i64 %p_int_1_vx_write_as, i4 %i_1_0_t)
 
-ST_19: p_int_vx28_1 (137)  [1/1] 0.46ns  loc: astro.c:17
-_ifconv:75  %p_int_vx28_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_4_vx_write_as, i64 %p_int_4_vx_write_as, i64 %p_int_4_vx_write_as, i64 %p_int_4_vx_write_as, i64 %p_int_vx1, i64 %p_int_4_vx_write_as, i64 %p_int_4_vx_write_as, i64 %p_int_4_vx_write_as, i64 %p_int_4_vx_write_as, i64 %p_int_4_vx_write_as, i64 %p_int_4_vx_write_as, i64 %p_int_4_vx_write_as, i64 %p_int_4_vx_write_as, i64 %p_int_4_vx_write_as, i64 %p_int_4_vx_write_as, i64 %p_int_4_vx_write_as, i4 %i_1_0_t)
+ST_19: p_int_vx31_1 (217)  [1/1] 0.46ns  loc: astro.c:64
+_ifconv:101  %p_int_vx31_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_vx1, i64 %p_int_7_vx_write_as, i64 %p_int_vx1, i64 %p_int_vx1, i64 %p_int_7_vx_write_as, i64 %p_int_vx1, i64 %p_int_vx1, i64 %p_int_vx1, i64 %p_int_vx1, i64 %p_int_vx1, i64 %p_int_vx1, i64 %p_int_vx1, i64 %p_int_vx1, i64 %p_int_vx1, i64 %p_int_vx1, i64 %p_int_vx1, i4 %i_1_0_t)
 
-ST_19: p_int_vy1 (141)  [1/1] 5.03ns  loc: astro.c:18
-_ifconv:79  %p_int_vy1 = call fastcc i64 @__hls_fptosi_double_(double %tmp_1_6)
+ST_19: p_int_vx28_1 (218)  [1/1] 0.46ns  loc: astro.c:64
+_ifconv:102  %p_int_vx28_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_4_vx_write_as, i64 %p_int_4_vx_write_as, i64 %p_int_4_vx_write_as, i64 %p_int_4_vx_write_as, i64 %p_int_vx1, i64 %p_int_4_vx_write_as, i64 %p_int_4_vx_write_as, i64 %p_int_4_vx_write_as, i64 %p_int_4_vx_write_as, i64 %p_int_4_vx_write_as, i64 %p_int_4_vx_write_as, i64 %p_int_4_vx_write_as, i64 %p_int_4_vx_write_as, i64 %p_int_4_vx_write_as, i64 %p_int_4_vx_write_as, i64 %p_int_4_vx_write_as, i4 %i_1_0_t)
 
-ST_19: p_int_vy39_1 (142)  [1/1] 0.46ns  loc: astro.c:18
-_ifconv:80  %p_int_vy39_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_vy1, i64 %p_int_7_vy_write_as, i64 %p_int_vy1, i64 %p_int_vy1, i64 %p_int_7_vy_write_as, i64 %p_int_vy1, i64 %p_int_vy1, i64 %p_int_vy1, i64 %p_int_vy1, i64 %p_int_vy1, i64 %p_int_vy1, i64 %p_int_vy1, i64 %p_int_vy1, i64 %p_int_vy1, i64 %p_int_vy1, i64 %p_int_vy1, i4 %i_1_0_t)
+ST_19: p_int_vy1 (225)  [1/1] 5.03ns  loc: astro.c:65
+_ifconv:109  %p_int_vy1 = call fastcc i64 @__hls_fptosi_double_(double %tmp_1_6)
 
-ST_19: p_int_vy36_1 (143)  [1/1] 0.46ns  loc: astro.c:18
-_ifconv:81  %p_int_vy36_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_4_vy_write_as, i64 %p_int_4_vy_write_as, i64 %p_int_4_vy_write_as, i64 %p_int_4_vy_write_as, i64 %p_int_vy1, i64 %p_int_4_vy_write_as, i64 %p_int_4_vy_write_as, i64 %p_int_4_vy_write_as, i64 %p_int_4_vy_write_as, i64 %p_int_4_vy_write_as, i64 %p_int_4_vy_write_as, i64 %p_int_4_vy_write_as, i64 %p_int_4_vy_write_as, i64 %p_int_4_vy_write_as, i64 %p_int_4_vy_write_as, i64 %p_int_4_vy_write_as, i4 %i_1_0_t)
+ST_19: p_int_vy39_1 (226)  [1/1] 0.46ns  loc: astro.c:65
+_ifconv:110  %p_int_vy39_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_vy1, i64 %p_int_7_vy_write_as, i64 %p_int_vy1, i64 %p_int_vy1, i64 %p_int_7_vy_write_as, i64 %p_int_vy1, i64 %p_int_vy1, i64 %p_int_vy1, i64 %p_int_vy1, i64 %p_int_vy1, i64 %p_int_vy1, i64 %p_int_vy1, i64 %p_int_vy1, i64 %p_int_vy1, i64 %p_int_vy1, i64 %p_int_vy1, i4 %i_1_0_t)
 
-ST_19: p_int_vy33_1 (144)  [1/1] 0.46ns  loc: astro.c:18
-_ifconv:82  %p_int_vy33_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_1_vy_write_as, i64 %p_int_vy1, i64 %p_int_1_vy_write_as, i64 %p_int_1_vy_write_as, i64 %p_int_1_vy_write_as, i64 %p_int_1_vy_write_as, i64 %p_int_1_vy_write_as, i64 %p_int_1_vy_write_as, i64 %p_int_1_vy_write_as, i64 %p_int_1_vy_write_as, i64 %p_int_1_vy_write_as, i64 %p_int_1_vy_write_as, i64 %p_int_1_vy_write_as, i64 %p_int_1_vy_write_as, i64 %p_int_1_vy_write_as, i64 %p_int_1_vy_write_as, i4 %i_1_0_t)
+ST_19: p_int_vy36_1 (227)  [1/1] 0.46ns  loc: astro.c:65
+_ifconv:111  %p_int_vy36_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_4_vy_write_as, i64 %p_int_4_vy_write_as, i64 %p_int_4_vy_write_as, i64 %p_int_4_vy_write_as, i64 %p_int_vy1, i64 %p_int_4_vy_write_as, i64 %p_int_4_vy_write_as, i64 %p_int_4_vy_write_as, i64 %p_int_4_vy_write_as, i64 %p_int_4_vy_write_as, i64 %p_int_4_vy_write_as, i64 %p_int_4_vy_write_as, i64 %p_int_4_vy_write_as, i64 %p_int_4_vy_write_as, i64 %p_int_4_vy_write_as, i64 %p_int_4_vy_write_as, i4 %i_1_0_t)
 
-ST_19: p_int_vz1 (148)  [1/1] 5.03ns  loc: astro.c:19
-_ifconv:86  %p_int_vz1 = call fastcc i64 @__hls_fptosi_double_(double %tmp_11_1)
+ST_19: p_int_vy33_1 (228)  [1/1] 0.46ns  loc: astro.c:65
+_ifconv:112  %p_int_vy33_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_1_vy_write_as, i64 %p_int_vy1, i64 %p_int_1_vy_write_as, i64 %p_int_1_vy_write_as, i64 %p_int_1_vy_write_as, i64 %p_int_1_vy_write_as, i64 %p_int_1_vy_write_as, i64 %p_int_1_vy_write_as, i64 %p_int_1_vy_write_as, i64 %p_int_1_vy_write_as, i64 %p_int_1_vy_write_as, i64 %p_int_1_vy_write_as, i64 %p_int_1_vy_write_as, i64 %p_int_1_vy_write_as, i64 %p_int_1_vy_write_as, i64 %p_int_1_vy_write_as, i4 %i_1_0_t)
 
-ST_19: p_int_vz47_1 (149)  [1/1] 0.46ns  loc: astro.c:19
-_ifconv:87  %p_int_vz47_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_vz1, i64 %p_int_7_vz_write_as, i64 %p_int_vz1, i64 %p_int_vz1, i64 %p_int_7_vz_write_as, i64 %p_int_vz1, i64 %p_int_vz1, i64 %p_int_vz1, i64 %p_int_vz1, i64 %p_int_vz1, i64 %p_int_vz1, i64 %p_int_vz1, i64 %p_int_vz1, i64 %p_int_vz1, i64 %p_int_vz1, i64 %p_int_vz1, i4 %i_1_0_t)
+ST_19: p_int_vz1 (235)  [1/1] 5.03ns  loc: astro.c:66
+_ifconv:119  %p_int_vz1 = call fastcc i64 @__hls_fptosi_double_(double %tmp_11_1)
 
-ST_19: p_int_vz44_1 (150)  [1/1] 0.46ns  loc: astro.c:19
-_ifconv:88  %p_int_vz44_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_4_vz_write_as, i64 %p_int_4_vz_write_as, i64 %p_int_4_vz_write_as, i64 %p_int_4_vz_write_as, i64 %p_int_vz1, i64 %p_int_4_vz_write_as, i64 %p_int_4_vz_write_as, i64 %p_int_4_vz_write_as, i64 %p_int_4_vz_write_as, i64 %p_int_4_vz_write_as, i64 %p_int_4_vz_write_as, i64 %p_int_4_vz_write_as, i64 %p_int_4_vz_write_as, i64 %p_int_4_vz_write_as, i64 %p_int_4_vz_write_as, i64 %p_int_4_vz_write_as, i4 %i_1_0_t)
+ST_19: p_int_vz47_1 (236)  [1/1] 0.46ns  loc: astro.c:66
+_ifconv:120  %p_int_vz47_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_vz1, i64 %p_int_7_vz_write_as, i64 %p_int_vz1, i64 %p_int_vz1, i64 %p_int_7_vz_write_as, i64 %p_int_vz1, i64 %p_int_vz1, i64 %p_int_vz1, i64 %p_int_vz1, i64 %p_int_vz1, i64 %p_int_vz1, i64 %p_int_vz1, i64 %p_int_vz1, i64 %p_int_vz1, i64 %p_int_vz1, i64 %p_int_vz1, i4 %i_1_0_t)
 
-ST_19: p_int_vz41_1 (151)  [1/1] 0.46ns  loc: astro.c:19
-_ifconv:89  %p_int_vz41_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_1_vz_write_as, i64 %p_int_vz1, i64 %p_int_1_vz_write_as, i64 %p_int_1_vz_write_as, i64 %p_int_1_vz_write_as, i64 %p_int_1_vz_write_as, i64 %p_int_1_vz_write_as, i64 %p_int_1_vz_write_as, i64 %p_int_1_vz_write_as, i64 %p_int_1_vz_write_as, i64 %p_int_1_vz_write_as, i64 %p_int_1_vz_write_as, i64 %p_int_1_vz_write_as, i64 %p_int_1_vz_write_as, i64 %p_int_1_vz_write_as, i64 %p_int_1_vz_write_as, i4 %i_1_0_t)
+ST_19: p_int_vz44_1 (237)  [1/1] 0.46ns  loc: astro.c:66
+_ifconv:121  %p_int_vz44_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_4_vz_write_as, i64 %p_int_4_vz_write_as, i64 %p_int_4_vz_write_as, i64 %p_int_4_vz_write_as, i64 %p_int_vz1, i64 %p_int_4_vz_write_as, i64 %p_int_4_vz_write_as, i64 %p_int_4_vz_write_as, i64 %p_int_4_vz_write_as, i64 %p_int_4_vz_write_as, i64 %p_int_4_vz_write_as, i64 %p_int_4_vz_write_as, i64 %p_int_4_vz_write_as, i64 %p_int_4_vz_write_as, i64 %p_int_4_vz_write_as, i64 %p_int_4_vz_write_as, i4 %i_1_0_t)
 
-ST_19: p_int_x5 (158)  [1/1] 5.03ns  loc: astro.c:14
-_ifconv:96  %p_int_x5 = call fastcc i64 @__hls_fptosi_double_(double %tmp_2_2)
+ST_19: p_int_vz41_1 (238)  [1/1] 0.46ns  loc: astro.c:66
+_ifconv:122  %p_int_vz41_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_1_vz_write_as, i64 %p_int_vz1, i64 %p_int_1_vz_write_as, i64 %p_int_1_vz_write_as, i64 %p_int_1_vz_write_as, i64 %p_int_1_vz_write_as, i64 %p_int_1_vz_write_as, i64 %p_int_1_vz_write_as, i64 %p_int_1_vz_write_as, i64 %p_int_1_vz_write_as, i64 %p_int_1_vz_write_as, i64 %p_int_1_vz_write_as, i64 %p_int_1_vz_write_as, i64 %p_int_1_vz_write_as, i64 %p_int_1_vz_write_as, i64 %p_int_1_vz_write_as, i4 %i_1_0_t)
 
-ST_19: p_int_x2_1 (159)  [1/1] 0.46ns  loc: astro.c:14
-_ifconv:97  %p_int_x2_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_2_x_write_ass, i64 %p_int_2_x_write_ass, i64 %p_int_x5, i64 %p_int_2_x_write_ass, i64 %p_int_2_x_write_ass, i64 %p_int_2_x_write_ass, i64 %p_int_2_x_write_ass, i64 %p_int_2_x_write_ass, i64 %p_int_2_x_write_ass, i64 %p_int_2_x_write_ass, i64 %p_int_2_x_write_ass, i64 %p_int_2_x_write_ass, i64 %p_int_2_x_write_ass, i64 %p_int_2_x_write_ass, i64 %p_int_2_x_write_ass, i64 %p_int_2_x_write_ass, i4 %i_1_1_t)
+ST_19: i_1_1_t (239)  [1/1] 1.03ns  loc: astro.c:59
+_ifconv:123  %i_1_1_t = add i4 %i, 2
 
-ST_19: p_int_x8_1 (160)  [1/1] 0.46ns  loc: astro.c:14
-_ifconv:98  %p_int_x8_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_x5, i64 %p_int_x5, i64 %p_int_8_x_write_ass, i64 %p_int_x5, i64 %p_int_x5, i64 %p_int_8_x_write_ass, i64 %p_int_x5, i64 %p_int_x5, i64 %p_int_x5, i64 %p_int_x5, i64 %p_int_x5, i64 %p_int_x5, i64 %p_int_x5, i64 %p_int_x5, i64 %p_int_x5, i64 %p_int_x5, i4 %i_1_1_t)
+ST_19: p_int_x5 (246)  [1/1] 5.03ns  loc: astro.c:61
+_ifconv:130  %p_int_x5 = call fastcc i64 @__hls_fptosi_double_(double %tmp_2_2)
 
-ST_19: p_int_x5_1 (161)  [1/1] 0.46ns  loc: astro.c:14
-_ifconv:99  %p_int_x5_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_5_x_write_ass, i64 %p_int_5_x_write_ass, i64 %p_int_5_x_write_ass, i64 %p_int_5_x_write_ass, i64 %p_int_5_x_write_ass, i64 %p_int_x5, i64 %p_int_5_x_write_ass, i64 %p_int_5_x_write_ass, i64 %p_int_5_x_write_ass, i64 %p_int_5_x_write_ass, i64 %p_int_5_x_write_ass, i64 %p_int_5_x_write_ass, i64 %p_int_5_x_write_ass, i64 %p_int_5_x_write_ass, i64 %p_int_5_x_write_ass, i64 %p_int_5_x_write_ass, i4 %i_1_1_t)
+ST_19: p_int_x2_1 (247)  [1/1] 0.46ns  loc: astro.c:61
+_ifconv:131  %p_int_x2_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_2_x_write_ass, i64 %p_int_2_x_write_ass, i64 %p_int_x5, i64 %p_int_2_x_write_ass, i64 %p_int_2_x_write_ass, i64 %p_int_2_x_write_ass, i64 %p_int_2_x_write_ass, i64 %p_int_2_x_write_ass, i64 %p_int_2_x_write_ass, i64 %p_int_2_x_write_ass, i64 %p_int_2_x_write_ass, i64 %p_int_2_x_write_ass, i64 %p_int_2_x_write_ass, i64 %p_int_2_x_write_ass, i64 %p_int_2_x_write_ass, i64 %p_int_2_x_write_ass, i4 %i_1_1_t)
 
-ST_19: p_int_y1 (165)  [1/1] 5.03ns  loc: astro.c:15
-_ifconv:103  %p_int_y1 = call fastcc i64 @__hls_fptosi_double_(double %tmp_4_2)
+ST_19: p_int_x8_1 (248)  [1/1] 0.46ns  loc: astro.c:61
+_ifconv:132  %p_int_x8_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_x5, i64 %p_int_x5, i64 %p_int_8_x_write_ass, i64 %p_int_x5, i64 %p_int_x5, i64 %p_int_8_x_write_ass, i64 %p_int_x5, i64 %p_int_x5, i64 %p_int_x5, i64 %p_int_x5, i64 %p_int_x5, i64 %p_int_x5, i64 %p_int_x5, i64 %p_int_x5, i64 %p_int_x5, i64 %p_int_x5, i4 %i_1_1_t)
 
-ST_19: p_int_y16_1 (166)  [1/1] 0.46ns  loc: astro.c:15
-_ifconv:104  %p_int_y16_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_y1, i64 %p_int_y1, i64 %p_int_8_y_write_ass, i64 %p_int_y1, i64 %p_int_y1, i64 %p_int_8_y_write_ass, i64 %p_int_y1, i64 %p_int_y1, i64 %p_int_y1, i64 %p_int_y1, i64 %p_int_y1, i64 %p_int_y1, i64 %p_int_y1, i64 %p_int_y1, i64 %p_int_y1, i64 %p_int_y1, i4 %i_1_1_t)
+ST_19: p_int_x5_1 (249)  [1/1] 0.46ns  loc: astro.c:61
+_ifconv:133  %p_int_x5_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_5_x_write_ass, i64 %p_int_5_x_write_ass, i64 %p_int_5_x_write_ass, i64 %p_int_5_x_write_ass, i64 %p_int_5_x_write_ass, i64 %p_int_x5, i64 %p_int_5_x_write_ass, i64 %p_int_5_x_write_ass, i64 %p_int_5_x_write_ass, i64 %p_int_5_x_write_ass, i64 %p_int_5_x_write_ass, i64 %p_int_5_x_write_ass, i64 %p_int_5_x_write_ass, i64 %p_int_5_x_write_ass, i64 %p_int_5_x_write_ass, i64 %p_int_5_x_write_ass, i4 %i_1_1_t)
 
-ST_19: p_int_y13_1 (167)  [1/1] 0.46ns  loc: astro.c:15
-_ifconv:105  %p_int_y13_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_5_y_write_ass, i64 %p_int_5_y_write_ass, i64 %p_int_5_y_write_ass, i64 %p_int_5_y_write_ass, i64 %p_int_5_y_write_ass, i64 %p_int_y1, i64 %p_int_5_y_write_ass, i64 %p_int_5_y_write_ass, i64 %p_int_5_y_write_ass, i64 %p_int_5_y_write_ass, i64 %p_int_5_y_write_ass, i64 %p_int_5_y_write_ass, i64 %p_int_5_y_write_ass, i64 %p_int_5_y_write_ass, i64 %p_int_5_y_write_ass, i64 %p_int_5_y_write_ass, i4 %i_1_1_t)
+ST_19: p_int_y1 (256)  [1/1] 5.03ns  loc: astro.c:62
+_ifconv:140  %p_int_y1 = call fastcc i64 @__hls_fptosi_double_(double %tmp_4_2)
 
-ST_19: p_int_y10_1 (168)  [1/1] 0.46ns  loc: astro.c:15
-_ifconv:106  %p_int_y10_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_2_y_write_ass, i64 %p_int_2_y_write_ass, i64 %p_int_y1, i64 %p_int_2_y_write_ass, i64 %p_int_2_y_write_ass, i64 %p_int_2_y_write_ass, i64 %p_int_2_y_write_ass, i64 %p_int_2_y_write_ass, i64 %p_int_2_y_write_ass, i64 %p_int_2_y_write_ass, i64 %p_int_2_y_write_ass, i64 %p_int_2_y_write_ass, i64 %p_int_2_y_write_ass, i64 %p_int_2_y_write_ass, i64 %p_int_2_y_write_ass, i64 %p_int_2_y_write_ass, i4 %i_1_1_t)
+ST_19: p_int_y16_1 (257)  [1/1] 0.46ns  loc: astro.c:62
+_ifconv:141  %p_int_y16_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_y1, i64 %p_int_y1, i64 %p_int_8_y_write_ass, i64 %p_int_y1, i64 %p_int_y1, i64 %p_int_8_y_write_ass, i64 %p_int_y1, i64 %p_int_y1, i64 %p_int_y1, i64 %p_int_y1, i64 %p_int_y1, i64 %p_int_y1, i64 %p_int_y1, i64 %p_int_y1, i64 %p_int_y1, i64 %p_int_y1, i4 %i_1_1_t)
 
-ST_19: p_int_z2 (172)  [1/1] 5.03ns  loc: astro.c:16
-_ifconv:110  %p_int_z2 = call fastcc i64 @__hls_fptosi_double_(double %tmp_6_2)
+ST_19: p_int_y13_1 (258)  [1/1] 0.46ns  loc: astro.c:62
+_ifconv:142  %p_int_y13_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_5_y_write_ass, i64 %p_int_5_y_write_ass, i64 %p_int_5_y_write_ass, i64 %p_int_5_y_write_ass, i64 %p_int_5_y_write_ass, i64 %p_int_y1, i64 %p_int_5_y_write_ass, i64 %p_int_5_y_write_ass, i64 %p_int_5_y_write_ass, i64 %p_int_5_y_write_ass, i64 %p_int_5_y_write_ass, i64 %p_int_5_y_write_ass, i64 %p_int_5_y_write_ass, i64 %p_int_5_y_write_ass, i64 %p_int_5_y_write_ass, i64 %p_int_5_y_write_ass, i4 %i_1_1_t)
 
-ST_19: p_int_z18_1 (173)  [1/1] 0.46ns  loc: astro.c:16
-_ifconv:111  %p_int_z18_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_2_z_write_ass, i64 %p_int_2_z_write_ass, i64 %p_int_z2, i64 %p_int_2_z_write_ass, i64 %p_int_2_z_write_ass, i64 %p_int_2_z_write_ass, i64 %p_int_2_z_write_ass, i64 %p_int_2_z_write_ass, i64 %p_int_2_z_write_ass, i64 %p_int_2_z_write_ass, i64 %p_int_2_z_write_ass, i64 %p_int_2_z_write_ass, i64 %p_int_2_z_write_ass, i64 %p_int_2_z_write_ass, i64 %p_int_2_z_write_ass, i64 %p_int_2_z_write_ass, i4 %i_1_1_t)
+ST_19: p_int_y10_1 (259)  [1/1] 0.46ns  loc: astro.c:62
+_ifconv:143  %p_int_y10_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_2_y_write_ass, i64 %p_int_2_y_write_ass, i64 %p_int_y1, i64 %p_int_2_y_write_ass, i64 %p_int_2_y_write_ass, i64 %p_int_2_y_write_ass, i64 %p_int_2_y_write_ass, i64 %p_int_2_y_write_ass, i64 %p_int_2_y_write_ass, i64 %p_int_2_y_write_ass, i64 %p_int_2_y_write_ass, i64 %p_int_2_y_write_ass, i64 %p_int_2_y_write_ass, i64 %p_int_2_y_write_ass, i64 %p_int_2_y_write_ass, i64 %p_int_2_y_write_ass, i4 %i_1_1_t)
 
-ST_19: p_int_z21_1 (174)  [1/1] 0.46ns  loc: astro.c:16
-_ifconv:112  %p_int_z21_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_5_z_write_ass, i64 %p_int_5_z_write_ass, i64 %p_int_5_z_write_ass, i64 %p_int_5_z_write_ass, i64 %p_int_5_z_write_ass, i64 %p_int_z2, i64 %p_int_5_z_write_ass, i64 %p_int_5_z_write_ass, i64 %p_int_5_z_write_ass, i64 %p_int_5_z_write_ass, i64 %p_int_5_z_write_ass, i64 %p_int_5_z_write_ass, i64 %p_int_5_z_write_ass, i64 %p_int_5_z_write_ass, i64 %p_int_5_z_write_ass, i64 %p_int_5_z_write_ass, i4 %i_1_1_t)
+ST_19: p_int_z2 (266)  [1/1] 5.03ns  loc: astro.c:63
+_ifconv:150  %p_int_z2 = call fastcc i64 @__hls_fptosi_double_(double %tmp_6_2)
 
-ST_19: p_int_z24_1 (175)  [1/1] 0.46ns  loc: astro.c:16
-_ifconv:113  %p_int_z24_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_z2, i64 %p_int_z2, i64 %p_int_8_z_write_ass, i64 %p_int_z2, i64 %p_int_z2, i64 %p_int_8_z_write_ass, i64 %p_int_z2, i64 %p_int_z2, i64 %p_int_z2, i64 %p_int_z2, i64 %p_int_z2, i64 %p_int_z2, i64 %p_int_z2, i64 %p_int_z2, i64 %p_int_z2, i64 %p_int_z2, i4 %i_1_1_t)
+ST_19: p_int_z18_1 (267)  [1/1] 0.46ns  loc: astro.c:63
+_ifconv:151  %p_int_z18_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_2_z_write_ass, i64 %p_int_2_z_write_ass, i64 %p_int_z2, i64 %p_int_2_z_write_ass, i64 %p_int_2_z_write_ass, i64 %p_int_2_z_write_ass, i64 %p_int_2_z_write_ass, i64 %p_int_2_z_write_ass, i64 %p_int_2_z_write_ass, i64 %p_int_2_z_write_ass, i64 %p_int_2_z_write_ass, i64 %p_int_2_z_write_ass, i64 %p_int_2_z_write_ass, i64 %p_int_2_z_write_ass, i64 %p_int_2_z_write_ass, i64 %p_int_2_z_write_ass, i4 %i_1_1_t)
 
-ST_19: p_int_vx2 (179)  [1/1] 5.03ns  loc: astro.c:17
-_ifconv:117  %p_int_vx2 = call fastcc i64 @__hls_fptosi_double_(double %tmp_8_2)
+ST_19: p_int_z21_1 (268)  [1/1] 0.46ns  loc: astro.c:63
+_ifconv:152  %p_int_z21_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_5_z_write_ass, i64 %p_int_5_z_write_ass, i64 %p_int_5_z_write_ass, i64 %p_int_5_z_write_ass, i64 %p_int_5_z_write_ass, i64 %p_int_z2, i64 %p_int_5_z_write_ass, i64 %p_int_5_z_write_ass, i64 %p_int_5_z_write_ass, i64 %p_int_5_z_write_ass, i64 %p_int_5_z_write_ass, i64 %p_int_5_z_write_ass, i64 %p_int_5_z_write_ass, i64 %p_int_5_z_write_ass, i64 %p_int_5_z_write_ass, i64 %p_int_5_z_write_ass, i4 %i_1_1_t)
 
-ST_19: p_int_vx32_1 (180)  [1/1] 0.46ns  loc: astro.c:17
-_ifconv:118  %p_int_vx32_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_vx2, i64 %p_int_vx2, i64 %p_int_8_vx_write_as, i64 %p_int_vx2, i64 %p_int_vx2, i64 %p_int_8_vx_write_as, i64 %p_int_vx2, i64 %p_int_vx2, i64 %p_int_vx2, i64 %p_int_vx2, i64 %p_int_vx2, i64 %p_int_vx2, i64 %p_int_vx2, i64 %p_int_vx2, i64 %p_int_vx2, i64 %p_int_vx2, i4 %i_1_1_t)
+ST_19: p_int_z24_1 (269)  [1/1] 0.46ns  loc: astro.c:63
+_ifconv:153  %p_int_z24_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_z2, i64 %p_int_z2, i64 %p_int_8_z_write_ass, i64 %p_int_z2, i64 %p_int_z2, i64 %p_int_8_z_write_ass, i64 %p_int_z2, i64 %p_int_z2, i64 %p_int_z2, i64 %p_int_z2, i64 %p_int_z2, i64 %p_int_z2, i64 %p_int_z2, i64 %p_int_z2, i64 %p_int_z2, i64 %p_int_z2, i4 %i_1_1_t)
 
-ST_19: p_int_vx26_1 (181)  [1/1] 0.46ns  loc: astro.c:17
-_ifconv:119  %p_int_vx26_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_2_vx_write_as, i64 %p_int_2_vx_write_as, i64 %p_int_vx2, i64 %p_int_2_vx_write_as, i64 %p_int_2_vx_write_as, i64 %p_int_2_vx_write_as, i64 %p_int_2_vx_write_as, i64 %p_int_2_vx_write_as, i64 %p_int_2_vx_write_as, i64 %p_int_2_vx_write_as, i64 %p_int_2_vx_write_as, i64 %p_int_2_vx_write_as, i64 %p_int_2_vx_write_as, i64 %p_int_2_vx_write_as, i64 %p_int_2_vx_write_as, i64 %p_int_2_vx_write_as, i4 %i_1_1_t)
+ST_19: p_int_vx2 (276)  [1/1] 5.03ns  loc: astro.c:64
+_ifconv:160  %p_int_vx2 = call fastcc i64 @__hls_fptosi_double_(double %tmp_8_2)
 
-ST_19: p_int_vx29_1 (182)  [1/1] 0.46ns  loc: astro.c:17
-_ifconv:120  %p_int_vx29_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_5_vx_write_as, i64 %p_int_5_vx_write_as, i64 %p_int_5_vx_write_as, i64 %p_int_5_vx_write_as, i64 %p_int_5_vx_write_as, i64 %p_int_vx2, i64 %p_int_5_vx_write_as, i64 %p_int_5_vx_write_as, i64 %p_int_5_vx_write_as, i64 %p_int_5_vx_write_as, i64 %p_int_5_vx_write_as, i64 %p_int_5_vx_write_as, i64 %p_int_5_vx_write_as, i64 %p_int_5_vx_write_as, i64 %p_int_5_vx_write_as, i64 %p_int_5_vx_write_as, i4 %i_1_1_t)
+ST_19: p_int_vx32_1 (277)  [1/1] 0.46ns  loc: astro.c:64
+_ifconv:161  %p_int_vx32_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_vx2, i64 %p_int_vx2, i64 %p_int_8_vx_write_as, i64 %p_int_vx2, i64 %p_int_vx2, i64 %p_int_8_vx_write_as, i64 %p_int_vx2, i64 %p_int_vx2, i64 %p_int_vx2, i64 %p_int_vx2, i64 %p_int_vx2, i64 %p_int_vx2, i64 %p_int_vx2, i64 %p_int_vx2, i64 %p_int_vx2, i64 %p_int_vx2, i4 %i_1_1_t)
 
-ST_19: p_int_vy2 (186)  [1/1] 5.03ns  loc: astro.c:18
-_ifconv:124  %p_int_vy2 = call fastcc i64 @__hls_fptosi_double_(double %tmp_2_7)
+ST_19: p_int_vx26_1 (278)  [1/1] 0.46ns  loc: astro.c:64
+_ifconv:162  %p_int_vx26_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_2_vx_write_as, i64 %p_int_2_vx_write_as, i64 %p_int_vx2, i64 %p_int_2_vx_write_as, i64 %p_int_2_vx_write_as, i64 %p_int_2_vx_write_as, i64 %p_int_2_vx_write_as, i64 %p_int_2_vx_write_as, i64 %p_int_2_vx_write_as, i64 %p_int_2_vx_write_as, i64 %p_int_2_vx_write_as, i64 %p_int_2_vx_write_as, i64 %p_int_2_vx_write_as, i64 %p_int_2_vx_write_as, i64 %p_int_2_vx_write_as, i64 %p_int_2_vx_write_as, i4 %i_1_1_t)
 
-ST_19: p_int_vy40_1 (187)  [1/1] 0.46ns  loc: astro.c:18
-_ifconv:125  %p_int_vy40_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_vy2, i64 %p_int_vy2, i64 %p_int_8_vy_write_as, i64 %p_int_vy2, i64 %p_int_vy2, i64 %p_int_8_vy_write_as, i64 %p_int_vy2, i64 %p_int_vy2, i64 %p_int_vy2, i64 %p_int_vy2, i64 %p_int_vy2, i64 %p_int_vy2, i64 %p_int_vy2, i64 %p_int_vy2, i64 %p_int_vy2, i64 %p_int_vy2, i4 %i_1_1_t)
+ST_19: p_int_vx29_1 (279)  [1/1] 0.46ns  loc: astro.c:64
+_ifconv:163  %p_int_vx29_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_5_vx_write_as, i64 %p_int_5_vx_write_as, i64 %p_int_5_vx_write_as, i64 %p_int_5_vx_write_as, i64 %p_int_5_vx_write_as, i64 %p_int_vx2, i64 %p_int_5_vx_write_as, i64 %p_int_5_vx_write_as, i64 %p_int_5_vx_write_as, i64 %p_int_5_vx_write_as, i64 %p_int_5_vx_write_as, i64 %p_int_5_vx_write_as, i64 %p_int_5_vx_write_as, i64 %p_int_5_vx_write_as, i64 %p_int_5_vx_write_as, i64 %p_int_5_vx_write_as, i4 %i_1_1_t)
 
-ST_19: p_int_vy37_1 (188)  [1/1] 0.46ns  loc: astro.c:18
-_ifconv:126  %p_int_vy37_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_5_vy_write_as, i64 %p_int_5_vy_write_as, i64 %p_int_5_vy_write_as, i64 %p_int_5_vy_write_as, i64 %p_int_5_vy_write_as, i64 %p_int_vy2, i64 %p_int_5_vy_write_as, i64 %p_int_5_vy_write_as, i64 %p_int_5_vy_write_as, i64 %p_int_5_vy_write_as, i64 %p_int_5_vy_write_as, i64 %p_int_5_vy_write_as, i64 %p_int_5_vy_write_as, i64 %p_int_5_vy_write_as, i64 %p_int_5_vy_write_as, i64 %p_int_5_vy_write_as, i4 %i_1_1_t)
+ST_19: p_int_vy2 (286)  [1/1] 5.03ns  loc: astro.c:65
+_ifconv:170  %p_int_vy2 = call fastcc i64 @__hls_fptosi_double_(double %tmp_2_7)
 
-ST_19: p_int_vy34_1 (189)  [1/1] 0.46ns  loc: astro.c:18
-_ifconv:127  %p_int_vy34_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_2_vy_write_as, i64 %p_int_2_vy_write_as, i64 %p_int_vy2, i64 %p_int_2_vy_write_as, i64 %p_int_2_vy_write_as, i64 %p_int_2_vy_write_as, i64 %p_int_2_vy_write_as, i64 %p_int_2_vy_write_as, i64 %p_int_2_vy_write_as, i64 %p_int_2_vy_write_as, i64 %p_int_2_vy_write_as, i64 %p_int_2_vy_write_as, i64 %p_int_2_vy_write_as, i64 %p_int_2_vy_write_as, i64 %p_int_2_vy_write_as, i64 %p_int_2_vy_write_as, i4 %i_1_1_t)
+ST_19: p_int_vy40_1 (287)  [1/1] 0.46ns  loc: astro.c:65
+_ifconv:171  %p_int_vy40_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_vy2, i64 %p_int_vy2, i64 %p_int_8_vy_write_as, i64 %p_int_vy2, i64 %p_int_vy2, i64 %p_int_8_vy_write_as, i64 %p_int_vy2, i64 %p_int_vy2, i64 %p_int_vy2, i64 %p_int_vy2, i64 %p_int_vy2, i64 %p_int_vy2, i64 %p_int_vy2, i64 %p_int_vy2, i64 %p_int_vy2, i64 %p_int_vy2, i4 %i_1_1_t)
 
-ST_19: p_int_vz2 (193)  [1/1] 5.03ns  loc: astro.c:19
-_ifconv:131  %p_int_vz2 = call fastcc i64 @__hls_fptosi_double_(double %tmp_11_2)
+ST_19: p_int_vy37_1 (288)  [1/1] 0.46ns  loc: astro.c:65
+_ifconv:172  %p_int_vy37_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_5_vy_write_as, i64 %p_int_5_vy_write_as, i64 %p_int_5_vy_write_as, i64 %p_int_5_vy_write_as, i64 %p_int_5_vy_write_as, i64 %p_int_vy2, i64 %p_int_5_vy_write_as, i64 %p_int_5_vy_write_as, i64 %p_int_5_vy_write_as, i64 %p_int_5_vy_write_as, i64 %p_int_5_vy_write_as, i64 %p_int_5_vy_write_as, i64 %p_int_5_vy_write_as, i64 %p_int_5_vy_write_as, i64 %p_int_5_vy_write_as, i64 %p_int_5_vy_write_as, i4 %i_1_1_t)
 
-ST_19: p_int_vz48_1 (194)  [1/1] 0.46ns  loc: astro.c:19
-_ifconv:132  %p_int_vz48_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_vz2, i64 %p_int_vz2, i64 %p_int_8_vz_write_as, i64 %p_int_vz2, i64 %p_int_vz2, i64 %p_int_8_vz_write_as, i64 %p_int_vz2, i64 %p_int_vz2, i64 %p_int_vz2, i64 %p_int_vz2, i64 %p_int_vz2, i64 %p_int_vz2, i64 %p_int_vz2, i64 %p_int_vz2, i64 %p_int_vz2, i64 %p_int_vz2, i4 %i_1_1_t)
+ST_19: p_int_vy34_1 (289)  [1/1] 0.46ns  loc: astro.c:65
+_ifconv:173  %p_int_vy34_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_2_vy_write_as, i64 %p_int_2_vy_write_as, i64 %p_int_vy2, i64 %p_int_2_vy_write_as, i64 %p_int_2_vy_write_as, i64 %p_int_2_vy_write_as, i64 %p_int_2_vy_write_as, i64 %p_int_2_vy_write_as, i64 %p_int_2_vy_write_as, i64 %p_int_2_vy_write_as, i64 %p_int_2_vy_write_as, i64 %p_int_2_vy_write_as, i64 %p_int_2_vy_write_as, i64 %p_int_2_vy_write_as, i64 %p_int_2_vy_write_as, i64 %p_int_2_vy_write_as, i4 %i_1_1_t)
 
-ST_19: p_int_vz45_1 (195)  [1/1] 0.46ns  loc: astro.c:19
-_ifconv:133  %p_int_vz45_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_5_vz_write_as, i64 %p_int_5_vz_write_as, i64 %p_int_5_vz_write_as, i64 %p_int_5_vz_write_as, i64 %p_int_5_vz_write_as, i64 %p_int_vz2, i64 %p_int_5_vz_write_as, i64 %p_int_5_vz_write_as, i64 %p_int_5_vz_write_as, i64 %p_int_5_vz_write_as, i64 %p_int_5_vz_write_as, i64 %p_int_5_vz_write_as, i64 %p_int_5_vz_write_as, i64 %p_int_5_vz_write_as, i64 %p_int_5_vz_write_as, i64 %p_int_5_vz_write_as, i4 %i_1_1_t)
+ST_19: p_int_vz2 (296)  [1/1] 5.03ns  loc: astro.c:66
+_ifconv:180  %p_int_vz2 = call fastcc i64 @__hls_fptosi_double_(double %tmp_11_2)
 
-ST_19: p_int_vz42_1 (196)  [1/1] 0.46ns  loc: astro.c:19
-_ifconv:134  %p_int_vz42_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_2_vz_write_as, i64 %p_int_2_vz_write_as, i64 %p_int_vz2, i64 %p_int_2_vz_write_as, i64 %p_int_2_vz_write_as, i64 %p_int_2_vz_write_as, i64 %p_int_2_vz_write_as, i64 %p_int_2_vz_write_as, i64 %p_int_2_vz_write_as, i64 %p_int_2_vz_write_as, i64 %p_int_2_vz_write_as, i64 %p_int_2_vz_write_as, i64 %p_int_2_vz_write_as, i64 %p_int_2_vz_write_as, i64 %p_int_2_vz_write_as, i64 %p_int_2_vz_write_as, i4 %i_1_1_t)
+ST_19: p_int_vz48_1 (297)  [1/1] 0.46ns  loc: astro.c:66
+_ifconv:181  %p_int_vz48_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_vz2, i64 %p_int_vz2, i64 %p_int_8_vz_write_as, i64 %p_int_vz2, i64 %p_int_vz2, i64 %p_int_8_vz_write_as, i64 %p_int_vz2, i64 %p_int_vz2, i64 %p_int_vz2, i64 %p_int_vz2, i64 %p_int_vz2, i64 %p_int_vz2, i64 %p_int_vz2, i64 %p_int_vz2, i64 %p_int_vz2, i64 %p_int_vz2, i4 %i_1_1_t)
 
-ST_19: i_1_2 (197)  [1/1] 1.03ns  loc: astro.c:12
-_ifconv:135  %i_1_2 = add i4 %i, 3
+ST_19: p_int_vz45_1 (298)  [1/1] 0.46ns  loc: astro.c:66
+_ifconv:182  %p_int_vz45_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_5_vz_write_as, i64 %p_int_5_vz_write_as, i64 %p_int_5_vz_write_as, i64 %p_int_5_vz_write_as, i64 %p_int_5_vz_write_as, i64 %p_int_vz2, i64 %p_int_5_vz_write_as, i64 %p_int_5_vz_write_as, i64 %p_int_5_vz_write_as, i64 %p_int_5_vz_write_as, i64 %p_int_5_vz_write_as, i64 %p_int_5_vz_write_as, i64 %p_int_5_vz_write_as, i64 %p_int_5_vz_write_as, i64 %p_int_5_vz_write_as, i64 %p_int_5_vz_write_as, i4 %i_1_1_t)
 
-ST_19: StgValue_558 (198)  [1/1] 0.00ns  loc: astro.c:12
-_ifconv:136  br label %1
+ST_19: p_int_vz42_1 (299)  [1/1] 0.46ns  loc: astro.c:66
+_ifconv:183  %p_int_vz42_1 = call i64 @_ssdm_op_Mux.ap_auto.16i64.i4(i64 %p_int_2_vz_write_as, i64 %p_int_2_vz_write_as, i64 %p_int_vz2, i64 %p_int_2_vz_write_as, i64 %p_int_2_vz_write_as, i64 %p_int_2_vz_write_as, i64 %p_int_2_vz_write_as, i64 %p_int_2_vz_write_as, i64 %p_int_2_vz_write_as, i64 %p_int_2_vz_write_as, i64 %p_int_2_vz_write_as, i64 %p_int_2_vz_write_as, i64 %p_int_2_vz_write_as, i64 %p_int_2_vz_write_as, i64 %p_int_2_vz_write_as, i64 %p_int_2_vz_write_as, i4 %i_1_1_t)
+
+ST_19: i_1_2 (300)  [1/1] 1.03ns  loc: astro.c:59
+_ifconv:184  %i_1_2 = add i4 %i, 3
+
+ST_19: StgValue_607 (301)  [1/1] 0.00ns  loc: astro.c:59
+_ifconv:185  br label %1
 
 
 
@@ -1778,85 +1925,84 @@ Target clock period: 10ns, clock uncertainty: 1.25ns.
 
  <State 1>: 0.605ns
 The critical path consists of the following:
-	multiplexor before 'phi' operation ('p_int[6].x', astro.c:14) with incoming values : ('p_int_x6_1', astro.c:14) [3]  (0.605 ns)
+	multiplexor before 'phi' operation ('p_int[6].x', astro.c:61) with incoming values : ('p_int_x6_1', astro.c:61) [57]  (0.605 ns)
 
- <State 2>: 8.64ns
+ <State 2>: 7.58ns
 The critical path consists of the following:
-	'phi' operation ('i', astro.c:12) with incoming values : ('i_1_2', astro.c:12) [57]  (0 ns)
-	'add' operation ('i_1_0_t', astro.c:12) [107]  (1.03 ns)
-	'icmp' operation ('tmp_12', astro.c:12) [108]  (0.394 ns)
-	'or' operation ('tmp_14', astro.c:14) [110]  (0.044 ns)
-	'select' operation ('p_z_load_1_phi', astro.c:16) [125]  (0.071 ns)
-	'ddiv' operation ('tmp_6_1', astro.c:16) [126]  (7.11 ns)
+	'phi' operation ('i', astro.c:59) with incoming values : ('i_1_2', astro.c:59) [111]  (0 ns)
+	'icmp' operation ('sel_tmp', astro.c:61) [119]  (0.394 ns)
+	'select' operation ('sel_tmp17', astro.c:64) [273]  (0 ns)
+	'select' operation ('p_vx_load_2_phi', astro.c:64) [274]  (0.071 ns)
+	'ddiv' operation ('tmp_8_2', astro.c:64) [275]  (7.11 ns)
 
  <State 3>: 7.11ns
 The critical path consists of the following:
-	'ddiv' operation ('tmp_2', astro.c:14) [67]  (7.11 ns)
+	'ddiv' operation ('tmp_2', astro.c:61) [123]  (7.11 ns)
 
  <State 4>: 7.11ns
 The critical path consists of the following:
-	'ddiv' operation ('tmp_2', astro.c:14) [67]  (7.11 ns)
+	'ddiv' operation ('tmp_2', astro.c:61) [123]  (7.11 ns)
 
  <State 5>: 7.11ns
 The critical path consists of the following:
-	'ddiv' operation ('tmp_2', astro.c:14) [67]  (7.11 ns)
+	'ddiv' operation ('tmp_2', astro.c:61) [123]  (7.11 ns)
 
  <State 6>: 7.11ns
 The critical path consists of the following:
-	'ddiv' operation ('tmp_2', astro.c:14) [67]  (7.11 ns)
+	'ddiv' operation ('tmp_2', astro.c:61) [123]  (7.11 ns)
 
  <State 7>: 7.11ns
 The critical path consists of the following:
-	'ddiv' operation ('tmp_2', astro.c:14) [67]  (7.11 ns)
+	'ddiv' operation ('tmp_2', astro.c:61) [123]  (7.11 ns)
 
  <State 8>: 7.11ns
 The critical path consists of the following:
-	'ddiv' operation ('tmp_2', astro.c:14) [67]  (7.11 ns)
+	'ddiv' operation ('tmp_2', astro.c:61) [123]  (7.11 ns)
 
  <State 9>: 7.11ns
 The critical path consists of the following:
-	'ddiv' operation ('tmp_2', astro.c:14) [67]  (7.11 ns)
+	'ddiv' operation ('tmp_2', astro.c:61) [123]  (7.11 ns)
 
  <State 10>: 7.11ns
 The critical path consists of the following:
-	'ddiv' operation ('tmp_2', astro.c:14) [67]  (7.11 ns)
+	'ddiv' operation ('tmp_2', astro.c:61) [123]  (7.11 ns)
 
  <State 11>: 7.11ns
 The critical path consists of the following:
-	'ddiv' operation ('tmp_2', astro.c:14) [67]  (7.11 ns)
+	'ddiv' operation ('tmp_2', astro.c:61) [123]  (7.11 ns)
 
  <State 12>: 7.11ns
 The critical path consists of the following:
-	'ddiv' operation ('tmp_2', astro.c:14) [67]  (7.11 ns)
+	'ddiv' operation ('tmp_2', astro.c:61) [123]  (7.11 ns)
 
  <State 13>: 7.11ns
 The critical path consists of the following:
-	'ddiv' operation ('tmp_2', astro.c:14) [67]  (7.11 ns)
+	'ddiv' operation ('tmp_2', astro.c:61) [123]  (7.11 ns)
 
  <State 14>: 7.11ns
 The critical path consists of the following:
-	'ddiv' operation ('tmp_2', astro.c:14) [67]  (7.11 ns)
+	'ddiv' operation ('tmp_2', astro.c:61) [123]  (7.11 ns)
 
  <State 15>: 7.11ns
 The critical path consists of the following:
-	'ddiv' operation ('tmp_2', astro.c:14) [67]  (7.11 ns)
+	'ddiv' operation ('tmp_2', astro.c:61) [123]  (7.11 ns)
 
  <State 16>: 7.11ns
 The critical path consists of the following:
-	'ddiv' operation ('tmp_2', astro.c:14) [67]  (7.11 ns)
+	'ddiv' operation ('tmp_2', astro.c:61) [123]  (7.11 ns)
 
  <State 17>: 7.11ns
 The critical path consists of the following:
-	'ddiv' operation ('tmp_2', astro.c:14) [67]  (7.11 ns)
+	'ddiv' operation ('tmp_2', astro.c:61) [123]  (7.11 ns)
 
  <State 18>: 7.11ns
 The critical path consists of the following:
-	'ddiv' operation ('tmp_2', astro.c:14) [67]  (7.11 ns)
+	'ddiv' operation ('tmp_2', astro.c:61) [123]  (7.11 ns)
 
  <State 19>: 5.49ns
 The critical path consists of the following:
-	'call' operation ('p_int_x6', astro.c:14) to '__hls_fptosi_double_' [68]  (5.03 ns)
-	'mux' operation ('p_int_x_1', astro.c:14) [69]  (0.46 ns)
+	'call' operation ('p_int_x6', astro.c:61) to '__hls_fptosi_double_' [124]  (5.03 ns)
+	'mux' operation ('p_int_x_1', astro.c:61) [125]  (0.46 ns)
 
 
 ============================================================
