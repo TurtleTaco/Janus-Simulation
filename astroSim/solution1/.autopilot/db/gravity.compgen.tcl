@@ -1,7 +1,7 @@
 # This script segment is generated automatically by AutoPilot
 
-set id 423
-set name astroSim_dadddsubfYi
+set id 279
+set name astroSim_dadddsubeOg
 set corename simcore_dadddsub
 set op dadddsub
 set stage_num 4
@@ -70,8 +70,8 @@ puts "@W \[IMPL-101\] Cannot find ::AESL_LIB_XILINX_FPV6::fpv6_gen, check your p
 }
 
 
-set id 450
-set name astroSim_dsub_64ng8j
+set id 306
+set name astroSim_dsub_64nfYi
 set corename simcore_dsub
 set op dsub
 set stage_num 4
@@ -140,8 +140,8 @@ puts "@W \[IMPL-101\] Cannot find ::AESL_LIB_XILINX_FPV6::fpv6_gen, check your p
 }
 
 
-set id 459
-set name astroSim_dadd_64nhbi
+set id 315
+set name astroSim_dadd_64ng8j
 set corename simcore_dadd
 set op dadd
 set stage_num 4
@@ -210,7 +210,74 @@ puts "@W \[IMPL-101\] Cannot find ::AESL_LIB_XILINX_FPV6::fpv6_gen, check your p
 }
 
 
-set id 534
+set id 380
+set name astroSim_ddiv_64nhbi
+set corename simcore_ddiv
+set op ddiv
+set stage_num 17
+set max_latency -1
+set registered_input 1
+set in0_width 64
+set in0_signed 0
+set in1_width 64
+set in1_signed 0
+set out_width 64
+if {${::AESL::PGuard_simmodel_gen}} {
+if {[info proc ap_gen_simcore_ddiv] == "ap_gen_simcore_ddiv"} {
+eval "ap_gen_simcore_ddiv { \
+    id ${id} \
+    name ${name} \
+    corename ${corename} \
+    op ${op} \
+    reset_level 1 \
+    sync_rst true \
+    stage_num ${stage_num} \
+    max_latency ${max_latency} \
+    registered_input ${registered_input} \
+    in0_width ${in0_width} \
+    in0_signed ${in0_signed} \
+    in1_width ${in1_width} \
+    in1_signed ${in1_signed} \
+    out_width ${out_width} \
+}"
+} else {
+puts "@W \[IMPL-100\] Cannot find ap_gen_simcore_ddiv, check your AutoPilot builtin lib"
+}
+}
+
+
+if {${::AESL::PGuard_rtl_comp_handler}} {
+	::AP::rtl_comp_handler ${name}
+}
+
+
+set op ddiv
+set corename DDiv
+if {${::AESL::PGuard_autocg_gen} && (${::AESL::PGuard_autocg_fpip} || ${::AESL::PGuard_autocg_fpv6en} || ${::AESL::PGuard_autocg_hpen})} {
+if {[info proc ::AESL_LIB_XILINX_FPV6::fpv6_gen] == "::AESL_LIB_XILINX_FPV6::fpv6_gen"} {
+eval "::AESL_LIB_XILINX_FPV6::fpv6_gen { \
+    id ${id} \
+    name ${name} \
+    corename ${corename} \
+    op ${op} \
+    reset_level 1 \
+    sync_rst true \
+    stage_num ${stage_num} \
+    max_latency ${max_latency} \
+    registered_input ${registered_input} \
+    in0_width ${in0_width} \
+    in0_signed ${in0_signed} \
+    in1_width ${in1_width} \
+    in1_signed ${in1_signed} \
+    out_width ${out_width} \
+}"
+} else {
+puts "@W \[IMPL-101\] Cannot find ::AESL_LIB_XILINX_FPV6::fpv6_gen, check your platform lib"
+}
+}
+
+
+set id 390
 set name astroSim_dsqrt_64ibs
 set corename simcore_dsqrt
 set op dsqrt
@@ -287,7 +354,7 @@ if {${::AESL::PGuard_autoexp_gen}} {
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 544 \
+    id 400 \
     name p_x_0 \
     type other \
     dir I \
@@ -302,7 +369,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 545 \
+    id 401 \
     name p_x_1 \
     type other \
     dir I \
@@ -317,7 +384,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 546 \
+    id 402 \
     name p_y_0 \
     type other \
     dir I \
@@ -332,7 +399,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 547 \
+    id 403 \
     name p_y_1 \
     type other \
     dir I \
@@ -347,7 +414,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 548 \
+    id 404 \
     name p_z_0 \
     type other \
     dir I \
@@ -362,7 +429,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 549 \
+    id 405 \
     name p_z_1 \
     type other \
     dir I \
@@ -377,7 +444,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 550 \
+    id 406 \
     name p_m_1 \
     type other \
     dir I \
@@ -392,7 +459,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 551 \
+    id 407 \
     name p_x_2 \
     type other \
     dir I \
@@ -407,7 +474,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 552 \
+    id 408 \
     name p_y_2 \
     type other \
     dir I \
@@ -422,7 +489,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 553 \
+    id 409 \
     name p_z_2 \
     type other \
     dir I \
@@ -437,7 +504,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 554 \
+    id 410 \
     name p_m_2 \
     type other \
     dir I \
@@ -452,7 +519,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 555 \
+    id 411 \
     name p_x_3 \
     type other \
     dir I \
@@ -467,7 +534,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 556 \
+    id 412 \
     name p_y_3 \
     type other \
     dir I \
@@ -482,7 +549,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 557 \
+    id 413 \
     name p_z_3 \
     type other \
     dir I \
@@ -497,7 +564,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 558 \
+    id 414 \
     name p_m_3 \
     type other \
     dir I \
@@ -512,7 +579,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 559 \
+    id 415 \
     name p_x_4 \
     type other \
     dir I \
@@ -527,7 +594,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 560 \
+    id 416 \
     name p_y_4 \
     type other \
     dir I \
@@ -542,7 +609,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 561 \
+    id 417 \
     name p_z_4 \
     type other \
     dir I \
@@ -557,7 +624,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 562 \
+    id 418 \
     name p_m_4 \
     type other \
     dir I \
@@ -572,7 +639,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 563 \
+    id 419 \
     name p_x_5 \
     type other \
     dir I \
@@ -587,7 +654,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 564 \
+    id 420 \
     name p_y_5 \
     type other \
     dir I \
@@ -602,7 +669,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 565 \
+    id 421 \
     name p_z_5 \
     type other \
     dir I \
@@ -617,7 +684,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 566 \
+    id 422 \
     name p_m_5 \
     type other \
     dir I \
@@ -632,7 +699,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 567 \
+    id 423 \
     name p_x_6 \
     type other \
     dir I \
@@ -647,7 +714,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 568 \
+    id 424 \
     name p_y_6 \
     type other \
     dir I \
@@ -662,7 +729,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 569 \
+    id 425 \
     name p_z_6 \
     type other \
     dir I \
@@ -677,7 +744,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 570 \
+    id 426 \
     name p_x_7 \
     type other \
     dir I \
@@ -692,7 +759,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 571 \
+    id 427 \
     name p_y_7 \
     type other \
     dir I \
@@ -707,7 +774,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 572 \
+    id 428 \
     name p_z_7 \
     type other \
     dir I \
@@ -722,7 +789,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 573 \
+    id 429 \
     name p_x_8 \
     type other \
     dir I \
@@ -737,7 +804,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 574 \
+    id 430 \
     name p_y_8 \
     type other \
     dir I \
@@ -752,7 +819,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 575 \
+    id 431 \
     name p_z_8 \
     type other \
     dir I \
@@ -767,7 +834,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 576 \
+    id 432 \
     name p_ax_0 \
     type other \
     dir O \
@@ -782,7 +849,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 577 \
+    id 433 \
     name p_ay_0 \
     type other \
     dir O \
@@ -797,7 +864,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 578 \
+    id 434 \
     name p_az_0 \
     type other \
     dir O \
@@ -812,7 +879,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 579 \
+    id 435 \
     name p_m_0 \
     type other \
     dir I \
@@ -827,7 +894,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 580 \
+    id 436 \
     name p_ax_1 \
     type other \
     dir O \
@@ -842,7 +909,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 581 \
+    id 437 \
     name p_ay_1 \
     type other \
     dir O \
@@ -857,7 +924,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 582 \
+    id 438 \
     name p_az_1 \
     type other \
     dir O \
@@ -872,7 +939,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 583 \
+    id 439 \
     name p_ax_2 \
     type other \
     dir O \
@@ -887,7 +954,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 584 \
+    id 440 \
     name p_ay_2 \
     type other \
     dir O \
@@ -902,7 +969,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 585 \
+    id 441 \
     name p_az_2 \
     type other \
     dir O \
@@ -917,7 +984,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 586 \
+    id 442 \
     name p_ax_3 \
     type other \
     dir O \
@@ -932,7 +999,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 587 \
+    id 443 \
     name p_ay_3 \
     type other \
     dir O \
@@ -947,7 +1014,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 588 \
+    id 444 \
     name p_az_3 \
     type other \
     dir O \
@@ -962,7 +1029,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 589 \
+    id 445 \
     name p_ax_4 \
     type other \
     dir O \
@@ -977,7 +1044,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 590 \
+    id 446 \
     name p_ay_4 \
     type other \
     dir O \
@@ -992,7 +1059,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 591 \
+    id 447 \
     name p_az_4 \
     type other \
     dir O \
@@ -1007,7 +1074,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 592 \
+    id 448 \
     name p_ax_5 \
     type other \
     dir O \
@@ -1022,7 +1089,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 593 \
+    id 449 \
     name p_ay_5 \
     type other \
     dir O \
@@ -1037,7 +1104,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 594 \
+    id 450 \
     name p_az_5 \
     type other \
     dir O \
@@ -1052,7 +1119,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 595 \
+    id 451 \
     name p_ax_6 \
     type other \
     dir O \
@@ -1067,7 +1134,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 596 \
+    id 452 \
     name p_ay_6 \
     type other \
     dir O \
@@ -1082,7 +1149,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 597 \
+    id 453 \
     name p_az_6 \
     type other \
     dir O \
@@ -1097,7 +1164,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 598 \
+    id 454 \
     name p_ax_7 \
     type other \
     dir O \
@@ -1112,7 +1179,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 599 \
+    id 455 \
     name p_ay_7 \
     type other \
     dir O \
@@ -1127,7 +1194,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 600 \
+    id 456 \
     name p_az_7 \
     type other \
     dir O \
@@ -1142,7 +1209,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 601 \
+    id 457 \
     name p_ax_8 \
     type other \
     dir O \
@@ -1157,7 +1224,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 602 \
+    id 458 \
     name p_ay_8 \
     type other \
     dir O \
@@ -1172,7 +1239,7 @@ eval "cg_default_interface_gen_dc { \
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 603 \
+    id 459 \
     name p_az_8 \
     type other \
     dir O \

@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'gravity'" level="0">
-<item name = "Date">Tue Nov  7 14:40:38 2017
+<item name = "Date">Wed Nov  8 16:07:26 2017
 </item>
 <item name = "Version">2017.1 (Build 1846317 on Fri Apr 14 19:19:38 MDT 2017)</item>
 <item name = "Project">astroSim</item>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="6">, min, max, min, max, Type</keys>
-<column name="">94, 94, 94, 94, none</column>
+<column name="">90, 90, 90, 90, none</column>
 </table>
 </item>
 <item name = "Detail">

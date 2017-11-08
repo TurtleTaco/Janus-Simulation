@@ -6,6 +6,7 @@
 #include <math.h>
 #include <stdint.h>
 #include <string.h>
+#include "ap_fixed.h"
 
 #ifndef TYPES
 #define TYPES

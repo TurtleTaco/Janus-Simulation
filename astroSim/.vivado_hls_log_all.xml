@@ -6,206 +6,205 @@
       <simLog/>
       <mgLog/>
       <packageLog/>
-      <csimLog/>
+      <csimLog>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:40:51.299-0500"/>
+        <logs message="ERROR: [HLS 200-101] Message ID '1-1' value invalid for uint argument.&#xA;&#xA;&#xA;FORMAT&#xA;  ap_puts_err [OPTIONS] [ Message namespace] [ Message ID] [ Message string]&#xA;      &lt;string>&#xA;      &lt;uint>&#xA;      &lt;string>&#xA;&#xA;&#xA;csim.mk:76: recipe for target 'obj/astro_test.o' failed&#xA;make: *** [obj/astro_test.o] Error 1" projectName="astroSim" solutionName="solution1" date="2017-11-08T16:40:51.289-0500"/>
+      </csimLog>
     </logs>
   </errorLogs>
   <warningLogs>
     <logs>
       <synLog>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_az_8' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.935-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_ay_8' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.931-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_ax_8' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.927-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_az_7' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.922-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_ay_7' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.918-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_ax_7' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.912-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_az_6' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.908-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_ay_6' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.903-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_ax_6' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.897-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_az_5' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.893-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_az_5' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.889-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_ay_5' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.885-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_ay_5' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.881-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_ax_5' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.877-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_ax_5' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.873-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_az_4' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.868-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_az_4' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.864-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_ay_4' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.860-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_ay_4' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.856-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_ax_4' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.851-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_ax_4' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.847-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_az_3' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.843-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_az_3' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.837-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_ay_3' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.833-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_ay_3' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.829-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_ax_3' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.825-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_ax_3' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.821-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_az_2' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.818-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_az_2' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.814-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_ay_2' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.810-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_ay_2' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.806-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_ax_2' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.802-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_ax_2' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.798-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_az_1' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.794-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_az_1' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.791-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_ay_1' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.787-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_ay_1' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.783-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_ax_1' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.778-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_ax_1' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.774-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_m_0' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.771-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_m_0' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.767-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_az_0' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.762-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_az_0' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.759-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_ay_0' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.756-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_ay_0' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.752-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_ax_0' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.748-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_ax_0' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.743-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_m_8' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.739-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_m_7' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.736-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_m_6' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.732-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_m_5' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.728-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_m_5' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.724-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_m_4' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.721-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_m_4' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.716-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_m_3' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.712-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_m_3' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.708-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_m_2' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.705-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_m_2' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.701-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_m_1' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.698-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_m_1' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.695-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_vz_5' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.692-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_vz_5' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.689-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_vz_2' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.686-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_vz_2' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.683-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_vz_8' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.679-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_vz_8' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.675-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_vy_5' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.672-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_vy_5' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.669-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_vy_2' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.666-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_vy_2' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.663-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_vy_8' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.659-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_vy_8' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.656-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_vx_5' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.652-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_vx_5' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.649-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_vx_2' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.646-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_vx_2' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.643-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_vx_8' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.640-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_vx_8' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.638-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_z_5' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.635-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_z_5' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.632-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_z_2' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.629-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_z_2' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.626-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_z_8' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.623-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_z_8' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.619-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_y_5' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.615-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_y_5' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.609-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_y_2' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.606-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_y_2' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.603-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_y_8' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.600-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_y_8' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.596-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_x_5' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.593-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_x_5' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.590-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_x_2' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.587-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_x_2' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.584-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_x_8' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.581-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_x_8' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.578-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_vz_4' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.575-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_vz_4' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.571-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_vz_1' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.568-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_vz_1' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.565-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_vz_7' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.562-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_vz_7' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.559-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_vy_4' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.556-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_vy_4' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.551-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_vy_1' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.548-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_vy_1' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.545-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_vy_7' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.543-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_vy_7' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.540-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_vx_4' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.537-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_vx_4' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.534-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_vx_1' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.531-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_vx_1' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.528-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_vx_7' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.525-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_vx_7' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.523-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_z_4' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.521-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_z_4' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.518-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_z_1' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.516-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_z_1' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.513-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_z_7' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.510-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_z_7' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.507-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_y_4' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.505-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_y_4' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.502-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_y_1' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.500-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_y_1' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.497-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_y_7' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.493-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_y_7' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.490-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_x_4' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.487-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_x_4' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.484-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_x_1' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.481-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_x_1' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.479-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_x_7' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.476-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_x_7' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.474-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_vz_3' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.472-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_vz_3' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.469-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_vz_0' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.467-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_vz_0' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.465-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_vz_6' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.463-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_vz_6' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.460-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_vy_3' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.456-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_vy_3' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.454-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_vy_0' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.452-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_vy_0' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.450-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_vy_6' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.448-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_vy_6' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.445-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_vx_3' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.443-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_vx_3' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.438-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_vx_0' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.434-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_vx_0' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.432-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_vx_6' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.429-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_vx_6' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.427-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_z_3' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.425-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_z_3' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.423-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_z_0' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.420-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_z_0' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.419-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_z_6' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.416-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_z_6' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.414-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_y_3' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.412-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_y_3' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.410-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_y_0' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.409-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_y_0' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.407-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_y_6' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.405-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_y_6' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.403-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_x_3' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.401-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_x_3' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.399-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_x_0' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.397-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_x_0' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.395-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_x_6' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.393-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_x_6' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:41:01.390-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_az_8' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:40:59.841-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_ay_8' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:40:59.490-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_ax_8' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:40:59.489-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_az_7' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:40:59.487-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_ay_7' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:40:59.486-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_ax_7' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:40:59.484-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_az_6' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:40:59.482-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_ay_6' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:40:59.480-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_ax_6' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:40:59.478-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] RTL name 'astroSim_mux_164_cud' is changed to 'astroSim_mux_164_cud_x' due to conflict." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:40:58.810-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] RTL name 'astroSim_ddiv_64nbkb' is changed to 'astroSim_ddiv_64nbkb_x' due to conflict." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:40:58.718-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] RTL name 'astroSim_dmul_64ndEe' is changed to 'astroSim_dmul_64ndEe_x' due to conflict." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:40:58.715-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] RTL name 'astroSim_ddiv_64nbkb' is changed to 'astroSim_ddiv_64nbkb_x' due to conflict." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:40:54.654-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] RTL name 'astroSim_dmul_64ndEe' is changed to 'astroSim_dmul_64ndEe_x' due to conflict." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:40:54.650-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_m_8' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:40:54.587-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_m_7' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:40:54.223-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] Register 'p_m_6' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:40:54.221-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] RTL name 'astroSim_mux_164_cud' is changed to 'astroSim_mux_164_cud_x' due to conflict." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:40:53.697-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] RTL name 'astroSim_sitodp_6eOg' is changed to 'astroSim_sitodp_6eOg_x' due to conflict." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:40:53.671-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] RTL name 'astroSim_dmul_64ndEe' is changed to 'astroSim_dmul_64ndEe_x' due to conflict." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:40:53.668-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] RTL name 'astroSim_mux_164_cud' is changed to 'astroSim_mux_164_cud_x' due to conflict." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:40:52.797-0500" type="Warning"/>
-        <logs message="WARNING: [RTGEN 206-101] RTL name 'astroSim_ddiv_64nbkb' is changed to 'astroSim_ddiv_64nbkb_x' due to conflict." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:40:52.675-0500" type="Warning"/>
-        <logs message="WARNING: [SYN 201-103] Legalizing function name '__hls_fptosi_double_' to 'p_hls_fptosi_double_s'." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:40:25.460-0500" type="Warning"/>
-        <logs message="WARNING: [XFORM 203-631] Renaming function '__hls_fptosi_double_i64' (/wrk/2017.1/nightly/2017_04_14_1846317/src/products/hls/hls_lib/src/lib_floatconversion.cpp:48:56) into __hls_fptosi_double_." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:40:23.361-0500" type="Warning"/>
-        <logs message="WARNING: [XFORM 203-561] Updating loop lower bound from 629 to 628 for loop 'LOOP_X' in function 'astroSim'." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:40:19.087-0500" type="Warning"/>
-        <logs message="WARNING: [XFORM 203-561] Updating loop upper bound from 629 to 628 for loop 'LOOP_X' in function 'astroSim'." projectName="astroSim" solutionName="solution1" date="2017-11-07T14:40:19.056-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] RTL name 'astroSim_mux_164_dEe' is changed to 'astroSim_mux_164_dEe_x' due to conflict." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:57.985-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] RTL name 'astroSim_dmul_64nbkb' is changed to 'astroSim_dmul_64nbkb_x' due to conflict." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:55.031-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_az_8' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.828-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_az_8' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.825-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_ay_8' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.821-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_ay_8' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.818-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_ax_8' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.814-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_ax_8' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.811-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_az_7' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.807-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_az_7' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.804-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_ay_7' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.800-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_ay_7' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.797-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_ax_7' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.793-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_ax_7' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.789-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_az_6' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.785-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_az_6' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.782-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_ay_6' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.778-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_ay_6' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.774-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_ax_6' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.771-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_ax_6' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.768-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_az_5' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.764-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_az_5' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.761-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_ay_5' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.758-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_ay_5' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.755-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_ax_5' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.751-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_ax_5' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.748-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_az_4' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.744-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_az_4' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.741-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_ay_4' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.738-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_ay_4' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.734-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_ax_4' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.729-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_ax_4' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.725-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_az_3' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.722-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_az_3' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.719-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_ay_3' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.716-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_ay_3' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.713-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_ax_3' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.710-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_ax_3' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.700-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_az_2' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.697-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_az_2' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.694-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_ay_2' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.691-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_ay_2' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.688-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_ax_2' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.685-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_ax_2' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.682-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_az_1' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.677-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_az_1' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.673-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_ay_1' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.670-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_ay_1' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.667-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_ax_1' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.664-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_ax_1' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.660-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_m_0' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.657-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_m_0' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.654-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_az_0' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.637-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_az_0' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.634-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_ay_0' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.631-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_ay_0' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.628-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_ax_0' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.625-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_ax_0' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.620-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_m_8' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.617-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_m_7' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.614-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_m_6' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.611-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_m_5' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.606-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_m_5' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.602-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_m_4' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.597-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_m_4' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.592-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_m_3' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.588-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_m_3' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.586-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_m_2' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.583-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_m_2' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.580-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_m_1' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.577-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_m_1' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.574-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_x_3' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.572-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_x_3' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.569-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_x_0' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.567-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_x_0' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.564-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_y_3' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.560-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_y_3' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.558-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_y_0' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.555-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_y_0' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.553-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_z_3' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.551-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_z_3' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.548-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_z_0' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.546-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_z_0' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.544-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_vx_3' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.541-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_vx_3' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.539-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_vx_0' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.537-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_vx_0' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.534-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_vy_3' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.532-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_vy_3' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.530-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_vy_0' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.528-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_vy_0' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.526-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_vz_3' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.523-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_vz_3' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.520-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_vz_0' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.518-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_vz_0' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.516-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_x_4' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.514-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_x_4' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.512-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_x_1' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.509-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_x_1' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.507-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_y_4' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.503-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_y_4' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.501-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_y_1' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.498-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_y_1' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.496-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_z_4' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.494-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_z_4' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.492-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_z_1' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.490-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_z_1' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.488-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_vx_4' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.486-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_vx_4' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.485-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_vx_1' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.482-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_vx_1' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.480-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_vy_4' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.478-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_vy_4' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.476-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_vy_1' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.474-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_vy_1' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.472-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_vz_4' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.470-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_vz_4' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.468-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_vz_1' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.465-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_vz_1' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.463-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_x_5' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.462-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_x_5' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.460-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_x_2' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.458-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_x_2' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.456-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_y_5' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.454-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_y_5' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.453-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_y_2' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.451-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_y_2' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.447-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_z_5' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.445-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_z_5' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.444-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_z_2' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.442-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_z_2' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.440-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_vx_5' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.439-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_vx_5' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.437-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_vx_2' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.436-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_vx_2' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.434-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_vy_5' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.433-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_vy_5' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.431-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_vy_2' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.430-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_vy_2' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.428-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_vz_5' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.427-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_vz_5' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.425-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_vz_2' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.424-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_vz_2' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.423-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_vz_8' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.421-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_vz_8' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.420-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_vy_8' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.418-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_vy_8' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.405-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_vx_8' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.403-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_vx_8' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.402-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_z_8' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.401-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_z_8' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.399-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_y_8' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.397-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_y_8' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.395-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_x_8' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.393-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_x_8' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.391-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_vz_7' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.390-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_vz_7' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.388-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_vy_7' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.387-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_vy_7' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.386-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_vx_7' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.384-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_vx_7' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.383-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_z_7' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.382-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_z_7' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.381-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_y_7' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.379-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_y_7' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.378-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_x_7' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.375-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_x_7' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.373-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_vz_6' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.372-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_vz_6' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.370-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_vy_6' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.369-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_vy_6' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.367-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_vx_6' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.366-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_vx_6' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.364-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_z_6' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.363-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_z_6' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.361-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_y_6' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.360-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_y_6' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.358-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Global scalar 'p_x_6' will not be exposed as RTL port." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.357-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_x_6' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:54.354-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] RTL name 'astroSim_dmul_64nbkb' is changed to 'astroSim_dmul_64nbkb_x' due to conflict." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:50.071-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_m_8' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:50.011-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_m_7' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:49.672-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'p_m_6' is power-on initialization." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:49.671-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] RTL name 'astroSim_mux_164_dEe' is changed to 'astroSim_mux_164_dEe_x' due to conflict." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:49.125-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] RTL name 'astroSim_sitodp_6cud' is changed to 'astroSim_sitodp_6cud_x' due to conflict." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:49.109-0500" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] RTL name 'astroSim_dmul_64nbkb' is changed to 'astroSim_dmul_64nbkb_x' due to conflict." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:49.100-0500" type="Warning"/>
+        <logs message="WARNING: [SYN 201-103] Legalizing function name '__hls_fptosi_double_' to 'p_hls_fptosi_double_s'." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:16.530-0500" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-631] Renaming function '__hls_fptosi_double_i64' (/wrk/2017.1/nightly/2017_04_14_1846317/src/products/hls/hls_lib/src/lib_floatconversion.cpp:48:56) into __hls_fptosi_double_." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:12.889-0500" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-542] more than one sub loop." projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:12.578-0500" type="Warning"/>
+        <logs message="WARNING: [XFORM 203-542] Cannot flatten a loop nest 'LOOP_X' (astro.c:173:73) in function 'astroSim' : " projectName="astroSim" solutionName="solution1" date="2017-11-08T16:07:12.250-0500" type="Warning"/>
       </synLog>
       <simLog/>
       <mgLog/>

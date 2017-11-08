@@ -10,7 +10,7 @@ use ieee.std_logic_1164.all;
 
 entity astroSim_dsqrt_64ibs is
     generic (
-        ID         : integer := 534;
+        ID         : integer := 390;
         NUM_STAGE  : integer := 14;
         din0_WIDTH : integer := 64;
         din1_WIDTH : integer := 64;

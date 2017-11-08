@@ -5,8 +5,8 @@
 ############################################################
 open_project astroSim
 set_top astroSim
-add_files astro.c
 add_files astro.h
+add_files astro.c
 add_files -tb astro_test.c
 open_solution "solution1"
 set_part {xczu19eg-ffve1924-3-e-es2} -tool vivado

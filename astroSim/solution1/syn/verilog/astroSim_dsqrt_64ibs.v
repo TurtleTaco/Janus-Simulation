@@ -10,7 +10,7 @@
 
 module astroSim_dsqrt_64ibs
 #(parameter
-    ID         = 534,
+    ID         = 390,
     NUM_STAGE  = 14,
     din0_WIDTH = 64,
     din1_WIDTH = 64,

@@ -4,7 +4,9 @@
 #define CONST
 // Scale for conversion between FP and INT
 const double scale_vel  = 1e-16;
+const double inv_scale_vel = 1e+16;
 const double scale_pos  = 1e-16;
+const double inv_scale_pos = 1e+16;
 const unsigned int N = 9;
 struct reb_particle p[9] = {
 	    {
@@ -56,26 +58,35 @@ struct reb_particle p[9] = {
 #endif
 
 static void to_int(struct reb_particle_int* p_int){
+#pragma HLS inline
     for(unsigned int i=0; i<N; i++){
 #pragma HLS unroll factor=3
-        p_int[i].x = p[i].x/scale_pos;
-        p_int[i].y = p[i].y/scale_pos;
-        p_int[i].z = p[i].z/scale_pos;
-        p_int[i].vx = p[i].vx/scale_vel;
-        p_int[i].vy = p[i].vy/scale_vel;
-        p_int[i].vz = p[i].vz/scale_vel;
+        p_int[i].x = p[i].x*inv_scale_pos;
+        p_int[i].y = p[i].y*inv_scale_pos;
+        p_int[i].z = p[i].z*inv_scale_pos;
+        p_int[i].vx = p[i].vx*inv_scale_vel;
+        p_int[i].vy = p[i].vy*inv_scale_vel;
+        p_int[i].vz = p[i].vz*inv_scale_vel;
     }
 }
 static void to_double(struct reb_particle_int* p_int){
     for(unsigned int i=0; i<N; i++){
 #pragma HLS unroll factor=3
 #pragma HLS PIPELINE
-        p[i].x = ((double)p_int[i].x)*scale_pos;
-        p[i].y = ((double)p_int[i].y)*scale_pos;
-        p[i].z = ((double)p_int[i].z)*scale_pos;
-        p[i].vx = ((double)p_int[i].vx)*scale_vel;
-        p[i].vy = ((double)p_int[i].vy)*scale_vel;
-        p[i].vz = ((double)p_int[i].vz)*scale_vel;
+//        p[i].x = ((double)p_int[i].x)*scale_pos;
+//        p[i].y = ((double)p_int[i].y)*scale_pos;
+//        p[i].z = ((double)p_int[i].z)*scale_pos;
+//        p[i].vx = ((double)p_int[i].vx)*scale_vel;
+//        p[i].vy = ((double)p_int[i].vy)*scale_vel;
+//        p[i].vz = ((double)p_int[i].vz)*scale_vel;
+
+        //removing (double) does not affect precision, but does not improve performance neither
+        p[i].x = p_int[i].x*scale_pos;
+        p[i].y = p_int[i].y*scale_pos;
+        p[i].z = p_int[i].z*scale_pos;
+        p[i].vx = p_int[i].vx*scale_vel;
+        p[i].vy = p_int[i].vy*scale_vel;
+        p[i].vz = p_int[i].vz*scale_vel;
     }
 }
 
@@ -83,19 +94,25 @@ static void drift(struct reb_particle_int* p_int, double dt){
     for(unsigned int i=0; i<N; i++){
 #pragma HLS unroll factor=3
 #pragma HLS PIPELINE
-        p_int[i].x += (REB_PARTICLE_INT_TYPE)(dt/2.*(double)p_int[i].vx*scale_vel/scale_pos);
-        p_int[i].y += (REB_PARTICLE_INT_TYPE)(dt/2.*(double)p_int[i].vy*scale_vel/scale_pos);
-        p_int[i].z += (REB_PARTICLE_INT_TYPE)(dt/2.*(double)p_int[i].vz*scale_vel/scale_pos);
+//        p_int[i].x += (REB_PARTICLE_INT_TYPE)(dt/2.*(double)p_int[i].vx*scale_vel/scale_pos);
+//        p_int[i].y += (REB_PARTICLE_INT_TYPE)(dt/2.*(double)p_int[i].vy*scale_vel/scale_pos);
+//        p_int[i].z += (REB_PARTICLE_INT_TYPE)(dt/2.*(double)p_int[i].vz*scale_vel/scale_pos);
+    	  // optimize based on scale_pos == scale_vel
+    	  // replacing dt/2 with 0.005 does not affect performance
+    	  p_int[i].x += (REB_PARTICLE_INT_TYPE)(0.005*p_int[i].vx);
+    	  p_int[i].y += (REB_PARTICLE_INT_TYPE)(0.005*p_int[i].vy);
+    	  p_int[i].z += (REB_PARTICLE_INT_TYPE)(0.005*p_int[i].vz);
     }
 }
 
 static void kick(struct reb_particle_int* p_int, double dt){
+#pragma HLS inline
     for(unsigned int i=0; i<N; i++){
 #pragma HLS unroll factor=3
 #pragma HLS PIPELINE
-        p_int[i].vx += (REB_PARTICLE_INT_TYPE)(dt*p[i].ax/scale_vel);
-        p_int[i].vy += (REB_PARTICLE_INT_TYPE)(dt*p[i].ay/scale_vel);
-        p_int[i].vz += (REB_PARTICLE_INT_TYPE)(dt*p[i].az/scale_vel);
+        p_int[i].vx += (REB_PARTICLE_INT_TYPE)(dt*p[i].ax*inv_scale_vel);
+        p_int[i].vy += (REB_PARTICLE_INT_TYPE)(dt*p[i].ay*inv_scale_vel);
+        p_int[i].vz += (REB_PARTICLE_INT_TYPE)(dt*p[i].az*inv_scale_vel);
     }
 }
 
@@ -113,8 +130,9 @@ static void gravity(){
                 const double dx = p[i].x - p[j].x;
                 const double dy = p[i].y - p[j].y;
                 const double dz = p[i].z - p[j].z;
-                const double _r = sqrt(dx*dx + dy*dy + dz*dz);
-                const double prefact = -1/(_r*_r*_r)*p[j].m;
+                const double pre_sqrt = dx*dx + dy*dy + dz*dz;
+                const double _r = sqrt(pre_sqrt);
+                const double prefact = -1/(pre_sqrt*_r)*p[j].m;
 
                 p[i].ax += prefact*dx;
                 p[i].ay += prefact*dy;
@@ -125,6 +143,7 @@ static void gravity(){
 }
 
 void janus_step(struct reb_particle_int* p_int, double dt){
+#pragma HLS inline
     // One leapfrog step
     drift(p_int, dt);
 
@@ -152,7 +171,7 @@ void astroSim(struct reb_particle* result){
     to_int(p_int);
 
     LOOP_X:for (t = 0; t < 2.*M_PI*1e3; t++){
-//#pragma HLS PIPELINE
+//#pragma HLS PIPELINE II=258
 #pragma HLS unroll factor=10
             janus_step(p_int, dt);
     	}

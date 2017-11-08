@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'astroSim'" level="0">
-<item name = "Date">Tue Nov  7 14:40:47 2017
+<item name = "Date">Wed Nov  8 16:07:40 2017
 </item>
 <item name = "Version">2017.1 (Build 1846317 on Fri Apr 14 19:19:38 MDT 2017)</item>
 <item name = "Project">astroSim</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">10.00, 9.50, 1.25</column>
+<column name="ap_clk">10.00, 9.46, 1.25</column>
 </table>
 </item>
 </section>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="6">, min, max, min, max, Type</keys>
-<column name="">1369116, 1369116, 1369117, 1369117, none</column>
+<column name="">939197, 939197, 939198, 939198, none</column>
 </table>
 </item>
 <item name = "Detail">
@@ -35,7 +35,18 @@
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
-<column name="- LOOP_X">1369047, 1369047, 2180, -, -, 628, no</column>
+<column name="- Loop 1">18, 18, 6, -, -, 3, no</column>
+<column name="- LOOP_X">939165, 939165, 1493, -, -, 629, no</column>
+<column name=" + LOOP_X.1">12, 12, 10, 1, 1, 3, yes</column>
+<column name=" + LOOP_X.2">12, 12, 10, 1, 1, 3, yes</column>
+<column name=" + LOOP_X.3">12, 12, 10, 1, 1, 3, yes</column>
+<column name=" + LOOP_X.4">12, 12, 10, 1, 1, 3, yes</column>
+<column name=" + LOOP_X.5">12, 12, 10, 1, 1, 3, yes</column>
+<column name=" + LOOP_X.6">12, 12, 10, 1, 1, 3, yes</column>
+<column name=" + LOOP_X.7">12, 12, 10, 1, 1, 3, yes</column>
+<column name=" + LOOP_X.8">12, 12, 10, 1, 1, 3, yes</column>
+<column name=" + LOOP_X.9">12, 12, 10, 1, 1, 3, yes</column>
+<column name=" + LOOP_X.10">12, 12, 10, 1, 1, 3, yes</column>
 <column name="- memcpy.result.m.">6, 6, 2, 1, 1, 6, yes</column>
 </table>
 </item>

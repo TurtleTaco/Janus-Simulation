@@ -1,29 +1,45 @@
 INFO: [SIM 2] *************** CSIM start ***************
 INFO: [SIM 4] CSIM will launch GCC as the compiler.
-   Compiling(apcc) ../../../../astro.c in debug mode
+   Compiling(apcc) ../../../../astro_test.c in debug mode
 INFO: [HLS 200-10] Running '/home/linsun/Xilinx/Vivado_HLS/2017.1/bin/unwrapped/lnx64.o/apcc'
-INFO: [HLS 200-10] For user 'linsun' on host 'PC' (Linux_x86_64 version 4.4.0-97-generic) on Tue Nov 07 14:39:40 EST 2017
+INFO: [HLS 200-10] For user 'linsun' on host 'PC' (Linux_x86_64 version 4.4.0-98-generic) on Wed Nov 08 16:40:51 EST 2017
 INFO: [HLS 200-10] On os Ubuntu 16.04.3 LTS
 INFO: [HLS 200-10] In directory '/home/linsun/XilinxLab/astro/astroSim/solution1/csim/build'
-../../../../astro.c:132:14: warning: too many arguments in call to 'gravity'
-    gravity(p);
-    ~~~~~~~  ^
-1 warning generated.
-../../../../astro.c:132:14: warning: too many arguments in call to 'gravity'
-    gravity(p);
-    ~~~~~~~  ^
-1 warning generated.
-INFO: [APCC 202-3] Tmp directory is /tmp/apcc_db_linsun/271491510083581016919
-INFO: [APCC 202-1] APCC is done.
-   Generating csim.exe
-6.175573e-04, -3.624142e-03
-1.161526e-01, 2.812295e-01
--9.776683e-02, -7.234537e-01
-8.253466e-01, 5.508274e-01
-2.546414e-02, -1.456450e+00
--5.137464e+00, 1.690271e+00
-8.480965e+00, 3.837737e+00
-7.522079e+00, 1.784565e+01
-2.974610e+01, 2.610280e+00
-INFO: [SIM 1] CSim done with 0 errors.
+In file included from ../../../../astro_test.c:1:
+In file included from ../../../../astro.h:9:
+In file included from /home/linsun/Xilinx/Vivado_HLS/2017.1/common/technology/autopilot/ap_fixed.h:1:
+/home/linsun/Xilinx/Vivado_HLS/2017.1/common/technology/autopilot/ap_int.h:56:2: error: C++ is required to include this header file
+#error C++ is required to include this header file
+ ^
+In file included from ../../../../astro_test.c:1:
+../../../../astro.h:17:9: error: unknown type name 'ap_fixed'
+typedef ap_fixed<18,1> fx_coef_t;
+        ^
+../../../../astro.h:17:17: error: expected identifier or '('
+typedef ap_fixed<18,1> fx_coef_t;
+                ^
+../../../../astro.h:18:9: error: unknown type name 'ap_fixed'
+typedef ap_fixed<27,15> fx_data_t;
+        ^
+../../../../astro.h:18:17: error: expected identifier or '('
+typedef ap_fixed<27,15> fx_data_t;
+                ^
+../../../../astro.h:19:9: error: unknown type name 'ap_fixed'
+typedef ap_fixed<48,19> fx_acc_t;
+        ^
+../../../../astro.h:19:17: error: expected identifier or '('
+typedef ap_fixed<48,19> fx_acc_t;
+                ^
+7 errors generated.
+ERROR: [HLS 200-101] Message ID '1-1' value invalid for uint argument.
+
+FORMAT
+  ap_puts_err [OPTIONS] [ Message namespace] [ Message ID] [ Message string]
+      <string>
+      <uint>
+      <string>
+
+csim.mk:76: recipe for target 'obj/astro_test.o' failed
+make: *** [obj/astro_test.o] Error 1
+CRITICAL WARNING: [SIM 100] 'csim_design' failed: compilation error(s).
 INFO: [SIM 3] *************** CSIM finish ***************
